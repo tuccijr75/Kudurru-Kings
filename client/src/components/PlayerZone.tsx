@@ -2,16 +2,24 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Crown, User } from "lucide-react";
 import { ResourcePool } from "./ResourcePool";
-import { GameCard } from "./GameCard";
-import type { Player } from "@shared/schema";
+import { EnhancedGameCard } from "./EnhancedGameCard";
+import type { Player, Card as CardType } from "@shared/schema";
 
 interface PlayerZoneProps {
   player: Player;
   compact?: boolean;
   onResourceChange?: (type: "sinew" | "sigil" | "oath", value: number) => void;
+  onBattlefieldCardClick?: (card: CardType) => void;
+  selectedIds?: string[];
 }
 
-export function PlayerZone({ player, compact = false, onResourceChange }: PlayerZoneProps) {
+export function PlayerZone({ 
+  player, 
+  compact = false, 
+  onResourceChange,
+  onBattlefieldCardClick,
+  selectedIds = []
+}: PlayerZoneProps) {
   const positionStyles = {
     top: "items-center",
     right: "items-end",
@@ -66,11 +74,23 @@ export function PlayerZone({ player, compact = false, onResourceChange }: Player
         )}
       </Card>
 
-      {!compact && player.battlefield.length > 0 && (
+      {player.battlefield.length > 0 && (
         <div className="flex gap-2 flex-wrap max-w-md">
-          {player.battlefield.slice(0, 3).map((card) => (
-            <GameCard key={card.id} card={card} size="small" />
+          {player.battlefield.slice(0, 6).map((card) => (
+            <div 
+              key={card.id}
+              onClick={() => onBattlefieldCardClick?.(card)}
+              className={`cursor-pointer ${selectedIds.includes(card.id) ? 'ring-2 ring-primary' : ''}`}
+            >
+              <EnhancedGameCard 
+                card={card} 
+                size={compact ? "tiny" : "small"} 
+              />
+            </div>
           ))}
+          {player.battlefield.length > 6 && (
+            <Badge variant="secondary">+{player.battlefield.length - 6} more</Badge>
+          )}
         </div>
       )}
 

@@ -1,0 +1,849 @@
+HEROES
+Adamu: Dark-haired, olive-to-bronze skin, modest height, simple reed, wool, or bronze-trimmed garments.
+Rook: Lean build, dark hair, ritual scars along arms, simple linen and bronze.
+Nammu: Tall, water-blue skin, reflective eyes, robes woven with reeds.
+Ashur: Massive, tar-blackened skin with ember cracks, heavy lantern-club weapon.
+Zaleth: Halo above head, radiant skin, gilded robes.
+Irik: Broad, glyph-inscribed stone skin, heavy plate.
+Tammuz: Jewel-inlaid skin, crystalline eyes, ornate robes.
+Etana: Tall, scar-carved skin glowing with light, tower shield and scar-etched sword.
+Iltu: Translucent skin, shifting colors, dual daggers, cloak shimmering like glass.
+Urid: Lean, reed-marked body, river-braided hair, reed-woven cloak.
+Namtar: Glass-thread veins glowing beneath skin, broad, with shard-greatsword.
+Zari: Pale, silt-dusted skin, echoing voice, flowing robes.
+Maskat: Tall, masked, faceless, plate armor.
+Eresh: Towering, obsidian skin, cuneiform armor, glowing runed wings.
+Shulgi: Radiant halo fused with tribunal mask, heavy armored body.
+
+GRUNTS
+Whipbearer: Lean enforcers with scarred backs, wielding barbed whips.
+Spear Watch: Bronze-armored footmen with long spears.
+Bronze Shield: Tower shield carriers, masks hide scarred faces.
+Tax Enforcer: Fat, jewel-laden men clutching ledgers and maces.
+Chain Keeper: Muscled overseer with hooks and chains.
+Pit Houndmaster: Scarred veteran with muzzled jackals.
+Ash Novice: Skin blackened with ash tattoos.
+Blood Acolyte: Bloodstained robes, ritual knives.
+Chanter Priest: Hooded, mouths stitched, chanting low.
+Knife Zealot: Wide-eyed, wild, dual knives.
+Desert Jackal: Rag-wrapped raider, jackal skull mask.
+River Raider: Reed-armor, water-stained weapons.
+Marsh Cutthroat: Reed-wrapped assassins with frog tattoos.
+Ash Rider: Desert nomad on a skeletal hyena.
+Canal Thief: Ragged thief with reed mask.
+Bone Jackal: Skeletal jackal bound with sinew.
+Reed Serpent: Long green snake camouflaged in reeds.
+Ash Scorpion: Blackened scorpion, carapace glowing.
+Sand Hyena: Mangy, desert-burned hyena with glowing eyes.
+Bog Crocodile: Massive croc with reed armor.
+Mud Rat: Giant sludge rat.
+Sewer Leech: Massive bloated leech.
+Corpse Beetle: Swarms of black beetles.
+Glass Mite: Tiny crystalline mites.
+Pit Ghoul: Half-starved humanoid feeding on corpses.
+Lash Captain: Overseer in bronze mask, wielding twin whips.
+Pike Slave: Shackled warrior forced to carry long pike.
+Shield Twins: Pair of fighters sharing a massive wooden shield.
+Whip Sergeant: Veteran with scarred arms, bronze whip.
+Slave Hunter: Tracker with hounds on leashes, bone talismans.
+Dog Breaker: Brutal overseer wielding iron cudgel.
+Ledger Bearer: Corpulent overseer with chained ledger.
+Pit Jailer: Hooded figure with ring of keys.
+Fire Ashling: Cloaked in ash fire robes.
+Bone Eater: Gaunt figure gnawing bones.
+Crimson Youth: Painted in blood-red clay.
+Chant Twins: Two initiates bound together, chanting in unison.
+Idol Servant: Bare-chested acolyte chained to idol fragments.
+Hill Raider: Leather-clad, mountain tattoos.
+Oasis Thief: Wears water skins, blue scarf.
+Caravan Breaker: Heavily armed, desert cloak.
+Dust Rider: Mounted on skeletal horse.
+Night Prowler: Dark garb, glowing yellow eyes.
+Desert Vulture: Giant carrion bird.
+Marsh Toad: Bloated, warty giant toad.
+Fire Beetle: Beetle with glowing ember shell.
+Ash Rat: Rat with glowing red eyes.
+Sand Wormling: Small dune-burrowing worm.
+Plague Bat: Diseased winged bat.
+Slime Lizard: Slick, glowing amphibian.
+Rust Mite: Metallic-eating insect swarm.
+Tunnel Spider: Hairy cave spider.
+Shadow Eel: Black eel with glowing eyes.
+Sludge Slime: Amorphous green ooze.
+Filth King: Massive rat swarm bound together.
+Rust Slug: Iron-shelled slug.
+Canal Lamprey: Lamprey with barbed maw.
+Bone Centipede: White segmented beast with bone plates.
+Fungus Creeper: Humanoid fungus growth.
+Cistern Horror: Gigantic slime amalgamation.
+Iron Lash: Muscular captain clad in bronze scale, wielding spiked whip.
+Bronze Spear: Veteran soldier, ornate bronze spear tipped with obsidian.
+Gold Captain: Bronze armor with gilded mask, whip and short sword.
+Ash Priest: Tall robes, ash-streaked face paint.
+Blood Evoker: Gaunt priest with bleeding hands.
+Hymncaller Priest: Chanting priestess with bone chimes.
+River Wolf: Painted in blue tattoos, wolf pelt cloak.
+Desert Hawk: Bronze-feather cloak, hawk mask.
+Marsh Stalker: Reed armor, body smeared with swamp mud.
+Jackal Alpha: Oversized jackal with scarred muzzle.
+Serpent Queen: Massive reed serpent crowned with bone frill.
+Scorpion King: Huge black scorpion with molten veins.
+Hyena Matron: Enormous matriarch hyena.
+Ink Tongue: Mouth stained black with cursed ink.
+Dust Librarian: Hooded scribe with sand-dusted scrolls.
+Cuneiform Shade: Shadowy form covered in glowing glyphs.
+Bronze Automaton: Clunky humanoid frame of bronze gears.
+Chain Thrower: Siege operator with twin hook launchers.
+Siege Ox: Armored oxen bred for war.
+Fire Bearer: Slave-soldier carrying pots of burning oil.
+Obsidian Helm: Dark helmet forged of obsidian, ornate crimson cloak.
+Chain Marshal: Overseer in blackened bronze, chains wrapped as armor.
+Ash Oracle: Hooded figure, face obscured by burning ash veil.
+Blood Prophet: Emaciated, red tattoos across chest.
+Bone Choir: Trio of skeletal singers bound together.
+Hill Ram: Mountain champion with ram horns and stone hammer.
+Desert Viper: Painted in green sands, snake totems.
+River Titan: Massive warrior with fishbone armor.
+Crocodile Warlord: Oversized armored crocodile.
+Vulture Queen: Enormous carrion bird with bone crown.
+Frog Mother: Towering amphibian with glowing throat sac.
+Desert Boar: Tusks of obsidian, armor of sandstone.
+Tablet Binder: Emaciated scholar fused to clay tablet.
+Sand Archivist: Cloaked, carrying sand-filled scrolls.
+Word Eater: Hollow-mouthed figure with glowing runes.
+Iron Juggernaut: Enormous construct of iron plates.
+Fire Ram: Wooden ram wrapped in burning oil.
+Bone Chariot: Chariot built from bones, pulled by skeletal oxen.
+Siege Idol: Massive idol animated by cult.
+Oil Hydra: Multi-headed automaton spewing burning oil.
+Oath Singer: Robed figure with scrolls bound to arms.
+Tax Shade: Phantom draped in tattered robes, clutching tablets.
+Ash Binder: Thin figure coated in grey ash.
+Mirror Reed: Shimmering reed armor, reflective water mask.
+Sand Mirage: Cloaked desert nomad with glowing eyes.
+Echo Voice: Mouth painted black, surrounded by whispers.
+Scorpion Alchemist: Hooded with vials, scorpion tattoo on face.
+Reed Brewmaster: Reed-wrapped figure with gourds.
+Toxin Whisperer: Thin robed figure with green smoke trailing mouth.
+Bone Caller: Wears necklace of skulls.
+Idol Chanter: Chained to idol fragments.
+Blood Keeper: Figure covered in red runes, clay tablets strapped to chest.
+Trap Setter: Ragged worker with rope and spikes.
+Fire Sapper: Blackened armor, oil canisters on belt.
+Collapse Worker: Covered in dust, carrying chisels.
+Plague Drummer: Carries bone drums, pustules covering skin.
+Ember Masker: Wears mask of burning ember wood.
+Soul Drinker: Hollow-eyed cultist with black smoke rising.
+Glass Weaver: Shards embedded in flesh.
+Tomb Scrivener: Scribe chained to gravestones.
+Shadow Binder: Dark robes, shadow tendrils sprouting.
+Idol Puppeteer: Masked figure with strings of bone.
+Sand Oracle: Cloaked desert mystic with sand swirling around.
+Blood Plucker: Cloaked with sharp talons.
+Furnace Caller: Cloaked cultist glowing red from within.
+Golden Whip: Overseer clad in gilded armor, wielding massive golden whip.
+High Priest: Towering figure in red-ash robes, mask of charred bone.
+River Warlord: Armored raider leader, reed-boat fleet commander.
+Scorpion Queen: Colossal scorpion with glowing molten carapace.
+Sand Golem: Humanoid colossus of shifting sand and stone.
+Idol Shade: Tall ghost bound to broken idol fragments.
+Reed Leviathan: Massive serpent dwelling in marsh canals.
+Oathkeeper Ghost: Spirit judge wrapped in glowing Kudran glyphs.
+Bronze Colossus: Towering bronze automaton with war axe.
+Marsh Phantom: Pale wraith drifting in swamp fog.
+Fire Jackal: Oversized jackal glowing with molten veins.
+Drowned Archivist: Scribe drowned and reanimated, scrolls dripping water.
+Obsidian Lion: Giant lion carved of black stone, animated with fire.
+Taxlord Balash: Bloated overseer in golden robes, mace and ledger.
+Pit Champion: Massive gladiator scarred from decades in pits.
+Masked King: Human warlord draped in ceremonial robes, golden mask concealing his scarred face.
+Abyssal Archivist: Gaunt figure cloaked in scrolls, flesh merging with ink and waterlogged parchment.
+Vowbinder Judge: Spectral judge draped in glyph chains, half-human, half-wraith.
+Bone Queen: Monstrous scorpion with skeletal carapace, shrine markings carved into her chitin.
+False Prophet: Pale cult leader shrouded in burning red robes, staff tipped with ash crystal.
+Enlil Vessel: Towering figure clad in blackened gold, humanoid frame fused with cuneiform-marked stone.
+Chain Warden: Hulking figure in tarnished lunar bronze, dragging chains.
+Lash Overseer: Scarred taskmaster wielding lunar whip.
+Bronze Gaoler: Tower shield and mace, heavy bronze armor.
+Shacklebearer Guard: Emaciated figure carrying manacles.
+Pit Guard: Broad-shouldered guard with spiked helmet.
+Ironbound Horror: Shackled beast with iron plates fused to flesh.
+Screamer Wraith: Ghostly prisoner screaming endlessly.
+Bone Gnawer: Emaciated humanoid gnawing bones.
+Shackled Ghoul: Pale-skinned, bound in eternal chains.
+Howling Fiend: Bestial prisoner with muzzle broken open.
+Moon Acolyte: Pale robed initiate, crescent brand on forehead.
+Eclipse Chanter: Hooded priest with eclipse sigil.
+Shadow Knifebearer: Assassin garbed in black cloth, twin crescent blades.
+Pale Prophet: Blindfolded priestess, eyes glowing beneath cloth.
+Void Hymnist: Emaciated singer with throat tattooed in runes.
+Moonfang Wolf: Large wolf with pale fur glowing faintly silver.
+Pale Stalker: Emaciated beast with elongated limbs, pale hide.
+Shardback Boar: Boar with crystalline spines jutting from back.
+Dusk Serpent: Black-scaled serpent with glowing underbelly.
+Chittering Bat: Colony of pale bats swarming from caverns.
+Crater Rat: Oversized rat with glowing red eyes.
+Ash Beetle: Beetle with ash-colored carapace.
+Hollow Tick: Bloated tick filled with pale fluid.
+Fungus Mite: Tiny glowing mites crawling in groups.
+Crystal Louse: Insect with crystalline shell.
+Shackled Wraith: Ghostly prisoner dragging chains.
+Lantern Shade: Shadowy figure carrying a flickering lantern.
+Pale Ghast: Hollow-eyed humanoid glowing faintly.
+Bonebound Spirit: Spirit fused with skeletal remains.
+Eclipse Revenant: Tall spectral warrior, eclipse carved on helm.
+Pit Fighter: Scarred slave clad in scraps, wielding spiked club.
+Arena Brute: Massive gladiator with iron chains around fists.
+Blood Duelist: Agile fighter, red-stained blades.
+Masked Slayer: Gladiator with crescent mask and twin axes.
+Slave Champion: Gladiator wielding chained sickles.
+Tunnel Crawler: Pale humanoid with claws adapted for rock.
+Crater Lurker: Hulking brute with crater-stone armor.
+Blind Crawler: Faceless humanoid, elongated claws.
+Spore Drudge: Slave infected with glowing fungi.
+Rockgnasher Beast: Beast with stony hide and crystalline teeth.
+Silver Rat: Rat with shimmering silver fur.
+Glow Beetle: Luminescent beetle glowing blue.
+Crystal Wasp: Wasp with crystal stinger.
+Ash Spiderling: Small spider covered in lunar ash.
+Void Leech: Black wormlike leech with glowing core.
+Bronze Sentinel: Automaton of bronze gears, crescent shield.
+Moon Idol: Statue of crescent moon, animated with runes.
+Chain Automaton: Construct covered in rattling chains.
+Eclipse Drone: Small flying orb glowing with eclipse runes.
+Void Obelisk: Shard of a fallen obelisk animated by void.
+Rune Husk: Corpse branded with cracked glyphs, glowing faintly.
+Oath Spawn: Mutated being covered in vow-scars.
+Halo Spawn: Twisted humanoid crowned with broken halo.
+Ash Horror: Body of ash and smoke, burning eyes.
+Void Thrall: Hollow figure radiating void flame.
+Broken Scribe: Scribe with cracked slate body.
+Fallen Priest: Priest with broken staff, robes torn.
+Exiled Gladiator: Scarred fighter in broken armor.
+Chain Drudge: Shackled slave covered in wounds.
+Ash Servitor: Cloaked in ash veil, broken censer.
+Gold Spider: Spider with golden carapace.
+Rune Centipede: Long centipede glowing with glyphs.
+Ash Locust: Swarm insect glowing with embers.
+Void Leech: Wormlike parasite glowing black.
+Crystal Gnat: Tiny insect with crystal wings.
+Glyph Ghoul: Corpse covered in glowing runes.
+Ash Phantom: Knight glowing with burning ash aura.
+Halo Husk: Broken warrior crowned with false halo.
+Void Horror: Amorphous being of black fire.
+Rune Horror: Monstrous figure carved with glowing glyphs.
+MARS BESTIARY
+Red Lash: Bronze-skinned slaver with crimson whip.
+Sand Pike: Spearman in ochre armor, desert-worn.
+Chain Driver: Enforcer dragging spiked chains.
+Bronze Overseer: Bulky taskmaster clad in bronze.
+Crimson Guard: Red-plated guard with tower shield.
+Sand Raider: Ragged bandit with curved scimitar.
+Dune Rider: Raider mounted on reptilian beast.
+Ash Nomad: Cloaked in ash robes, wielding daggers.
+Blood Dervish: Warrior spinning dual blades, crimson tattoos.
+Carrion Jackal: Beast-rider cloaked in bones.
+Pit Thrall: Emaciated fighter in shackles.
+Arena Brute: Gladiator scarred and chained, wielding club.
+Masked Gladiator: Fighter wearing bone mask.
+Blood Slave: Covered in red tattoos, blood dripping.
+Chain Duelist: Gladiator wielding chained sickles.
+Red Jackal: Desert jackal with crimson fur.
+Scaled Vulture: Vulture with scale-covered wings.
+Ash Scorpion: Blackened scorpion glowing red.
+Sand Basilisk: Lizard with golden scales.
+Dune Hyena: Mangy hyena with glowing eyes.
+Red Rat: Rat with crimson fur, glowing eyes.
+Ash Beetle: Ash-colored beetle, glowing underbelly.
+Bone Tick: Bloated tick with bone armor.
+Dust Spider: Large spider covered in dust.
+Carrion Bat: Bat with torn wings, feeding on corpses.
+Canyon Lurker: Humanoid with rocky skin, camouflaged against cliffs.
+Cliff Raider: Raider with grappling hooks.
+Dust Crawler: Pale crawler adapted to desert floors.
+Rock Breaker: Miner-slave wielding pickaxe.
+Ash Ghoul: Charred corpse with glowing eyes.
+Bone Gnawer: Emaciated humanoid gnawing bones.
+Dust Phantom: Spirit wrapped in swirling dust.
+Red Shade: Crimson wraith glowing faintly.
+Ash Wight: Pale corpse cloaked in ash.
+Carrion Stalker: Humanoid feeding on corpses, glowing red eyes.
+Broken Gladiator: Scarred, limping fighter.
+Maskless Fighter: Arena fighter without mask, scarred face.
+Ash Duelist: Fighter coated in ash tattoos.
+Bone Pit: Shackled slave wielding bone weapon.
+Crimson Gladiator: Red-clad gladiator with ornate blades.
+Sand Scuttler: Crablike insect burrowing under dunes.
+Glass Lizard: Lizard with glassy transparent skin.
+Red Scarab: Beetle with crimson carapace.
+Ash Spider: Large spider covered in ashes.
+Dust Centipede: Long centipede armored with dust plates.
+Bronze Pitlord: Gladiator captain clad in bronze plates.
+Crimson Duelmaster: Elegant fighter in red armor, twin swords.
+Chain Warlord: Bulky gladiator with massive hooked chains.
+Masked Champion: Fighter with ornate golden mask.
+Ash Gladiator: Covered in burning ash armor.
+Ash Priest: Tall priest with ash veil.
+Blood Oracle: Oracle with blood-soaked staff.
+Ember Prophet: Robed in red firecloth.
+Ash Binder: Cloaked in ash chains.
+Crimson Prophetess: Woman in crimson robes, crescent staff.
+Dune Chieftain: Raider chief with golden spear.
+Canyon King: Heavily armed warlord with jagged axe.
+Bone Lord: Raider cloaked in bones, spiked spear.
+Ash Chieftain: Nomad leader with flaming scimitars.
+Sandstorm Khan: Warlord with flowing robes, staff of wind.
+Ash Revenant: Warrior cloaked in burning ash.
+Bone Colossus: Giant humanoid made of bone.
+Dust Wraith: Spirit shrouded in dust storm.
+Crimson Horror: Monstrous humanoid dripping blood.
+Ash Titan: Colossal humanoid of burning ash and stone.
+Ash High: Towering priest cloaked in ash robes, censer blazing.
+Blood Matron: Elder woman cloaked in crimson, ritual knife.
+Ember Lord: Red-armored prophet, flame sword.
+Chain Hierophant: Priest covered in glowing chains.
+Crimson Pontiff: Regal cult leader in red, silver crown.
+Pit King: Gladiator king with gold armor, bone crown.
+Masked Warlord: Champion with gilded mask, twin axes.
+Crimson Champion: Fighter drenched in blood, serrated sword.
+Bone Gladiator: Gladiator armored in bones.
+Arena Juggernaut: Enormous gladiator with chained hammer.
+Ash Demon: Demon of ash and fire, horned skull.
+Bone Horror: Twisted skeleton mass.
+Crimson Abomination: Flesh beast dripping crimson ichor.
+Dust Titan: Colossal creature of dust and stone.
+Ash Leviathan: Serpentine beast of burning ash.
+Red Khan: Warlord clad in red armor, massive axe.
+Bone Chieftain: Tribal leader wearing skull mask.
+Canyon Lord: Raider general, golden spear.
+Sandstorm Prophet: Robed warlord with wind staff.
+Crimson Khan: Regal warlord clad in crimson silk, jeweled sword.
+Glyph Servant: Humanoid body covered in glowing cuneiform glyphs.
+Temple Thrall: Hooded humanoid with bronze chains.
+Oath Servitor: Thin creature branded with oaths across skin.
+Lattice Guard: Armored being with crystal lattice skin.
+Halo Servant: Radiant figure crowned in false halos.
+Obsidian Hound: Dog forged of volcanic glass.
+Cinder Jackal: Fiery jackal with ember eyes.
+Void Hyena: Twisted hyena with black flames.
+Golden Vulture: Bird with radiant gold feathers.
+Crystal Basilisk: Lizard of prism scales.
+Oath Ghoul: Corpse covered in branded runes.
+Chain Wraith: Spirit dragging endless chains.
+Glyph Shade: Spirit inscribed with glowing cuneiform.
+Ash Phantom: Black spirit cloaked in smoke.
+Halo Wraith: Spectral figure crowned in broken halo.
+Crystal Rat: Rat with crystalline body.
+Ash Beetle: Beetle with burning carapace.
+Void Tick: Black bloated insect, glowing veins.
+Golden Scarab: Scarab of radiant gold.
+Rune Spider: Spider etched with glowing runes.
+Bronze Sentinel: Animated statue clad in bronze.
+Rune Idol: Stone idol glowing with runes.
+Halo Statue: Radiant statue crowned with false halo.
+Obelisk Guard: Tall stone construct marked with cuneiform.
+Flame Idol: Statue burning with eternal flame.
+Lattice Spearman: Humanoid with crystal lattice skin.
+Golden Hoplite: Warrior clad in golden armor.
+Halo Archer: Archer glowing with radiant crown.
+Rune Swordsman: Warrior inscribed with glyphs, carrying glowing blade.
+Obsidian Axe: Brutal warrior wielding obsidian axe.
+Bound Hound: Dog shackled with glowing chains.
+Rune Jackal: Jackal with rune carvings glowing across body.
+Oath Serpent: Serpent covered in glowing brands.
+Crystal Scorpion: Scorpion with crystalline carapace.
+Halo Vulture: Radiant vulture crowned with halo.
+Golden Rat: Rat with golden fur.
+Ash Mite: Tiny insect glowing with embers.
+Rune Beetle: Beetle etched with glyphs.
+Void Centipede: Long centipede glowing black.
+Crystal Spiderling: Small spider covered in crystal shards.
+Rune Husk: Corpse branded with cracked glyphs, glowing faintly.
+Oath Spawn: Mutated being covered in vow-scars.
+Halo Spawn: Twisted humanoid crowned with broken halo.
+Ash Horror: Body of ash and smoke, burning eyes.
+Void Thrall: Hollow figure radiating void flame.
+Broken Scribe: Scribe with cracked slate body.
+Fallen Priest: Priest with broken staff, robes torn.
+Exiled Gladiator: Scarred fighter in broken armor.
+Chain Drudge: Shackled slave covered in wounds.
+Ash Servitor: Cloaked in ash veil, broken censer.
+Gold Spider: Spider with golden carapace.
+Rune Centipede: Long centipede glowing with glyphs.
+Ash Locust: Swarm insect glowing with embers.
+Void Leech: Wormlike parasite glowing black.
+Crystal Gnat: Tiny insect with crystal wings.
+Glyph Ghoul: Corpse covered in glowing runes.
+Ash Phantom: Knight glowing with burning ash aura.
+Halo Husk: Broken warrior crowned with false halo.
+Void Horror: Amorphous being of black fire.
+Rune Horror: Monstrous figure carved with glowing glyphs.
+
+ELITES
+Iron Lash: Muscular captain clad in bronze scale, wielding spiked whip.
+Bronze Spear: Veteran soldier, ornate bronze spear tipped with obsidian.
+Gold-Mask Captain: Bronze armor with gilded mask, whip and short sword.
+Ash Priest: Tall robes, ash-streaked face paint.
+Blood Evoker: Gaunt priest with bleeding hands.
+Hymncaller: Chanting priestess with bone chimes.
+River Wolf: Painted in blue tattoos, wolf pelt cloak.
+Desert Hawk: Bronze-feather cloak, hawk mask.
+Marsh Stalker: Reed armor, body smeared with swamp mud.
+Jackal Alpha: Oversized jackal with scarred muzzle.
+Serpent Queen: Massive reed serpent crowned with bone frill.
+Scorpion King: Huge black scorpion with molten veins.
+Hyena Matron: Enormous matriarch hyena.
+Ink-Tongue: Mouth stained black with cursed ink.
+Dust Librarian: Hooded scribe with sand-dusted scrolls.
+Cuneiform Shade: Shadowy form covered in glowing glyphs.
+Bronze Automaton: Clunky humanoid frame of bronze gears.
+Chain Thrower: Siege operator with twin hook launchers.
+Siege Ox: Armored oxen bred for war.
+Fire Pot Bearer: Slave-soldier carrying pots of burning oil.
+Obsidian Helm: Dark helmet forged of obsidian, ornate crimson cloak.
+Chain Marshal: Overseer in blackened bronze, chains wrapped as armor.
+Ash Oracle: Hooded figure, face obscured by burning ash veil.
+Blood Prophet: Emaciated, red tattoos across chest.
+Choir of Bone: Trio of skeletal singers bound together.
+Hill Ram: Mountain champion with ram horns and stone hammer.
+Desert Viper: Painted in green sands, snake totems.
+River Titan: Massive warrior with fishbone armor.
+Crocodile Warlord: Oversized armored crocodile.
+Vulture Queen: Enormous carrion bird with bone crown.
+Frog Mother: Towering amphibian with glowing throat sac.
+Desert Boar King: Tusks of obsidian, armor of sandstone.
+Tablet Binder: Emaciated scholar fused to clay tablet.
+Sand Archivist: Cloaked, carrying sand-filled scrolls.
+Word-Eater: Hollow-mouthed figure with glowing runes.
+Iron Juggernaut: Enormous construct of iron plates.
+Fire Ram: Wooden ram wrapped in burning oil.
+Bone Chariot: Chariot built from bones, pulled by skeletal oxen.
+Siege Idol: Massive idol animated by cult.
+Oil Hydra: Multi-headed automaton spewing burning oil.
+Iron Gaoler: Towering armored figure with spiked gauntlets.
+Chain Tyrant: Covered in writhing spectral chains.
+Moonblade Captain: Soldier with crescent-bladed sword, silver helm.
+Pit Enforcer: Gladiator captain clad in iron bands.
+Silver Mask Judge: Faceless mask, silver robes.
+Eclipse Hierophant: Robed priest glowing with eclipse sigils.
+Void Augur: Emaciated oracle with hollow eyes.
+Blood Moon Prophet: Crimson-robed prophet with blood-crystal staff.
+Chained Seer: Blindfolded mystic wrapped in glowing chains.
+Ashen Oracle: Ash-coated priest with burning staff.
+Crescent Duelist: Agile fighter with dual crescent blades.
+Ironclad Gladiator: Gladiator covered in iron plates.
+Bloodspiller: Gladiator with crimson-stained armor.
+Chainfighter: Gladiator wielding hooked chains.
+Bonebreaker: Giant gladiator wielding massive bone club.
+Crater Brute: Monstrous humanoid with stone armor fused to skin.
+Moonspawn Horror: Amorphous flesh mass glowing with runes.
+Shadow Hulk: Black hulking humanoid with glowing red eyes.
+Lunar Abomination: Stitched body, half-machine, half-flesh.
+Crystal Reaver: Beast covered in jagged lunar crystals.
+Void Herald: Cloaked figure with black flame crown.
+Eclipse Warlock: Robed caster with eclipse sigils glowing.
+Hollow Bishop: Emaciated cleric with hollowed eyes, silver staff.
+Chain Pontiff: Towering cleric wrapped in glowing chains.
+Ash Bishop: Ash-stained cleric glowing with embers.
+Blade Dancer: Graceful gladiator wielding twin curved blades.
+Iron Juggernaut: Gladiator clad in iron plates, massive hammer.
+Blood Arena Lord: Gladiator with crimson cloak, war banner.
+Pit Beastmaster: Gladiator with chained beasts.
+Skullcrusher: Huge brute with spiked mace.
+Crystal Knight: Armored knight of crystal plating.
+Prism Lancer: Cavalier with crystal lance mounted on beast.
+Gleam Sorcerer: Robed figure with glowing crystal crown.
+Shard Brute: Hulking mutant covered in shards.
+Crystal Stalker: Beast with crystalline claws.
+Void Knight: Armored warrior wreathed in void fire.
+Shadow Assassin: Black-clad killer with crescent daggers.
+Hollow Beast: Twisted humanoid with hollow core.
+Eclipse Wraith: Spirit wreathed in eclipse aura.
+Void Devourer: Massive humanoid with void mouth across chest.
+Bronze Pitlord: Gladiator captain clad in bronze plates.
+Crimson Duelmaster: Elegant fighter in red armor, twin swords.
+Chain Warlord: Bulky gladiator with massive hooked chains.
+Masked Champion: Fighter with ornate golden mask.
+Ash Gladiator Lord: Covered in burning ash armor.
+Ash Priest: Tall priest with ash veil.
+Blood Oracle: Oracle with blood-soaked staff.
+Ember Prophet: Robed in red firecloth.
+Ash Binder: Cloaked in ash chains.
+Crimson Prophetess: Woman in crimson robes, crescent staff.
+Dune Chieftain: Raider chief with golden spear.
+Canyon Marauder King: Heavily armed warlord with jagged axe.
+Bone Raider Lord: Raider cloaked in bones, spiked spear.
+Ash Nomad Chieftain: Nomad leader with flaming scimitars.
+Sandstorm Khan: Warlord with flowing robes, staff of wind.
+Ash Revenant: Warrior cloaked in burning ash.
+Bone Colossus: Giant humanoid made of bone.
+Dust Wraith: Spirit shrouded in dust storm.
+Crimson Horror: Monstrous humanoid dripping blood.
+Ash Titan: Colossal humanoid of burning ash and stone.
+Ash High Priest: Towering priest cloaked in ash robes, censer blazing.
+Blood Matron: Elder woman cloaked in crimson, ritual knife.
+Ember Lord: Red-armored prophet, flame sword.
+Chain Hierophant: Priest covered in glowing chains.
+Crimson Pontiff: Regal cult leader in red, silver crown.
+Pit King: Gladiator king with gold armor, bone crown.
+Masked Warlord: Champion with gilded mask, twin axes.
+Crimson Champion: Fighter drenched in blood, serrated sword.
+Bone Gladiator: Gladiator armored in bones.
+Arena Juggernaut: Enormous gladiator with chained hammer.
+Ash Demon: Demon of ash and fire, horned skull.
+Bone Horror: Twisted skeleton mass.
+Crimson Abomination: Flesh beast dripping crimson ichor.
+Dust Titan: Colossal creature of dust and stone.
+Ash Leviathan: Serpentine beast of burning ash.
+Red Khan: Warlord clad in red armor, massive axe.
+Bone Chieftain: Tribal leader wearing skull mask.
+Canyon Lord: Raider general, golden spear.
+Sandstorm Prophet: Robed warlord with wind staff.
+Crimson Khan: Regal warlord clad in crimson silk, jeweled sword.
+Glyph Knight: Armored warrior etched with glowing runes.
+Halo Paladin: Radiant knight crowned with luminous halo.
+Crystal Vanguard: Soldier clad in crystal armor, spear glowing.
+Obsidian Berserker: Hulking brute wielding obsidian axes.
+Oath Champion: Warrior branded with glowing vow runes.
+Ash High Priest: Priest draped in smoke and fire.
+Blood Hierophant: Cloaked in crimson robes, knife in hand.
+Rune Exarch: Tall figure cloaked in glyphs, staff blazing.
+Halo Prelate: Radiant cleric crowned with glowing halo.
+Void Inquisitor: Shadow-cloaked judge with glowing eyes.
+Obelisk General: Armored in stone, inscribed with runes.
+Golden Strategos: Warrior in gilded armor with jeweled sword.
+Rune Captain: Soldier branded with glyph tattoos.
+Halo Commander: Radiant figure with winged helm.
+Void Centurion: Dark knight wielding void lance.
+Crystal Colossus: Giant clad in crystalline plates.
+Oath Leviathan: Serpentine giant inscribed with vow runes.
+Ash Titan: Colossal humanoid wreathed in flame.
+Void Horror: Amorphous mass of black fire.
+Halo Seraph: Winged figure of radiant light, halo blazing.
+Crimson Pontiff: Regal cult leader in crimson robes, jeweled staff.
+Ash Hierarch: Cloaked in smoke and flame, mask glowing.
+Rune Pontiff: Tall figure cloaked in glyph-etched robes.
+Halo Exemplar: Radiant cleric crowned with blazing halo.
+Void Exarch: Dark priest cloaked in shadows, eyes glowing.
+Crystal General: Warrior clad in crystal plates, wielding glaive.
+Golden Strategist: General clad in gold and jewels.
+Obelisk Warden: Armored in stone, glyphs glowing.
+Rune Marshal: Soldier etched with glowing glyphs, staff spear.
+Halo Praetor: Radiant warrior with winged helm and spear.
+Ash Leviathan: Serpentine beast wreathed in flame.
+Bone Horror King: Colossal skeleton crowned with skulls.
+Crimson Horror: Flesh beast dripping crimson ichor.
+Dust Titan: Colossal being of dust and stone.
+Halo Seraphim: Winged radiant figure crowned with halos.
+Crimson Khan: Regal warlord in crimson silk, jeweled sword.
+Ash Lord: Tall warlord cloaked in flame.
+Rune Khan: Warlord etched with glyph tattoos.
+Halo Regent: Radiant ruler crowned with great halo.
+Void King: Cloaked in shadows, eyes glowing like suns.
+
+SPECIALISTS
+Oath Singer: Robed figure with scrolls bound to arms.
+Tax Shade: Phantom in tattered robes, clutching tablets.
+Ash Binder: Thin figure coated in grey ash.
+Mirror Reed: Shimmering reed armor, reflective water mask.
+Sand Mirage: Cloaked desert nomad with glowing eyes.
+Echo Voice: Mouth painted black, surrounded by whispers.
+Scorpion Alchemist: Hooded with vials, scorpion tattoo on face.
+Reed Brewmaster: Reed-wrapped figure with gourds.
+Toxin Whisperer: Thin robed figure with green smoke trailing mouth.
+Bone Caller: Wears necklace of skulls.
+Idol Chanter: Chained to idol fragments.
+Blood Keeper: Figure covered in red runes, clay tablets strapped to chest.
+Trap Setter: Ragged worker with rope and spikes.
+Fire Sapper: Blackened armor, oil canisters on belt.
+Collapse Worker: Covered in dust, carrying chisels.
+Plague Drummer: Carries bone drums, pustules covering skin.
+Ember Masker: Wears mask of burning ember wood.
+Soul Drinker: Hollow-eyed cultist with black smoke rising.
+Glass Weaver: Shards embedded in flesh.
+Tomb Scrivener: Scribe chained to gravestones.
+Shadow Binder: Dark robes, shadow tendrils sprouting.
+Idol Puppeteer: Masked figure with strings of bone.
+Sand Oracle: Cloaked desert mystic with sand swirling around.
+Blood Plucker: Cloaked with sharp talons.
+Furnace Caller: Cloaked cultist glowing red from within.
+Moonfire Adept: Robed mage with glowing silver staff.
+Crystal Thaumaturge: Robe stitched with shards, crystal focus orb.
+Void Evoker: Hooded mage with void runes etched into skin.
+Oracle of Chains: Blindfolded mystic with golden chains.
+Eclipse Visionary: Pale seer with eclipse eyes.
+Ash Prophetess: Cloaked in ash veil.
+Wraith Caller: Figure draped in skulls, staff topped with lantern.
+Idol Binder: Shackled summoner dragging idol fragment.
+Flesh Sculptor: Hooded figure carrying bloody chisels.
+Venom Alchemist: Cloaked with vials, green mist trailing.
+Sporebrewer: Fungal-covered chemist with gourds.
+Blood Draught Maker: Alchemist with crimson vials strapped.
+Chain Engineer: Worker with tools and glowing chains.
+Idol Mechanist: Artificer fused with gears and idol cores.
+Crystal Tinker: Small figure carrying crystal tools.
+Soul Harvester: Tall figure carrying scythe of bone.
+Shadow Puppeteer: Masked with shadow strings.
+Blood Soothsayer: Crimson tattoos glowing faintly.
+Ash Sculptor: Cloaked in ashes, carrying clay idols.
+Eclipse Binder: Shackled with eclipse sigils.
+Dream Warden: Hooded priest, eyes glowing silver.
+Crystal Puppeteer: Strings of crystal shards hanging from hands.
+Flesh Weaver: Stitched robes, needle hands.
+Void Scribe: Scribe with void glyphs carved on arms.
+Eclipse Summoner: Robed figure with crescent crown.
+Ash Sorcerer: Cloaked in soot-stained robes, carrying obsidian staff.
+Ember Seer: Tattooed mage glowing red.
+Smoke Weaver: Shrouded in smoke veil.
+Crimson Thaumaturge: Red-stained robes, ritual dagger.
+Flesh Carver: Hooded ritualist with knives.
+Red Soothsayer: Covered in blood-painted glyphs.
+Sand Alchemist: Cloaked in desert rags, carrying vials.
+Venom Brewer: Alchemist with scorpion vials.
+Dust Chemist: Masked chemist with dust gourds.
+Ash Oracle: Blindfolded woman covered in soot.
+Crimson Visionary: Hooded in red, glowing eyes.
+Sand Prophetess: Robed in sand-colored garb, crystal staff.
+Bone Binder: Cloaked in bones, skull staff.
+Ash Idolator: Carrying burning idol fragment.
+Crimson Caller: Ritualist with crimson horn.
+Ash Mechanist: Engineer fused with ash-plated gears.
+Bone Artificer: Inventor stitched with bones.
+Sand Tinker: Small figure carrying desert tools.
+Ash Weaver: Cloaked in soot, carrying rune cloth.
+Blood Sculptor: Ritualist with knives, crimson robes.
+Sand Mystic: Covered in desert crystals.
+Crimson Binder: Shackled with red chains.
+Bone Harvester: Tall figure with scythe of bones.
+Ash Dreamer: Cloaked in soot, glowing eyes.
+Crimson Scribe: Tattooed with crimson glyphs, scrolls glowing.
+Cuneiform Savant: Cloaked scholar, skin inscribed with shifting runes.
+Tablet Keeper: Hooded figure carrying cracked clay tablets.
+Sigil Binder: Ritualist etched with glowing sigils.
+Crimson Thaumaturge: Robed in scarlet, knife dripping.
+Viscera Sculptor: Hooded figure with bone tools.
+Crimson Oracle: Woman covered in blood glyphs.
+Vow Keeper: Figure wrapped in parchment scrolls.
+Geas Weaver: Tall cloaked figure with glowing staff.
+Covenant Breaker: Scarred figure branded with failed vows.
+Ash Alchemist: Cloaked in soot, carrying ember vials.
+Crystal Brewer: Chemist with crystal vials.
+Void Chemist: Cloaked alchemist glowing black.
+Bone Conductor: Necro-summoner with skull staff.
+Idol Worshipper: Carrying fragment of glowing idol.
+Beast Caller: Horned ritualist with bone flute.
+Rune Mechanist: Engineer with glyph-etched tools.
+Crystal Artificer: Inventor plated in crystal shards.
+Obsidian Tinker: Small engineer with obsidian tools.
+Ash Weaver: Cloaked in soot, glowing runes.
+Blood Sculptor: Ritualist cloaked in crimson.
+Rune Mystic: Shrouded in runes, crystal staff.
+Void Binder: Cloaked in void flame, chains glowing.
+Halo Mystic: Radiant figure with halo crown.
+Dream Seer: Shrouded in veils, glowing eyes.
+Glyph Scribe: Cloaked scholar covered in glyph tattoos.
+
+MINI-BOSSES
+Golden Whip: Overseer clad in gilded armor, wielding massive golden whip.
+High Priest: Towering figure in red-ash robes, mask of charred bone.
+River Warlord: Armored raider leader, reed-boat fleet commander.
+Scorpion Queen: Colossal scorpion with glowing molten carapace.
+Sand Golem: Humanoid colossus of shifting sand and stone.
+Idol Shade: Tall ghost bound to broken idol fragments.
+Reed Leviathan: Massive serpent dwelling in marsh canals.
+Oathkeeper Ghost: Spirit judge wrapped in glowing Kudran glyphs.
+Bronze Colossus: Towering bronze automaton with war axe.
+Marsh Phantom: Pale wraith drifting in swamp fog.
+Fire Jackal: Oversized jackal glowing with molten veins.
+Drowned Archivist: Scribe drowned and reanimated, scrolls dripping water.
+Obsidian Lion: Giant lion carved of black stone, animated with fire.
+Taxlord Balash: Bloated overseer in golden robes, mace and ledger.
+Pit Champion: Massive gladiator scarred from decades in pits.
+Warden of Chains: Colossal humanoid clad in black iron, body wrapped in endless glowing chains.
+Prophet of Eclipse: Pale high priest with eclipse crown, robes dripping black flame.
+Crystal Tyrant: Titan plated entirely in jagged crystal, glowing core in chest.
+Hollow Seraph: Fallen angelic figure of stone wings, chest hollowed by void.
+Blood Moon Avatar: Towering beast-humanoid glowing crimson under blood moon.
+Ash Colossus: Towering humanoid of burning ash and molten stone.
+Blood Oracle: Crimson-robed seer with bleeding eyes.
+Sand Serpent: Enormous serpent with golden scales.
+Bone Goliath: Colossal skeleton bound by sinew.
+Ash Revenant King: Flaming knight clad in ash armor, sword glowing.
+Crimson Beast: Massive beast dripping blood ichor.
+Canyon Titan: Gigantic brute of stone and sand.
+Bone Hydra: Serpentine beast with five skeletal heads.
+Dust Wraith King: Towering spirit wrapped in storm.
+Crimson Juggernaut: Hulking gladiator clad in crimson armor.
+Ash Leviathan: Serpentine beast of ash and fire, glowing eyes.
+Bone Lord: Enormous skeletal king with crown of skulls.
+Sandstorm Avatar: Humanoid formed of sand and wind.
+Crimson Prophet King: Red-robed leader with glowing staff.
+Ash Titan Lord: Towering giant of burning stone and ash.
+Oath Titan: Towering humanoid covered in vow-runes, chains embedded in flesh.
+Halo Ascendant: Radiant being with blazing halos orbiting body.
+Glyph Behemoth: Colossal beast covered in etched runes.
+Ash Colossus: Flaming giant of soot and ember.
+Void Serpent: Enormous serpent cloaked in shadowfire.
+Halo Warden: Radiant knight clad in golden armor, halo crown.
+Rune Goliath: Massive humanoid inscribed with giant glyphs.
+Ash Revenant King: Fiery warlord reborn in ash armor.
+Crimson Beast: Giant beast dripping crimson ichor.
+Crystal Leviathan: Serpentine monster plated in crystal.
+Obelisk Avatar: Living obelisk inscribed with runes.
+Halo Seraph: Radiant figure with blazing wings.
+Blood Oracle: Crimson-robed seer with bleeding eyes.
+Void Horror King: Colossal shadow figure wreathed in black flame.
+Glyph Titan: Towering giant covered in glowing glyphs.
+
+MAJOR-BOSSES
+Pharaoh of Chains: Ancient king wrapped in spectral chains, golden mask cracked.
+River Titan: Colossal warrior clad in fishbone armor, wielding trident.
+Sandstorm Khan: Warlord with flowing robes, staff of wind, surrounded by swirling sand.
+Idol Colossus: Towering statue animated by cult magic, glowing runes.
+Marsh Leviathan: Massive serpent with reed crown, body covered in swamp mud.
+Bronze Juggernaut: Giant automaton of bronze plates, war hammer in hand.
+Blood Prophet King: Emaciated priest with crimson tattoos, staff of bone.
+Obsidian Lion King: Giant lion carved of black stone, mane ablaze.
+Ash Oracle Queen: Hooded figure, face obscured by burning ash veil, staff glowing.
+Chain Marshal Lord: Overseer in blackened bronze, chains wrapped as armor.
+Fire Ram King: Wooden ram wrapped in burning oil, crowned with iron.
+Bone Chariot Lord: Chariot built from bones, pulled by skeletal oxen.
+Siege Idol King: Massive idol animated by cult, glowing with fire.
+Oil Hydra King: Multi-headed automaton spewing burning oil, crowned with bronze.
+Eclipse Hierarch: Robed priest glowing with eclipse sigils, staff blazing.
+Void Augur King: Emaciated oracle with hollow eyes, crowned with void flame.
+Blood Moon Prophet Lord: Crimson-robed prophet with blood-crystal staff, eyes glowing.
+Chained Seer King: Blindfolded mystic wrapped in glowing chains, staff of silver.
+Ashen Oracle Queen: Ash-coated priest with burning staff, veil of embers.
+Crescent Duelist Lord: Agile fighter with dual crescent blades, silver helm.
+Ironclad Gladiator King: Gladiator covered in iron plates, massive sword.
+Bloodspiller Lord: Gladiator with crimson-stained armor, war banner.
+Chainfighter King: Gladiator wielding hooked chains, crowned with iron.
+Bonebreaker Lord: Giant gladiator wielding massive bone club, mask of skulls.
+Crater Brute King: Monstrous humanoid with stone armor fused to skin, crowned with obsidian.
+Moonspawn Horror King: Amorphous flesh mass glowing with runes, crowned with lunar crystal.
+Shadow Hulk King: Black hulking humanoid with glowing red eyes, crowned with void flame.
+Lunar Abomination Lord: Stitched body, half-machine, half-flesh, crowned with silver.
+Crystal Reaver King: Beast covered in jagged lunar crystals, glowing core.
+Void Herald King: Cloaked figure with black flame crown, staff of void.
+Eclipse Warlock Lord: Robed caster with eclipse sigils glowing, crowned with crescent.
+Hollow Bishop King: Emaciated cleric with hollowed eyes, silver staff, crowned with moonstone.
+Chain Pontiff Lord: Towering cleric wrapped in glowing chains, staff of gold.
+Ash Bishop Queen: Ash-stained cleric glowing with embers, mask of soot.
+Blade Dancer Lord: Graceful gladiator wielding twin curved blades, crowned with silver.
+Iron Juggernaut King: Gladiator clad in iron plates, massive hammer, crowned with bronze.
+Blood Arena Lord King: Gladiator with crimson cloak, war banner, crowned with gold.
+Pit Beastmaster King: Gladiator with chained beasts, crowned with bone.
+Skullcrusher King: Huge brute with spiked mace, crowned with iron.
+Crystal Knight Lord: Armored knight of crystal plating, lance glowing.
+Prism Lancer King: Cavalier with crystal lance mounted on beast, crowned with crystal.
+Gleam Sorcerer Lord: Robed figure with glowing crystal crown, staff of light.
+Shard Brute King: Hulking mutant covered in shards, crowned with obsidian.
+Crystal Stalker Lord: Beast with crystalline claws, crowned with lunar crystal.
+Void Knight King: Armored warrior wreathed in void fire, crowned with shadow.
+Shadow Assassin Lord: Black-clad killer with crescent daggers, crowned with silver.
+Hollow Beast King: Twisted humanoid with hollow core, crowned with bone.
+Eclipse Wraith Lord: Spirit wreathed in eclipse aura, crowned with moonstone.
+Void Devourer King: Massive humanoid with void mouth across chest, crowned with darkness.
+Bronze Pitlord King: Gladiator captain clad in bronze plates, crowned with gold.
+Crimson Duelmaster Lord: Elegant fighter in red armor, twin swords, crowned with crimson.
+Chain Warlord King: Bulky gladiator with massive hooked chains, crowned with iron.
+Masked Champion Lord: Fighter with ornate golden mask, crowned with gold.
+Ash Gladiator Lord King: Covered in burning ash armor, crowned with flame.
+Ash Priest King: Tall priest with ash veil, crowned with soot.
+Blood Oracle Lord: Oracle with blood-soaked staff, crowned with crimson.
+Ember Prophet King: Robed in red firecloth, crowned with ember.
+Ash Binder Lord: Cloaked in ash chains, crowned with iron.
+Crimson Prophetess Queen: Woman in crimson robes, crescent staff, crowned with ruby.
+Dune Chieftain King: Raider chief with golden spear, crowned with sand.
+Canyon Marauder King Lord: Heavily armed warlord with jagged axe, crowned with stone.
+Bone Raider Lord King: Raider cloaked in bones, spiked spear, crowned with skulls.
+Ash Nomad Chieftain King: Nomad leader with flaming scimitars, crowned with ash.
+Sandstorm Khan Lord: Warlord with flowing robes, staff of wind, crowned with sand.
+Ash Revenant King: Warrior cloaked in burning ash, crowned with flame.
+Bone Colossus King: Giant humanoid made of bone, crowned with skulls.
+Dust Wraith Lord: Spirit shrouded in dust storm, crowned with sand.
+Crimson Horror King: Monstrous humanoid dripping blood, crowned with crimson.
+Ash Titan Lord: Colossal humanoid of burning ash and stone, crowned with flame.
+Ash High Priest King: Towering priest cloaked in ash robes, censer blazing, crowned with soot.
+Blood Matron Queen: Elder woman cloaked in crimson, ritual knife, crowned with ruby.
+Ember Lord King: Red-armored prophet, flame sword, crowned with ember.
+Chain Hierophant Lord: Priest covered in glowing chains, crowned with iron.
+Crimson Pontiff King: Regal cult leader in red, silver crown, crowned with ruby.
+Pit King Lord: Gladiator king with gold armor, bone crown, crowned with gold.
+Masked Warlord King: Champion with gilded mask, twin axes, crowned with gold.
+Crimson Champion Lord: Fighter drenched in blood, serrated sword, crowned with crimson.
+Bone Gladiator King: Gladiator armored in bones, crowned with skulls.
+Arena Juggernaut King: Enormous gladiator with chained hammer, crowned with iron.
+Ash Demon Lord: Demon of ash and fire, horned skull, crowned with flame.
+Bone Horror King: Twisted skeleton mass, crowned with skulls.
+Crimson Abomination Lord: Flesh beast dripping crimson ichor, crowned with crimson.
+Dust Titan King: Colossal creature of dust and stone, crowned with sand.
+Ash Leviathan King: Serpentine beast of burning ash, crowned with flame.
+Red Khan Lord: Warlord clad in red armor, massive axe, crowned with ruby.
+Bone Chieftain King: Tribal leader wearing skull mask, crowned with bone.
+Canyon Lord King: Raider general, golden spear, crowned with stone.
+Sandstorm Prophet Lord: Robed warlord with wind staff, crowned with sand.
+Crimson Khan King: Regal warlord clad in crimson silk, jeweled sword, crowned with ruby.
+Glyph Knight King: Armored warrior etched with glowing runes, crowned with glyphs.
+Halo Paladin Lord: Radiant knight crowned with luminous halo, crowned with gold.
+Crystal Vanguard King: Soldier clad in crystal armor, spear glowing, crowned with crystal.
+Obsidian Berserker King: Hulking brute wielding obsidian axes, crowned with obsidian.
+Oath Champion Lord: Warrior branded with glowing vow runes, crowned with parchment.
+Ash High Priest King: Priest draped in smoke and fire, crowned with soot.
+Blood Hierophant Lord: Cloaked in crimson robes, knife in hand, crowned with ruby.
+Rune Exarch King: Tall figure cloaked in glyphs, staff blazing, crowned with glyphs.
+Halo Prelate Lord: Radiant cleric crowned with glowing halo, crowned with gold.
+Void Inquisitor King: Shadow-cloaked judge with glowing eyes, crowned with void.
+Obelisk General King: Armored in stone, inscribed with runes, crowned with obelisk.
+Golden Strategos Lord: Warrior in gilded armor with jeweled sword, crowned with gold.
+Rune Captain King: Soldier branded with glyph tattoos, crowned with glyphs.
+Halo Commander Lord: Radiant figure with winged helm, crowned with gold.
+Void Centurion King: Dark knight wielding void lance, crowned with void.
+Crystal Colossus King: Giant clad in crystalline plates, crowned with crystal.
+Oath Leviathan Lord: Serpentine giant inscribed with vow runes, crowned with parchment.
+Ash Titan King: Colossal humanoid wreathed in flame, crowned with soot.
+Void Horror King: Amorphous mass of black fire, crowned with void.
+Halo Seraph Lord: Winged figure of radiant light, halo blazing, crowned with gold.
+Crimson Pontiff King: Regal cult leader in crimson robes, jeweled staff, crowned with ruby.
+Ash Hierarch Lord: Cloaked in smoke and flame, mask glowing, crowned with soot.
+Rune Pontiff King: Tall figure cloaked in glyph-etched robes, crowned with glyphs.
+Halo Exemplar Lord: Radiant cleric crowned with blazing halo, crowned with gold.
+Void Exarch King: Dark priest cloaked in shadows, eyes glowing, crowned with void.
+Crystal General King: Warrior clad in crystal plates, wielding glaive, crowned with crystal.
+Golden Strategist Lord: General clad in gold and jewels, crowned with gold.
+Obelisk Warden King: Armored in stone, glyphs glowing, crowned with obelisk.
+Rune Marshal King: Soldier etched with glowing glyphs, staff spear, crowned with glyphs.
+Halo Praetor Lord: Radiant warrior with winged helm and spear, crowned with gold.
+Ash Leviathan King: Serpentine beast wreathed in flame, crowned with soot.
+Bone Horror King: Colossal skeleton crowned with skulls, crowned with bone.
+Crimson Horror King: Flesh beast dripping crimson ichor, crowned with ruby.
+Dust Titan King: Colossal being of dust and stone, crowned with sand.
+Halo Seraphim Lord: Winged radiant figure crowned with halos, crowned with gold.
+Crimson Khan King: Regal warlord in crimson silk, jeweled sword, crowned with ruby.
+Ash Lord King: Tall warlord cloaked in flame, crowned with soot.
+Rune Khan King: Warlord etched with glyph tattoos, crowned with glyphs.
+Halo Regent Lord: Radiant ruler crowned with great halo, crowned with gold.
+Void King Lord: Cloaked in shadows, eyes glowing like suns, crowned with void.
+
+KINDOM-BOSSES
+Pharaoh of Chains, the Eternal: Ancient king wrapped in spectral chains, golden mask cracked, eyes burning with blue fire.
+River Titan, the Flood King: Colossal warrior clad in fishbone armor, wielding a trident of bone and gold, crowned with reeds.
+Idol Colossus, the Living God: Towering statue animated by cult magic, covered in glowing runes, crowned with obsidian.
+Marsh Leviathan, the Drowned Queen: Massive serpent with reed crown, body covered in swamp mud, eyes glowing green.
+Sandstorm Khan, the Desert Lord: Warlord with flowing robes, staff of wind, surrounded by a swirling sandstorm, crowned with gold.
+Eclipse Hierarch, the Night King: Robed priest glowing with eclipse sigils, staff blazing, crowned with a black flame halo.
+Void Augur, the Hollow Prophet: Emaciated oracle with hollow eyes, crowned with void flame, body wreathed in shadow.
+Blood Moon Prophet, the Crimson Oracle: Crimson-robed prophet with blood-crystal staff, eyes glowing red, crowned with lunar silver.
+Chained Seer, the Blind Judge: Blindfolded mystic wrapped in glowing chains, staff of silver, crowned with moonstone.
+Ashen Oracle, the Ember Queen: Ash-coated priest with burning staff, veil of embers, crowned with a circlet of soot.
+Bronze Pitlord, the Arena King: Gladiator captain clad in bronze plates, crowned with gold, wielding a massive warhammer.
+Crimson Duelmaster, the Blood Regent: Elegant fighter in red armor, twin swords, crowned with crimson, cloak trailing blood.
+Chain Warlord, the Iron Tyrant: Bulky gladiator with massive hooked chains, crowned with iron, body covered in scars.
+Masked Champion, the Golden Face: Fighter with ornate golden mask, crowned with gold, wielding twin axes.
+Ash Gladiator Lord, the Flame Sovereign: Covered in burning ash armor, crowned with flame, sword glowing with embers.
+Glyph Knight, the Rune King: Armored warrior etched with glowing runes, crowned with glyphs, wielding a rune blade.
+Halo Paladin, the Radiant Lord: Radiant knight crowned with luminous halo, golden armor shining, spear blazing with light.
+Crystal Vanguard, the Shard Emperor: Soldier clad in crystal armor, spear glowing, crowned with crystal, shield of light.
+Obsidian Berserker, the Black King: Hulking brute wielding obsidian axes, crowned with obsidian, body streaked with magma.
+Oath Champion, the Covenant King: Warrior branded with glowing vow runes, crowned with parchment, wielding a vow-forged blade.

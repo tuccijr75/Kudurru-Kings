@@ -1,0 +1,664 @@
+card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,total,rules_text,portrait_url,section
+1,Adamu,rare,3,7,7,3,3,4,11,15,"Dark-haired, olive-to-bronze skin, modest height, simple reed, wool, or bronze-trimmed garments.",https://drive.google.com/uc?export=view&id=1vvipsnAwshNAcOExovTbgMmgfK55Hbpd,HEROES
+2,Rook,rare,8,4,7,4,4,4,15,19,"Lean build, dark hair, ritual scars along arms, simple linen and bronze.",https://drive.google.com/uc?export=view&id=1O5NguMLkaieoD3oE8ZrFpsyFNH5OKNOQ,HEROES
+3,Nammu,rare,9,3,9,4,4,4,18,22,"Tall, water-blue skin, reflective eyes, robes woven with reeds.",https://drive.google.com/uc?export=view&id=1bBvFA0pZOxJhCs1xcTmW7d43hBtw3FVo,HEROES
+4,Ashur,rare,6,4,3,9,4,4,14,18,"Massive, tar-blackened skin with ember cracks, heavy lantern-club weapon.",https://drive.google.com/uc?export=view&id=1sJ0XanFm5m9AYx1Di-BKGvriAvA-H797,HEROES
+5,Zaleth,rare,7,3,7,4,3,4,12,16,"Halo above head, radiant skin, gilded robes.",https://drive.google.com/uc?export=view&id=1cQs4Z3PHPJqK-l3U39W7MQIb5n9B0HY3,HEROES
+6,Irik,rare,3,3,4,7,7,4,12,16,"Broad, glyph-inscribed stone skin, heavy plate.",https://drive.google.com/uc?export=view&id=1msgdtz88x0Ee6W7YxM5OXDAzeYtwrZBR,HEROES
+7,Tammuz,rare,4,7,4,3,7,4,13,17,"Jewel-inlaid skin, crystalline eyes, ornate robes.",https://drive.google.com/uc?export=view&id=1Eax36eTyn4JBKinVMf-8hTMUo_61TDiE,HEROES
+8,Etana,rare,7,8,4,4,3,4,14,18,"Tall, scar-carved skin glowing with light, tower shield and scar-etched sword.",https://drive.google.com/uc?export=view&id=1MyHJnetbFNSbhRCU41xN3exqJ10zg_bT,HEROES
+9,Iltu,rare,8,8,3,3,3,4,14,18,"Translucent skin, shifting colors, dual daggers, cloak shimmering like glass.",https://drive.google.com/uc?export=view&id=1gqNnWYEWgkn4cM-xcWCsG15LnTLV-HXp,HEROES
+10,Urid,rare,8,4,3,7,4,4,14,18,"Lean, reed-marked body, river-braided hair, reed-woven cloak.",https://drive.google.com/uc?export=view&id=1SPGmIhlrtOGYSPEMgiauxKyEsa932mdf,HEROES
+11,Namtar,rare,4,4,3,9,8,4,17,21,"Glass-thread veins glowing beneath skin, broad, with shard-greatsword.",https://drive.google.com/uc?export=view&id=1oLwLpNXrVihEvLqUe9_iNCRd_aVCkuPM,HEROES
+12,Zari,rare,3,3,8,7,4,4,13,17,"Pale, silt-dusted skin, echoing voice, flowing robes.",https://drive.google.com/uc?export=view&id=1SYZbFjp91JC1CzDM0EwseZ7kdSpODu1q,HEROES
+13,Maskat,rare,4,4,7,4,6,4,12,16,"Tall, masked, faceless, plate armor.",https://drive.google.com/uc?export=view&id=1pJnGP0aTJDM5rwXxfj7me3dEDmjaFUil,HEROES
+14,Eresh,rare,6,7,3,3,3,4,10,14,"Towering, obsidian skin, cuneiform armor, glowing runed wings.",https://drive.google.com/uc?export=view&id=1w0Ep2Csdv9W4pfax_7Owguk-YTnlQgaC,HEROES
+15,Shulgi,rare,3,4,6,4,7,4,12,16,"Radiant halo fused with tribunal mask, heavy armored body.",https://drive.google.com/uc?export=view&id=1BK5NUsTqe7I1RC9Ax3ERtD1I8V6iQohy,HEROES
+16,Whipbearer,low,3,0,3,0,0,3,1,4,"Lean enforcers with scarred backs, wielding barbed whips.",https://drive.google.com/uc?export=view&id=1vELf9D0LP9eADBlOYp_Pikj3DsYtGauV,GRUNTS
+17,Spear Watch,low,0,2,2,1,1,2,0,2,Bronze-armored footmen with long spears.,https://drive.google.com/uc?export=view&id=1Fu0H_FUUj5vixaBSY9GtqRQ1gnjVqiJ9,GRUNTS
+18,Bronze Shield,low,2,1,0,2,0,2,0,2,"Tower shield carriers, masks hide scarred faces.",https://drive.google.com/uc?export=view&id=1yL_ytuZ32Ru3lTTHNtwj7WJadjbIDLuf,GRUNTS
+19,Tax Enforcer,low,0,1,3,1,1,2,0,2,"Fat, jewel-laden men clutching ledgers and maces.",https://drive.google.com/uc?export=view&id=10fLkQenYnlIwGunRdM8tCeT_x3rbdSm6,GRUNTS
+20,Chain Keeper,low,1,2,0,0,1,1,0,1,Muscled overseer with hooks and chains.,https://drive.google.com/uc?export=view&id=1XmAePmF-4CYLVHsScUTVHXme41EbzrLx,GRUNTS
+21,Pit Houndmaster,low,1,3,2,1,1,3,1,4,Scarred veteran with muzzled jackals.,https://drive.google.com/uc?export=view&id=1gPd4xPL_1LJkajgL99V04LIIvem8e3Nb,GRUNTS
+22,Ash Novice,low,1,1,1,2,0,2,0,2,Skin blackened with ash tattoos.,https://drive.google.com/uc?export=view&id=19o1JGGDngyUGr-Yk-Si1FbqJa3U8K_wF,GRUNTS
+23,Blood Acolyte,low,0,3,0,2,0,2,0,2,"Bloodstained robes, ritual knives.",https://drive.google.com/uc?export=view&id=1YYOQ_Qhc-Gna_-Mq62vop9NgEsdl1j1d,GRUNTS
+24,Chanter Priest,low,1,1,2,1,1,2,0,2,"Hooded, mouths stitched, chanting low.",https://drive.google.com/uc?export=view&id=1uDDDnxPM1Q05Kj8qtHdutbhaq98zE2rH,GRUNTS
+25,Knife Zealot,low,1,1,2,2,0,2,0,2,"Wide-eyed, wild, dual knives.",https://drive.google.com/uc?export=view&id=1BXDDmd3Y1F-XTp4bJQfeVCm8Ywo6QweB,GRUNTS
+26,Desert Jackal,low,2,0,3,0,1,2,0,2,"Rag-wrapped raider, jackal skull mask.",https://drive.google.com/uc?export=view&id=1-5GrzkTuW9JV_aTZjndOC1O5c5FIv4-F,GRUNTS
+27,River Raider,low,0,0,2,3,1,2,0,2,"Reed-armor, water-stained weapons.",https://drive.google.com/uc?export=view&id=1W_YvGzxaljfGmh5NZp3dSrQvKsfezvTK,GRUNTS
+28,Marsh Cutthroat,low,1,0,0,1,2,1,0,1,Reed-wrapped assassins with frog tattoos.,https://drive.google.com/uc?export=view&id=1D-Oxs086hIQBwk3o21w4S78BYjSi4V9b,GRUNTS
+29,Ash Rider,low,1,1,1,1,0,1,0,1,Desert nomad on a skeletal hyena.,https://drive.google.com/uc?export=view&id=1hshSTRVUerWB6zqPouT1gUUOI0xPUkSK,GRUNTS
+30,Canal Thief,low,2,0,3,1,1,2,0,2,Ragged thief with reed mask.,https://drive.google.com/uc?export=view&id=15KnZupHuX-yLt0mFapHH541PyxZZ4tC8,GRUNTS
+31,Bone Jackal,low,1,1,1,1,2,2,0,2,Skeletal jackal bound with sinew.,https://drive.google.com/uc?export=view&id=16vh2kc64qE-qYQh6_096J7Y5gtwHReUl,GRUNTS
+32,Reed Serpent,low,1,1,2,0,2,2,0,2,Long green snake camouflaged in reeds.,https://drive.google.com/uc?export=view&id=1T0M68Q3TbIrShCzegQwSd7CVvPY_TEjV,GRUNTS
+33,Ash Scorpion,low,1,2,1,2,0,2,0,2,Blackened scorpion glowing red.,https://drive.google.com/uc?export=view&id=1GJ4dI58ROGOZVZYIVHMjtFq-CJnNajjj,GRUNTS
+34,Sand Hyena,low,0,0,1,2,2,2,0,2,"Mangy, desert-burned hyena with glowing eyes.",https://drive.google.com/uc?export=view&id=1KkrNUIj6Wk9Le6orAx3qU_QBrokxbsgy,GRUNTS
+35,Bog Crocodile,low,1,0,3,2,1,2,0,2,Massive croc with reed armor.,https://drive.google.com/uc?export=view&id=1N1pswOZbBLyWlvmhIUZqZakcBTi9NEN6,GRUNTS
+36,Mud Rat,low,3,1,1,1,1,2,0,2,Giant sludge rat.,https://drive.google.com/uc?export=view&id=1c3LZyQVgnmoF47KEDsFmo4fkEroVFS6N,GRUNTS
+37,Sewer Leech,low,0,2,1,0,1,1,0,1,Massive bloated leech.,https://drive.google.com/uc?export=view&id=13n0p1CyKRqoLRU367fHB3YXHpj8D5Z5r,GRUNTS
+38,Corpse Beetle,low,3,0,2,1,0,2,0,2,Swarms of black beetles.,https://drive.google.com/uc?export=view&id=1uLv0xeGCq12FxefYUm5TZWJnc4c0gfd1,GRUNTS
+39,Glass Mite,low,0,1,1,2,3,2,0,2,Tiny crystalline mites.,https://drive.google.com/uc?export=view&id=1qAlO2qbFW9o5qMgDfF-08WL-CmvayMk2,GRUNTS
+40,Pit Ghoul,low,1,1,0,1,1,1,0,1,Half-starved humanoid feeding on corpses.,https://drive.google.com/uc?export=view&id=1LSrodc4e4HzKozXngl1EIp7UYbspMmSX,GRUNTS
+41,Lash Captain,low,1,2,1,1,1,2,0,2,"Overseer in bronze mask, wielding twin whips.",https://drive.google.com/uc?export=view&id=1NErVXHcDwsZwo_atoQfDz3xqvmJoDxDj,GRUNTS
+42,Pike Slave,low,0,1,2,0,2,2,0,2,Shackled warrior forced to carry long pike.,,GRUNTS
+43,Shield Twins,low,1,0,3,1,2,2,0,2,Pair of fighters sharing a massive wooden shield.,https://drive.google.com/uc?export=view&id=1SKts1dTV5_a5eJyLs5wMaEKBpIKrGpF7,GRUNTS
+44,Whip Sergeant,low,2,0,1,2,1,2,0,2,"Veteran with scarred arms, bronze whip.",https://drive.google.com/uc?export=view&id=1uX8Tm4ASMy5262EBgSKhzETrZoEjOIde,GRUNTS
+45,Slave Hunter,low,1,3,1,1,0,2,0,2,"Tracker with hounds on leashes, bone talismans.",,GRUNTS
+46,Dog Breaker,low,1,0,1,1,1,1,0,1,Brutal overseer wielding iron cudgel.,https://drive.google.com/uc?export=view&id=16n7esVKHsCwIIZ0cCVM_m3gr28u3z0pR,GRUNTS
+47,Ledger Bearer,low,3,3,1,0,0,3,1,4,Corpulent overseer with chained ledger.,https://drive.google.com/uc?export=view&id=1nLtmiu2czUP9bvXbaYYwJX8A81cbhYgO,GRUNTS
+48,Pit Jailer,low,1,3,0,0,2,2,0,2,Hooded figure with ring of keys.,https://drive.google.com/uc?export=view&id=1pvwmaKzYLosMZ7Wwh2J4uPicuOT_CwEN,GRUNTS
+49,Fire Ashling,low,0,0,1,1,0,1,0,1,Cloaked in ash fire robes.,https://drive.google.com/uc?export=view&id=1YHe1HDKrqAolrAgMv0eROOldT9TqUC83,GRUNTS
+50,Bone Eater,low,0,1,1,1,2,2,0,2,Gaunt figure gnawing bones.,https://drive.google.com/uc?export=view&id=10JPS7Pfp0m4WyPyo85tjeD12EWeukCrm,GRUNTS
+51,Crimson Youth,low,1,0,2,0,2,2,0,2,Painted in blood-red clay.,,GRUNTS
+52,Chant Twins,low,1,1,0,2,1,2,0,2,"Two initiates bound together, chanting in unison.",https://drive.google.com/uc?export=view&id=1ykukUSrCDIDmgNa6OgkRZwVaZ5LYNGoZ,GRUNTS
+53,Idol Servant,low,1,2,0,2,0,2,0,2,Bare-chested acolyte chained to idol fragments.,https://drive.google.com/uc?export=view&id=12YB08GO6DxEOomQeyoT_jSCglitgNbQA,GRUNTS
+54,Hill Raider,low,3,1,1,3,1,3,1,4,"Leather-clad, mountain tattoos.",https://drive.google.com/uc?export=view&id=1ZPaKhKsfHl_ZZyfa0IrQRthet4BNjlFF,GRUNTS
+55,Oasis Thief,low,0,0,2,0,1,1,0,1,"Wears water skins, blue scarf.",https://drive.google.com/uc?export=view&id=1J9eR7hp_oEybHedCVOJg_fnRG2veiCba,GRUNTS
+56,Caravan Breaker,low,2,1,1,2,1,2,0,2,"Heavily armed, desert cloak.",https://drive.google.com/uc?export=view&id=1jUKwI3tFMYAEHw-_ET2pe-FA_aKKYECn,GRUNTS
+57,Dust Rider,low,0,1,2,1,1,2,0,2,Mounted on skeletal horse.,https://drive.google.com/uc?export=view&id=1LUPZVb0oRy0EIKhL_TZavuKmJ4E-m56u,GRUNTS
+58,Night Prowler,low,1,1,0,0,2,1,0,1,"Dark garb, glowing yellow eyes.",https://drive.google.com/uc?export=view&id=1yYHfAHIR4aBLBOdJ7PlLphuHzLxAxM6A,GRUNTS
+59,Desert Vulture,low,1,0,2,1,1,2,0,2,Giant carrion bird.,https://drive.google.com/uc?export=view&id=1Ny_UfJNkMcNkbBIEHvWYiibwh8hhTkH1,GRUNTS
+60,Marsh Toad,low,1,0,1,2,1,2,0,2,"Bloated, warty giant toad.",https://drive.google.com/uc?export=view&id=1MU9bdCX0DzEdu1rOQVsK9Qo1IAWA7_hZ,GRUNTS
+61,Fire Beetle,low,1,2,0,2,0,2,0,2,Beetle with glowing ember shell.,https://drive.google.com/uc?export=view&id=1KYNm9CyXQjc1BDVGjsRqDeXOAwJh_tTX,GRUNTS
+62,Ash Rat,low,0,1,2,2,1,2,0,2,Rat with glowing red eyes.,https://drive.google.com/uc?export=view&id=1kHm1RrPpjk94Ra6ir9ao6DFUBRHIGJG_,GRUNTS
+63,Sand Wormling,low,1,2,0,1,1,2,0,2,Small dune-burrowing worm.,https://drive.google.com/uc?export=view&id=1CYV8COQXzYsS-OGlehWn74aD8dBcGRjc,GRUNTS
+64,Plague Bat,low,1,0,1,2,0,1,0,1,Diseased winged bat.,https://drive.google.com/uc?export=view&id=1blqZfZRGQ6RnUr6fDjHXIboKTYiMagKC,GRUNTS
+65,Slime Lizard,low,1,1,2,0,0,1,0,1,"Slick, glowing amphibian.",https://drive.google.com/uc?export=view&id=1fPesq9IX7wmr1ZL2amxA3aasQL-6vdEd,GRUNTS
+66,Rust Mite,low,0,0,3,2,0,2,0,2,Metallic-eating insect swarm.,https://drive.google.com/uc?export=view&id=1ZZnBTyb3fVsy2QkSIAXbvfV0Xo3yV90O,GRUNTS
+67,Tunnel Spider,low,1,1,0,1,0,1,0,1,Hairy cave spider.,https://drive.google.com/uc?export=view&id=1Zr-Bej_TpKRHTudCtqtUiQv5esyP9tFW,GRUNTS
+68,Shadow Eel,low,1,2,3,0,1,2,0,2,Black eel with glowing eyes.,https://drive.google.com/uc?export=view&id=1TA-T_H1QG2QHvpiGHJ3qYTulPHzxjqbg,GRUNTS
+69,Sludge Slime,low,1,2,1,3,0,2,0,2,Amorphous green ooze.,https://drive.google.com/uc?export=view&id=14GDt5x3oQaoxILKmNLKrGp-G-X7FKAps,GRUNTS
+70,Filth King,low,0,1,3,2,0,2,0,2,Massive rat swarm bound together.,https://drive.google.com/uc?export=view&id=1GpHilU5Ho8QNv3WsNnnERt5hFtXLRYfJ,GRUNTS
+71,Rust Slug,low,0,3,0,2,0,2,0,2,Iron-shelled slug.,https://drive.google.com/uc?export=view&id=12rWA7p9Mr13G4qXn5pPal9Y6F7lHTwZj,GRUNTS
+72,Canal Lamprey,low,1,1,3,1,1,2,0,2,Lamprey with barbed maw.,https://drive.google.com/uc?export=view&id=1_e-nB21x7kzJGihy-WguzaZaiGdf3CFl,GRUNTS
+73,Bone Centipede,low,0,2,1,2,0,2,0,2,White segmented beast with bone plates.,https://drive.google.com/uc?export=view&id=18C5b-zCaLg9AC7XU6BIXoavroEw1HjWF,GRUNTS
+74,Fungus Creeper,low,0,0,1,0,1,1,0,1,Humanoid fungus growth.,https://drive.google.com/uc?export=view&id=1w9N9z6iH8tTHey0d6XWC44Tyj89Y6lsE,GRUNTS
+75,Cistern Horror,low,1,1,0,2,1,2,0,2,Gigantic slime amalgamation.,https://drive.google.com/uc?export=view&id=1xWxkpcmCBaXx_SiuWAGmNswVw6YTwqjf,GRUNTS
+76,Iron Lash,low,2,0,1,1,1,2,0,2,"Muscular captain clad in bronze scale, wielding spiked whip.",https://drive.google.com/uc?export=view&id=1r9k6RqvhLAKZjm301AOFV7Fk4mtHSoM8,GRUNTS
+77,Bronze Spear,low,0,1,0,3,1,2,0,2,"Veteran soldier, ornate bronze spear tipped with obsidian.",https://drive.google.com/uc?export=view&id=1TUPh1NdJsl3T5mAowEGdcrtiMSpuliDt,GRUNTS
+78,Gold Captain,low,1,1,2,0,1,2,0,2,"Bronze armor with gilded mask, whip and short sword.",https://drive.google.com/uc?export=view&id=1DoNQd8UogPl1R7zhRoB3pu4uSuiGRy4t,GRUNTS
+79,Ash Priest,low,0,2,0,2,1,2,0,2,Tall priest with ash veil.,https://drive.google.com/uc?export=view&id=1zo6zFOVvUfS1Afr-aGD-eXSIam-O7FOQ,GRUNTS
+80,Blood Evoker,low,0,3,1,1,0,2,0,2,Gaunt priest with bleeding hands.,https://drive.google.com/uc?export=view&id=1zyWgFCcVGpXkHzsvcg2dMtu3EXdvPmMS,GRUNTS
+81,Hymncaller Priest,low,0,2,0,3,0,2,0,2,Chanting priestess with bone chimes.,https://drive.google.com/uc?export=view&id=13CLTlsUaw3Wnve1fqazF7wf9QvhMyKYh,GRUNTS
+82,River Wolf,low,1,3,2,1,0,2,0,2,"Painted in blue tattoos, wolf pelt cloak.",https://drive.google.com/uc?export=view&id=1oPlJdtc3ZCbLpeOi7lo8fHNmDURN_1Af,GRUNTS
+83,Desert Hawk,low,1,2,1,3,1,3,1,4,"Bronze-feather cloak, hawk mask.",https://drive.google.com/uc?export=view&id=1MbzgnC1lEWD8FyzV466uC4rdohPRdc50,GRUNTS
+84,Marsh Stalker,low,1,1,1,2,3,3,1,4,"Reed armor, body smeared with swamp mud.",https://drive.google.com/uc?export=view&id=1mx10kQMjqBIrvUunp-G4z-CveL_zXTsv,GRUNTS
+85,Jackal Alpha,low,0,0,0,2,2,2,0,2,Oversized jackal with scarred muzzle.,https://drive.google.com/uc?export=view&id=1NWSxLRv-JjhgaDSEl29uaN5eJMoNohFn,GRUNTS
+86,Serpent Queen,low,1,3,1,0,0,2,0,2,Massive reed serpent crowned with bone frill.,https://drive.google.com/uc?export=view&id=1im7qVWlXaK4Dp1uUIT1S4kYO5ZuZEIaB,GRUNTS
+87,Scorpion King,low,1,0,1,1,1,1,0,1,Huge black scorpion with molten veins.,https://drive.google.com/uc?export=view&id=1nzGV8hd6ojQib2rVGOilzlcd-1qn_Ww8,GRUNTS
+88,Hyena Matron,low,1,1,0,1,2,2,0,2,Enormous matriarch hyena.,https://drive.google.com/uc?export=view&id=1puuNyVadLaYgEj0L1nxrQDyE5dsDe0OC,GRUNTS
+89,Ink Tongue,low,2,1,1,2,1,2,0,2,Mouth stained black with cursed ink.,https://drive.google.com/uc?export=view&id=1mBpBPj9Un87zt7E9CoE9KqfksLxNDEpv,GRUNTS
+90,Dust Librarian,low,1,1,0,1,0,1,0,1,Hooded scribe with sand-dusted scrolls.,https://drive.google.com/uc?export=view&id=1UFaFgHDnBgiWIoqoX8GKule61X5Y-2Al,GRUNTS
+91,Cuneiform Shade,low,1,3,1,3,1,3,1,4,Shadowy form covered in glowing glyphs.,https://drive.google.com/uc?export=view&id=1zRWneKKC2gMecunUTQgEjFyc5xT85qMF,GRUNTS
+92,Bronze Automaton,low,0,1,2,2,1,2,0,2,Clunky humanoid frame of bronze gears.,https://drive.google.com/uc?export=view&id=1mOvWMk9TVpjnqMBy8R2Q5YkKY0eNpp5-,GRUNTS
+93,Chain Thrower,low,1,0,1,0,3,2,0,2,Siege operator with twin hook launchers.,https://drive.google.com/uc?export=view&id=1-_gyJRoTQJLNhVt6hBpdy1_Y2HG5djUU,GRUNTS
+94,Siege Ox,low,1,0,3,0,1,2,0,2,Armored oxen bred for war.,https://drive.google.com/uc?export=view&id=1bqSCy0Qb_9e-shGNuuKZazX-aIFxIk8z,GRUNTS
+95,Fire Bearer,low,1,1,0,3,3,3,1,4,Slave-soldier carrying pots of burning oil.,https://drive.google.com/uc?export=view&id=1YoDj0e6U5YNg4Yv1CbDOfHaxOFLvDA1F,GRUNTS
+96,Obsidian Helm,low,1,2,1,1,2,2,0,2,"Dark helmet forged of obsidian, ornate crimson cloak.",https://drive.google.com/uc?export=view&id=180Qpg4yTNgcXMvNl_1NwAZmXbtgSNDLJ,GRUNTS
+97,Chain Marshal,low,1,0,3,0,3,3,1,4,"Overseer in blackened bronze, chains wrapped as armor.",https://drive.google.com/uc?export=view&id=1v0rvY8Dv8IK62sN6L9diAbeWNg560YkR,GRUNTS
+98,Ash Oracle,low,0,1,1,2,2,2,0,2,Blindfolded woman covered in soot.,https://drive.google.com/uc?export=view&id=1OzlYHO3ALN6FMdufaIIN7cweZonLSu15,GRUNTS
+99,Blood Prophet,low,1,1,1,2,3,3,1,4,"Emaciated, red tattoos across chest.",https://drive.google.com/uc?export=view&id=1pesbfT2CdfIlndwb_QUFzg5DTZdxkY2_,GRUNTS
+100,Bone Choir,low,2,0,0,2,1,2,0,2,Trio of skeletal singers bound together.,https://drive.google.com/uc?export=view&id=1cHTQkKqveGe-iQlH6an6OySSk6vpiTP5,GRUNTS
+101,Hill Ram,low,1,1,2,1,1,2,0,2,Mountain champion with ram horns and stone hammer.,https://drive.google.com/uc?export=view&id=1Gb4XRVwdpWPp5XtzgwQRux1cOuoQuHbZ,GRUNTS
+102,Desert Viper,low,1,1,1,1,2,2,0,2,"Painted in green sands, snake totems.",https://drive.google.com/uc?export=view&id=1dApEi3DbXw907rwqzWdFdwgt-v4m5KkA,GRUNTS
+103,River Titan,low,1,0,0,1,3,2,0,2,"Colossal warrior clad in fishbone armor, wielding trident.",https://drive.google.com/uc?export=view&id=1JV3VQBmDMUH3ySQvnn39U1Wqq5cObjG9,GRUNTS
+104,Crocodile Warlord,low,0,2,0,1,2,2,0,2,Oversized armored crocodile.,https://drive.google.com/uc?export=view&id=1_kYd8zNVoL2tLZmpEeQs_ylwvUo4vVr7,GRUNTS
+105,Vulture Queen,low,1,2,0,2,1,2,0,2,Enormous carrion bird with bone crown.,https://drive.google.com/uc?export=view&id=1PFkh8sVcF0S7vhs6qlPcVRzA_gpzDqlo,GRUNTS
+106,Frog Mother,low,1,2,0,2,0,2,0,2,Towering amphibian with glowing throat sac.,https://drive.google.com/uc?export=view&id=1HTCQfb3M-Y5rmql6C5_wf-yap09Lur8j,GRUNTS
+107,Desert Boar,low,0,0,2,0,3,2,0,2,"Tusks of obsidian, armor of sandstone.",https://drive.google.com/uc?export=view&id=1iLSHNASxljx67It-Z_aLsbbl3VLKNWSe,GRUNTS
+108,Tablet Binder,low,1,1,2,3,1,3,1,4,Emaciated scholar fused to clay tablet.,https://drive.google.com/uc?export=view&id=1gn3YHXKeR3-CV-int6BRahd8dS3A1qM3,GRUNTS
+109,Sand Archivist,low,0,1,0,1,1,1,0,1,"Cloaked, carrying sand-filled scrolls.",https://drive.google.com/uc?export=view&id=1S4bo6sJxboXnMRUNe4iyyge5TxTLptie,GRUNTS
+110,Word Eater,low,0,2,0,2,1,2,0,2,Hollow-mouthed figure with glowing runes.,https://drive.google.com/uc?export=view&id=1eZh7rTBo_E_nMzsX89Ket2h8HvuUfslL,GRUNTS
+111,Iron Juggernaut,low,0,1,2,3,0,2,0,2,"Gladiator clad in iron plates, massive hammer.",https://drive.google.com/uc?export=view&id=133500TJiBaQ-AHQMwDdcI3owaJ8Uuju8,GRUNTS
+112,Fire Ram,low,1,1,2,0,0,1,0,1,Wooden ram wrapped in burning oil.,https://drive.google.com/uc?export=view&id=1gG5VBErOxe-gehDGLFrW6dwASt83semg,GRUNTS
+113,Bone Chariot,low,2,1,1,2,0,2,0,2,"Chariot built from bones, pulled by skeletal oxen.",https://drive.google.com/uc?export=view&id=12kMq8dS-4LXf2U9q9eTpSTnu7N0CSPfi,GRUNTS
+114,Siege Idol,low,0,3,0,1,1,2,0,2,Massive idol animated by cult.,https://drive.google.com/uc?export=view&id=1xbZKAsM_bXdui46YUionRCS3qzvXPkfG,GRUNTS
+115,Oil Hydra,low,0,1,1,2,0,1,0,1,Multi-headed automaton spewing burning oil.,https://drive.google.com/uc?export=view&id=190utq9V5BmEtHoHMbCxCF87chvOPmceZ,GRUNTS
+116,Oath Singer,low,0,1,0,1,3,2,0,2,Robed figure with scrolls bound to arms.,https://drive.google.com/uc?export=view&id=1XkTRAeRAQroxoDOsR3FbpDB3lfzONZFC,GRUNTS
+117,Tax Shade,low,2,2,1,1,0,2,0,2,"Phantom in tattered robes, clutching tablets.",https://drive.google.com/uc?export=view&id=10fiBsYzkjE7Sx_V_Getm0JH85j6gH-Yg,GRUNTS
+118,Ash Binder,low,0,3,0,3,1,3,1,4,Thin figure coated in grey ash.,https://drive.google.com/uc?export=view&id=1zXvxBeaYPcLwAJjko0CjvHk-pqFXY3c-,GRUNTS
+119,Mirror Reed,low,0,2,1,1,0,1,0,1,"Shimmering reed armor, reflective water mask.",https://drive.google.com/uc?export=view&id=1e-O65NiLozCt4hBhF-mE98uxAPr8zJcR,GRUNTS
+120,Sand Mirage,low,1,3,0,1,2,2,0,2,Cloaked desert nomad with glowing eyes.,https://drive.google.com/uc?export=view&id=1igiWGfc2xAg-VwPlTiychLALyXvC2wQ3,GRUNTS
+121,Echo Voice,low,0,0,1,1,2,1,0,1,"Mouth painted black, surrounded by whispers.",https://drive.google.com/uc?export=view&id=1_rn-L_aOj8sNLLnLxFShl3tlk6_p-EKE,GRUNTS
+122,Scorpion Alchemist,low,1,2,1,0,1,2,0,2,"Hooded with vials, scorpion tattoo on face.",https://drive.google.com/uc?export=view&id=14sDgCl4C5ZLDJh5W8hFp8M3dHtQYF1yx,GRUNTS
+123,Reed Brewmaster,low,2,0,1,1,1,2,0,2,Reed-wrapped figure with gourds.,https://drive.google.com/uc?export=view&id=1kD1DtlZxlIpKKKHPC2g7hCInwZXPIQkf,GRUNTS
+124,Toxin Whisperer,low,1,2,1,1,0,2,0,2,Thin robed figure with green smoke trailing mouth.,https://drive.google.com/uc?export=view&id=1JigWhJvgtd_FfQSbaMl2H2Z9u98mHPGw,GRUNTS
+125,Bone Caller,low,2,1,2,1,1,2,0,2,Wears necklace of skulls.,https://drive.google.com/uc?export=view&id=1gNfmqvFiX8VpJcTsROrsZb4WBOvA_i8D,GRUNTS
+126,Idol Chanter,low,0,2,1,0,0,1,0,1,Chained to idol fragments.,https://drive.google.com/uc?export=view&id=1zDi2Bb4y2MgszqbnjVEwW2q7_3ITyIp3,GRUNTS
+127,Blood Keeper,low,1,2,1,2,0,2,0,2,"Figure covered in red runes, clay tablets strapped to chest.",https://drive.google.com/uc?export=view&id=1nKJfBiOb8Ur1A2Jb20CzhoXpOuJWKeQT,GRUNTS
+128,Trap Setter,low,0,0,1,1,1,1,0,1,Ragged worker with rope and spikes.,https://drive.google.com/uc?export=view&id=1_MaJSJUCSB8x-Fm3cKeLWoIFsVtsGBce,GRUNTS
+129,Fire Sapper,low,2,1,2,0,0,2,0,2,"Blackened armor, oil canisters on belt.",https://drive.google.com/uc?export=view&id=1VddRGgLSuH3LO4OKpas9yfknpxURH7TW,GRUNTS
+130,Collapse Worker,low,0,1,0,3,1,2,0,2,"Covered in dust, carrying chisels.",https://drive.google.com/uc?export=view&id=1QBmk3EWlPi3tPo_siWkjbiBEvsKXgyOi,GRUNTS
+131,Plague Drummer,low,0,1,0,1,3,2,0,2,"Carries bone drums, pustules covering skin.",https://drive.google.com/uc?export=view&id=1laijSQ05qRmlGEGvafj8pCZMrMtJtolU,GRUNTS
+132,Ember Masker,low,2,0,2,1,1,2,0,2,Wears mask of burning ember wood.,https://drive.google.com/uc?export=view&id=14xjLzYeIa4m7DiJhKsyJ7yfoss1vWUho,GRUNTS
+133,Soul Drinker,low,1,1,2,3,0,2,0,2,Hollow-eyed cultist with black smoke rising.,https://drive.google.com/uc?export=view&id=1HYps_KMdfrHq7GQKyOyoogHDO3J49z_l,GRUNTS
+134,Glass Weaver,low,2,1,2,0,0,2,0,2,Shards embedded in flesh.,https://drive.google.com/uc?export=view&id=1PwMNb9vv2M4RGcfTKTMyiEETq9mLr1T1,GRUNTS
+135,Tomb Scrivener,low,1,3,1,2,0,2,0,2,Scribe chained to gravestones.,https://drive.google.com/uc?export=view&id=1EAM-oYb7WnhFV2syRGyCBvVFHrnLwsII,GRUNTS
+136,Shadow Binder,low,0,0,2,1,0,1,0,1,"Dark robes, shadow tendrils sprouting.",https://drive.google.com/uc?export=view&id=1NpcmGDSuR_6w1qmDqdCSUtqb0ajPXJvK,GRUNTS
+137,Idol Puppeteer,low,1,2,1,2,1,2,0,2,Masked figure with strings of bone.,https://drive.google.com/uc?export=view&id=1_aJUNfX3LZCJvERLOXFmzr5j3J4VziP8,GRUNTS
+138,Sand Oracle,low,0,1,2,2,1,2,0,2,Cloaked desert mystic with sand swirling around.,https://drive.google.com/uc?export=view&id=1b1_OeSxEbXBxSwv1HmGxn38m1RI__d0Q,GRUNTS
+139,Blood Plucker,low,1,2,0,0,2,2,0,2,Cloaked with sharp talons.,https://drive.google.com/uc?export=view&id=1H32DM2EZf8rc82Be0A_iuG_gl8KhKiDJ,GRUNTS
+140,Furnace Caller,low,1,0,2,2,0,2,0,2,Cloaked cultist glowing red from within.,https://drive.google.com/uc?export=view&id=1lt-KAw1Vi0gImvP9IeI5wbVVwYh9IX-d,GRUNTS
+141,Golden Whip,low,3,0,2,0,0,2,0,2,"Overseer clad in gilded armor, wielding massive golden whip.",https://drive.google.com/uc?export=view&id=122pjvwpdTfSfGdglqFmDjVfRVIol3ItB,GRUNTS
+142,High Priest,low,0,1,2,0,1,1,0,1,"Towering figure in red-ash robes, mask of charred bone.",https://drive.google.com/uc?export=view&id=18uA1xDcr2GYC93fEcR5lN_c7jFxkPoVt,GRUNTS
+143,River Warlord,low,0,2,2,1,1,2,0,2,"Armored raider leader, reed-boat fleet commander.",https://drive.google.com/uc?export=view&id=1urSNlQC_rTqHic8RZbRVH8nYevDo8s_K,GRUNTS
+144,Scorpion Queen,low,1,1,1,1,2,2,0,2,Colossal scorpion with glowing molten carapace.,https://drive.google.com/uc?export=view&id=1gVHELU2VzIqhtM0OLUFUEgkZC2j-1WHJ,GRUNTS
+145,Sand Golem,low,2,2,1,1,1,2,0,2,Humanoid colossus of shifting sand and stone.,https://drive.google.com/uc?export=view&id=1uzAhu8zlHLsItlL6mnO1atmGrBzOeL6K,GRUNTS
+146,Idol Shade,low,2,1,1,0,1,2,0,2,Tall ghost bound to broken idol fragments.,https://drive.google.com/uc?export=view&id=1PLC2HkUgELTcejZ5kWLrYOG1CVN7iJA7,GRUNTS
+147,Reed Leviathan,low,3,0,1,3,1,3,1,4,Massive serpent dwelling in marsh canals.,https://drive.google.com/uc?export=view&id=1jdc4m8KHcRgYvfyRMyO89SqRGwFEKV3J,GRUNTS
+148,Oathkeeper Ghost,low,1,1,3,0,2,2,0,2,Spirit judge wrapped in glowing Kudran glyphs.,https://drive.google.com/uc?export=view&id=1mWKmDnssUD6MdLSXa7jupNPFcK4u6mfb,GRUNTS
+149,Bronze Colossus,low,1,0,2,1,1,2,0,2,Towering bronze automaton with war axe.,https://drive.google.com/uc?export=view&id=1fSN4lLaF1x1l94GBubmI8MSPoABAq-jR,GRUNTS
+150,Marsh Phantom,low,1,3,1,1,1,2,0,2,Pale wraith drifting in swamp fog.,https://drive.google.com/uc?export=view&id=1R7QEyoWAzuOksmRhlPWyyTrqndjqwNzC,GRUNTS
+151,Fire Jackal,low,1,0,1,2,1,2,0,2,Oversized jackal glowing with molten veins.,https://drive.google.com/uc?export=view&id=1Ccsho_K3Ew3m1kZUr3dOwQxs4TrBfOXP,GRUNTS
+152,Drowned Archivist,low,1,1,0,1,0,1,0,1,"Scribe drowned and reanimated, scrolls dripping water.",https://drive.google.com/uc?export=view&id=193sYU7l9LfZpilDn5yZXwFbb1FRM3UDt,GRUNTS
+153,Obsidian Lion,low,2,0,2,1,1,2,0,2,"Giant lion carved of black stone, animated with fire.",https://drive.google.com/uc?export=view&id=1Av-OsQzkgkWM4VDtPe6G9Sr2Nub_t5JV,GRUNTS
+154,Taxlord Balash,low,0,3,1,1,1,2,0,2,"Bloated overseer in golden robes, mace and ledger.",https://drive.google.com/uc?export=view&id=1LE57dFVtqlV27_oBAbfEhQCR3R_qf8T5,GRUNTS
+155,Pit Champion,low,1,1,0,2,3,2,0,2,Massive gladiator scarred from decades in pits.,https://drive.google.com/uc?export=view&id=1q9wUj19bURUXFw34Pb1O429f8AtmJda-,GRUNTS
+156,Masked King,low,2,0,3,0,0,2,0,2,"Human warlord draped in ceremonial robes, golden mask concealing his scarred face.",https://drive.google.com/uc?export=view&id=1KASHxNXMeADYqERbJiyugJxM8SXnw1PR,GRUNTS
+157,Abyssal Archivist,low,2,1,0,0,1,1,0,1,"Gaunt figure cloaked in scrolls, flesh merging with ink and waterlogged parchment.",https://drive.google.com/uc?export=view&id=1MhO6NbnnCeUUzHVG24SZ6oF0at-3aCnu,GRUNTS
+158,Vowbinder Judge,low,0,1,1,1,2,2,0,2,"Spectral judge draped in glyph chains, half-human, half-wraith.",https://drive.google.com/uc?export=view&id=1md2uG47Vy06rxONG9XhsvSq1Yy__9wdu,GRUNTS
+159,Bone Queen,low,0,3,2,0,0,2,0,2,"Monstrous scorpion with skeletal carapace, shrine markings carved into her chitin.",https://drive.google.com/uc?export=view&id=1mJjw12pif7_ZJ32I7SEd3zi44IqfN_O0,GRUNTS
+160,False Prophet,low,1,1,1,3,0,2,0,2,"Pale cult leader shrouded in burning red robes, staff tipped with ash crystal.",https://drive.google.com/uc?export=view&id=1NAtGpkZe-N9q68HeZIv-sU1F1Ai2OGxI,GRUNTS
+161,Enlil Vessel,low,0,2,1,1,0,1,0,1,"Towering figure clad in blackened gold, humanoid frame fused with cuneiform-marked stone.",https://drive.google.com/uc?export=view&id=16U-3zsq95OSU7PmYyOCbCsihaE_bbzSe,GRUNTS
+162,Chain Warden,low,0,1,0,2,3,2,0,2,"Hulking figure in tarnished lunar bronze, dragging chains.",https://drive.google.com/uc?export=view&id=1qkutwXYSJbv2Zckh_X7shQ5zXy4NxIyF,GRUNTS
+163,Lash Overseer,low,0,3,1,1,0,2,0,2,Scarred taskmaster wielding lunar whip.,https://drive.google.com/uc?export=view&id=1rh1ZbQDxxpI4tuiAbPPsP3n6ufnrv3Al,GRUNTS
+164,Bronze Gaoler,low,2,1,3,0,0,2,0,2,"Tower shield and mace, heavy bronze armor.",https://drive.google.com/uc?export=view&id=1_3R2yRwi7urIAG2ApJf8bvasbYYrVDZs,GRUNTS
+165,Shacklebearer Guard,low,3,1,1,0,2,2,0,2,Emaciated figure carrying manacles.,https://drive.google.com/uc?export=view&id=1oStpy8zir03Am2IL00lxbYFcZWwQ-wtG,GRUNTS
+166,Pit Guard,low,0,1,1,1,1,1,0,1,Broad-shouldered guard with spiked helmet.,https://drive.google.com/uc?export=view&id=1dX2skg-9RDl39rFxmHRhSltPCJb9fQAe,GRUNTS
+167,Ironbound Horror,low,3,0,0,1,1,2,0,2,Shackled beast with iron plates fused to flesh.,https://drive.google.com/uc?export=view&id=1DV97-P-AvJw3lh97upy2W6Qo6Ph_Nbpb,GRUNTS
+168,Screamer Wraith,low,0,0,2,2,1,2,0,2,Ghostly prisoner screaming endlessly.,https://drive.google.com/uc?export=view&id=1VbRnwLJnbLk_8qJFUqubU3qPuQVauM_y,GRUNTS
+169,Bone Gnawer,low,0,0,0,1,3,2,0,2,Emaciated humanoid gnawing bones.,https://drive.google.com/uc?export=view&id=1vzmzwazD0jjYss4LRynFKlXB52jpDBn0,GRUNTS
+170,Shackled Ghoul,low,2,2,0,1,0,2,0,2,"Pale-skinned, bound in eternal chains.",https://drive.google.com/uc?export=view&id=1dPkv_ASfvfQjniryLtROjdLIc41AEfCF,GRUNTS
+171,Howling Fiend,low,1,1,1,1,0,1,0,1,Bestial prisoner with muzzle broken open.,https://drive.google.com/uc?export=view&id=1CdX9DPMX7ccdqPOZrQzR0x0p1mxEWGtu,GRUNTS
+172,Moon Acolyte,low,1,1,0,0,1,1,0,1,"Pale robed initiate, crescent brand on forehead.",https://drive.google.com/uc?export=view&id=1tYmImZYp3CGrIgJWCRW-baumcmOBNcNz,GRUNTS
+173,Eclipse Chanter,low,2,0,0,3,1,2,0,2,Hooded priest with eclipse sigil.,https://drive.google.com/uc?export=view&id=1eOV7rHnR-8Lsd6Mr3GDqX2cO6NHmVd6P,GRUNTS
+174,Shadow Knifebearer,low,0,0,0,3,1,2,0,2,"Assassin garbed in black cloth, twin crescent blades.",https://drive.google.com/uc?export=view&id=1yGZebfPxEvBZEYbAq2Jdmo9TP5gu4Uu-,GRUNTS
+175,Pale Prophet,low,1,1,1,0,0,1,0,1,"Blindfolded priestess, eyes glowing beneath cloth.",https://drive.google.com/uc?export=view&id=10FlyUup-nTxx29JvycYLY0qUE0865A4z,GRUNTS
+176,Void Hymnist,low,1,2,1,0,2,2,0,2,Emaciated singer with throat tattooed in runes.,https://drive.google.com/uc?export=view&id=19YQU4m9rjhTstDlrcnPEPqE_efXdMu95,GRUNTS
+177,Moonfang Wolf,low,1,2,0,2,0,2,0,2,Large wolf with pale fur glowing faintly silver.,https://drive.google.com/uc?export=view&id=1hrJAxRPxjPvqS8bqXxJbbCp0fHrgJI7E,GRUNTS
+178,Pale Stalker,low,0,1,0,0,2,1,0,1,"Emaciated beast with elongated limbs, pale hide.",https://drive.google.com/uc?export=view&id=1qnHDyw_iHniE2MccZDm2hNzuZEeCrmwQ,GRUNTS
+179,Shardback Boar,low,3,1,0,0,0,2,0,2,Boar with crystalline spines jutting from back.,https://drive.google.com/uc?export=view&id=1Pj8m4W5IWyESh3QP0pzfnAUYISf_Vb-a,GRUNTS
+180,Dusk Serpent,low,2,1,2,0,1,2,0,2,Black-scaled serpent with glowing underbelly.,https://drive.google.com/uc?export=view&id=1O31beqtbkOB_pl-kYpggORWVVojSssl-,GRUNTS
+181,Chittering Bat,low,2,0,2,0,0,2,0,2,Colony of pale bats swarming from caverns.,https://drive.google.com/uc?export=view&id=174quCaHN1CjuvJYOg-RISSsPq2t_lX9i,GRUNTS
+182,Crater Rat,low,0,1,2,1,2,2,0,2,Oversized rat with glowing red eyes.,https://drive.google.com/uc?export=view&id=1GeWtZ3Sg975T_17jfMet-yOj_pZn2cTo,GRUNTS
+183,Ash Beetle,low,1,2,0,3,0,2,0,2,Beetle with burning carapace.,https://drive.google.com/uc?export=view&id=1yZssI0rXRa4QoXHwJkSKOIGpei57j1YQ,GRUNTS
+184,Hollow Tick,low,0,0,2,3,1,2,0,2,Bloated tick filled with pale fluid.,https://drive.google.com/uc?export=view&id=1Xlz5pm7KYHX11s4fetuN5d6thLCPuCfe,GRUNTS
+185,Fungus Mite,low,1,1,1,2,1,2,0,2,Tiny glowing mites crawling in groups.,https://drive.google.com/uc?export=view&id=1bMLbNUvuKniMZaQLxtzYij7pWAoHDL0u,GRUNTS
+186,Crystal Louse,low,1,1,1,1,2,2,0,2,Insect with crystalline shell.,https://drive.google.com/uc?export=view&id=1JXQBdbDwDtGG2vPxjmvwMouS70-rL8Ky,GRUNTS
+187,Shackled Wraith,low,1,1,2,0,2,2,0,2,Ghostly prisoner dragging chains.,https://drive.google.com/uc?export=view&id=11ADd-YsOeNNmlaFpoH9go_Gw2VqFalQ7,GRUNTS
+188,Lantern Shade,low,1,0,2,1,1,2,0,2,Shadowy figure carrying a flickering lantern.,https://drive.google.com/uc?export=view&id=1RvlDm_Sms7dRfYnO5gg4RE6j_JMOhfNy,GRUNTS
+189,Pale Ghast,low,0,3,1,1,3,3,1,4,Hollow-eyed humanoid glowing faintly.,https://drive.google.com/uc?export=view&id=1lxA18ltn8D9gGuIdyo_QF71lFKI85uF-,GRUNTS
+190,Bonebound Spirit,low,1,2,3,1,1,3,1,4,Spirit fused with skeletal remains.,https://drive.google.com/uc?export=view&id=1yI-2INbpq0TNFjEyqQF-G7VfVOuU1YfA,GRUNTS
+191,Eclipse Revenant,low,0,1,0,3,3,3,1,4,"Tall spectral warrior, eclipse carved on helm.",https://drive.google.com/uc?export=view&id=1s0g6SVkBTWIW6G2lWQ9svjxq8G-pS29f,GRUNTS
+192,Pit Fighter,low,1,3,0,2,1,2,0,2,"Scarred slave clad in scraps, wielding spiked club.",https://drive.google.com/uc?export=view&id=1S0F2U66z_WqzvAlMfkr-s9bO3urJVQie,GRUNTS
+193,Arena Brute,low,0,1,2,0,2,2,0,2,"Gladiator scarred and chained, wielding club.",https://drive.google.com/uc?export=view&id=16Cy4aB2ec0_G_qW9ulEKeeEsvISKSTmo,GRUNTS
+194,Blood Duelist,low,1,2,0,1,1,2,0,2,"Agile fighter, red-stained blades.",https://drive.google.com/uc?export=view&id=1cBvAn6IEOWldOz5G6qr-svLWjKcbj4Ur,GRUNTS
+195,Masked Slayer,low,0,0,2,0,2,2,0,2,Gladiator with crescent mask and twin axes.,https://drive.google.com/uc?export=view&id=1NvOOZJXBnR9oK6S-Qmn2uN9oPiVGJEQ3,GRUNTS
+196,Slave Champion,low,1,0,1,0,1,1,0,1,Gladiator wielding chained sickles.,,GRUNTS
+197,Tunnel Crawler,low,3,2,0,1,1,2,0,2,Pale humanoid with claws adapted for rock.,https://drive.google.com/uc?export=view&id=1yhyYGR77bfEBbxEvBKMX5LwpQzL5dQt0,GRUNTS
+198,Crater Lurker,low,1,2,1,2,0,2,0,2,Hulking brute with crater-stone armor.,https://drive.google.com/uc?export=view&id=16tpobgCfiYvDMSzSqvZWA_fDAb3O-Mf-,GRUNTS
+199,Blind Crawler,low,1,1,0,3,1,2,0,2,"Faceless humanoid, elongated claws.",https://drive.google.com/uc?export=view&id=1KYcjsMFHA_D3I41S6Zyhze3icdq6ZYJs,GRUNTS
+200,Spore Drudge,low,1,0,2,0,0,1,0,1,Slave infected with glowing fungi.,https://drive.google.com/uc?export=view&id=1ZiPBT2_poMRdYlI_pGwLrasRgMuTTqwu,GRUNTS
+201,Rockgnasher Beast,low,2,2,1,1,0,2,0,2,Beast with stony hide and crystalline teeth.,https://drive.google.com/uc?export=view&id=1J2jy7nyao3RoQxw7DxmEPjK7zjtN-QGd,GRUNTS
+202,Silver Rat,low,1,3,1,1,2,3,1,4,Rat with shimmering silver fur.,https://drive.google.com/uc?export=view&id=1h1vdF6MKjQCZUSFdAZR_m2Rn9_Oyy7bq,GRUNTS
+203,Glow Beetle,low,0,0,2,2,1,2,0,2,Luminescent beetle glowing blue.,https://drive.google.com/uc?export=view&id=18oqmEIg_ZCXfIi1QGkiZTi4lMZt-nJWa,GRUNTS
+204,Crystal Wasp,low,0,3,2,0,1,2,0,2,Wasp with crystal stinger.,https://drive.google.com/uc?export=view&id=1oyik7QgAhN835u2n6eZbRvOitxuMGleK,GRUNTS
+205,Ash Spiderling,low,0,1,0,1,2,1,0,1,Small spider covered in lunar ash.,https://drive.google.com/uc?export=view&id=1G2IultqM_XbFlfi7Pgwx0EOs6O1UbYO1,GRUNTS
+206,Void Leech,low,1,1,1,1,1,1,0,1,Wormlike parasite glowing black.,https://drive.google.com/uc?export=view&id=1NuudyL-IQhLYSDZ4yZp0aBM2QO_H41_r,GRUNTS
+207,Bronze Sentinel,low,2,1,1,2,0,2,0,2,Animated statue clad in bronze.,https://drive.google.com/uc?export=view&id=1-TfmIJTiKR7K0m9ajrnKJVawaeF4DYJ2,GRUNTS
+208,Moon Idol,low,0,1,2,1,1,2,0,2,"Statue of crescent moon, animated with runes.",https://drive.google.com/uc?export=view&id=1aXaqt136SxT8nHbA1DGiwoh154vE8plj,GRUNTS
+209,Chain Automaton,low,1,0,2,2,1,2,0,2,Construct covered in rattling chains.,https://drive.google.com/uc?export=view&id=1ZUteBxYB2iE1lAG9SCw06v46fUL3Lfsg,GRUNTS
+210,Eclipse Drone,low,3,1,0,0,2,2,0,2,Small flying orb glowing with eclipse runes.,https://drive.google.com/uc?export=view&id=1-jnVd6Mjech8JznukFNE12xfvVqBXjRw,GRUNTS
+211,Void Obelisk,low,1,2,1,2,0,2,0,2,Shard of a fallen obelisk animated by void.,https://drive.google.com/uc?export=view&id=1Bz0LDNuolX--11GMc0wmQbG-UuGMMLEN,GRUNTS
+212,Rune Husk,low,2,0,2,0,1,2,0,2,"Corpse branded with cracked glyphs, glowing faintly.",https://drive.google.com/uc?export=view&id=1zl4C_UD0jhCSsFnCjor9Q2yHZPfuI-l4,GRUNTS
+213,Oath Spawn,low,0,1,1,3,1,2,0,2,Mutated being covered in vow-scars.,https://drive.google.com/uc?export=view&id=1g-JFifUHbYEAGEwsd70MTGhtwZTeRbhs,GRUNTS
+214,Halo Spawn,low,0,3,2,0,1,2,0,2,Twisted humanoid crowned with broken halo.,https://drive.google.com/uc?export=view&id=1AzEjEhpFtmtbMEalYpa0KEWCvSaB74ZB,GRUNTS
+215,Ash Horror,low,1,2,1,1,1,2,0,2,"Body of ash and smoke, burning eyes.",https://drive.google.com/uc?export=view&id=1-njbFDApM_nPO2UFvi0_dEdYEebXJs3z,GRUNTS
+216,Void Thrall,low,0,0,2,2,0,2,0,2,Hollow figure radiating void flame.,https://drive.google.com/uc?export=view&id=12ToTyyvovkproLZ4SIACL5zXwKh0K4dM,GRUNTS
+217,Broken Scribe,low,1,3,1,2,1,3,1,4,Scribe with cracked slate body.,https://drive.google.com/uc?export=view&id=1UHUH1vtJ3XuVRXJe1C3kNAwv5vnIF3Qh,GRUNTS
+218,Fallen Priest,low,3,0,0,1,2,2,0,2,"Priest with broken staff, robes torn.",https://drive.google.com/uc?export=view&id=1kpAb3wOBwjmtlgWL2SkP2uQezjlt7Oon,GRUNTS
+219,Exiled Gladiator,low,2,0,2,0,0,2,0,2,Scarred fighter in broken armor.,https://drive.google.com/uc?export=view&id=1S1u1A0ygY0n59N9i1KLsBVtHHeCH6KoI,GRUNTS
+220,Chain Drudge,low,2,0,0,1,0,1,0,1,Shackled slave covered in wounds.,https://drive.google.com/uc?export=view&id=1C8dNwuXRdJCn2wQWqtT1vjiS5uDcyZjf,GRUNTS
+221,Ash Servitor,low,1,2,0,1,2,2,0,2,"Cloaked in ash veil, broken censer.",https://drive.google.com/uc?export=view&id=1hHIx4MdDy4mogYINvn67sdeNWwL1eoFA,GRUNTS
+222,Gold Spider,low,2,1,3,0,1,2,0,2,Spider with golden carapace.,https://drive.google.com/uc?export=view&id=1lT_QcwYH5I93qP0QkyqSgKBEKNXzmZoj,GRUNTS
+223,Rune Centipede,low,0,1,2,0,3,2,0,2,Long centipede glowing with glyphs.,https://drive.google.com/uc?export=view&id=1fjV_vx13EkQTY8eqbU5qL4JVaxbT1JZb,GRUNTS
+224,Ash Locust,low,0,3,0,2,0,2,0,2,Swarm insect glowing with embers.,https://drive.google.com/uc?export=view&id=1b2RvaDVG1HLXl2Yc5YphGBUJnVRDixiv,GRUNTS
+225,Crystal Gnat,low,3,1,1,2,1,3,1,4,Tiny insect with crystal wings.,https://drive.google.com/uc?export=view&id=1JoxG7tSeoee5qBzzGY8wjEZ867-UTwpv,GRUNTS
+226,Glyph Ghoul,low,2,1,3,1,1,3,1,4,Corpse covered in glowing runes.,https://drive.google.com/uc?export=view&id=1TWAPebIOolAlmUUL3-QHf25pV2w6T_wD,GRUNTS
+227,Ash Phantom,low,0,0,2,2,1,2,0,2,Knight glowing with burning ash aura.,https://drive.google.com/uc?export=view&id=1agx9yOHsXU0UvxSYc6A2Q5WKJzUT2uA-,GRUNTS
+228,Halo Husk,low,1,0,0,0,3,2,0,2,Broken warrior crowned with false halo.,https://drive.google.com/uc?export=view&id=1fWYU-ws4Is1ModaU3cVq9GQwmVkd8HG3,GRUNTS
+229,Void Horror,low,3,0,1,0,0,2,0,2,Amorphous mass of black fire.,https://drive.google.com/uc?export=view&id=1VQZnpoeyJEcUh7UmcipzWu2XmO9kgPkA,GRUNTS
+230,Rune Horror,low,0,1,2,3,1,2,0,2,Monstrous figure carved with glowing glyphs.,https://drive.google.com/uc?export=view&id=1eBq_1jI7kwOzxude804Oab0VcD2thTuu,GRUNTS
+231,Red Lash,low,0,2,0,2,0,2,0,2,Bronze-skinned slaver with crimson whip.,https://drive.google.com/uc?export=view&id=1DouW_7xSScnYt4lE43kBffyhzdoKQ8w-,MARS BESTIARY
+232,Sand Pike,low,1,3,1,0,2,2,0,2,"Spearman in ochre armor, desert-worn.",https://drive.google.com/uc?export=view&id=19WoHWDkljkCkOdVnvnT0g_D9xIA_lqAm,MARS BESTIARY
+233,Chain Driver,low,3,2,1,0,1,2,0,2,Enforcer dragging spiked chains.,https://drive.google.com/uc?export=view&id=1kfBBnlHKmoX07tjcSbgYGP761Jl01B1c,MARS BESTIARY
+234,Bronze Overseer,low,2,0,3,0,1,2,0,2,Bulky taskmaster clad in bronze.,https://drive.google.com/uc?export=view&id=1DkXgP3pmeoDBGecs4Mt_mgG2-x_7y6Sl,MARS BESTIARY
+235,Crimson Guard,low,3,1,1,1,0,2,0,2,Red-plated guard with tower shield.,https://drive.google.com/uc?export=view&id=1fGjyLoXWmtRy34yXSWtAXh4giLpRulzQ,MARS BESTIARY
+236,Sand Raider,low,0,1,1,0,1,1,0,1,Ragged bandit with curved scimitar.,https://drive.google.com/uc?export=view&id=1V8AXeSIuarH3IYYrr3EuZsMwJqber5CH,MARS BESTIARY
+237,Dune Rider,low,1,1,3,1,0,2,0,2,Raider mounted on reptilian beast.,https://drive.google.com/uc?export=view&id=1f4pWJCFReVS9br_MC7sPEbSqINNtjkRo,MARS BESTIARY
+238,Ash Nomad,low,0,1,3,1,1,2,0,2,"Cloaked in ash robes, wielding daggers.",https://drive.google.com/uc?export=view&id=1hr5IOAD3N3GNthSPVH3KfFWYEQT2rN1j,MARS BESTIARY
+239,Blood Dervish,low,0,3,0,0,2,2,0,2,"Warrior spinning dual blades, crimson tattoos.",https://drive.google.com/uc?export=view&id=12YquaOQPT5p7BHgU9Kz2m_uvUulxXmOj,MARS BESTIARY
+240,Carrion Jackal,low,0,3,2,0,1,2,0,2,Beast-rider cloaked in bones.,https://drive.google.com/uc?export=view&id=1b82sVvKDkgC-lDKAiapUYBHdzcEGYn4K,MARS BESTIARY
+241,Pit Thrall,low,0,1,3,0,1,2,0,2,Emaciated fighter in shackles.,https://drive.google.com/uc?export=view&id=1dI2WXqq8uaqDFK1iax2u4ghD0eqTYH_2,MARS BESTIARY
+242,Masked Gladiator,low,0,1,1,2,0,1,0,1,Fighter wearing bone mask.,https://drive.google.com/uc?export=view&id=1AXgIqr9RSSssJWqCaz9r9-hEu2xOmJjR,MARS BESTIARY
+243,Blood Slave,low,0,1,0,2,1,1,0,1,"Covered in red tattoos, blood dripping.",,MARS BESTIARY
+244,Chain Duelist,low,1,2,1,2,0,2,0,2,Gladiator wielding chained sickles.,https://drive.google.com/uc?export=view&id=13cacKxi5uj_3RsDiOlF0F7Kus0Ck7cb2,MARS BESTIARY
+245,Red Jackal,low,2,0,0,1,2,2,0,2,Desert jackal with crimson fur.,https://drive.google.com/uc?export=view&id=1A5i0-oQ8Yu-UyA6AArZKQ7_JkoumVdfG,MARS BESTIARY
+246,Scaled Vulture,low,1,2,3,0,0,2,0,2,Vulture with scale-covered wings.,https://drive.google.com/uc?export=view&id=1nnyKjHYcUWtX0AwJQsXLmxWUUq_lgvuS,MARS BESTIARY
+247,Sand Basilisk,low,1,0,1,1,2,2,0,2,Lizard with golden scales.,https://drive.google.com/uc?export=view&id=19_UpUprOPDw0ls1GKixCjZ8CcOGyIPgA,MARS BESTIARY
+248,Dune Hyena,low,0,1,2,0,1,1,0,1,Mangy hyena with glowing eyes.,https://drive.google.com/uc?export=view&id=1Noyrdr9Dmzj7B395JEDOnwXA__WSZ-uW,MARS BESTIARY
+249,Red Rat,low,1,0,2,3,1,2,0,2,"Rat with crimson fur, glowing eyes.",https://drive.google.com/uc?export=view&id=14mbP5Z3u9a3XIGnrJczYWBQnIIxbRWaJ,MARS BESTIARY
+250,Bone Tick,low,2,2,0,0,0,2,0,2,Bloated tick with bone armor.,https://drive.google.com/uc?export=view&id=1GwJtZhSyZYe0jkMxw0y49AybEtFV7WG5,MARS BESTIARY
+251,Dust Spider,low,0,0,2,0,2,2,0,2,Large spider covered in dust.,https://drive.google.com/uc?export=view&id=1zlXNSubjjb8dp1tWqmwB3k9OE4rB1tHm,MARS BESTIARY
+252,Carrion Bat,low,1,1,1,2,2,2,0,2,"Bat with torn wings, feeding on corpses.",https://drive.google.com/uc?export=view&id=1n3ySh9PMFQRIWCiJoS21PsxiMio7XqBC,MARS BESTIARY
+253,Canyon Lurker,low,0,2,1,1,0,1,0,1,"Humanoid with rocky skin, camouflaged against cliffs.",https://drive.google.com/uc?export=view&id=1vDWloabGsAF5qGt9pH7Od7Ubc8jeSE7c,MARS BESTIARY
+254,Cliff Raider,low,0,1,0,0,2,1,0,1,Raider with grappling hooks.,https://drive.google.com/uc?export=view&id=15_3iI3A7FSGDaUUFwZ9NGAjvCeyiCV-v,MARS BESTIARY
+255,Dust Crawler,low,0,1,3,1,1,2,0,2,Pale crawler adapted to desert floors.,https://drive.google.com/uc?export=view&id=1D-OiN_50pgY32x6NvGaKFf0TxzsxlnNK,MARS BESTIARY
+256,Rock Breaker,low,2,3,1,0,1,2,0,2,Miner-slave wielding pickaxe.,https://drive.google.com/uc?export=view&id=1f9KRe-a5cf-qUbg01XL-C7SfcJSfWX8m,MARS BESTIARY
+257,Ash Ghoul,low,0,2,1,1,1,2,0,2,Charred corpse with glowing eyes.,https://drive.google.com/uc?export=view&id=1aUl_k09zmB6CdwPt86rubi_l8cWNmVYi,MARS BESTIARY
+258,Dust Phantom,low,0,1,1,2,1,2,0,2,Spirit wrapped in swirling dust.,https://drive.google.com/uc?export=view&id=144FwRkCAibVi7JpC380mIhjkWozZaTjy,MARS BESTIARY
+259,Red Shade,low,1,3,0,0,1,2,0,2,Crimson wraith glowing faintly.,https://drive.google.com/uc?export=view&id=1OnT2bJ3LpZQBOLY5acDx54nrHu4U1euL,MARS BESTIARY
+260,Ash Wight,low,0,2,0,2,0,2,0,2,Pale corpse cloaked in ash.,https://drive.google.com/uc?export=view&id=1e5VNDK5RTucz0EDgf390O1v9S_i0KW5w,MARS BESTIARY
+261,Carrion Stalker,low,3,1,2,0,0,2,0,2,"Humanoid feeding on corpses, glowing red eyes.",https://drive.google.com/uc?export=view&id=1aUb5sBcRIAo19YNaA7454p0aGfgAuKCw,MARS BESTIARY
+262,Broken Gladiator,low,3,1,1,1,1,2,0,2,"Scarred, limping fighter.",https://drive.google.com/uc?export=view&id=1q8dec_5OAiQVwFl2q-6PP9I6LfgTd1cc,MARS BESTIARY
+263,Maskless Fighter,low,1,2,2,0,0,2,0,2,"Arena fighter without mask, scarred face.",https://drive.google.com/uc?export=view&id=1Jhx-A9-xqtC9edygyD3zgMLb0Bs8Zrip,MARS BESTIARY
+264,Ash Duelist,low,0,2,1,1,0,1,0,1,Fighter coated in ash tattoos.,https://drive.google.com/uc?export=view&id=1aSTfndPGC25BZnyewbNVuZw1u4m2pTjU,MARS BESTIARY
+265,Bone Pit,low,0,3,1,0,3,3,1,4,Shackled slave wielding bone weapon.,https://drive.google.com/uc?export=view&id=1qT2SiaF9ApefCyQkcNxK5dhP7vYc1tvr,MARS BESTIARY
+266,Crimson Gladiator,low,2,2,0,0,1,2,0,2,Red-clad gladiator with ornate blades.,https://drive.google.com/uc?export=view&id=12nfa0tuBmEDazGYlhYIADoA6Jv6l3l-a,MARS BESTIARY
+267,Sand Scuttler,low,1,2,1,0,1,2,0,2,Crablike insect burrowing under dunes.,https://drive.google.com/uc?export=view&id=1NG1Xey9751rM9Heu0A8aje1jZ6eZmyNH,MARS BESTIARY
+268,Glass Lizard,low,0,1,2,1,1,2,0,2,Lizard with glassy transparent skin.,https://drive.google.com/uc?export=view&id=1bMEiEkMfHAAQ2ANt6bC4flHspN4G4ilN,MARS BESTIARY
+269,Red Scarab,low,1,1,2,1,1,2,0,2,Beetle with crimson carapace.,https://drive.google.com/uc?export=view&id=1jTD6kGp12S2PXqXge_-3Nt9G2VibLZZ1,MARS BESTIARY
+270,Ash Spider,low,1,1,2,1,1,2,0,2,Large spider covered in ashes.,https://drive.google.com/uc?export=view&id=18T-nSwtXPJdjMquLA3jPKZBaoV40INiV,MARS BESTIARY
+271,Dust Centipede,low,1,2,1,2,0,2,0,2,Long centipede armored with dust plates.,https://drive.google.com/uc?export=view&id=1abCU2o8FI3FU0Isc0s__-UtbtOiZdG9S,MARS BESTIARY
+272,Bronze Pitlord,low,1,2,0,0,1,1,0,1,Gladiator captain clad in bronze plates.,https://drive.google.com/uc?export=view&id=1h7qNSjp76jOwvnOcvHysWsY2TkLBLj6W,MARS BESTIARY
+273,Crimson Duelmaster,low,2,0,2,0,1,2,0,2,"Elegant fighter in red armor, twin swords.",https://drive.google.com/uc?export=view&id=16gDGYaHOwMdSGWgECDeJ85bmyZIZpAs9,MARS BESTIARY
+274,Chain Warlord,low,2,1,2,0,0,2,0,2,Bulky gladiator with massive hooked chains.,https://drive.google.com/uc?export=view&id=1BoU9TE7bt9LD3znLVSCn0jjjtUU2PFv6,MARS BESTIARY
+275,Masked Champion,low,1,1,0,1,1,1,0,1,Fighter with ornate golden mask.,https://drive.google.com/uc?export=view&id=1g77Vu8cuew_vSmGjlrf8kVto6UO1EYrV,MARS BESTIARY
+276,Ash Gladiator,low,1,1,3,3,0,3,1,4,Covered in burning ash armor.,https://drive.google.com/uc?export=view&id=1tv6TjGWuElOFWKzi9nEQjU8xRbUT2Z3t,MARS BESTIARY
+277,Blood Oracle,low,1,0,1,0,1,1,0,1,Crimson-robed seer with bleeding eyes.,https://drive.google.com/uc?export=view&id=1xop05Yx-J3rJmwo8bXCgpdwlTlBN6fap,MARS BESTIARY
+278,Ember Prophet,low,0,0,1,2,0,1,0,1,Robed in red firecloth.,https://drive.google.com/uc?export=view&id=1mWGLVCHN8Q4PJde4kntEpEALOFV38efc,MARS BESTIARY
+279,Crimson Prophetess,low,0,0,0,3,2,2,0,2,"Woman in crimson robes, crescent staff.",https://drive.google.com/uc?export=view&id=1clmWnY3lF8eh_7olRmwOtAnvt_mfPMj_,MARS BESTIARY
+280,Dune Chieftain,low,2,0,2,0,1,2,0,2,Raider chief with golden spear.,https://drive.google.com/uc?export=view&id=1hPqg6xd7UO1bBuDCCCt2nAxz0ZiF3dL3,MARS BESTIARY
+281,Canyon King,low,2,1,0,2,0,2,0,2,Heavily armed warlord with jagged axe.,https://drive.google.com/uc?export=view&id=1WhlOjHSOgbT_iCRm3RsdupQGzzls11fZ,MARS BESTIARY
+282,Bone Lord,low,0,2,0,1,2,2,0,2,Enormous skeletal king with crown of skulls.,https://drive.google.com/uc?export=view&id=1Y_rWy7jclUcIe7FgBd36NlfBwGR1jS1w,MARS BESTIARY
+283,Ash Chieftain,low,1,0,1,1,2,2,0,2,Nomad leader with flaming scimitars.,https://drive.google.com/uc?export=view&id=1YjBZJgqBxtbT9PSHJcWbVL2PN8Ka2IlX,MARS BESTIARY
+284,Sandstorm Khan,low,0,1,3,0,1,2,0,2,"Warlord with flowing robes, staff of wind, surrounded by swirling sand.",https://drive.google.com/uc?export=view&id=14ahHPqdFqfMNQwiaF14uGRQnC_WvUAbQ,MARS BESTIARY
+285,Ash Revenant,low,1,1,1,2,1,2,0,2,Warrior cloaked in burning ash.,https://drive.google.com/uc?export=view&id=11G3qJPyZh170Xqc8-IdSwT0YlQEOLj_h,MARS BESTIARY
+286,Bone Colossus,low,2,1,1,0,1,2,0,2,Giant humanoid made of bone.,https://drive.google.com/uc?export=view&id=1E55NsH-shSl-FdM-Al9rRw52r_dSdMSR,MARS BESTIARY
+287,Dust Wraith,low,0,3,0,1,1,2,0,2,Spirit shrouded in dust storm.,https://drive.google.com/uc?export=view&id=1rr3pLOGsxqpKQjh3pr5hN2NALAgAUNbl,MARS BESTIARY
+288,Crimson Horror,low,1,3,1,3,0,3,1,4,Flesh beast dripping crimson ichor.,https://drive.google.com/uc?export=view&id=1ABouZWDFF0d3o_bTAIytn4GU_DSTTiaH,MARS BESTIARY
+289,Ash Titan,low,0,1,2,1,3,2,0,2,Colossal humanoid wreathed in flame.,https://drive.google.com/uc?export=view&id=1jJnc3c4ZxedJq0aFzQSIfBVZCfeGfj9M,MARS BESTIARY
+290,Ash High,low,2,0,1,1,2,2,0,2,"Towering priest cloaked in ash robes, censer blazing.",https://drive.google.com/uc?export=view&id=1wP_ghIpdFyzWRjMy1260q-TnctdYQJ97,MARS BESTIARY
+291,Blood Matron,low,1,1,0,1,0,1,0,1,"Elder woman cloaked in crimson, ritual knife.",https://drive.google.com/uc?export=view&id=1yPjWH1GeZ13yRPvuSUwyP6tp8vx3T7jI,MARS BESTIARY
+292,Ember Lord,low,0,1,3,1,2,2,0,2,"Red-armored prophet, flame sword.",https://drive.google.com/uc?export=view&id=1fxg_4p9JlTWt4IzcH2Zj3r4nWK9xwMoY,MARS BESTIARY
+293,Chain Hierophant,low,1,0,0,2,1,1,0,1,Priest covered in glowing chains.,https://drive.google.com/uc?export=view&id=17AvIdL2BvvTAHWKeKPel6p-rCrVM3ZwR,MARS BESTIARY
+294,Crimson Pontiff,low,1,2,1,1,1,2,0,2,"Regal cult leader in crimson robes, jeweled staff.",https://drive.google.com/uc?export=view&id=1h2h7AoqPpR86IIq9aG5secsRd-zTWwKH,MARS BESTIARY
+295,Pit King,low,1,2,0,1,3,2,0,2,"Gladiator king with gold armor, bone crown.",https://drive.google.com/uc?export=view&id=1HIfQGmhUYIuwNqNB9WtvGQI5NRrfuXso,MARS BESTIARY
+296,Masked Warlord,low,1,1,0,2,1,2,0,2,"Champion with gilded mask, twin axes.",https://drive.google.com/uc?export=view&id=1TsJzEdaSpzY8At3LaInG69KQ1ian_1Be,MARS BESTIARY
+297,Crimson Champion,low,0,1,1,3,1,2,0,2,"Fighter drenched in blood, serrated sword.",https://drive.google.com/uc?export=view&id=1wN6BTHDxIumZur8kpcZ4W9Wfw-dofGaU,MARS BESTIARY
+298,Bone Gladiator,low,1,0,0,1,1,1,0,1,Gladiator armored in bones.,https://drive.google.com/uc?export=view&id=19iAw3a2ouPS3yWuJn5YUm4xa62TAC3K4,MARS BESTIARY
+299,Arena Juggernaut,low,2,1,0,0,1,1,0,1,Enormous gladiator with chained hammer.,https://drive.google.com/uc?export=view&id=1IC229ChHHjkXfNmVxHv_iT6BX2hjEpoh,MARS BESTIARY
+300,Ash Demon,low,2,1,0,1,0,1,0,1,"Demon of ash and fire, horned skull.",https://drive.google.com/uc?export=view&id=1e7jhFv6XZQlIsR52ltA_fYxSUc9IrDbn,MARS BESTIARY
+301,Bone Horror,low,3,0,0,0,2,2,0,2,Twisted skeleton mass.,https://drive.google.com/uc?export=view&id=1qA3DnI4MSOwhlU0w_ipe8f3_MHQA4PtL,MARS BESTIARY
+302,Crimson Abomination,low,0,1,2,1,0,1,0,1,Flesh beast dripping crimson ichor.,https://drive.google.com/uc?export=view&id=17z7lXeDLbfmtRrna07-rxWvRcdPk2CTd,MARS BESTIARY
+303,Dust Titan,low,1,0,2,1,3,2,0,2,Colossal being of dust and stone.,https://drive.google.com/uc?export=view&id=1YriB4KdOjY4uItWg1IbKJ6sqdu2Q-vOC,MARS BESTIARY
+304,Ash Leviathan,low,0,0,2,3,1,2,0,2,"Serpentine beast of ash and fire, glowing eyes.",https://drive.google.com/uc?export=view&id=1WXGDfNWNwbZtG1vHP2THPtnGaxRRC97b,MARS BESTIARY
+305,Red Khan,low,1,0,2,0,2,2,0,2,"Warlord clad in red armor, massive axe.",https://drive.google.com/uc?export=view&id=17NcEpEE8bNUo9mHAkX68sbbtjud7Y3Rp,MARS BESTIARY
+306,Bone Chieftain,low,1,1,0,2,3,2,0,2,Tribal leader wearing skull mask.,https://drive.google.com/uc?export=view&id=16lOinoHL0DbYDxZWJETpYxefOL0xkwlW,MARS BESTIARY
+307,Canyon Lord,low,0,0,1,2,2,2,0,2,"Raider general, golden spear.",https://drive.google.com/uc?export=view&id=1bjkE1iOcxdTIsmUOIsWmMBSdzXtQaCi-,MARS BESTIARY
+308,Sandstorm Prophet,low,0,1,1,0,0,1,0,1,Robed warlord with wind staff.,https://drive.google.com/uc?export=view&id=1dzI1zANyb6NHxewyvPUFG3GqjAGBhc_U,MARS BESTIARY
+309,Crimson Khan,low,0,2,0,1,2,2,0,2,"Regal warlord in crimson silk, jeweled sword.",https://drive.google.com/uc?export=view&id=1Iln9sFITL1rs0w0QID8unE1JuODPBpHc,MARS BESTIARY
+310,Glyph Servant,low,0,0,2,2,1,2,0,2,Humanoid body covered in glowing cuneiform glyphs.,https://drive.google.com/uc?export=view&id=1uFF8YnAc4Cun2iUZBRlM1TDz7C_2Bjm-,MARS BESTIARY
+311,Temple Thrall,low,0,3,0,1,1,2,0,2,Hooded humanoid with bronze chains.,https://drive.google.com/uc?export=view&id=15Qz7fzEhp_aN7F0WvthUZXjQkGDKrH3_,MARS BESTIARY
+312,Oath Servitor,low,1,1,0,3,2,2,0,2,Thin creature branded with oaths across skin.,https://drive.google.com/uc?export=view&id=1Yobbvwl70QEXeSeOqaN-6y2DtKOyRmpi,MARS BESTIARY
+313,Lattice Guard,low,2,3,0,1,1,2,0,2,Armored being with crystal lattice skin.,https://drive.google.com/uc?export=view&id=11qmdfabOgeg-PQX3WCV8ZIiXyofHB-6H,MARS BESTIARY
+314,Halo Servant,low,1,0,1,2,2,2,0,2,Radiant figure crowned in false halos.,https://drive.google.com/uc?export=view&id=1S7ujA7NV1wFUA-BJsDvmbVouLyoUmc6R,MARS BESTIARY
+315,Obsidian Hound,low,1,1,1,3,1,2,0,2,Dog forged of volcanic glass.,https://drive.google.com/uc?export=view&id=1b5y9ZwKrVEtRz0e9U9r2rWrgqH9xBpCL,MARS BESTIARY
+316,Cinder Jackal,low,1,0,1,2,3,2,0,2,Fiery jackal with ember eyes.,https://drive.google.com/uc?export=view&id=1GPtpikPRAoUttwozBQF09bsFgzw2Ia_K,MARS BESTIARY
+317,Void Hyena,low,2,1,1,2,0,2,0,2,Twisted hyena with black flames.,https://drive.google.com/uc?export=view&id=1gnYOGV3pCAXEq9L2cUfdc-yTPF5NPF7n,MARS BESTIARY
+318,Golden Vulture,low,0,3,3,0,1,3,1,4,Bird with radiant gold feathers.,https://drive.google.com/uc?export=view&id=19mNbbel8MK2wXNTEXWMZEcTwb5DqeUK0,MARS BESTIARY
+319,Crystal Basilisk,low,0,1,3,1,3,3,1,4,Lizard of prism scales.,https://drive.google.com/uc?export=view&id=1mQ7u4P6kMkqUr0kMV3DGqjKEWRm031Kq,MARS BESTIARY
+320,Oath Ghoul,low,0,1,2,2,1,2,0,2,Corpse covered in branded runes.,https://drive.google.com/uc?export=view&id=1nTNB71_otxurGZx9w67LmMfAFoIA-sxk,MARS BESTIARY
+321,Chain Wraith,low,0,1,0,0,2,1,0,1,Spirit dragging endless chains.,https://drive.google.com/uc?export=view&id=1FXAChj8IIgHQQfn-BXCoK8WnRrHp5Ps5,MARS BESTIARY
+322,Glyph Shade,low,0,3,3,0,1,3,1,4,Spirit inscribed with glowing cuneiform.,https://drive.google.com/uc?export=view&id=1Yp3KXakO6YMhkUSD_RhtZA9meTnmKp0s,MARS BESTIARY
+323,Halo Wraith,low,1,2,1,0,3,2,0,2,Spectral figure crowned in broken halo.,https://drive.google.com/uc?export=view&id=1GY1EVAAvAAHcPC49RxzwSShEaL44KXXO,MARS BESTIARY
+324,Crystal Rat,low,1,0,2,0,1,1,0,1,Rat with crystalline body.,https://drive.google.com/uc?export=view&id=1JKfKWgNDGJvZNj17DctdFOAz_Kyl_FPE,MARS BESTIARY
+325,Void Tick,low,2,1,0,1,2,2,0,2,"Black bloated insect, glowing veins.",https://drive.google.com/uc?export=view&id=1_pI1B1bOWfYQSLjTW46rO6-7VBFicjcm,MARS BESTIARY
+326,Golden Scarab,low,3,0,1,1,1,2,0,2,Scarab of radiant gold.,https://drive.google.com/uc?export=view&id=15j2b8FpFrwENMt5xVKlD2I_F6reV6-EP,MARS BESTIARY
+327,Rune Spider,low,0,0,0,1,2,1,0,1,Spider etched with glowing runes.,https://drive.google.com/uc?export=view&id=1asKypU7-HoMvJV2yf16sLM0a8qPD8wLd,MARS BESTIARY
+328,Rune Idol,low,0,2,0,1,2,2,0,2,Stone idol glowing with runes.,https://drive.google.com/uc?export=view&id=1vKfSv2jiqIoEfTzEJLZ4l4KoqwEgX0pP,MARS BESTIARY
+329,Halo Statue,low,3,1,2,1,1,3,1,4,Radiant statue crowned with false halo.,https://drive.google.com/uc?export=view&id=1fDJZqBg_gBZnxe0bbytuRNuQq79kaYI7,MARS BESTIARY
+330,Obelisk Guard,low,1,2,1,0,2,2,0,2,Tall stone construct marked with cuneiform.,https://drive.google.com/uc?export=view&id=12u4f_X2_HPpT1any5tgEwWUCkVM1xrS7,MARS BESTIARY
+331,Flame Idol,low,1,1,3,1,1,2,0,2,Statue burning with eternal flame.,https://drive.google.com/uc?export=view&id=1cEL3_f0L6vR3hKdQ4KN6K4zgoEoVe3oZ,MARS BESTIARY
+332,Lattice Spearman,low,1,1,1,2,1,2,0,2,Humanoid with crystal lattice skin.,https://drive.google.com/uc?export=view&id=1kLlUmX4MRPAaPIYeyRA4cx1bWzcwKic1,MARS BESTIARY
+333,Golden Hoplite,low,0,3,2,0,0,2,0,2,Warrior clad in golden armor.,https://drive.google.com/uc?export=view&id=1waysnRe6KBWN4Z4XxCJ4c4kQsd1Xc0uo,MARS BESTIARY
+334,Halo Archer,low,3,1,1,1,1,2,0,2,Archer glowing with radiant crown.,https://drive.google.com/uc?export=view&id=1ipzAcneyxVDV02DfRaw6cX5_PyGEn_xW,MARS BESTIARY
+335,Rune Swordsman,low,2,0,2,1,1,2,0,2,"Warrior inscribed with glyphs, carrying glowing blade.",https://drive.google.com/uc?export=view&id=1zxVso3V9PCCo3UMFoayQa7d38ujXBlv_,MARS BESTIARY
+336,Obsidian Axe,low,1,1,0,3,1,2,0,2,Brutal warrior wielding obsidian axe.,https://drive.google.com/uc?export=view&id=1ThaLSgyKGXAT5WsNoGbpSE4Kor3wH5zr,MARS BESTIARY
+337,Bound Hound,low,1,2,1,1,0,2,0,2,Dog shackled with glowing chains.,https://drive.google.com/uc?export=view&id=19gbpfaRJMOjah7D5hYZ2MYExXjmRe4DI,MARS BESTIARY
+338,Rune Jackal,low,1,0,2,1,0,1,0,1,Jackal with rune carvings glowing across body.,https://drive.google.com/uc?export=view&id=1nXWRvbuj1e7xfdHICkt6wJzsDkbeY9-l,MARS BESTIARY
+339,Oath Serpent,low,1,3,0,2,1,2,0,2,Serpent covered in glowing brands.,https://drive.google.com/uc?export=view&id=19WXtwMJ6uHyk-zrYa6nWVu5owCw7o0tF,MARS BESTIARY
+340,Crystal Scorpion,low,2,0,2,1,1,2,0,2,Scorpion with crystalline carapace.,https://drive.google.com/uc?export=view&id=1VEcTVCiM0N7jQ-ePJWY2VcA8b2euXSVb,MARS BESTIARY
+341,Halo Vulture,low,1,1,0,3,1,2,0,2,Radiant vulture crowned with halo.,https://drive.google.com/uc?export=view&id=1E_pcLKX_HGllbhXhE7Ig0IFo4QyYv6_t,MARS BESTIARY
+342,Golden Rat,low,1,1,1,3,3,3,1,4,Rat with golden fur.,https://drive.google.com/uc?export=view&id=1RL_zcdbMoZ5mpFFTiUjNJP8pT3Nq8TYW,MARS BESTIARY
+343,Ash Mite,low,1,2,0,2,0,2,0,2,Tiny insect glowing with embers.,https://drive.google.com/uc?export=view&id=1xFe9ropgUjbL38ZXaDmb845LueKRatiO,MARS BESTIARY
+344,Rune Beetle,low,1,2,0,3,0,2,0,2,Beetle etched with glyphs.,https://drive.google.com/uc?export=view&id=1guPv7UJ6lKFHue_YL3XLYTWNg0BERCNR,MARS BESTIARY
+345,Void Centipede,low,1,1,0,1,0,1,0,1,Long centipede glowing black.,https://drive.google.com/uc?export=view&id=1Y5E2QKbX-qsr6j5zVDRx26LJDYbwtg-7,MARS BESTIARY
+346,Crystal Spiderling,low,2,0,0,2,0,2,0,2,Small spider covered in crystal shards.,https://drive.google.com/uc?export=view&id=1mFTiLWjxkQeou8ENzhnawOZg168PSfRX,MARS BESTIARY
+347,Gold-Mask Captain,high,3,5,2,2,5,4,6,10,"Bronze armor with gilded mask, whip and short sword.",https://drive.google.com/uc?export=view&id=1eY6h7L0OoPM4bEMHOFEmaEMleSVd_RLc,ELITES
+348,Hymncaller,high,7,7,3,2,3,4,11,15,Chanting priestess with bone chimes.,https://drive.google.com/uc?export=view&id=1Nxuyf6wbSkZ1FdhbgGdXj3TN9IUZw-bw,ELITES
+349,Ink-Tongue,high,3,3,3,4,4,4,5,9,Mouth stained black with cursed ink.,https://drive.google.com/uc?export=view&id=1mBpBPj9Un87zt7E9CoE9KqfksLxNDEpv,ELITES
+350,Fire Pot Bearer,high,3,5,2,3,5,4,6,10,Slave-soldier carrying pots of burning oil.,https://drive.google.com/uc?export=view&id=13Qz4T_SI0a8fz5eTTmzldQ2Rxz_8_TLq,ELITES
+351,Choir of Bone,high,2,2,6,3,5,4,7,11,Trio of skeletal singers bound together.,https://drive.google.com/uc?export=view&id=1FQEYhMxCQdospxkvmRWCC3lrmhl5wKLc,ELITES
+352,Desert Boar King,high,2,3,6,3,5,4,7,11,"Tusks of obsidian, armor of sandstone.",https://drive.google.com/uc?export=view&id=12nfJWTXLnECnkXoN8jMdVLkFacAzsGJ2,ELITES
+353,Word-Eater,high,7,7,3,3,3,4,11,15,Hollow-mouthed figure with glowing runes.,https://drive.google.com/uc?export=view&id=1eZh7rTBo_E_nMzsX89Ket2h8HvuUfslL,ELITES
+354,Iron Gaoler,high,2,7,2,7,3,4,10,14,Towering armored figure with spiked gauntlets.,https://drive.google.com/uc?export=view&id=1px1grP0xDuIvdmlDjYpz5ZAp0ETzFk2u,ELITES
+355,Chain Tyrant,high,3,7,7,2,2,4,10,14,Covered in writhing spectral chains.,https://drive.google.com/uc?export=view&id=1JlkZ1h7_7PFn_vzivOh_E7Od6bnoW27E,ELITES
+356,Moonblade Captain,high,5,5,3,3,3,4,7,11,"Soldier with crescent-bladed sword, silver helm.",https://drive.google.com/uc?export=view&id=1QdP56s5kMrA3pDgYzVLKreuSp3-qYy7a,ELITES
+357,Pit Enforcer,high,2,2,6,3,5,4,7,11,Gladiator captain clad in iron bands.,https://drive.google.com/uc?export=view&id=1AL-KrIIndmDaHbsYR0pE4lnXG0yPn7HX,ELITES
+358,Silver Mask Judge,high,7,3,6,3,3,4,10,14,"Faceless mask, silver robes.",https://drive.google.com/uc?export=view&id=19hQdYATmNRmPDr60PfGjk6hXhK8HiZgt,ELITES
+359,Eclipse Hierophant,high,6,2,6,2,2,4,7,11,Robed priest glowing with eclipse sigils.,https://drive.google.com/uc?export=view&id=1kgQerzRzx1PP5hYn9Ldlh3Al2dksJXhA,ELITES
+360,Void Augur,high,7,7,3,2,2,4,10,14,Emaciated oracle with hollow eyes.,https://drive.google.com/uc?export=view&id=1D99qe8PgeNc-PdneoZoxZkUw5-R3o86t,ELITES
+361,Blood Moon Prophet,high,2,2,6,3,6,4,8,12,Crimson-robed prophet with blood-crystal staff.,https://drive.google.com/uc?export=view&id=1V3kl96-z8HsVUH15OifBPOoSfpPmUs7Z,ELITES
+362,Chained Seer,high,2,3,7,4,3,4,8,12,Blindfolded mystic wrapped in glowing chains.,https://drive.google.com/uc?export=view&id=1HpU9YRCBHzCESv-0MH2_caW7NH8WcsFs,ELITES
+363,Ashen Oracle,high,3,2,6,2,6,4,8,12,Ash-coated priest with burning staff.,https://drive.google.com/uc?export=view&id=1BgO9irFxdkOPvuoSCWt9F3F7_0ype8wh,ELITES
+364,Crescent Duelist,high,2,3,4,7,3,4,8,12,Agile fighter with dual crescent blades.,https://drive.google.com/uc?export=view&id=1VyE91Z6w5cNTI923BFO6NQEm1S5QNKWP,ELITES
+365,Ironclad Gladiator,high,6,5,3,3,3,4,8,12,Gladiator covered in iron plates.,https://drive.google.com/uc?export=view&id=1RueeQd_ReCovrSu856zxd_IO8ikfclhP,ELITES
+366,Bloodspiller,high,6,6,2,3,2,4,8,12,Gladiator with crimson-stained armor.,https://drive.google.com/uc?export=view&id=1oaeuNEKTNPiq8ZFtn5W2lsO8yuxCkPVQ,ELITES
+367,Chainfighter,high,3,3,7,7,2,4,11,15,Gladiator wielding hooked chains.,https://drive.google.com/uc?export=view&id=1alGXYitC4hStPuVQdkU_0q3ddE08VoZp,ELITES
+368,Bonebreaker,high,2,3,7,6,2,4,9,13,Giant gladiator wielding massive bone club.,https://drive.google.com/uc?export=view&id=1RTWBtmlazSnVLYHn1D4BPg1rM0wbnHmi,ELITES
+369,Crater Brute,high,3,2,6,2,6,4,8,12,Monstrous humanoid with stone armor fused to skin.,https://drive.google.com/uc?export=view&id=1zD0PpXVtR3OwRaFfhsGAd8mvk17HL4gR,ELITES
+370,Moonspawn Horror,high,2,5,5,3,2,4,6,10,Amorphous flesh mass glowing with runes.,https://drive.google.com/uc?export=view&id=1yGZcBPgcRWJDZRX6bA_3S-Af1Nq6rZ18,ELITES
+371,Shadow Hulk,high,6,3,2,2,5,4,7,11,Black hulking humanoid with glowing red eyes.,https://drive.google.com/uc?export=view&id=1UDaIzFpJT1gBNQgf6GM3nN-_n9JuVOYz,ELITES
+372,Lunar Abomination,high,3,3,3,7,5,4,9,13,"Stitched body, half-machine, half-flesh.",https://drive.google.com/uc?export=view&id=1LBkFjmen4GeF5nrMZbFgjyl1srivrjPg,ELITES
+373,Crystal Reaver,high,3,2,4,2,6,4,6,10,Beast covered in jagged lunar crystals.,https://drive.google.com/uc?export=view&id=1URi127KVMGcxNuDBOQqbLozCEtibvtqp,ELITES
+374,Void Herald,high,3,3,7,5,3,4,9,13,Cloaked figure with black flame crown.,https://drive.google.com/uc?export=view&id=1IoGNrU_fY-rPUYjJdt4KxMcW55pAEAy9,ELITES
+375,Eclipse Warlock,high,2,5,3,7,2,4,8,12,Robed caster with eclipse sigils glowing.,https://drive.google.com/uc?export=view&id=1u_2yFIQUwzsXMH4UXSexJ2r97ZYdzLS9,ELITES
+376,Hollow Bishop,high,3,7,2,6,2,4,9,13,"Emaciated cleric with hollowed eyes, silver staff.",https://drive.google.com/uc?export=view&id=1eYYPeu-jqcGlzke0g8LBc704IpQt3GTX,ELITES
+377,Chain Pontiff,high,3,3,5,2,6,4,7,11,Towering cleric wrapped in glowing chains.,https://drive.google.com/uc?export=view&id=1f8q5uVH_4kFgG5rGBcy6Cw0mMyZLSdCE,ELITES
+378,Ash Bishop,high,2,4,2,2,6,4,6,10,Ash-stained cleric glowing with embers.,https://drive.google.com/uc?export=view&id=1nFIrPUZoohRMmVFCVq2CWb-fZ-MJDa6W,ELITES
+379,Blade Dancer,high,3,3,6,2,6,4,8,12,Graceful gladiator wielding twin curved blades.,https://drive.google.com/uc?export=view&id=1q_qFHvb68_l4woSFk74UKf-VddTTeGtw,ELITES
+380,Blood Arena Lord,high,2,6,3,3,5,4,7,11,"Gladiator with crimson cloak, war banner.",https://drive.google.com/uc?export=view&id=159WvHN-fLxfwmRm487vNCJxJHyKSaxUS,ELITES
+381,Pit Beastmaster,high,6,2,2,4,3,4,6,10,Gladiator with chained beasts.,https://drive.google.com/uc?export=view&id=1QNSCQTyl-EZ0I4ay9Kj2r3PgHmm47eS3,ELITES
+382,Skullcrusher,high,2,4,6,3,3,4,7,11,Huge brute with spiked mace.,https://drive.google.com/uc?export=view&id=1h_qLXLiNsvGmX_RZSNfMz6cD1iSgeozC,ELITES
+383,Crystal Knight,high,6,3,6,2,2,4,8,12,Armored knight of crystal plating.,https://drive.google.com/uc?export=view&id=1K9NwTCxkLue17SJZm5UR4RTNsC-adxla,ELITES
+384,Prism Lancer,high,2,2,3,7,5,4,8,12,Cavalier with crystal lance mounted on beast.,https://drive.google.com/uc?export=view&id=1Gx-WbnTbSoGUbFoQ8yUiLuXH1Wo2Bo6X,ELITES
+385,Gleam Sorcerer,high,6,3,2,3,7,4,10,14,Robed figure with glowing crystal crown.,https://drive.google.com/uc?export=view&id=1ZULaRuW748HZdZJY69cuOdHxh6PQKJuC,ELITES
+386,Shard Brute,high,3,6,2,4,2,4,6,10,Hulking mutant covered in shards.,https://drive.google.com/uc?export=view&id=17_5eJ0jO0xHCblbjJaQIl6yso3WEt-U2,ELITES
+387,Crystal Stalker,high,2,5,3,6,2,4,7,11,Beast with crystalline claws.,https://drive.google.com/uc?export=view&id=1xLhDzryl_q5_2CYJ4Zvy_UIgjel4AsCL,ELITES
+388,Void Knight,high,2,2,4,2,6,4,6,10,Armored warrior wreathed in void fire.,https://drive.google.com/uc?export=view&id=1YH6Mi8TbqVoDmBg9HIqQ_oqqUeFXpRfU,ELITES
+389,Shadow Assassin,high,3,7,7,3,3,4,11,15,Black-clad killer with crescent daggers.,https://drive.google.com/uc?export=view&id=1wQH08QgnlJb6rHWisSBEh2bakIFM5stg,ELITES
+390,Hollow Beast,high,6,2,2,2,4,4,6,10,Twisted humanoid with hollow core.,https://drive.google.com/uc?export=view&id=1G5_kn7Ud-fEa6z3Bm-fR4TpWgRtzswJF,ELITES
+391,Eclipse Wraith,high,2,2,2,7,7,4,10,14,Spirit wreathed in eclipse aura.,https://drive.google.com/uc?export=view&id=1FvesHUMWhtG5Y0VsKrnZVg7NgYTSSg0s,ELITES
+392,Void Devourer,high,6,2,3,7,3,4,10,14,Massive humanoid with void mouth across chest.,https://drive.google.com/uc?export=view&id=1n4E-Damcx1evoL1uYu2B5bTVc6cHTagO,ELITES
+393,Ash Gladiator Lord,high,6,7,2,3,3,4,10,14,Covered in burning ash armor.,https://drive.google.com/uc?export=view&id=1rKDXYaFzEHpIFTDf58vljgwY5uZ9UVkJ,ELITES
+394,Canyon Marauder King,high,2,2,6,2,6,4,7,11,Heavily armed warlord with jagged axe.,https://drive.google.com/uc?export=view&id=1IwHl_qiCTIqm9nSiOAvBkLJh9I2ldF5h,ELITES
+395,Bone Raider Lord,high,2,6,2,2,4,4,6,10,"Raider cloaked in bones, spiked spear.",https://drive.google.com/uc?export=view&id=1wzmEwpPrH23dStOqEDkuNCw56T-QnoSZ,ELITES
+396,Ash Nomad Chieftain,high,6,3,2,3,6,4,8,12,Nomad leader with flaming scimitars.,https://drive.google.com/uc?export=view&id=1pGVKlhG4KsdcSQohp32wHZ2TWfEUrPzS,ELITES
+397,Ash High Priest,high,2,5,2,6,2,4,6,10,Priest draped in smoke and fire.,https://drive.google.com/uc?export=view&id=1bMAXE5GA1IInP-CODYgnA0zTZhX_PXd1,ELITES
+398,Glyph Knight,high,3,2,5,3,7,4,9,13,Armored warrior etched with glowing runes.,https://drive.google.com/uc?export=view&id=1PAQeQBUUJ9qUeFeAKOv4iIFmD_XDo1_p,ELITES
+399,Halo Paladin,high,2,6,3,2,7,4,9,13,Radiant knight crowned with luminous halo.,https://drive.google.com/uc?export=view&id=1XeYctwg7LbxoUC9aWHvjKIoOvDKirsoJ,ELITES
+400,Crystal Vanguard,high,2,3,3,5,5,4,6,10,"Soldier clad in crystal armor, spear glowing.",https://drive.google.com/uc?export=view&id=1xkZsooFTeP2X2GQDzyLPFnEjT6vW2ytG,ELITES
+401,Obsidian Berserker,high,5,2,6,3,3,4,7,11,Hulking brute wielding obsidian axes.,https://drive.google.com/uc?export=view&id=1fQ1YCUTFsNOzP6fTSAFqC9v-xXxPG6NS,ELITES
+402,Oath Champion,high,2,7,5,2,2,4,8,12,Warrior branded with glowing vow runes.,https://drive.google.com/uc?export=view&id=14ZDuxHW60Bmx1gtzNSLqpEODAPrtlhll,ELITES
+403,Blood Hierophant,high,3,5,2,3,6,4,7,11,"Cloaked in crimson robes, knife in hand.",https://drive.google.com/uc?export=view&id=1mzyMkB6ikwUleAQRVuzyXKFlVnkKTc7t,ELITES
+404,Rune Exarch,high,6,6,3,3,3,4,9,13,"Tall figure cloaked in glyphs, staff blazing.",https://drive.google.com/uc?export=view&id=1kti69iJhrw6wY5V7CgpbdwW4B9J_O9WK,ELITES
+405,Halo Prelate,high,2,3,7,5,2,4,8,12,Radiant cleric crowned with glowing halo.,https://drive.google.com/uc?export=view&id=1S2_p0UWEEPJTW8pVT_EP0t_OqELwH1tj,ELITES
+406,Void Inquisitor,high,3,5,2,2,5,4,6,10,Shadow-cloaked judge with glowing eyes.,https://drive.google.com/uc?export=view&id=13DDylqTYJQL8JOJtPXC7-hdt_ozCQvRz,ELITES
+407,Obelisk General,high,2,6,3,2,5,4,7,11,"Armored in stone, inscribed with runes.",https://drive.google.com/uc?export=view&id=1HzVpNpExco7aLYg0Iy8ymnY7CSWPfh83,ELITES
+408,Golden Strategos,high,2,2,2,4,7,4,7,11,Warrior in gilded armor with jeweled sword.,https://drive.google.com/uc?export=view&id=1euxvw5klHNreCh_JKIR-9pEHKcpsiCvq,ELITES
+409,Rune Captain,high,4,2,7,3,2,4,7,11,Soldier branded with glyph tattoos.,https://drive.google.com/uc?export=view&id=1RdDn67MPf_wxhQ8YX6vGANYinJG3-w3R,ELITES
+410,Halo Commander,high,3,4,2,3,6,4,7,11,Radiant figure with winged helm.,https://drive.google.com/uc?export=view&id=1ILalea3ybofWr15nVwNHaAd3jnjbYJD5,ELITES
+411,Void Centurion,high,2,2,2,7,4,4,7,11,Dark knight wielding void lance.,https://drive.google.com/uc?export=view&id=13t_BUd8WsapeVIf8nYiRkXxaoxGt18Fr,ELITES
+412,Crystal Colossus,high,2,7,3,7,2,4,10,14,Giant clad in crystalline plates.,https://drive.google.com/uc?export=view&id=18_YEv_YTuYzVVrvPqW34vmbncVkoaFNN,ELITES
+413,Oath Leviathan,high,3,2,2,5,5,4,6,10,Serpentine giant inscribed with vow runes.,https://drive.google.com/uc?export=view&id=1QqWRcyy9esvgKV7dvp6n7XFwpOzq89A0,ELITES
+414,Halo Seraph,high,3,5,3,3,4,4,6,10,Radiant figure with blazing wings.,https://drive.google.com/uc?export=view&id=1squPRq2v_IvOehpqV-WkUYjeWPrsUGhw,ELITES
+415,Ash Hierarch,high,2,3,5,6,3,4,7,11,"Cloaked in smoke and flame, mask glowing.",https://drive.google.com/uc?export=view&id=1uViBM6QhYIYtjddm4fTUT_1que0yj9BZ,ELITES
+416,Rune Pontiff,high,3,6,3,6,3,4,9,13,Tall figure cloaked in glyph-etched robes.,https://drive.google.com/uc?export=view&id=1txijI-EGBMtmFLOTl59oQgbQmIDcts8C,ELITES
+417,Halo Exemplar,high,7,4,2,2,3,4,7,11,Radiant cleric crowned with blazing halo.,https://drive.google.com/uc?export=view&id=1p99CmBMplvEuU3bQmmMUIEtWHRs0DP5i,ELITES
+418,Void Exarch,high,3,6,3,7,2,4,10,14,"Dark priest cloaked in shadows, eyes glowing.",https://drive.google.com/uc?export=view&id=1uLZ9TB6Rx207SaN1iYwOPjv1OiujeuQL,ELITES
+419,Crystal General,high,2,5,2,2,4,4,5,9,"Warrior clad in crystal plates, wielding glaive.",https://drive.google.com/uc?export=view&id=1-n0r40HXbi5KaVU958bULAVBabr1hcWs,ELITES
+420,Golden Strategist,high,3,2,5,2,5,4,6,10,General clad in gold and jewels.,https://drive.google.com/uc?export=view&id=1xNsyrC6LVs4A8mCHVRiQJ-MC5ffBCqVc,ELITES
+421,Obelisk Warden,high,4,2,3,5,3,4,6,10,"Armored in stone, glyphs glowing.",https://drive.google.com/uc?export=view&id=13xMWMB1GCldAOj9fXbhfrDhfpBAkdeTA,ELITES
+422,Rune Marshal,high,2,6,3,6,3,4,8,12,"Soldier etched with glowing glyphs, staff spear.",https://drive.google.com/uc?export=view&id=1nCgg2ep2jS_c4TYlHHOa5l1404rwOokF,ELITES
+423,Halo Praetor,high,2,5,3,2,5,4,6,10,Radiant warrior with winged helm and spear.,https://drive.google.com/uc?export=view&id=1bjYXAyY8dpBPDTOAQMIfW2CR84TrRupt,ELITES
+424,Bone Horror King,high,6,3,6,3,3,4,9,13,"Colossal skeleton crowned with skulls, crowned with bone.",https://drive.google.com/uc?export=view&id=1rW7NawDtY7-LYAl9Lhc4eWs-3JDS8o-l,ELITES
+425,Halo Seraphim,high,4,2,2,3,7,4,7,11,Winged radiant figure crowned with halos.,https://drive.google.com/uc?export=view&id=1KSxKbp3pFtrnVbSM8twh_fJ_MBjbpB5b,ELITES
+426,Ash Lord,high,3,4,7,3,3,4,8,12,Tall warlord cloaked in flame.,https://drive.google.com/uc?export=view&id=1KdjUOb6bTsTxKg8YRA98CUnEr5kC57-b,ELITES
+427,Rune Khan,high,2,2,6,5,3,4,7,11,Warlord etched with glyph tattoos.,https://drive.google.com/uc?export=view&id=1kpgpTyweVkR8wAvOC2W_sTpOjmAVRWbc,ELITES
+428,Halo Regent,high,6,2,2,3,5,4,7,11,Radiant ruler crowned with great halo.,https://drive.google.com/uc?export=view&id=1tNsKT75kTs2_pFvCJ_eWXpH-4hnDfK1z,ELITES
+429,Void King,high,2,6,2,2,5,4,6,10,"Cloaked in shadows, eyes glowing like suns.",https://drive.google.com/uc?export=view&id=1qsoLCHa2qtzxT1Y187QqDIPlBUd1KxKb,ELITES
+430,Moonfire Adept,mid,1,1,2,2,2,3,1,4,Robed mage with glowing silver staff.,https://drive.google.com/uc?export=view&id=1EGUed5Xqp7brSY1pYuh6RqDacIsDx0Ip,SPECIALISTS
+431,Crystal Thaumaturge,mid,1,2,2,1,5,4,3,7,"Robe stitched with shards, crystal focus orb.",https://drive.google.com/uc?export=view&id=1mXwKxUCMIgqkY0byWxlx4D13Lbm13Z1-,SPECIALISTS
+432,Void Evoker,mid,5,2,5,1,2,4,5,9,Hooded mage with void runes etched into skin.,https://drive.google.com/uc?export=view&id=11jlTxx-0O8ZHmuNzSRFwb04a8JC_iMKa,SPECIALISTS
+433,Oracle of Chains,mid,2,3,2,1,2,3,1,4,Blindfolded mystic with golden chains.,https://drive.google.com/uc?export=view&id=1kEQtRFd0rFcC5yi7qwmdLMgHyCae4LpT,SPECIALISTS
+434,Eclipse Visionary,mid,2,4,1,3,1,4,2,6,Pale seer with eclipse eyes.,https://drive.google.com/uc?export=view&id=1REw-fmQ_KlMWttivW3VuR7Q_swxFdupR,SPECIALISTS
+435,Ash Prophetess,mid,2,1,3,2,2,3,1,4,Cloaked in ash veil.,https://drive.google.com/uc?export=view&id=1Wz5ehoD8wKa206ZtnKFriZAwjb1sR8xS,SPECIALISTS
+436,Wraith Caller,mid,2,2,5,2,1,4,3,7,"Figure draped in skulls, staff topped with lantern.",https://drive.google.com/uc?export=view&id=1DP7CD8TSAH3Lw37DZeVSqqPbBro79uAq,SPECIALISTS
+437,Idol Binder,mid,2,1,2,5,4,4,4,8,Shackled summoner dragging idol fragment.,https://drive.google.com/uc?export=view&id=1DoLtdusMgEE77Av21ebD8HFysV9mii1H,SPECIALISTS
+438,Flesh Sculptor,mid,2,1,2,2,3,3,1,4,Hooded figure carrying bloody chisels.,https://drive.google.com/uc?export=view&id=1V3TOBWa72YbS3pYXjml8nkje_2PLruQM,SPECIALISTS
+439,Venom Alchemist,mid,2,2,1,4,5,4,4,8,"Cloaked with vials, green mist trailing.",https://drive.google.com/uc?export=view&id=11EWucYqO0IpQfbXzeLUrcTqkeB44HWDO,SPECIALISTS
+440,Sporebrewer,mid,1,3,2,4,1,4,2,6,Fungal-covered chemist with gourds.,https://drive.google.com/uc?export=view&id=1NjK71nJh8910njg1TcUU-Oo1TxHSv2BB,SPECIALISTS
+441,Blood Draught Maker,mid,4,1,2,2,2,4,2,6,Alchemist with crimson vials strapped.,https://drive.google.com/uc?export=view&id=1-9s-9DDXBBmSDKmcxLF8Aiheg_oSvqy-,SPECIALISTS
+442,Chain Engineer,mid,5,2,1,2,2,4,3,7,Worker with tools and glowing chains.,https://drive.google.com/uc?export=view&id=1yL6DWgSmcWTYSnEJo21zwwkBHH7NP81Y,SPECIALISTS
+443,Idol Mechanist,mid,1,1,4,4,2,4,3,7,Artificer fused with gears and idol cores.,https://drive.google.com/uc?export=view&id=1dH5J36kIlgb6Qs5CyMKVmx82X1OflXR-,SPECIALISTS
+444,Crystal Tinker,mid,2,2,2,2,2,3,1,4,Small figure carrying crystal tools.,https://drive.google.com/uc?export=view&id=1Z9h41QG14xDT_A9MkvFtawb_H1mr0_yb,SPECIALISTS
+445,Soul Harvester,mid,2,5,3,1,2,4,3,7,Tall figure carrying scythe of bone.,https://drive.google.com/uc?export=view&id=1xPZb7nAnZdGty2stjTI5P1rXGSH3tMUd,SPECIALISTS
+446,Shadow Puppeteer,mid,2,5,1,1,4,4,4,8,Masked with shadow strings.,https://drive.google.com/uc?export=view&id=1icIDQp4-fXPx8LujO6LW_7-w8-236vXm,SPECIALISTS
+447,Blood Soothsayer,mid,1,1,3,5,2,4,3,7,Crimson tattoos glowing faintly.,https://drive.google.com/uc?export=view&id=1wftYbQsDs20kzfVYGduQTA2uMpNtt72Z,SPECIALISTS
+448,Ash Sculptor,mid,2,2,3,2,2,4,2,6,"Cloaked in ashes, carrying clay idols.",https://drive.google.com/uc?export=view&id=1JAsi57J32qk75_hqEBRM9vZ03vTdXbul,SPECIALISTS
+449,Eclipse Binder,mid,1,2,3,2,2,3,1,4,Shackled with eclipse sigils.,https://drive.google.com/uc?export=view&id=1Cg124Dr8li63KXdhLnvqnNT8vpWwY0HA,SPECIALISTS
+450,Dream Warden,mid,2,1,3,2,2,3,1,4,"Hooded priest, eyes glowing silver.",https://drive.google.com/uc?export=view&id=1ftcsnGC_u3PNdaujIXlDHu3VeYhKeYwj,SPECIALISTS
+451,Crystal Puppeteer,mid,2,3,2,5,2,4,4,8,Strings of crystal shards hanging from hands.,https://drive.google.com/uc?export=view&id=1jsDd2aH2RKPDKolnP-vd8XVvf995dtwG,SPECIALISTS
+452,Flesh Weaver,mid,2,2,4,2,5,4,4,8,"Stitched robes, needle hands.",https://drive.google.com/uc?export=view&id=1stxfQ04Ah9a1cptK4wtPi0pbXXQ2ebCJ,SPECIALISTS
+453,Void Scribe,mid,2,1,2,4,1,4,2,6,Scribe with void glyphs carved on arms.,https://drive.google.com/uc?export=view&id=1fJ3x9XA3wqmZMhH3cCww9Gali2Nj9WXP,SPECIALISTS
+454,Eclipse Summoner,mid,2,2,3,5,2,4,4,8,Robed figure with crescent crown.,https://drive.google.com/uc?export=view&id=1UuLD67zOkUjY3gRQNMs5ar-ktpAXsffI,SPECIALISTS
+455,Ash Sorcerer,mid,2,4,2,5,2,4,4,8,"Cloaked in soot-stained robes, carrying obsidian staff.",https://drive.google.com/uc?export=view&id=1u7S-OuKHM-mpwCqPxSELtTOKvTJC5nW_,SPECIALISTS
+456,Ember Seer,mid,5,2,3,1,2,4,3,7,Tattooed mage glowing red.,https://drive.google.com/uc?export=view&id=1SiYnFDAsL3MfcYXeMXVLsoU1LAPI-ckl,SPECIALISTS
+457,Smoke Weaver,mid,2,2,3,3,2,4,2,6,Shrouded in smoke veil.,https://drive.google.com/uc?export=view&id=19wKZ8v-VO3TqHjEqqeNWunKXplplWJQf,SPECIALISTS
+458,Crimson Thaumaturge,mid,1,5,2,2,3,4,3,7,"Robed in scarlet, knife dripping.",https://drive.google.com/uc?export=view&id=1wA6fUxBKKefqM_PD1O6apwXd7JAgk8Rn,SPECIALISTS
+459,Flesh Carver,mid,4,1,1,4,1,4,3,7,Hooded ritualist with knives.,https://drive.google.com/uc?export=view&id=1Fns7tGe5xk2tLzJCj7Aw-ME4ZnbR1CYJ,SPECIALISTS
+460,Red Soothsayer,mid,1,1,4,5,1,4,3,7,Covered in blood-painted glyphs.,https://drive.google.com/uc?export=view&id=1TGgqV_12cdEfAxXMoGzjuT5SoozmBBRy,SPECIALISTS
+461,Sand Alchemist,mid,1,1,3,1,3,3,1,4,"Cloaked in desert rags, carrying vials.",https://drive.google.com/uc?export=view&id=1F144q-foSyTfERKxdojAVYcYzLet_Igp,SPECIALISTS
+462,Venom Brewer,mid,2,2,4,1,1,4,2,6,Alchemist with scorpion vials.,https://drive.google.com/uc?export=view&id=13SI4n7sHSwyLlk8u4LxAkAJiNsj49oH0,SPECIALISTS
+463,Dust Chemist,mid,1,4,1,3,1,4,2,6,Masked chemist with dust gourds.,https://drive.google.com/uc?export=view&id=1VG6pevwlsSAJf3Jc-usHdkA7cSIqrBPE,SPECIALISTS
+464,Crimson Visionary,mid,3,4,2,1,2,4,3,7,"Hooded in red, glowing eyes.",https://drive.google.com/uc?export=view&id=1GCj__928Wbu55bx6dtbV3f893tW9AHC9,SPECIALISTS
+465,Sand Prophetess,mid,2,3,4,2,1,4,3,7,"Robed in sand-colored garb, crystal staff.",https://drive.google.com/uc?export=view&id=1fr5ObgKfZKPoC6zNgujSV_CnYxY4po1E,SPECIALISTS
+466,Bone Binder,mid,4,1,4,1,1,4,3,7,"Cloaked in bones, skull staff.",https://drive.google.com/uc?export=view&id=1FrvOAnVFpgMB9L3AnJE72vBoSUsIjA8Q,SPECIALISTS
+467,Ash Idolator,mid,5,1,2,2,3,4,3,7,Carrying burning idol fragment.,https://drive.google.com/uc?export=view&id=1RyZomidOSvfu920eU46AadKkNgNhdKk6,SPECIALISTS
+468,Crimson Caller,mid,5,1,2,4,2,4,4,8,Ritualist with crimson horn.,https://drive.google.com/uc?export=view&id=1-iD52nk2qvmyqgJ5VCAquBZV7Qb2u9_8,SPECIALISTS
+469,Ash Mechanist,mid,2,4,2,4,1,4,3,7,Engineer fused with ash-plated gears.,https://drive.google.com/uc?export=view&id=1JtsKuTsad1rzA-qtQ37lJmDofV81EsOV,SPECIALISTS
+470,Bone Artificer,mid,2,1,2,2,2,3,1,4,Inventor stitched with bones.,https://drive.google.com/uc?export=view&id=1tZtPFdKFJhT-zTxx4Lv26S1z5mRVM2s3,SPECIALISTS
+471,Sand Tinker,mid,2,2,2,1,4,4,2,6,Small figure carrying desert tools.,https://drive.google.com/uc?export=view&id=19WU2uj8K5Cp-AXAesi-OKfY5zlfTKQPH,SPECIALISTS
+472,Ash Weaver,mid,1,5,3,1,2,4,3,7,"Cloaked in soot, glowing runes.",https://drive.google.com/uc?export=view&id=16WEx9tdbNrFOILB9wwC3s6y-hDrWGe6L,SPECIALISTS
+473,Blood Sculptor,mid,2,3,1,2,3,4,2,6,Ritualist cloaked in crimson.,https://drive.google.com/uc?export=view&id=1m-uT0BwIurUK9PaNIgzmnE228jwOw6lQ,SPECIALISTS
+474,Sand Mystic,mid,2,2,3,2,4,4,3,7,Covered in desert crystals.,https://drive.google.com/uc?export=view&id=1rh9_VfXoe6YHZ_c8GLJFmF5mbFYKpOK0,SPECIALISTS
+475,Crimson Binder,mid,2,3,1,2,2,3,1,4,Shackled with red chains.,https://drive.google.com/uc?export=view&id=1RvhCHTynkL_rTRufcETLNCd4Brx1hGMl,SPECIALISTS
+476,Bone Harvester,mid,2,2,1,1,5,4,3,7,Tall figure with scythe of bones.,https://drive.google.com/uc?export=view&id=1UYhBRf1CwcpL3EnraDNAZ9o986eMIeGH,SPECIALISTS
+477,Ash Dreamer,mid,2,1,1,4,4,4,3,7,"Cloaked in soot, glowing eyes.",https://drive.google.com/uc?export=view&id=1Ui8MUblmRu7uBLkINQeY6ohB6PSIBoNs,SPECIALISTS
+478,Crimson Scribe,mid,2,2,3,1,3,4,2,6,"Tattooed with crimson glyphs, scrolls glowing.",https://drive.google.com/uc?export=view&id=1eCU4D1lQHb9wZR1jhUbPK8rfOJZEei-I,SPECIALISTS
+479,Cuneiform Savant,mid,1,4,3,1,2,4,2,6,"Cloaked scholar, skin inscribed with shifting runes.",https://drive.google.com/uc?export=view&id=1geEPw-utQESAmUyld7yZ7ffF-jotNztr,SPECIALISTS
+480,Tablet Keeper,mid,1,3,2,3,1,4,2,6,Hooded figure carrying cracked clay tablets.,https://drive.google.com/uc?export=view&id=1HqQ6eC4b-_am5iwjvkfGrPlgWvyeO5lw,SPECIALISTS
+481,Sigil Binder,mid,2,2,2,3,4,4,3,7,Ritualist etched with glowing sigils.,https://drive.google.com/uc?export=view&id=10XiaJC4_j74QV6GJWvCgGov5rieSEySw,SPECIALISTS
+482,Viscera Sculptor,mid,1,2,3,1,5,4,3,7,Hooded figure with bone tools.,https://drive.google.com/uc?export=view&id=1xrr00j3CP0ba2XftuF3BdnZGEHK1fJ-8,SPECIALISTS
+483,Crimson Oracle,mid,2,1,4,2,3,4,3,7,Woman covered in blood glyphs.,https://drive.google.com/uc?export=view&id=1yfcbpavXPg19F0OnM_b3cbGCXxI32D6T,SPECIALISTS
+484,Vow Keeper,mid,1,1,3,2,4,4,2,6,Figure wrapped in parchment scrolls.,https://drive.google.com/uc?export=view&id=1iuaOuziVJ4VH928iYvVaTRAg471b9HZu,SPECIALISTS
+485,Geas Weaver,mid,2,1,2,1,4,4,2,6,Tall cloaked figure with glowing staff.,https://drive.google.com/uc?export=view&id=1sm7LWHEug4WSsj-gtkl_RUk38YObj8vQ,SPECIALISTS
+486,Covenant Breaker,mid,1,2,4,2,2,4,2,6,Scarred figure branded with failed vows.,https://drive.google.com/uc?export=view&id=1bQuto7Neqs-1lpRLeQlVXNZkQ4u3N76y,SPECIALISTS
+487,Ash Alchemist,mid,2,3,2,2,5,4,4,8,"Cloaked in soot, carrying ember vials.",https://drive.google.com/uc?export=view&id=1_GcpZZDSV9omoHjkNkybqg3L7bWJL2L0,SPECIALISTS
+488,Crystal Brewer,mid,3,1,1,3,2,4,2,6,Chemist with crystal vials.,https://drive.google.com/uc?export=view&id=1o5wQNvCdJOdNjh8qMCfHLWXQF3CLgIdJ,SPECIALISTS
+489,Void Chemist,mid,1,1,3,3,1,3,1,4,Cloaked alchemist glowing black.,https://drive.google.com/uc?export=view&id=1IteocMgRzLVX6hvEmc8CwBk8OFwqzAKL,SPECIALISTS
+490,Bone Conductor,mid,2,1,4,2,1,4,2,6,Necro-summoner with skull staff.,https://drive.google.com/uc?export=view&id=1OqJAOQPCABeHkDp59a_lrApuoHkQ-IVN,SPECIALISTS
+491,Idol Worshipper,mid,1,1,3,1,5,4,3,7,Carrying fragment of glowing idol.,https://drive.google.com/uc?export=view&id=1PM7IBVh7TpxZcd8OAsKSAMKFQT1E_45m,SPECIALISTS
+492,Beast Caller,mid,1,3,1,4,2,4,2,6,Horned ritualist with bone flute.,https://drive.google.com/uc?export=view&id=1yBssW0uoeVe_bS2qVEO5wGd6H0VsS4l_,SPECIALISTS
+493,Rune Mechanist,mid,1,2,5,1,3,4,3,7,Engineer with glyph-etched tools.,https://drive.google.com/uc?export=view&id=1j-d8RSLYUNVSJPkuX8RElUOUoJEwu-XM,SPECIALISTS
+494,Crystal Artificer,mid,4,2,2,2,2,4,2,6,Inventor plated in crystal shards.,https://drive.google.com/uc?export=view&id=13nFz1kmx3vTqLvoz561uJMqhr7xHETfl,SPECIALISTS
+495,Obsidian Tinker,mid,4,1,1,4,2,4,3,7,Small engineer with obsidian tools.,https://drive.google.com/uc?export=view&id=1FLROVfazgCqOpO5wWb3NgHi45taSVAVE,SPECIALISTS
+496,Rune Mystic,mid,1,4,1,1,4,4,3,7,"Shrouded in runes, crystal staff.",https://drive.google.com/uc?export=view&id=1XCChPPcGaXEB_NCwWtFg8IzKqCCz5zJ0,SPECIALISTS
+497,Void Binder,mid,2,4,1,4,2,4,3,7,"Cloaked in void flame, chains glowing.",https://drive.google.com/uc?export=view&id=1MlzxaoEixDU1kV4_NU-RqLWXl3HExDIY,SPECIALISTS
+498,Halo Mystic,mid,2,2,2,1,3,3,1,4,Radiant figure with halo crown.,https://drive.google.com/uc?export=view&id=1GUR677jHEeZ4XwYnmYHMNiZFV6s-6IKB,SPECIALISTS
+499,Dream Seer,mid,1,1,2,4,4,4,3,7,"Shrouded in veils, glowing eyes.",https://drive.google.com/uc?export=view&id=1cQZRMeeIRcduymha-Mt_JdU_sClE4Yqq,SPECIALISTS
+500,Glyph Scribe,mid,2,3,5,1,1,4,3,7,Cloaked scholar covered in glyph tattoos.,https://drive.google.com/uc?export=view&id=1nJytkvW5EJnXl5NZdcgBYMBvh845mgBQ,SPECIALISTS
+501,Warden of Chains,rare,9,3,3,7,4,4,15,19,"Colossal humanoid clad in black iron, body wrapped in endless glowing chains.",https://drive.google.com/uc?export=view&id=12TFFg4LXaSnYWl4_yk65KAyIbIHHNlj-,MINI-BOSSES
+502,Prophet of Eclipse,rare,4,8,3,7,3,4,13,17,"Pale high priest with eclipse crown, robes dripping black flame.",https://drive.google.com/uc?export=view&id=1DJ_LGS8bp-lS2WJu_XB3FL1QVoyb4HbG,MINI-BOSSES
+503,Crystal Tyrant,rare,4,6,3,3,8,4,12,16,"Titan plated entirely in jagged crystal, glowing core in chest.",https://drive.google.com/uc?export=view&id=1hNelzn_h-EuVozi9jOBkHQhvxij8S0va,MINI-BOSSES
+504,Hollow Seraph,rare,8,3,6,4,3,4,12,16,"Fallen angelic figure of stone wings, chest hollowed by void.",https://drive.google.com/uc?export=view&id=1wQqPRye_wN5gyZKnjOqLHNlp4F4lbRqQ,MINI-BOSSES
+505,Blood Moon Avatar,rare,4,7,4,9,3,4,16,20,Towering beast-humanoid glowing crimson under blood moon.,https://drive.google.com/uc?export=view&id=12FWT975H4aOcPJjVoABeomGYs365Ir7N,MINI-BOSSES
+506,Ash Colossus,rare,3,3,6,8,4,4,12,16,Flaming giant of soot and ember.,https://drive.google.com/uc?export=view&id=1yIeCwwtCVviX9oszDKtYCGwcl6w2qlvn,MINI-BOSSES
+507,Sand Serpent,rare,4,7,4,8,4,4,15,19,Enormous serpent with golden scales.,https://drive.google.com/uc?export=view&id=1EUCw347F6WQNNGb5uqqXMeprh9AY4_01,MINI-BOSSES
+508,Bone Goliath,rare,3,7,4,3,8,4,13,17,Colossal skeleton bound by sinew.,https://drive.google.com/uc?export=view&id=1-rZF7GafVZKYJUOObG54PK2h0HE1Uu7o,MINI-BOSSES
+509,Ash Revenant King,rare,3,6,7,4,3,4,11,15,"Warrior cloaked in burning ash, crowned with flame.",https://drive.google.com/uc?export=view&id=1rn1dQSfIkG9y8b2HAYi9MYdYRz8YDdec,MINI-BOSSES
+510,Crimson Beast,rare,3,4,9,3,7,4,15,19,Giant beast dripping crimson ichor.,https://drive.google.com/uc?export=view&id=1NqAXSj2_AL4RVUQc8_Un_H_fH5AfooQJ,MINI-BOSSES
+511,Canyon Titan,rare,4,4,9,4,9,4,19,23,Gigantic brute of stone and sand.,https://drive.google.com/uc?export=view&id=1RMWPVs7LjQbbjP-c-MP0uIJ4cFGQKhmd,MINI-BOSSES
+512,Bone Hydra,rare,8,7,3,4,4,4,14,18,Serpentine beast with five skeletal heads.,https://drive.google.com/uc?export=view&id=1rqPqfDrnFUmaKOqAOr5RcXzwuKQxonex,MINI-BOSSES
+513,Dust Wraith King,rare,4,8,4,7,3,4,14,18,Towering spirit wrapped in storm.,https://drive.google.com/uc?export=view&id=1ChyEja0KuESw9d6nBDwgfqnGMYU0tDh6,MINI-BOSSES
+514,Crimson Juggernaut,rare,4,3,9,9,3,4,18,22,Hulking gladiator clad in crimson armor.,https://drive.google.com/uc?export=view&id=1qUC0qEV6Gv0MG9T34at9Wppfc7npBomJ,MINI-BOSSES
+515,Sandstorm Avatar,rare,7,4,7,4,4,4,13,17,Humanoid formed of sand and wind.,https://drive.google.com/uc?export=view&id=1LNyGiyxp6rQ0EcsYYuRSOeCTMfaMolYo,MINI-BOSSES
+516,Crimson Prophet King,rare,8,3,4,8,4,4,15,19,Red-robed leader with glowing staff.,https://drive.google.com/uc?export=view&id=1DV8gvvCgr_KCsabP8_hAraCvgbDYncAL,MINI-BOSSES
+517,Ash Titan Lord,rare,4,4,7,8,3,4,14,18,"Colossal humanoid of burning ash and stone, crowned with flame.",https://drive.google.com/uc?export=view&id=1c5kJdocQVmDjvhFRv47sMXRRbTFbCRc8,MINI-BOSSES
+518,Oath Titan,rare,3,4,9,4,6,4,14,18,"Towering humanoid covered in vow-runes, chains embedded in flesh.",https://drive.google.com/uc?export=view&id=1ggeXqaVehIou9wzvbClSLVQ0X_Qs16VP,MINI-BOSSES
+519,Halo Ascendant,rare,4,7,4,9,3,4,16,20,Radiant being with blazing halos orbiting body.,https://drive.google.com/uc?export=view&id=1czX7UyPCt-ieg_9R0RgCLQa0O07ptniG,MINI-BOSSES
+520,Glyph Behemoth,rare,7,4,9,3,3,4,15,19,Colossal beast covered in etched runes.,https://drive.google.com/uc?export=view&id=118nuJJFjxRC8s3o9I1HCCZMvDjDcq3Wd,MINI-BOSSES
+521,Void Serpent,rare,4,4,3,8,6,4,13,17,Enormous serpent cloaked in shadowfire.,https://drive.google.com/uc?export=view&id=1bZqVqimCnnRjerPrUx9i2lCJPrTJdimy,MINI-BOSSES
+522,Halo Warden,rare,3,6,8,4,4,4,13,17,"Radiant knight clad in golden armor, halo crown.",https://drive.google.com/uc?export=view&id=1NgxaiYIbomw5NoZG7a6JavYPOmaqSukz,MINI-BOSSES
+523,Rune Goliath,rare,7,4,7,3,3,4,12,16,Massive humanoid inscribed with giant glyphs.,https://drive.google.com/uc?export=view&id=1MXjPI_wm0WdRT_JGVKT5QR3gPNQjvRm4,MINI-BOSSES
+524,Crystal Leviathan,rare,4,9,3,8,4,4,17,21,Serpentine monster plated in crystal.,https://drive.google.com/uc?export=view&id=1kzOqYf_eeR8dMUrFtE6ZJoQLN5KnunfW,MINI-BOSSES
+525,Obelisk Avatar,rare,4,8,7,4,3,4,14,18,Living obelisk inscribed with runes.,https://drive.google.com/uc?export=view&id=1XA3z3geb4UGT-qtOGfe-QarKSolN8Wuh,MINI-BOSSES
+526,Void Horror King,rare,3,7,4,4,6,4,12,16,"Amorphous mass of black fire, crowned with void.",https://drive.google.com/uc?export=view&id=1s2V-i478RKmAi7DsdjZQgLjpzumPAd4W,MINI-BOSSES
+527,Glyph Titan,rare,6,3,8,3,3,4,12,16,Towering giant covered in glowing glyphs.,https://drive.google.com/uc?export=view&id=1SeQPuoj-tDICWx0R6Gzs8jxZXLagcODg,MINI-BOSSES
+528,Pharaoh of Chains,super,5,5,12,8,6,4,27,31,"Ancient king wrapped in spectral chains, golden mask cracked.",https://drive.google.com/uc?export=view&id=1hkDFrQjCYoU8xx9oI4o8QL3QOCDDz73q,MAJOR-BOSSES
+529,Idol Colossus,super,9,5,9,5,4,4,21,25,"Towering statue animated by cult magic, glowing runes.",https://drive.google.com/uc?export=view&id=1z0CmNt_8kx_wew9xE90J9m35dg8QLdsz,MAJOR-BOSSES
+530,Marsh Leviathan,super,8,6,5,4,11,4,24,28,"Massive serpent with reed crown, body covered in swamp mud.",https://drive.google.com/uc?export=view&id=1Q3cFqlgnbayTEoIIyD12VOw5X9n2yWyV,MAJOR-BOSSES
+531,Bronze Juggernaut,super,5,9,6,11,6,4,27,31,"Giant automaton of bronze plates, war hammer in hand.",https://drive.google.com/uc?export=view&id=1wPE88FFirVE0FoVDcmu_pMWL3B0c23V3,MAJOR-BOSSES
+532,Blood Prophet King,super,11,4,6,6,10,4,28,32,"Emaciated priest with crimson tattoos, staff of bone.",https://drive.google.com/uc?export=view&id=157N7qiz0IgoniAHXIPlE31a-fGPQEZV7,MAJOR-BOSSES
+533,Obsidian Lion King,super,10,6,6,6,11,4,30,34,"Giant lion carved of black stone, mane ablaze.",https://drive.google.com/uc?export=view&id=1Phko1ClIdXYEPtG-0znnTABARrKmOLlL,MAJOR-BOSSES
+534,Ash Oracle Queen,super,4,5,5,9,11,4,24,28,"Hooded figure, face obscured by burning ash veil, staff glowing.",https://drive.google.com/uc?export=view&id=1ngG8dskIe-TnMgPF--x9SuDhsyp9lIhH,MAJOR-BOSSES
+535,Chain Marshal Lord,super,9,6,4,9,5,4,22,26,"Overseer in blackened bronze, chains wrapped as armor.",https://drive.google.com/uc?export=view&id=1-f4kD2sRLW3WRwbMJxDK5Yr7YPiVn5-B,MAJOR-BOSSES
+536,Fire Ram King,super,10,9,6,4,4,4,23,27,"Wooden ram wrapped in burning oil, crowned with iron.",https://drive.google.com/uc?export=view&id=1tCg67T44DRnIMA9il4h0QKm0hkcLeV53,MAJOR-BOSSES
+537,Bone Chariot Lord,super,5,5,6,10,10,4,26,30,"Chariot built from bones, pulled by skeletal oxen.",https://drive.google.com/uc?export=view&id=1CcFL2CrcZfCyu27AEqNfNEsQ5bhczaz-,MAJOR-BOSSES
+538,Siege Idol King,super,5,11,4,10,5,4,26,30,"Massive idol animated by cult, glowing with fire.",https://drive.google.com/uc?export=view&id=1bs3t6vgp3KL1y4YGumqC7taqGd-PqLoH,MAJOR-BOSSES
+539,Oil Hydra King,super,5,4,5,8,8,4,18,22,"Multi-headed automaton spewing burning oil, crowned with bronze.",https://drive.google.com/uc?export=view&id=17XK4ZD-EWJuUyoBtrHUbctrk_LT1RZzs,MAJOR-BOSSES
+540,Eclipse Hierarch,super,5,4,9,6,10,4,24,28,"Robed priest glowing with eclipse sigils, staff blazing.",https://drive.google.com/uc?export=view&id=18u5vg1VPavnlEdFT8leu2CYjzeXWyEbP,MAJOR-BOSSES
+541,Void Augur King,super,4,4,5,9,11,4,24,28,"Emaciated oracle with hollow eyes, crowned with void flame.",https://drive.google.com/uc?export=view&id=1TpyfOVLHNi6lAjAEspTEnsLNd2luDUVT,MAJOR-BOSSES
+542,Blood Moon Prophet Lord,super,6,9,9,4,6,4,23,27,"Crimson-robed prophet with blood-crystal staff, eyes glowing.",https://drive.google.com/uc?export=view&id=1-eDRCTbQARwri6jSTcZR_AHykkkMlviL,MAJOR-BOSSES
+543,Chained Seer King,super,4,10,6,9,5,4,24,28,"Blindfolded mystic wrapped in glowing chains, staff of silver.",https://drive.google.com/uc?export=view&id=1YWH0ZrXXaAHioElIX-ph0KAkxyv5CA49,MAJOR-BOSSES
+544,Ashen Oracle Queen,super,10,5,12,6,5,4,30,34,"Ash-coated priest with burning staff, veil of embers.",https://drive.google.com/uc?export=view&id=1t-zzjkQ7fp96GDzBlnT0F25YcY5LhhNJ,MAJOR-BOSSES
+545,Crescent Duelist Lord,super,6,4,5,10,9,4,24,28,"Agile fighter with dual crescent blades, silver helm.",https://drive.google.com/uc?export=view&id=1n5vns_fPWzui-p_FVH-WoRNPzGKXWwIQ,MAJOR-BOSSES
+546,Ironclad Gladiator King,super,5,6,11,12,5,4,32,36,"Gladiator covered in iron plates, massive sword.",https://drive.google.com/uc?export=view&id=1kul0bH9yEm4PM3DJuXqgnBPg63vQAJMq,MAJOR-BOSSES
+547,Bloodspiller Lord,super,4,6,12,4,9,4,27,31,"Gladiator with crimson-stained armor, war banner.",https://drive.google.com/uc?export=view&id=1QJv3Ye3pdFU0AgvoTE_qx1hXevHpVMuJ,MAJOR-BOSSES
+548,Chainfighter King,super,5,10,5,9,5,4,23,27,"Gladiator wielding hooked chains, crowned with iron.",https://drive.google.com/uc?export=view&id=1ks9sjTBV_LQ88rtkVbHCKjEqL6DW_xWT,MAJOR-BOSSES
+549,Bonebreaker Lord,super,5,5,11,8,4,4,23,27,"Giant gladiator wielding massive bone club, mask of skulls.",https://drive.google.com/uc?export=view&id=1eQsuxxLAK_hOEWx4om-1wkCXQWBmn8rj,MAJOR-BOSSES
+550,Crater Brute King,super,4,9,4,11,4,4,23,27,"Monstrous humanoid with stone armor fused to skin, crowned with obsidian.",https://drive.google.com/uc?export=view&id=1Uq5gxBQN9BT3_lRlXxFDyqJPyK_vKnHl,MAJOR-BOSSES
+551,Moonspawn Horror King,super,4,5,11,6,12,4,31,35,"Amorphous flesh mass glowing with runes, crowned with lunar crystal.",https://drive.google.com/uc?export=view&id=1wPjmQ_Gf7CYXVWn0h9f-c4BJ6fub6aXS,MAJOR-BOSSES
+552,Shadow Hulk King,super,9,8,6,5,5,4,21,25,"Black hulking humanoid with glowing red eyes, crowned with void flame.",https://drive.google.com/uc?export=view&id=1vRgb5STt-KTK4ujRlrYF4fw42LO9Z9t9,MAJOR-BOSSES
+553,Lunar Abomination Lord,super,5,11,4,5,9,4,24,28,"Stitched body, half-machine, half-flesh, crowned with silver.",https://drive.google.com/uc?export=view&id=1HkQKF_GGPMDKyOSfG6ZFZnpRevQ1tZ78,MAJOR-BOSSES
+554,Crystal Reaver King,super,9,5,10,5,6,4,24,28,"Beast covered in jagged lunar crystals, glowing core.",https://drive.google.com/uc?export=view&id=14_uxwn3exdtdMyhXFEsr2Ne-jrHtFD54,MAJOR-BOSSES
+555,Void Herald King,super,5,6,11,5,12,4,32,36,"Cloaked figure with black flame crown, staff of void.",https://drive.google.com/uc?export=view&id=1yGQOGH3cTzGqcSjhJdf-EGp2Le0SZaq4,MAJOR-BOSSES
+556,Eclipse Warlock Lord,super,9,9,5,4,4,4,20,24,"Robed caster with eclipse sigils glowing, crowned with crescent.",https://drive.google.com/uc?export=view&id=1ZKWrvNN5Ea57spi_jXGDZd2zqNqoHvLO,MAJOR-BOSSES
+557,Hollow Bishop King,super,10,5,5,9,5,4,23,27,"Emaciated cleric with hollowed eyes, silver staff, crowned with moonstone.",https://drive.google.com/uc?export=view&id=1dG1p8TUPVDvKdZ9rj628hxnb2ykNjvIr,MAJOR-BOSSES
+558,Chain Pontiff Lord,super,5,10,5,11,4,4,26,30,"Towering cleric wrapped in glowing chains, staff of gold.",https://drive.google.com/uc?export=view&id=1TOzERFYnE5hB_Li7nh4EsJ_tOu07y53U,MAJOR-BOSSES
+559,Ash Bishop Queen,super,9,5,5,6,10,4,24,28,"Ash-stained cleric glowing with embers, mask of soot.",https://drive.google.com/uc?export=view&id=1PxZZuQv0-ej2e5fuEw-vG4LoNnhU8q-H,MAJOR-BOSSES
+560,Blade Dancer Lord,super,5,5,12,5,11,4,31,35,"Graceful gladiator wielding twin curved blades, crowned with silver.",https://drive.google.com/uc?export=view&id=1lfr58E5G-5HvhUW1My4i6XeLNx3ipD_9,MAJOR-BOSSES
+561,Iron Juggernaut King,super,9,5,8,5,5,4,20,24,"Gladiator clad in iron plates, massive hammer, crowned with bronze.",https://drive.google.com/uc?export=view&id=1ghYQp_ndaMVcxEa3ZgOVh33ZNRXmeQfQ,MAJOR-BOSSES
+562,Blood Arena Lord King,super,6,11,5,11,5,4,30,34,"Gladiator with crimson cloak, war banner, crowned with gold.",https://drive.google.com/uc?export=view&id=1oCpo6iCJx_Xy95uuAxtLYQtCKi4bius8,MAJOR-BOSSES
+563,Pit Beastmaster King,super,6,5,8,4,10,4,22,26,"Gladiator with chained beasts, crowned with bone.",https://drive.google.com/uc?export=view&id=1GqIbK4cqXHadPexmMBaGjOWyRtVPMYSN,MAJOR-BOSSES
+564,Skullcrusher King,super,8,6,10,5,5,4,23,27,"Huge brute with spiked mace, crowned with iron.",https://drive.google.com/uc?export=view&id=1u2rMytKhmZlKtOCqgerhJPbITaaKASxr,MAJOR-BOSSES
+565,Crystal Knight Lord,super,9,12,5,4,5,4,26,30,"Armored knight of crystal plating, lance glowing.",https://drive.google.com/uc?export=view&id=1jVSOlGtS905Tyn7vu6HsBeZD5B1bYxFP,MAJOR-BOSSES
+566,Prism Lancer King,super,4,10,4,5,11,4,25,29,"Cavalier with crystal lance mounted on beast, crowned with crystal.",https://drive.google.com/uc?export=view&id=1CT_5uHS7HA4Bho4A5cwjVWr29LKn5nZh,MAJOR-BOSSES
+567,Gleam Sorcerer Lord,super,5,12,6,11,4,4,31,35,"Robed figure with glowing crystal crown, staff of light.",https://drive.google.com/uc?export=view&id=1u2JMf-zfEuDMyH9XlWWjRFcCv-lFoAHJ,MAJOR-BOSSES
+568,Shard Brute King,super,4,6,6,9,11,4,26,30,"Hulking mutant covered in shards, crowned with obsidian.",https://drive.google.com/uc?export=view&id=1sayz5EDD6ua6P1c8DEDvbrzWaBax02CN,MAJOR-BOSSES
+569,Crystal Stalker Lord,super,10,11,5,5,6,4,28,32,"Beast with crystalline claws, crowned with lunar crystal.",https://drive.google.com/uc?export=view&id=1_W0yGcj2JENw4JZWsRXoq2jtwIkAuRbt,MAJOR-BOSSES
+570,Void Knight King,super,5,11,6,5,9,4,26,30,"Armored warrior wreathed in void fire, crowned with shadow.",https://drive.google.com/uc?export=view&id=13_xpqrjLomukp6acOSNXoQjr1Yrj_n8Z,MAJOR-BOSSES
+571,Shadow Assassin Lord,super,5,9,8,5,6,4,21,25,"Black-clad killer with crescent daggers, crowned with silver.",https://drive.google.com/uc?export=view&id=1dFo8QvxWV7AXrbY5LLIb4HPsVKl9JGXC,MAJOR-BOSSES
+572,Hollow Beast King,super,4,4,9,11,5,4,24,28,"Twisted humanoid with hollow core, crowned with bone.",https://drive.google.com/uc?export=view&id=11Q4T8koQJj_hCp0-rkp1OeGEWLU1wDlf,MAJOR-BOSSES
+573,Eclipse Wraith Lord,super,6,8,5,9,4,4,20,24,"Spirit wreathed in eclipse aura, crowned with moonstone.",https://drive.google.com/uc?export=view&id=182a39aHlEtFYj4COXYn46MHNged28inV,MAJOR-BOSSES
+574,Void Devourer King,super,5,8,11,5,6,4,25,29,"Massive humanoid with void mouth across chest, crowned with darkness.",https://drive.google.com/uc?export=view&id=1Kh3zFVT-WwbWcvJn0r7gu-8fCc-CkqCw,MAJOR-BOSSES
+575,Bronze Pitlord King,super,11,5,4,10,6,4,27,31,"Gladiator captain clad in bronze plates, crowned with gold.",https://drive.google.com/uc?export=view&id=1fRn3CEs6PbxRA5Z9O_K-lh5_CUXSOTiA,MAJOR-BOSSES
+576,Crimson Duelmaster Lord,super,4,6,6,10,10,4,26,30,"Elegant fighter in red armor, twin swords, crowned with crimson.",https://drive.google.com/uc?export=view&id=1Ln93YvFjf6swYHVsJLXt5dJIFe-f3EpN,MAJOR-BOSSES
+577,Chain Warlord King,super,9,5,12,5,4,4,26,30,"Bulky gladiator with massive hooked chains, crowned with iron.",https://drive.google.com/uc?export=view&id=1e9uXi7hDa8QjOyArrIqnZuNxoVlX3D8i,MAJOR-BOSSES
+578,Masked Champion Lord,super,5,10,5,9,4,4,23,27,"Fighter with ornate golden mask, crowned with gold.",https://drive.google.com/uc?export=view&id=1OYw3ZfS2NScSwMOVq_ODumzur0T9b9Nd,MAJOR-BOSSES
+579,Ash Gladiator Lord King,super,5,4,11,6,9,4,25,29,"Covered in burning ash armor, crowned with flame.",https://drive.google.com/uc?export=view&id=1UnsNWz5E9xHebfhNhuAXSpsU8dQDrW-P,MAJOR-BOSSES
+580,Ash Priest King,super,10,6,5,11,4,4,27,31,"Tall priest with ash veil, crowned with soot.",https://drive.google.com/uc?export=view&id=17Tsp876giK0itQH0HFck5lkG6aGzzcMI,MAJOR-BOSSES
+581,Blood Oracle Lord,super,5,9,11,5,5,4,25,29,"Oracle with blood-soaked staff, crowned with crimson.",https://drive.google.com/uc?export=view&id=1E1gmLccmgdszAmKwSziUNqM08yWv4-ZQ,MAJOR-BOSSES
+582,Ember Prophet King,super,10,6,5,8,6,4,24,28,"Robed in red firecloth, crowned with ember.",https://drive.google.com/uc?export=view&id=1US0YAKQ7C3420sI5v8tPJ9rAWW7ZTF_A,MAJOR-BOSSES
+583,Ash Binder Lord,super,11,5,12,4,5,4,30,34,"Cloaked in ash chains, crowned with iron.",https://drive.google.com/uc?export=view&id=1HSyJ7j9ip3ymOdz3_Upl6SJ08k2IKno0,MAJOR-BOSSES
+584,Crimson Prophetess Queen,super,6,6,12,4,11,4,32,36,"Woman in crimson robes, crescent staff, crowned with ruby.",https://drive.google.com/uc?export=view&id=1JeUjPSCoI-7TUTgpNyVmOleV9j8-UL3Y,MAJOR-BOSSES
+585,Dune Chieftain King,super,6,11,8,6,5,4,26,30,"Raider chief with golden spear, crowned with sand.",https://drive.google.com/uc?export=view&id=1KRCXMGtzCw8xmoRxOV4b-vIkDBj7S8fP,MAJOR-BOSSES
+586,Canyon Marauder King Lord,super,10,6,4,5,11,4,27,31,"Heavily armed warlord with jagged axe, crowned with stone.",https://drive.google.com/uc?export=view&id=1m3zRxWayq3j4v4VQUX7JL9xYNNe5wNha,MAJOR-BOSSES
+587,Bone Raider Lord King,super,5,11,5,6,10,4,28,32,"Raider cloaked in bones, spiked spear, crowned with skulls.",https://drive.google.com/uc?export=view&id=1Ebagknp0ehL6XSrC5sjcruDsb4KOT5-7,MAJOR-BOSSES
+588,Ash Nomad Chieftain King,super,5,8,6,8,5,4,20,24,"Nomad leader with flaming scimitars, crowned with ash.",https://drive.google.com/uc?export=view&id=1u3fcmzFpF26OinTwb72uMXKGcBwbMPeu,MAJOR-BOSSES
+589,Sandstorm Khan Lord,super,5,5,8,5,12,4,26,30,"Warlord with flowing robes, staff of wind, crowned with sand.",https://drive.google.com/uc?export=view&id=1e1jmHzaBes317-JAboxr2tRzLsLs2stD,MAJOR-BOSSES
+590,Bone Colossus King,super,5,10,12,6,5,4,30,34,"Giant humanoid made of bone, crowned with skulls.",https://drive.google.com/uc?export=view&id=1_Fg3QYKPNJu2zEkYyLTxwbTpwnpaOIBR,MAJOR-BOSSES
+591,Dust Wraith Lord,super,4,6,9,4,9,4,21,25,"Spirit shrouded in dust storm, crowned with sand.",https://drive.google.com/uc?export=view&id=1QPsuCcGuyMgGDM7ZNFE5FCrLE3qsFl8P,MAJOR-BOSSES
+592,Crimson Horror King,super,5,5,9,8,5,4,20,24,"Flesh beast dripping crimson ichor, crowned with ruby.",https://drive.google.com/uc?export=view&id=1uWNkLaZhlYzDYIW5h-xBYuVisu1kd65E,MAJOR-BOSSES
+593,Ash High Priest King,super,9,5,5,5,11,4,25,29,"Priest draped in smoke and fire, crowned with soot.",https://drive.google.com/uc?export=view&id=16PmVyd8yVNE1HXm5fkSKjSv_gZLk4XbH,MAJOR-BOSSES
+594,Blood Matron Queen,super,11,5,5,5,10,4,27,31,"Elder woman cloaked in crimson, ritual knife, crowned with ruby.",https://drive.google.com/uc?export=view&id=15QuFYHRL81FFFXESxzKB8JDA6S3Tl3Sb,MAJOR-BOSSES
+595,Ember Lord King,super,8,4,4,5,11,4,22,26,"Red-armored prophet, flame sword, crowned with ember.",https://drive.google.com/uc?export=view&id=1CeNTuGjv-f4A2oBy4cz0l-4USx8w5i6y,MAJOR-BOSSES
+596,Chain Hierophant Lord,super,5,5,9,12,4,4,26,30,"Priest covered in glowing chains, crowned with iron.",https://drive.google.com/uc?export=view&id=1l9aydbyF3sadUJLIIvl_jEpqzfc3czt9,MAJOR-BOSSES
+597,Crimson Pontiff King,super,5,5,8,12,5,4,26,30,"Regal cult leader in crimson robes, jeweled staff, crowned with ruby.",https://drive.google.com/uc?export=view&id=1NChp_J5C5d-yNoQklahlrPRRdqfRqMa-,MAJOR-BOSSES
+598,Pit King Lord,super,6,11,6,12,4,4,32,36,"Gladiator king with gold armor, bone crown, crowned with gold.",https://drive.google.com/uc?export=view&id=16WJRbhDRltai9gF11wqThXTRXasnLJqx,MAJOR-BOSSES
+599,Masked Warlord King,super,9,4,9,5,4,4,20,24,"Champion with gilded mask, twin axes, crowned with gold.",https://drive.google.com/uc?export=view&id=1T9vJO8xhb0x-tynsTBO9lsIlJawAZ9sw,MAJOR-BOSSES
+600,Crimson Champion Lord,super,6,6,8,12,5,4,28,32,"Fighter drenched in blood, serrated sword, crowned with crimson.",https://drive.google.com/uc?export=view&id=1heMi76eqlf8y5BfJQikljwqFnBRVViSI,MAJOR-BOSSES
+601,Bone Gladiator King,super,4,10,5,5,10,4,24,28,"Gladiator armored in bones, crowned with skulls.",https://drive.google.com/uc?export=view&id=16pUdhZ1WN2JF0ttyB75qd0-4z3S0Vb_P,MAJOR-BOSSES
+602,Arena Juggernaut King,super,6,6,9,11,6,4,28,32,"Enormous gladiator with chained hammer, crowned with iron.",https://drive.google.com/uc?export=view&id=1bCB-4vsMAx23Lw1A3gRClAqzRMubt-pr,MAJOR-BOSSES
+603,Ash Demon Lord,super,9,4,5,5,11,4,24,28,"Demon of ash and fire, horned skull, crowned with flame.",https://drive.google.com/uc?export=view&id=1GMwaj63ZsB5ChmMH95_BROE4uCHu1Jx_,MAJOR-BOSSES
+604,Crimson Abomination Lord,super,5,8,5,5,11,4,24,28,"Flesh beast dripping crimson ichor, crowned with crimson.",https://drive.google.com/uc?export=view&id=1_Ju-q3KnBAeesKk8fX1BM0Cvuk4YB3sj,MAJOR-BOSSES
+605,Dust Titan King,super,4,5,6,10,10,4,25,29,"Colossal being of dust and stone, crowned with sand.",https://drive.google.com/uc?export=view&id=1UprZVPAHAYZMLNJLGAr2PBvevJh3FwYN,MAJOR-BOSSES
+606,Ash Leviathan King,super,11,4,8,5,5,4,23,27,"Serpentine beast wreathed in flame, crowned with soot.",https://drive.google.com/uc?export=view&id=1FRb2grj5TMfe8RMKUAkXxjH7fg7phndD,MAJOR-BOSSES
+607,Red Khan Lord,super,10,11,6,4,4,4,26,30,"Warlord clad in red armor, massive axe, crowned with ruby.",https://drive.google.com/uc?export=view&id=1z0AShTCkptESQO4Bq6WbT42CrG5-D7my,MAJOR-BOSSES
+608,Bone Chieftain King,super,4,5,8,4,9,4,19,23,"Tribal leader wearing skull mask, crowned with bone.",https://drive.google.com/uc?export=view&id=1Be0SLiGOh_pb7GV6wEGbndgXLDqh6Jxr,MAJOR-BOSSES
+609,Canyon Lord King,super,9,8,5,6,4,4,20,24,"Raider general, golden spear, crowned with stone.",https://drive.google.com/uc?export=view&id=114eNb9w7TPuIqEeFjJ68P4O2_bqAc2FP,MAJOR-BOSSES
+610,Sandstorm Prophet Lord,super,5,9,11,4,4,4,24,28,"Robed warlord with wind staff, crowned with sand.",https://drive.google.com/uc?export=view&id=1TuvOsyeC3teMhpiuYzfCzbqg6ICrGbm6,MAJOR-BOSSES
+611,Crimson Khan King,super,9,5,10,4,6,4,24,28,"Regal warlord in crimson silk, jeweled sword, crowned with ruby.",https://drive.google.com/uc?export=view&id=1B4-0PLvoZgzQXhm-ZNLpjbJTzpfY-GiD,MAJOR-BOSSES
+612,Glyph Knight King,super,9,5,12,4,5,4,26,30,"Armored warrior etched with glowing runes, crowned with glyphs.",https://drive.google.com/uc?export=view&id=12tHLnUIaff7pJdvQmK2jewBLLj333DHD,MAJOR-BOSSES
+613,Halo Paladin Lord,super,5,4,11,10,6,4,27,31,"Radiant knight crowned with luminous halo, crowned with gold.",https://drive.google.com/uc?export=view&id=1mRL3VQQQkyuMBPDAS7MsR_Ic5ucm9CDn,MAJOR-BOSSES
+614,Crystal Vanguard King,super,9,5,8,5,5,4,20,24,"Soldier clad in crystal armor, spear glowing, crowned with crystal.",https://drive.google.com/uc?export=view&id=1A25GKCi6iZ3gdouPKZBQW9y36xm7-ilz,MAJOR-BOSSES
+615,Obsidian Berserker King,super,5,4,6,8,9,4,20,24,"Hulking brute wielding obsidian axes, crowned with obsidian.",https://drive.google.com/uc?export=view&id=15GubW1cveBSsdk7q4Z_YK4OuMXZ2JIxO,MAJOR-BOSSES
+616,Oath Champion Lord,super,11,9,6,6,5,4,27,31,"Warrior branded with glowing vow runes, crowned with parchment.",https://drive.google.com/uc?export=view&id=1qeRDe7Tlir-nsVapzLtSHnIKNBCJlyHA,MAJOR-BOSSES
+617,Blood Hierophant Lord,super,5,4,10,12,4,4,27,31,"Cloaked in crimson robes, knife in hand, crowned with ruby.",https://drive.google.com/uc?export=view&id=1AUow3EXn9-DJeCgvdS4oS_UsERP79j_G,MAJOR-BOSSES
+618,Rune Exarch King,super,11,10,6,4,6,4,28,32,"Tall figure cloaked in glyphs, staff blazing, crowned with glyphs.",https://drive.google.com/uc?export=view&id=1T40xS2j3C5EdE33PwHSAh-lDjAnQgs6o,MAJOR-BOSSES
+619,Halo Prelate Lord,super,5,11,5,4,11,4,28,32,"Radiant cleric crowned with glowing halo, crowned with gold.",https://drive.google.com/uc?export=view&id=1RJieJGAx-yD98dvXHOYEY2_tbGt0oSha,MAJOR-BOSSES
+620,Void Inquisitor King,super,5,6,5,9,11,4,26,30,"Shadow-cloaked judge with glowing eyes, crowned with void.",https://drive.google.com/uc?export=view&id=1ehTF51KuOC0xOGeiCxbVXQf9Xc0bJvEz,MAJOR-BOSSES
+621,Obelisk General King,super,5,5,10,6,10,4,26,30,"Armored in stone, inscribed with runes, crowned with obelisk.",https://drive.google.com/uc?export=view&id=1bUa2K-fQnRLwZui_2fXBClrXql4pIyx9,MAJOR-BOSSES
+622,Golden Strategos Lord,super,6,12,11,5,5,4,32,36,"Warrior in gilded armor with jeweled sword, crowned with gold.",https://drive.google.com/uc?export=view&id=1iglmCkvkft8NAczFmvwSKcpqXuLaGnMI,MAJOR-BOSSES
+623,Rune Captain King,super,5,5,11,9,6,4,26,30,"Soldier branded with glyph tattoos, crowned with glyphs.",https://drive.google.com/uc?export=view&id=1cpJ24u2scs2iDHebNM1uDoPHH2XsAoK-,MAJOR-BOSSES
+624,Halo Commander Lord,super,5,5,10,11,5,4,27,31,"Radiant figure with winged helm, crowned with gold.",https://drive.google.com/uc?export=view&id=1NP4-OJ36lij1L-Ov4zDw4-B8L_ml6wPv,MAJOR-BOSSES
+625,Void Centurion King,super,5,5,8,5,12,4,26,30,"Dark knight wielding void lance, crowned with void.",https://drive.google.com/uc?export=view&id=1RL-i0VO-NAPp-VQ6i2kEIdgVdfx2YECj,MAJOR-BOSSES
+626,Crystal Colossus King,super,11,5,4,9,5,4,24,28,"Giant clad in crystalline plates, crowned with crystal.",https://drive.google.com/uc?export=view&id=1VHvmYdYOujj8clBhPa8Tb012aJAyr7Do,MAJOR-BOSSES
+627,Oath Leviathan Lord,super,6,11,11,5,5,4,30,34,"Serpentine giant inscribed with vow runes, crowned with parchment.",https://drive.google.com/uc?export=view&id=1a6PoTNpplE4BYBJkzQJjI-4Vh0wtob98,MAJOR-BOSSES
+628,Ash Titan King,super,5,11,10,5,5,4,27,31,"Colossal humanoid wreathed in flame, crowned with soot.",https://drive.google.com/uc?export=view&id=1wZ_0oMM1q8janeeFYcVcW6xnho59q3Ei,MAJOR-BOSSES
+629,Halo Seraph Lord,super,11,5,6,9,5,4,26,30,"Winged figure of radiant light, halo blazing, crowned with gold.",https://drive.google.com/uc?export=view&id=1g8WyfY83tQbr2DeYBfXVnwgXE0iJ0NBG,MAJOR-BOSSES
+630,Ash Hierarch Lord,super,6,5,10,4,8,4,22,26,"Cloaked in smoke and flame, mask glowing, crowned with soot.",https://drive.google.com/uc?export=view&id=1c8OvxP4UO-o0xlvPNu6cviQNZSrIlZ7w,MAJOR-BOSSES
+631,Rune Pontiff King,super,5,10,6,4,10,4,25,29,"Tall figure cloaked in glyph-etched robes, crowned with glyphs.",https://drive.google.com/uc?export=view&id=1S1QB7cBp6E0hLTZiERQlIxtNrAca-7F0,MAJOR-BOSSES
+632,Halo Exemplar Lord,super,4,9,5,10,6,4,24,28,"Radiant cleric crowned with blazing halo, crowned with gold.",https://drive.google.com/uc?export=view&id=1e2pUpPvjkXahFOFfrVEvjsjJAn2Beptp,MAJOR-BOSSES
+633,Void Exarch King,super,9,4,11,5,6,4,25,29,"Dark priest cloaked in shadows, eyes glowing, crowned with void.",https://drive.google.com/uc?export=view&id=1Bvlv3fCF_2rhvn8CWXaqdps3QUOEVJp7,MAJOR-BOSSES
+634,Crystal General King,super,5,5,5,11,12,4,31,35,"Warrior clad in crystal plates, wielding glaive, crowned with crystal.",https://drive.google.com/uc?export=view&id=1lC31tgWMwYT4JsYPTOgJaIbqzbfolUnD,MAJOR-BOSSES
+635,Golden Strategist Lord,super,9,5,5,12,4,4,26,30,"General clad in gold and jewels, crowned with gold.",https://drive.google.com/uc?export=view&id=1AylNZtSEH5cu7CBGcvSBHJqkdn6Te9xM,MAJOR-BOSSES
+636,Obelisk Warden King,super,12,8,4,6,5,4,26,30,"Armored in stone, glyphs glowing, crowned with obelisk.",https://drive.google.com/uc?export=view&id=1KfLErnOBN5nvuTDCFjQdkoFXtALn9Oaf,MAJOR-BOSSES
+637,Rune Marshal King,super,4,9,5,11,5,4,24,28,"Soldier etched with glowing glyphs, staff spear, crowned with glyphs.",https://drive.google.com/uc?export=view&id=1euY8WDYvsAjJwFCmTr1B7gvZE-v2qT8i,MAJOR-BOSSES
+638,Halo Praetor Lord,super,9,6,10,4,5,4,24,28,"Radiant warrior with winged helm and spear, crowned with gold.",https://drive.google.com/uc?export=view&id=1zMN5qMsIYRrnFYzTOzSkQF5TtFsrqPdw,MAJOR-BOSSES
+639,Halo Seraphim Lord,super,6,9,5,9,6,4,24,28,"Winged radiant figure crowned with halos, crowned with gold.",https://drive.google.com/uc?export=view&id=1JXc1DhibCmceE0lwTCJUriAwL-VdlSRB,MAJOR-BOSSES
+640,Ash Lord King,super,12,6,4,5,11,4,31,35,"Tall warlord cloaked in flame, crowned with soot.",https://drive.google.com/uc?export=view&id=1AiXctTndtjcb6tWmgnI-OAMq0_U5_iNR,MAJOR-BOSSES
+641,Rune Khan King,super,6,4,5,11,12,4,31,35,"Warlord etched with glyph tattoos, crowned with glyphs.",https://drive.google.com/uc?export=view&id=1kgqPj1NF2XAUF6du2_Pqr4aGA_R1va9-,MAJOR-BOSSES
+642,Halo Regent Lord,super,5,5,9,10,5,4,23,27,"Radiant ruler crowned with great halo, crowned with gold.",https://drive.google.com/uc?export=view&id=1D3w58qWOmjisA8t2hORW3mHD4zlCAn3G,MAJOR-BOSSES
+643,Void King Lord,super,8,8,6,6,4,4,20,24,"Cloaked in shadows, eyes glowing like suns, crowned with void.",https://drive.google.com/uc?export=view&id=1cO4PgQ0rEmTBCHrWDIaPovRdJ9WI26-Q,MAJOR-BOSSES
+644,"Pharaoh of Chains, the Eternal",super,4,8,9,4,6,4,20,24,"Ancient king wrapped in spectral chains, golden mask cracked, eyes burning with blue fire.",https://drive.google.com/uc?export=view&id=17MUYwtYSeWLwjdsDCjd4joE5dMMUMNuL,KINGDOM-BOSSES
+645,"River Titan, the Flood King",super,6,9,8,5,5,4,21,25,"Colossal warrior clad in fishbone armor, wielding a trident of bone and gold, crowned with reeds.",https://drive.google.com/uc?export=view&id=1CFDKTcgzjwUMQyI4G8xt8IGvzahGCBS5,KINGDOM-BOSSES
+646,"Idol Colossus, the Living God",super,6,5,12,8,5,4,27,31,"Towering statue animated by cult magic, covered in glowing runes, crowned with obsidian.",https://drive.google.com/uc?export=view&id=12DVfYUg54weNoekgvmXHWXhk65uXXCV6,KINGDOM-BOSSES
+647,"Marsh Leviathan, the Drowned Queen",super,5,5,6,9,11,4,26,30,"Massive serpent with reed crown, body covered in swamp mud, eyes glowing green.",https://drive.google.com/uc?export=view&id=1Si1uEaHtmn0uEDwH9zu1jYgHXlV074MV,KINGDOM-BOSSES
+648,"Sandstorm Khan, the Desert Lord",super,5,9,4,10,6,4,24,28,"Warlord with flowing robes, staff of wind, surrounded by a swirling sandstorm, crowned with gold.",https://drive.google.com/uc?export=view&id=1Z0yRbJx5oxK5Z_I7k8T44_8I758Wi5yi,KINGDOM-BOSSES
+649,"Eclipse Hierarch, the Night King",super,5,4,9,4,12,4,26,30,"Robed priest glowing with eclipse sigils, staff blazing, crowned with a black flame halo.",https://drive.google.com/uc?export=view&id=1CBGcM-eYlOUy5iP4AZLIxDsphXjZu-b4,KINGDOM-BOSSES
+650,"Void Augur, the Hollow Prophet",super,8,5,11,6,5,4,25,29,"Emaciated oracle with hollow eyes, crowned with void flame, body wreathed in shadow.",https://drive.google.com/uc?export=view&id=12JiU_Q1LafJe_H5CG9CMh67Q9WOSBQ5R,KINGDOM-BOSSES
+651,"Blood Moon Prophet, the Crimson Oracle",super,12,5,12,5,6,4,34,38,"Crimson-robed prophet with blood-crystal staff, eyes glowing red, crowned with lunar silver.",https://drive.google.com/uc?export=view&id=10gckT2tN0UMES24UTVmYqpBGUk1PZ3id,KINGDOM-BOSSES
+652,"Chained Seer, the Blind Judge",super,9,4,9,5,6,4,22,26,"Blindfolded mystic wrapped in glowing chains, staff of silver, crowned with moonstone.",https://drive.google.com/uc?export=view&id=1eQoufACvt-0QQ39sMYpeSVnQYYcDTnZG,KINGDOM-BOSSES
+653,"Ashen Oracle, the Ember Queen",super,9,5,5,8,5,4,20,24,"Ash-coated priest with burning staff, veil of embers, crowned with a circlet of soot.",https://drive.google.com/uc?export=view&id=1qWFE94R5NcnYcXVf26JBRN04AJiVUA0y,KINGDOM-BOSSES
+654,"Bronze Pitlord, the Arena King",super,5,5,5,9,11,4,25,29,"Gladiator captain clad in bronze plates, crowned with gold, wielding a massive warhammer.",https://drive.google.com/uc?export=view&id=1TAp5rnviDrTK0rkkyA3Lu3ITPC065hvx,KINGDOM-BOSSES
+655,"Crimson Duelmaster, the Blood Regent",super,4,4,11,12,6,4,30,34,"Elegant fighter in red armor, twin swords, crowned with crimson, cloak trailing blood.",https://drive.google.com/uc?export=view&id=1bfmO6lx4aLPasiTkIOBcz4fXWx5WSwVo,KINGDOM-BOSSES
+656,"Chain Warlord, the Iron Tyrant",super,5,11,5,5,8,4,24,28,"Bulky gladiator with massive hooked chains, crowned with iron, body covered in scars.",https://drive.google.com/uc?export=view&id=15QyZf_3JGEI6Dns0c9DlFa419cVC1WKS,KINGDOM-BOSSES
+657,"Masked Champion, the Golden Face",super,5,12,5,8,6,4,27,31,"Fighter with ornate golden mask, crowned with gold, wielding twin axes.",https://drive.google.com/uc?export=view&id=1CHmpXUBGaWSNjwGALTFSOSuFK1EjC8vG,KINGDOM-BOSSES
+658,"Ash Gladiator Lord, the Flame Sovereign",super,10,4,5,5,12,4,28,32,"Covered in burning ash armor, crowned with flame, sword glowing with embers.",https://drive.google.com/uc?export=view&id=1-Hb0sc9OkjlAYK0MjUS_mU1_tUPG-Hrt,KINGDOM-BOSSES
+659,"Glyph Knight, the Rune King",super,11,5,6,6,9,4,27,31,"Armored warrior etched with glowing runes, crowned with glyphs, wielding a rune blade.",https://drive.google.com/uc?export=view&id=1P_xQdnL1OUIQ4sdl0Cb_nl3wJU2C3Sl2,KINGDOM-BOSSES
+660,"Halo Paladin, the Radiant Lord",super,4,10,5,9,6,4,24,28,"Radiant knight crowned with luminous halo, golden armor shining, spear blazing with light.",https://drive.google.com/uc?export=view&id=1VujAVPs79MgyJ0PSuKtmsqJlRf5aNF8Q,KINGDOM-BOSSES
+661,"Crystal Vanguard, the Shard Emperor",super,5,10,5,5,8,4,22,26,"Soldier clad in crystal armor, spear glowing, crowned with crystal, shield of light.",https://drive.google.com/uc?export=view&id=1S8OI9z_R-VVCpQavC1Tw3BBClod5CMZc,KINGDOM-BOSSES
+662,"Obsidian Berserker, the Black King",super,5,9,5,12,6,4,28,32,"Hulking brute wielding obsidian axes, crowned with obsidian, body streaked with magma.",https://drive.google.com/uc?export=view&id=1hLrZtHgC3q4CutHvW2xWGocPJv3m0F-N,KINGDOM-BOSSES
+663,"Oath Champion, the Covenant King",super,5,9,9,4,4,4,20,24,"Warrior branded with glowing vow runes, crowned with parchment, wielding a vow-forged blade.",https://drive.google.com/uc?export=view&id=1zA696QrYxotF5fBQ3J38Wzkm-Lc0wheg,KINGDOM-BOSSES
