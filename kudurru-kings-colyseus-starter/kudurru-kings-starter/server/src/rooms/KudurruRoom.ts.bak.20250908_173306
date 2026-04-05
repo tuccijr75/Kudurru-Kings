@@ -1,0 +1,155 @@
+import { Room, Client } from "colyseus";
+import { MapSchema } from "@colyseus/schema";
+
+type PID = string;
+type Card = { id: string; name: string; type: string; rarity: string; atk: number; def: number; };
+type Player = {
+  id: PID; name: string; ai?: boolean;
+  hand: Card[]; chars: Card[];
+  pools: { sinew: number; sigil: number; oath: number };
+  marks: number; heat: number; sites: string[];
+};
+
+export class KudurruRoom extends Room<any> {
+
+  onCreate(options: any) {
+    this.setState({
+      players: {},                 // { [pid]: Player }
+      hands: {},                   // { [pid]: Card[] }
+      table: { pools: {} },        // shared resources
+      phase: "Upkeep",
+      activeIndex: 0,
+      revealAI: false,
+      turn: 1,
+      log: []
+    });
+
+    // Message wiring
+    this.onMessage("admin",  (client, msg) => this.handleAdmin(client, msg));
+    this.onMessage("action", (client, msg) => this.handleAction(client, msg));
+
+    // (optional) tick loop if needed later
+    // this.setSimulationInterval(() => { /* AI/timeout hooks */ }, 100);
+  }
+
+  onJoin(client: Client) {
+    const s: any = this.state;
+    const pid = client.sessionId;
+    s.players[pid] = {
+      id: pid, name: "Player " + (Object.keys(s.players).length + 1),
+      hand: [], chars: [],
+      pools: { sinew: 0, sigil: 0, oath: 0 },
+      marks: 0, heat: 0, sites: []
+    };
+    s.hands[pid] = [];
+    this.broadcast("ack", { ok: true, type: "JOINED", pid });
+  }
+
+  onLeave(client: Client) {
+    const s: any = this.state;
+    delete s.players[client.sessionId];
+    delete s.hands[client.sessionId];
+  }
+
+  // ---------- Admin messages ----------
+  private handleAdmin(client: Client, msg: any) {
+    const t = msg?.type;
+    switch (t) {
+      case "ADD_BOTS": {
+        const count = Math.max(1, Math.min(3, msg?.count ?? 1));
+        for (let i = 0; i < count; i++) this.addBot();
+        client.send("ack", { ok: true, type: "ADD_BOTS" });
+        return;
+      }
+      case "RESET_MATCH": {
+        this.resetMatch();
+        client.send("ack", { ok: true, type: "RESET_MATCH" });
+        return;
+      }
+      case "DEAL6": {
+        this.dealAll(6);
+        client.send("ack", { ok: true, type: "DEAL6" });
+        return;
+      }
+      default: return;
+    }
+  }
+
+  // ---------- Action messages ----------
+  private handleAction(client: Client, msg: any) {
+    const s: any = this.state;
+    const t = msg?.type;
+    switch (t) {
+      case "NEXT_PHASE": {
+        this.nextPhase();
+        client.send("ack", { ok: true, type: "NEXT_PHASE", phase: s.phase });
+        return;
+      }
+      case "TOGGLE_REVEAL_AI": {
+        s.revealAI = !!msg?.value;
+        client.send("ack", { ok: true, type: "TOGGLE_REVEAL_AI", value: s.revealAI });
+        return;
+      }
+      default: return;
+    }
+  }
+
+  // ---------- Helpers ----------
+  private addBot() {
+    const s: any = this.state;
+    const id = "bot_" + Math.random().toString(36).slice(2, 7);
+    const idx = Object.keys(s.players).length + 1;
+    s.players[id] = {
+      id, name: "Bot " + idx + " 🤖", ai: true,
+      hand: [], chars: [],
+      pools: { sinew: 0, sigil: 0, oath: 0 },
+      marks: 0, heat: 0, sites: []
+    };
+    s.hands[id] = [];
+  }
+
+  private resetMatch() {
+    const s: any = this.state;
+    s.table = { pools: {} };
+    for (const pid of Object.keys(s.players)) {
+      s.hands[pid] = [];
+      s.players[pid].chars = [];
+      s.players[pid].marks = 0;
+      s.players[pid].heat = 0;
+    }
+    s.phase = "Upkeep";
+    s.activeIndex = 0;
+    s.turn = 1;
+    s.log = [];
+  }
+
+  private dealAll(n: number) {
+    for (const pid of Object.keys(this.state.players)) this.deal(pid, n);
+  }
+
+  private deal(pid: PID, n: number) {
+    const s: any = this.state;
+    s.hands[pid] = s.hands[pid] || [];
+    for (let i = 0; i < n; i++) {
+      const idx = Math.floor(Math.random() * 999);
+      s.hands[pid].push({
+        id: `c_${Date.now()}_${i}`,
+        name: `Card ${idx}`,
+        type: "Character",
+        rarity: "Mid",
+        atk: Math.floor(Math.random() * 5),
+        def: Math.floor(Math.random() * 5)
+      });
+    }
+  }
+
+  private nextPhase() {
+    const s: any = this.state;
+    const order = ["Upkeep", "Main", "Battle", "End"];
+    const i = order.indexOf(s.phase);
+    s.phase = order[(i < 0 ? 0 : i + 1) % order.length];
+    if (s.phase === "Upkeep") s.turn += 1;
+  }
+}
+
+export default KudurruRoom;

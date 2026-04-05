@@ -1,0 +1,661 @@
+[2025-10-05 10:36:40] Starting 1/664 : Adamu
+[2025-10-05 10:36:40] ✅ Completed Adamu
+[2025-10-05 10:37:11] Starting 2/664 : Rook
+[2025-10-05 10:37:11] ✅ Completed Rook
+[2025-10-05 10:37:41] Starting 3/664 : Nammu
+[2025-10-05 10:37:41] ❌ Error on Nammu : The process cannot access the file 'E:\KudurruKings\Kudurru-Kings\attached_assets\csvs\EoE_Prompts.csv' because it is being used by another process.
+[2025-10-05 10:38:12] Starting 4/664 : Ashur
+[2025-10-05 10:38:12] ✅ Completed Ashur
+[2025-10-05 10:38:39] Starting 5/664 : Zaleth
+[2025-10-05 10:38:39] ✅ Completed Zaleth
+[2025-10-05 10:39:10] Starting 6/664 : Irik
+[2025-10-05 10:39:10] ✅ Completed Irik
+[2025-10-05 10:39:45] Starting 7/664 : Tammuz
+[2025-10-05 10:39:45] ✅ Completed Tammuz
+[2025-10-05 10:40:15] Starting 8/664 : Etana
+[2025-10-05 10:40:15] ✅ Completed Etana
+[2025-10-05 10:40:44] Starting 9/664 : Iltu
+[2025-10-05 10:40:44] ✅ Completed Iltu
+[2025-10-05 10:41:16] Starting 10/664 : Urid
+[2025-10-05 10:41:16] ✅ Completed Urid
+[2025-10-05 10:41:45] Starting 11/664 : Namtar
+[2025-10-05 10:41:45] ✅ Completed Namtar
+[2025-10-05 10:42:12] Starting 12/664 : Zari
+[2025-10-05 10:42:12] ✅ Completed Zari
+[2025-10-05 10:42:45] Starting 13/664 : Maskat
+[2025-10-05 10:42:45] ✅ Completed Maskat
+[2025-10-05 10:43:16] Starting 14/664 : Eresh
+[2025-10-05 10:43:16] ✅ Completed Eresh
+[2025-10-05 10:43:46] Starting 15/664 : Shulgi
+[2025-10-05 10:43:46] ✅ Completed Shulgi
+[2025-10-05 10:44:26] Starting 16/664 : Whipbearer
+[2025-10-05 10:44:26] ✅ Completed Whipbearer
+[2025-10-05 10:45:00] Starting 17/664 : Spear Watch
+[2025-10-05 10:45:00] ✅ Completed Spear Watch
+[2025-10-05 10:45:31] Starting 18/664 : Bronze Shield
+[2025-10-05 10:45:31] ✅ Completed Bronze Shield
+[2025-10-05 10:46:06] Starting 19/664 : Tax Enforcer
+[2025-10-05 10:46:06] ✅ Completed Tax Enforcer
+[2025-10-05 10:46:40] Starting 20/664 : Chain Keeper
+[2025-10-05 10:46:40] ✅ Completed Chain Keeper
+[2025-10-05 10:47:11] Starting 21/664 : Pit Houndmaster
+[2025-10-05 10:47:11] ✅ Completed Pit Houndmaster
+[2025-10-05 10:47:45] Starting 22/664 : Ash Novice
+[2025-10-05 10:47:45] ✅ Completed Ash Novice
+[2025-10-05 10:48:14] Starting 23/664 : Blood Acolyte
+[2025-10-05 10:48:14] ✅ Completed Blood Acolyte
+[2025-10-05 10:48:46] Starting 24/664 : Chanter Priest
+[2025-10-05 10:48:46] ✅ Completed Chanter Priest
+[2025-10-05 10:49:19] Starting 25/664 : Knife Zealot
+[2025-10-05 10:49:19] ✅ Completed Knife Zealot
+[2025-10-05 10:49:51] Starting 26/664 : Desert Jackal
+[2025-10-05 10:49:51] ✅ Completed Desert Jackal
+[2025-10-05 10:50:26] Starting 27/664 : River Raider
+[2025-10-05 10:50:26] ✅ Completed River Raider
+[2025-10-05 10:51:01] Starting 28/664 : Marsh Cutthroat
+[2025-10-05 10:51:01] ✅ Completed Marsh Cutthroat
+[2025-10-05 10:51:31] Starting 29/664 : Ash Rider
+[2025-10-05 10:51:31] ✅ Completed Ash Rider
+[2025-10-05 10:52:00] Starting 30/664 : Canal Thief
+[2025-10-05 10:52:00] ✅ Completed Canal Thief
+[2025-10-05 10:52:32] Starting 31/664 : Bone Jackal
+[2025-10-05 10:52:32] ✅ Completed Bone Jackal
+[2025-10-05 10:53:07] Starting 32/664 : Reed Serpent
+[2025-10-05 10:53:07] ✅ Completed Reed Serpent
+[2025-10-05 10:53:39] Starting 33/664 : Ash Scorpion
+[2025-10-05 10:53:39] ✅ Completed Ash Scorpion
+[2025-10-05 10:54:08] Starting 34/664 : Sand Hyena
+[2025-10-05 10:54:08] ✅ Completed Sand Hyena
+[2025-10-05 10:54:35] Starting 35/664 : Bog Crocodile
+[2025-10-05 10:54:35] ✅ Completed Bog Crocodile
+[2025-10-05 10:55:01] Starting 36/664 : Mud Rat
+[2025-10-05 10:55:01] ✅ Completed Mud Rat
+[2025-10-05 10:55:33] Starting 37/664 : Sewer Leech
+[2025-10-05 10:55:33] ✅ Completed Sewer Leech
+[2025-10-05 10:55:59] Starting 38/664 : Corpse Beetle
+[2025-10-05 10:55:59] ✅ Completed Corpse Beetle
+[2025-10-05 10:56:31] Starting 39/664 : Glass Mite
+[2025-10-05 10:56:31] ✅ Completed Glass Mite
+[2025-10-05 10:57:03] Starting 40/664 : Pit Ghoul
+[2025-10-05 10:57:03] ✅ Completed Pit Ghoul
+[2025-10-05 10:57:33] Starting 41/664 : Lash Captain
+[2025-10-05 10:57:33] ✅ Completed Lash Captain
+[2025-10-05 10:58:05] Starting 42/664 : Pike Slave
+[2025-10-05 10:58:05] ✅ Completed Pike Slave
+[2025-10-05 10:58:32] Starting 43/664 : Shield Twins
+[2025-10-05 10:58:32] ✅ Completed Shield Twins
+[2025-10-05 10:59:08] Starting 44/664 : Whip Sergeant
+[2025-10-05 10:59:08] ✅ Completed Whip Sergeant
+[2025-10-05 10:59:35] Starting 45/664 : Slave Hunter
+[2025-10-05 10:59:35] ✅ Completed Slave Hunter
+[2025-10-05 11:00:09] Starting 46/664 : Dog Breaker
+[2025-10-05 11:00:09] ✅ Completed Dog Breaker
+[2025-10-05 11:00:39] Starting 47/664 : Ledger Bearer
+[2025-10-05 11:00:39] ✅ Completed Ledger Bearer
+[2025-10-05 11:01:09] Starting 48/664 : Pit Jailer
+[2025-10-05 11:01:09] ✅ Completed Pit Jailer
+[2025-10-05 11:01:42] Starting 49/664 : Fire Ashling
+[2025-10-05 11:01:42] ✅ Completed Fire Ashling
+[2025-10-05 11:02:13] Starting 50/664 : Bone Eater
+[2025-10-05 11:02:13] ✅ Completed Bone Eater
+[2025-10-05 11:02:48] Starting 51/664 : Crimson Youth
+[2025-10-05 11:02:48] ✅ Completed Crimson Youth
+[2025-10-05 11:03:18] Starting 52/664 : Chant Twins
+[2025-10-05 11:03:18] ✅ Completed Chant Twins
+[2025-10-05 11:03:54] Starting 53/664 : Idol Servant
+[2025-10-05 11:03:54] ✅ Completed Idol Servant
+[2025-10-05 11:04:28] Starting 54/664 : Hill Raider
+[2025-10-05 11:04:28] ✅ Completed Hill Raider
+[2025-10-05 11:04:58] Starting 55/664 : Oasis Thief
+[2025-10-05 11:04:58] ✅ Completed Oasis Thief
+[2025-10-05 11:05:26] Starting 56/664 : Caravan Breaker
+[2025-10-05 11:05:26] ✅ Completed Caravan Breaker
+[2025-10-05 11:05:59] Starting 57/664 : Dust Rider
+[2025-10-05 11:05:59] ✅ Completed Dust Rider
+[2025-10-05 11:06:28] Starting 58/664 : Night Prowler
+[2025-10-05 11:06:28] ✅ Completed Night Prowler
+[2025-10-05 11:06:56] Starting 59/664 : Desert Vulture
+[2025-10-05 11:06:56] ✅ Completed Desert Vulture
+[2025-10-05 11:07:27] Starting 60/664 : Marsh Toad
+[2025-10-05 11:07:27] ✅ Completed Marsh Toad
+[2025-10-05 11:07:57] Starting 61/664 : Fire Beetle
+[2025-10-05 11:07:57] ✅ Completed Fire Beetle
+[2025-10-05 11:08:25] Starting 62/664 : Ash Rat
+[2025-10-05 11:08:25] ✅ Completed Ash Rat
+[2025-10-05 11:08:59] Starting 63/664 : Sand Wormling
+[2025-10-05 11:08:59] ✅ Completed Sand Wormling
+[2025-10-05 11:09:30] Starting 64/664 : Plague Bat
+[2025-10-05 11:09:30] ✅ Completed Plague Bat
+[2025-10-05 11:10:04] Starting 65/664 : Slime Lizard
+[2025-10-05 11:10:04] ✅ Completed Slime Lizard
+[2025-10-05 11:10:33] Starting 66/664 : Rust Mite
+[2025-10-05 11:10:33] ✅ Completed Rust Mite
+[2025-10-05 11:11:03] Starting 67/664 : Tunnel Spider
+[2025-10-05 11:11:03] ✅ Completed Tunnel Spider
+[2025-10-05 11:11:35] Starting 68/664 : Shadow Eel
+[2025-10-05 11:11:35] ✅ Completed Shadow Eel
+[2025-10-05 11:12:07] Starting 69/664 : Sludge Slime
+[2025-10-05 11:12:07] ✅ Completed Sludge Slime
+[2025-10-05 11:12:40] Starting 70/664 : Filth King
+[2025-10-05 11:12:40] ✅ Completed Filth King
+[2025-10-05 11:13:06] Starting 71/664 : Rust Slug
+[2025-10-05 11:13:06] ✅ Completed Rust Slug
+[2025-10-05 11:13:35] Starting 72/664 : Canal Lamprey
+[2025-10-05 11:13:35] ✅ Completed Canal Lamprey
+[2025-10-05 11:14:05] Starting 73/664 : Bone Centipede
+[2025-10-05 11:14:05] ✅ Completed Bone Centipede
+[2025-10-05 11:14:35] Starting 74/664 : Fungus Creeper
+[2025-10-05 11:14:35] ✅ Completed Fungus Creeper
+[2025-10-05 11:15:04] Starting 75/664 : Cistern Horror
+[2025-10-05 11:15:04] ✅ Completed Cistern Horror
+[2025-10-05 11:15:33] Starting 76/664 : Iron Lash
+[2025-10-05 11:15:33] ✅ Completed Iron Lash
+[2025-10-05 11:16:01] Starting 77/664 : Bronze Spear
+[2025-10-05 11:16:01] ✅ Completed Bronze Spear
+[2025-10-05 11:16:29] Starting 78/664 : Gold Captain
+[2025-10-05 11:16:29] ✅ Completed Gold Captain
+[2025-10-05 11:16:57] Starting 79/664 : Ash Priest
+[2025-10-05 11:16:57] ✅ Completed Ash Priest
+[2025-10-05 11:17:24] Starting 80/664 : Blood Evoker
+[2025-10-05 11:17:24] ✅ Completed Blood Evoker
+[2025-10-05 11:17:51] Starting 81/664 : Hymncaller Priest
+[2025-10-05 11:17:51] ✅ Completed Hymncaller Priest
+[2025-10-05 11:18:22] Starting 82/664 : River Wolf
+[2025-10-05 11:18:22] ✅ Completed River Wolf
+[2025-10-05 11:18:52] Starting 83/664 : Desert Hawk
+[2025-10-05 11:18:52] ✅ Completed Desert Hawk
+[2025-10-05 11:19:28] Starting 84/664 : Marsh Stalker
+[2025-10-05 11:19:28] ✅ Completed Marsh Stalker
+[2025-10-05 11:19:54] Starting 85/664 : Jackal Alpha
+[2025-10-05 11:19:54] ✅ Completed Jackal Alpha
+[2025-10-05 11:20:28] Starting 86/664 : Serpent Queen
+[2025-10-05 11:20:28] ✅ Completed Serpent Queen
+[2025-10-05 11:20:59] Starting 87/664 : Scorpion King
+[2025-10-05 11:20:59] ✅ Completed Scorpion King
+[2025-10-05 11:21:28] Starting 88/664 : Hyena Matron
+[2025-10-05 11:21:28] ✅ Completed Hyena Matron
+[2025-10-05 11:21:54] Starting 89/664 : Ink Tongue
+[2025-10-05 11:21:54] ✅ Completed Ink Tongue
+[2025-10-05 11:22:20] Starting 90/664 : Dust Librarian
+[2025-10-05 11:22:20] ✅ Completed Dust Librarian
+[2025-10-05 11:22:50] Starting 91/664 : Cuneiform Shade
+[2025-10-05 11:22:50] ✅ Completed Cuneiform Shade
+[2025-10-05 11:23:19] Starting 92/664 : Bronze Automaton
+[2025-10-05 11:23:19] ✅ Completed Bronze Automaton
+[2025-10-05 11:23:49] Starting 93/664 : Chain Thrower
+[2025-10-05 11:23:49] ✅ Completed Chain Thrower
+[2025-10-05 11:24:22] Starting 94/664 : Siege Ox
+[2025-10-05 11:24:22] ✅ Completed Siege Ox
+[2025-10-05 11:24:57] Starting 95/664 : Fire Bearer
+[2025-10-05 11:24:57] ✅ Completed Fire Bearer
+[2025-10-05 11:25:24] Starting 96/664 : Obsidian Helm
+[2025-10-05 11:25:24] ✅ Completed Obsidian Helm
+[2025-10-05 11:25:53] Starting 97/664 : Chain Marshal
+[2025-10-05 11:25:53] ✅ Completed Chain Marshal
+[2025-10-05 11:26:21] Starting 98/664 : Ash Oracle
+[2025-10-05 11:26:21] ✅ Completed Ash Oracle
+[2025-10-05 11:26:57] Starting 99/664 : Blood Prophet
+[2025-10-05 11:26:57] ✅ Completed Blood Prophet
+[2025-10-05 11:27:28] Starting 100/664 : Bone Choir
+[2025-10-05 11:27:28] ✅ Completed Bone Choir
+[2025-10-05 11:28:07] Starting 101/664 : Hill Ram
+[2025-10-05 11:28:07] ✅ Completed Hill Ram
+[2025-10-05 11:28:40] Starting 102/664 : Desert Viper
+[2025-10-05 11:28:40] ✅ Completed Desert Viper
+[2025-10-05 11:29:10] Starting 103/664 : River Titan
+[2025-10-05 11:29:10] ✅ Completed River Titan
+[2025-10-05 11:29:43] Starting 104/664 : Crocodile Warlord
+[2025-10-05 11:29:43] ✅ Completed Crocodile Warlord
+[2025-10-05 11:30:07] Starting 105/664 : Vulture Queen
+[2025-10-05 11:30:07] ✅ Completed Vulture Queen
+[2025-10-05 11:30:33] Starting 106/664 : Frog Mother
+[2025-10-05 11:30:33] ✅ Completed Frog Mother
+[2025-10-05 11:31:03] Starting 107/664 : Desert Boar
+[2025-10-05 11:31:03] ✅ Completed Desert Boar
+[2025-10-05 11:31:33] Starting 108/664 : Tablet Binder
+[2025-10-05 11:31:33] ✅ Completed Tablet Binder
+[2025-10-05 11:31:58] Starting 109/664 : Sand Archivist
+[2025-10-05 11:31:58] ✅ Completed Sand Archivist
+[2025-10-05 11:32:29] Starting 110/664 : Word Eater
+[2025-10-05 11:32:29] ✅ Completed Word Eater
+[2025-10-05 11:32:57] Starting 111/664 : Iron Juggernaut
+[2025-10-05 11:32:57] ✅ Completed Iron Juggernaut
+[2025-10-05 11:33:25] Starting 112/664 : Fire Ram
+[2025-10-05 11:33:25] ✅ Completed Fire Ram
+[2025-10-05 11:33:54] Starting 113/664 : Bone Chariot
+[2025-10-05 11:33:54] ✅ Completed Bone Chariot
+[2025-10-05 11:34:23] Starting 114/664 : Siege Idol
+[2025-10-05 11:34:23] ✅ Completed Siege Idol
+[2025-10-05 11:34:55] Starting 115/664 : Oil Hydra
+[2025-10-05 11:34:55] ✅ Completed Oil Hydra
+[2025-10-05 11:35:26] Starting 116/664 : Oath Singer
+[2025-10-05 11:35:26] ✅ Completed Oath Singer
+[2025-10-05 11:35:55] Starting 117/664 : Tax Shade
+[2025-10-05 11:35:55] ✅ Completed Tax Shade
+[2025-10-05 11:36:22] Starting 118/664 : Ash Binder
+[2025-10-05 11:36:22] ✅ Completed Ash Binder
+[2025-10-05 11:36:54] Starting 119/664 : Mirror Reed
+[2025-10-05 11:36:54] ✅ Completed Mirror Reed
+[2025-10-05 11:37:22] Starting 120/664 : Sand Mirage
+[2025-10-05 11:37:22] ✅ Completed Sand Mirage
+[2025-10-05 11:37:50] Starting 121/664 : Echo Voice
+[2025-10-05 11:37:50] ✅ Completed Echo Voice
+[2025-10-05 11:38:12] Starting 122/664 : Scorpion Alchemist
+[2025-10-05 11:38:12] ✅ Completed Scorpion Alchemist
+[2025-10-05 11:38:43] Starting 123/664 : Reed Brewmaster
+[2025-10-05 11:38:43] ✅ Completed Reed Brewmaster
+[2025-10-05 11:39:13] Starting 124/664 : Toxin Whisperer
+[2025-10-05 11:39:13] ✅ Completed Toxin Whisperer
+[2025-10-05 11:39:44] Starting 125/664 : Bone Caller
+[2025-10-05 11:39:44] ✅ Completed Bone Caller
+[2025-10-05 11:40:13] Starting 126/664 : Idol Chanter
+[2025-10-05 11:40:13] ✅ Completed Idol Chanter
+[2025-10-05 11:40:42] Starting 127/664 : Blood Keeper
+[2025-10-05 11:40:42] ✅ Completed Blood Keeper
+[2025-10-05 11:41:12] Starting 128/664 : Trap Setter
+[2025-10-05 11:41:12] ✅ Completed Trap Setter
+[2025-10-05 11:41:43] Starting 129/664 : Fire Sapper
+[2025-10-05 11:41:43] ✅ Completed Fire Sapper
+[2025-10-05 11:42:17] Starting 130/664 : Collapse Worker
+[2025-10-05 11:42:17] ✅ Completed Collapse Worker
+[2025-10-05 11:42:45] Starting 131/664 : Plague Drummer
+[2025-10-05 11:42:45] ✅ Completed Plague Drummer
+[2025-10-05 11:43:15] Starting 132/664 : Ember Masker
+[2025-10-05 11:43:15] ✅ Completed Ember Masker
+[2025-10-05 11:43:45] Starting 133/664 : Soul Drinker
+[2025-10-05 11:43:45] ✅ Completed Soul Drinker
+[2025-10-05 11:44:12] Starting 134/664 : Glass Weaver
+[2025-10-05 11:44:12] ✅ Completed Glass Weaver
+[2025-10-05 11:44:40] Starting 135/664 : Tomb Scrivener
+[2025-10-05 11:44:40] ✅ Completed Tomb Scrivener
+[2025-10-05 11:45:14] Starting 136/664 : Shadow Binder
+[2025-10-05 11:45:14] ✅ Completed Shadow Binder
+[2025-10-05 11:45:48] Starting 137/664 : Idol Puppeteer
+[2025-10-05 11:45:48] ✅ Completed Idol Puppeteer
+[2025-10-05 11:46:17] Starting 138/664 : Sand Oracle
+[2025-10-05 11:46:17] ✅ Completed Sand Oracle
+[2025-10-05 11:46:45] Starting 139/664 : Blood Plucker
+[2025-10-05 11:46:45] ✅ Completed Blood Plucker
+[2025-10-05 11:47:11] Starting 140/664 : Furnace Caller
+[2025-10-05 11:47:11] ✅ Completed Furnace Caller
+[2025-10-05 11:47:40] Starting 141/664 : Golden Whip
+[2025-10-05 11:47:40] ✅ Completed Golden Whip
+[2025-10-05 11:48:10] Starting 142/664 : High Priest
+[2025-10-05 11:48:10] ✅ Completed High Priest
+[2025-10-05 11:48:40] Starting 143/664 : River Warlord
+[2025-10-05 11:48:40] ✅ Completed River Warlord
+[2025-10-05 11:49:05] Starting 144/664 : Scorpion Queen
+[2025-10-05 11:49:05] ✅ Completed Scorpion Queen
+[2025-10-05 11:49:33] Starting 145/664 : Sand Golem
+[2025-10-05 11:49:33] ✅ Completed Sand Golem
+[2025-10-05 11:50:07] Starting 146/664 : Idol Shade
+[2025-10-05 11:50:07] ✅ Completed Idol Shade
+[2025-10-05 11:50:32] Starting 147/664 : Reed Leviathan
+[2025-10-05 11:50:32] ✅ Completed Reed Leviathan
+[2025-10-05 11:51:03] Starting 148/664 : Oathkeeper Ghost
+[2025-10-05 11:51:03] ✅ Completed Oathkeeper Ghost
+[2025-10-05 11:51:31] Starting 149/664 : Bronze Colossus
+[2025-10-05 11:51:31] ✅ Completed Bronze Colossus
+[2025-10-05 11:51:56] Starting 150/664 : Marsh Phantom
+[2025-10-05 11:51:56] ✅ Completed Marsh Phantom
+[2025-10-05 11:52:59] Starting 151/664 : Fire Jackal
+[2025-10-05 11:52:59] ✅ Completed Fire Jackal
+[2025-10-05 11:53:29] Starting 152/664 : Drowned Archivist
+[2025-10-05 11:53:29] ✅ Completed Drowned Archivist
+[2025-10-05 11:54:03] Starting 153/664 : Obsidian Lion
+[2025-10-05 11:54:03] ✅ Completed Obsidian Lion
+[2025-10-05 11:54:29] Starting 154/664 : Taxlord Balash
+[2025-10-05 11:54:29] ✅ Completed Taxlord Balash
+[2025-10-05 11:54:56] Starting 155/664 : Pit Champion
+[2025-10-05 11:54:56] ✅ Completed Pit Champion
+[2025-10-05 11:55:25] Starting 156/664 : Masked King
+[2025-10-05 11:55:25] ✅ Completed Masked King
+[2025-10-05 11:55:55] Starting 157/664 : Abyssal Archivist
+[2025-10-05 11:55:55] ✅ Completed Abyssal Archivist
+[2025-10-05 11:56:21] Starting 158/664 : Vowbinder Judge
+[2025-10-05 11:56:21] ✅ Completed Vowbinder Judge
+[2025-10-05 11:56:53] Starting 159/664 : Bone Queen
+[2025-10-05 11:56:53] ✅ Completed Bone Queen
+[2025-10-05 11:57:25] Starting 160/664 : False Prophet
+[2025-10-05 11:57:25] ✅ Completed False Prophet
+[2025-10-05 11:57:55] Starting 161/664 : Enlil Vessel
+[2025-10-05 11:57:55] ✅ Completed Enlil Vessel
+[2025-10-05 11:58:25] Starting 162/664 : Chain Warden
+[2025-10-05 11:58:25] ✅ Completed Chain Warden
+[2025-10-05 11:58:56] Starting 163/664 : Lash Overseer
+[2025-10-05 11:58:56] ✅ Completed Lash Overseer
+[2025-10-05 11:59:25] Starting 164/664 : Bronze Gaoler
+[2025-10-05 11:59:25] ✅ Completed Bronze Gaoler
+[2025-10-05 11:59:57] Starting 165/664 : Shacklebearer Guard
+[2025-10-05 11:59:57] ✅ Completed Shacklebearer Guard
+[2025-10-05 12:00:36] Starting 166/664 : Pit Guard
+[2025-10-05 12:00:36] ✅ Completed Pit Guard
+[2025-10-05 12:01:03] Starting 167/664 : Ironbound Horror
+[2025-10-05 12:01:03] ✅ Completed Ironbound Horror
+[2025-10-05 12:01:30] Starting 168/664 : Screamer Wraith
+[2025-10-05 12:01:30] ✅ Completed Screamer Wraith
+[2025-10-05 12:01:58] Starting 169/664 : Bone Gnawer
+[2025-10-05 12:01:58] ✅ Completed Bone Gnawer
+[2025-10-05 12:02:28] Starting 170/664 : Shackled Ghoul
+[2025-10-05 12:02:28] ✅ Completed Shackled Ghoul
+[2025-10-05 12:02:53] Starting 171/664 : Howling Fiend
+[2025-10-05 12:02:53] ✅ Completed Howling Fiend
+[2025-10-05 12:03:25] Starting 172/664 : Moon Acolyte
+[2025-10-05 12:03:25] ✅ Completed Moon Acolyte
+[2025-10-05 12:03:53] Starting 173/664 : Eclipse Chanter
+[2025-10-05 12:03:53] ✅ Completed Eclipse Chanter
+[2025-10-05 12:04:18] Starting 174/664 : Shadow Knifebearer
+[2025-10-05 12:04:18] ✅ Completed Shadow Knifebearer
+[2025-10-05 12:04:47] Starting 175/664 : Pale Prophet
+[2025-10-05 12:04:47] ✅ Completed Pale Prophet
+[2025-10-05 12:05:17] Starting 176/664 : Void Hymnist
+[2025-10-05 12:05:17] ✅ Completed Void Hymnist
+[2025-10-05 12:05:48] Starting 177/664 : Moonfang Wolf
+[2025-10-05 12:05:48] ✅ Completed Moonfang Wolf
+[2025-10-05 12:06:14] Starting 178/664 : Pale Stalker
+[2025-10-05 12:06:14] ✅ Completed Pale Stalker
+[2025-10-05 12:06:39] Starting 179/664 : Shardback Boar
+[2025-10-05 12:06:39] ✅ Completed Shardback Boar
+[2025-10-05 12:07:13] Starting 180/664 : Dusk Serpent
+[2025-10-05 12:07:13] ✅ Completed Dusk Serpent
+[2025-10-05 12:07:41] Starting 181/664 : Chittering Bat
+[2025-10-05 12:07:41] ✅ Completed Chittering Bat
+[2025-10-05 12:08:11] Starting 182/664 : Crater Rat
+[2025-10-05 12:08:11] ✅ Completed Crater Rat
+[2025-10-05 12:08:42] Starting 183/664 : Ash Beetle
+[2025-10-05 12:08:42] ✅ Completed Ash Beetle
+[2025-10-05 12:09:11] Starting 184/664 : Hollow Tick
+[2025-10-05 12:09:11] ✅ Completed Hollow Tick
+[2025-10-05 12:09:45] Starting 185/664 : Fungus Mite
+[2025-10-05 12:09:45] ✅ Completed Fungus Mite
+[2025-10-05 12:10:15] Starting 186/664 : Crystal Louse
+[2025-10-05 12:10:15] ✅ Completed Crystal Louse
+[2025-10-05 12:10:55] Starting 187/664 : Shackled Wraith
+[2025-10-05 12:10:55] ✅ Completed Shackled Wraith
+[2025-10-05 12:11:23] Starting 188/664 : Lantern Shade
+[2025-10-05 12:11:23] ✅ Completed Lantern Shade
+[2025-10-05 12:11:54] Starting 189/664 : Pale Ghast
+[2025-10-05 12:11:54] ✅ Completed Pale Ghast
+[2025-10-05 12:12:28] Starting 190/664 : Bonebound Spirit
+[2025-10-05 12:12:28] ✅ Completed Bonebound Spirit
+[2025-10-05 12:12:59] Starting 191/664 : Eclipse Revenant
+[2025-10-05 12:12:59] ✅ Completed Eclipse Revenant
+[2025-10-05 12:13:25] Starting 192/664 : Pit Fighter
+[2025-10-05 12:13:25] ✅ Completed Pit Fighter
+[2025-10-05 12:13:56] Starting 193/664 : Arena Brute
+[2025-10-05 12:13:56] ✅ Completed Arena Brute
+[2025-10-05 12:14:25] Starting 194/664 : Blood Duelist
+[2025-10-05 12:14:25] ✅ Completed Blood Duelist
+[2025-10-05 12:14:50] Starting 195/664 : Masked Slayer
+[2025-10-05 12:14:50] ✅ Completed Masked Slayer
+[2025-10-05 12:15:19] Starting 196/664 : Slave Champion
+[2025-10-05 12:15:19] ✅ Completed Slave Champion
+[2025-10-05 12:15:52] Starting 197/664 : Tunnel Crawler
+[2025-10-05 12:15:52] ✅ Completed Tunnel Crawler
+[2025-10-05 12:16:19] Starting 198/664 : Crater Lurker
+[2025-10-05 12:16:19] ✅ Completed Crater Lurker
+[2025-10-05 12:16:44] Starting 199/664 : Blind Crawler
+[2025-10-05 12:16:44] ✅ Completed Blind Crawler
+[2025-10-05 12:17:16] Starting 200/664 : Spore Drudge
+[2025-10-05 12:17:16] ✅ Completed Spore Drudge
+[2025-10-05 12:17:41] Starting 201/664 : Rockgnasher Beast
+[2025-10-05 12:17:41] ✅ Completed Rockgnasher Beast
+[2025-10-05 12:18:10] Starting 202/664 : Silver Rat
+[2025-10-05 12:18:10] ✅ Completed Silver Rat
+[2025-10-05 12:18:48] Starting 203/664 : Glow Beetle
+[2025-10-05 12:18:48] ✅ Completed Glow Beetle
+[2025-10-05 12:19:22] Starting 204/664 : Crystal Wasp
+[2025-10-05 12:19:22] ✅ Completed Crystal Wasp
+[2025-10-05 12:19:49] Starting 205/664 : Ash Spiderling
+[2025-10-05 12:19:49] ✅ Completed Ash Spiderling
+[2025-10-05 12:20:17] Starting 206/664 : Void Leech
+[2025-10-05 12:20:17] ✅ Completed Void Leech
+[2025-10-05 12:20:49] Starting 207/664 : Bronze Sentinel
+[2025-10-05 12:20:49] ✅ Completed Bronze Sentinel
+[2025-10-05 12:21:21] Starting 208/664 : Moon Idol
+[2025-10-05 12:21:21] ✅ Completed Moon Idol
+[2025-10-05 12:21:53] Starting 209/664 : Chain Automaton
+[2025-10-05 12:21:53] ✅ Completed Chain Automaton
+[2025-10-05 12:22:25] Starting 210/664 : Eclipse Drone
+[2025-10-05 12:22:25] ✅ Completed Eclipse Drone
+[2025-10-05 12:22:57] Starting 211/664 : Void Obelisk
+[2025-10-05 12:22:57] ✅ Completed Void Obelisk
+[2025-10-05 12:23:26] Starting 212/664 : Rune Husk
+[2025-10-05 12:23:26] ✅ Completed Rune Husk
+[2025-10-05 12:23:56] Starting 213/664 : Oath Spawn
+[2025-10-05 12:23:56] ✅ Completed Oath Spawn
+[2025-10-05 12:24:27] Starting 214/664 : Halo Spawn
+[2025-10-05 12:24:27] ✅ Completed Halo Spawn
+[2025-10-05 12:24:56] Starting 215/664 : Ash Horror
+[2025-10-05 12:24:56] ✅ Completed Ash Horror
+[2025-10-05 12:25:26] Starting 216/664 : Void Thrall
+[2025-10-05 12:25:26] ✅ Completed Void Thrall
+[2025-10-05 12:25:57] Starting 217/664 : Broken Scribe
+[2025-10-05 12:25:57] ✅ Completed Broken Scribe
+[2025-10-05 12:26:20] Starting 218/664 : Fallen Priest
+[2025-10-05 12:26:20] ✅ Completed Fallen Priest
+[2025-10-05 12:26:46] Starting 219/664 : Exiled Gladiator
+[2025-10-05 12:26:46] ✅ Completed Exiled Gladiator
+[2025-10-05 12:27:15] Starting 220/664 : Chain Drudge
+[2025-10-05 12:27:15] ✅ Completed Chain Drudge
+[2025-10-05 12:27:48] Starting 221/664 : Ash Servitor
+[2025-10-05 12:27:48] ✅ Completed Ash Servitor
+[2025-10-05 12:28:19] Starting 222/664 : Gold Spider
+[2025-10-05 12:28:19] ✅ Completed Gold Spider
+[2025-10-05 12:28:52] Starting 223/664 : Rune Centipede
+[2025-10-05 12:28:52] ✅ Completed Rune Centipede
+[2025-10-05 12:29:28] Starting 224/664 : Ash Locust
+[2025-10-05 12:29:28] ✅ Completed Ash Locust
+[2025-10-05 12:29:58] Starting 225/664 : Crystal Gnat
+[2025-10-05 12:29:58] ✅ Completed Crystal Gnat
+[2025-10-05 12:30:30] Starting 226/664 : Glyph Ghoul
+[2025-10-05 12:30:30] ✅ Completed Glyph Ghoul
+[2025-10-05 12:30:55] Starting 227/664 : Ash Phantom
+[2025-10-05 12:30:55] ✅ Completed Ash Phantom
+[2025-10-05 12:31:24] Starting 228/664 : Halo Husk
+[2025-10-05 12:31:24] ✅ Completed Halo Husk
+[2025-10-05 12:31:54] Starting 229/664 : Void Horror
+[2025-10-05 12:31:54] ✅ Completed Void Horror
+[2025-10-05 12:32:19] Starting 230/664 : Rune Horror
+[2025-10-05 12:32:19] ✅ Completed Rune Horror
+[2025-10-05 12:32:49] Starting 231/664 : Red Lash
+[2025-10-05 12:32:49] ✅ Completed Red Lash
+[2025-10-05 12:33:21] Starting 232/664 : Sand Pike
+[2025-10-05 12:33:21] ✅ Completed Sand Pike
+[2025-10-05 12:33:56] Starting 233/664 : Chain Driver
+[2025-10-05 12:33:56] ✅ Completed Chain Driver
+[2025-10-05 12:34:18] Starting 234/664 : Bronze Overseer
+[2025-10-05 12:34:18] ✅ Completed Bronze Overseer
+[2025-10-05 12:34:45] Starting 235/664 : Crimson Guard
+[2025-10-05 12:34:45] ✅ Completed Crimson Guard
+[2025-10-05 12:35:11] Starting 236/664 : Sand Raider
+[2025-10-05 12:35:11] ✅ Completed Sand Raider
+[2025-10-05 12:35:42] Starting 237/664 : Dune Rider
+[2025-10-05 12:35:42] ✅ Completed Dune Rider
+[2025-10-05 12:36:07] Starting 238/664 : Ash Nomad
+[2025-10-05 12:36:07] ✅ Completed Ash Nomad
+[2025-10-05 12:36:34] Starting 239/664 : Blood Dervish
+[2025-10-05 12:36:34] ✅ Completed Blood Dervish
+[2025-10-05 12:37:01] Starting 240/664 : Carrion Jackal
+[2025-10-05 12:37:01] ✅ Completed Carrion Jackal
+[2025-10-05 12:37:28] Starting 241/664 : Pit Thrall
+[2025-10-05 12:37:28] ✅ Completed Pit Thrall
+[2025-10-05 12:37:59] Starting 242/664 : Masked Gladiator
+[2025-10-05 12:37:59] ✅ Completed Masked Gladiator
+[2025-10-05 12:38:31] Starting 243/664 : Blood Slave
+[2025-10-05 12:38:31] ✅ Completed Blood Slave
+[2025-10-05 12:39:01] Starting 244/664 : Chain Duelist
+[2025-10-05 12:39:01] ✅ Completed Chain Duelist
+[2025-10-05 12:39:34] Starting 245/664 : Red Jackal
+[2025-10-05 12:39:34] ✅ Completed Red Jackal
+[2025-10-05 12:39:59] Starting 246/664 : Scaled Vulture
+[2025-10-05 12:39:59] ✅ Completed Scaled Vulture
+[2025-10-05 12:40:31] Starting 247/664 : Sand Basilisk
+[2025-10-05 12:40:31] ✅ Completed Sand Basilisk
+[2025-10-05 12:41:02] Starting 248/664 : Dune Hyena
+[2025-10-05 12:41:02] ✅ Completed Dune Hyena
+[2025-10-05 12:41:30] Starting 249/664 : Red Rat
+[2025-10-05 12:41:30] ✅ Completed Red Rat
+[2025-10-05 12:42:03] Starting 250/664 : Bone Tick
+[2025-10-05 12:42:03] ✅ Completed Bone Tick
+[2025-10-05 12:42:27] Starting 251/664 : Dust Spider
+[2025-10-05 12:42:27] ✅ Completed Dust Spider
+[2025-10-05 12:42:50] Starting 252/664 : Carrion Bat
+[2025-10-05 12:42:50] ✅ Completed Carrion Bat
+[2025-10-05 12:43:19] Starting 253/664 : Canyon Lurker
+[2025-10-05 12:43:19] ✅ Completed Canyon Lurker
+[2025-10-05 12:43:43] Starting 254/664 : Cliff Raider
+[2025-10-05 12:43:43] ✅ Completed Cliff Raider
+[2025-10-05 12:44:12] Starting 255/664 : Dust Crawler
+[2025-10-05 12:44:12] ✅ Completed Dust Crawler
+[2025-10-05 12:44:34] Starting 256/664 : Rock Breaker
+[2025-10-05 12:44:34] ✅ Completed Rock Breaker
+[2025-10-05 12:44:58] Starting 257/664 : Ash Ghoul
+[2025-10-05 12:44:58] ✅ Completed Ash Ghoul
+[2025-10-05 12:45:27] Starting 258/664 : Dust Phantom
+[2025-10-05 12:45:27] ✅ Completed Dust Phantom
+[2025-10-05 12:45:56] Starting 259/664 : Red Shade
+[2025-10-05 12:45:56] ✅ Completed Red Shade
+[2025-10-05 12:46:20] Starting 260/664 : Ash Wight
+[2025-10-05 12:46:20] ✅ Completed Ash Wight
+[2025-10-05 12:46:46] Starting 261/664 : Carrion Stalker
+[2025-10-05 12:46:46] ✅ Completed Carrion Stalker
+[2025-10-05 12:47:13] Starting 262/664 : Broken Gladiator
+[2025-10-05 12:47:13] ✅ Completed Broken Gladiator
+[2025-10-05 12:47:40] Starting 263/664 : Maskless Fighter
+[2025-10-05 12:47:40] ✅ Completed Maskless Fighter
+[2025-10-05 12:48:05] Starting 264/664 : Ash Duelist
+[2025-10-05 12:48:05] ✅ Completed Ash Duelist
+[2025-10-05 12:48:33] Starting 265/664 : Bone Pit
+[2025-10-05 12:48:33] ✅ Completed Bone Pit
+[2025-10-05 12:48:58] Starting 266/664 : Crimson Gladiator
+[2025-10-05 12:48:58] ✅ Completed Crimson Gladiator
+[2025-10-05 12:49:31] Starting 267/664 : Sand Scuttler
+[2025-10-05 12:49:31] ✅ Completed Sand Scuttler
+[2025-10-05 12:50:07] Starting 268/664 : Glass Lizard
+[2025-10-05 12:50:07] ✅ Completed Glass Lizard
+[2025-10-05 12:50:36] Starting 269/664 : Red Scarab
+[2025-10-05 12:50:36] ✅ Completed Red Scarab
+[2025-10-05 12:51:05] Starting 270/664 : Ash Spider
+[2025-10-05 12:51:05] ✅ Completed Ash Spider
+[2025-10-05 12:51:33] Starting 271/664 : Dust Centipede
+[2025-10-05 12:51:33] ✅ Completed Dust Centipede
+[2025-10-05 12:51:59] Starting 272/664 : Bronze Pitlord
+[2025-10-05 12:51:59] ✅ Completed Bronze Pitlord
+[2025-10-05 12:52:28] Starting 273/664 : Crimson Duelmaster
+[2025-10-05 12:52:28] ✅ Completed Crimson Duelmaster
+[2025-10-05 12:53:02] Starting 274/664 : Chain Warlord
+[2025-10-05 12:53:02] ✅ Completed Chain Warlord
+[2025-10-05 12:53:32] Starting 275/664 : Masked Champion
+[2025-10-05 12:53:32] ✅ Completed Masked Champion
+[2025-10-05 12:53:58] Starting 276/664 : Ash Gladiator
+[2025-10-05 12:53:58] ✅ Completed Ash Gladiator
+[2025-10-05 12:54:34] Starting 277/664 : Blood Oracle
+[2025-10-05 12:54:34] ✅ Completed Blood Oracle
+[2025-10-05 12:55:06] Starting 278/664 : Ember Prophet
+[2025-10-05 12:55:06] ✅ Completed Ember Prophet
+[2025-10-05 12:55:38] Starting 279/664 : Crimson Prophetess
+[2025-10-05 12:55:38] ✅ Completed Crimson Prophetess
+[2025-10-05 12:56:06] Starting 280/664 : Dune Chieftain
+[2025-10-05 12:56:06] ✅ Completed Dune Chieftain
+[2025-10-05 12:56:31] Starting 281/664 : Canyon King
+[2025-10-05 12:56:31] ✅ Completed Canyon King
+[2025-10-05 12:57:04] Starting 282/664 : Bone Lord
+[2025-10-05 12:57:04] ✅ Completed Bone Lord
+[2025-10-05 12:57:33] Starting 283/664 : Ash Chieftain
+[2025-10-05 12:57:33] ✅ Completed Ash Chieftain
+[2025-10-05 12:58:04] Starting 284/664 : Sandstorm Khan
+[2025-10-05 12:58:04] ✅ Completed Sandstorm Khan
+[2025-10-05 12:58:32] Starting 285/664 : Ash Revenant
+[2025-10-05 12:58:32] ✅ Completed Ash Revenant
+[2025-10-05 12:58:56] Starting 286/664 : Bone Colossus
+[2025-10-05 12:58:56] ✅ Completed Bone Colossus
+[2025-10-05 12:59:22] Starting 287/664 : Dust Wraith
+[2025-10-05 12:59:22] ✅ Completed Dust Wraith
+[2025-10-05 12:59:45] Starting 288/664 : Crimson Horror
+[2025-10-05 12:59:45] ✅ Completed Crimson Horror
+[2025-10-05 13:00:16] Starting 289/664 : Ash Titan
+[2025-10-05 13:00:16] ✅ Completed Ash Titan
+[2025-10-05 13:00:47] Starting 290/664 : Ash High
+[2025-10-05 13:00:47] ✅ Completed Ash High
+[2025-10-05 13:01:09] Starting 291/664 : Blood Matron
+[2025-10-05 13:01:09] ✅ Completed Blood Matron
+[2025-10-05 13:01:38] Starting 292/664 : Ember Lord
+[2025-10-05 13:01:38] ✅ Completed Ember Lord
+[2025-10-05 13:02:07] Starting 293/664 : Chain Hierophant
+[2025-10-05 13:02:07] ✅ Completed Chain Hierophant
+[2025-10-05 13:02:40] Starting 294/664 : Crimson Pontiff
+[2025-10-05 13:02:40] ✅ Completed Crimson Pontiff
+[2025-10-05 13:03:08] Starting 295/664 : Pit King
+[2025-10-05 13:03:08] ✅ Completed Pit King
+[2025-10-05 13:03:35] Starting 296/664 : Masked Warlord
+[2025-10-05 13:03:35] ✅ Completed Masked Warlord
+[2025-10-05 13:03:59] Starting 297/664 : Crimson Champion
+[2025-10-05 13:03:59] ✅ Completed Crimson Champion
+[2025-10-05 13:04:30] Starting 298/664 : Bone Gladiator
+[2025-10-05 13:04:30] ✅ Completed Bone Gladiator
+[2025-10-05 13:04:56] Starting 299/664 : Arena Juggernaut
+[2025-10-05 13:04:56] ✅ Completed Arena Juggernaut
+[2025-10-05 13:05:23] Starting 300/664 : Ash Demon
+[2025-10-05 13:05:23] ✅ Completed Ash Demon
+[2025-10-05 13:05:49] Starting 301/664 : Bone Horror
+[2025-10-05 13:05:49] ✅ Completed Bone Horror
+[2025-10-05 13:06:17] Starting 302/664 : Crimson Abomination
+[2025-10-05 13:06:17] ✅ Completed Crimson Abomination
+[2025-10-05 13:06:48] Starting 303/664 : Dust Titan
+[2025-10-05 13:06:48] ✅ Completed Dust Titan
+[2025-10-05 13:07:13] Starting 304/664 : Ash Leviathan
+[2025-10-05 13:07:13] ✅ Completed Ash Leviathan
+[2025-10-05 13:07:39] Starting 305/664 : Red Khan
+[2025-10-05 13:07:39] ✅ Completed Red Khan
+[2025-10-05 13:08:14] Starting 306/664 : Bone Chieftain
+[2025-10-05 13:08:14] ✅ Completed Bone Chieftain
+[2025-10-05 13:08:38] Starting 307/664 : Canyon Lord
+[2025-10-05 13:08:38] ✅ Completed Canyon Lord
+[2025-10-05 13:09:08] Starting 308/664 : Sandstorm Prophet
+[2025-10-05 13:09:08] ✅ Completed Sandstorm Prophet
+[2025-10-05 13:09:36] Starting 309/664 : Crimson Khan
+[2025-10-05 13:09:36] ✅ Completed Crimson Khan
+[2025-10-05 13:10:06] Starting 310/664 : Glyph Servant
+[2025-10-05 13:10:06] ✅ Completed Glyph Servant
+[2025-10-05 13:10:38] Starting 311/664 : Temple Thrall
+[2025-10-05 13:10:38] ✅ Completed Temple Thrall
+[2025-10-05 13:10:58] Starting 312/664 : Oath Servitor
+[2025-10-05 13:10:58] ✅ Completed Oath Servitor
+[2025-10-05 13:11:28] Starting 313/664 : Lattice Guard
+[2025-10-05 13:11:28] ✅ Completed Lattice Guard
+[2025-10-05 13:11:53] Starting 314/664 : Halo Servant
+[2025-10-05 13:11:53] ✅ Completed Halo Servant
+[2025-10-05 13:12:22] Starting 315/664 : Obsidian Hound
+[2025-10-05 13:12:22] ✅ Completed Obsidian Hound
+[2025-10-05 13:12:58] Starting 316/664 : Cinder Jackal
+[2025-10-05 13:12:58] ✅ Completed Cinder Jackal
+[2025-10-05 13:13:25] Starting 317/664 : Void Hyena
+[2025-10-05 13:13:25] ✅ Completed Void Hyena
+[2025-10-05 13:13:53] Starting 318/664 : Golden Vulture
+[2025-10-05 13:13:53] ✅ Completed Golden Vulture
+[2025-10-05 13:14:22] Starting 319/664 : Crystal Basilisk
+[2025-10-05 13:14:22] ✅ Completed Crystal Basilisk
+[2025-10-05 13:14:48] Starting 320/664 : Oath Ghoul
+[2025-10-05 13:14:48] ✅ Completed Oath Ghoul
+[2025-10-05 13:15:16] Starting 321/664 : Chain Wraith
+[2025-10-05 13:15:16] ✅ Completed Chain Wraith
+[2025-10-05 13:15:48] Starting 322/664 : Glyph Shade
+[2025-10-05 13:15:48] ✅ Completed Glyph Shade
+[2025-10-05 13:16:17] Starting 323/664 : Halo Wraith
+[2025-10-05 13:16:17] ✅ Completed Halo Wraith
+[2025-10-05 13:16:47] Starting 324/664 : Crystal Rat
+[2025-10-05 13:16:47] ✅ Completed Crystal Rat
+[2025-10-05 13:17:19] Starting 325/664 : Void Tick
+[2025-10-05 13:17:19] ✅ Completed Void Tick
+[2025-10-05 13:17:48] Starting 326/664 : Golden Scarab
+[2025-10-05 13:17:48] ✅ Completed Golden Scarab
+[2025-10-05 13:18:15] Starting 327/664 : Rune Spider
+[2025-10-05 13:18:15] ✅ Completed Rune Spider
+[2025-10-05 13:18:44] Starting 328/664 : Rune Idol
+[2025-10-05 13:18:44] ✅ Completed Rune Idol
+[2025-10-05 13:19:11] Starting 329/664 : Halo Statue
+[2025-10-05 13:19:11] ✅ Completed Halo Statue
+[2025-10-05 13:19:42] Starting 330/664 : Obelisk Guard
+[2025-10-05 13:19:42] ✅ Completed Obelisk Guard
+[2025-10-05 13:20:10] Starting 331/664 : Flame Idol

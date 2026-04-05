@@ -1,0 +1,8322 @@
+﻿[
+  {
+    "id": "C0001",
+    "name": "Mars Captain 1",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0002",
+    "name": "Moon Inscription 2",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0003",
+    "name": "Moon Captain 3",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0004",
+    "name": "Mars Familiar 4",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0005",
+    "name": "Nibiru Outpost 5",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0006",
+    "name": "Nibiru Outpost 6",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0007",
+    "name": "Earth Raider 7",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0008",
+    "name": "Moon Outpost 8",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0009",
+    "name": "Nibiru Oracle 9",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0010",
+    "name": "Moon Familiar 10",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0011",
+    "name": "Earth Outpost 11",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0012",
+    "name": "Moon Raider 12",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0013",
+    "name": "Nibiru Inscription 13",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0014",
+    "name": "Mars Inscription 14",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0015",
+    "name": "Moon Raider 15",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0016",
+    "name": "Earth Oracle 16",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0017",
+    "name": "Nibiru Raider 17",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0018",
+    "name": "Earth Captain 18",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0019",
+    "name": "Mars Inscription 19",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0020",
+    "name": "Earth Outpost 20",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0021",
+    "name": "Mars Outpost 21",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0022",
+    "name": "Mars Inscription 22",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0023",
+    "name": "Earth Outpost 23",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0024",
+    "name": "Moon Inscription 24",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0025",
+    "name": "Moon Oracle 25",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0026",
+    "name": "Mars Familiar 26",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0027",
+    "name": "Earth Inscription 27",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0028",
+    "name": "Nibiru Inscription 28",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0029",
+    "name": "Nibiru Inscription 29",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0030",
+    "name": "Moon Outpost 30",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0031",
+    "name": "Moon Familiar 31",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0032",
+    "name": "Nibiru Captain 32",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0033",
+    "name": "Earth Oracle 33",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0034",
+    "name": "Earth Inscription 34",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0035",
+    "name": "Earth Familiar 35",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0036",
+    "name": "Mars Oracle 36",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0037",
+    "name": "Earth Captain 37",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0038",
+    "name": "Earth Outpost 38",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0039",
+    "name": "Earth Familiar 39",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0040",
+    "name": "Moon Inscription 40",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0041",
+    "name": "Moon Captain 41",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0042",
+    "name": "Earth Raider 42",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0043",
+    "name": "Nibiru Oracle 43",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0044",
+    "name": "Mars Captain 44",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0045",
+    "name": "Moon Captain 45",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0046",
+    "name": "Earth Familiar 46",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0047",
+    "name": "Moon Outpost 47",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0048",
+    "name": "Moon Oracle 48",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0049",
+    "name": "Moon Inscription 49",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0050",
+    "name": "Mars Familiar 50",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0051",
+    "name": "Nibiru Outpost 51",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0052",
+    "name": "Moon Raider 52",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0053",
+    "name": "Earth Oracle 53",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0054",
+    "name": "Moon Captain 54",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0055",
+    "name": "Nibiru Raider 55",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0056",
+    "name": "Nibiru Captain 56",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0057",
+    "name": "Earth Outpost 57",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0058",
+    "name": "Earth Inscription 58",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0059",
+    "name": "Mars Oracle 59",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0060",
+    "name": "Mars Outpost 60",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0061",
+    "name": "Moon Captain 61",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0062",
+    "name": "Mars Familiar 62",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0063",
+    "name": "Earth Oracle 63",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0064",
+    "name": "Mars Raider 64",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0065",
+    "name": "Earth Raider 65",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0066",
+    "name": "Nibiru Familiar 66",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0067",
+    "name": "Earth Inscription 67",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0068",
+    "name": "Earth Outpost 68",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0069",
+    "name": "Mars Captain 69",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0070",
+    "name": "Mars Raider 70",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0071",
+    "name": "Nibiru Captain 71",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 5,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0072",
+    "name": "Moon Outpost 72",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0073",
+    "name": "Mars Captain 73",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0074",
+    "name": "Mars Raider 74",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0075",
+    "name": "Nibiru Outpost 75",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0076",
+    "name": "Mars Captain 76",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0077",
+    "name": "Mars Raider 77",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0078",
+    "name": "Earth Raider 78",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0079",
+    "name": "Nibiru Familiar 79",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0080",
+    "name": "Moon Captain 80",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0081",
+    "name": "Nibiru Raider 81",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0082",
+    "name": "Moon Oracle 82",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0083",
+    "name": "Moon Familiar 83",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0084",
+    "name": "Moon Outpost 84",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0085",
+    "name": "Moon Captain 85",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0086",
+    "name": "Earth Oracle 86",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0087",
+    "name": "Moon Outpost 87",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0088",
+    "name": "Earth Raider 88",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0089",
+    "name": "Earth Oracle 89",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0090",
+    "name": "Earth Inscription 90",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0091",
+    "name": "Nibiru Oracle 91",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0092",
+    "name": "Nibiru Captain 92",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0093",
+    "name": "Moon Inscription 93",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0094",
+    "name": "Nibiru Outpost 94",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0095",
+    "name": "Moon Oracle 95",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0096",
+    "name": "Mars Familiar 96",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0097",
+    "name": "Moon Outpost 97",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0098",
+    "name": "Nibiru Inscription 98",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0099",
+    "name": "Mars Familiar 99",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0100",
+    "name": "Nibiru Captain 100",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0101",
+    "name": "Mars Raider 101",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0102",
+    "name": "Moon Captain 102",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0103",
+    "name": "Mars Inscription 103",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0104",
+    "name": "Nibiru Outpost 104",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0105",
+    "name": "Earth Captain 105",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0106",
+    "name": "Moon Captain 106",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0107",
+    "name": "Mars Oracle 107",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0108",
+    "name": "Moon Raider 108",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0109",
+    "name": "Earth Inscription 109",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0110",
+    "name": "Mars Inscription 110",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0111",
+    "name": "Earth Familiar 111",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0112",
+    "name": "Moon Inscription 112",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0113",
+    "name": "Earth Oracle 113",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0114",
+    "name": "Nibiru Familiar 114",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0115",
+    "name": "Moon Captain 115",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 6,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0116",
+    "name": "Nibiru Captain 116",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0117",
+    "name": "Mars Familiar 117",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0118",
+    "name": "Moon Familiar 118",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0119",
+    "name": "Earth Raider 119",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0120",
+    "name": "Mars Raider 120",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0121",
+    "name": "Moon Captain 121",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0122",
+    "name": "Earth Captain 122",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0123",
+    "name": "Earth Outpost 123",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0124",
+    "name": "Nibiru Familiar 124",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0125",
+    "name": "Moon Raider 125",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0126",
+    "name": "Nibiru Oracle 126",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0127",
+    "name": "Mars Familiar 127",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0128",
+    "name": "Nibiru Oracle 128",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 5,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0129",
+    "name": "Nibiru Raider 129",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0130",
+    "name": "Earth Familiar 130",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0131",
+    "name": "Moon Outpost 131",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0132",
+    "name": "Nibiru Outpost 132",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0133",
+    "name": "Nibiru Captain 133",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0134",
+    "name": "Nibiru Captain 134",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0135",
+    "name": "Mars Familiar 135",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0136",
+    "name": "Moon Familiar 136",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0137",
+    "name": "Mars Raider 137",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0138",
+    "name": "Moon Outpost 138",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0139",
+    "name": "Nibiru Oracle 139",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0140",
+    "name": "Earth Captain 140",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0141",
+    "name": "Earth Raider 141",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0142",
+    "name": "Moon Raider 142",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0143",
+    "name": "Earth Familiar 143",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0144",
+    "name": "Moon Outpost 144",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0145",
+    "name": "Moon Inscription 145",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0146",
+    "name": "Mars Captain 146",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0147",
+    "name": "Nibiru Outpost 147",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0148",
+    "name": "Nibiru Oracle 148",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0149",
+    "name": "Nibiru Outpost 149",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0150",
+    "name": "Earth Familiar 150",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0151",
+    "name": "Earth Outpost 151",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0152",
+    "name": "Mars Familiar 152",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0153",
+    "name": "Nibiru Oracle 153",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0154",
+    "name": "Earth Oracle 154",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0155",
+    "name": "Earth Inscription 155",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0156",
+    "name": "Moon Familiar 156",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0157",
+    "name": "Mars Familiar 157",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0158",
+    "name": "Nibiru Oracle 158",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0159",
+    "name": "Mars Outpost 159",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0160",
+    "name": "Moon Outpost 160",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0161",
+    "name": "Moon Inscription 161",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0162",
+    "name": "Moon Raider 162",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0163",
+    "name": "Mars Oracle 163",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0164",
+    "name": "Nibiru Inscription 164",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0165",
+    "name": "Mars Raider 165",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0166",
+    "name": "Moon Oracle 166",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0167",
+    "name": "Mars Inscription 167",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 5,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0168",
+    "name": "Moon Familiar 168",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0169",
+    "name": "Moon Familiar 169",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0170",
+    "name": "Moon Raider 170",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0171",
+    "name": "Nibiru Raider 171",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0172",
+    "name": "Nibiru Captain 172",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0173",
+    "name": "Mars Captain 173",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0174",
+    "name": "Moon Inscription 174",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0175",
+    "name": "Mars Outpost 175",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0176",
+    "name": "Mars Outpost 176",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0177",
+    "name": "Earth Inscription 177",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0178",
+    "name": "Nibiru Outpost 178",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 5,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0179",
+    "name": "Earth Captain 179",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0180",
+    "name": "Moon Captain 180",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0181",
+    "name": "Earth Inscription 181",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0182",
+    "name": "Earth Raider 182",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0183",
+    "name": "Moon Familiar 183",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0184",
+    "name": "Mars Captain 184",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0185",
+    "name": "Earth Inscription 185",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0186",
+    "name": "Moon Raider 186",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0187",
+    "name": "Earth Familiar 187",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0188",
+    "name": "Earth Oracle 188",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0189",
+    "name": "Mars Raider 189",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0190",
+    "name": "Mars Outpost 190",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0191",
+    "name": "Earth Oracle 191",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 6,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0192",
+    "name": "Moon Oracle 192",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0193",
+    "name": "Nibiru Familiar 193",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 5,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0194",
+    "name": "Mars Oracle 194",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0195",
+    "name": "Moon Inscription 195",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0196",
+    "name": "Nibiru Outpost 196",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0197",
+    "name": "Mars Oracle 197",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 5,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0198",
+    "name": "Mars Oracle 198",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0199",
+    "name": "Nibiru Oracle 199",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0200",
+    "name": "Earth Raider 200",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0201",
+    "name": "Mars Inscription 201",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0202",
+    "name": "Nibiru Familiar 202",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0203",
+    "name": "Mars Oracle 203",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0204",
+    "name": "Mars Inscription 204",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0205",
+    "name": "Moon Outpost 205",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 12,
+    "armor": 5,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0206",
+    "name": "Nibiru Captain 206",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0207",
+    "name": "Nibiru Oracle 207",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0208",
+    "name": "Earth Raider 208",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0209",
+    "name": "Mars Captain 209",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0210",
+    "name": "Mars Captain 210",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0211",
+    "name": "Nibiru Inscription 211",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0212",
+    "name": "Moon Outpost 212",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 5,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0213",
+    "name": "Nibiru Inscription 213",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0214",
+    "name": "Earth Familiar 214",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0215",
+    "name": "Nibiru Oracle 215",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0216",
+    "name": "Mars Captain 216",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0217",
+    "name": "Mars Raider 217",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0218",
+    "name": "Moon Inscription 218",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0219",
+    "name": "Mars Outpost 219",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0220",
+    "name": "Mars Oracle 220",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0221",
+    "name": "Nibiru Familiar 221",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0222",
+    "name": "Moon Familiar 222",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0223",
+    "name": "Mars Oracle 223",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0224",
+    "name": "Earth Oracle 224",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0225",
+    "name": "Earth Captain 225",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0226",
+    "name": "Moon Inscription 226",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0227",
+    "name": "Earth Raider 227",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 5,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0228",
+    "name": "Mars Familiar 228",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0229",
+    "name": "Earth Oracle 229",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0230",
+    "name": "Mars Captain 230",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0231",
+    "name": "Nibiru Captain 231",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0232",
+    "name": "Nibiru Outpost 232",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0233",
+    "name": "Earth Outpost 233",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0234",
+    "name": "Earth Familiar 234",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0235",
+    "name": "Mars Oracle 235",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0236",
+    "name": "Earth Oracle 236",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0237",
+    "name": "Mars Oracle 237",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0238",
+    "name": "Moon Outpost 238",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0239",
+    "name": "Earth Captain 239",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0240",
+    "name": "Earth Inscription 240",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0241",
+    "name": "Nibiru Raider 241",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0242",
+    "name": "Earth Inscription 242",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0243",
+    "name": "Mars Raider 243",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0244",
+    "name": "Mars Familiar 244",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0245",
+    "name": "Moon Inscription 245",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0246",
+    "name": "Nibiru Captain 246",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0247",
+    "name": "Moon Familiar 247",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0248",
+    "name": "Moon Familiar 248",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0249",
+    "name": "Mars Outpost 249",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0250",
+    "name": "Nibiru Captain 250",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0251",
+    "name": "Earth Familiar 251",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0252",
+    "name": "Earth Oracle 252",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0253",
+    "name": "Earth Captain 253",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0254",
+    "name": "Mars Familiar 254",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0255",
+    "name": "Mars Captain 255",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0256",
+    "name": "Moon Inscription 256",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0257",
+    "name": "Nibiru Raider 257",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0258",
+    "name": "Moon Captain 258",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0259",
+    "name": "Moon Familiar 259",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0260",
+    "name": "Mars Captain 260",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0261",
+    "name": "Moon Raider 261",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0262",
+    "name": "Earth Familiar 262",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0263",
+    "name": "Mars Oracle 263",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0264",
+    "name": "Mars Familiar 264",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0265",
+    "name": "Earth Familiar 265",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0266",
+    "name": "Nibiru Oracle 266",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0267",
+    "name": "Nibiru Oracle 267",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0268",
+    "name": "Nibiru Outpost 268",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0269",
+    "name": "Mars Outpost 269",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0270",
+    "name": "Nibiru Outpost 270",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0271",
+    "name": "Moon Oracle 271",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0272",
+    "name": "Earth Raider 272",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0273",
+    "name": "Earth Outpost 273",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0274",
+    "name": "Earth Raider 274",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0275",
+    "name": "Earth Oracle 275",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0276",
+    "name": "Nibiru Captain 276",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0277",
+    "name": "Mars Inscription 277",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0278",
+    "name": "Moon Oracle 278",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0279",
+    "name": "Moon Oracle 279",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0280",
+    "name": "Nibiru Familiar 280",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 6,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0281",
+    "name": "Moon Familiar 281",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0282",
+    "name": "Earth Outpost 282",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0283",
+    "name": "Moon Inscription 283",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0284",
+    "name": "Moon Raider 284",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0285",
+    "name": "Moon Familiar 285",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 6,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0286",
+    "name": "Mars Captain 286",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0287",
+    "name": "Nibiru Raider 287",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0288",
+    "name": "Moon Familiar 288",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0289",
+    "name": "Nibiru Raider 289",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0290",
+    "name": "Nibiru Oracle 290",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0291",
+    "name": "Mars Inscription 291",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 5,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0292",
+    "name": "Moon Inscription 292",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0293",
+    "name": "Moon Inscription 293",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0294",
+    "name": "Moon Familiar 294",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0295",
+    "name": "Earth Oracle 295",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0296",
+    "name": "Mars Raider 296",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0297",
+    "name": "Earth Oracle 297",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0298",
+    "name": "Nibiru Outpost 298",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0299",
+    "name": "Earth Inscription 299",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0300",
+    "name": "Moon Oracle 300",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0301",
+    "name": "Mars Oracle 301",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0302",
+    "name": "Mars Raider 302",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0303",
+    "name": "Mars Oracle 303",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0304",
+    "name": "Mars Outpost 304",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0305",
+    "name": "Mars Inscription 305",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0306",
+    "name": "Earth Captain 306",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0307",
+    "name": "Earth Captain 307",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0308",
+    "name": "Mars Oracle 308",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0309",
+    "name": "Mars Captain 309",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 5,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0310",
+    "name": "Nibiru Outpost 310",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 11,
+    "armor": 5,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0311",
+    "name": "Mars Familiar 311",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0312",
+    "name": "Moon Inscription 312",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0313",
+    "name": "Earth Inscription 313",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0314",
+    "name": "Moon Inscription 314",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0315",
+    "name": "Earth Raider 315",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0316",
+    "name": "Moon Captain 316",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0317",
+    "name": "Mars Captain 317",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0318",
+    "name": "Nibiru Oracle 318",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0319",
+    "name": "Nibiru Oracle 319",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0320",
+    "name": "Mars Oracle 320",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0321",
+    "name": "Mars Outpost 321",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0322",
+    "name": "Moon Outpost 322",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0323",
+    "name": "Earth Inscription 323",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0324",
+    "name": "Moon Raider 324",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0325",
+    "name": "Mars Captain 325",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0326",
+    "name": "Nibiru Oracle 326",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0327",
+    "name": "Earth Outpost 327",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0328",
+    "name": "Nibiru Captain 328",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0329",
+    "name": "Nibiru Familiar 329",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0330",
+    "name": "Moon Familiar 330",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0331",
+    "name": "Moon Captain 331",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0332",
+    "name": "Mars Inscription 332",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0333",
+    "name": "Earth Familiar 333",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0334",
+    "name": "Moon Outpost 334",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0335",
+    "name": "Earth Familiar 335",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0336",
+    "name": "Earth Familiar 336",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0337",
+    "name": "Nibiru Raider 337",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0338",
+    "name": "Earth Oracle 338",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 12,
+    "armor": 5,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0339",
+    "name": "Nibiru Oracle 339",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0340",
+    "name": "Earth Inscription 340",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0341",
+    "name": "Moon Raider 341",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 12,
+    "armor": 6,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0342",
+    "name": "Mars Outpost 342",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0343",
+    "name": "Nibiru Oracle 343",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0344",
+    "name": "Nibiru Oracle 344",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0345",
+    "name": "Moon Familiar 345",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0346",
+    "name": "Mars Raider 346",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0347",
+    "name": "Moon Familiar 347",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0348",
+    "name": "Nibiru Captain 348",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0349",
+    "name": "Nibiru Familiar 349",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0350",
+    "name": "Nibiru Oracle 350",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0351",
+    "name": "Mars Inscription 351",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0352",
+    "name": "Earth Familiar 352",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0353",
+    "name": "Moon Raider 353",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0354",
+    "name": "Earth Outpost 354",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0355",
+    "name": "Mars Raider 355",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0356",
+    "name": "Mars Raider 356",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0357",
+    "name": "Nibiru Familiar 357",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0358",
+    "name": "Earth Familiar 358",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0359",
+    "name": "Mars Oracle 359",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0360",
+    "name": "Earth Inscription 360",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0361",
+    "name": "Moon Raider 361",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0362",
+    "name": "Moon Inscription 362",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0363",
+    "name": "Earth Outpost 363",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0364",
+    "name": "Nibiru Outpost 364",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0365",
+    "name": "Earth Oracle 365",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0366",
+    "name": "Earth Captain 366",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0367",
+    "name": "Mars Inscription 367",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0368",
+    "name": "Earth Outpost 368",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0369",
+    "name": "Mars Inscription 369",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0370",
+    "name": "Mars Raider 370",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0371",
+    "name": "Earth Inscription 371",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0372",
+    "name": "Nibiru Oracle 372",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0373",
+    "name": "Nibiru Outpost 373",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0374",
+    "name": "Nibiru Outpost 374",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0375",
+    "name": "Mars Oracle 375",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0376",
+    "name": "Mars Inscription 376",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0377",
+    "name": "Mars Captain 377",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0378",
+    "name": "Earth Inscription 378",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0379",
+    "name": "Nibiru Familiar 379",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0380",
+    "name": "Earth Familiar 380",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0381",
+    "name": "Moon Familiar 381",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0382",
+    "name": "Mars Outpost 382",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0383",
+    "name": "Mars Inscription 383",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0384",
+    "name": "Nibiru Outpost 384",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0385",
+    "name": "Earth Familiar 385",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0386",
+    "name": "Moon Familiar 386",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0387",
+    "name": "Moon Oracle 387",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0388",
+    "name": "Mars Inscription 388",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0389",
+    "name": "Mars Inscription 389",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0390",
+    "name": "Nibiru Inscription 390",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0391",
+    "name": "Earth Outpost 391",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0392",
+    "name": "Nibiru Captain 392",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0393",
+    "name": "Moon Inscription 393",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0394",
+    "name": "Mars Outpost 394",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0395",
+    "name": "Moon Raider 395",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0396",
+    "name": "Moon Oracle 396",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0397",
+    "name": "Mars Outpost 397",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0398",
+    "name": "Mars Captain 398",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0399",
+    "name": "Nibiru Oracle 399",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0400",
+    "name": "Earth Raider 400",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0401",
+    "name": "Earth Familiar 401",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0402",
+    "name": "Nibiru Raider 402",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0403",
+    "name": "Nibiru Familiar 403",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0404",
+    "name": "Moon Inscription 404",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0405",
+    "name": "Nibiru Raider 405",
+    "type": "Enemy",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0406",
+    "name": "Mars Outpost 406",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0407",
+    "name": "Mars Raider 407",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0408",
+    "name": "Earth Raider 408",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0409",
+    "name": "Mars Outpost 409",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0410",
+    "name": "Mars Captain 410",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0411",
+    "name": "Moon Captain 411",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0412",
+    "name": "Moon Outpost 412",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0413",
+    "name": "Earth Oracle 413",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0414",
+    "name": "Moon Familiar 414",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0415",
+    "name": "Earth Captain 415",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0416",
+    "name": "Mars Captain 416",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0417",
+    "name": "Moon Raider 417",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0418",
+    "name": "Mars Outpost 418",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0419",
+    "name": "Earth Familiar 419",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0420",
+    "name": "Mars Oracle 420",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0421",
+    "name": "Nibiru Oracle 421",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0422",
+    "name": "Mars Inscription 422",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0423",
+    "name": "Moon Captain 423",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0424",
+    "name": "Nibiru Familiar 424",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0425",
+    "name": "Moon Familiar 425",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0426",
+    "name": "Moon Inscription 426",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0427",
+    "name": "Moon Familiar 427",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0428",
+    "name": "Mars Raider 428",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0429",
+    "name": "Nibiru Inscription 429",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0430",
+    "name": "Moon Captain 430",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0431",
+    "name": "Nibiru Oracle 431",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 10,
+    "armor": 5,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0432",
+    "name": "Earth Captain 432",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0433",
+    "name": "Earth Raider 433",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0434",
+    "name": "Moon Raider 434",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0435",
+    "name": "Earth Outpost 435",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0436",
+    "name": "Moon Oracle 436",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0437",
+    "name": "Nibiru Captain 437",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0438",
+    "name": "Nibiru Familiar 438",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 6,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0439",
+    "name": "Moon Oracle 439",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0440",
+    "name": "Moon Inscription 440",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0441",
+    "name": "Nibiru Outpost 441",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 9,
+    "armor": 4,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0442",
+    "name": "Mars Oracle 442",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0443",
+    "name": "Moon Captain 443",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0444",
+    "name": "Nibiru Captain 444",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0445",
+    "name": "Nibiru Outpost 445",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0446",
+    "name": "Moon Raider 446",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0447",
+    "name": "Nibiru Oracle 447",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0448",
+    "name": "Moon Inscription 448",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0449",
+    "name": "Mars Inscription 449",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0450",
+    "name": "Earth Oracle 450",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0451",
+    "name": "Moon Familiar 451",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0452",
+    "name": "Nibiru Inscription 452",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0453",
+    "name": "Moon Captain 453",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0454",
+    "name": "Nibiru Familiar 454",
+    "type": "Pet",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0455",
+    "name": "Earth Raider 455",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0456",
+    "name": "Nibiru Outpost 456",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0457",
+    "name": "Moon Oracle 457",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0458",
+    "name": "Mars Raider 458",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0459",
+    "name": "Moon Familiar 459",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0460",
+    "name": "Earth Captain 460",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0461",
+    "name": "Earth Raider 461",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0462",
+    "name": "Nibiru Inscription 462",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0463",
+    "name": "Mars Captain 463",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0464",
+    "name": "Earth Raider 464",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0465",
+    "name": "Earth Oracle 465",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0466",
+    "name": "Moon Raider 466",
+    "type": "Enemy",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0467",
+    "name": "Earth Familiar 467",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0468",
+    "name": "Mars Familiar 468",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0469",
+    "name": "Moon Oracle 469",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0470",
+    "name": "Mars Raider 470",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0471",
+    "name": "Moon Familiar 471",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0472",
+    "name": "Earth Familiar 472",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0473",
+    "name": "Nibiru Inscription 473",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0474",
+    "name": "Moon Captain 474",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0475",
+    "name": "Moon Oracle 475",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0476",
+    "name": "Earth Raider 476",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "super",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0477",
+    "name": "Moon Captain 477",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0478",
+    "name": "Mars Raider 478",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0479",
+    "name": "Mars Raider 479",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0480",
+    "name": "Earth Oracle 480",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0481",
+    "name": "Nibiru Oracle 481",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0482",
+    "name": "Mars Captain 482",
+    "type": "Character",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0483",
+    "name": "Moon Oracle 483",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0484",
+    "name": "Mars Familiar 484",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0485",
+    "name": "Earth Outpost 485",
+    "type": "Site",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 1,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0486",
+    "name": "Mars Oracle 486",
+    "type": "Boss",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0487",
+    "name": "Moon Inscription 487",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0488",
+    "name": "Moon Captain 488",
+    "type": "Character",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0489",
+    "name": "Earth Inscription 489",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0490",
+    "name": "Moon Inscription 490",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0491",
+    "name": "Earth Captain 491",
+    "type": "Character",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0492",
+    "name": "Earth Inscription 492",
+    "type": "Relic",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0493",
+    "name": "Mars Outpost 493",
+    "type": "Site",
+    "world": "Mars",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0494",
+    "name": "Earth Oracle 494",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0495",
+    "name": "Earth Familiar 495",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0496",
+    "name": "Earth Raider 496",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0497",
+    "name": "Nibiru Oracle 497",
+    "type": "Boss",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0498",
+    "name": "Mars Inscription 498",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 3,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0499",
+    "name": "Earth Familiar 499",
+    "type": "Pet",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0500",
+    "name": "Moon Familiar 500",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0501",
+    "name": "Moon Familiar 501",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0502",
+    "name": "Moon Oracle 502",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0503",
+    "name": "Earth Oracle 503",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0504",
+    "name": "Earth Oracle 504",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "high",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 3,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0505",
+    "name": "Nibiru Inscription 505",
+    "type": "Relic",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0506",
+    "name": "Moon Outpost 506",
+    "type": "Site",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 4,
+    "armor": 2,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0507",
+    "name": "Moon Familiar 507",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 7,
+    "armor": 4,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0508",
+    "name": "Moon Familiar 508",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0509",
+    "name": "Earth Raider 509",
+    "type": "Enemy",
+    "world": "Earth",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 6,
+    "armor": 4,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0510",
+    "name": "Nibiru Outpost 510",
+    "type": "Site",
+    "world": "Nibiru",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🏛️",
+    "text": "Global: at your upkeep gain +1 favored resource."
+  },
+  {
+    "id": "C0511",
+    "name": "Moon Inscription 511",
+    "type": "Relic",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 1,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0512",
+    "name": "Moon Familiar 512",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0513",
+    "name": "Nibiru Captain 513",
+    "type": "Character",
+    "world": "Nibiru",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "⚔️",
+    "text": "Action: spend 1 resource to gain +1 Power this battle."
+  },
+  {
+    "id": "C0514",
+    "name": "Mars Familiar 514",
+    "type": "Pet",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 2,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  },
+  {
+    "id": "C0515",
+    "name": "Mars Raider 515",
+    "type": "Enemy",
+    "world": "Mars",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 1,
+    "emoji": "🗡️",
+    "text": "On kill: you gain 1 Mark."
+  },
+  {
+    "id": "C0516",
+    "name": "Moon Oracle 516",
+    "type": "Boss",
+    "world": "Moon",
+    "rarity": "mid",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 5,
+    "armor": 2,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0517",
+    "name": "Earth Oracle 517",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 1,
+    "armor": 1,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0518",
+    "name": "Earth Oracle 518",
+    "type": "Boss",
+    "world": "Earth",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 2,
+    "armor": 0,
+    "emoji": "👁️",
+    "text": "On entry: opponents gain 1 Heat. While active: allied Characters get +1 Power."
+  },
+  {
+    "id": "C0519",
+    "name": "Mars Inscription 519",
+    "type": "Relic",
+    "world": "Mars",
+    "rarity": "rare",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 8,
+    "armor": 4,
+    "emoji": "📜",
+    "text": "Attach: bearer gets On play: draw 1."
+  },
+  {
+    "id": "C0520",
+    "name": "Moon Familiar 520",
+    "type": "Pet",
+    "world": "Moon",
+    "rarity": "low",
+    "costs": {
+      "sigil": null,
+      "sinew": 1,
+      "oath": null
+    },
+    "power": 3,
+    "armor": 0,
+    "emoji": "🐾",
+    "text": "Attach: bearer gains +1 Armor."
+  }
+]

@@ -1,0 +1,4 @@
+card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,rules_text,section,initiative_text,initiative_summary
+664,Anu the Exarch of Heaven,Ultra,11,8,10,11,10,10,25,Ruler of the Specular Crown. Anu embodies divine entropy; his attacks reduce enemy initiative by half and permanently lower morale of defeated foes.,Bosses,"When attacking, this unit strikes all opponents simultaneously. Damage dealt ignores guard and cannot be countered. Enemies that fall before him lose 1 morale permanently.","Apocalyptic Initiative (13)
+🛡️ Guard 7 • ⚔️ First Strike 7
+Acts before all others. Attacks strike all foes simultaneously. Reduces enemy morale by 1 permanently."

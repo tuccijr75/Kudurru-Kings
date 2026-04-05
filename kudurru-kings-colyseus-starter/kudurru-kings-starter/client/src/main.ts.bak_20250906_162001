@@ -1,0 +1,267 @@
+import "./style.css";
+import { Client, Room } from "colyseus.js";
+
+type State = any;
+
+const app = document.getElementById("app")!;
+app.innerHTML = `
+<header>
+  <h1>Kudurru Kings — Client</h1>
+  <div class="row">
+    <button id="join">Join Room</button>
+    <button id="next">Next Phase</button>
+    <button id="bots">Add 3 Bots</button>
+    <button id="giveall">Give All Cards</button>
+    <button id="deal6">Deal 6</button>
+    <button id="reset">Reset Match</button>
+    <button id="aitick">AI Step</button>
+    <button id="reveal">Toggle Reveal AI</button>
+    <button id="sandbox">Toggle Sandbox</button>
+    <button id="tutor">Start Tutorial</button>
+    <label style="margin-left:8px">Zoom
+      <input id="zoom" type="range" min="0.6" max="1.2" step="0.05" value="0.75" />
+    </label>
+  </div>
+  <div class="legend">
+    Legend: 🪨 Sinew (Physical), ✴️ Sigil (Arcana), 🤝 Oath (Command),
+    🏁 Marks (Victory), 🔥 Heat (Exhaustion)
+  </div>
+</header>
+
+<div class="col">
+  <section class="panel">
+    <div class="tip" id="phase">Phase: —</div>
+    <div class="log" id="log"></div>
+  </section>
+  <section class="panel">
+    <div class="grid" id="players"></div>
+  </section>
+  <section class="panel">
+    <h3>Analyzer</h3>
+    <div id="analyzer"></div>
+  </section>
+</div>
+`;
+
+const client = new Client("ws://localhost:2567");
+let room: Room<State> | null = null;
+let myId = "";
+let lastState: any = null;
+let tutorialOn = false;
+
+const $ = (sel: string) => document.querySelector(sel)! as HTMLElement;
+
+$("#join").addEventListener("click", join);
+$("#next").addEventListener("click", () => room?.send("action", { type: "NEXT_PHASE" }));
+$("#bots").addEventListener("click", () => room?.send("admin", { type: "ADD_BOTS", count: 3 }));
+$("#giveall").addEventListener("click", () => room?.send("admin", { type: "GIVE_ALL" }));
+$("#deal6").addEventListener("click", () => room?.send("admin", { type: "DEAL6" }));
+$("#reset").addEventListener("click", () => room?.send("admin", { type: "RESET_MATCH" }));
+$("#aitick").addEventListener("click", () => room?.send("admin", { type: "AI_TICK" }));
+$("#reveal").addEventListener("click", () =>
+  room?.send("toggle", { key: "revealAI", value: !(lastState?.revealAI) }),
+);
+$("#sandbox").addEventListener("click", () =>
+  room?.send("toggle", { key: "sandbox", value: !(lastState?.sandbox) }),
+);
+$("#tutor").addEventListener("click", () => {
+  tutorialOn = !tutorialOn;
+  updateTutorial(lastState);
+});
+
+const z = document.getElementById("zoom") as HTMLInputElement;
+if (z) {
+  const setZ = (v: string) => document.documentElement.style.setProperty("--card-scale", v);
+  setZ(z.value);
+  z.addEventListener("input", () => setZ(z.value));
+}
+
+async function join() {
+  room = await client.joinOrCreate<State>("kudurru");
+  myId = room.sessionId;
+
+  // Ensure reveal AI ON for testing visibility
+  room.send("toggle", { key: "revealAI", value: true });
+
+  room.onStateChange((state: any) => {
+    lastState = state;
+    render(state);
+    updateTutorial(state);
+  });
+}
+
+/** Robust MapSchema → array helper */
+function listPlayers(state: any) {
+  const out: any[] = [];
+  const mp: any = state?.players;
+  if (!mp) return out;
+  if (typeof mp.forEach === "function") {
+    mp.forEach((p: any, id: string) => out.push({ id, ...p }));
+    return out;
+  }
+  if (typeof mp.toJSON === "function") {
+    const obj = mp.toJSON();
+    for (const id in obj) out.push({ id, ...obj[id] });
+    return out;
+  }
+  for (const id in mp) out.push({ id, ...mp[id] });
+  return out;
+}
+
+function render(state: any) {
+  const players = listPlayers(state);
+  const activeIdx = state.activeIndex ?? 0;
+  const active = players[activeIdx];
+  const youActive = active?.id === myId;
+
+  $("#phase").innerHTML = `Turn ${state.turn} — Phase: <b>${state.phase}</b> — Active: <b>${
+    active?.name ?? "—"
+  }</b> ${youActive ? '<span class="badge good">YOUR TURN</span>' : ""}`;
+
+  $("#log").innerHTML = Array.from(state.log || [])
+    .map((l) => `<div>${escapeHtml(String(l))}</div>`)
+    .join("");
+
+  const wrap = $("#players");
+  wrap.innerHTML = players
+    .map((p: any) => {
+      const hidden = p.ai && !state.revealAI ? "hidden" : "";
+      const sites = (p.sites || []).join(", ") || "—";
+      return `<div class="player ${hidden}">
+        <div class="row">
+          <strong>${escapeHtml(p.name)}${p.ai ? " 🤖" : ""}</strong>
+          <span>🏁 ${p.marks || 0}</span><span>🔥 ${p.heat || 0}</span>
+          <span>🪨 ${p.pools?.sinew ?? 0}</span><span>✴️ ${p.pools?.sigil ?? 0}</span><span>🤝 ${
+        p.pools?.oath ?? 0
+      }</span>
+          <span style="margin-left:auto;font-size:11px;color:#a8c0e0">Sites: ${escapeHtml(sites)}</span>
+        </div>
+        <div class="area"><h4>Battlefield</h4><div class="bf">${
+          (p.chars || []).map((c: any) => cardHTML(c, p.id)).join("") || "(empty)"
+        }</div></div>
+        <div class="area"><h4>Hand ${p.id === myId ? "(You)" : ""}</h4><div class="hand">${
+          (p.hand || []).map((c: any) => cardHTML(c, p.id)).join("")
+        }</div></div>
+      </div>`;
+    })
+    .join("");
+
+  // Hand clicks: play (Main) or start engage (Battle)
+  wrap.querySelectorAll(".hand .card").forEach((el) => {
+    el.addEventListener("click", () => {
+      if (!room || !lastState) return;
+      const card = el as HTMLElement;
+      if (card.classList.contains("flipped")) return; // when viewing back
+      const id = card.dataset.cid!;
+      const owner = card.dataset.owner!;
+      if (owner !== myId) return;
+      if (lastState.phase === "Main") room.send("action", { type: "PLAY_CARD", cardId: id });
+      else if (lastState.phase === "Battle") room.send("action", { type: "START_ENGAGE", cardId: id });
+    });
+  });
+
+  // Battlefield engage flow + flip
+  let selectedAtk: string | null = null;
+  wrap.querySelectorAll(".bf .card").forEach((el) => {
+    el.addEventListener("click", () => {
+      if (!room || !lastState || (el as HTMLElement).classList.contains("flipped")) return;
+      const cid = (el as HTMLElement).dataset.cid!;
+      const owner = (el as HTMLElement).dataset.owner!;
+      if (lastState.phase !== "Battle") return;
+      if (owner === myId) {
+        selectedAtk = cid;
+        room.send("action", { type: "START_ENGAGE", cardId: cid });
+      } else if (selectedAtk) {
+        room.send("action", { type: "TARGET_DEFENDER", ownerId: owner, cardId: cid });
+        const test = prompt("Test axis? Stone/Wind/Veil/Oath/Eye", "Stone") || "Stone";
+        room.send("action", { type: "RESOLVE_TEST", test, cons: "Wound" });
+        selectedAtk = null;
+      }
+    });
+  });
+
+  // Flip mechanics (double-click or ℹ️)
+  wrap.querySelectorAll(".card").forEach((el) => {
+    el.addEventListener("dblclick", () => el.classList.toggle("flipped"));
+    (el.querySelector(".infoBtn") as HTMLElement | null)?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      el.classList.toggle("flipped");
+    });
+  });
+}
+
+function cardHTML(c: any, ownerId: string) {
+  const s = c.costs?.sinew || 0,
+    g = c.costs?.sigil || 0,
+    o = c.costs?.oath || 0;
+  const rank = (c.rank || "").slice(0, 1).toUpperCase();
+  const pow = c.power ?? 0,
+    arm = c.armor ?? 0;
+  const tipS = `Sinew (🪨) Physical effort: ${s}`,
+    tipG = `Sigil (✴️) Arcana: ${g}`,
+    tipO = `Oath (🤝) Command: ${o}`,
+    tipR = `Rank: ${c.rank || "—"}`;
+  const text = c.text || "—";
+  return `<div class="card" data-cid="${c.id}" data-owner="${ownerId}">
+    <div class="inner">
+      <div class="face front">
+        <button class="infoBtn" title="Flip for details">ℹ️ Details</button>
+        <span class="pip tl" data-tip="${escapeHtml(tipS)}">${s}🪨</span>
+        <span class="pip tr" data-tip="${escapeHtml(tipG)}">${g}✴️</span>
+        <span class="pip bl" data-tip="${escapeHtml(tipO)}">${o}🤝</span>
+        <span class="pip br" data-tip="${escapeHtml(tipR)}">${escapeHtml(rank)}</span>
+        <div class="art">${escapeHtml(c.emoji || "🗡️")}</div>
+        <div class="title">${escapeHtml(c.name)}</div>
+        <div class="type">${escapeHtml(c.type)}</div>
+      </div>
+      <div class="face back">
+        <div class="statrow">
+          <div>Type</div><div><b>${escapeHtml(c.type)}</b></div>
+          <div>Rank</div><div>${escapeHtml(String(c.rank || "—"))}</div>
+          <div>Costs</div><div>${s}🪨 / ${g}✴️ / ${o}🤝</div>
+          <div>Power</div><div>${pow}</div><div>Armor</div><div>${arm}</div>
+        </div>
+        <div class="hr"></div>
+        <div><b>Text</b><br/>${escapeHtml(text)}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function updateTutorial(state: any) {
+  const el = document.getElementById("analyzer")!;
+  if (!el) return;
+  if (!tutorialOn || !state) {
+    if (!el.innerHTML.trim())
+      el.innerHTML = `<div class="tip">Click <b>Start Tutorial</b> for guided steps.</div>`;
+    return;
+  }
+  const phase = state.phase;
+  const lines: string[] = [];
+  lines.push(`<b>Tutorial — ${phase}</b>`);
+  if (phase === "Upkeep") {
+    lines.push(
+      "Upkeep refreshes resources. Hover the corner pips for meanings: 🪨 Sinew, ✴️ Sigil, 🤝 Oath."
+    );
+    lines.push("Click <b>Next Phase</b> to enter Main.");
+  } else if (phase === "Main") {
+    lines.push(
+      "Play a <b>Character</b> from your hand (click a card in your hand). Costs use your 🪨/✴️/🤝 pools."
+    );
+    lines.push("Relics attach to a Character; Pets accompany one. Sites are global boons.");
+  } else if (phase === "Battle") {
+    lines.push("Choose your attacker: click one of <b>your</b> Characters on the Battlefield.");
+    lines.push("Then click an enemy defender. Choose a test axis (Stone/Wind/Veil/Oath/Eye).");
+    lines.push("The Analyzer narrates bonuses and why the result was good/bad.");
+  } else {
+    lines.push("Proceed with <b>Next Phase</b> until battle resolves.");
+  }
+  lines.push("Tip: Double-click any card (or press ℹ️) to flip and read its full details.");
+  el.innerHTML = lines.map((l) => `<div class="line">${l}</div>`).join("");
+}
+
+function escapeHtml(s: string) {
+  return s.replace(/[&<>"']/g, (ch: string) =>
+    ch === "&" ? "&amp;" : ch == "<" ? "&lt;" : ch == ">" ? "&gt;" : ch == '"' ? "&quot;" : "&#39;"
+  );
+}

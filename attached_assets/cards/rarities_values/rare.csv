@@ -1,0 +1,329 @@
+card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,lore_text,section,mechanics_text
+2,Rook,rare,🪨  8,🌪️  4,✨  7,📖  4,👁️  4,⚖️  4,♨  15,"Rook — Heroes of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+3,Nammu,rare,🪨  9,🌪️  3,✨  9,📖  4,👁️  4,⚖️  4,♨  18,"Nammu — Heroes of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+4,Ashur,rare,🪨  6,🌪️  4,✨  3,📖  9,👁️  4,⚖️  4,♨  14,"Ashur — Heroes of Oath/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+5,Zaleth,rare,🪨  7,🌪️  3,✨  7,📖  4,👁️  3,⚖️  4,♨  12,"Zaleth — Heroes of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+6,Irik,rare,🪨  3,🌪️  3,✨  4,📖  7,👁️  7,⚖️  4,♨  12,"Irik — Heroes of Eye/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+7,Tammuz,rare,🪨  4,🌪️  7,✨  4,📖  3,👁️  7,⚖️  4,♨  13,"Tammuz — Heroes of Eye/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+8,Etana,rare,🪨  7,🌪️  8,✨  4,📖  4,👁️  3,⚖️  4,♨  14,"Etana — Heroes of Wind/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+9,Iltu,rare,🪨  8,🌪️  8,✨  3,📖  3,👁️  3,⚖️  4,♨  14,"Iltu — Heroes of Stone/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+10,Urid,rare,🪨  8,🌪️  4,✨  3,📖  7,👁️  4,⚖️  4,♨  14,"Urid — Heroes of Stone/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+11,Namtar,rare,🪨  4,🌪️  4,✨  3,📖  9,👁️  8,⚖️  4,♨  17,"Namtar — Heroes of Oath/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+12,Zari,rare,🪨  3,🌪️  3,✨  8,📖  7,👁️  4,⚖️  4,♨  13,"Zari — Heroes of Veil/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Heroes,"Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+13,Maskat,rare,🪨  4,🌪️  4,✨  7,📖  4,👁️  6,⚖️  4,♨  12,"Maskat — Heroes of Veil/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+14,Eresh,rare,🪨  6,🌪️  7,✨  3,📖  3,👁️  3,⚖️  4,♨  10,"Eresh — Heroes of Wind/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+15,Shulgi,rare,🪨  3,🌪️  4,✨  6,📖  4,👁️  7,⚖️  4,♨  12,"Shulgi — Heroes of Eye/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Heroes,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+501,Warden of Chains,rare,🪨  9,🌪️  3,✨  3,📖  7,👁️  4,⚖️  4,♨  15,"Warden of Chains — Mini-Bosses of Stone/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 5 • ⚔️ First Strike 2
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+502,Prophet of Eclipse,rare,🪨  4,🌪️  8,✨  3,📖  7,👁️  3,⚖️  4,♨  13,"Prophet of Eclipse — Mini-Bosses of Wind/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+503,Crystal Tyrant,rare,🪨  4,🌪️  6,✨  3,📖  3,👁️  8,⚖️  4,♨  12,"Crystal Tyrant — Mini-Bosses of Eye/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+504,Hollow Seraph,rare,🪨  8,🌪️  3,✨  6,📖  4,👁️  3,⚖️  4,♨  12,"Hollow Seraph — Mini-Bosses of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Reduces first incoming hit by 40%; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+505,Blood Moon Avatar,rare,🪨  4,🌪️  7,✨  4,📖  9,👁️  3,⚖️  4,♨  16,"Blood Moon Avatar — Mini-Bosses of Oath/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+506,Ash Colossus,rare,🪨  3,🌪️  3,✨  6,📖  8,👁️  4,⚖️  4,♨  12,"Ash Colossus — Mini-Bosses of Oath/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+507,Sand Serpent,rare,🪨  4,🌪️  7,✨  4,📖  8,👁️  4,⚖️  4,♨  15,"Sand Serpent — Mini-Bosses of Oath/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+508,Bone Goliath,rare,🪨  3,🌪️  7,✨  4,📖  3,👁️  8,⚖️  4,♨  13,"Bone Goliath — Mini-Bosses of Eye/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+509,Ash Revenant King,rare,🪨  3,🌪️  6,✨  7,📖  4,👁️  3,⚖️  4,♨  11,"Ash Revenant King — Mini-Bosses of Veil/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+510,Crimson Beast,rare,🪨  3,🌪️  4,✨  9,📖  3,👁️  7,⚖️  4,♨  15,"Crimson Beast — Mini-Bosses of Veil/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+511,Canyon Titan,rare,🪨  4,🌪️  4,✨  9,📖  4,👁️  9,⚖️  4,♨  19,"Canyon Titan — Mini-Bosses of Eye/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+512,Bone Hydra,rare,🪨  8,🌪️  7,✨  3,📖  4,👁️  4,⚖️  4,♨  14,"Bone Hydra — Mini-Bosses of Stone/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+513,Dust Wraith King,rare,🪨  4,🌪️  8,✨  4,📖  7,👁️  3,⚖️  4,♨  14,"Dust Wraith King — Mini-Bosses of Wind/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+514,Crimson Juggernaut,rare,🪨  4,🌪️  3,✨  9,📖  9,👁️  3,⚖️  4,♨  18,"Crimson Juggernaut — Mini-Bosses of Oath/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+515,Sandstorm Avatar,rare,🪨  7,🌪️  4,✨  7,📖  4,👁️  4,⚖️  4,♨  13,"Sandstorm Avatar — Mini-Bosses of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+516,Crimson Prophet King,rare,🪨  8,🌪️  3,✨  4,📖  8,👁️  4,⚖️  4,♨  15,"Crimson Prophet King — Mini-Bosses of Oath/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 5 • ⚔️ First Strike 2
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+517,Ash Titan Lord,rare,🪨  4,🌪️  4,✨  7,📖  8,👁️  3,⚖️  4,♨  14,"Ash Titan Lord — Mini-Bosses of Oath/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+518,Oath Titan,rare,🪨  3,🌪️  4,✨  9,📖  4,👁️  6,⚖️  4,♨  14,"Oath Titan — Mini-Bosses of Veil/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+519,Halo Ascendant,rare,🪨  4,🌪️  7,✨  4,📖  9,👁️  3,⚖️  4,♨  16,"Halo Ascendant — Mini-Bosses of Oath/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+520,Glyph Behemoth,rare,🪨  7,🌪️  4,✨  9,📖  3,👁️  3,⚖️  4,♨  15,"Glyph Behemoth — Mini-Bosses of Veil/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+521,Void Serpent,rare,🪨  4,🌪️  4,✨  3,📖  8,👁️  6,⚖️  4,♨  13,"Void Serpent — Mini-Bosses of Oath/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+522,Halo Warden,rare,🪨  3,🌪️  6,✨  8,📖  4,👁️  4,⚖️  4,♨  13,"Halo Warden — Mini-Bosses of Veil/Wind Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+523,Rune Goliath,rare,🪨  7,🌪️  4,✨  7,📖  3,👁️  3,⚖️  4,♨  12,"Rune Goliath — Mini-Bosses of Stone/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+524,Crystal Leviathan,rare,🪨  4,🌪️  9,✨  3,📖  8,👁️  4,⚖️  4,♨  17,"Crystal Leviathan — Mini-Bosses of Wind/Oath Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+525,Obelisk Avatar,rare,🪨  4,🌪️  8,✨  7,📖  4,👁️  3,⚖️  4,♨  14,"Obelisk Avatar — Mini-Bosses of Wind/Veil Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+526,Void Horror King,rare,🪨  3,🌪️  7,✨  4,📖  4,👁️  6,⚖️  4,♨  12,"Void Horror King — Mini-Bosses of Wind/Eye Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Mini-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+527,Glyph Titan,rare,🪨  6,🌪️  3,✨  8,📖  3,👁️  3,⚖️  4,♨  12,"Glyph Titan — Mini-Bosses of Veil/Stone Duality.
+A rare presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Mini-bosses,"Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."

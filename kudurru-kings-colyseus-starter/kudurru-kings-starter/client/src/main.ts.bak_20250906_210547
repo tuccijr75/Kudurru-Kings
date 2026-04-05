@@ -1,0 +1,262 @@
+﻿import "./style.css";
+import { Client, Room } from "colyseus.js";
+type State = any;
+
+const app = document.getElementById("app")!;
+app.innerHTML = `
+<header>
+  <h1>Kudurru Kings — Client</h1>
+  <div class="row">
+    <button id="join">Join Room</button>
+    <button id="next">Next Phase</button>
+    <button id="bots">Add 3 Bots</button>
+    <button id="giveall">Give All Cards</button>
+    <button id="deal6">Deal 6</button>
+    <button id="reset">Reset Match</button>
+    <button id="aitick">AI Step</button>
+    <button id="reveal">Toggle Reveal AI</button>
+    <button id="sandbox">Toggle Sandbox</button>
+    <button id="tutor">Start Tutorial</button>
+    <label style="margin-left:8px">Zoom
+      <input id="zoom" type="range" min="0.55" max="1.2" step="0.05" value="0.70" />
+    </label>
+  </div>
+  <div class="legend">
+    Legend: 🪨 Sinew (Physical), ✴️ Sigil (Arcana), 🤝 Oath (Command), 🏁 Marks (Victory), 🔥 Heat (Exhaustion)
+  </div>
+</header>
+
+<div class="col">
+  <section class="panel">
+    <div class="tip" id="phase">Phase: —</div>
+    <div class="log" id="log"></div>
+  </section>
+  <section class="panel">
+    <div id="filters" class="filters"></div>
+    <div class="grid" id="players"></div>
+  </section>
+  <section class="panel">
+    <h3>Analyzer</h3>
+    <div id="analyzer"></div>
+  </section>
+</div>
+`;
+
+const client = new Client("ws://localhost:2567");
+let room: Room<State> | null = null;
+let myId = "";
+let lastState: any = null;
+let tutorialOn = false;
+let handFilter: "All"|"Character"|"Relic"|"Pet"|"Site"|"Name" = "All";
+
+const $ = (sel: string) => document.querySelector(sel)! as HTMLElement;
+const log = (m:string)=>{ const el=$("#log"); el.innerHTML = `<div>${m}</div>` + el.innerHTML; console.log("[KK]", m) };
+
+// Top buttons
+$("#join").addEventListener("click", join);
+$("#next").addEventListener("click", () => room?.send("action", { type: "NEXT_PHASE" }));
+$("#giveall").addEventListener("click", () => room?.send("admin", { type: "GIVE_ALL" }));
+$("#deal6").addEventListener("click", () => room?.send("admin", { type: "DEAL6" }));
+$("#reset").addEventListener("click", () => room?.send("admin", { type: "RESET_MATCH" }));
+$("#aitick").addEventListener("click", () => room?.send("admin", { type: "AI_TICK" }));
+$("#reveal").addEventListener("click", () => room?.send("toggle", { key: "revealAI", value: !(lastState?.revealAI) }));
+$("#sandbox").addEventListener("click", () => room?.send("toggle", { key: "sandbox", value: !(lastState?.sandbox) }));
+$("#tutor").addEventListener("click", () => { tutorialOn = !tutorialOn; updateTutorial(lastState); });
+
+// Multi-bot: send 3 requests (works even if server only adds one per call)
+$("#bots").addEventListener("click", async () => {
+  if (!room) return;
+  for (let i=0;i<3;i++){
+    room.send("admin", { type:"ADD_BOTS", count: 1 });
+    await new Promise(r=>setTimeout(r,120));
+  }
+});
+
+// Zoom slider
+const z = document.getElementById("zoom") as HTMLInputElement;
+if (z) { const setZ = (v: string) => document.documentElement.style.setProperty("--card-scale", v); setZ(z.value); z.addEventListener("input", () => setZ(z.value)); }
+
+// Filters bar (tabs)
+const cats = ["All","Character","Relic","Pet","Site","Name"];
+function renderFilters(){
+  $("#filters").innerHTML = cats.map(c=>`<button class="tab ${handFilter===c?"on":""}" data-cat="${c}">${c}</button>`).join("");
+  $("#filters").querySelectorAll(".tab").forEach(el=>{
+    el.addEventListener("click", ()=>{ handFilter = (el as HTMLElement).dataset.cat as any; render(lastState); });
+  });
+}
+renderFilters();
+
+async function join(){
+  try {
+    log("Joining room ‘kudurru’…");
+    room = await client.joinOrCreate<State>("kudurru");
+  } catch {
+    log("‘kudurru’ not available, trying ‘my_room’…");
+    try { room = await client.joinOrCreate<State>("my_room"); }
+    catch (e2:any) { log("Failed to join any room. Is the server up?"); console.error(e2); return; }
+  }
+  myId = room.sessionId;
+  log(`Joined. Session: ${myId}`);
+  // Ensure AI visible for testing
+  room.send("toggle", { key:"revealAI", value:true });
+
+  room.onStateChange((state:any)=>{ lastState = state; render(state); updateTutorial(state); });
+}
+
+// MapSchema to array (robust)
+function listPlayers(state:any){
+  const out:any[]=[]; const mp:any = state?.players; if (!mp) return out;
+  if (typeof mp.forEach === "function"){ mp.forEach((p:any,id:string)=> out.push({id, ...p})); return out; }
+  if (typeof mp.toJSON === "function"){ const obj=mp.toJSON(); for (const id in obj) out.push({id, ...obj[id]}); return out; }
+  for (const id in mp) out.push({id, ...mp[id]}); return out;
+}
+
+// Deterministic “derived” stats when server doesn’t provide them yet
+function hash(s:string){ let h=0; for (let i=0;i<s.length;i++) h=(h*31 + s.charCodeAt(i))|0; return Math.abs(h); }
+function deriveStats(c:any){ 
+  const rank = (c.rank||"low").toLowerCase(); const h = hash(String(c.id ?? c.name ?? "x"));
+  const ranges:any = {
+    low:  { pow:[1,2], arm:[0,1] },
+    mid:  { pow:[2,3], arm:[0,1] },
+    high: { pow:[3,4], arm:[1,2] },
+    rare: { pow:[4,6], arm:[2,3] },
+    "super rare": { pow:[6,8], arm:[3,4] }
+  };
+  const r = ranges[rank] ?? ranges.low;
+  const pick = (lo:number,hi:number)=> lo + (h % (hi-lo+1));
+  const pow = (typeof c.power === "number" && c.power>0)? c.power : pick(r.pow[0], r.pow[1]);
+  const armor = (typeof c.armor === "number" && c.armor>0)? c.armor : pick(r.arm[0], r.arm[1]);
+  return { pow, armor };
+}
+
+function render(state:any){
+  if (!state){ return; }
+  const players = listPlayers(state);
+  const activeIdx = state.activeIndex ?? 0;
+  const active = players[activeIdx];
+  const youActive = active?.id === myId;
+
+  $("#phase").innerHTML = `Turn ${state.turn} — Phase: <b>${state.phase}</b> — Active: <b>${active?.name ?? "—"}</b> ${youActive?'<span class="badge good">YOUR TURN</span>':''}`;
+  $("#log").innerHTML = Array.from(state.log || []).map((l)=> `<div>${escapeHtml(String(l))}</div>`).join("");
+
+  // Side-by-side players
+  const wrap = $("#players");
+  wrap.innerHTML = players.map((p:any)=> playerBlock(p,state)).join("");
+
+  // Click handlers
+  wrap.querySelectorAll(".hand .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if (!room || !lastState) return;
+      const card = el as HTMLElement;
+      if (card.classList.contains("flipped")) return;
+      const id = card.dataset.cid!, owner = card.dataset.owner!;
+      if (owner !== myId) return;
+      if (lastState.phase === "Main")      room!.send("action", { type:"PLAY_CARD", cardId: id });
+      else if (lastState.phase === "Battle") room!.send("action", { type:"START_ENGAGE", cardId: id });
+    });
+  });
+
+  let selectedAtk: string | null = null;
+  wrap.querySelectorAll(".bf .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if (!room || !lastState || (el as HTMLElement).classList.contains("flipped")) return;
+      const cid = (el as HTMLElement).dataset.cid!; const owner = (el as HTMLElement).dataset.owner!;
+      if (lastState.phase !== "Battle") return;
+      if (owner === myId) { selectedAtk = cid; room!.send("action", { type:"START_ENGAGE", cardId: cid }); }
+      else if (selectedAtk) {
+        room!.send("action", { type:"TARGET_DEFENDER", ownerId: owner, cardId: cid });
+        const test = prompt("Test axis? Stone/Wind/Veil/Oath/Eye","Stone") || "Stone";
+        room!.send("action", { type:"RESOLVE_TEST", test, cons: "Wound" });
+        selectedAtk = null;
+      }
+    });
+  });
+
+  wrap.querySelectorAll(".card").forEach(el=>{
+    el.addEventListener("dblclick", ()=> el.classList.toggle("flipped"));
+    (el.querySelector(".infoBtn") as HTMLElement | null)?.addEventListener("click",(e)=>{ e.stopPropagation(); el.classList.toggle("flipped"); });
+  });
+}
+
+function playerBlock(p:any,state:any){
+  const hidden = (p.ai && !state.revealAI) ? "hidden": "";
+  const sites = (p.sites||[]).join(", ") || "—";
+  const isYou = p.id===myId;
+  const handCards = (p.hand||[]).filter((c:any)=> handFilter==="All" || c.type===handFilter);
+
+  return `<div class="player ${hidden}">
+    <div class="row head">
+      <strong>${escapeHtml(p.name)}${p.ai?" 🤖":""}</strong>
+      <span>🏁 ${p.marks||0}</span><span>🔥 ${p.heat||0}</span>
+      <span>🪨 ${p.pools?.sinew??0}</span><span>✴️ ${p.pools?.sigil??0}</span><span>🤝 ${p.pools?.oath??0}</span>
+      <span style="margin-left:auto;font-size:11px;color:#a8c0e0">Sites: ${escapeHtml(sites)}</span>
+    </div>
+    <div class="area"><h4>Battlefield</h4><div class="bf">${(p.chars||[]).map((c:any)=>cardHTML(c,p.id)).join("") || "(empty)"}</div></div>
+    <div class="area"><h4>Hand ${isYou?"(You)":""} ${isYou?`<span class="muted">Filter: ${handFilter}</span>`:""}</h4>
+      <div class="hand">${handCards.map((c:any)=>cardHTML(c,p.id)).join("")}</div>
+    </div>
+  </div>`;
+}
+
+function cardHTML(c:any, ownerId:string){
+  const s=c.costs?.sinew||0,g=c.costs?.sigil||0,o=c.costs?.oath||0;
+  const rank=(c.rank||"").slice(0,1).toUpperCase(); 
+  const ds = deriveStats(c); const pow = ds.pow; const arm = ds.armor;
+  const tipS=`Sinew (🪨) Physical effort: ${s}` , tipG=`Sigil (✴️) Arcana: ${g}`, tipO=`Oath (🤝) Command: ${o}`, tipR=`Rank: ${c.rank||"—"}`;
+  const text= c.text || "—";
+  return `<div class="card" data-cid="${c.id}" data-owner="${ownerId}">
+    <div class="inner">
+      <div class="face front">
+        <button class="infoBtn" title="Flip for details">ℹ️ Details</button>
+        <span class="pip tl" data-tip="${escapeHtml(tipS)}">${s}🪨</span>
+        <span class="pip tr" data-tip="${escapeHtml(tipG)}">${g}✴️</span>
+        <span class="pip bl" data-tip="${escapeHtml(tipO)}">${o}🤝</span>
+        <span class="pip br" data-tip="${escapeHtml(tipR)}">${escapeHtml(rank)}</span>
+        <div class="art">${escapeHtml(c.emoji||"🗡️")}</div>
+        <div class="title">${escapeHtml(c.name)}</div>
+        <div class="type">${escapeHtml(c.type)} — ⚔️ ${pow} | 🛡️ ${arm}</div>
+      </div>
+      <div class="face back">
+        <div class="statrow">
+          <div>Type</div><div><b>${escapeHtml(c.type)}</b></div>
+          <div>Rank</div><div>${escapeHtml(String(c.rank||"—"))}</div>
+          <div>Costs</div><div>${s}🪨 / ${g}✴️ / ${o}🤝</div>
+          <div>Power</div><div>${pow}</div><div>Armor</div><div>${arm}</div>
+        </div>
+        <div class="hr"></div>
+        <div><b>Text</b><br/>${escapeHtml(text)}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// Tutorial: keep talking even if "Next Phase" is blocked
+function updateTutorial(state:any){
+  const el = document.getElementById("analyzer")!; if (!el) return;
+  if (!tutorialOn || !state) { if (!el.innerHTML.trim()) el.innerHTML = `<div class="tip">Click <b>Start Tutorial</b> for guided steps.</div>`; return; }
+  const phase = state.phase; const active = listPlayers(state)[state.activeIndex ?? 0];
+  const youActive = active?.id === myId;
+  const lines:string[] = [];
+  lines.push(`<b>Tutorial — ${phase}</b>`);
+  if (!youActive) {
+    lines.push("It’s not your turn yet. The server blocks Next Phase if you’re not the active player.");
+    lines.push("• Click <b>AI Step</b> to let the AI act, or wait until the turn rotates to you (badge shows “YOUR TURN”).");
+  } else if (phase === "Upkeep"){
+    lines.push("Upkeep refreshes resources. Hover the corner pips on any card to learn costs.");
+    lines.push("Click <b>Next Phase</b> to enter Main.");
+  } else if (phase === "Main"){
+    lines.push("Play a <b>Character</b> from your hand (click a card in your hand). Costs consume 🪨/✴️/🤝 pools.");
+    lines.push("Relics attach to a Character; Pets accompany one. Sites are global boons.");
+    lines.push("After playing at least one character, click <b>Next Phase</b> to go to Battle.");
+  } else if (phase === "Battle"){
+    lines.push("Choose your attacker (your Battlefield). Then click an enemy defender.");
+    lines.push("Pick a test axis when prompted (Stone/Wind/Veil/Oath/Eye). The Analyzer explains bonuses.");
+    lines.push("Click <b>Next Phase</b> to resolve and rotate turns.");
+  } else {
+    lines.push("Proceed with <b>Next Phase</b>.");
+  }
+  lines.push("Tip: Double-click any card or press ℹ️ to flip for full details.");
+  el.innerHTML = lines.map(l=>`<div class="line">${l}</div>`).join("");
+}
+
+function escapeHtml(s:string){ return s.replace(/[&<>\"']/g,(ch:string)=> ch==="&"?"&amp;": ch=="<"?"&lt;": ch==">"?"&gt;": ch=='"'?"&quot;": "&#39;"); }

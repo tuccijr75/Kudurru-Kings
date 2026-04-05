@@ -1,0 +1,1089 @@
+card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,lore_text,section,mechanics_text
+528,Pharaoh of Chains,super,🪨  5,🌪️  5,✨  12,📖  8,👁️  6,⚖️  4,♨  27,"Pharaoh of Chains — Major-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+529,Idol Colossus,super,🪨  9,🌪️  5,✨  9,📖  5,👁️  4,⚖️  4,♨  21,"Idol Colossus — Major-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+530,Marsh Leviathan,super,🪨  8,🌪️  6,✨  5,📖  4,👁️  11,⚖️  4,♨  24,"Marsh Leviathan — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+531,Bronze Juggernaut,super,🪨  5,🌪️  9,✨  6,📖  11,👁️  6,⚖️  4,♨  27,"Bronze Juggernaut — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+532,Blood Prophet King,super,🪨  11,🌪️  4,✨  6,📖  6,👁️  10,⚖️  4,♨  28,"Blood Prophet King — Major-Bosses of Stone/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+533,Obsidian Lion King,super,🪨  10,🌪️  6,✨  6,📖  6,👁️  11,⚖️  4,♨  30,"Obsidian Lion King — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+534,Ash Oracle Queen,super,🪨  4,🌪️  5,✨  5,📖  9,👁️  11,⚖️  4,♨  24,"Ash Oracle Queen — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+535,Chain Marshal Lord,super,🪨  9,🌪️  6,✨  4,📖  9,👁️  5,⚖️  4,♨  22,"Chain Marshal Lord — Major-Bosses of Oath/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+536,Fire Ram King,super,🪨  10,🌪️  9,✨  6,📖  4,👁️  4,⚖️  4,♨  23,"Fire Ram King — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+537,Bone Chariot Lord,super,🪨  5,🌪️  5,✨  6,📖  10,👁️  10,⚖️  4,♨  26,"Bone Chariot Lord — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+538,Siege Idol King,super,🪨  5,🌪️  11,✨  4,📖  10,👁️  5,⚖️  4,♨  26,"Siege Idol King — Major-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+539,Oil Hydra King,super,🪨  5,🌪️  4,✨  5,📖  8,👁️  8,⚖️  4,♨  18,"Oil Hydra King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+540,Eclipse Hierarch,super,🪨  5,🌪️  4,✨  9,📖  6,👁️  10,⚖️  4,♨  24,"Eclipse Hierarch — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+541,Void Augur King,super,🪨  4,🌪️  4,✨  5,📖  9,👁️  11,⚖️  4,♨  24,"Void Augur King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+542,Blood Moon Prophet Lord,super,🪨  6,🌪️  9,✨  9,📖  4,👁️  6,⚖️  4,♨  23,"Blood Moon Prophet Lord — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+543,Chained Seer King,super,🪨  4,🌪️  10,✨  6,📖  9,👁️  5,⚖️  4,♨  24,"Chained Seer King — Major-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+544,Ashen Oracle Queen,super,🪨  10,🌪️  5,✨  12,📖  6,👁️  5,⚖️  4,♨  30,"Ashen Oracle Queen — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+545,Crescent Duelist Lord,super,🪨  6,🌪️  4,✨  5,📖  10,👁️  9,⚖️  4,♨  24,"Crescent Duelist Lord — Major-Bosses of Oath/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+546,Ironclad Gladiator King,super,🪨  5,🌪️  6,✨  11,📖  12,👁️  5,⚖️  4,♨  32,"Ironclad Gladiator King — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+547,Bloodspiller Lord,super,🪨  4,🌪️  6,✨  12,📖  4,👁️  9,⚖️  4,♨  27,"Bloodspiller Lord — Major-Bosses of Veil/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+548,Chainfighter King,super,🪨  5,🌪️  10,✨  5,📖  9,👁️  5,⚖️  4,♨  23,"Chainfighter King — Major-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+549,Bonebreaker Lord,super,🪨  5,🌪️  5,✨  11,📖  8,👁️  4,⚖️  4,♨  23,"Bonebreaker Lord — Major-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+550,Crater Brute King,super,🪨  4,🌪️  9,✨  4,📖  11,👁️  4,⚖️  4,♨  23,"Crater Brute King — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+551,Moonspawn Horror King,super,🪨  4,🌪️  5,✨  11,📖  6,👁️  12,⚖️  4,♨  31,"Moonspawn Horror King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+552,Shadow Hulk King,super,🪨  9,🌪️  8,✨  6,📖  5,👁️  5,⚖️  4,♨  21,"Shadow Hulk King — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+553,Lunar Abomination Lord,super,🪨  5,🌪️  11,✨  4,📖  5,👁️  9,⚖️  4,♨  24,"Lunar Abomination Lord — Major-Bosses of Wind/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+554,Crystal Reaver King,super,🪨  9,🌪️  5,✨  10,📖  5,👁️  6,⚖️  4,♨  24,"Crystal Reaver King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+555,Void Herald King,super,🪨  5,🌪️  6,✨  11,📖  5,👁️  12,⚖️  4,♨  32,"Void Herald King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+556,Eclipse Warlock Lord,super,🪨  9,🌪️  9,✨  5,📖  4,👁️  4,⚖️  4,♨  20,"Eclipse Warlock Lord — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+557,Hollow Bishop King,super,🪨  10,🌪️  5,✨  5,📖  9,👁️  5,⚖️  4,♨  23,"Hollow Bishop King — Major-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+558,Chain Pontiff Lord,super,🪨  5,🌪️  10,✨  5,📖  11,👁️  4,⚖️  4,♨  26,"Chain Pontiff Lord — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+559,Ash Bishop Queen,super,🪨  9,🌪️  5,✨  5,📖  6,👁️  10,⚖️  4,♨  24,"Ash Bishop Queen — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+560,Blade Dancer Lord,super,🪨  5,🌪️  5,✨  12,📖  5,👁️  11,⚖️  4,♨  31,"Blade Dancer Lord — Major-Bosses of Veil/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+561,Iron Juggernaut King,super,🪨  9,🌪️  5,✨  8,📖  5,👁️  5,⚖️  4,♨  20,"Iron Juggernaut King — Major-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+562,Blood Arena Lord King,super,🪨  6,🌪️  11,✨  5,📖  11,👁️  5,⚖️  4,♨  30,"Blood Arena Lord King — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+563,Pit Beastmaster King,super,🪨  6,🌪️  5,✨  8,📖  4,👁️  10,⚖️  4,♨  22,"Pit Beastmaster King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+564,Skullcrusher King,super,🪨  8,🌪️  6,✨  10,📖  5,👁️  5,⚖️  4,♨  23,"Skullcrusher King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+565,Crystal Knight Lord,super,🪨  9,🌪️  12,✨  5,📖  4,👁️  5,⚖️  4,♨  26,"Crystal Knight Lord — Major-Bosses of Wind/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+566,Prism Lancer King,super,🪨  4,🌪️  10,✨  4,📖  5,👁️  11,⚖️  4,♨  25,"Prism Lancer King — Major-Bosses of Eye/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+567,Gleam Sorcerer Lord,super,🪨  5,🌪️  12,✨  6,📖  11,👁️  4,⚖️  4,♨  31,"Gleam Sorcerer Lord — Major-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+568,Shard Brute King,super,🪨  4,🌪️  6,✨  6,📖  9,👁️  11,⚖️  4,♨  26,"Shard Brute King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+569,Crystal Stalker Lord,super,🪨  10,🌪️  11,✨  5,📖  5,👁️  6,⚖️  4,♨  28,"Crystal Stalker Lord — Major-Bosses of Wind/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+570,Void Knight King,super,🪨  5,🌪️  11,✨  6,📖  5,👁️  9,⚖️  4,♨  26,"Void Knight King — Major-Bosses of Wind/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+571,Shadow Assassin Lord,super,🪨  5,🌪️  9,✨  8,📖  5,👁️  6,⚖️  4,♨  21,"Shadow Assassin Lord — Major-Bosses of Wind/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+572,Hollow Beast King,super,🪨  4,🌪️  4,✨  9,📖  11,👁️  5,⚖️  4,♨  24,"Hollow Beast King — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+573,Eclipse Wraith Lord,super,🪨  6,🌪️  8,✨  5,📖  9,👁️  4,⚖️  4,♨  20,"Eclipse Wraith Lord — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+574,Void Devourer King,super,🪨  5,🌪️  8,✨  11,📖  5,👁️  6,⚖️  4,♨  25,"Void Devourer King — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+575,Bronze Pitlord King,super,🪨  11,🌪️  5,✨  4,📖  10,👁️  6,⚖️  4,♨  27,"Bronze Pitlord King — Major-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 6 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+576,Crimson Duelmaster Lord,super,🪨  4,🌪️  6,✨  6,📖  10,👁️  10,⚖️  4,♨  26,"Crimson Duelmaster Lord — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+577,Chain Warlord King,super,🪨  9,🌪️  5,✨  12,📖  5,👁️  4,⚖️  4,♨  26,"Chain Warlord King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+578,Masked Champion Lord,super,🪨  5,🌪️  10,✨  5,📖  9,👁️  4,⚖️  4,♨  23,"Masked Champion Lord — Major-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+579,Ash Gladiator Lord King,super,🪨  5,🌪️  4,✨  11,📖  6,👁️  9,⚖️  4,♨  25,"Ash Gladiator Lord King — Major-Bosses of Veil/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+580,Ash Priest King,super,🪨  10,🌪️  6,✨  5,📖  11,👁️  4,⚖️  4,♨  27,"Ash Priest King — Major-Bosses of Oath/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 6 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+581,Blood Oracle Lord,super,🪨  5,🌪️  9,✨  11,📖  5,👁️  5,⚖️  4,♨  25,"Blood Oracle Lord — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+582,Ember Prophet King,super,🪨  10,🌪️  6,✨  5,📖  8,👁️  6,⚖️  4,♨  24,"Ember Prophet King — Major-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+583,Ash Binder Lord,super,🪨  11,🌪️  5,✨  12,📖  4,👁️  5,⚖️  4,♨  30,"Ash Binder Lord — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+584,Crimson Prophetess Queen,super,🪨  6,🌪️  6,✨  12,📖  4,👁️  11,⚖️  4,♨  32,"Crimson Prophetess Queen — Major-Bosses of Veil/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+585,Dune Chieftain King,super,🪨  6,🌪️  11,✨  8,📖  6,👁️  5,⚖️  4,♨  26,"Dune Chieftain King — Major-Bosses of Wind/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+586,Canyon Marauder King Lord,super,🪨  10,🌪️  6,✨  4,📖  5,👁️  11,⚖️  4,♨  27,"Canyon Marauder King Lord — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+587,Bone Raider Lord King,super,🪨  5,🌪️  11,✨  5,📖  6,👁️  10,⚖️  4,♨  28,"Bone Raider Lord King — Major-Bosses of Wind/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+588,Ash Nomad Chieftain King,super,🪨  5,🌪️  8,✨  6,📖  8,👁️  5,⚖️  4,♨  20,"Ash Nomad Chieftain King — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+589,Sandstorm Khan Lord,super,🪨  5,🌪️  5,✨  8,📖  5,👁️  12,⚖️  4,♨  26,"Sandstorm Khan Lord — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+590,Bone Colossus King,super,🪨  5,🌪️  10,✨  12,📖  6,👁️  5,⚖️  4,♨  30,"Bone Colossus King — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+591,Dust Wraith Lord,super,🪨  4,🌪️  6,✨  9,📖  4,👁️  9,⚖️  4,♨  21,"Dust Wraith Lord — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+592,Crimson Horror King,super,🪨  5,🌪️  5,✨  9,📖  8,👁️  5,⚖️  4,♨  20,"Crimson Horror King — Major-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+593,Ash High Priest King,super,🪨  9,🌪️  5,✨  5,📖  5,👁️  11,⚖️  4,♨  25,"Ash High Priest King — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+594,Blood Matron Queen,super,🪨  11,🌪️  5,✨  5,📖  5,👁️  10,⚖️  4,♨  27,"Blood Matron Queen — Major-Bosses of Stone/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+595,Ember Lord King,super,🪨  8,🌪️  4,✨  4,📖  5,👁️  11,⚖️  4,♨  22,"Ember Lord King — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+596,Chain Hierophant Lord,super,🪨  5,🌪️  5,✨  9,📖  12,👁️  4,⚖️  4,♨  26,"Chain Hierophant Lord — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 5 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+597,Crimson Pontiff King,super,🪨  5,🌪️  5,✨  8,📖  12,👁️  5,⚖️  4,♨  26,"Crimson Pontiff King — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+598,Pit King Lord,super,🪨  6,🌪️  11,✨  6,📖  12,👁️  4,⚖️  4,♨  32,"Pit King Lord — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+599,Masked Warlord King,super,🪨  9,🌪️  4,✨  9,📖  5,👁️  4,⚖️  4,♨  20,"Masked Warlord King — Major-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+600,Crimson Champion Lord,super,🪨  6,🌪️  6,✨  8,📖  12,👁️  5,⚖️  4,♨  28,"Crimson Champion Lord — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+601,Bone Gladiator King,super,🪨  4,🌪️  10,✨  5,📖  5,👁️  10,⚖️  4,♨  24,"Bone Gladiator King — Major-Bosses of Eye/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+602,Arena Juggernaut King,super,🪨  6,🌪️  6,✨  9,📖  11,👁️  6,⚖️  4,♨  28,"Arena Juggernaut King — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+603,Ash Demon Lord,super,🪨  9,🌪️  4,✨  5,📖  5,👁️  11,⚖️  4,♨  24,"Ash Demon Lord — Major-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+604,Crimson Abomination Lord,super,🪨  5,🌪️  8,✨  5,📖  5,👁️  11,⚖️  4,♨  24,"Crimson Abomination Lord — Major-Bosses of Eye/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+605,Dust Titan King,super,🪨  4,🌪️  5,✨  6,📖  10,👁️  10,⚖️  4,♨  25,"Dust Titan King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+606,Ash Leviathan King,super,🪨  11,🌪️  4,✨  8,📖  5,👁️  5,⚖️  4,♨  23,"Ash Leviathan King — Major-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 5 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+607,Red Khan Lord,super,🪨  10,🌪️  11,✨  6,📖  4,👁️  4,⚖️  4,♨  26,"Red Khan Lord — Major-Bosses of Wind/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+608,Bone Chieftain King,super,🪨  4,🌪️  5,✨  8,📖  4,👁️  9,⚖️  4,♨  19,"Bone Chieftain King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+609,Canyon Lord King,super,🪨  9,🌪️  8,✨  5,📖  6,👁️  4,⚖️  4,♨  20,"Canyon Lord King — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+610,Sandstorm Prophet Lord,super,🪨  5,🌪️  9,✨  11,📖  4,👁️  4,⚖️  4,♨  24,"Sandstorm Prophet Lord — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+611,Crimson Khan King,super,🪨  9,🌪️  5,✨  10,📖  4,👁️  6,⚖️  4,♨  24,"Crimson Khan King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+612,Glyph Knight King,super,🪨  9,🌪️  5,✨  12,📖  4,👁️  5,⚖️  4,♨  26,"Glyph Knight King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+613,Halo Paladin Lord,super,🪨  5,🌪️  4,✨  11,📖  10,👁️  6,⚖️  4,♨  27,"Halo Paladin Lord — Major-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+614,Crystal Vanguard King,super,🪨  9,🌪️  5,✨  8,📖  5,👁️  5,⚖️  4,♨  20,"Crystal Vanguard King — Major-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+615,Obsidian Berserker King,super,🪨  5,🌪️  4,✨  6,📖  8,👁️  9,⚖️  4,♨  20,"Obsidian Berserker King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+616,Oath Champion Lord,super,🪨  11,🌪️  9,✨  6,📖  6,👁️  5,⚖️  4,♨  27,"Oath Champion Lord — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+617,Blood Hierophant Lord,super,🪨  5,🌪️  4,✨  10,📖  12,👁️  4,⚖️  4,♨  27,"Blood Hierophant Lord — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 5 • ⚔️ First Strike 3
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+618,Rune Exarch King,super,🪨  11,🌪️  10,✨  6,📖  4,👁️  6,⚖️  4,♨  28,"Rune Exarch King — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+619,Halo Prelate Lord,super,🪨  5,🌪️  11,✨  5,📖  4,👁️  11,⚖️  4,♨  28,"Halo Prelate Lord — Major-Bosses of Eye/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+620,Void Inquisitor King,super,🪨  5,🌪️  6,✨  5,📖  9,👁️  11,⚖️  4,♨  26,"Void Inquisitor King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+621,Obelisk General King,super,🪨  5,🌪️  5,✨  10,📖  6,👁️  10,⚖️  4,♨  26,"Obelisk General King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+622,Golden Strategos Lord,super,🪨  6,🌪️  12,✨  11,📖  5,👁️  5,⚖️  4,♨  32,"Golden Strategos Lord — Major-Bosses of Wind/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+623,Rune Captain King,super,🪨  5,🌪️  5,✨  11,📖  9,👁️  6,⚖️  4,♨  26,"Rune Captain King — Major-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+624,Halo Commander Lord,super,🪨  5,🌪️  5,✨  10,📖  11,👁️  5,⚖️  4,♨  27,"Halo Commander Lord — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+625,Void Centurion King,super,🪨  5,🌪️  5,✨  8,📖  5,👁️  12,⚖️  4,♨  26,"Void Centurion King — Major-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+626,Crystal Colossus King,super,🪨  11,🌪️  5,✨  4,📖  9,👁️  5,⚖️  4,♨  24,"Crystal Colossus King — Major-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 6 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+627,Oath Leviathan Lord,super,🪨  6,🌪️  11,✨  11,📖  5,👁️  5,⚖️  4,♨  30,"Oath Leviathan Lord — Major-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+628,Ash Titan King,super,🪨  5,🌪️  11,✨  10,📖  5,👁️  5,⚖️  4,♨  27,"Ash Titan King — Major-Bosses of Wind/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+629,Halo Seraph Lord,super,🪨  11,🌪️  5,✨  6,📖  9,👁️  5,⚖️  4,♨  26,"Halo Seraph Lord — Major-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 6 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+630,Ash Hierarch Lord,super,🪨  6,🌪️  5,✨  10,📖  4,👁️  8,⚖️  4,♨  22,"Ash Hierarch Lord — Major-Bosses of Veil/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+631,Rune Pontiff King,super,🪨  5,🌪️  10,✨  6,📖  4,👁️  10,⚖️  4,♨  25,"Rune Pontiff King — Major-Bosses of Eye/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+632,Halo Exemplar Lord,super,🪨  4,🌪️  9,✨  5,📖  10,👁️  6,⚖️  4,♨  24,"Halo Exemplar Lord — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+633,Void Exarch King,super,🪨  9,🌪️  4,✨  11,📖  5,👁️  6,⚖️  4,♨  25,"Void Exarch King — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+634,Crystal General King,super,🪨  5,🌪️  5,✨  5,📖  11,👁️  12,⚖️  4,♨  31,"Crystal General King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+635,Golden Strategist Lord,super,🪨  9,🌪️  5,✨  5,📖  12,👁️  4,⚖️  4,♨  26,"Golden Strategist Lord — Major-Bosses of Oath/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Major-bosses,"Basic Initiative (3)
+🛡️ Guard 6 • ⚔️ First Strike 3
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+636,Obelisk Warden King,super,🪨  12,🌪️  8,✨  4,📖  6,👁️  5,⚖️  4,♨  26,"Obelisk Warden King — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+637,Rune Marshal King,super,🪨  4,🌪️  9,✨  5,📖  11,👁️  5,⚖️  4,♨  24,"Rune Marshal King — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+638,Halo Praetor Lord,super,🪨  9,🌪️  6,✨  10,📖  4,👁️  5,⚖️  4,♨  24,"Halo Praetor Lord — Major-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+639,Halo Seraphim Lord,super,🪨  6,🌪️  9,✨  5,📖  9,👁️  6,⚖️  4,♨  24,"Halo Seraphim Lord — Major-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+640,Ash Lord King,super,🪨  12,🌪️  6,✨  4,📖  5,👁️  11,⚖️  4,♨  31,"Ash Lord King — Major-Bosses of Stone/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+641,Rune Khan King,super,🪨  6,🌪️  4,✨  5,📖  11,👁️  12,⚖️  4,♨  31,"Rune Khan King — Major-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Major-bosses,"Heroic Initiative (9)
+🛡️ Guard 5 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+642,Halo Regent Lord,super,🪨  5,🌪️  5,✨  9,📖  10,👁️  5,⚖️  4,♨  23,"Halo Regent Lord — Major-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+643,Void King Lord,super,🪨  8,🌪️  8,✨  6,📖  6,👁️  4,⚖️  4,♨  20,"Void King Lord — Major-Bosses of Stone/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.",Major-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+644,"Pharaoh of Chains, the Eternal",super,🪨  4,🌪️  8,✨  9,📖  4,👁️  6,⚖️  4,♨  20,"Pharaoh of Chains, the Eternal — Kingdom-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+645,"River Titan, the Flood King",super,🪨  6,🌪️  9,✨  8,📖  5,👁️  5,⚖️  4,♨  21,"River Titan, the Flood King — Kingdom-Bosses of Wind/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+646,"Idol Colossus, the Living God",super,🪨  6,🌪️  5,✨  12,📖  8,👁️  5,⚖️  4,♨  27,"Idol Colossus, the Living God — Kingdom-Bosses of Veil/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+647,"Marsh Leviathan, the Drowned Queen",super,🪨  5,🌪️  5,✨  6,📖  9,👁️  11,⚖️  4,♨  26,"Marsh Leviathan, the Drowned Queen — Kingdom-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+648,"Sandstorm Khan, the Desert Lord",super,🪨  5,🌪️  9,✨  4,📖  10,👁️  6,⚖️  4,♨  24,"Sandstorm Khan, the Desert Lord — Kingdom-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+649,"Eclipse Hierarch, the Night King",super,🪨  5,🌪️  4,✨  9,📖  4,👁️  12,⚖️  4,♨  26,"Eclipse Hierarch, the Night King — Kingdom-Bosses of Eye/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Shrouded on entry; adjacent enemies −1 accuracy; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+650,"Void Augur, the Hollow Prophet",super,🪨  8,🌪️  5,✨  11,📖  6,👁️  5,⚖️  4,♨  25,"Void Augur, the Hollow Prophet — Kingdom-Bosses of Veil/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+651,"Blood Moon Prophet, the Crimson Oracle",super,🪨  12,🌪️  5,✨  12,📖  5,👁️  6,⚖️  4,♨  34,"Blood Moon Prophet, the Crimson Oracle — Kingdom-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+652,"Chained Seer, the Blind Judge",super,🪨  9,🌪️  4,✨  9,📖  5,👁️  6,⚖️  4,♨  22,"Chained Seer, the Blind Judge — Kingdom-Bosses of Stone/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 4 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+653,"Ashen Oracle, the Ember Queen",super,🪨  9,🌪️  5,✨  5,📖  8,👁️  5,⚖️  4,♨  20,"Ashen Oracle, the Ember Queen — Kingdom-Bosses of Stone/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Reduces first incoming hit by 40%; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+654,"Bronze Pitlord, the Arena King",super,🪨  5,🌪️  5,✨  5,📖  9,👁️  11,⚖️  4,♨  25,"Bronze Pitlord, the Arena King — Kingdom-Bosses of Eye/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+655,"Crimson Duelmaster, the Blood Regent",super,🪨  4,🌪️  4,✨  11,📖  12,👁️  6,⚖️  4,♨  30,"Crimson Duelmaster, the Blood Regent — Kingdom-Bosses of Oath/Veil Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 4
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+656,"Chain Warlord, the Iron Tyrant",super,🪨  5,🌪️  11,✨  5,📖  5,👁️  8,⚖️  4,♨  24,"Chain Warlord, the Iron Tyrant — Kingdom-Bosses of Wind/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 7
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+657,"Masked Champion, the Golden Face",super,🪨  5,🌪️  12,✨  5,📖  8,👁️  6,⚖️  4,♨  27,"Masked Champion, the Golden Face — Kingdom-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+658,"Ash Gladiator Lord, the Flame Sovereign",super,🪨  10,🌪️  4,✨  5,📖  5,👁️  12,⚖️  4,♨  28,"Ash Gladiator Lord, the Flame Sovereign — Kingdom-Bosses of Eye/Stone Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+659,"Glyph Knight, the Rune King",super,🪨  11,🌪️  5,✨  6,📖  6,👁️  9,⚖️  4,♨  27,"Glyph Knight, the Rune King — Kingdom-Bosses of Stone/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Reduces first incoming hit by 40%; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+660,"Halo Paladin, the Radiant Lord",super,🪨  4,🌪️  10,✨  5,📖  9,👁️  6,⚖️  4,♨  24,"Halo Paladin, the Radiant Lord — Kingdom-Bosses of Wind/Oath Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 4 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+661,"Crystal Vanguard, the Shard Emperor",super,🪨  5,🌪️  10,✨  5,📖  5,👁️  8,⚖️  4,♨  22,"Crystal Vanguard, the Shard Emperor — Kingdom-Bosses of Wind/Eye Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.",Kingdom-bosses,"Heroic Initiative (9)
+🛡️ Guard 3 • ⚔️ First Strike 6
+Acts early; +1 range on the opening turn; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+662,"Obsidian Berserker, the Black King",super,🪨  5,🌪️  9,✨  5,📖  12,👁️  6,⚖️  4,♨  28,"Obsidian Berserker, the Black King — Kingdom-Bosses of Oath/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 5 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+663,"Oath Champion, the Covenant King",super,🪨  5,🌪️  9,✨  9,📖  4,👁️  4,⚖️  4,♨  20,"Oath Champion, the Covenant King — Kingdom-Bosses of Veil/Wind Duality.
+A super presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.",Kingdom-bosses,"Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 5
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."

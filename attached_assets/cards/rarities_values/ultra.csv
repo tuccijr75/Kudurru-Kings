@@ -1,0 +1,17 @@
+card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,lore_text,section,mechanics_text
+1,Adamu,ultra,🪨  10,🌪️  9,✨  9,📖  10,👁️  9,⚖️  9,♨  20,"Adamu — Heroes of Oath/Stone Duality.
+Protagonist of the Old Cycle; a mortal made more by trial, unbowed before the heavens.
+Carries the burden of creation's first oath; every scar a vow kept.",Heroes,"Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+664,Anu the Exarch of Heaven,Ultra,🪨  11,🌪️  8,✨  10,📖  11,👁️  10,⚖️  10,♨  25,"Anu the Exarch of Heaven — Bosses of Oath/Stone Duality.
+A ultra presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.",Bosses,"Transcendent Initiative (13)
+🛡️ Guard 7 • ⚔️ First Strike 7
+Acts before all; drains 10% HP from enemies each turn; ignores sub‑divine damage reduction.
+• Leverage inevitability: long fights favor you via drains.
+• Focus-break enemy synergies before they can respond.
+• Protect your leader; trade only when tempo remains yours."

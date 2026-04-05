@@ -1,0 +1,401 @@
+"card_id","name","rarity","stone","wind","veil","oath","eye","weight","upkeep","lore_text","section","mechanics_text"
+"351","Choir of Bone","high","🪨  2","🌪️  2","✨  6","📖  3","👁️  5","⚖️  4","♨  7","Choir of Bone — Elites of Veil/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"352","Desert Boar King","high","🪨  2","🌪️  3","✨  6","📖  3","👁️  5","⚖️  4","♨  7","Desert Boar King — Elites of Veil/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"353","Word-Eater","high","🪨  7","🌪️  7","✨  3","📖  3","👁️  3","⚖️  4","♨  11","Word-Eater — Elites of Stone/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"354","Iron Gaoler","high","🪨  2","🌪️  7","✨  2","📖  7","👁️  3","⚖️  4","♨  10","Iron Gaoler — Elites of Oath/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"355","Chain Tyrant","high","🪨  3","🌪️  7","✨  7","📖  2","👁️  2","⚖️  4","♨  10","Chain Tyrant — Elites of Veil/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"356","Moonblade Captain","high","🪨  5","🌪️  5","✨  3","📖  3","👁️  3","⚖️  4","♨  7","Moonblade Captain — Elites of Stone/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"357","Pit Enforcer","high","🪨  2","🌪️  2","✨  6","📖  3","👁️  5","⚖️  4","♨  7","Pit Enforcer — Elites of Veil/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"358","Silver Mask Judge","high","🪨  7","🌪️  3","✨  6","📖  3","👁️  3","⚖️  4","♨  10","Silver Mask Judge — Elites of Stone/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"359","Eclipse Hierophant","high","🪨  6","🌪️  2","✨  6","📖  2","👁️  2","⚖️  4","♨  7","Eclipse Hierophant — Elites of Stone/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 1
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"360","Void Augur","high","🪨  7","🌪️  7","✨  3","📖  2","👁️  2","⚖️  4","♨  10","Void Augur — Elites of Stone/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"361","Blood Moon Prophet","high","🪨  2","🌪️  2","✨  6","📖  3","👁️  6","⚖️  4","♨  8","Blood Moon Prophet — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"362","Chained Seer","high","🪨  2","🌪️  3","✨  7","📖  4","👁️  3","⚖️  4","♨  8","Chained Seer — Elites of Veil/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"363","Ashen Oracle","high","🪨  3","🌪️  2","✨  6","📖  2","👁️  6","⚖️  4","♨  8","Ashen Oracle — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"364","Crescent Duelist","high","🪨  2","🌪️  3","✨  4","📖  7","👁️  3","⚖️  4","♨  8","Crescent Duelist — Elites of Oath/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"365","Ironclad Gladiator","high","🪨  6","🌪️  5","✨  3","📖  3","👁️  3","⚖️  4","♨  8","Ironclad Gladiator — Elites of Stone/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"366","Bloodspiller","high","🪨  6","🌪️  6","✨  2","📖  3","👁️  2","⚖️  4","♨  8","Bloodspiller — Elites of Stone/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"367","Chainfighter","high","🪨  3","🌪️  3","✨  7","📖  7","👁️  2","⚖️  4","♨  11","Chainfighter — Elites of Oath/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"368","Bonebreaker","high","🪨  2","🌪️  3","✨  7","📖  6","👁️  2","⚖️  4","♨  9","Bonebreaker — Elites of Veil/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"369","Crater Brute","high","🪨  3","🌪️  2","✨  6","📖  2","👁️  6","⚖️  4","♨  8","Crater Brute — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"370","Moonspawn Horror","high","🪨  2","🌪️  5","✨  5","📖  3","👁️  2","⚖️  4","♨  6","Moonspawn Horror — Elites of Veil/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 2
+Checks get +1 when adjacent to an ally.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"371","Shadow Hulk","high","🪨  6","🌪️  3","✨  2","📖  2","👁️  5","⚖️  4","♨  7","Shadow Hulk — Elites of Stone/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"372","Lunar Abomination","high","🪨  3","🌪️  3","✨  3","📖  7","👁️  5","⚖️  4","♨  9","Lunar Abomination — Elites of Oath/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"373","Crystal Reaver","high","🪨  3","🌪️  2","✨  4","📖  2","👁️  6","⚖️  4","♨  6","Crystal Reaver — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"374","Void Herald","high","🪨  3","🌪️  3","✨  7","📖  5","👁️  3","⚖️  4","♨  9","Void Herald — Elites of Veil/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"375","Eclipse Warlock","high","🪨  2","🌪️  5","✨  3","📖  7","👁️  2","⚖️  4","♨  8","Eclipse Warlock — Elites of Oath/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"376","Hollow Bishop","high","🪨  3","🌪️  7","✨  2","📖  6","👁️  2","⚖️  4","♨  9","Hollow Bishop — Elites of Wind/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"377","Chain Pontiff","high","🪨  3","🌪️  3","✨  5","📖  2","👁️  6","⚖️  4","♨  7","Chain Pontiff — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"378","Ash Bishop","high","🪨  2","🌪️  4","✨  2","📖  2","👁️  6","⚖️  4","♨  6","Ash Bishop — Elites of Eye/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"379","Blade Dancer","high","🪨  3","🌪️  3","✨  6","📖  2","👁️  6","⚖️  4","♨  8","Blade Dancer — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"380","Blood Arena Lord","high","🪨  2","🌪️  6","✨  3","📖  3","👁️  5","⚖️  4","♨  7","Blood Arena Lord — Elites of Wind/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"381","Pit Beastmaster","high","🪨  6","🌪️  2","✨  2","📖  4","👁️  3","⚖️  4","♨  6","Pit Beastmaster — Elites of Stone/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"382","Skullcrusher","high","🪨  2","🌪️  4","✨  6","📖  3","👁️  3","⚖️  4","♨  7","Skullcrusher — Elites of Veil/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"383","Crystal Knight","high","🪨  6","🌪️  3","✨  6","📖  2","👁️  2","⚖️  4","♨  8","Crystal Knight — Elites of Stone/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"384","Prism Lancer","high","🪨  2","🌪️  2","✨  3","📖  7","👁️  5","⚖️  4","♨  8","Prism Lancer — Elites of Oath/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"385","Gleam Sorcerer","high","🪨  6","🌪️  3","✨  2","📖  3","👁️  7","⚖️  4","♨  10","Gleam Sorcerer — Elites of Eye/Stone Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"386","Shard Brute","high","🪨  3","🌪️  6","✨  2","📖  4","👁️  2","⚖️  4","♨  6","Shard Brute — Elites of Wind/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"387","Crystal Stalker","high","🪨  2","🌪️  5","✨  3","📖  6","👁️  2","⚖️  4","♨  7","Crystal Stalker — Elites of Oath/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"388","Void Knight","high","🪨  2","🌪️  2","✨  4","📖  2","👁️  6","⚖️  4","♨  6","Void Knight — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"389","Shadow Assassin","high","🪨  3","🌪️  7","✨  7","📖  3","👁️  3","⚖️  4","♨  11","Shadow Assassin — Elites of Veil/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; Shrouded on entry; adjacent enemies −1 accuracy; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"390","Hollow Beast","high","🪨  6","🌪️  2","✨  2","📖  2","👁️  4","⚖️  4","♨  6","Hollow Beast — Elites of Stone/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"391","Eclipse Wraith","high","🪨  2","🌪️  2","✨  2","📖  7","👁️  7","⚖️  4","♨  10","Eclipse Wraith — Elites of Eye/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Allies within 1 tile gain +1 Guard this round; On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"392","Void Devourer","high","🪨  6","🌪️  2","✨  3","📖  7","👁️  3","⚖️  4","♨  10","Void Devourer — Elites of Oath/Stone Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 4 • ⚔️ First Strike 2
+Allies within 1 tile gain +1 Guard this round; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"393","Ash Gladiator Lord","high","🪨  6","🌪️  7","✨  2","📖  3","👁️  3","⚖️  4","♨  10","Ash Gladiator Lord — Elites of Wind/Stone Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Stone sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 3 • ⚔️ First Strike 4
+Acts early; +1 range on the opening turn; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"394","Canyon Marauder King","high","🪨  2","🌪️  2","✨  6","📖  2","👁️  6","⚖️  4","♨  7","Canyon Marauder King — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"395","Bone Raider Lord","high","🪨  2","🌪️  6","✨  2","📖  2","👁️  4","⚖️  4","♨  6","Bone Raider Lord — Elites of Wind/Eye Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 4
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"396","Ash Nomad Chieftain","high","🪨  6","🌪️  3","✨  2","📖  3","👁️  6","⚖️  4","♨  8","Ash Nomad Chieftain — Elites of Eye/Stone Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Stone sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"397","Ash High Priest","high","🪨  2","🌪️  5","✨  2","📖  6","👁️  2","⚖️  4","♨  6","Ash High Priest — Elites of Oath/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 2
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"398","Glyph Knight","high","🪨  3","🌪️  2","✨  5","📖  3","👁️  7","⚖️  4","♨  9","Glyph Knight — Elites of Eye/Veil Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 3
+On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"399","Halo Paladin","high","🪨  2","🌪️  6","✨  3","📖  2","👁️  7","⚖️  4","♨  9","Halo Paladin — Elites of Eye/Wind Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.","Elites","Standard Initiative (5)
+🛡️ Guard 2 • ⚔️ First Strike 5
+On attack, peek the top of an enemy deck; End step: pay 1 supply or take 2 recoil.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"400","Crystal Vanguard","high","🪨  2","🌪️  3","✨  3","📖  5","👁️  5","⚖️  4","♨  6","Crystal Vanguard — Elites of Eye/Oath Duality.
+A high presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Elites","Basic Initiative (3)
+🛡️ Guard 3 • ⚔️ First Strike 3
+Checks get +1 when adjacent to an ally.
+• Count resources; burst then rotate.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."

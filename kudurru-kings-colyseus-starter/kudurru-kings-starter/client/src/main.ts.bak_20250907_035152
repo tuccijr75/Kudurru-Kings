@@ -1,0 +1,263 @@
+import "./style.css";
+import { Client, Room } from "colyseus.js";
+type State = any;
+
+const app = document.getElementById("app")!;
+app.innerHTML = `
+  <div class="h2h-wrap">
+    <h2 class="h2h-title">KUDURRU KINGS — Head-to-Head Client (4 Players)</h2>
+    <div class="h2h-bar">
+      <div class="tabs">
+        <button id="join"   class="btn">Join Room</button>
+        <button id="next"   class="btn">Next Phase</button>
+        <button id="bots"   class="btn">Add 3 Bots</button>
+        <button id="deal6"  class="btn">Deal 6</button>
+        <button id="reset"  class="btn">Reset Match</button>
+        <button id="aitick" class="btn">AI Step</button>
+        <button id="reveal" class="btn">Toggle Reveal AI</button>
+        <button id="sandbox" class="btn">Toggle Sandbox</button>
+        <button id="tutor"  class="btn">Start Tutorial</button>
+        <button id="openlib" class="btn">Open Library</button>
+      </div>
+      <div class="right">
+        <small class="mono">Zoom</small>
+        <input id="zoom" type="range" min="0.75" max="1.15" value="0.85" step="0.05" />
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <span class="label">Type:</span>
+      <div class="tabs" id="typeTabs">
+        <button class="tab is-active" data-type="All">All</button>
+        <button class="tab" data-type="Boss">Boss</button>
+        <button class="tab" data-type="Character">Character</button>
+        <button class="tab" data-type="Enemy">Enemy</button>
+        <button class="tab" data-type="Pet">Pet</button>
+        <button class="tab" data-type="Relic">Relic</button>
+        <button class="tab" data-type="Site">Site</button>
+        <button class="tab" data-type="Rune">Rune</button>
+      </div>
+      <div class="right" style="margin-left:auto">
+        <span class="label">Rarity</span>
+        <div class="tabs" id="rarityTabs">
+          <button class="tab is-active" data-rar="All">All</button>
+          <button class="tab" data-rar="Low">Low</button>
+          <button class="tab" data-rar="Mid">Mid</button>
+          <button class="tab" data-rar="Rare">Rare</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel" id="phasePanel"><div><b>Phase:</b> <span id="phaseTxt">—</span></div></div>
+      <div class="panel"><div><b>Analyzer</b></div><div id="analyzer" style="margin-top:6px;color:var(--ink-dim)">Click Start Tutorial for guided steps.</div></div>
+    </div>
+
+    <div class="arena panel" id="arena">
+      <div class="lane"></div>
+      <div class="lane dashed" style="top:calc(50% + 42px)"></div>
+      <div class="anchor left"></div><div class="anchor right"></div>
+      <div class="vert"></div>
+      <div class="plaza"><div><div style="font-size:18px">Kudurru Plaza</div><div style="font-size:11px; color:var(--ink-dim)">Capture to unlock Law slot</div></div></div>
+      <div class="seat t"><div><h4 id="pTopNm">P1</h4><p>Influence 0 Tribute 0 Oaths 0/2</p></div></div>
+      <div class="seat r"><div><h4 id="pRightNm">P2</h4><p>Influence 0 Tribute 0 Oaths 0/2</p></div></div>
+      <div class="seat b"><div><h4 id="pBotNm">P3</h4><p>Influence 0 Tribute 0 Oaths 0/2</p></div></div>
+      <div class="seat l"><div><h4 id="pLeftNm">P4</h4><p>Influence 0 Tribute 0 Oaths 0/2</p></div></div>
+    </div>
+
+    <div class="hands">
+      <div class="hand"><div class="title">P1 Hand (You)</div><div class="cards" id="handYou"></div></div>
+      <div class="hand"><div class="title">P2 / P3 Hands</div><div class="cards" id="handOthers"></div></div>
+    </div>
+
+    <div class="ring">
+      <div class="blob" id="cmdPlay">Play</div>
+      <div class="blob" id="cmdMove">Move</div>
+      <div class="blob" id="cmdInvoke">Invoke</div>
+      <div class="blob" id="cmdEnd">End</div>
+    </div>
+
+    <div class="library" id="library">
+      <div class="row" style="justify-content:space-between">
+        <div class="tabs" id="libTypeTabs">
+          <button class="tab is-active" data-type="All">All</button><button class="tab" data-type="Boss">Boss</button><button class="tab" data-type="Character">Character</button><button class="tab" data-type="Enemy">Enemy</button><button class="tab" data-type="Pet">Pet</button><button class="tab" data-type="Relic">Relic</button><button class="tab" data-type="Site">Site</button><button class="tab" data-type="Rune">Rune</button>
+        </div>
+        <div class="tabs" id="libRarityTabs">
+          <button class="tab is-active" data-rar="All">All</button><button class="tab" data-rar="Low">Low</button><button class="tab" data-rar="Mid">Mid</button><button class="tab" data-rar="Rare">Rare</button>
+        </div>
+      </div>
+      <div class="row"><button class="btn" id="libClose">Close</button><small class="mono">Library</small></div>
+      <div id="libBody" class="cards"></div>
+    </div>
+  </div>
+`;
+
+const $$ = (q:string, r:Document|HTMLElement=document)=>Array.from(r.querySelectorAll(q)) as HTMLElement[];
+const $  = (q:string, r:Document|HTMLElement=document)=>r.querySelector(q) as HTMLElement;
+
+const client = new Client( (location.protocol==="https:"?"wss":"ws")+"://localhost:2567" );
+let room: Room<State> | null = null;
+let myId = ""; let lastState: any = null; let tutorialOn=false;
+
+const filters   = { type:"All", rarity:"All" };
+const libFilter = { type:"All", rarity:"All" };
+let libCards: any[] = [];
+
+function on(id:string, fn:()=>void){ const el = document.getElementById(id); if (el) el.addEventListener("click", fn); }
+function wireTabs(containerId:string, key:"type"|"rarity", target:{type:string,rarity:string}, cb:()=>void){
+  const c = document.getElementById(containerId)!; if(!c) return;
+  c.addEventListener("click", (ev)=>{
+    const b = (ev.target as HTMLElement).closest(".tab") as HTMLElement | null;
+    if(!b) return;
+    for(const t of $$(".tab", c)) t.classList.remove("is-active");
+    b.classList.add("is-active");
+    const v = (b.dataset.type || b.dataset.rar || "All");
+    (target as any)[key] = v;
+    cb();
+  });
+}
+
+on("join", async ()=>{
+  try { console.log("[KK] Using server:", (location.protocol==="https:"?"wss":"ws")+"://localhost:2567"); } catch {}
+  try { log("Joining room 'kudurru'…"); room = await client.joinOrCreate<State>("kudurru"); }
+  catch { log("'kudurru' not available, trying 'my_room'…"); room = await client.joinOrCreate<State>("my_room"); }
+  myId = room!.sessionId; log(`Joined. Session: ${myId}`);
+  room!.send("toggle", {key:"revealAI", value:true});
+  room!.onStateChange((st:any)=>{ lastState=st; ensureLibrary(st); render(st); updateTutorial(st); });
+});
+
+on("next",   ()=> trySends(["action:NEXT_PHASE"]));
+on("deal6",  ()=> trySends(["admin:DEAL6","admin:DEAL","admin:DEAL_6"]));
+on("aitick", ()=> trySends(["admin:AI_TICK","admin:AI_STEP"]));
+on("reset",  ()=> trySends(["admin:RESET_MATCH","admin:RESET","admin:RESET_GAME"]));
+on("reveal", ()=> room?.send("toggle", {key:"revealAI", value: !(lastState?.revealAI)}));
+on("sandbox",()=> room?.send("toggle", {key:"sandbox", value: !(lastState?.sandbox)}));
+on("bots",   ()=> addBots());
+on("tutor",  ()=>{ tutorialOn = !tutorialOn; updateTutorial(lastState); });
+on("openlib", ()=> { $("#library").classList.add("is-open"); renderLibrary(); });
+on("libClose",()=> $("#library").classList.remove("is-open"));
+
+const z = document.getElementById("zoom") as HTMLInputElement;
+if (z){ const setZ=(v:string)=>document.documentElement.style.setProperty("--card-scale", v); setZ(z.value); z.addEventListener("input", ()=>setZ(z.value)); }
+
+on("cmdPlay",  ()=> trySends(["action:PLAY_CARD"]));
+on("cmdMove",  ()=> trySends(["action:MOVE"]));
+on("cmdInvoke",()=> trySends(["action:INVOKE"]));
+on("cmdEnd",   ()=> trySends(["action:NEXT_PHASE"]));
+
+wireTabs("typeTabs","type",filters, ()=> render(lastState));
+wireTabs("rarityTabs","rarity",filters, ()=> render(lastState));
+wireTabs("libTypeTabs","type",libFilter, ()=> renderLibrary());
+wireTabs("libRarityTabs","rarity",libFilter, ()=> renderLibrary());
+
+function trySends(specs:string[]){
+  if(!room) return;
+  for(const s of specs){
+    const [ch, type] = s.split(":");
+    if(ch==="action") room.send("action", {type});
+    else if(ch==="admin") room.send("admin", {type});
+  }
+}
+
+async function addBots(){
+  if(!room) return;
+  // Preferred: single message with count
+  try { room.send("admin", {type:"ADD_BOTS", count:3}); } catch {}
+  // Fallback: 3 discrete adds
+  for(let i=0;i<3;i++) { try { room.send("admin", {type:"ADD_BOT"}); } catch{} }
+}
+
+function listPlayers(st:any){
+  const out:any[]=[]; const mp:any=st?.players; if(!mp) return out;
+  if (typeof mp.forEach==="function"){ mp.forEach((p:any,id:string)=>out.push({id, ...p})); return out; }
+  if (typeof mp.toJSON==="function"){ const obj=mp.toJSON(); for(const id in obj) out.push({id,...obj[id]}); return out; }
+  for(const id in mp) out.push({id,...mp[id]}); return out;
+}
+
+function passFilter(card:any, f:{type:string, rarity:string}){
+  const t = (card?.type || "Unknown");
+  const r = (card?.rarity || "Mid");
+  const typeOk = (f.type==="All" || t===f.type);
+  const rarOk  = (f.rarity==="All" || r===f.rarity);
+  return typeOk && rarOk;
+}
+
+function render(st:any){
+  if(!st) return;
+  const players = listPlayers(st);
+  const names = players.map(p=>p.name || (p.ai? "Bot":"Player"));
+  $("#pTopNm").textContent   = names[0] || "P1";
+  $("#pRightNm").textContent = names[1] || "P2";
+  $("#pBotNm").textContent   = names[2] || "P3";
+  $("#pLeftNm").textContent  = names[3] || "P4";
+  $("#phaseTxt").textContent = `${st.phase || "—"} — Active: ${names[st.activeIndex||0]||"—"}`;
+
+  const me = players.find(p=>p.id===myId) || players[0];
+  const others = players.filter(p=>p.id!==myId);
+
+  const myCards = (me?.hand||[]).filter(c=>passFilter(c, filters));
+  const othCards = others.flatMap(o => (o?.hand||[])).filter(c=>passFilter(c, filters));
+
+  $("#handYou").innerHTML    = myCards.map(cardHtml).join("");
+  $("#handOthers").innerHTML = othCards.slice(0,18).map(cardHtml).join("");
+}
+
+function ensureLibrary(st:any){
+  // Try to populate from server state; fall back to a synthetic pool so the UI is useful.
+  const pool = (st?.cardPool || st?.library || st?.cards);
+  if (pool && Array.isArray(pool) && pool.length) { libCards = [...pool]; return; }
+  const sample = [
+    ["Sandline Assassin","Character","Mid"],["Reed Cat","Pet","Low"],["Canal Gates","Site","Mid"],
+    ["Edict of Passage","Rune","Mid"],["Obsidian Sentry","Character","Mid"],["Audit Warden","Character","Mid"],
+    ["Swift Shadow","Character","Mid"],["Anchor of Eridu","Relic","Rare"],["Heavy Crowns","Relic","High"],
+    ["Sanctuary Court","Site","Mid"],["Lion of Ishtar","Enemy","Rare"],["Warden of Ishtar","Boss","Rare"]
+  ];
+  libCards = sample.map(([name,type,rar])=>({name,type,rarity:rar, atk:Math.floor(Math.random()*4)+1, def:Math.floor(Math.random()*4)+1, cost:Math.floor(Math.random()*3)+1}));
+}
+
+function renderLibrary(){
+  const body = $("#libBody");
+  if(!body) return;
+  const items = libCards.filter(c=>passFilter(c, libFilter));
+  body.innerHTML = items.map(cardHtml).join("");
+}
+
+function cardHtml(c:any){
+  const name = (c?.name || "Card");
+  const type = (c?.type || "—");
+  const rar  = (c?.rarity || "Mid");
+  const atk  = (c?.atk ?? c?.power ?? 0);
+  const def  = (c?.def ?? c?.armor ?? 0);
+  const cost = (c?.cost ?? c?.pips ?? 0);
+  const rcls = rar==="Low"?"r-low":(rar==="Rare"?"r-rare":"r-mid");
+  return `
+  <div class="card" title="${escapeHtml(name)}">
+    <div class="hdr"><span class="badge">${escapeHtml(type)}</span><span class="${rcls}">${escapeHtml(rar)}</span></div>
+    <div class="name">${escapeHtml(name)}</div>
+    <div class="pips"><span class="pip">⋄ ${cost}</span><span class="pip">⚔ ${atk}</span><span class="pip">🛡 ${def}</span></div>
+    <div class="stats"><span></span><span></span></div>
+  </div>`;
+}
+
+function updateTutorial(st:any){
+  const a = $("#analyzer");
+  if(!tutorialOn){ a.innerHTML = "Click Start Tutorial for guided steps."; return; }
+  if(!st){ a.innerHTML="—"; return; }
+  const ph = st.phase || "—";
+  const lines:string[] = [];
+  lines.push(`<b>Tutorial — ${escapeHtml(ph)}</b>`);
+  if (ph==="Upkeep"){
+    lines.push("Upkeep refreshes resources. Hover card pips to learn costs.");
+    lines.push("Click <b>Next Phase</b> to enter Main.");
+  } else if (ph==="Main"){
+    lines.push("Play a Character from your hand. Relics attach; Pets accompany.");
+  } else if (ph==="Battle"){
+    lines.push("Choose an attacker, then a defender. Resolve the test.");
+  } else {
+    lines.push("Proceed until the phase advances.");
+  }
+  a.innerHTML = lines.map(l=>`<div>${l}</div>`).join("");
+}
+
+function escapeHtml(s:string){ return s.replace(/[&<>"']/g,(ch)=> ch==="&"?"&amp;":ch=="<"?"&lt;":ch==">"?"&gt;":ch=='"'?"&quot;":"&#39;"); }
+function log(s:string){ console.log("[KK]", s); }

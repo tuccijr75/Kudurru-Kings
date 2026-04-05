@@ -1,0 +1,336 @@
+﻿import "./style.css";
+import { Client, Room } from "colyseus.js";
+type State = any;
+
+async function loadLibrary(): Promise<any[]> {
+  try { const r = await fetch("/assets-library.json",{cache:"no-store"}); if(!r.ok) return []; const d = await r.json(); return Array.isArray(d)?d:[]; }
+  catch { return []; }
+}
+
+const app = document.getElementById("app")!;
+app.innerHTML = KK_headToHeadShell();
+
+let client: Client | null = null;
+const WS_FALLBACKS = [
+  (window.localStorage ? localStorage.getItem("kk_ws") : "") || "",
+  "ws://localhost:2567",
+  "ws://127.0.0.1:2567",
+];
+for (const url of WS_FALLBACKS) {
+  if (!url) continue;
+  try { client = new Client(url); console.log("[KK] Using server:", url); break; } catch (e) {}
+}
+if (!client) { client = new Client("ws://localhost:2567"); console.log("[KK] Defaulting to ws://localhost:2567"); }
+(window as any).kkSetServer = (url:string)=>{ try { localStorage.setItem("kk_ws", url); location.reload(); } catch (e) { alert("Unable to save server URL"); } };
+let room: Room<State> | null = null;
+let myId = "";
+let lastState: any = null;
+let tutorialOn = false;
+
+// shorthands
+const $  = (s:string)=> document.querySelector(s)! as HTMLElement;
+const $$ = (s:string)=> Array.from(document.querySelectorAll(s)) as HTMLElement[];
+function esc(s:string){ return s.replace(/[&<>\"']/g,(ch)=> ch==="&"?"&amp;": ch=="<"?"&lt;": ch==">"?"&gt;": ch=='"'?"&quot;": "&#39;"); }
+function log(m:string){ const el=$("#log"); el.innerHTML = `<div>${m}</div>` + el.innerHTML; console.log("[KK]",m); }
+
+// zoom
+const z = document.getElementById("zoom") as HTMLInputElement;
+if (z) { const setZ = (v:string)=> document.documentElement.style.setProperty("--card-scale", v); setZ(z.value); z.addEventListener("input", ()=> setZ(z.value)); }
+
+// top filters (quick type/rarity chips)
+const stateFilters = { type:"All", rarity:"All" };
+function renderFilterBar(types:string[], rarities:string[]){
+  const el=$("#filterbar");
+  el.innerHTML = [
+    'Type: ' + ["All", ...types].map(t=>`<button class="chip ${stateFilters.type===t?'on':''}" data-t="${t}">${t}</button>`).join(""),
+    '<span class="sep"></span>',
+    'Rarity: ' + ["All", ...rarities].map(r=>`<button class="chip ${stateFilters.rarity===r?'on':''}" data-r="${r}">${r}</button>`).join("")
+  ].join(" ");
+  el.querySelectorAll("[data-t]").forEach(b=> b.addEventListener("click",()=>{ stateFilters.type=(b as HTMLElement).dataset.t!; render(lastState); }));
+  el.querySelectorAll("[data-r]").forEach(b=> b.addEventListener("click",()=>{ stateFilters.rarity=(b as HTMLElement).dataset.r!; render(lastState); }));
+}
+
+// library state
+let LIBRARY:any[] = [];
+const deckSet = new Set<string>(); // 36
+const handSet = new Set<string>(); // 6
+let fWorld = ""; let fRarity = ""; let fType = "All"; let fText = ""; let showAll = true;
+
+// modal elements
+const libModal = $("#libModal");
+const fRarityEl = document.getElementById("fRarity") as HTMLSelectElement;
+const fTextEl   = document.getElementById("fText")   as HTMLInputElement;
+const showAllEl = document.getElementById("showAll") as HTMLInputElement;
+
+// build cat/world tabs
+const CAT_TABS = ["All","Boss","Character","Enemy","Pet","Relic","Site"];
+const WORLD_TABS = ["All","Mars","Earth","Moon","Nibiru"];
+
+function renderTabs(){
+  const cats = $("#catTabs"); const worlds = $("#worldTabs");
+  cats.innerHTML = CAT_TABS.map(c=>`<button class="tab ${fType===c?'on':''}" data-cat="${c}">${c}</button>`).join("");
+  worlds.innerHTML = WORLD_TABS.map(w=>`<button class="tab ${(!fWorld && w==="All" || fWorld===w)?'on':''}" data-world="${w}">${w}</button>`).join("");
+  cats.querySelectorAll("[data-cat]").forEach(b=> b.addEventListener("click",()=>{ fType=(b as HTMLElement).dataset.cat!; renderLibrary(); }));
+  worlds.querySelectorAll("[data-world]").forEach(b=> b.addEventListener("click",()=>{
+    const v=(b as HTMLElement).dataset.world!; fWorld = (v==="All")? "" : v; renderLibrary();
+  }));
+}
+
+// close helpers
+function closeLibrary(){ libModal.classList.add("hide"); (libModal as any).ariaHidden="true"; }
+function openLibrary(){ libModal.classList.remove("hide"); (libModal as any).ariaHidden="false"; renderTabs(); renderLibrary(); }
+
+// global buttons
+$("#join").addEventListener("click", async ()=>{
+  try { log("Joining room 'kudurru'…"); room = await client.joinOrCreate<State>("kudurru"); }
+  catch { log("'kudurru' not available, trying 'my_room'…"); room = await client.joinOrCreate<State>("my_room"); }
+  myId = room!.sessionId; log("Joined. Session: " + myId);
+  room!.send("toggle", {key:"revealAI", value:true});
+  room!.onStateChange((st:any)=>{ lastState=st; render(st); updateTutorial(st); });
+});
+$("#next").addEventListener("click", ()=> room?.send("action", {type:"NEXT_PHASE"}));
+$("#bots").addEventListener("click", async ()=>{ if(!room) return; for(let i=0;i<3;i++){ room.send("admin",{type:"ADD_BOTS",count:1}); await new Promise(r=>setTimeout(r,120)); } });
+$("#giveall").addEventListener("click", ()=> room?.send("admin",{type:"GIVE_ALL"}));
+$("#deal6").addEventListener("click", ()=> room?.send("admin",{type:"DEAL6"}));
+$("#reset").addEventListener("click", ()=> room?.send("admin",{type:"RESET_MATCH"}));
+$("#aitick").addEventListener("click", ()=> room?.send("admin",{type:"AI_TICK"}));
+$("#reveal").addEventListener("click", ()=> room?.send("toggle",{key:"revealAI",value:!(lastState?.revealAI)}));
+$("#sandbox").addEventListener("click", ()=> room?.send("toggle",{key:"sandbox",value:!(lastState?.sandbox)}));
+$("#tutor").addEventListener("click", ()=> { tutorialOn=!tutorialOn; updateTutorial(lastState); });
+$("#libraryBtn").addEventListener("click", openLibrary);
+$("#closeLib").addEventListener("click", closeLibrary);
+$("#closeX").addEventListener("click", closeLibrary);
+libModal.addEventListener("click",(e)=>{ if(e.target===libModal) closeLibrary(); });
+window.addEventListener("keydown",(e)=>{ if(e.key==="Escape" && !(libModal.classList.contains("hide"))) closeLibrary(); });
+
+// simple helpers
+function chip(label:string,cls:string){ return `<span class="chip ${cls}">${esc(label)}</span>`; }
+
+function toArr(mp:any){ const out:any[]=[]; if(!mp) return out;
+  if (typeof mp.forEach==="function"){ mp.forEach((p:any,id:string)=>out.push({id,...p})); return out; }
+  if (typeof mp.toJSON==="function"){ const obj=mp.toJSON(); for(const id in obj) out.push({id,...obj[id]}); return out; }
+  for(const id in mp) out.push({id,...mp[id]}); return out;
+}
+
+function cardFrontBack(c:any, ownerId:string){
+  const s=c.costs?.sinew||0,g=c.costs?.sigil||0,o=c.costs?.oath||0;
+  const pow=c.power??0, arm=c.armor??0;
+  const rank=(c.rank||c.rarity||"low").toString(); const world=c.world||"Mars";
+  return `<div class="card" data-cid="${c.id}" data-owner="${ownerId}">
+    <div class="inner">
+      <div class="face front">
+        <button class="infoBtn" title="Flip for details">ℹ️ Details</button>
+        <span class="pip tl" data-tip="Sinew (🪨)">${s}🪨</span>
+        <span class="pip tr" data-tip="Sigil (✴️)">${g}✴️</span>
+        <span class="pip bl" data-tip="Oath (🤝)">${o}🤝</span>
+        <span class="pip br" data-tip="Rarity">${esc(rank.toUpperCase())}</span>
+        <div class="art">${esc(c.emoji||"🗡️")}</div>
+        <div class="title">${esc(c.name)}</div>
+        <div class="type">${chip(world,"world")} ${chip(rank,"rar")} — ${esc(c.type)} • ⚔️ ${pow} • 🛡️ ${arm}</div>
+      </div>
+      <div class="face back">
+        <div class="statrow">
+          <div>Type</div><div><b>${esc(c.type)}</b></div>
+          <div>World</div><div>${esc(world)}</div>
+          <div>Rarity</div><div>${esc(rank)}</div>
+          <div>Costs</div><div>${s}🪨 / ${g}✴️ / ${o}🤝</div>
+          <div>Power</div><div>${pow}</div><div>Armor</div><div>${arm}</div>
+        </div>
+        <div class="hr"></div>
+        <div><b>Rules</b><br/>${esc(c.text||"—")}</div>
+        <div class="hr"></div>
+        <div class="fine">Synergy hint: ${esc(world)} cards often favor ${(world==="Mars")?"🪨 Sinew": (world==="Moon")?"✴️ Sigil / 🤝 Oath": (world==="Earth")?"✴️ Sigil":"balanced Oath/Power"}.</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function playerBlock(p:any,state:any){
+  const hidden=(p.ai && !state.revealAI)?"hidden":"";
+  const sites=(p.sites||[]).join(", ")||"—";
+  const handAll=(p.hand||[]);
+  const hand = handAll.filter((c:any)=>(stateFilters.type==="All"||c.type===stateFilters.type) && (stateFilters.rarity==="All"||c.rarity===stateFilters.rarity));
+  return `<div class="player ${hidden}">
+    <div class="row head">
+      <strong>${esc(p.name)}${p.ai?" 🤖":""}</strong>
+      <span>Hand: ${handAll.length}</span>
+      <span>🏁 ${p.marks||0}</span><span>🔥 ${p.heat||0}</span>
+      <span>🪨 ${p.pools?.sinew??0}</span><span>✴️ ${p.pools?.sigil??0}</span><span>🤝 ${p.pools?.oath??0}</span>
+      <span style="margin-left:auto;font-size:11px;color:#a8c0e0">Sites: ${esc(sites)}</span>
+    </div>
+    <div class="area"><h4>Battlefield</h4><div class="bf">${(p.chars||[]).map((c:any)=>cardFrontBack(c,p.id)).join("")||"(empty)"}</div></div>
+    <div class="area"><h4>Hand ${p.id===myId?"(You)":""}</h4><div class="hand">${hand.map((c:any)=>cardFrontBack(c,p.id)).join("")}</div></div>
+  </div>`;
+}
+
+function render(state:any){
+  if(!state) return;
+  const players=toArr(state.players);
+  const activeIdx = state.activeIndex ?? 0; const active = players[activeIdx]; const youActive = active?.id===myId;
+  $("#phase").innerHTML = `Turn ${state.turn} — Phase: <b>${state.phase}</b> — Active: <b>${active?.name??"—"}</b> ${youActive?'<span class="badge good">YOUR TURN</span>':''}`;
+  const wrap=$("#players"); wrap.innerHTML = players.map((p:any)=>playerBlock(p,state)).join("");
+
+  // interactions
+  wrap.querySelectorAll(".hand .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if(!room || !lastState) return;
+      if ((el as HTMLElement).classList.contains("flipped")) return;
+      const id=(el as HTMLElement).dataset.cid!, owner=(el as HTMLElement).dataset.owner!;
+      if (owner!==myId) return;
+      if (lastState.phase==="Main") room!.send("action",{type:"PLAY_CARD",cardId:id});
+      else if (lastState.phase==="Battle") room!.send("action",{type:"START_ENGAGE",cardId:id});
+    });
+  });
+  let selectedAtk:string|null=null;
+  wrap.querySelectorAll(".bf .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if(!room || !lastState || (el as HTMLElement).classList.contains("flipped")) return;
+      const cid=(el as HTMLElement).dataset.cid!, owner=(el as HTMLElement).dataset.owner!;
+      if (lastState.phase!=="Battle") return;
+      if (owner===myId){ selectedAtk=cid; room!.send("action",{type:"START_ENGAGE",cardId:cid}); }
+      else if (selectedAtk){ room!.send("action",{type:"TARGET_DEFENDER",ownerId:owner,cardId:cid}); const test=prompt("Axis? Stone/Wind/Veil/Oath/Eye","Stone")||"Stone"; room!.send("action",{type:"RESOLVE_TEST",test,cons:"Wound"}); selectedAtk=null; }
+    });
+  });
+  wrap.querySelectorAll(".card").forEach(el=>{
+    el.addEventListener("dblclick", ()=> el.classList.toggle("flipped"));
+    (el.querySelector(".infoBtn") as HTMLElement | null)?.addEventListener("click",(e)=>{ e.stopPropagation(); el.classList.toggle("flipped"); });
+  });
+}
+
+function updateTutorial(state:any){
+  const el=$("#analyzer"); if(!tutorialOn || !state){ if(!el.innerHTML.trim()) el.innerHTML=`<div class="tip">Click <b>Start Tutorial</b> for guided steps.</div>`; return; }
+  const players=toArr(state.players); const active=players[state.activeIndex??0]; const youActive=active?.id===myId;
+  const L:string[]=[]; L.push(`<b>Tutorial — ${state.phase}</b>`);
+  if (!youActive) L.push("It’s not your turn. Use <b>AI Step</b> or wait.");
+  else if (state.phase==="Upkeep"){ L.push("Upkeep refreshes resources. Hover pips on any card to learn costs."); L.push("Click <b>Next Phase</b> to enter Main."); }
+  else if (state.phase==="Main"){ L.push("Play a <b>Character</b> from your hand (click). Relics attach; Pets accompany; Sites are global. Then <b>Next Phase</b>."); }
+  else if (state.phase==="Battle"){ L.push("Pick an attacker (yours), then a defender (enemy). Choose test axis. Analyzer will explain results."); }
+  else { L.push("Advance with <b>Next Phase</b>."); }
+  L.push("Tip: Double-click a card (or ℹ️) to flip for full details.");
+  el.innerHTML = L.map(x=>`<div class="line">${x}</div>`).join("");
+}
+
+// ===== Library =====
+const deckCountEl = document.getElementById("deckCount")!;
+const handCountEl = document.getElementById("handCount")!;
+const deckListEl  = document.getElementById("deckList")!;
+const handListEl  = document.getElementById("handList")!;
+
+function matchCard(c:any){
+  if (fType!=="All" && c.type!==fType) return false;
+  if (fWorld && c.world!==fWorld) return false;
+  if (fRarity && c.rarity!==fRarity) return false;
+  if (fText && !String(c.name).toLowerCase().includes(fText)) return false;
+  return true;
+}
+function libCard(c:any){
+  const inDeck = deckSet.has(c.id), inHand = handSet.has(c.id);
+  const canDeck = inDeck || deckSet.size<36;
+  const canHand = inHand || handSet.size<6;
+  const s=c.costs.sinew,g=c.costs.sigil,o=c.costs.oath;
+  return `<div class="card" data-lid="${c.id}">
+    <div class="inner">
+      <div class="face front">
+        <span class="pip tl">${s}🪨</span><span class="pip tr">${g}✴️</span><span class="pip bl">${o}🤝</span>
+        <span class="pip br">${String(c.rarity).toUpperCase()}</span>
+        <div class="art">${esc(c.emoji||"🗡️")}</div>
+        <div class="title">${esc(c.name)}</div>
+        <div class="type"><span class="chip world">${esc(c.world)}</span> <span class="chip rar">${esc(c.rarity)}</span> — ${esc(c.type)} • ⚔️ ${c.power} • 🛡️ ${c.armor}</div>
+        <div class="lib-actions">
+          <button class="mini ${inDeck?"on":""}" data-act="deck" ${canDeck?"":"disabled"}>${inDeck?"✓ In Deck":"Add to Deck"}</button>
+          <button class="mini ${inHand?"on":""}" data-act="hand" ${canHand?"":"disabled"}>${inHand?"✓ In Hand":"To Hand"}</button>
+        </div>
+      </div>
+      <div class="face back">
+        <div class="statrow">
+          <div>Type</div><div><b>${esc(c.type)}</b></div>
+          <div>World</div><div>${esc(c.world)}</div>
+          <div>Rarity</div><div>${esc(c.rarity)}</div>
+          <div>Costs</div><div>${s}🪨 / ${g}✴️ / ${o}🤝</div>
+          <div>Power</div><div>${c.power}</div><div>Armor</div><div>${c.armor}</div>
+        </div>
+        <div class="hr"></div>
+        <div><b>Rules / Text</b><br/>${esc(c.text||"—")}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderLibrary(){
+  const rarities = Array.from(new Set(LIBRARY.map(c=>c.rarity))).sort();
+  fRarityEl.innerHTML = '<option value="">Rarity: All</option>' + rarities.map(r=>`<option ${fRarity===r?'selected':''}>${r}</option>`).join("");
+  const source = showAll ? LIBRARY : LIBRARY.slice(0,200);
+  const list = source.filter(matchCard);
+  $("#libGrid").innerHTML = list.map(libCard).join("");
+
+  deckCountEl.textContent = String(deckSet.size); handCountEl.textContent = String(handSet.size);
+  deckListEl.innerHTML = Array.from(deckSet).map(id=> `<div>${esc(LIBRARY.find(c=>c.id===id)?.name||id)}</div>`).join("");
+  handListEl.innerHTML = Array.from(handSet).map(id=> `<div>${esc(LIBRARY.find(c=>c.id===id)?.name||id)}</div>`).join("");
+
+  $$("#libGrid .card").forEach(el=>{
+    const id=(el as HTMLElement).dataset.lid!;
+    (el.querySelector('[data-act="deck"]') as HTMLElement).addEventListener("click",(e)=>{
+      e.stopPropagation(); if (deckSet.has(id)) deckSet.delete(id); else if (deckSet.size<36) deckSet.add(id); renderLibrary();
+    });
+    (el.querySelector('[data-act="hand"]') as HTMLElement).addEventListener("click",(e)=>{
+      e.stopPropagation(); if (handSet.has(id)) handSet.delete(id); else if (handSet.size<6) handSet.add(id); renderLibrary();
+    });
+    el.addEventListener("dblclick", ()=> el.classList.toggle("flipped"));
+  });
+}
+
+// inputs
+fRarityEl.addEventListener("change", ()=>{ fRarity=fRarityEl.value; renderLibrary(); });
+fTextEl.addEventListener("input", ()=>{ fText=fTextEl.value.toLowerCase(); renderLibrary(); });
+showAllEl.addEventListener("change", ()=>{ showAll=showAllEl.checked; renderLibrary(); });
+
+(async ()=>{
+  LIBRARY = await loadLibrary();
+  const types = Array.from(new Set(LIBRARY.map(c=>c.type))).sort();
+  const rars  = Array.from(new Set(LIBRARY.map(c=>c.rarity))).sort();
+  renderFilterBar(types, rars);
+})();
+/** Post-render: move Library "Add to Deck / To Hand" buttons to the BACK of cards. */
+function KK_moveLibraryCTAs(root?: HTMLElement){
+  try{
+    const lib = (root || document).querySelector(".library");
+    if (!lib) return;
+    const cards = lib.querySelectorAll(".card");
+    cards.forEach((card:any)=>{
+      const front = card.querySelector(".front");
+      const back  = card.querySelector(".back");
+      if (!front || !back) return;
+      // find all front buttons except info
+      const frontBtns = front.querySelectorAll("button:not(.infoBtn)");
+      if (!frontBtns.length) return;
+      // create a toolbar on back if not present
+      let bar = back.querySelector(".lib-ctas");
+      if (!bar){
+        bar = document.createElement("div");
+        bar.className = "lib-ctas";
+        back.appendChild(bar);
+      }
+      // if back already populated, skip
+      if (bar.childElementCount >= frontBtns.length) return;
+      frontBtns.forEach((btn:HTMLElement)=>{
+        const clone = btn.cloneNode(true) as HTMLButtonElement;
+        // carry over listeners by re-dispatching original click when pressed
+        clone.addEventListener("click", (e)=>{ (btn as HTMLButtonElement).click(); e.stopPropagation(); });
+        bar!.appendChild(clone);
+      });
+    });
+  }catch(e){ console.warn("KK_moveLibraryCTAs:", e); }
+}
+// Observe library changes to keep CTAs in sync
+(new MutationObserver(()=> KK_moveLibraryCTAs())).observe(document.documentElement, {subtree:true, childList:true});
+/* KK_FORCE_SHELL */
+(function KK_FORCE_SHELL(){
+  function mountIfMissing(){
+    const app = document.getElementById("app");
+    if (app && !app.querySelector(".board") && typeof KK_headToHeadShell === "function") {
+      app.innerHTML = KK_headToHeadShell();
+    }
+  }
+  if (document.readyState === "complete") { setTimeout(mountIfMissing, 50); }
+  else { window.addEventListener("load", ()=> setTimeout(mountIfMissing, 50)); }
+})();

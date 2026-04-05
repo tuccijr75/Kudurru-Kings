@@ -1,0 +1,401 @@
+"card_id","name","rarity","stone","wind","veil","oath","eye","weight","upkeep","lore_text","section","mechanics_text"
+"101","Hill Ram","low","🪨  1","🌪️  1","✨  2","📖  1","👁️  1","⚖️  2","♨  0","Hill Ram — Grunts of Veil/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"102","Desert Viper","low","🪨  1","🌪️  1","✨  1","📖  1","👁️  2","⚖️  2","♨  0","Desert Viper — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"103","River Titan","low","🪨  1","🌪️  0","✨  0","📖  1","👁️  3","⚖️  2","♨  0","River Titan — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"104","Crocodile Warlord","low","🪨  0","🌪️  2","✨  0","📖  1","👁️  2","⚖️  2","♨  0","Crocodile Warlord — Grunts of Eye/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"105","Vulture Queen","low","🪨  1","🌪️  2","✨  0","📖  2","👁️  1","⚖️  2","♨  0","Vulture Queen — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"106","Frog Mother","low","🪨  1","🌪️  2","✨  0","📖  2","👁️  0","⚖️  2","♨  0","Frog Mother — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"107","Desert Boar","low","🪨  0","🌪️  0","✨  2","📖  0","👁️  3","⚖️  2","♨  0","Desert Boar — Grunts of Eye/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"108","Tablet Binder","low","🪨  1","🌪️  1","✨  2","📖  3","👁️  1","⚖️  3","♨  1","Tablet Binder — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"109","Sand Archivist","low","🪨  0","🌪️  1","✨  0","📖  1","👁️  1","⚖️  1","♨  0","Sand Archivist — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"110","Word Eater","low","🪨  0","🌪️  2","✨  0","📖  2","👁️  1","⚖️  2","♨  0","Word Eater — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"111","Iron Juggernaut","low","🪨  0","🌪️  1","✨  2","📖  3","👁️  0","⚖️  2","♨  0","Iron Juggernaut — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"112","Fire Ram","low","🪨  1","🌪️  1","✨  2","📖  0","👁️  0","⚖️  1","♨  0","Fire Ram — Grunts of Veil/Stone Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Stone sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"113","Bone Chariot","low","🪨  2","🌪️  1","✨  1","📖  2","👁️  0","⚖️  2","♨  0","Bone Chariot — Grunts of Oath/Stone Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"114","Siege Idol","low","🪨  0","🌪️  3","✨  0","📖  1","👁️  1","⚖️  2","♨  0","Siege Idol — Grunts of Wind/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"115","Oil Hydra","low","🪨  0","🌪️  1","✨  1","📖  2","👁️  0","⚖️  1","♨  0","Oil Hydra — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"116","Oath Singer","low","🪨  0","🌪️  1","✨  0","📖  1","👁️  3","⚖️  2","♨  0","Oath Singer — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"117","Tax Shade","low","🪨  2","🌪️  2","✨  1","📖  1","👁️  0","⚖️  2","♨  0","Tax Shade — Grunts of Stone/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"118","Ash Binder","low","🪨  0","🌪️  3","✨  0","📖  3","👁️  1","⚖️  3","♨  1","Ash Binder — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"119","Mirror Reed","low","🪨  0","🌪️  2","✨  1","📖  1","👁️  0","⚖️  1","♨  0","Mirror Reed — Grunts of Wind/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"120","Sand Mirage","low","🪨  1","🌪️  3","✨  0","📖  1","👁️  2","⚖️  2","♨  0","Sand Mirage — Grunts of Wind/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 2
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"121","Echo Voice","low","🪨  0","🌪️  0","✨  1","📖  1","👁️  2","⚖️  1","♨  0","Echo Voice — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"122","Scorpion Alchemist","low","🪨  1","🌪️  2","✨  1","📖  0","👁️  1","⚖️  2","♨  0","Scorpion Alchemist — Grunts of Wind/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"123","Reed Brewmaster","low","🪨  2","🌪️  0","✨  1","📖  1","👁️  1","⚖️  2","♨  0","Reed Brewmaster — Grunts of Stone/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"124","Toxin Whisperer","low","🪨  1","🌪️  2","✨  1","📖  1","👁️  0","⚖️  2","♨  0","Toxin Whisperer — Grunts of Wind/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"125","Bone Caller","low","🪨  2","🌪️  1","✨  2","📖  1","👁️  1","⚖️  2","♨  0","Bone Caller — Grunts of Stone/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"126","Idol Chanter","low","🪨  0","🌪️  2","✨  1","📖  0","👁️  0","⚖️  1","♨  0","Idol Chanter — Grunts of Wind/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"127","Blood Keeper","low","🪨  1","🌪️  2","✨  1","📖  2","👁️  0","⚖️  2","♨  0","Blood Keeper — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"128","Trap Setter","low","🪨  0","🌪️  0","✨  1","📖  1","👁️  1","⚖️  1","♨  0","Trap Setter — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"129","Fire Sapper","low","🪨  2","🌪️  1","✨  2","📖  0","👁️  0","⚖️  2","♨  0","Fire Sapper — Grunts of Stone/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"130","Collapse Worker","low","🪨  0","🌪️  1","✨  0","📖  3","👁️  1","⚖️  2","♨  0","Collapse Worker — Grunts of Oath/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"131","Plague Drummer","low","🪨  0","🌪️  1","✨  0","📖  1","👁️  3","⚖️  2","♨  0","Plague Drummer — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"132","Ember Masker","low","🪨  2","🌪️  0","✨  2","📖  1","👁️  1","⚖️  2","♨  0","Ember Masker — Grunts of Stone/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"133","Soul Drinker","low","🪨  1","🌪️  1","✨  2","📖  3","👁️  0","⚖️  2","♨  0","Soul Drinker — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Stay clustered; spread auras wisely.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"134","Glass Weaver","low","🪨  2","🌪️  1","✨  2","📖  0","👁️  0","⚖️  2","♨  0","Glass Weaver — Grunts of Stone/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"135","Tomb Scrivener","low","🪨  1","🌪️  3","✨  1","📖  2","👁️  0","⚖️  2","♨  0","Tomb Scrivener — Grunts of Wind/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"136","Shadow Binder","low","🪨  0","🌪️  0","✨  2","📖  1","👁️  0","⚖️  1","♨  0","Shadow Binder — Grunts of Veil/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"137","Idol Puppeteer","low","🪨  1","🌪️  2","✨  1","📖  2","👁️  1","⚖️  2","♨  0","Idol Puppeteer — Grunts of Oath/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"138","Sand Oracle","low","🪨  0","🌪️  1","✨  2","📖  2","👁️  1","⚖️  2","♨  0","Sand Oracle — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"139","Blood Plucker","low","🪨  1","🌪️  2","✨  0","📖  0","👁️  2","⚖️  2","♨  0","Blood Plucker — Grunts of Eye/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"140","Furnace Caller","low","🪨  1","🌪️  0","✨  2","📖  2","👁️  0","⚖️  2","♨  0","Furnace Caller — Grunts of Oath/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"141","Golden Whip","low","🪨  3","🌪️  0","✨  2","📖  0","👁️  0","⚖️  2","♨  0","Golden Whip — Grunts of Stone/Veil Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Veil sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"142","High Priest","low","🪨  0","🌪️  1","✨  2","📖  0","👁️  1","⚖️  1","♨  0","High Priest — Grunts of Veil/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"143","River Warlord","low","🪨  0","🌪️  2","✨  2","📖  1","👁️  1","⚖️  2","♨  0","River Warlord — Grunts of Veil/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"144","Scorpion Queen","low","🪨  1","🌪️  1","✨  1","📖  1","👁️  2","⚖️  2","♨  0","Scorpion Queen — Grunts of Eye/Oath Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Eye/Oath sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Scout first; answer hidden threats.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"145","Sand Golem","low","🪨  2","🌪️  2","✨  1","📖  1","👁️  1","⚖️  2","♨  0","Sand Golem — Grunts of Stone/Wind Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Wind sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"146","Idol Shade","low","🪨  2","🌪️  1","✨  1","📖  0","👁️  1","⚖️  2","♨  0","Idol Shade — Grunts of Stone/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Stone/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"147","Reed Leviathan","low","🪨  3","🌪️  0","✨  1","📖  3","👁️  1","⚖️  3","♨  1","Reed Leviathan — Grunts of Oath/Stone Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Oath/Stone sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 2 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Anchor chokepoints; take hits others can't.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"148","Oathkeeper Ghost","low","🪨  1","🌪️  1","✨  3","📖  0","👁️  2","⚖️  2","♨  0","Oathkeeper Ghost — Grunts of Veil/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"149","Bronze Colossus","low","🪨  1","🌪️  0","✨  2","📖  1","👁️  1","⚖️  2","♨  0","Bronze Colossus — Grunts of Veil/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Veil/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Fight in fog; punish over-extensions.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."
+"150","Marsh Phantom","low","🪨  1","🌪️  3","✨  1","📖  1","👁️  1","⚖️  2","♨  0","Marsh Phantom — Grunts of Wind/Eye Duality.
+A low presence whose choices bend the battlefield toward fate.
+Iconography: Wind/Eye sigils, attire marked by duty.","Grunts","Basic Initiative (3)
+🛡️ Guard 1 • ⚔️ First Strike 1
+Checks get +1 when adjacent to an ally.
+• Force trades on your turn; keep tempo.
+• Pair with allies that cover your weakest stat.
+• Trade only when your initiative window is open."

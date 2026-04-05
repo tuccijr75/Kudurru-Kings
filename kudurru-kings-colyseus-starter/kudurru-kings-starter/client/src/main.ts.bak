@@ -1,0 +1,180 @@
+﻿import "./style.css";
+import { Client, Room } from "colyseus.js";
+type State = any;
+
+const app = document.getElementById("app")!;
+app.innerHTML = `<header>
+  <h1>Kudurru Kings — Client</h1>
+  <div class="row">
+    <button id="join">Join Room</button>
+    <button id="next">Next Phase</button>
+    <button id="bots">Add 3 Bots</button>
+    <button id="giveall">Give All Cards</button>
+    <button id="deal6">Deal 6</button>
+    <button id="reset">Reset Match</button>
+    <button id="aitick">AI Step</button>
+    <button id="reveal">Toggle Reveal AI</button>
+    <button id="sandbox">Toggle Sandbox</button>
+  </div>
+  <div class="row" style="gap:12px;align-items:center;margin-top:8px">
+    <label style="font-size:12px;opacity:.85">Card Zoom
+      <input id="zoom" type="range" min="1" max="2" step="0.1" value="1.5" />
+    </label>
+  </div>
+</header>
+<div class="col">
+  <section class="panel">
+    <div class="tip" id="phase">Phase: —</div>
+    <div class="log" id="log"></div>
+  </section>
+  <section class="panel">
+    <div class="grid" id="players"></div>
+  </section>
+  <section class="panel">
+    <h3>Analyzer</h3>
+    <div id="analyzer"></div>
+  </section>
+</div>`;
+
+const client = new Client("ws://localhost:2567");
+let room: Room<State> | null = null;
+let myId = "";
+let lastState: any = null;
+
+const $ = (sel: string)=> document.querySelector(sel)! as HTMLElement;
+$("#join").addEventListener("click", join);
+$("#next").addEventListener("click", ()=> room?.send("action", {type:"NEXT_PHASE"}));
+$("#bots").addEventListener("click", ()=> room?.send("admin", {type:"ADD_BOTS", count: 3}));
+$("#giveall").addEventListener("click", ()=> room?.send("admin", {type:"GIVE_ALL"}));
+$("#deal6").addEventListener("click", ()=> room?.send("admin", {type:"DEAL6"}));
+$("#reset").addEventListener("click", ()=> room?.send("admin", {type:"RESET_MATCH"}));
+$("#aitick").addEventListener("click", ()=> room?.send("admin", {type:"AI_TICK"}));
+$("#reveal").addEventListener("click", ()=> room?.send("toggle", {key:"revealAI", value: !(lastState?.revealAI)}));
+$("#sandbox").addEventListener("click", ()=> room?.send("toggle", {key:"sandbox", value: !(lastState?.sandbox)}));
+
+const z = document.getElementById("zoom") as HTMLInputElement;
+if (z) { const setZ = (v:string)=> document.documentElement.style.setProperty("--card-scale", v);
+  setZ(z.value); z.addEventListener("input", ()=> setZ(z.value)); }
+
+async function join(){
+  room = await client.joinOrCreate<State>("kudurru");
+  myId = room.sessionId;
+  room.onStateChange((state: any)=>{
+    lastState = state;
+    render(state);
+  });
+}
+
+/** MapSchema → array */
+function listPlayers(state:any){
+  const out:any[] = [];
+  const mp:any = state.players;
+  if (!mp) return out;
+  if (typeof mp.forEach === "function") { mp.forEach((p:any,id:string)=> out.push({id, ...p})); return out; }
+  if (typeof mp.toJSON === "function") { const obj=mp.toJSON(); for (const id in obj) out.push({id, ...obj[id]}); return out; }
+  for (const id in mp) out.push({ id, ...mp[id] });
+  return out;
+}
+
+function render(state: any){
+  const players = listPlayers(state);
+  const activeIdx = state.activeIndex ?? 0;
+  const active = players[activeIdx];
+  const youActive = active?.id === myId;
+
+  $("#phase").innerHTML = `Turn ${state.turn} — Phase: <b>${state.phase}</b> — Active: <b>${active?.name ?? "—"}</b> ${
+    youActive ? '<span class="badge good">YOUR TURN</span>' : ''
+  }`;
+
+  const logs = Array.from(state.log || []);
+  $("#log").innerHTML = logs.map((l)=> `<div>${escapeHtml(String(l))}</div>`).join("");
+
+  const lines = Array.from(state.analysis || []);
+  const an = document.getElementById("analyzer")!;
+  an.innerHTML = lines.length ? lines.map((l:string)=>`<div class="line">• ${escapeHtml(l)}</div>`).join("") : `<div class="tip">Battle to see breakdown here.</div>`;
+
+  const wrap = $("#players");
+  wrap.innerHTML = players.map((p:any)=> {
+    const isAI = p.ai ? " 🤖" : "";
+    const hidden = (p.ai && !state.revealAI) ? "hidden": "";
+    const sites = (p.sites||[]).join(", ") || "—";
+    return `<div class="player ${hidden}">
+      <div class="row">
+        <strong>${escapeHtml(p.name)}${isAI}</strong>
+        <span>🏁 ${p.marks||0}</span>
+        <span>🔥 ${p.heat||0}</span>
+        <span>🪨 ${p.pools?.sinew??0}</span>
+        <span>✴️ ${p.pools?.sigil??0}</span>
+        <span>🤝 ${p.pools?.oath??0}</span>
+        <span style="margin-left:auto;font-size:11px;color:#a8c0e0">Sites: ${escapeHtml(sites)}</span>
+      </div>
+      <div class="area"><h4>Battlefield</h4><div class="bf">${(p.chars||[]).map((c:any)=>cardHTML(c, p.id)).join("") || "(empty)"}</div></div>
+      <div class="area"><h4>Hand ${p.id===myId?"(You)":""}</h4><div class="hand">${(p.hand||[]).map((c:any)=>cardHTML(c, p.id)).join("")}</div></div>
+    </div>`;
+  }).join("");
+
+  // Hand clicks: play (Main) or select attacker (Battle)
+  wrap.querySelectorAll(".hand .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if (!room) return;
+      const id = (el as HTMLElement).dataset.cid!;
+      const owner = (el as HTMLElement).dataset.owner!;
+      if (owner !== myId) return;
+      if (state.phase === "Main") {
+        room.send("action", { type:"PLAY_CARD", cardId: id });
+      } else if (state.phase === "Battle") {
+        room.send("action", { type:"START_ENGAGE", cardId: id });
+      }
+    });
+  });
+
+  // Battlefield clicks: pick your attacker then enemy defender, choose axis
+  let selectedAtk: string | null = null;
+  wrap.querySelectorAll(".bf .card").forEach(el=>{
+    el.addEventListener("click", ()=>{
+      if (!room || state.phase !== "Battle") return;
+      const cid = (el as HTMLElement).dataset.cid!;
+      const owner = (el as HTMLElement).dataset.owner!;
+      if (owner === myId) {
+        selectedAtk = cid;
+        room!.send("action", { type:"START_ENGAGE", cardId: cid });
+      } else if (selectedAtk) {
+        room!.send("action", { type:"TARGET_DEFENDER", ownerId: owner, cardId: cid });
+        const test = prompt("Test axis? Stone/Wind/Veil/Oath/Eye","Stone") || "Stone";
+        room!.send("action", { type:"RESOLVE_TEST", test, cons: "Wound" });
+        selectedAtk = null;
+      }
+    });
+  });
+}
+
+function cardHTML(c: any, ownerId: string){
+  const sinew = c.costs?.sinew||0, sigil=c.costs?.sigil||0, oath=c.costs?.oath||0;
+  const rank = (c.rank||"").slice(0,1).toUpperCase();
+  const tipS = `Sinew (🪨) cost: ${sinew}`;
+  const tipG = `Sigil (✴️) cost: ${sigil}`;
+  const tipO = `Oath (🤝) cost: ${oath}`;
+  const tipR = `Rank: ${c.rank||"—"}`;
+  return `<div class="card" data-cid="${c.id}" data-owner="${ownerId}" title="${escapeHtml(c.name)}">
+    <span class="pip tl" data-tip="${escapeHtml(tipS)}">${sinew}🪨</span>
+    <span class="pip tr" data-tip="${escapeHtml(tipG)}">${sigil}✴️</span>
+    <span class="pip bl" data-tip="${escapeHtml(tipO)}">${oath}🤝</span>
+    <span class="pip br" data-tip="${escapeHtml(tipR)}">${escapeHtml(rank)}</span>
+    <div class="art">${escapeHtml(c.emoji||"🗡️")}</div>
+    <div class="title">${escapeHtml(c.name)}</div>
+    <div class="type">${escapeHtml(c.type)}</div>
+  </div>`;
+}
+
+function escapeHtml(s: string) {
+  return s.replace(/[&<>"']/g, (ch: string) => {
+    switch (ch) {
+      case "&": return "&amp;";
+      case "<": return "&lt;";
+      case ">": return "&gt;";
+      case '"': return "&quot;";
+      case "'": return "&#39;";
+      default:  return ch;
+    }
+  });
+}
