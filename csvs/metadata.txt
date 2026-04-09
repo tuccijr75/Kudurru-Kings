@@ -1,0 +1,75 @@
+# Kudurru Kings — Unified Metadata README
+
+This file combines the metadata/readme content for both the live gameplay master and the production/export master.
+
+## Live gameplay master
+# Kudurru Kings — Unified Master
+
+This package contains one unified master CSV intended to replace the uploaded CSV set for live use.
+
+## Primary file
+- `Kudurru_Kings_Unified_Master.csv`
+
+## What was removed as unused / retired
+The following old gameplay-facing columns were removed from the live master:
+- `wind`
+- `eye`
+- `weight`
+- `initiative_label`
+- `initiative_value`
+- `guard`
+- `first_strike`
+- `duality`
+- internal record metadata such as:
+  - `id`
+  - `created_date`
+  - `updated_date`
+  - `created_by_id`
+  - `created_by`
+  - `is_sample`
+
+## What was normalized
+- `card_family` -> `family`
+- `upkeep` -> `oath_upkeep`
+
+## What was merged in
+- `characters.csv` -> `race`, `tier`, `descriptor`
+- `EoE_Prompts.csv` -> `art_description`, `render_instructions`
+
+## Base source
+- `Card_export.csv` was used as the authoritative card list and base row set.
+- All 754 cards were preserved.
+
+---
+
+## Production/export master
+# Kudurru Kings — Production Master
+
+Primary file:
+- `Kudurru_Kings_Production_Master.csv`
+
+Purpose:
+- Separate production/export CSV
+- Keeps gameplay master separate from production workflows
+
+Merged sources:
+- `Card_export.csv` as authoritative row base
+- `EoE_Prompts.csv` for art prompt/reference columns
+- `canva_bulk.csv`
+- `canva_bulk_with_emoji_stats.csv`
+- `canva_bulk_with_ultras.csv`
+- `rarity.csv`
+- `low.csv`, `mid.csv`, `high.csv`, `rare.csv`, `super.csv`, `ultra.csv`
+
+Handling of front/back layout assets:
+- `front.csv`, `back.csv`, and `back.zip` were treated as layout/template assets
+- They are referenced in the production master by filename columns rather than merged as row-wise data
+
+Output rows: 754
+Output columns: 37
+
+---
+
+## Recommended usage
+- Use `Kudurru_Kings_Unified_Master.csv` as the live canonical gameplay/content data source.
+- Use `Kudurru_Kings_Production_Master.csv` as the production/export pipeline source.

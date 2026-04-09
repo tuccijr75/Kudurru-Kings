@@ -1,4 +1,0 @@
-card_id,name,rarity,stone,wind,veil,oath,eye,weight,upkeep,rules_text,section,initiative_text,initiative_summary
-1,Adamu,Ultra,10,9,9,10,9,9,20,"Bearer of the First Flame. Adamu channels divine equilibrium; when attacked, he restores 2 health to all allied units and reflects 25% damage to attackers.",Heroes,"When defending, this unit negates the first two attacks each round. Allied units within two tiles gain +2 to morale and +1 to all checks this turn.","Celestial Initiative (12)
-🛡️ Guard 6 • ⚔️ First Strike 6
-Always acts first in combat. Reflects 25% damage. Cannot be stunned or delayed."

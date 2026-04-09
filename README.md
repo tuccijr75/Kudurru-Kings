@@ -1,2 +1,0 @@
-# Kudurru Kings
-Card Game
