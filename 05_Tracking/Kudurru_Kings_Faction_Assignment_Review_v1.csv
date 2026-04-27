@@ -1,0 +1,755 @@
+card_id,card_name,card_family,owner_faction,confidence,top_margin,score_BorderstoneGuild,score_FloodbornPact,score_SkyloomTemple,score_UnderwellKeepers,score_Fateforge
+150,Ash Bishop Queen,Boss,FloodbornPact,low,1,0,4,0,0,3
+145,Ash Leviathan King,Boss,FloodbornPact,low,0,0,3,0,0,3
+144,Ash Lord King,Boss,BorderstoneGuild,low,1,4,0,0,0,3
+142,Ash Oracle Queen,Boss,BorderstoneGuild,low,1,4,0,1,0,3
+138,Blade Dancer Lord,Boss,Fateforge,low,0,0,0,0,0,0
+137,Blood Arena Lord King,Boss,Fateforge,low,1,0,0,0,0,1
+135,Blood Matron Queen,Boss,Fateforge,low,1,0,0,0,0,1
+133,Blood Oracle Lord,Boss,SkyloomTemple,low,0,0,0,1,0,1
+130,Bone Chariot Lord,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+129,Bone Chieftain King,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+128,Bone Colossus King,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+127,Bone Gladiator King,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+126,Bone Raider Lord King,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+124,Bronze Juggernaut,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+122,Canyon Lord King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+121,Canyon Marauder King Lord,Boss,FloodbornPact,low,0,0,0,0,0,0
+173,Canyon Titan,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+120,Chain Hierophant Lord,Boss,Fateforge,low,0,0,0,0,0,0
+119,Chain Marshal Lord,Boss,FloodbornPact,low,1,2,3,0,0,0
+118,Chain Pontiff Lord,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+31,"Chain Warlord, the Iron Tyrant",Boss,SkyloomTemple,low,0,0,0,0,0,0
+116,Chained Seer King,Boss,FloodbornPact,low,0,0,0,0,0,0
+30,"Chained Seer, the Blind Judge",Boss,SkyloomTemple,low,0,0,0,5,0,5
+115,Chainfighter King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+113,Crescent Duelist Lord,Boss,Fateforge,low,0,0,0,0,0,0
+110,Crimson Duelmaster Lord,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+29,"Crimson Duelmaster, the Blood Regent",Boss,Fateforge,low,1,0,0,0,0,1
+108,Crimson Khan King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+107,Crimson Pontiff King,Boss,FloodbornPact,low,0,0,0,0,0,0
+170,Crimson Prophet King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+106,Crimson Prophetess Queen,Boss,Fateforge,low,0,0,0,0,0,0
+169,Crystal Leviathan,Boss,FloodbornPact,low,0,0,3,0,0,3
+102,Crystal Reaver King,Boss,BorderstoneGuild,low,1,4,0,0,0,3
+101,Crystal Stalker Lord,Boss,BorderstoneGuild,low,1,4,0,0,0,3
+168,Crystal Tyrant,Boss,BorderstoneGuild,low,1,4,0,0,0,3
+98,Dust Titan King,Boss,BorderstoneGuild,low,1,4,0,0,3,0
+95,Eclipse Warlock Lord,Boss,FloodbornPact,low,1,0,1,0,0,0
+93,Ember Lord King,Boss,FloodbornPact,low,1,0,4,0,0,3
+91,Fire Ram King,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+88,Golden Strategist Lord,Boss,SkyloomTemple,low,0,0,0,0,0,0
+83,Halo Praetor Lord,Boss,BorderstoneGuild,low,1,4,0,3,0,0
+81,Halo Regent Lord,Boss,BorderstoneGuild,low,1,4,0,3,0,0
+79,Halo Seraphim Lord,Boss,SkyloomTemple,low,1,0,5,6,0,0
+78,Hollow Beast King,Boss,FloodbornPact,low,0,0,0,0,0,0
+77,Hollow Bishop King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+76,Idol Colossus,Boss,Fateforge,low,0,0,0,0,0,0
+24,"Idol Colossus, the Living God",Boss,UnderwellKeepers,low,0,0,0,0,0,0
+75,Iron Juggernaut King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+74,Ironclad Gladiator King,Boss,FloodbornPact,low,0,0,0,0,0,0
+71,Masked Champion Lord,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+70,Masked Warlord King,Boss,Fateforge,low,0,0,0,0,0,0
+67,Oath Leviathan Lord,Boss,SkyloomTemple,low,0,0,3,5,5,0
+160,Obelisk Avatar,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+66,Obelisk General King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+65,Obelisk Warden King,Boss,FloodbornPact,low,0,0,0,0,0,0
+64,Obsidian Berserker King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+20,"Obsidian Berserker, the Black King",Boss,UnderwellKeepers,low,0,0,0,0,0,0
+19,"Pharaoh of Chains, the Eternal",Boss,SkyloomTemple,low,0,0,0,0,0,0
+60,Pit Beastmaster King,Boss,FloodbornPact,low,0,0,0,0,0,0
+59,Pit King Lord,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+159,Prophet of Eclipse,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+18,"River Titan, the Flood King",Boss,SkyloomTemple,low,1,0,6,7,0,0
+56,Rune Captain King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+54,Rune Khan King,Boss,FloodbornPact,low,0,0,0,0,0,0
+52,Rune Pontiff King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+157,Sand Serpent,Boss,UnderwellKeepers,low,0,0,0,0,0,0
+156,Sandstorm Avatar,Boss,SkyloomTemple,low,0,0,0,0,0,0
+49,Shadow Assassin Lord,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+48,Shadow Hulk King,Boss,UnderwellKeepers,low,1,0,0,0,1,0
+46,Siege Idol King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+44,Void Augur King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+16,"Void Augur, the Hollow Prophet",Boss,BorderstoneGuild,low,0,0,0,0,0,0
+42,Void Devourer King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+41,Void Exarch King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+155,Void Horror King,Boss,SkyloomTemple,low,0,0,0,0,0,0
+39,Void Inquisitor King,Boss,BorderstoneGuild,low,0,0,0,0,0,0
+154,Void Serpent,Boss,SkyloomTemple,low,0,0,0,0,0,0
+153,Warden of Chains,Boss,SkyloomTemple,low,0,0,0,0,0,0
+385,Arena Juggernaut,Character,Fateforge,low,0,0,0,0,0,0
+384,Ash Chieftain,Character,Fateforge,low,1,2,0,0,0,3
+466,Ash Hierarch,Character,FloodbornPact,low,1,0,4,0,0,3
+750,Ash Horror,Character,BorderstoneGuild,low,1,4,0,0,0,3
+537,Ash Idolator,Character,BorderstoneGuild,low,1,4,0,0,0,3
+377,Ash Mite,Character,FloodbornPact,low,1,0,4,0,0,3
+747,Ash Oracle,Character,BorderstoneGuild,low,1,4,0,1,0,3
+744,Ash Rat,Character,BorderstoneGuild,low,1,4,0,0,0,3
+742,Ash Scorpion,Character,UnderwellKeepers,low,0,0,0,0,3,3
+269,Ashur,Character,BorderstoneGuild,low,1,4,0,0,0,3
+738,Blood Acolyte,Character,Fateforge,low,1,0,0,0,0,1
+460,Blood Arena Lord,Character,Fateforge,low,1,0,0,0,0,1
+530,Blood Draught Maker,Character,Fateforge,low,1,0,0,0,0,1
+737,Blood Duelist,Character,Fateforge,low,1,0,0,0,0,1
+736,Blood Evoker,Character,Fateforge,low,1,0,0,0,0,1
+459,Blood Hierophant,Character,Fateforge,low,1,0,0,0,0,1
+370,Blood Matron,Character,Fateforge,low,1,0,0,0,0,1
+369,Blood Oracle,Character,SkyloomTemple,low,0,0,0,1,0,1
+734,Blood Plucker,Character,BorderstoneGuild,low,1,2,0,0,0,1
+529,Blood Sculptor,Character,Fateforge,low,1,0,0,0,0,1
+457,Bloodspiller,Character,Fateforge,low,1,0,0,0,0,1
+731,Bone Caller,Character,UnderwellKeepers,low,1,0,0,0,1,0
+367,Bone Chieftain,Character,UnderwellKeepers,low,1,0,0,0,1,0
+366,Bone Colossus,Character,UnderwellKeepers,low,1,0,0,0,1,0
+525,Bone Conductor,Character,UnderwellKeepers,low,1,0,0,0,1,0
+365,Bone Gladiator,Character,BorderstoneGuild,low,1,2,0,0,1,0
+524,Bone Harvester,Character,UnderwellKeepers,low,1,0,0,0,1,0
+364,Bone Horror,Character,UnderwellKeepers,low,1,0,0,0,1,0
+725,Bone Jackal,Character,UnderwellKeepers,low,1,0,0,0,1,0
+361,Bone Tick,Character,UnderwellKeepers,low,1,0,0,0,1,0
+454,Bonebreaker,Character,UnderwellKeepers,low,1,0,0,0,1,0
+720,Bronze Colossus,Character,UnderwellKeepers,low,0,0,0,0,0,0
+719,Bronze Gaoler,Character,SkyloomTemple,low,0,0,0,0,0,0
+358,Bronze Overseer,Character,FloodbornPact,low,0,0,0,0,0,0
+357,Bronze Pitlord,Character,BorderstoneGuild,low,0,0,0,0,0,0
+717,Bronze Shield,Character,Fateforge,low,0,0,0,0,0,0
+716,Bronze Spear,Character,UnderwellKeepers,low,0,0,0,0,0,0
+356,Canyon King,Character,SkyloomTemple,low,0,0,0,0,0,0
+453,Canyon Marauder King,Character,FloodbornPact,low,0,0,0,0,0,0
+713,Caravan Breaker,Character,BorderstoneGuild,low,0,0,0,0,0,0
+351,Carrion Stalker,Character,Fateforge,low,0,0,0,0,0,0
+348,Chain Hierophant,Character,UnderwellKeepers,low,0,0,0,0,0,0
+710,Chain Keeper,Character,SkyloomTemple,low,0,0,0,0,0,0
+452,Chain Pontiff,Character,FloodbornPact,low,0,0,0,0,0,0
+708,Chain Thrower,Character,BorderstoneGuild,low,0,0,0,0,0,0
+707,Chain Warden,Character,Fateforge,low,0,0,0,0,0,0
+450,Chained Seer,Character,UnderwellKeepers,low,0,0,0,0,0,0
+449,Chainfighter,Character,SkyloomTemple,low,0,0,0,0,0,0
+704,Chittering Bat,Character,FloodbornPact,low,0,0,0,0,0,0
+448,Choir of Bone,Character,UnderwellKeepers,low,1,0,0,0,1,0
+345,Cinder Jackal,Character,BorderstoneGuild,low,0,0,0,0,0,0
+703,Cistern Horror,Character,Fateforge,low,0,0,0,0,0,0
+344,Cliff Raider,Character,UnderwellKeepers,low,0,0,0,0,0,0
+702,Collapse Worker,Character,SkyloomTemple,low,0,0,0,0,0,0
+701,Corpse Beetle,Character,FloodbornPact,low,0,0,0,0,0,0
+700,Crater Lurker,Character,BorderstoneGuild,low,0,0,0,0,0,0
+699,Crater Rat,Character,Fateforge,low,0,0,0,0,0,0
+341,Crimson Duelmaster,Character,UnderwellKeepers,low,0,0,0,0,0,0
+340,Crimson Gladiator,Character,SkyloomTemple,low,0,0,0,0,0,0
+518,Crimson Scribe,Character,BorderstoneGuild,low,1,2,0,1,0,0
+516,Crimson Visionary,Character,FloodbornPact,low,0,0,0,0,0,0
+698,Crimson Youth,Character,BorderstoneGuild,low,0,0,0,0,0,0
+697,Crocodile Warlord,Character,Fateforge,low,0,0,0,0,0,0
+515,Crystal Artificer,Character,BorderstoneGuild,low,1,4,0,0,0,3
+334,Crystal Basilisk,Character,Fateforge,low,1,2,0,0,0,3
+694,Crystal Wasp,Character,SkyloomTemple,low,1,0,0,4,0,3
+510,Cuneiform Savant,Character,UnderwellKeepers,low,0,0,0,0,0,0
+691,Desert Hawk,Character,SkyloomTemple,low,0,0,0,0,0,0
+690,Desert Jackal,Character,FloodbornPact,low,0,0,0,0,0,0
+688,Desert Vulture,Character,BorderstoneGuild,low,0,0,0,0,0,0
+687,Dog Breaker,Character,Fateforge,low,0,0,0,0,0,0
+508,Dream Warden,Character,UnderwellKeepers,low,0,0,0,0,0,0
+329,Dune Hyena,Character,SkyloomTemple,low,0,0,0,0,0,0
+328,Dune Rider,Character,FloodbornPact,low,0,0,0,0,0,0
+682,Echo Voice,Character,BorderstoneGuild,low,0,0,0,0,0,0
+679,Eclipse Revenant,Character,Fateforge,low,0,0,0,0,0,0
+505,Eclipse Summoner,Character,UnderwellKeepers,low,0,0,0,0,0,0
+504,Eclipse Visionary,Character,SkyloomTemple,low,0,0,0,0,0,0
+320,Ember Prophet,Character,BorderstoneGuild,low,1,4,0,0,0,3
+677,Enlil Vessel,Character,FloodbornPact,low,0,0,0,0,0,0
+267,Etana,Character,BorderstoneGuild,low,0,0,0,0,0,0
+676,Exiled Gladiator,Character,Fateforge,low,0,0,0,0,0,0
+673,Filth King,Character,UnderwellKeepers,low,0,0,0,0,0,0
+671,Fire Bearer,Character,SkyloomTemple,low,0,0,0,0,0,0
+670,Fire Beetle,Character,FloodbornPact,low,0,0,0,0,0,0
+669,Fire Jackal,Character,BorderstoneGuild,low,0,0,0,0,0,0
+667,Fire Sapper,Character,Fateforge,low,0,0,0,0,0,0
+500,Flesh Weaver,Character,UnderwellKeepers,low,0,0,0,0,0,0
+665,Fungus Creeper,Character,SkyloomTemple,low,0,0,0,0,0,0
+664,Fungus Mite,Character,FloodbornPact,low,0,0,0,0,0,0
+499,Geas Weaver,Character,BorderstoneGuild,low,0,0,0,0,0,0
+662,Glass Mite,Character,Fateforge,low,1,0,0,0,0,1
+434,Gleam Sorcerer,Character,Fateforge,low,0,0,0,0,0,0
+660,Glow Beetle,Character,UnderwellKeepers,low,0,0,0,0,0,0
+658,Gold Captain,Character,SkyloomTemple,low,0,0,0,0,0,0
+432,Gold-Mask Captain,Character,FloodbornPact,low,0,0,0,0,0,0
+314,Golden Rat,Character,BorderstoneGuild,low,0,0,0,0,0,0
+313,Golden Scarab,Character,Fateforge,low,0,0,0,0,0,0
+430,Golden Strategos,Character,UnderwellKeepers,low,0,0,0,0,0,0
+656,Golden Whip,Character,SkyloomTemple,low,0,0,0,0,0,0
+311,Halo Archer,Character,SkyloomTemple,low,1,2,0,3,0,0
+310,Halo Servant,Character,BorderstoneGuild,low,1,4,0,3,0,0
+653,High Priest,Character,FloodbornPact,low,0,0,0,0,0,0
+652,Hill Raider,Character,BorderstoneGuild,low,0,0,0,0,0,0
+651,Hill Ram,Character,Fateforge,low,0,0,0,0,0,0
+420,Hollow Bishop,Character,UnderwellKeepers,low,0,0,0,0,0,0
+649,Howling Fiend,Character,SkyloomTemple,low,0,0,0,0,0,0
+647,Hymncaller Priest,Character,FloodbornPact,low,0,0,0,0,0,0
+646,Idol Chanter,Character,BorderstoneGuild,low,0,0,0,0,0,0
+495,Idol Mechanist,Character,Fateforge,low,0,0,0,0,0,0
+644,Idol Servant,Character,UnderwellKeepers,low,0,0,0,0,0,0
+494,Idol Worshipper,Character,SkyloomTemple,low,0,0,0,0,0,0
+642,Ink Tongue,Character,FloodbornPact,low,0,0,0,0,0,0
+418,Ink-Tongue,Character,BorderstoneGuild,low,0,0,0,0,0,0
+641,Iron Juggernaut,Character,Fateforge,low,0,0,0,0,0,0
+639,Ironbound Horror,Character,UnderwellKeepers,low,0,0,0,0,0,0
+637,Knife Zealot,Character,SkyloomTemple,low,0,0,0,0,0,0
+634,Lash Overseer,Character,FloodbornPact,low,1,0,4,0,0,3
+306,Lattice Guard,Character,FloodbornPact,low,0,0,0,0,0,0
+305,Lattice Spearman,Character,BorderstoneGuild,low,0,0,0,0,0,0
+632,Marsh Cutthroat,Character,BorderstoneGuild,low,1,4,3,0,0,0
+304,Masked Champion,Character,Fateforge,low,0,0,0,0,0,0
+628,Masked King,Character,UnderwellKeepers,low,0,0,0,0,0,0
+302,Masked Warlord,Character,SkyloomTemple,low,0,0,0,0,0,0
+301,Maskless Fighter,Character,FloodbornPact,low,0,0,0,0,0,0
+625,Moon Acolyte,Character,BorderstoneGuild,low,1,4,3,0,0,0
+624,Moon Idol,Character,BorderstoneGuild,low,1,4,3,0,0,0
+413,Moonspawn Horror,Character,FloodbornPact,low,1,2,3,0,0,0
+622,Mud Rat,Character,BorderstoneGuild,low,0,0,0,0,0,0
+621,Night Prowler,Character,Fateforge,low,0,0,0,0,0,0
+412,Oath Champion,Character,SkyloomTemple,low,0,0,0,5,5,0
+299,Oath Serpent,Character,SkyloomTemple,low,0,0,0,5,5,0
+298,Oath Servitor,Character,BorderstoneGuild,low,1,6,0,5,0,0
+617,Oathkeeper Ghost,Character,SkyloomTemple,low,0,0,0,5,0,5
+297,Obelisk Guard,Character,UnderwellKeepers,low,0,0,0,0,0,0
+409,Obelisk Warden,Character,SkyloomTemple,low,0,0,0,0,0,0
+296,Obsidian Axe,Character,FloodbornPact,low,0,0,0,0,0,0
+408,Obsidian Berserker,Character,BorderstoneGuild,low,0,0,0,0,0,0
+616,Obsidian Helm,Character,Fateforge,low,0,0,0,0,0,0
+614,Oil Hydra,Character,UnderwellKeepers,low,0,0,0,0,0,0
+611,Pale Stalker,Character,SkyloomTemple,low,0,0,0,0,0,0
+407,Pit Beastmaster,Character,FloodbornPact,low,0,0,0,0,0,0
+406,Pit Enforcer,Character,BorderstoneGuild,low,0,0,0,0,0,0
+608,Pit Fighter,Character,Fateforge,low,0,0,0,0,0,0
+606,Pit Guard,Character,UnderwellKeepers,low,0,0,0,0,0,0
+605,Pit Houndmaster,Character,SkyloomTemple,low,0,0,0,0,0,0
+604,Pit Jailer,Character,FloodbornPact,low,0,0,0,0,0,0
+293,Pit Thrall,Character,BorderstoneGuild,low,0,0,0,0,0,0
+602,Plague Drummer,Character,Fateforge,low,0,0,0,0,0,0
+291,Red Khan,Character,UnderwellKeepers,low,0,0,0,0,0,0
+289,Red Rat,Character,SkyloomTemple,low,0,0,0,0,0,0
+288,Red Scarab,Character,FloodbornPact,low,0,0,0,0,0,0
+597,River Titan,Character,FloodbornPact,low,1,2,3,0,0,0
+596,River Warlord,Character,BorderstoneGuild,low,1,4,3,0,0,0
+595,River Wolf,Character,FloodbornPact,low,1,2,3,0,0,0
+286,Rock Breaker,Character,BorderstoneGuild,low,0,0,0,0,0,0
+261,Rook,Character,Fateforge,low,0,0,0,0,0,0
+593,Rune Centipede,Character,UnderwellKeepers,low,0,0,0,0,0,0
+403,Rune Exarch,Character,SkyloomTemple,low,0,0,0,0,0,0
+592,Rune Horror,Character,FloodbornPact,low,0,0,0,0,0,0
+591,Rune Husk,Character,BorderstoneGuild,low,0,0,0,0,0,0
+283,Rune Jackal,Character,Fateforge,low,0,0,0,0,0,0
+401,Rune Marshal,Character,BorderstoneGuild,low,1,4,3,0,0,0
+489,Rune Mechanist,Character,SkyloomTemple,low,0,0,0,0,0,0
+488,Rune Mystic,Character,FloodbornPact,low,0,0,0,0,0,0
+400,Rune Pontiff,Character,BorderstoneGuild,low,0,0,0,0,0,0
+282,Rune Spider,Character,SkyloomTemple,low,0,0,0,0,0,0
+281,Rune Swordsman,Character,FloodbornPact,low,0,0,0,0,0,0
+590,Rust Mite,Character,BorderstoneGuild,low,0,0,0,0,0,0
+589,Rust Slug,Character,SkyloomTemple,low,0,0,0,0,0,0
+487,Sand Alchemist,Character,FloodbornPact,low,1,0,1,0,0,0
+586,Sand Hyena,Character,FloodbornPact,low,0,0,0,0,0,0
+485,Sand Prophetess,Character,BorderstoneGuild,low,0,0,0,0,0,0
+278,Sand Raider,Character,SkyloomTemple,low,0,0,0,0,0,0
+484,Sand Tinker,Character,FloodbornPact,low,0,0,0,0,0,0
+276,Sandstorm Khan,Character,BorderstoneGuild,low,0,0,0,0,0,0
+275,Sandstorm Prophet,Character,SkyloomTemple,low,0,0,0,0,0,0
+274,Scaled Vulture,Character,FloodbornPact,low,0,0,0,0,0,0
+579,Screamer Wraith,Character,BorderstoneGuild,low,1,6,0,0,5,0
+578,Serpent Queen,Character,SkyloomTemple,low,0,0,0,0,0,0
+576,Shacklebearer Guard,Character,FloodbornPact,low,0,0,0,0,0,0
+572,Shadow Eel,Character,FloodbornPact,low,0,0,1,0,1,0
+398,Shadow Hulk,Character,UnderwellKeepers,low,1,0,0,0,1,0
+483,Shadow Puppeteer,Character,UnderwellKeepers,low,1,0,0,0,1,0
+570,Shardback Boar,Character,BorderstoneGuild,low,1,4,0,0,0,3
+567,Siege Ox,Character,SkyloomTemple,low,0,0,0,0,0,0
+396,Silver Mask Judge,Character,SkyloomTemple,low,0,0,0,5,0,5
+566,Silver Rat,Character,FloodbornPact,low,0,0,0,0,0,0
+395,Skullcrusher,Character,SkyloomTemple,low,0,0,0,0,0,0
+565,Slave Champion,Character,FloodbornPact,low,0,0,0,0,0,0
+562,Sludge Slime,Character,SkyloomTemple,low,0,0,0,0,0,0
+481,Smoke Weaver,Character,FloodbornPact,low,0,0,0,0,0,0
+561,Soul Drinker,Character,SkyloomTemple,low,0,0,0,0,0,0
+559,Spore Drudge,Character,FloodbornPact,low,0,0,0,0,0,0
+479,Sporebrewer,Character,SkyloomTemple,low,0,0,0,0,0,0
+478,Tablet Keeper,Character,FloodbornPact,low,0,0,0,0,0,0
+555,Taxlord Balash,Character,Fateforge,low,1,2,0,0,0,3
+552,Trap Setter,Character,SkyloomTemple,low,0,0,0,0,0,0
+477,Venom Alchemist,Character,FloodbornPact,low,1,0,1,0,0,0
+475,Viscera Sculptor,Character,SkyloomTemple,low,0,0,0,0,0,0
+474,Void Binder,Character,UnderwellKeepers,low,1,4,0,0,5,0
+272,Void Centipede,Character,SkyloomTemple,low,0,0,0,0,0,0
+393,Void Centurion,Character,SkyloomTemple,low,0,0,0,0,0,0
+473,Void Chemist,Character,FloodbornPact,low,1,0,1,0,0,0
+392,Void Devourer,Character,SkyloomTemple,low,0,0,0,0,0,0
+391,Void Exarch,Character,SkyloomTemple,low,0,0,0,0,0,0
+548,Void Hymnist,Character,SkyloomTemple,low,0,0,0,0,0,0
+389,Void Inquisitor,Character,SkyloomTemple,low,0,0,0,0,0,0
+388,Void King,Character,SkyloomTemple,low,0,0,0,0,0,0
+547,Void Leech,Character,SkyloomTemple,low,0,0,0,0,0,0
+546,Void Obelisk,Character,SkyloomTemple,low,0,0,0,0,0,0
+471,Void Scribe,Character,SkyloomTemple,low,1,0,0,1,0,0
+545,Void Thrall,Character,SkyloomTemple,low,0,0,0,0,0,0
+544,Vowbinder Judge,Character,SkyloomTemple,low,0,0,0,5,5,0
+543,Vulture Queen,Character,SkyloomTemple,low,0,0,0,0,0,0
+542,Whip Sergeant,Character,SkyloomTemple,low,0,0,0,0,0,0
+541,Whipbearer,Character,SkyloomTemple,low,0,0,0,0,0,0
+540,Word Eater,Character,SkyloomTemple,low,0,0,0,0,0,0
+194,Boundary Fine,Edict,FloodbornPact,low,0,2,0,5,0,5
+192,Dust Court Recess,Edict,UnderwellKeepers,low,1,1,0,3,4,0
+188,Mercy Docket,Edict,UnderwellKeepers,low,0,0,0,6,6,0
+182,Public Reckoning,Edict,BorderstoneGuild,low,0,0,0,5,0,5
+180,Royal Pardon,Edict,FloodbornPact,low,0,0,0,5,0,5
+10,Copper Storm Choir,HostSigil,Fateforge,low,1,0,0,2,0,3
+9,"Mushussu, Ember Coil",HostSigil,FloodbornPact,low,0,2,0,0,3,3
+5,Tablet Wraith Host,HostSigil,Fateforge,low,0,0,0,2,5,5
+202,Heavy Crowns,Name,BorderstoneGuild,low,1,1,0,2,0,0
+209,Open Ledger,Name,UnderwellKeepers,low,0,0,0,5,0,5
+204,Swift Shadow,Name,UnderwellKeepers,low,1,0,0,2,1,0
+200,Two Suns,Name,FloodbornPact,low,0,5,0,5,0,0
+250,Bitumen Tortoise,Pet,Fateforge,low,1,3,2,5,1,4
+240,Gate Viper,Pet,BorderstoneGuild,low,1,9,0,0,8,0
+245,Ink Crow,Pet,UnderwellKeepers,low,1,0,0,0,1,0
+225,Archive Prism,Relic,UnderwellKeepers,low,0,5,0,5,0,3
+229,Gravity Lance,Relic,BorderstoneGuild,low,0,1,5,0,0,5
+227,Null Cantor,Relic,UnderwellKeepers,low,1,0,0,0,0,1
+235,Sirocco Bracer,Relic,FloodbornPact,low,0,0,5,0,0,5
+230,Trial Chain,Relic,UnderwellKeepers,low,0,0,0,0,0,0
+224,Basalt Quay,Site,UnderwellKeepers,low,1,9,8,0,0,0
+221,Clause Pike,Site,Fateforge,low,1,9,0,8,0,5
+211,Star Bell Harbor,Site,UnderwellKeepers,low,1,8,9,1,0,0
+151,Ash Binder Lord,Boss,UnderwellKeepers,medium,2,0,0,0,5,3
+179,Ash Colossus,Boss,Fateforge,medium,3,0,0,0,0,3
+149,Ash Demon Lord,Boss,FloodbornPact,medium,2,0,5,0,0,3
+148,Ash Gladiator Lord King,Boss,Fateforge,medium,3,0,0,0,0,3
+147,Ash Hierarch Lord,Boss,Fateforge,medium,3,0,0,0,0,3
+146,Ash High Priest King,Boss,Fateforge,medium,3,0,0,0,0,3
+143,Ash Nomad Chieftain King,Boss,Fateforge,medium,3,0,0,0,0,3
+178,Ash Revenant King,Boss,Fateforge,medium,3,0,0,0,0,3
+177,Ash Titan Lord,Boss,FloodbornPact,medium,3,0,6,0,0,3
+134,Blood Moon Prophet Lord,Boss,FloodbornPact,medium,2,0,3,0,0,1
+33,"Blood Moon Prophet, the Crimson Oracle",Boss,FloodbornPact,medium,2,0,3,1,0,1
+132,Blood Prophet King,Boss,BorderstoneGuild,medium,3,4,0,0,0,1
+114,Crater Brute King,Boss,BorderstoneGuild,medium,2,2,0,0,0,0
+171,Crimson Juggernaut,Boss,BorderstoneGuild,medium,2,2,0,0,0,0
+105,Crystal Colossus King,Boss,Fateforge,medium,3,0,0,0,0,3
+104,Crystal General King,Boss,Fateforge,medium,3,0,0,0,0,3
+103,Crystal Knight Lord,Boss,Fateforge,medium,3,0,0,0,0,3
+100,Crystal Vanguard King,Boss,Fateforge,medium,3,0,0,0,0,3
+92,Ember Prophet King,Boss,Fateforge,medium,3,0,0,0,0,3
+165,Glyph Titan,Boss,SkyloomTemple,medium,3,0,0,3,0,0
+87,Golden Strategos Lord,Boss,BorderstoneGuild,medium,2,2,0,0,0,0
+164,Halo Ascendant,Boss,FloodbornPact,medium,2,0,5,3,0,0
+85,Halo Exemplar Lord,Boss,SkyloomTemple,medium,3,0,0,3,0,0
+84,Halo Paladin Lord,Boss,UnderwellKeepers,medium,3,0,0,3,6,0
+25,"Halo Paladin, the Radiant Lord",Boss,SkyloomTemple,medium,3,0,0,3,0,0
+82,Halo Prelate Lord,Boss,SkyloomTemple,medium,3,0,0,3,0,0
+163,Halo Warden,Boss,SkyloomTemple,medium,3,0,0,3,0,0
+72,Marsh Leviathan,Boss,FloodbornPact,medium,2,4,6,0,0,0
+69,Moonspawn Horror King,Boss,FloodbornPact,medium,3,0,3,0,0,0
+21,"Oath Champion, the Covenant King",Boss,SkyloomTemple,medium,3,0,0,8,5,0
+58,Prism Lancer King,Boss,Fateforge,medium,3,0,0,0,0,3
+57,Red Khan Lord,Boss,BorderstoneGuild,medium,2,2,0,0,0,0
+53,Rune Marshal King,Boss,FloodbornPact,medium,3,0,3,0,0,0
+40,Void Herald King,Boss,UnderwellKeepers,medium,2,0,0,3,5,0
+38,Void King Lord,Boss,BorderstoneGuild,medium,2,2,0,0,0,0
+255,Adamu,Character,BorderstoneGuild,medium,2,5,0,0,0,3
+539,Ash Alchemist,Character,FloodbornPact,medium,2,0,5,0,0,3
+752,Ash Beetle,Character,FloodbornPact,medium,2,0,5,0,0,3
+751,Ash Binder,Character,UnderwellKeepers,medium,2,2,0,0,5,3
+468,Ash Bishop,Character,Fateforge,medium,3,0,0,0,0,3
+383,Ash Demon,Character,Fateforge,medium,3,0,0,0,0,3
+382,Ash Duelist,Character,Fateforge,medium,3,0,0,0,0,3
+381,Ash Ghoul,Character,Fateforge,medium,3,0,0,0,0,3
+380,Ash Gladiator,Character,Fateforge,medium,3,0,0,0,0,3
+379,Ash High,Character,Fateforge,medium,3,0,0,0,0,3
+465,Ash High Priest,Character,UnderwellKeepers,medium,3,0,0,0,6,3
+749,Ash Locust,Character,Fateforge,medium,3,0,0,0,0,3
+464,Ash Lord,Character,Fateforge,medium,3,0,0,0,0,3
+536,Ash Mechanist,Character,UnderwellKeepers,medium,3,0,0,0,6,3
+376,Ash Nomad,Character,Fateforge,medium,3,0,0,0,0,3
+463,Ash Nomad Chieftain,Character,Fateforge,medium,3,0,0,0,0,3
+746,Ash Phantom,Character,Fateforge,medium,3,0,0,0,0,3
+745,Ash Priest,Character,Fateforge,medium,3,0,0,0,0,3
+535,Ash Prophetess,Character,FloodbornPact,medium,2,0,5,0,0,3
+375,Ash Revenant,Character,Fateforge,medium,3,0,0,0,0,3
+741,Ash Servitor,Character,Fateforge,medium,3,0,0,0,0,3
+533,Ash Sorcerer,Character,Fateforge,medium,3,0,0,0,0,3
+374,Ash Spider,Character,Fateforge,medium,3,0,0,0,0,3
+740,Ash Spiderling,Character,Fateforge,medium,3,0,0,0,0,3
+373,Ash Titan,Character,UnderwellKeepers,medium,3,0,0,0,6,3
+462,Ashen Oracle,Character,Fateforge,medium,2,0,0,1,0,3
+458,Blood Moon Prophet,Character,FloodbornPact,medium,2,0,3,0,0,1
+527,Bone Artificer,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+728,Bone Choir,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+727,Bone Eater,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+456,Bone Horror King,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+363,Bone Lord,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+455,Bone Raider Lord,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+359,Broken Gladiator,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+350,Chain Driver,Character,FloodbornPact,medium,3,0,3,0,0,0
+709,Chain Marshal,Character,FloodbornPact,medium,3,0,3,0,0,0
+451,Chain Tyrant,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+522,Covenant Breaker,Character,SkyloomTemple,medium,3,0,0,3,0,0
+514,Crystal Brewer,Character,Fateforge,medium,3,0,0,0,0,3
+444,Crystal General,Character,Fateforge,medium,3,0,0,0,0,3
+443,Crystal Knight,Character,Fateforge,medium,3,0,0,0,0,3
+695,Crystal Louse,Character,Fateforge,medium,3,0,0,0,0,3
+513,Crystal Puppeteer,Character,Fateforge,medium,3,0,0,0,0,3
+442,Crystal Reaver,Character,FloodbornPact,medium,3,0,6,0,0,3
+331,Crystal Spiderling,Character,Fateforge,medium,3,0,0,0,0,3
+441,Crystal Stalker,Character,FloodbornPact,medium,2,0,5,0,0,3
+512,Crystal Thaumaturge,Character,Fateforge,medium,3,0,0,0,0,3
+511,Crystal Tinker,Character,Fateforge,medium,3,0,0,0,0,3
+509,Dream Seer,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+686,Drowned Archivist,Character,FloodbornPact,medium,3,0,3,0,0,0
+327,Dust Centipede,Character,UnderwellKeepers,medium,3,0,0,0,3,0
+507,Dust Chemist,Character,Fateforge,medium,2,0,1,0,3,5
+326,Dust Crawler,Character,UnderwellKeepers,medium,3,0,0,0,3,0
+684,Dust Librarian,Character,UnderwellKeepers,medium,3,0,0,0,3,0
+324,Dust Spider,Character,UnderwellKeepers,medium,3,0,0,0,3,0
+506,Eclipse Binder,Character,FloodbornPact,medium,3,0,8,0,5,0
+678,Ember Masker,Character,BorderstoneGuild,medium,3,6,0,0,0,3
+503,Ember Seer,Character,Fateforge,medium,3,0,0,0,0,3
+672,Fire Ashling,Character,FloodbornPact,medium,3,0,6,0,0,3
+319,Flame Idol,Character,Fateforge,medium,3,0,0,0,0,3
+666,Frog Mother,Character,UnderwellKeepers,medium,3,0,0,0,3,0
+663,Furnace Caller,Character,Fateforge,medium,3,0,0,0,0,3
+661,Glass Weaver,Character,BorderstoneGuild,medium,3,4,0,0,0,1
+659,Glyph Ghoul,Character,SkyloomTemple,medium,3,0,0,3,0,0
+433,Glyph Knight,Character,SkyloomTemple,medium,3,0,0,3,0,0
+317,Glyph Servant,Character,SkyloomTemple,medium,3,0,0,3,0,0
+316,Glyph Shade,Character,UnderwellKeepers,medium,2,0,0,3,5,0
+429,Halo Commander,Character,SkyloomTemple,medium,3,0,0,3,0,0
+428,Halo Exemplar,Character,SkyloomTemple,medium,3,0,0,3,0,0
+655,Halo Husk,Character,SkyloomTemple,medium,3,0,0,3,0,0
+497,Halo Mystic,Character,SkyloomTemple,medium,3,0,0,3,0,0
+427,Halo Paladin,Character,SkyloomTemple,medium,3,0,0,3,0,0
+426,Halo Praetor,Character,FloodbornPact,medium,2,0,5,3,0,0
+425,Halo Prelate,Character,UnderwellKeepers,medium,2,0,0,3,5,0
+422,Halo Seraphim,Character,SkyloomTemple,medium,2,4,0,6,0,0
+654,Halo Spawn,Character,SkyloomTemple,medium,3,0,0,3,0,0
+309,Halo Statue,Character,SkyloomTemple,medium,3,0,0,3,0,0
+308,Halo Vulture,Character,SkyloomTemple,medium,3,0,0,3,0,0
+307,Halo Wraith,Character,Fateforge,medium,3,0,0,3,5,8
+640,Iron Lash,Character,Fateforge,medium,3,0,0,0,0,3
+635,Lash Captain,Character,Fateforge,medium,3,0,0,0,0,3
+633,Ledger Bearer,Character,SkyloomTemple,medium,3,0,0,3,0,0
+631,Marsh Phantom,Character,UnderwellKeepers,medium,2,0,3,0,5,0
+630,Marsh Stalker,Character,FloodbornPact,medium,3,0,3,0,0,0
+629,Marsh Toad,Character,BorderstoneGuild,medium,3,6,3,0,0,0
+414,Moonblade Captain,Character,FloodbornPact,medium,3,0,3,0,0,0
+623,Moonfang Wolf,Character,FloodbornPact,medium,3,0,3,0,0,0
+493,Moonfire Adept,Character,FloodbornPact,medium,3,0,3,0,0,0
+411,Oath Leviathan,Character,SkyloomTemple,medium,2,0,3,5,0,0
+615,Obsidian Lion,Character,UnderwellKeepers,medium,2,3,0,0,5,0
+612,Pale Prophet,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+405,Prism Lancer,Character,BorderstoneGuild,medium,3,6,0,0,0,3
+290,Red Lash,Character,Fateforge,medium,3,0,0,0,0,3
+601,Reed Brewmaster,Character,UnderwellKeepers,medium,2,0,3,0,5,0
+599,Reed Serpent,Character,FloodbornPact,medium,3,0,3,0,0,0
+594,Rockgnasher Beast,Character,Fateforge,medium,3,0,0,0,0,3
+402,Rune Khan,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+280,Sand Basilisk,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+584,Sand Oracle,Character,BorderstoneGuild,medium,3,4,0,1,0,0
+582,Scorpion Alchemist,Character,UnderwellKeepers,medium,2,0,1,0,3,0
+399,Shadow Assassin,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+571,Shadow Knifebearer,Character,BorderstoneGuild,medium,3,4,0,0,1,0
+397,Shard Brute,Character,Fateforge,medium,3,0,0,0,0,3
+560,Spear Watch,Character,BorderstoneGuild,medium,3,3,0,0,0,0
+558,Tablet Binder,Character,Fateforge,medium,2,0,0,0,5,7
+273,Temple Thrall,Character,SkyloomTemple,medium,3,0,0,3,0,0
+550,Tunnel Spider,Character,BorderstoneGuild,medium,2,2,0,0,0,0
+390,Void Herald,Character,SkyloomTemple,medium,3,0,0,3,0,0
+184,Condemnation Seal,Edict,SkyloomTemple,medium,3,0,0,8,5,0
+193,Convoy Priority,Edict,UnderwellKeepers,medium,2,0,0,2,0,0
+183,Forced Testimony,Edict,BorderstoneGuild,medium,3,2,0,5,0,0
+187,Night Market Clause,Edict,Fateforge,medium,3,0,0,5,0,8
+186,River Evacuation,Edict,FloodbornPact,medium,3,5,8,2,0,0
+181,Sun-Script Overload,Edict,SkyloomTemple,medium,3,5,0,8,3,5
+185,Writ of Seizure,Edict,BorderstoneGuild,medium,2,5,0,3,0,0
+4,"Anzu, Storm-Thief",HostSigil,Fateforge,medium,2,0,6,0,0,8
+3,Archive Seraph,HostSigil,SkyloomTemple,medium,3,5,0,8,0,0
+15,Basalt Ferryman,HostSigil,BorderstoneGuild,medium,3,8,5,0,3,0
+14,Fish-Apkallu Echo,HostSigil,UnderwellKeepers,medium,2,0,3,2,5,0
+12,Moon Barge Apparition,HostSigil,FloodbornPact,medium,3,5,8,0,0,0
+7,Scorpion Judge,HostSigil,UnderwellKeepers,medium,3,0,0,8,11,0
+6,Seven Wind Herald,HostSigil,SkyloomTemple,medium,3,0,0,3,0,0
+199,Broken Oath,Name,Fateforge,medium,3,0,0,5,0,8
+208,Far Ear,Name,FloodbornPact,medium,2,0,0,2,0,0
+207,Glass Mercy,Name,UnderwellKeepers,medium,3,0,0,3,6,1
+206,Hearth Amnesty,Name,Fateforge,medium,3,0,0,5,0,8
+198,Quiet Graves,Name,Fateforge,medium,2,0,0,2,9,11
+201,Red Distance,Name,FloodbornPact,medium,3,2,5,2,0,0
+205,Salt Covenant,Name,SkyloomTemple,medium,3,2,2,8,5,0
+197,Weight of Kingship,Name,BorderstoneGuild,medium,2,0,0,2,0,0
+254,Dust Mite,Pet,BorderstoneGuild,medium,3,6,0,0,3,0
+241,Halo Pup,Pet,Fateforge,medium,2,0,5,3,0,0
+244,Pearl Kite,Pet,FloodbornPact,medium,3,0,3,0,0,0
+248,Quarry Jackal Pup,Pet,BorderstoneGuild,medium,3,3,0,0,0,0
+246,Shard Bat,Pet,Fateforge,medium,3,0,0,0,0,3
+239,Bitumen Harness,Relic,BorderstoneGuild,medium,3,1,0,0,0,4
+238,Mirror Hook,Relic,FloodbornPact,medium,2,0,3,0,0,5
+237,Reedglass Lens,Relic,FloodbornPact,medium,2,0,3,0,0,1
+216,Bitumen Furnace,Site,Fateforge,medium,2,9,0,0,0,7
+219,Sanctuary Court,Site,UnderwellKeepers,medium,3,12,0,1,9,0
+213,Shard Plateau Blind,Site,FloodbornPact,medium,3,8,5,0,0,3
+36,Anu the Exarch of Heaven,Boss,FloodbornPact,high,8,0,8,0,0,0
+152,Arena Juggernaut King,Boss,BorderstoneGuild,high,4,4,0,0,0,0
+35,"Ash Gladiator Lord, the Flame Sovereign",Boss,Fateforge,high,4,2,0,0,0,6
+141,Ash Priest King,Boss,UnderwellKeepers,high,7,0,0,0,10,3
+140,Ash Titan King,Boss,FloodbornPact,high,5,0,8,0,0,3
+139,Ashen Oracle Queen,Boss,UnderwellKeepers,high,7,0,0,1,10,3
+34,"Ashen Oracle, the Ember Queen",Boss,Fateforge,high,5,0,0,1,0,6
+136,Blood Hierophant Lord,Boss,FloodbornPact,high,7,0,8,0,0,1
+176,Blood Moon Avatar,Boss,SkyloomTemple,high,4,0,3,7,0,1
+131,Bloodspiller Lord,Boss,Fateforge,high,6,0,0,0,0,6
+175,Bone Goliath,Boss,UnderwellKeepers,high,11,0,0,0,11,0
+174,Bone Hydra,Boss,SkyloomTemple,high,6,0,0,7,1,0
+125,Bonebreaker Lord,Boss,UnderwellKeepers,high,6,0,0,0,6,0
+123,Bronze Pitlord King,Boss,Fateforge,high,8,0,0,0,0,8
+32,"Bronze Pitlord, the Arena King",Boss,UnderwellKeepers,high,5,0,0,0,5,0
+117,Chain Warlord King,Boss,UnderwellKeepers,high,6,0,0,0,6,0
+112,Crimson Abomination Lord,Boss,BorderstoneGuild,high,4,4,0,0,0,0
+172,Crimson Beast,Boss,UnderwellKeepers,high,5,0,0,0,5,0
+111,Crimson Champion Lord,Boss,BorderstoneGuild,high,6,6,0,0,0,0
+109,Crimson Horror King,Boss,FloodbornPact,high,8,0,8,0,0,0
+28,"Crystal Vanguard, the Shard Emperor",Boss,Fateforge,high,6,0,0,0,0,6
+99,Dune Chieftain King,Boss,UnderwellKeepers,high,5,0,0,0,5,0
+167,Dust Wraith King,Boss,UnderwellKeepers,high,13,0,0,0,13,0
+97,Dust Wraith Lord,Boss,UnderwellKeepers,high,8,0,0,0,8,0
+96,Eclipse Hierarch,Boss,SkyloomTemple,high,4,0,0,4,0,0
+27,"Eclipse Hierarch, the Night King",Boss,UnderwellKeepers,high,6,0,0,0,6,0
+94,Eclipse Wraith Lord,Boss,UnderwellKeepers,high,5,0,0,0,5,0
+90,Gleam Sorcerer Lord,Boss,FloodbornPact,high,5,0,5,0,0,0
+166,Glyph Behemoth,Boss,FloodbornPact,high,5,0,8,3,3,0
+89,Glyph Knight King,Boss,Fateforge,high,4,0,0,3,0,7
+26,"Glyph Knight, the Rune King",Boss,Fateforge,high,5,0,0,3,0,8
+86,Halo Commander Lord,Boss,SkyloomTemple,high,7,0,0,7,0,0
+80,Halo Seraph Lord,Boss,SkyloomTemple,high,6,0,0,6,0,0
+162,Hollow Seraph,Boss,Fateforge,high,4,0,0,3,0,7
+73,Lunar Abomination Lord,Boss,FloodbornPact,high,6,0,6,0,0,0
+23,"Marsh Leviathan, the Drowned Queen",Boss,FloodbornPact,high,5,4,9,0,0,0
+22,"Masked Champion, the Golden Face",Boss,UnderwellKeepers,high,5,0,0,0,5,0
+68,Oath Champion Lord,Boss,SkyloomTemple,high,5,0,0,5,0,0
+161,Oath Titan,Boss,SkyloomTemple,high,5,0,0,5,0,0
+63,Obsidian Lion King,Boss,FloodbornPact,high,5,3,8,0,0,0
+62,Oil Hydra King,Boss,BorderstoneGuild,high,4,4,0,0,0,0
+61,Pharaoh of Chains,Boss,BorderstoneGuild,high,6,6,0,0,0,0
+55,Rune Exarch King,Boss,UnderwellKeepers,high,5,0,0,0,5,0
+158,Rune Goliath,Boss,FloodbornPact,high,4,0,4,0,0,0
+51,Sandstorm Khan Lord,Boss,SkyloomTemple,high,7,0,0,7,0,0
+17,"Sandstorm Khan, the Desert Lord",Boss,Fateforge,high,7,0,0,0,0,7
+50,Sandstorm Prophet Lord,Boss,Fateforge,high,5,0,0,0,0,5
+47,Shard Brute King,Boss,Fateforge,high,8,0,0,0,0,8
+45,Skullcrusher King,Boss,BorderstoneGuild,high,6,6,0,0,0,0
+43,Void Centurion King,Boss,FloodbornPact,high,6,0,6,0,0,0
+37,Void Knight King,Boss,BorderstoneGuild,high,4,4,0,0,0,0
+754,Abyssal Archivist,Character,FloodbornPact,high,6,0,6,0,0,0
+753,Arena Brute,Character,FloodbornPact,high,6,0,6,0,0,0
+538,Ash Dreamer,Character,SkyloomTemple,high,4,0,0,7,0,3
+467,Ash Gladiator Lord,Character,SkyloomTemple,high,4,0,0,7,0,3
+378,Ash Leviathan,Character,FloodbornPact,high,8,0,11,0,0,3
+748,Ash Novice,Character,Fateforge,high,8,0,0,0,0,8
+743,Ash Rider,Character,FloodbornPact,high,5,0,8,0,0,3
+534,Ash Sculptor,Character,FloodbornPact,high,5,0,8,0,0,3
+532,Ash Weaver,Character,UnderwellKeepers,high,7,0,0,0,10,3
+372,Ash Wight,Character,SkyloomTemple,high,4,0,0,7,0,3
+531,Beast Caller,Character,BorderstoneGuild,high,6,6,0,0,0,0
+461,Blade Dancer,Character,Fateforge,high,5,0,0,0,0,5
+739,Blind Crawler,Character,FloodbornPact,high,4,0,4,0,0,0
+371,Blood Dervish,Character,Fateforge,high,9,0,0,0,0,9
+735,Blood Keeper,Character,Fateforge,high,6,0,0,0,0,6
+733,Blood Prophet,Character,FloodbornPact,high,4,0,5,0,0,1
+368,Blood Slave,Character,FloodbornPact,high,4,0,5,0,0,1
+528,Blood Soothsayer,Character,UnderwellKeepers,high,4,0,0,0,5,1
+732,Bog Crocodile,Character,BorderstoneGuild,high,4,4,0,0,0,0
+526,Bone Binder,Character,UnderwellKeepers,high,6,0,0,0,6,0
+730,Bone Centipede,Character,UnderwellKeepers,high,6,0,0,0,6,0
+729,Bone Chariot,Character,FloodbornPact,high,7,0,8,0,1,0
+726,Bone Gnawer,Character,SkyloomTemple,high,6,0,0,7,1,0
+362,Bone Pit,Character,FloodbornPact,high,5,0,6,0,1,0
+724,Bone Queen,Character,UnderwellKeepers,high,6,0,0,0,6,0
+723,Bonebound Spirit,Character,Fateforge,high,4,0,0,0,1,5
+360,Bound Hound,Character,SkyloomTemple,high,7,0,0,7,0,0
+722,Broken Scribe,Character,UnderwellKeepers,high,5,0,0,1,6,0
+721,Bronze Automaton,Character,SkyloomTemple,high,7,0,0,7,0,0
+718,Bronze Sentinel,Character,FloodbornPact,high,5,0,5,0,0,0
+715,Canal Lamprey,Character,Fateforge,high,7,0,0,0,0,7
+714,Canal Thief,Character,BorderstoneGuild,high,4,4,0,0,0,0
+355,Canyon Lord,Character,FloodbornPact,high,4,0,4,0,0,0
+354,Canyon Lurker,Character,SkyloomTemple,high,7,0,0,7,0,0
+353,Carrion Bat,Character,Fateforge,high,7,0,0,0,0,7
+352,Carrion Jackal,Character,BorderstoneGuild,high,6,6,0,0,0,0
+712,Chain Automaton,Character,BorderstoneGuild,high,4,4,0,0,0,0
+711,Chain Drudge,Character,UnderwellKeepers,high,10,0,0,0,10,0
+349,Chain Duelist,Character,BorderstoneGuild,high,4,4,0,0,0,0
+523,Chain Engineer,Character,Fateforge,high,5,0,0,0,0,5
+347,Chain Warlord,Character,Fateforge,high,5,0,0,0,0,5
+346,Chain Wraith,Character,UnderwellKeepers,high,5,0,0,0,5,0
+706,Chant Twins,Character,FloodbornPact,high,8,0,8,0,0,0
+705,Chanter Priest,Character,BorderstoneGuild,high,6,6,0,0,0,0
+447,Crater Brute,Character,UnderwellKeepers,high,5,0,0,0,5,0
+446,Crescent Duelist,Character,UnderwellKeepers,high,10,0,0,0,10,0
+343,Crimson Abomination,Character,BorderstoneGuild,high,4,4,0,0,0,0
+521,Crimson Binder,Character,UnderwellKeepers,high,5,0,0,0,5,0
+520,Crimson Caller,Character,Fateforge,high,7,0,0,0,0,7
+342,Crimson Champion,Character,UnderwellKeepers,high,5,0,0,0,5,0
+339,Crimson Guard,Character,FloodbornPact,high,4,0,4,0,0,0
+338,Crimson Horror,Character,SkyloomTemple,high,4,0,0,4,0,0
+337,Crimson Khan,Character,SkyloomTemple,high,7,0,0,7,0,0
+519,Crimson Oracle,Character,UnderwellKeepers,high,4,0,0,1,5,0
+336,Crimson Pontiff,Character,UnderwellKeepers,high,5,0,0,0,5,0
+335,Crimson Prophetess,Character,FloodbornPact,high,5,0,5,0,0,0
+517,Crimson Thaumaturge,Character,BorderstoneGuild,high,4,4,0,0,0,0
+445,Crystal Colossus,Character,FloodbornPact,high,5,0,8,0,0,3
+696,Crystal Gnat,Character,SkyloomTemple,high,4,0,0,7,0,3
+333,Crystal Rat,Character,Fateforge,high,10,0,0,0,0,10
+332,Crystal Scorpion,Character,FloodbornPact,high,5,0,8,0,3,3
+440,Crystal Vanguard,Character,Fateforge,high,8,0,0,0,0,8
+693,Cuneiform Shade,Character,UnderwellKeepers,high,5,0,0,0,5,0
+692,Desert Boar,Character,BorderstoneGuild,high,4,4,0,0,0,0
+439,Desert Boar King,Character,BorderstoneGuild,high,4,4,0,0,0,0
+689,Desert Viper,Character,BorderstoneGuild,high,4,4,0,0,0,0
+330,Dune Chieftain,Character,BorderstoneGuild,high,4,4,0,0,0,0
+685,Dusk Serpent,Character,Fateforge,high,7,0,0,0,0,7
+325,Dust Phantom,Character,UnderwellKeepers,high,8,0,0,0,8,0
+683,Dust Rider,Character,SkyloomTemple,high,4,0,0,7,3,0
+323,Dust Titan,Character,UnderwellKeepers,high,8,0,0,0,8,0
+322,Dust Wraith,Character,UnderwellKeepers,high,4,4,0,0,8,0
+681,Eclipse Chanter,Character,BorderstoneGuild,high,4,4,0,0,0,0
+680,Eclipse Drone,Character,BorderstoneGuild,high,4,4,0,0,0,0
+438,Eclipse Hierophant,Character,BorderstoneGuild,high,4,4,0,0,0,0
+437,Eclipse Warlock,Character,UnderwellKeepers,high,4,0,1,0,5,0
+436,Eclipse Wraith,Character,UnderwellKeepers,high,5,0,0,0,5,0
+321,Ember Lord,Character,UnderwellKeepers,high,7,0,0,0,10,3
+268,Eresh,Character,SkyloomTemple,high,4,0,0,4,0,0
+675,Fallen Priest,Character,BorderstoneGuild,high,4,4,0,0,0,0
+674,False Prophet,Character,FloodbornPact,high,8,0,8,0,0,0
+435,Fire Pot Bearer,Character,BorderstoneGuild,high,4,4,0,0,0,0
+668,Fire Ram,Character,UnderwellKeepers,high,10,0,0,0,10,0
+502,Flesh Carver,Character,FloodbornPact,high,5,0,5,0,0,0
+501,Flesh Sculptor,Character,UnderwellKeepers,high,5,0,0,0,5,0
+318,Glass Lizard,Character,FloodbornPact,high,7,0,8,0,0,1
+498,Glyph Scribe,Character,SkyloomTemple,high,4,0,0,4,0,0
+657,Gold Spider,Character,UnderwellKeepers,high,5,0,0,0,5,0
+315,Golden Hoplite,Character,UnderwellKeepers,high,5,0,0,0,5,0
+431,Golden Strategist,Character,BorderstoneGuild,high,6,6,0,0,0,0
+312,Golden Vulture,Character,BorderstoneGuild,high,4,4,0,0,0,0
+424,Halo Regent,Character,SkyloomTemple,high,10,0,0,10,0,0
+423,Halo Seraph,Character,SkyloomTemple,high,6,0,0,6,0,0
+421,Hollow Beast,Character,BorderstoneGuild,high,4,4,0,0,0,0
+650,Hollow Tick,Character,UnderwellKeepers,high,10,0,0,0,10,0
+648,Hyena Matron,Character,FloodbornPact,high,8,0,8,0,0,0
+419,Hymncaller,Character,BorderstoneGuild,high,6,6,0,0,0,0
+496,Idol Binder,Character,UnderwellKeepers,high,5,0,0,0,5,0
+645,Idol Puppeteer,Character,BorderstoneGuild,high,4,4,0,0,0,0
+643,Idol Shade,Character,UnderwellKeepers,high,5,0,0,0,5,0
+266,Iltu,Character,Fateforge,high,5,0,0,0,0,5
+265,Irik,Character,Fateforge,high,5,0,0,0,0,5
+417,Iron Gaoler,Character,BorderstoneGuild,high,4,4,0,0,0,0
+416,Ironclad Gladiator,Character,FloodbornPact,high,8,0,8,0,0,0
+638,Jackal Alpha,Character,SkyloomTemple,high,7,0,0,7,0,0
+636,Lantern Shade,Character,UnderwellKeepers,high,5,0,0,0,5,0
+415,Lunar Abomination,Character,SkyloomTemple,high,4,0,0,4,0,0
+264,Maskat,Character,Fateforge,high,8,0,0,0,0,8
+303,Masked Gladiator,Character,BorderstoneGuild,high,4,4,0,0,0,0
+627,Masked Slayer,Character,UnderwellKeepers,high,5,0,0,0,5,0
+626,Mirror Reed,Character,FloodbornPact,high,6,0,6,0,0,0
+263,Nammu,Character,SkyloomTemple,high,7,0,0,7,0,0
+262,Namtar,Character,SkyloomTemple,high,4,0,0,7,3,0
+620,Oasis Thief,Character,FloodbornPact,high,4,0,4,0,0,0
+300,Oath Ghoul,Character,SkyloomTemple,high,5,0,0,5,0,0
+619,Oath Singer,Character,SkyloomTemple,high,5,0,0,5,0,0
+618,Oath Spawn,Character,SkyloomTemple,high,5,0,0,5,0,0
+410,Obelisk General,Character,Fateforge,high,8,0,0,0,0,8
+295,Obsidian Hound,Character,FloodbornPact,high,5,0,5,0,0,0
+492,Obsidian Tinker,Character,FloodbornPact,high,5,0,5,0,0,0
+491,Oracle of Chains,Character,UnderwellKeepers,high,5,0,0,1,6,0
+613,Pale Ghast,Character,UnderwellKeepers,high,5,0,0,0,5,0
+610,Pike Slave,Character,UnderwellKeepers,high,5,0,0,0,5,0
+609,Pit Champion,Character,Fateforge,high,8,0,0,0,0,8
+607,Pit Ghoul,Character,UnderwellKeepers,high,10,0,0,0,10,0
+294,Pit King,Character,Fateforge,high,5,0,0,0,0,5
+603,Plague Bat,Character,Fateforge,high,5,0,0,0,0,5
+292,Red Jackal,Character,BorderstoneGuild,high,4,4,0,0,0,0
+287,Red Shade,Character,UnderwellKeepers,high,5,0,0,0,5,0
+490,Red Soothsayer,Character,BorderstoneGuild,high,4,4,0,0,0,0
+600,Reed Leviathan,Character,FloodbornPact,high,6,0,6,0,0,0
+598,River Raider,Character,FloodbornPact,high,8,0,8,0,0,0
+285,Rune Beetle,Character,SkyloomTemple,high,7,0,0,7,0,0
+404,Rune Captain,Character,FloodbornPact,high,6,0,6,0,0,0
+284,Rune Idol,Character,UnderwellKeepers,high,10,0,0,0,10,0
+588,Sand Archivist,Character,UnderwellKeepers,high,6,0,0,0,6,0
+587,Sand Golem,Character,UnderwellKeepers,high,6,0,0,0,6,0
+585,Sand Mirage,Character,SkyloomTemple,high,4,0,0,4,0,0
+486,Sand Mystic,Character,UnderwellKeepers,high,5,0,0,0,5,0
+279,Sand Pike,Character,Fateforge,high,5,0,0,0,0,5
+277,Sand Scuttler,Character,FloodbornPact,high,5,0,5,0,0,0
+583,Sand Wormling,Character,FloodbornPact,high,5,0,5,0,0,0
+581,Scorpion King,Character,UnderwellKeepers,high,8,0,0,0,8,0
+580,Scorpion Queen,Character,Fateforge,high,4,0,0,0,3,7
+577,Sewer Leech,Character,UnderwellKeepers,high,6,0,0,0,6,0
+575,Shackled Ghoul,Character,BorderstoneGuild,high,4,4,0,0,0,0
+574,Shackled Wraith,Character,UnderwellKeepers,high,5,0,0,0,5,0
+573,Shadow Binder,Character,UnderwellKeepers,high,6,0,0,0,6,0
+569,Shield Twins,Character,Fateforge,high,5,0,0,0,0,5
+260,Shulgi,Character,FloodbornPact,high,5,0,5,0,0,0
+568,Siege Idol,Character,UnderwellKeepers,high,5,0,0,0,5,0
+482,Sigil Binder,Character,UnderwellKeepers,high,5,0,0,0,5,0
+564,Slave Hunter,Character,UnderwellKeepers,high,5,0,0,0,5,0
+563,Slime Lizard,Character,BorderstoneGuild,high,4,4,0,0,0,0
+480,Soul Harvester,Character,FloodbornPact,high,6,0,6,0,0,0
+259,Tammuz,Character,FloodbornPact,high,8,0,8,0,0,0
+557,Tax Enforcer,Character,FloodbornPact,high,4,0,4,0,0,0
+556,Tax Shade,Character,UnderwellKeepers,high,10,0,0,0,10,0
+554,Tomb Scrivener,Character,FloodbornPact,high,5,0,5,0,0,0
+553,Toxin Whisperer,Character,FloodbornPact,high,8,0,8,0,0,0
+551,Tunnel Crawler,Character,FloodbornPact,high,8,0,8,0,0,0
+258,Urid,Character,SkyloomTemple,high,7,0,0,7,0,0
+476,Venom Brewer,Character,BorderstoneGuild,high,4,4,0,0,0,0
+394,Void Augur,Character,Fateforge,high,7,0,0,0,0,7
+472,Void Evoker,Character,Fateforge,high,7,0,0,0,0,7
+549,Void Horror,Character,FloodbornPact,high,6,0,6,0,0,0
+271,Void Hyena,Character,BorderstoneGuild,high,4,4,0,0,0,0
+387,Void Knight,Character,BorderstoneGuild,high,4,4,0,0,0,0
+270,Void Tick,Character,UnderwellKeepers,high,6,0,0,0,6,0
+470,Vow Keeper,Character,Fateforge,high,5,0,0,0,0,5
+386,Word-Eater,Character,BorderstoneGuild,high,4,4,0,0,0,0
+469,Wraith Caller,Character,UnderwellKeepers,high,5,0,0,0,5,0
+257,Zaleth,Character,FloodbornPact,high,5,0,5,0,0,0
+256,Zari,Character,Fateforge,high,5,0,0,0,0,5
+190,Censor Audit,Edict,Fateforge,high,6,0,0,2,5,11
+189,Emergency Rationing,Edict,SkyloomTemple,high,5,0,0,5,0,0
+191,Festival Truce,Edict,Fateforge,high,6,0,0,2,0,8
+2,Bull of Heaven Fragment,HostSigil,FloodbornPact,high,4,1,5,0,0,0
+1,"Lamassu, Gate-Guardian",HostSigil,BorderstoneGuild,high,9,14,5,5,0,0
+13,Lion of the Threshold,HostSigil,BorderstoneGuild,high,4,9,0,5,0,0
+8,Namtar Shade,HostSigil,UnderwellKeepers,high,8,0,0,0,8,0
+11,Solar Juror,HostSigil,SkyloomTemple,high,11,0,0,11,0,0
+203,Closed Gate,Name,BorderstoneGuild,high,8,11,0,2,3,0
+195,Void Appeal,Name,SkyloomTemple,high,8,0,0,8,0,0
+196,Witness Noon,Name,SkyloomTemple,high,4,2,0,6,0,0
+242,Grave Moth,Pet,UnderwellKeepers,high,4,0,0,0,12,8
+249,Lantern Gecko,Pet,UnderwellKeepers,high,5,0,0,0,5,0
+253,Oath Beetle,Pet,SkyloomTemple,high,6,2,0,8,0,0
+252,Reed Cat,Pet,FloodbornPact,high,8,0,8,0,0,0
+243,River Lynx,Pet,FloodbornPact,high,6,0,11,0,0,5
+247,Seal Hound,Pet,SkyloomTemple,high,6,2,0,8,0,0
+251,Tablet Finch,Pet,SkyloomTemple,high,5,0,0,5,0,0
+233,Ashen Hourglass,Relic,Fateforge,high,5,0,0,0,0,5
+232,Kudurru Nail,Relic,BorderstoneGuild,high,4,5,0,0,1,0
+228,Ledger Rewrite,Relic,Fateforge,high,5,0,0,4,0,9
+236,Sealbreaker Awl,Relic,SkyloomTemple,high,5,0,0,5,0,0
+226,Shardwheel Engine,Relic,Fateforge,high,10,0,1,0,0,11
+231,Sunscript Censer,Relic,SkyloomTemple,high,6,5,0,11,5,0
+234,Witness Bell,Relic,SkyloomTemple,high,9,0,0,9,0,0
+210,Destiny Archive Vault,Site,SkyloomTemple,high,6,11,0,5,0,0
+223,Dust Gate,Site,BorderstoneGuild,high,7,12,0,5,3,0
+215,Halo Terrace,Site,Fateforge,high,6,11,0,3,0,5
+214,Mirror Archive,Site,FloodbornPact,high,5,8,3,3,0,0
+212,Oath Chain Dais,Site,BorderstoneGuild,high,6,11,0,5,5,0
+220,Reed Lock,Site,FloodbornPact,high,4,5,9,0,0,0
+222,Threshold Stair,Site,SkyloomTemple,high,4,9,0,5,1,0
+218,Warfield Basin,Site,BorderstoneGuild,high,11,11,0,0,0,0
+217,Witness Square,Site,SkyloomTemple,high,4,9,0,5,0,0

@@ -1,0 +1,7 @@
+metric,value
+low_before,319
+low_promoted_to_medium,35
+quota_safe_reassignments_applied,3
+low_after,281
+remaining_manual_review,274
+strong_reassignments_not_applied_due_to_quota,4

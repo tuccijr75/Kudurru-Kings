@@ -7,3 +7,7 @@ vite.config.ts.*
 temp
 Web_App
 build.zip
+.env
+.local/
+Kudurru-Kings.zip
+shipping_rules_v_1.md

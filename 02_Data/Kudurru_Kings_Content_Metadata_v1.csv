@@ -1,0 +1,755 @@
+card_id,card_name,legacy_section,legacy_unit_rank,legacy_race,legacy_tier,legacy_descriptor,legacy_stone,legacy_veil,legacy_oath_combat_stat,legacy_oath_upkeep,owner_faction
+1,"Lamassu, Gate-Guardian",Host Sigils,,,,,3,1,2,2,BorderstoneGuild
+2,Bull of Heaven Fragment,Host Sigils,,,,,4,0,2,2,FloodbornPact
+3,Archive Seraph,Host Sigils,,,,,2,3,3,2,SkyloomTemple
+4,"Anzu, Storm-Thief",Host Sigils,,,,,3,2,2,2,Fateforge
+5,Tablet Wraith Host,Host Sigils,,,,,1,3,3,1,Fateforge
+6,Seven Wind Herald,Host Sigils,,,,,1,2,1,1,SkyloomTemple
+7,Scorpion Judge,Host Sigils,,,,,2,1,3,1,UnderwellKeepers
+8,Namtar Shade,Host Sigils,,,,,1,3,2,1,UnderwellKeepers
+9,"Mushussu, Ember Coil",Host Sigils,,,,,3,1,2,1,FloodbornPact
+10,Copper Storm Choir,Host Sigils,,,,,2,2,2,1,Fateforge
+11,Solar Juror,Host Sigils,,,,,2,1,3,1,SkyloomTemple
+12,Moon Barge Apparition,Host Sigils,,,,,1,2,2,1,FloodbornPact
+13,Lion of the Threshold,Host Sigils,,,,,3,0,1,1,BorderstoneGuild
+14,Fish-Apkallu Echo,Host Sigils,,,,,1,1,2,1,UnderwellKeepers
+15,Basalt Ferryman,Host Sigils,,,,,2,1,2,1,BorderstoneGuild
+16,"Void Augur, the Hollow Prophet",Kingdom-bosses,major_boss,Crocavine,Kingdom-bosses,,8,11,6,25,BorderstoneGuild
+17,"Sandstorm Khan, the Desert Lord",Kingdom-bosses,major_boss,Ashling,Kingdom-bosses,,5,4,10,24,Fateforge
+18,"River Titan, the Flood King",Kingdom-bosses,major_boss,Covenant,Kingdom-bosses,,6,8,5,21,SkyloomTemple
+19,"Pharaoh of Chains, the Eternal",Kingdom-bosses,major_boss,Hydran,Kingdom-bosses,,4,9,4,20,SkyloomTemple
+20,"Obsidian Berserker, the Black King",Kingdom-bosses,major_boss,Sludgine,Kingdom-bosses,,5,5,12,28,UnderwellKeepers
+21,"Oath Champion, the Covenant King",Kingdom-bosses,major_boss,Slugborn,Kingdom-bosses,,5,9,4,20,SkyloomTemple
+22,"Masked Champion, the Golden Face",Kingdom-bosses,major_boss,Toadkin,Kingdom-bosses,,5,5,8,27,UnderwellKeepers
+23,"Marsh Leviathan, the Drowned Queen",Kingdom-bosses,major_boss,Automata,Kingdom-bosses,,5,6,9,26,FloodbornPact
+24,"Idol Colossus, the Living God",Kingdom-bosses,major_boss,Anunnaki,Kingdom-bosses,,6,12,8,27,UnderwellKeepers
+25,"Halo Paladin, the Radiant Lord",Kingdom-bosses,major_boss,Spidrine,Kingdom-bosses,,4,5,9,24,SkyloomTemple
+26,"Glyph Knight, the Rune King",Kingdom-bosses,major_boss,Prismal,Kingdom-bosses,,11,6,6,27,Fateforge
+27,"Eclipse Hierarch, the Night King",Kingdom-bosses,major_boss,Boneweft,Kingdom-bosses,,5,9,4,26,UnderwellKeepers
+28,"Crystal Vanguard, the Shard Emperor",Kingdom-bosses,major_boss,Anunnaki,Kingdom-bosses,,5,5,5,22,Fateforge
+29,"Crimson Duelmaster, the Blood Regent",Kingdom-bosses,major_boss,Hyenoid,Kingdom-bosses,,4,11,12,30,Fateforge
+30,"Chained Seer, the Blind Judge",Kingdom-bosses,major_boss,Bitum,Kingdom-bosses,,9,9,5,22,SkyloomTemple
+31,"Chain Warlord, the Iron Tyrant",Kingdom-bosses,major_boss,Anunnaki,Kingdom-bosses,,5,5,5,24,SkyloomTemple
+32,"Bronze Pitlord, the Arena King",Kingdom-bosses,major_boss,Scorpid,Kingdom-bosses,,5,5,9,25,UnderwellKeepers
+33,"Blood Moon Prophet, the Crimson Oracle",Kingdom-bosses,major_boss,Anunnaki,Kingdom-bosses,,12,12,5,34,FloodbornPact
+34,"Ashen Oracle, the Ember Queen",Kingdom-bosses,major_boss,Serpentid,Kingdom-bosses,,9,5,8,20,Fateforge
+35,"Ash Gladiator Lord, the Flame Sovereign",Kingdom-bosses,major_boss,Beetline,Kingdom-bosses,,10,5,5,28,Fateforge
+36,Anu the Exarch of Heaven,Bosses,major_boss,Lampreed,Bosses,,11,10,11,25,FloodbornPact
+37,Void Knight King,Major-bosses,major_boss,Juggerid,Major-bosses,,5,6,5,26,BorderstoneGuild
+38,Void King Lord,Major-bosses,major_boss,Idoline,Major-bosses,,8,6,6,20,BorderstoneGuild
+39,Void Inquisitor King,Major-bosses,major_boss,Rattusk,Major-bosses,,5,5,9,26,BorderstoneGuild
+40,Void Herald King,Major-bosses,major_boss,Slugborn,Major-bosses,,5,11,5,32,UnderwellKeepers
+41,Void Exarch King,Major-bosses,major_boss,Hawkind,Major-bosses,,9,11,5,25,BorderstoneGuild
+42,Void Devourer King,Major-bosses,major_boss,Raptrine,Major-bosses,,5,11,5,25,SkyloomTemple
+43,Void Centurion King,Major-bosses,major_boss,Eelborn,Major-bosses,,5,8,5,26,FloodbornPact
+44,Void Augur King,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,5,9,24,SkyloomTemple
+45,Skullcrusher King,Major-bosses,major_boss,Oxline,Major-bosses,,8,10,5,23,BorderstoneGuild
+46,Siege Idol King,Major-bosses,major_boss,Raptrine,Major-bosses,,5,4,10,26,BorderstoneGuild
+47,Shard Brute King,Major-bosses,major_boss,Bitum,Major-bosses,,4,6,9,26,Fateforge
+48,Shadow Hulk King,Major-bosses,major_boss,Spidrine,Major-bosses,,9,6,5,21,UnderwellKeepers
+49,Shadow Assassin Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,8,5,21,UnderwellKeepers
+50,Sandstorm Prophet Lord,Major-bosses,major_boss,Specari,Major-bosses,,5,11,4,24,Fateforge
+51,Sandstorm Khan Lord,Major-bosses,major_boss,Halor,Major-bosses,,5,8,5,26,SkyloomTemple
+52,Rune Pontiff King,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,6,4,25,BorderstoneGuild
+53,Rune Marshal King,Major-bosses,major_boss,Viperine,Major-bosses,,4,5,11,24,FloodbornPact
+54,Rune Khan King,Major-bosses,major_boss,Anunnaki,Major-bosses,,6,5,11,31,FloodbornPact
+55,Rune Exarch King,Major-bosses,major_boss,Scorpid,Major-bosses,,11,6,4,28,UnderwellKeepers
+56,Rune Captain King,Major-bosses,major_boss,Miteborn,Major-bosses,,5,11,9,26,SkyloomTemple
+57,Red Khan Lord,Major-bosses,major_boss,Idoline,Major-bosses,,10,6,4,26,BorderstoneGuild
+58,Prism Lancer King,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,4,5,25,Fateforge
+59,Pit King Lord,Major-bosses,major_boss,Jackalite,Major-bosses,,6,6,12,32,BorderstoneGuild
+60,Pit Beastmaster King,Major-bosses,major_boss,Inkborn,Major-bosses,,6,8,4,22,FloodbornPact
+61,Pharaoh of Chains,Major-bosses,major_boss,Oxline,Major-bosses,,5,12,8,27,BorderstoneGuild
+62,Oil Hydra King,Major-bosses,major_boss,Automata,Major-bosses,,5,5,8,18,BorderstoneGuild
+63,Obsidian Lion King,Major-bosses,major_boss,Tideborn,Major-bosses,,10,6,6,30,FloodbornPact
+64,Obsidian Berserker King,Major-bosses,major_boss,Wyrmling,Major-bosses,,5,6,8,20,BorderstoneGuild
+65,Obelisk Warden King,Major-bosses,major_boss,Anunnaki,Major-bosses,,12,4,6,26,FloodbornPact
+66,Obelisk General King,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,10,6,26,SkyloomTemple
+67,Oath Leviathan Lord,Major-bosses,major_boss,Slugborn,Major-bosses,,6,11,5,30,SkyloomTemple
+68,Oath Champion Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,11,6,6,27,SkyloomTemple
+69,Moonspawn Horror King,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,11,6,31,FloodbornPact
+70,Masked Warlord King,Major-bosses,major_boss,Inkborn,Major-bosses,,9,9,5,20,Fateforge
+71,Masked Champion Lord,Major-bosses,major_boss,Crocavine,Major-bosses,,5,5,9,23,BorderstoneGuild
+72,Marsh Leviathan,Major-bosses,major_boss,Titanid,Major-bosses,,8,5,4,24,FloodbornPact
+73,Lunar Abomination Lord,Major-bosses,major_boss,Eelborn,Major-bosses,,5,4,5,24,FloodbornPact
+74,Ironclad Gladiator King,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,11,12,32,FloodbornPact
+75,Iron Juggernaut King,Major-bosses,major_boss,Anunnaki,Major-bosses,,9,8,5,20,SkyloomTemple
+76,Idol Colossus,Major-bosses,major_boss,Viperine,Major-bosses,,9,9,5,21,Fateforge
+77,Hollow Bishop King,Major-bosses,major_boss,Centipor,Major-bosses,,10,5,9,23,BorderstoneGuild
+78,Hollow Beast King,Major-bosses,major_boss,Hydran,Major-bosses,,4,9,11,24,FloodbornPact
+79,Halo Seraphim Lord,Major-bosses,major_boss,Amphibine,Major-bosses,,6,5,9,24,SkyloomTemple
+80,Halo Seraph Lord,Major-bosses,major_boss,Centipor,Major-bosses,,11,6,9,26,SkyloomTemple
+81,Halo Regent Lord,Major-bosses,major_boss,Juggerid,Major-bosses,,5,9,10,23,BorderstoneGuild
+82,Halo Prelate Lord,Major-bosses,major_boss,Hyenoid,Major-bosses,,5,5,4,28,SkyloomTemple
+83,Halo Praetor Lord,Major-bosses,major_boss,Kudran,Major-bosses,,9,10,4,24,BorderstoneGuild
+84,Halo Paladin Lord,Major-bosses,major_boss,Boneweft,Major-bosses,,5,11,10,27,UnderwellKeepers
+85,Halo Exemplar Lord,Major-bosses,major_boss,Lupine,Major-bosses,,4,5,10,24,SkyloomTemple
+86,Halo Commander Lord,Major-bosses,major_boss,Dominion,Major-bosses,,5,10,11,27,SkyloomTemple
+87,Golden Strategos Lord,Major-bosses,major_boss,Beetline,Major-bosses,,6,11,5,32,BorderstoneGuild
+88,Golden Strategist Lord,Major-bosses,major_boss,Inkborn,Major-bosses,,9,5,12,26,SkyloomTemple
+89,Glyph Knight King,Major-bosses,major_boss,Ashling,Major-bosses,,9,12,4,26,Fateforge
+90,Gleam Sorcerer Lord,Major-bosses,major_boss,Amphibine,Major-bosses,,5,6,11,31,FloodbornPact
+91,Fire Ram King,Major-bosses,major_boss,Anunnaki,Major-bosses,,10,6,4,23,UnderwellKeepers
+92,Ember Prophet King,Major-bosses,major_boss,Myriad,Major-bosses,,10,5,8,24,Fateforge
+93,Ember Lord King,Major-bosses,major_boss,Cistern,Major-bosses,,8,4,5,22,FloodbornPact
+94,Eclipse Wraith Lord,Major-bosses,major_boss,Canid,Major-bosses,,6,5,9,20,UnderwellKeepers
+95,Eclipse Warlock Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,9,5,4,20,FloodbornPact
+96,Eclipse Hierarch,Major-bosses,major_boss,Dominion,Major-bosses,,5,9,6,24,SkyloomTemple
+97,Dust Wraith Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,9,4,21,UnderwellKeepers
+98,Dust Titan King,Major-bosses,major_boss,Ramkin,Major-bosses,,4,6,10,25,BorderstoneGuild
+99,Dune Chieftain King,Major-bosses,major_boss,Toadkin,Major-bosses,,6,8,6,26,UnderwellKeepers
+100,Crystal Vanguard King,Major-bosses,major_boss,Crocavine,Major-bosses,,9,8,5,20,Fateforge
+101,Crystal Stalker Lord,Major-bosses,major_boss,Ramkin,Major-bosses,,10,5,5,28,BorderstoneGuild
+102,Crystal Reaver King,Major-bosses,major_boss,Kudran,Major-bosses,,9,10,5,24,BorderstoneGuild
+103,Crystal Knight Lord,Major-bosses,major_boss,Viperine,Major-bosses,,9,5,4,26,Fateforge
+104,Crystal General King,Major-bosses,major_boss,Jackalite,Major-bosses,,5,5,11,31,Fateforge
+105,Crystal Colossus King,Major-bosses,major_boss,Anunnaki,Major-bosses,,11,4,9,24,Fateforge
+106,Crimson Prophetess Queen,Major-bosses,major_boss,Rattusk,Major-bosses,,6,12,4,32,Fateforge
+107,Crimson Pontiff King,Major-bosses,major_boss,Hawkind,Major-bosses,,5,8,12,26,FloodbornPact
+108,Crimson Khan King,Major-bosses,major_boss,Anunnaki,Major-bosses,,9,10,4,24,SkyloomTemple
+109,Crimson Horror King,Major-bosses,major_boss,Lampreed,Major-bosses,,5,9,8,20,FloodbornPact
+110,Crimson Duelmaster Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,6,10,26,UnderwellKeepers
+111,Crimson Champion Lord,Major-bosses,major_boss,Oxline,Major-bosses,,6,8,12,28,BorderstoneGuild
+112,Crimson Abomination Lord,Major-bosses,major_boss,Boarine,Major-bosses,,5,5,5,24,BorderstoneGuild
+113,Crescent Duelist Lord,Major-bosses,major_boss,Serpentid,Major-bosses,,6,5,10,24,Fateforge
+114,Crater Brute King,Major-bosses,major_boss,Beetline,Major-bosses,,4,4,11,23,BorderstoneGuild
+115,Chainfighter King,Major-bosses,major_boss,Rattusk,Major-bosses,,5,5,9,23,BorderstoneGuild
+116,Chained Seer King,Major-bosses,major_boss,Wyrmling,Major-bosses,,4,6,9,24,FloodbornPact
+117,Chain Warlord King,Major-bosses,major_boss,Boneweft,Major-bosses,,9,12,5,26,UnderwellKeepers
+118,Chain Pontiff Lord,Major-bosses,major_boss,Fungalid,Major-bosses,,5,5,11,26,UnderwellKeepers
+119,Chain Marshal Lord,Major-bosses,major_boss,Idoline,Major-bosses,,9,4,9,22,FloodbornPact
+120,Chain Hierophant Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,9,12,26,Fateforge
+121,Canyon Marauder King Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,10,4,5,27,FloodbornPact
+122,Canyon Lord King,Major-bosses,major_boss,Canid,Major-bosses,,9,5,6,20,SkyloomTemple
+123,Bronze Pitlord King,Major-bosses,major_boss,Prismal,Major-bosses,,11,4,10,27,Fateforge
+124,Bronze Juggernaut,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,6,11,27,UnderwellKeepers
+125,Bonebreaker Lord,Major-bosses,major_boss,Toadkin,Major-bosses,,5,11,8,23,UnderwellKeepers
+126,Bone Raider Lord King,Major-bosses,major_boss,Miteborn,Major-bosses,,5,5,6,28,UnderwellKeepers
+127,Bone Gladiator King,Major-bosses,major_boss,Anunnaki,Major-bosses,,4,5,5,24,UnderwellKeepers
+128,Bone Colossus King,Major-bosses,major_boss,Sludgine,Major-bosses,,5,12,6,30,UnderwellKeepers
+129,Bone Chieftain King,Major-bosses,major_boss,Hydran,Major-bosses,,4,8,4,19,UnderwellKeepers
+130,Bone Chariot Lord,Major-bosses,major_boss,Canid,Major-bosses,,5,6,10,26,UnderwellKeepers
+131,Bloodspiller Lord,Major-bosses,major_boss,Pyre,Major-bosses,,4,12,4,27,Fateforge
+132,Blood Prophet King,Major-bosses,major_boss,Boarine,Major-bosses,,11,6,6,28,BorderstoneGuild
+133,Blood Oracle Lord,Major-bosses,major_boss,Anunnaki,Major-bosses,,5,11,5,25,SkyloomTemple
+134,Blood Moon Prophet Lord,Major-bosses,major_boss,Crocavine,Major-bosses,,6,9,4,23,FloodbornPact
+135,Blood Matron Queen,Major-bosses,major_boss,Fungalid,Major-bosses,,11,5,5,27,Fateforge
+136,Blood Hierophant Lord,Major-bosses,major_boss,Tideborn,Major-bosses,,5,10,12,27,FloodbornPact
+137,Blood Arena Lord King,Major-bosses,major_boss,Jackalite,Major-bosses,,6,5,11,30,Fateforge
+138,Blade Dancer Lord,Major-bosses,major_boss,Lupine,Major-bosses,,5,12,5,31,Fateforge
+139,Ashen Oracle Queen,Major-bosses,major_boss,Shadeborn,Major-bosses,,10,12,6,30,UnderwellKeepers
+140,Ash Titan King,Major-bosses,major_boss,Lampreed,Major-bosses,,5,10,5,27,FloodbornPact
+141,Ash Priest King,Major-bosses,major_boss,Shadeborn,Major-bosses,,10,5,11,27,UnderwellKeepers
+142,Ash Oracle Queen,Major-bosses,major_boss,Juggerid,Major-bosses,,4,5,9,24,BorderstoneGuild
+143,Ash Nomad Chieftain King,Major-bosses,major_boss,Spidrine,Major-bosses,,5,6,8,20,Fateforge
+144,Ash Lord King,Major-bosses,major_boss,Boarine,Major-bosses,,12,4,5,31,BorderstoneGuild
+145,Ash Leviathan King,Major-bosses,major_boss,Anunnaki,Major-bosses,,11,8,5,23,FloodbornPact
+146,Ash High Priest King,Major-bosses,major_boss,Centipor,Major-bosses,,9,5,5,25,Fateforge
+147,Ash Hierarch Lord,Major-bosses,major_boss,Fungalid,Major-bosses,,6,10,4,22,Fateforge
+148,Ash Gladiator Lord King,Major-bosses,major_boss,Wyrmling,Major-bosses,,5,11,6,25,Fateforge
+149,Ash Demon Lord,Major-bosses,major_boss,Apsari,Major-bosses,,9,5,5,24,FloodbornPact
+150,Ash Bishop Queen,Major-bosses,major_boss,Cistern,Major-bosses,,9,5,6,24,FloodbornPact
+151,Ash Binder Lord,Major-bosses,major_boss,Hyenoid,Major-bosses,,11,12,4,30,UnderwellKeepers
+152,Arena Juggernaut King,Major-bosses,major_boss,Titanid,Major-bosses,,6,9,11,28,BorderstoneGuild
+153,Warden of Chains,Mini-bosses,boss,Anunnaki,Mini-bosses,,9,3,7,15,SkyloomTemple
+154,Void Serpent,Mini-bosses,boss,Anunnaki,Mini-bosses,,4,3,8,13,SkyloomTemple
+155,Void Horror King,Mini-bosses,boss,Anunnaki,Mini-bosses,,3,4,4,12,SkyloomTemple
+156,Sandstorm Avatar,Mini-bosses,boss,Miteborn,Mini-bosses,,7,7,4,13,SkyloomTemple
+157,Sand Serpent,Mini-bosses,boss,Wyrmling,Mini-bosses,,4,4,8,15,UnderwellKeepers
+158,Rune Goliath,Mini-bosses,boss,Cistern,Mini-bosses,,7,7,3,12,FloodbornPact
+159,Prophet of Eclipse,Mini-bosses,boss,Raptrine,Mini-bosses,,4,3,7,13,UnderwellKeepers
+160,Obelisk Avatar,Mini-bosses,boss,Hawkind,Mini-bosses,,4,7,4,14,UnderwellKeepers
+161,Oath Titan,Mini-bosses,boss,Sludgine,Mini-bosses,,3,9,4,14,SkyloomTemple
+162,Hollow Seraph,Mini-bosses,boss,Ashling,Mini-bosses,,8,6,4,12,Fateforge
+163,Halo Warden,Mini-bosses,boss,Fungalid,Mini-bosses,,3,8,4,13,SkyloomTemple
+164,Halo Ascendant,Mini-bosses,boss,Apsari,Mini-bosses,,4,4,9,16,FloodbornPact
+165,Glyph Titan,Mini-bosses,boss,Inkborn,Mini-bosses,,6,8,3,12,SkyloomTemple
+166,Glyph Behemoth,Mini-bosses,boss,Lampreed,Mini-bosses,,7,9,3,15,FloodbornPact
+167,Dust Wraith King,Mini-bosses,boss,Toadkin,Mini-bosses,,4,4,7,14,UnderwellKeepers
+168,Crystal Tyrant,Mini-bosses,boss,Automata,Mini-bosses,,4,3,3,12,BorderstoneGuild
+169,Crystal Leviathan,Mini-bosses,boss,Lupine,Mini-bosses,,4,3,8,17,FloodbornPact
+170,Crimson Prophet King,Mini-bosses,boss,Anunnaki,Mini-bosses,,8,4,8,15,BorderstoneGuild
+171,Crimson Juggernaut,Mini-bosses,boss,Beetline,Mini-bosses,,4,9,9,18,BorderstoneGuild
+172,Crimson Beast,Mini-bosses,boss,Scorpid,Mini-bosses,,3,9,3,15,UnderwellKeepers
+173,Canyon Titan,Mini-bosses,boss,Anunnaki,Mini-bosses,,4,9,4,19,BorderstoneGuild
+174,Bone Hydra,Mini-bosses,boss,Solari,Mini-bosses,,8,3,4,14,SkyloomTemple
+175,Bone Goliath,Mini-bosses,boss,Shadeborn,Mini-bosses,,3,4,3,13,UnderwellKeepers
+176,Blood Moon Avatar,Mini-bosses,boss,Halor,Mini-bosses,,4,4,9,16,SkyloomTemple
+177,Ash Titan Lord,Mini-bosses,boss,Eelborn,Mini-bosses,,4,7,8,14,FloodbornPact
+178,Ash Revenant King,Mini-bosses,boss,Serpentid,Mini-bosses,,3,7,4,11,Fateforge
+179,Ash Colossus,Mini-bosses,boss,Anunnaki,Mini-bosses,,3,6,8,12,Fateforge
+180,Royal Pardon,Edicts,,,,,0,0,3,0,FloodbornPact
+181,Sun-Script Overload,Edicts,,,,,1,1,2,0,SkyloomTemple
+182,Public Reckoning,Edicts,,,,,0,1,3,0,BorderstoneGuild
+183,Forced Testimony,Edicts,,,,,0,1,2,0,BorderstoneGuild
+184,Condemnation Seal,Edicts,,,,,1,1,2,0,SkyloomTemple
+185,Writ of Seizure,Edicts,,,,,1,0,2,0,BorderstoneGuild
+186,River Evacuation,Edicts,,,,,0,0,1,0,FloodbornPact
+187,Night Market Clause,Edicts,,,,,0,1,1,0,Fateforge
+188,Mercy Docket,Edicts,,,,,0,0,2,0,UnderwellKeepers
+189,Emergency Rationing,Edicts,,,,,0,0,1,0,SkyloomTemple
+190,Censor Audit,Edicts,,,,,0,1,2,0,Fateforge
+191,Festival Truce,Edicts,,,,,0,0,1,0,Fateforge
+192,Dust Court Recess,Edicts,,,,,0,0,1,0,UnderwellKeepers
+193,Convoy Priority,Edicts,,,,,1,0,1,0,UnderwellKeepers
+194,Boundary Fine,Edicts,,,,,0,0,2,0,FloodbornPact
+195,Void Appeal,Names,,,,,0,2,3,2,SkyloomTemple
+196,Witness Noon,Names,,,,,0,1,2,1,SkyloomTemple
+197,Weight of Kingship,Names,,,,,1,0,2,1,BorderstoneGuild
+198,Quiet Graves,Names,,,,,0,0,1,1,Fateforge
+199,Broken Oath,Names,,,,,0,1,2,1,Fateforge
+200,Two Suns,Names,,,,,0,0,2,1,FloodbornPact
+201,Red Distance,Names,,,,,0,0,1,1,FloodbornPact
+202,Heavy Crowns,Names,,,,,0,0,2,1,BorderstoneGuild
+203,Closed Gate,Names,,,,,1,0,2,1,BorderstoneGuild
+204,Swift Shadow,Names,,,,,0,2,0,1,UnderwellKeepers
+205,Salt Covenant,Names,,,,,0,0,2,1,SkyloomTemple
+206,Hearth Amnesty,Names,,,,,0,0,2,1,Fateforge
+207,Glass Mercy,Names,,,,,0,1,1,1,UnderwellKeepers
+208,Far Ear,Names,,,,,0,1,1,1,FloodbornPact
+209,Open Ledger,Names,,,,,0,0,1,1,UnderwellKeepers
+210,Destiny Archive Vault,Sites,,,,,0,1,3,1,SkyloomTemple
+211,Star Bell Harbor,Sites,,,,,0,1,2,0,UnderwellKeepers
+212,Oath Chain Dais,Sites,,,,,1,0,3,0,BorderstoneGuild
+213,Shard Plateau Blind,Sites,,,,,0,1,1,0,FloodbornPact
+214,Mirror Archive,Sites,,,,,0,1,2,0,FloodbornPact
+215,Halo Terrace,Sites,,,,,0,1,2,0,Fateforge
+216,Bitumen Furnace,Sites,,,,,2,0,1,0,Fateforge
+217,Witness Square,Sites,,,,,0,1,2,0,SkyloomTemple
+218,Warfield Basin,Sites,,,,,1,0,1,0,BorderstoneGuild
+219,Sanctuary Court,Sites,,,,,1,0,2,0,UnderwellKeepers
+220,Reed Lock,Sites,,,,,0,0,1,0,FloodbornPact
+221,Clause Pike,Sites,,,,,1,0,2,0,Fateforge
+222,Threshold Stair,Sites,,,,,1,0,1,0,SkyloomTemple
+223,Dust Gate,Sites,,,,,1,0,1,0,BorderstoneGuild
+224,Basalt Quay,Sites,,,,,1,0,0,0,UnderwellKeepers
+225,Archive Prism,Relics,,,,,0,2,2,1,UnderwellKeepers
+226,Shardwheel Engine,Relics,,,,,1,0,0,0,Fateforge
+227,Null Cantor,Relics,,,,,0,1,1,0,UnderwellKeepers
+228,Ledger Rewrite,Relics,,,,,0,1,1,0,Fateforge
+229,Gravity Lance,Relics,,,,,0,0,0,0,BorderstoneGuild
+230,Trial Chain,Relics,,,,,1,0,2,1,UnderwellKeepers
+231,Sunscript Censer,Relics,,,,,0,1,2,1,SkyloomTemple
+232,Kudurru Nail,Relics,,,,,1,0,2,0,BorderstoneGuild
+233,Ashen Hourglass,Relics,,,,,0,2,1,1,Fateforge
+234,Witness Bell,Relics,,,,,0,0,1,0,SkyloomTemple
+235,Sirocco Bracer,Relics,,,,,1,0,0,0,FloodbornPact
+236,Sealbreaker Awl,Relics,,,,,0,1,1,0,SkyloomTemple
+237,Reedglass Lens,Relics,,,,,0,1,0,0,FloodbornPact
+238,Mirror Hook,Relics,,,,,0,1,0,0,FloodbornPact
+239,Bitumen Harness,Relics,,,,,1,0,0,0,BorderstoneGuild
+240,Gate Viper,Pets,,,,,1,2,1,1,BorderstoneGuild
+241,Halo Pup,Pets,,,,,1,0,1,0,Fateforge
+242,Grave Moth,Pets,,,,,0,2,1,0,UnderwellKeepers
+243,River Lynx,Pets,,,,,1,1,0,0,FloodbornPact
+244,Pearl Kite,Pets,,,,,0,1,0,0,FloodbornPact
+245,Ink Crow,Pets,,,,,0,2,0,0,UnderwellKeepers
+246,Shard Bat,Pets,,,,,0,1,0,0,Fateforge
+247,Seal Hound,Pets,,,,,1,0,1,0,SkyloomTemple
+248,Quarry Jackal Pup,Pets,,,,,1,0,0,0,BorderstoneGuild
+249,Lantern Gecko,Pets,,,,,0,1,0,0,UnderwellKeepers
+250,Bitumen Tortoise,Pets,,,,,2,0,1,0,Fateforge
+251,Tablet Finch,Pets,,,,,0,1,1,0,SkyloomTemple
+252,Reed Cat,Pets,,,,,0,0,0,0,FloodbornPact
+253,Oath Beetle,Pets,,,,,0,0,1,0,SkyloomTemple
+254,Dust Mite,Pets,,,,,1,1,0,0,BorderstoneGuild
+255,Adamu,Heroes,hero,Human,Heroes,,10,9,10,20,BorderstoneGuild
+256,Zari,Heroes,hero,Specari,Heroes,,3,8,7,13,Fateforge
+257,Zaleth,Heroes,hero,Apsari,Heroes,,7,7,4,12,FloodbornPact
+258,Urid,Heroes,hero,Solari,Heroes,,8,3,7,14,SkyloomTemple
+259,Tammuz,Heroes,hero,Tideborn,Heroes,,4,4,3,13,FloodbornPact
+260,Shulgi,Heroes,hero,Apsari,Heroes,,3,6,4,12,FloodbornPact
+261,Rook,Heroes,hero,Anunnaki,Heroes,,8,7,4,15,Fateforge
+262,Namtar,Heroes,hero,Covenant,Heroes,,4,3,9,17,SkyloomTemple
+263,Nammu,Heroes,hero,Halor,Heroes,,9,9,4,18,SkyloomTemple
+264,Maskat,Heroes,hero,Prismal,Heroes,,4,7,4,12,Fateforge
+265,Irik,Heroes,hero,Bitum,Heroes,,3,4,7,12,Fateforge
+266,Iltu,Heroes,hero,Pyre,Heroes,,8,3,3,14,Fateforge
+267,Etana,Heroes,hero,Myriad,Heroes,,7,4,4,14,BorderstoneGuild
+268,Eresh,Heroes,hero,Dominion,Heroes,,6,3,3,10,SkyloomTemple
+269,Ashur,Heroes,hero,Kudran,Heroes,,6,3,9,14,BorderstoneGuild
+270,Void Tick,Mars bestiary,,Boneweft,Mars bestiary,,2,0,1,0,UnderwellKeepers
+271,Void Hyena,Mars bestiary,,Ramkin,Mars bestiary,,2,1,2,0,BorderstoneGuild
+272,Void Centipede,Mars bestiary,,Hawkind,Mars bestiary,,1,0,1,0,SkyloomTemple
+273,Temple Thrall,Mars bestiary,,Anunnaki,Mars bestiary,,0,0,1,0,SkyloomTemple
+274,Scaled Vulture,Mars bestiary,,Anunnaki,Mars bestiary,,1,3,0,0,FloodbornPact
+275,Sandstorm Prophet,Mars bestiary,,Lupine,Mars bestiary,,0,1,0,0,SkyloomTemple
+276,Sandstorm Khan,Mars bestiary,,Hydran,Mars bestiary,,0,3,0,0,BorderstoneGuild
+277,Sand Scuttler,Mars bestiary,,Apsari,Mars bestiary,,1,1,0,0,FloodbornPact
+278,Sand Raider,Mars bestiary,,Anunnaki,Mars bestiary,,0,1,0,0,SkyloomTemple
+279,Sand Pike,Mars bestiary,,Bitum,Mars bestiary,,1,1,0,0,Fateforge
+280,Sand Basilisk,Mars bestiary,,Idoline,Mars bestiary,,1,1,1,0,BorderstoneGuild
+281,Rune Swordsman,Mars bestiary,,Miteborn,Mars bestiary,,2,2,1,0,FloodbornPact
+282,Rune Spider,Mars bestiary,,Wyrmling,Mars bestiary,,0,0,1,0,SkyloomTemple
+283,Rune Jackal,Mars bestiary,,Sludgine,Mars bestiary,,1,2,1,0,Fateforge
+284,Rune Idol,Mars bestiary,,Shadeborn,Mars bestiary,,0,0,1,0,UnderwellKeepers
+285,Rune Beetle,Mars bestiary,,Solari,Mars bestiary,,1,0,3,0,SkyloomTemple
+286,Rock Breaker,Mars bestiary,,Anunnaki,Mars bestiary,,2,1,0,0,BorderstoneGuild
+287,Red Shade,Mars bestiary,,Hyenoid,Mars bestiary,,1,0,0,0,UnderwellKeepers
+288,Red Scarab,Mars bestiary,,Centipor,Mars bestiary,,1,2,1,0,FloodbornPact
+289,Red Rat,Mars bestiary,,Canid,Mars bestiary,,1,2,3,0,SkyloomTemple
+290,Red Lash,Mars bestiary,,Anunnaki,Mars bestiary,,0,0,2,0,Fateforge
+291,Red Khan,Mars bestiary,,Centipor,Mars bestiary,,1,2,0,0,UnderwellKeepers
+292,Red Jackal,Mars bestiary,,Ramkin,Mars bestiary,,2,0,1,0,BorderstoneGuild
+293,Pit Thrall,Mars bestiary,,Anunnaki,Mars bestiary,,0,3,0,0,BorderstoneGuild
+294,Pit King,Mars bestiary,,Pyre,Mars bestiary,,1,0,1,0,Fateforge
+295,Obsidian Hound,Mars bestiary,,Amphibine,Mars bestiary,,1,1,3,0,FloodbornPact
+296,Obsidian Axe,Mars bestiary,,Anunnaki,Mars bestiary,,1,0,3,0,FloodbornPact
+297,Obelisk Guard,Mars bestiary,,Myriad,Mars bestiary,,1,1,0,0,UnderwellKeepers
+298,Oath Servitor,Mars bestiary,,Oxline,Mars bestiary,,1,0,3,0,BorderstoneGuild
+299,Oath Serpent,Mars bestiary,,Slugborn,Mars bestiary,,1,0,2,0,SkyloomTemple
+300,Oath Ghoul,Mars bestiary,,Hydran,Mars bestiary,,0,2,2,0,SkyloomTemple
+301,Maskless Fighter,Mars bestiary,,Miteborn,Mars bestiary,,1,2,0,0,FloodbornPact
+302,Masked Warlord,Mars bestiary,,Anunnaki,Mars bestiary,,1,0,2,0,SkyloomTemple
+303,Masked Gladiator,Mars bestiary,,Titanid,Mars bestiary,,0,1,2,0,BorderstoneGuild
+304,Masked Champion,Mars bestiary,,Inkborn,Mars bestiary,,1,0,1,0,Fateforge
+305,Lattice Spearman,Mars bestiary,,Rattusk,Mars bestiary,,1,1,2,0,BorderstoneGuild
+306,Lattice Guard,Mars bestiary,,Viperine,Mars bestiary,,2,0,1,0,FloodbornPact
+307,Halo Wraith,Mars bestiary,,Prismal,Mars bestiary,,1,1,0,0,Fateforge
+308,Halo Vulture,Mars bestiary,,Anunnaki,Mars bestiary,,1,0,3,0,SkyloomTemple
+309,Halo Statue,Mars bestiary,,Serpentid,Mars bestiary,,3,2,1,1,SkyloomTemple
+310,Halo Servant,Mars bestiary,,Titanid,Mars bestiary,,1,1,2,0,BorderstoneGuild
+311,Halo Archer,Mars bestiary,,Beetline,Mars bestiary,,3,1,1,0,SkyloomTemple
+312,Golden Vulture,Mars bestiary,,Juggerid,Mars bestiary,,0,3,0,1,BorderstoneGuild
+313,Golden Scarab,Mars bestiary,,Anunnaki,Mars bestiary,,3,1,1,0,Fateforge
+314,Golden Rat,Mars bestiary,,Fungalid,Mars bestiary,,1,1,3,1,BorderstoneGuild
+315,Golden Hoplite,Mars bestiary,,Toadkin,Mars bestiary,,0,2,0,0,UnderwellKeepers
+316,Glyph Shade,Mars bestiary,,Raptrine,Mars bestiary,,0,3,0,1,UnderwellKeepers
+317,Glyph Servant,Mars bestiary,,Jackalite,Mars bestiary,,0,2,2,0,SkyloomTemple
+318,Glass Lizard,Mars bestiary,,Lampreed,Mars bestiary,,0,2,1,0,FloodbornPact
+319,Flame Idol,Mars bestiary,,Anunnaki,Mars bestiary,,1,3,1,0,Fateforge
+320,Ember Prophet,Mars bestiary,,Titanid,Mars bestiary,,0,1,2,0,BorderstoneGuild
+321,Ember Lord,Mars bestiary,,Shadeborn,Mars bestiary,,0,3,1,0,UnderwellKeepers
+322,Dust Wraith,Mars bestiary,,Automata,Mars bestiary,,0,0,1,0,UnderwellKeepers
+323,Dust Titan,Mars bestiary,,Slugborn,Mars bestiary,,1,2,1,0,UnderwellKeepers
+324,Dust Spider,Mars bestiary,,Anunnaki,Mars bestiary,,0,2,0,0,UnderwellKeepers
+325,Dust Phantom,Mars bestiary,,Scorpid,Mars bestiary,,0,1,2,0,UnderwellKeepers
+326,Dust Crawler,Mars bestiary,,Wyrmling,Mars bestiary,,0,3,1,0,UnderwellKeepers
+327,Dust Centipede,Mars bestiary,,Anunnaki,Mars bestiary,,1,1,2,0,UnderwellKeepers
+328,Dune Rider,Mars bestiary,,Hawkind,Mars bestiary,,1,3,1,0,FloodbornPact
+329,Dune Hyena,Mars bestiary,,Hydran,Mars bestiary,,0,2,0,0,SkyloomTemple
+330,Dune Chieftain,Mars bestiary,,Boarine,Mars bestiary,,2,2,0,0,BorderstoneGuild
+331,Crystal Spiderling,Mars bestiary,,Anunnaki,Mars bestiary,,2,0,2,0,Fateforge
+332,Crystal Scorpion,Mars bestiary,,Lampreed,Mars bestiary,,2,2,1,0,FloodbornPact
+333,Crystal Rat,Mars bestiary,,Ashling,Mars bestiary,,1,2,0,0,Fateforge
+334,Crystal Basilisk,Mars bestiary,,Idoline,Mars bestiary,,0,3,1,1,BorderstoneGuild
+335,Crimson Prophetess,Mars bestiary,,Amphibine,Mars bestiary,,0,0,3,0,FloodbornPact
+336,Crimson Pontiff,Mars bestiary,,Scorpid,Mars bestiary,,1,1,1,0,UnderwellKeepers
+337,Crimson Khan,Mars bestiary,,Covenant,Mars bestiary,,0,0,1,0,SkyloomTemple
+338,Crimson Horror,Mars bestiary,,Dominion,Mars bestiary,,1,1,3,1,SkyloomTemple
+339,Crimson Guard,Mars bestiary,,Cistern,Mars bestiary,,3,1,1,0,FloodbornPact
+340,Crimson Gladiator,Mars bestiary,,Anunnaki,Mars bestiary,,2,0,0,0,SkyloomTemple
+341,Crimson Duelmaster,Mars bestiary,,Hawkind,Mars bestiary,,2,2,0,0,UnderwellKeepers
+342,Crimson Champion,Mars bestiary,,Toadkin,Mars bestiary,,0,1,3,0,UnderwellKeepers
+343,Crimson Abomination,Mars bestiary,,Kudran,Mars bestiary,,0,2,1,0,BorderstoneGuild
+344,Cliff Raider,Mars bestiary,,Crocavine,Mars bestiary,,0,0,0,0,UnderwellKeepers
+345,Cinder Jackal,Mars bestiary,,Anunnaki,Mars bestiary,,1,1,2,0,BorderstoneGuild
+346,Chain Wraith,Mars bestiary,,Anunnaki,Mars bestiary,,0,0,0,0,UnderwellKeepers
+347,Chain Warlord,Mars bestiary,,Specari,Mars bestiary,,2,2,0,0,Fateforge
+348,Chain Hierophant,Mars bestiary,,Serpentid,Mars bestiary,,1,0,2,0,UnderwellKeepers
+349,Chain Duelist,Mars bestiary,,Boarine,Mars bestiary,,1,1,2,0,BorderstoneGuild
+350,Chain Driver,Mars bestiary,,Centipor,Mars bestiary,,3,1,0,0,FloodbornPact
+351,Carrion Stalker,Mars bestiary,,Anunnaki,Mars bestiary,,3,2,0,0,Fateforge
+352,Carrion Jackal,Mars bestiary,,Oxline,Mars bestiary,,0,2,0,0,BorderstoneGuild
+353,Carrion Bat,Mars bestiary,,Ashling,Mars bestiary,,1,1,2,0,Fateforge
+354,Canyon Lurker,Mars bestiary,,Halor,Mars bestiary,,0,1,1,0,SkyloomTemple
+355,Canyon Lord,Mars bestiary,,Cistern,Mars bestiary,,0,1,2,0,FloodbornPact
+356,Canyon King,Mars bestiary,,Anunnaki,Mars bestiary,,2,0,2,0,SkyloomTemple
+357,Bronze Pitlord,Mars bestiary,,Lupine,Mars bestiary,,1,0,0,0,BorderstoneGuild
+358,Bronze Overseer,Mars bestiary,,Fungalid,Mars bestiary,,2,3,0,0,FloodbornPact
+359,Broken Gladiator,Mars bestiary,,Beetline,Mars bestiary,,3,1,1,0,BorderstoneGuild
+360,Bound Hound,Mars bestiary,,Halor,Mars bestiary,,1,1,1,0,SkyloomTemple
+361,Bone Tick,Mars bestiary,,Raptrine,Mars bestiary,,2,0,0,0,UnderwellKeepers
+362,Bone Pit,Mars bestiary,,Eelborn,Mars bestiary,,0,1,0,1,FloodbornPact
+363,Bone Lord,Mars bestiary,,Juggerid,Mars bestiary,,0,0,1,0,BorderstoneGuild
+364,Bone Horror,Mars bestiary,,Anunnaki,Mars bestiary,,3,0,0,0,UnderwellKeepers
+365,Bone Gladiator,Mars bestiary,,Beetline,Mars bestiary,,1,0,1,0,BorderstoneGuild
+366,Bone Colossus,Mars bestiary,,Anunnaki,Mars bestiary,,2,1,0,0,UnderwellKeepers
+367,Bone Chieftain,Mars bestiary,,Anunnaki,Mars bestiary,,1,0,2,0,UnderwellKeepers
+368,Blood Slave,Mars bestiary,,Amphibine,Mars bestiary,,0,0,2,0,FloodbornPact
+369,Blood Oracle,Mars bestiary,,Viperine,Mars bestiary,,1,1,0,0,SkyloomTemple
+370,Blood Matron,Mars bestiary,,Anunnaki,Mars bestiary,,1,0,1,0,Fateforge
+371,Blood Dervish,Mars bestiary,,Prismal,Mars bestiary,,0,0,0,0,Fateforge
+372,Ash Wight,Mars bestiary,,Solari,Mars bestiary,,0,0,2,0,SkyloomTemple
+373,Ash Titan,Mars bestiary,,Boneweft,Mars bestiary,,0,2,1,0,UnderwellKeepers
+374,Ash Spider,Mars bestiary,,Fungalid,Mars bestiary,,1,2,1,0,Fateforge
+375,Ash Revenant,Mars bestiary,,Canid,Mars bestiary,,1,1,2,0,Fateforge
+376,Ash Nomad,Mars bestiary,,Jackalite,Mars bestiary,,0,3,1,0,Fateforge
+377,Ash Mite,Mars bestiary,,Cistern,Mars bestiary,,1,0,2,0,FloodbornPact
+378,Ash Leviathan,Mars bestiary,,Lampreed,Mars bestiary,,0,2,3,0,FloodbornPact
+379,Ash High,Mars bestiary,,Crocavine,Mars bestiary,,2,1,1,0,Fateforge
+380,Ash Gladiator,Mars bestiary,,Anunnaki,Mars bestiary,,1,3,3,1,Fateforge
+381,Ash Ghoul,Mars bestiary,,Serpentid,Mars bestiary,,0,1,1,0,Fateforge
+382,Ash Duelist,Mars bestiary,,Spidrine,Mars bestiary,,0,1,1,0,Fateforge
+383,Ash Demon,Mars bestiary,,Spidrine,Mars bestiary,,2,0,1,0,Fateforge
+384,Ash Chieftain,Mars bestiary,,Idoline,Mars bestiary,,1,1,1,0,Fateforge
+385,Arena Juggernaut,Mars bestiary,,Miteborn,Mars bestiary,,2,0,0,0,Fateforge
+386,Word-Eater,Elites,elite,Ramkin,Elites,,7,3,3,11,BorderstoneGuild
+387,Void Knight,Elites,elite,Boarine,Elites,,2,4,2,6,BorderstoneGuild
+388,Void King,Elites,elite,Canid,Elites,,2,2,2,6,SkyloomTemple
+389,Void Inquisitor,Elites,elite,Anunnaki,Elites,,3,2,2,6,SkyloomTemple
+390,Void Herald,Elites,elite,Sludgine,Elites,,3,7,5,9,SkyloomTemple
+391,Void Exarch,Elites,elite,Jackalite,Elites,,3,3,7,10,SkyloomTemple
+392,Void Devourer,Elites,elite,Hydran,Elites,,6,3,7,10,SkyloomTemple
+393,Void Centurion,Elites,elite,Anunnaki,Elites,,2,2,7,7,SkyloomTemple
+394,Void Augur,Elites,elite,Ashling,Elites,,7,3,2,10,Fateforge
+395,Skullcrusher,Elites,elite,Jackalite,Elites,,2,6,3,7,SkyloomTemple
+396,Silver Mask Judge,Elites,elite,Specari,Elites,,7,6,3,10,SkyloomTemple
+397,Shard Brute,Elites,elite,Anunnaki,Elites,,3,2,4,6,Fateforge
+398,Shadow Hulk,Elites,elite,Anunnaki,Elites,,6,2,2,7,UnderwellKeepers
+399,Shadow Assassin,Elites,elite,Ramkin,Elites,,3,7,3,11,BorderstoneGuild
+400,Rune Pontiff,Elites,elite,Anunnaki,Elites,,3,3,6,9,BorderstoneGuild
+401,Rune Marshal,Elites,elite,Titanid,Elites,,2,3,6,8,BorderstoneGuild
+402,Rune Khan,Elites,elite,Idoline,Elites,,2,6,5,7,BorderstoneGuild
+403,Rune Exarch,Elites,elite,Rattusk,Elites,,6,3,3,9,SkyloomTemple
+404,Rune Captain,Elites,elite,Eelborn,Elites,,4,7,3,7,FloodbornPact
+405,Prism Lancer,Elites,elite,Oxline,Elites,,2,3,7,8,BorderstoneGuild
+406,Pit Enforcer,Elites,elite,Canid,Elites,,2,6,3,7,BorderstoneGuild
+407,Pit Beastmaster,Elites,elite,Anunnaki,Elites,,6,2,4,6,FloodbornPact
+408,Obsidian Berserker,Elites,elite,Anunnaki,Elites,,5,6,3,7,BorderstoneGuild
+409,Obelisk Warden,Elites,elite,Anunnaki,Elites,,4,3,5,6,SkyloomTemple
+410,Obelisk General,Elites,elite,Prismal,Elites,,2,3,2,7,Fateforge
+411,Oath Leviathan,Elites,elite,Centipor,Elites,,3,2,5,6,SkyloomTemple
+412,Oath Champion,Elites,elite,Scorpid,Elites,,2,5,2,8,SkyloomTemple
+413,Moonspawn Horror,Elites,elite,Beetline,Elites,,2,5,3,6,FloodbornPact
+414,Moonblade Captain,Elites,elite,Anunnaki,Elites,,5,3,3,7,FloodbornPact
+415,Lunar Abomination,Elites,elite,Dominion,Elites,,3,3,7,9,SkyloomTemple
+416,Ironclad Gladiator,Elites,elite,Tideborn,Elites,,6,3,3,8,FloodbornPact
+417,Iron Gaoler,Elites,elite,Juggerid,Elites,,2,2,7,10,BorderstoneGuild
+418,Ink-Tongue,Elites,elite,Viperine,Elites,,3,3,4,5,BorderstoneGuild
+419,Hymncaller,Elites,elite,Oxline,Elites,,7,3,2,11,BorderstoneGuild
+420,Hollow Bishop,Elites,elite,Anunnaki,Elites,,3,2,6,9,UnderwellKeepers
+421,Hollow Beast,Elites,elite,Juggerid,Elites,,6,2,2,6,BorderstoneGuild
+422,Halo Seraphim,Elites,elite,Ramkin,Elites,,4,2,3,7,SkyloomTemple
+423,Halo Seraph,Elites,elite,Myriad,Elites,,3,3,3,6,SkyloomTemple
+424,Halo Regent,Elites,elite,Solari,Elites,,6,2,3,7,SkyloomTemple
+425,Halo Prelate,Elites,elite,Toadkin,Elites,,2,7,5,8,UnderwellKeepers
+426,Halo Praetor,Elites,elite,Amphibine,Elites,,2,3,2,6,FloodbornPact
+427,Halo Paladin,Elites,elite,Wyrmling,Elites,,2,3,2,9,SkyloomTemple
+428,Halo Exemplar,Elites,elite,Hawkind,Elites,,7,2,2,7,SkyloomTemple
+429,Halo Commander,Elites,elite,Sludgine,Elites,,3,2,3,7,SkyloomTemple
+430,Golden Strategos,Elites,elite,Spidrine,Elites,,2,2,4,7,UnderwellKeepers
+431,Golden Strategist,Elites,elite,Oxline,Elites,,3,5,2,6,BorderstoneGuild
+432,Gold-Mask Captain,Elites,elite,Inkborn,Elites,,3,2,2,6,FloodbornPact
+433,Glyph Knight,Elites,elite,Crocavine,Elites,,3,5,3,9,SkyloomTemple
+434,Gleam Sorcerer,Elites,elite,Viperine,Elites,,6,2,3,10,Fateforge
+435,Fire Pot Bearer,Elites,elite,Titanid,Elites,,3,2,3,6,BorderstoneGuild
+436,Eclipse Wraith,Elites,elite,Anunnaki,Elites,,2,2,7,10,UnderwellKeepers
+437,Eclipse Warlock,Elites,elite,Slugborn,Elites,,2,3,7,8,UnderwellKeepers
+438,Eclipse Hierophant,Elites,elite,Automata,Elites,,6,6,2,7,BorderstoneGuild
+439,Desert Boar King,Elites,elite,Boarine,Elites,,2,6,3,7,BorderstoneGuild
+440,Crystal Vanguard,Elites,elite,Bitum,Elites,,2,3,5,6,Fateforge
+441,Crystal Stalker,Elites,elite,Amphibine,Elites,,2,3,6,7,FloodbornPact
+442,Crystal Reaver,Elites,elite,Eelborn,Elites,,3,4,2,6,FloodbornPact
+443,Crystal Knight,Elites,elite,Inkborn,Elites,,6,6,2,8,Fateforge
+444,Crystal General,Elites,elite,Inkborn,Elites,,2,2,2,5,Fateforge
+445,Crystal Colossus,Elites,elite,Lampreed,Elites,,2,3,7,10,FloodbornPact
+446,Crescent Duelist,Elites,elite,Shadeborn,Elites,,2,4,7,8,UnderwellKeepers
+447,Crater Brute,Elites,elite,Toadkin,Elites,,3,6,2,8,UnderwellKeepers
+448,Choir of Bone,Elites,elite,Anunnaki,Elites,,2,6,3,7,UnderwellKeepers
+449,Chainfighter,Elites,elite,Hyenoid,Elites,,3,7,7,11,SkyloomTemple
+450,Chained Seer,Elites,elite,Crocavine,Elites,,2,7,4,8,UnderwellKeepers
+451,Chain Tyrant,Elites,elite,Idoline,Elites,,3,7,2,10,BorderstoneGuild
+452,Chain Pontiff,Elites,elite,Centipor,Elites,,3,5,2,7,FloodbornPact
+453,Canyon Marauder King,Elites,elite,Raptrine,Elites,,2,6,2,7,FloodbornPact
+454,Bonebreaker,Elites,elite,Rattusk,Elites,,2,7,6,9,UnderwellKeepers
+455,Bone Raider Lord,Elites,elite,Automata,Elites,,2,2,2,6,BorderstoneGuild
+456,Bone Horror King,Elites,elite,Boarine,Elites,,6,6,3,9,BorderstoneGuild
+457,Bloodspiller,Elites,elite,Anunnaki,Elites,,6,2,3,8,Fateforge
+458,Blood Moon Prophet,Elites,elite,Anunnaki,Elites,,2,6,3,8,FloodbornPact
+459,Blood Hierophant,Elites,elite,Hyenoid,Elites,,3,2,3,7,Fateforge
+460,Blood Arena Lord,Elites,elite,Lupine,Elites,,2,3,3,7,Fateforge
+461,Blade Dancer,Elites,elite,Pyre,Elites,,3,6,2,8,Fateforge
+462,Ashen Oracle,Elites,elite,Wyrmling,Elites,,3,6,2,8,Fateforge
+463,Ash Nomad Chieftain,Elites,elite,Anunnaki,Elites,,6,2,3,8,Fateforge
+464,Ash Lord,Elites,elite,Anunnaki,Elites,,3,7,3,8,Fateforge
+465,Ash High Priest,Elites,elite,Boneweft,Elites,,2,2,6,6,UnderwellKeepers
+466,Ash Hierarch,Elites,elite,Cistern,Elites,,2,5,6,7,FloodbornPact
+467,Ash Gladiator Lord,Elites,elite,Covenant,Elites,,6,2,3,10,SkyloomTemple
+468,Ash Bishop,Elites,elite,Fungalid,Elites,,2,2,2,6,Fateforge
+469,Wraith Caller,Specialists,specialist,Anunnaki,Specialists,,2,5,2,3,UnderwellKeepers
+470,Vow Keeper,Specialists,specialist,Bitum,Specialists,,1,3,2,2,Fateforge
+471,Void Scribe,Specialists,specialist,Hawkind,Specialists,,2,2,4,2,SkyloomTemple
+472,Void Evoker,Specialists,specialist,Ashling,Specialists,,5,5,1,5,Fateforge
+473,Void Chemist,Specialists,specialist,Hawkind,Specialists,,1,3,3,1,FloodbornPact
+474,Void Binder,Specialists,specialist,Ramkin,Specialists,,2,1,4,3,UnderwellKeepers
+475,Viscera Sculptor,Specialists,specialist,Sludgine,Specialists,,1,3,1,3,SkyloomTemple
+476,Venom Brewer,Specialists,specialist,Juggerid,Specialists,,2,4,1,2,BorderstoneGuild
+477,Venom Alchemist,Specialists,specialist,Hyenoid,Specialists,,2,1,4,4,FloodbornPact
+478,Tablet Keeper,Specialists,specialist,Spidrine,Specialists,,1,2,3,2,FloodbornPact
+479,Sporebrewer,Specialists,specialist,Rattusk,Specialists,,1,2,4,2,SkyloomTemple
+480,Soul Harvester,Specialists,specialist,Eelborn,Specialists,,2,3,1,3,FloodbornPact
+481,Smoke Weaver,Specialists,specialist,Viperine,Specialists,,2,3,3,2,FloodbornPact
+482,Sigil Binder,Specialists,specialist,Anunnaki,Specialists,,2,2,3,3,UnderwellKeepers
+483,Shadow Puppeteer,Specialists,specialist,Anunnaki,Specialists,,2,1,1,4,UnderwellKeepers
+484,Sand Tinker,Specialists,specialist,Anunnaki,Specialists,,2,2,1,2,FloodbornPact
+485,Sand Prophetess,Specialists,specialist,Canid,Specialists,,2,4,2,3,BorderstoneGuild
+486,Sand Mystic,Specialists,specialist,Scorpid,Specialists,,2,3,2,3,UnderwellKeepers
+487,Sand Alchemist,Specialists,specialist,Anunnaki,Specialists,,1,3,1,1,FloodbornPact
+488,Rune Mystic,Specialists,specialist,Anunnaki,Specialists,,1,1,1,3,FloodbornPact
+489,Rune Mechanist,Specialists,specialist,Viperine,Specialists,,1,5,1,3,SkyloomTemple
+490,Red Soothsayer,Specialists,specialist,Boarine,Specialists,,1,4,5,3,BorderstoneGuild
+491,Oracle of Chains,Specialists,specialist,Boneweft,Specialists,,2,2,1,1,UnderwellKeepers
+492,Obsidian Tinker,Specialists,specialist,Amphibine,Specialists,,4,1,4,3,FloodbornPact
+493,Moonfire Adept,Specialists,specialist,Raptrine,Specialists,,1,2,2,1,FloodbornPact
+494,Idol Worshipper,Specialists,specialist,Anunnaki,Specialists,,1,3,1,3,SkyloomTemple
+495,Idol Mechanist,Specialists,specialist,Miteborn,Specialists,,1,4,4,3,Fateforge
+496,Idol Binder,Specialists,specialist,Serpentid,Specialists,,2,2,5,4,UnderwellKeepers
+497,Halo Mystic,Specialists,specialist,Myriad,Specialists,,2,2,1,1,SkyloomTemple
+498,Glyph Scribe,Specialists,specialist,Hydran,Specialists,,2,5,1,3,SkyloomTemple
+499,Geas Weaver,Specialists,specialist,Centipor,Specialists,,2,2,1,2,BorderstoneGuild
+500,Flesh Weaver,Specialists,specialist,Lupine,Specialists,,2,4,2,4,UnderwellKeepers
+501,Flesh Sculptor,Specialists,specialist,Scorpid,Specialists,,2,2,2,1,UnderwellKeepers
+502,Flesh Carver,Specialists,specialist,Amphibine,Specialists,,4,1,4,3,FloodbornPact
+503,Ember Seer,Specialists,specialist,Anunnaki,Specialists,,5,3,1,3,Fateforge
+504,Eclipse Visionary,Specialists,specialist,Crocavine,Specialists,,2,1,3,2,SkyloomTemple
+505,Eclipse Summoner,Specialists,specialist,Jackalite,Specialists,,2,3,5,4,UnderwellKeepers
+506,Eclipse Binder,Specialists,specialist,Tideborn,Specialists,,1,3,2,1,FloodbornPact
+507,Dust Chemist,Specialists,specialist,Pyre,Specialists,,1,1,3,2,Fateforge
+508,Dream Warden,Specialists,specialist,Fungalid,Specialists,,2,3,2,1,UnderwellKeepers
+509,Dream Seer,Specialists,specialist,Idoline,Specialists,,1,2,4,3,BorderstoneGuild
+510,Cuneiform Savant,Specialists,specialist,Miteborn,Specialists,,1,3,1,2,UnderwellKeepers
+511,Crystal Tinker,Specialists,specialist,Spidrine,Specialists,,2,2,2,1,Fateforge
+512,Crystal Thaumaturge,Specialists,specialist,Anunnaki,Specialists,,1,2,1,3,Fateforge
+513,Crystal Puppeteer,Specialists,specialist,Anunnaki,Specialists,,2,2,5,4,Fateforge
+514,Crystal Brewer,Specialists,specialist,Lupine,Specialists,,3,1,3,2,Fateforge
+515,Crystal Artificer,Specialists,specialist,Titanid,Specialists,,4,2,2,2,BorderstoneGuild
+516,Crimson Visionary,Specialists,specialist,Hydran,Specialists,,3,2,1,3,FloodbornPact
+517,Crimson Thaumaturge,Specialists,specialist,Titanid,Specialists,,1,2,2,3,BorderstoneGuild
+518,Crimson Scribe,Specialists,specialist,Beetline,Specialists,,2,3,1,2,BorderstoneGuild
+519,Crimson Oracle,Specialists,specialist,Slugborn,Specialists,,2,4,2,3,UnderwellKeepers
+520,Crimson Caller,Specialists,specialist,Ashling,Specialists,,5,2,4,4,Fateforge
+521,Crimson Binder,Specialists,specialist,Hyenoid,Specialists,,2,1,2,1,UnderwellKeepers
+522,Covenant Breaker,Specialists,specialist,Anunnaki,Specialists,,1,4,2,2,SkyloomTemple
+523,Chain Engineer,Specialists,specialist,Specari,Specialists,,5,1,2,3,Fateforge
+524,Bone Harvester,Specialists,specialist,Anunnaki,Specialists,,2,1,1,3,UnderwellKeepers
+525,Bone Conductor,Specialists,specialist,Jackalite,Specialists,,2,4,2,2,UnderwellKeepers
+526,Bone Binder,Specialists,specialist,Anunnaki,Specialists,,4,4,1,3,UnderwellKeepers
+527,Bone Artificer,Specialists,specialist,Kudran,Specialists,,2,2,2,1,BorderstoneGuild
+528,Blood Soothsayer,Specialists,specialist,Slugborn,Specialists,,1,3,5,3,UnderwellKeepers
+529,Blood Sculptor,Specialists,specialist,Serpentid,Specialists,,2,1,2,2,Fateforge
+530,Blood Draught Maker,Specialists,specialist,Anunnaki,Specialists,,4,2,2,2,Fateforge
+531,Beast Caller,Specialists,specialist,Oxline,Specialists,,1,1,4,2,BorderstoneGuild
+532,Ash Weaver,Specialists,specialist,Shadeborn,Specialists,,1,3,1,3,UnderwellKeepers
+533,Ash Sorcerer,Specialists,specialist,Inkborn,Specialists,,2,2,5,4,Fateforge
+534,Ash Sculptor,Specialists,specialist,Lampreed,Specialists,,2,3,2,2,FloodbornPact
+535,Ash Prophetess,Specialists,specialist,Apsari,Specialists,,2,3,2,1,FloodbornPact
+536,Ash Mechanist,Specialists,specialist,Boneweft,Specialists,,2,2,4,3,UnderwellKeepers
+537,Ash Idolator,Specialists,specialist,Automata,Specialists,,5,2,2,3,BorderstoneGuild
+538,Ash Dreamer,Specialists,specialist,Covenant,Specialists,,2,1,4,3,SkyloomTemple
+539,Ash Alchemist,Specialists,specialist,Cistern,Specialists,,2,2,2,4,FloodbornPact
+540,Word Eater,Grunts,grunt,Crocavine,Grunts,,0,0,2,0,SkyloomTemple
+541,Whipbearer,Grunts,grunt,Anunnaki,Grunts,,3,3,0,1,SkyloomTemple
+542,Whip Sergeant,Grunts,grunt,Rattusk,Grunts,,2,1,2,0,SkyloomTemple
+543,Vulture Queen,Grunts,grunt,Canid,Grunts,,1,0,2,0,SkyloomTemple
+544,Vowbinder Judge,Grunts,grunt,Sludgine,Grunts,,0,1,1,0,SkyloomTemple
+545,Void Thrall,Grunts,grunt,Anunnaki,Grunts,,0,2,2,0,SkyloomTemple
+546,Void Obelisk,Grunts,grunt,Anunnaki,Grunts,,1,1,2,0,SkyloomTemple
+547,Void Leech,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,SkyloomTemple
+548,Void Hymnist,Grunts,grunt,Anunnaki,Grunts,,1,1,0,0,SkyloomTemple
+549,Void Horror,Grunts,grunt,Eelborn,Grunts,,3,1,0,0,FloodbornPact
+550,Tunnel Spider,Grunts,grunt,Idoline,Grunts,,1,0,1,0,BorderstoneGuild
+551,Tunnel Crawler,Grunts,grunt,Tideborn,Grunts,,3,0,1,0,FloodbornPact
+552,Trap Setter,Grunts,grunt,Lupine,Grunts,,0,1,1,0,SkyloomTemple
+553,Toxin Whisperer,Grunts,grunt,Lampreed,Grunts,,1,1,1,0,FloodbornPact
+554,Tomb Scrivener,Grunts,grunt,Amphibine,Grunts,,1,1,2,0,FloodbornPact
+555,Taxlord Balash,Grunts,grunt,Beetline,Grunts,,0,1,1,0,Fateforge
+556,Tax Shade,Grunts,grunt,Toadkin,Grunts,,2,1,1,0,UnderwellKeepers
+557,Tax Enforcer,Grunts,grunt,Cistern,Grunts,,0,3,1,0,FloodbornPact
+558,Tablet Binder,Grunts,grunt,Ashling,Grunts,,1,2,3,1,Fateforge
+559,Spore Drudge,Grunts,grunt,Lupine,Grunts,,1,2,0,0,FloodbornPact
+560,Spear Watch,Grunts,grunt,Centipor,Grunts,,0,2,1,0,BorderstoneGuild
+561,Soul Drinker,Grunts,grunt,Viperine,Grunts,,1,2,3,0,SkyloomTemple
+562,Sludge Slime,Grunts,grunt,Canid,Grunts,,1,1,3,0,SkyloomTemple
+563,Slime Lizard,Grunts,grunt,Ramkin,Grunts,,1,2,0,0,BorderstoneGuild
+564,Slave Hunter,Grunts,grunt,Toadkin,Grunts,,1,1,1,0,UnderwellKeepers
+565,Slave Champion,Grunts,grunt,Anunnaki,Grunts,,1,1,0,0,FloodbornPact
+566,Silver Rat,Grunts,grunt,Jackalite,Grunts,,1,1,1,1,FloodbornPact
+567,Siege Ox,Grunts,grunt,Jackalite,Grunts,,1,3,0,0,SkyloomTemple
+568,Siege Idol,Grunts,grunt,Scorpid,Grunts,,0,0,1,0,UnderwellKeepers
+569,Shield Twins,Grunts,grunt,Pyre,Grunts,,1,3,1,0,Fateforge
+570,Shardback Boar,Grunts,grunt,Automata,Grunts,,3,0,0,0,BorderstoneGuild
+571,Shadow Knifebearer,Grunts,grunt,Juggerid,Grunts,,0,0,3,0,BorderstoneGuild
+572,Shadow Eel,Grunts,grunt,Hydran,Grunts,,1,3,0,0,FloodbornPact
+573,Shadow Binder,Grunts,grunt,Anunnaki,Grunts,,0,2,1,0,UnderwellKeepers
+574,Shackled Wraith,Grunts,grunt,Hyenoid,Grunts,,1,2,0,0,UnderwellKeepers
+575,Shackled Ghoul,Grunts,grunt,Titanid,Grunts,,2,0,1,0,BorderstoneGuild
+576,Shacklebearer Guard,Grunts,grunt,Hawkind,Grunts,,3,1,0,0,FloodbornPact
+577,Sewer Leech,Grunts,grunt,Boneweft,Grunts,,0,1,0,0,UnderwellKeepers
+578,Serpent Queen,Grunts,grunt,Anunnaki,Grunts,,1,1,0,0,SkyloomTemple
+579,Screamer Wraith,Grunts,grunt,Oxline,Grunts,,0,2,2,0,BorderstoneGuild
+580,Scorpion Queen,Grunts,grunt,Ashling,Grunts,,1,1,1,0,Fateforge
+581,Scorpion King,Grunts,grunt,Slugborn,Grunts,,1,1,1,0,UnderwellKeepers
+582,Scorpion Alchemist,Grunts,grunt,Sludgine,Grunts,,1,1,0,0,UnderwellKeepers
+583,Sand Wormling,Grunts,grunt,Amphibine,Grunts,,1,0,1,0,FloodbornPact
+584,Sand Oracle,Grunts,grunt,Juggerid,Grunts,,0,2,2,0,BorderstoneGuild
+585,Sand Mirage,Grunts,grunt,Dominion,Grunts,,1,0,1,0,SkyloomTemple
+586,Sand Hyena,Grunts,grunt,Raptrine,Grunts,,0,1,2,0,FloodbornPact
+587,Sand Golem,Grunts,grunt,Boneweft,Grunts,,2,1,1,0,UnderwellKeepers
+588,Sand Archivist,Grunts,grunt,Boneweft,Grunts,,0,0,1,0,UnderwellKeepers
+589,Rust Slug,Grunts,grunt,Anunnaki,Grunts,,0,0,2,0,SkyloomTemple
+590,Rust Mite,Grunts,grunt,Anunnaki,Grunts,,0,3,2,0,BorderstoneGuild
+591,Rune Husk,Grunts,grunt,Hydran,Grunts,,2,2,0,0,BorderstoneGuild
+592,Rune Horror,Grunts,grunt,Sludgine,Grunts,,0,2,3,0,FloodbornPact
+593,Rune Centipede,Grunts,grunt,Hyenoid,Grunts,,0,2,0,0,UnderwellKeepers
+594,Rockgnasher Beast,Grunts,grunt,Anunnaki,Grunts,,2,1,1,0,Fateforge
+595,River Wolf,Grunts,grunt,Beetline,Grunts,,1,2,1,0,FloodbornPact
+596,River Warlord,Grunts,grunt,Automata,Grunts,,0,2,1,0,FloodbornPact
+597,River Titan,Grunts,grunt,Idoline,Grunts,,1,0,1,0,FloodbornPact
+598,River Raider,Grunts,grunt,Amphibine,Grunts,,0,2,3,0,FloodbornPact
+599,Reed Serpent,Grunts,grunt,Hydran,Grunts,,1,2,0,0,FloodbornPact
+600,Reed Leviathan,Grunts,grunt,Wyrmling,Grunts,,3,1,3,1,FloodbornPact
+601,Reed Brewmaster,Grunts,grunt,Slugborn,Grunts,,2,1,1,0,UnderwellKeepers
+602,Plague Drummer,Grunts,grunt,Anunnaki,Grunts,,0,0,1,0,Fateforge
+603,Plague Bat,Grunts,grunt,Bitum,Grunts,,1,1,2,0,Fateforge
+604,Pit Jailer,Grunts,grunt,Spidrine,Grunts,,1,0,0,0,FloodbornPact
+605,Pit Houndmaster,Grunts,grunt,Anunnaki,Grunts,,1,2,1,1,SkyloomTemple
+606,Pit Guard,Grunts,grunt,Anunnaki,Grunts,,0,1,1,0,UnderwellKeepers
+607,Pit Ghoul,Grunts,grunt,Shadeborn,Grunts,,1,0,1,0,UnderwellKeepers
+608,Pit Fighter,Grunts,grunt,Spidrine,Grunts,,1,0,2,0,Fateforge
+609,Pit Champion,Grunts,grunt,Prismal,Grunts,,1,0,2,0,Fateforge
+610,Pike Slave,Grunts,grunt,Scorpid,Grunts,,0,2,0,0,UnderwellKeepers
+611,Pale Stalker,Grunts,grunt,Raptrine,Grunts,,0,0,0,0,SkyloomTemple
+612,Pale Prophet,Grunts,grunt,Idoline,Grunts,,1,1,0,0,BorderstoneGuild
+613,Pale Ghast,Grunts,grunt,Toadkin,Grunts,,0,1,1,1,UnderwellKeepers
+614,Oil Hydra,Grunts,grunt,Hyenoid,Grunts,,0,1,2,0,UnderwellKeepers
+615,Obsidian Lion,Grunts,grunt,Toadkin,Grunts,,2,2,1,0,UnderwellKeepers
+616,Obsidian Helm,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,Fateforge
+617,Oathkeeper Ghost,Grunts,grunt,Bitum,Grunts,,1,3,0,0,SkyloomTemple
+618,Oath Spawn,Grunts,grunt,Canid,Grunts,,0,1,3,0,SkyloomTemple
+619,Oath Singer,Grunts,grunt,Anunnaki,Grunts,,0,0,1,0,SkyloomTemple
+620,Oasis Thief,Grunts,grunt,Cistern,Grunts,,0,2,0,0,FloodbornPact
+621,Night Prowler,Grunts,grunt,Jackalite,Grunts,,1,0,0,0,Fateforge
+622,Mud Rat,Grunts,grunt,Anunnaki,Grunts,,3,1,1,0,BorderstoneGuild
+623,Moonfang Wolf,Grunts,grunt,Canid,Grunts,,1,0,2,0,FloodbornPact
+624,Moon Idol,Grunts,grunt,Boarine,Grunts,,0,2,1,0,BorderstoneGuild
+625,Moon Acolyte,Grunts,grunt,Boarine,Grunts,,1,0,0,0,BorderstoneGuild
+626,Mirror Reed,Grunts,grunt,Miteborn,Grunts,,0,1,1,0,FloodbornPact
+627,Masked Slayer,Grunts,grunt,Slugborn,Grunts,,0,2,0,0,UnderwellKeepers
+628,Masked King,Grunts,grunt,Anunnaki,Grunts,,2,3,0,0,UnderwellKeepers
+629,Marsh Toad,Grunts,grunt,Oxline,Grunts,,1,1,2,0,BorderstoneGuild
+630,Marsh Stalker,Grunts,grunt,Spidrine,Grunts,,1,1,2,1,FloodbornPact
+631,Marsh Phantom,Grunts,grunt,Scorpid,Grunts,,1,1,1,0,UnderwellKeepers
+632,Marsh Cutthroat,Grunts,grunt,Boarine,Grunts,,1,0,1,0,BorderstoneGuild
+633,Ledger Bearer,Grunts,grunt,Miteborn,Grunts,,3,1,0,1,SkyloomTemple
+634,Lash Overseer,Grunts,grunt,Cistern,Grunts,,0,1,1,0,FloodbornPact
+635,Lash Captain,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,Fateforge
+636,Lantern Shade,Grunts,grunt,Rattusk,Grunts,,1,2,1,0,UnderwellKeepers
+637,Knife Zealot,Grunts,grunt,Viperine,Grunts,,1,2,2,0,SkyloomTemple
+638,Jackal Alpha,Grunts,grunt,Halor,Grunts,,0,0,2,0,SkyloomTemple
+639,Ironbound Horror,Grunts,grunt,Inkborn,Grunts,,3,0,1,0,UnderwellKeepers
+640,Iron Lash,Grunts,grunt,Anunnaki,Grunts,,2,1,1,0,Fateforge
+641,Iron Juggernaut,Grunts,grunt,Anunnaki,Grunts,,0,2,3,0,Fateforge
+642,Ink Tongue,Grunts,grunt,Centipor,Grunts,,2,1,2,0,FloodbornPact
+643,Idol Shade,Grunts,grunt,Anunnaki,Grunts,,2,1,0,0,UnderwellKeepers
+644,Idol Servant,Grunts,grunt,Centipor,Grunts,,1,0,2,0,UnderwellKeepers
+645,Idol Puppeteer,Grunts,grunt,Ramkin,Grunts,,1,1,2,0,BorderstoneGuild
+646,Idol Chanter,Grunts,grunt,Anunnaki,Grunts,,0,1,0,0,BorderstoneGuild
+647,Hymncaller Priest,Grunts,grunt,Anunnaki,Grunts,,0,0,3,0,FloodbornPact
+648,Hyena Matron,Grunts,grunt,Lampreed,Grunts,,1,0,1,0,FloodbornPact
+649,Howling Fiend,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,SkyloomTemple
+650,Hollow Tick,Grunts,grunt,Shadeborn,Grunts,,0,2,3,0,UnderwellKeepers
+651,Hill Ram,Grunts,grunt,Anunnaki,Grunts,,1,2,1,0,Fateforge
+652,Hill Raider,Grunts,grunt,Fungalid,Grunts,,3,1,3,1,BorderstoneGuild
+653,High Priest,Grunts,grunt,Raptrine,Grunts,,0,2,0,0,FloodbornPact
+654,Halo Spawn,Grunts,grunt,Raptrine,Grunts,,0,2,0,0,SkyloomTemple
+655,Halo Husk,Grunts,grunt,Spidrine,Grunts,,1,0,0,0,SkyloomTemple
+656,Golden Whip,Grunts,grunt,Anunnaki,Grunts,,3,2,0,0,SkyloomTemple
+657,Gold Spider,Grunts,grunt,Scorpid,Grunts,,2,3,0,0,UnderwellKeepers
+658,Gold Captain,Grunts,grunt,Myriad,Grunts,,1,2,0,0,SkyloomTemple
+659,Glyph Ghoul,Grunts,grunt,Anunnaki,Grunts,,2,3,1,1,SkyloomTemple
+660,Glow Beetle,Grunts,grunt,Inkborn,Grunts,,0,2,2,0,UnderwellKeepers
+661,Glass Weaver,Grunts,grunt,Kudran,Grunts,,2,2,0,0,BorderstoneGuild
+662,Glass Mite,Grunts,grunt,Wyrmling,Grunts,,0,1,2,0,Fateforge
+663,Furnace Caller,Grunts,grunt,Hydran,Grunts,,1,2,2,0,Fateforge
+664,Fungus Mite,Grunts,grunt,Serpentid,Grunts,,1,1,2,0,FloodbornPact
+665,Fungus Creeper,Grunts,grunt,Crocavine,Grunts,,0,1,0,0,SkyloomTemple
+666,Frog Mother,Grunts,grunt,Anunnaki,Grunts,,1,0,2,0,UnderwellKeepers
+667,Fire Sapper,Grunts,grunt,Hawkind,Grunts,,2,2,0,0,Fateforge
+668,Fire Ram,Grunts,grunt,Shadeborn,Grunts,,1,2,0,0,UnderwellKeepers
+669,Fire Jackal,Grunts,grunt,Anunnaki,Grunts,,1,1,2,0,BorderstoneGuild
+670,Fire Beetle,Grunts,grunt,Anunnaki,Grunts,,1,0,2,0,FloodbornPact
+671,Fire Bearer,Grunts,grunt,Inkborn,Grunts,,1,0,3,1,SkyloomTemple
+672,Fire Ashling,Grunts,grunt,Eelborn,Grunts,,0,1,1,0,FloodbornPact
+673,Filth King,Grunts,grunt,Raptrine,Grunts,,0,3,2,0,UnderwellKeepers
+674,False Prophet,Grunts,grunt,Lampreed,Grunts,,1,1,3,0,FloodbornPact
+675,Fallen Priest,Grunts,grunt,Kudran,Grunts,,3,0,1,0,BorderstoneGuild
+676,Exiled Gladiator,Grunts,grunt,Wyrmling,Grunts,,2,2,0,0,Fateforge
+677,Enlil Vessel,Grunts,grunt,Anunnaki,Grunts,,0,1,1,0,FloodbornPact
+678,Ember Masker,Grunts,grunt,Oxline,Grunts,,2,2,1,0,BorderstoneGuild
+679,Eclipse Revenant,Grunts,grunt,Anunnaki,Grunts,,0,0,3,1,Fateforge
+680,Eclipse Drone,Grunts,grunt,Juggerid,Grunts,,3,0,0,0,BorderstoneGuild
+681,Eclipse Chanter,Grunts,grunt,Ramkin,Grunts,,2,0,3,0,BorderstoneGuild
+682,Echo Voice,Grunts,grunt,Anunnaki,Grunts,,0,1,1,0,BorderstoneGuild
+683,Dust Rider,Grunts,grunt,Covenant,Grunts,,0,2,1,0,SkyloomTemple
+684,Dust Librarian,Grunts,grunt,Fungalid,Grunts,,1,0,1,0,UnderwellKeepers
+685,Dusk Serpent,Grunts,grunt,Ashling,Grunts,,2,2,0,0,Fateforge
+686,Drowned Archivist,Grunts,grunt,Rattusk,Grunts,,1,0,1,0,FloodbornPact
+687,Dog Breaker,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,Fateforge
+688,Desert Vulture,Grunts,grunt,Inkborn,Grunts,,1,2,1,0,BorderstoneGuild
+689,Desert Viper,Grunts,grunt,Juggerid,Grunts,,1,1,1,0,BorderstoneGuild
+690,Desert Jackal,Grunts,grunt,Anunnaki,Grunts,,2,3,0,0,FloodbornPact
+691,Desert Hawk,Grunts,grunt,Miteborn,Grunts,,1,1,3,1,SkyloomTemple
+692,Desert Boar,Grunts,grunt,Automata,Grunts,,0,2,0,0,BorderstoneGuild
+693,Cuneiform Shade,Grunts,grunt,Anunnaki,Grunts,,1,1,3,1,UnderwellKeepers
+694,Crystal Wasp,Grunts,grunt,Dominion,Grunts,,0,2,0,0,SkyloomTemple
+695,Crystal Louse,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,Fateforge
+696,Crystal Gnat,Grunts,grunt,Covenant,Grunts,,3,1,2,1,SkyloomTemple
+697,Crocodile Warlord,Grunts,grunt,Hydran,Grunts,,0,0,1,0,Fateforge
+698,Crimson Youth,Grunts,grunt,Anunnaki,Grunts,,1,2,0,0,BorderstoneGuild
+699,Crater Rat,Grunts,grunt,Crocavine,Grunts,,0,2,1,0,Fateforge
+700,Crater Lurker,Grunts,grunt,Fungalid,Grunts,,1,1,2,0,BorderstoneGuild
+701,Corpse Beetle,Grunts,grunt,Crocavine,Grunts,,3,2,1,0,FloodbornPact
+702,Collapse Worker,Grunts,grunt,Jackalite,Grunts,,0,0,3,0,SkyloomTemple
+703,Cistern Horror,Grunts,grunt,Wyrmling,Grunts,,1,0,2,0,Fateforge
+704,Chittering Bat,Grunts,grunt,Anunnaki,Grunts,,2,2,0,0,Fateforge
+705,Chanter Priest,Grunts,grunt,Oxline,Grunts,,1,2,1,0,BorderstoneGuild
+706,Chant Twins,Grunts,grunt,Lampreed,Grunts,,1,0,2,0,FloodbornPact
+707,Chain Warden,Grunts,grunt,Myriad,Grunts,,0,0,2,0,Fateforge
+708,Chain Thrower,Grunts,grunt,Hawkind,Grunts,,1,1,0,0,BorderstoneGuild
+709,Chain Marshal,Grunts,grunt,Viperine,Grunts,,1,3,0,1,FloodbornPact
+710,Chain Keeper,Grunts,grunt,Lupine,Grunts,,1,0,0,0,SkyloomTemple
+711,Chain Drudge,Grunts,grunt,Shadeborn,Grunts,,2,0,1,0,UnderwellKeepers
+712,Chain Automaton,Grunts,grunt,Ramkin,Grunts,,1,2,2,0,BorderstoneGuild
+713,Caravan Breaker,Grunts,grunt,Anunnaki,Grunts,,2,1,2,0,BorderstoneGuild
+714,Canal Thief,Grunts,grunt,Juggerid,Grunts,,2,3,1,0,BorderstoneGuild
+715,Canal Lamprey,Grunts,grunt,Ashling,Grunts,,1,3,1,0,Fateforge
+716,Bronze Spear,Grunts,grunt,Serpentid,Grunts,,0,0,3,0,UnderwellKeepers
+717,Bronze Shield,Grunts,grunt,Fungalid,Grunts,,2,0,2,0,Fateforge
+718,Bronze Sentinel,Grunts,grunt,Amphibine,Grunts,,2,1,2,0,FloodbornPact
+719,Bronze Gaoler,Grunts,grunt,Lupine,Grunts,,2,3,0,0,SkyloomTemple
+720,Bronze Colossus,Grunts,grunt,Serpentid,Grunts,,1,2,1,0,UnderwellKeepers
+721,Bronze Automaton,Grunts,grunt,Solari,Grunts,,0,2,2,0,SkyloomTemple
+722,Broken Scribe,Grunts,grunt,Boneweft,Grunts,,1,1,2,1,UnderwellKeepers
+723,Bonebound Spirit,Grunts,grunt,Specari,Grunts,,1,3,1,1,Fateforge
+724,Bone Queen,Grunts,grunt,Slugborn,Grunts,,0,2,0,0,UnderwellKeepers
+725,Bone Jackal,Grunts,grunt,Anunnaki,Grunts,,1,1,1,0,UnderwellKeepers
+726,Bone Gnawer,Grunts,grunt,Halor,Grunts,,0,0,1,0,SkyloomTemple
+727,Bone Eater,Grunts,grunt,Kudran,Grunts,,0,1,1,0,BorderstoneGuild
+728,Bone Choir,Grunts,grunt,Boarine,Grunts,,2,0,2,0,BorderstoneGuild
+729,Bone Chariot,Grunts,grunt,Tideborn,Grunts,,2,1,2,0,FloodbornPact
+730,Bone Centipede,Grunts,grunt,Boneweft,Grunts,,0,1,2,0,UnderwellKeepers
+731,Bone Caller,Grunts,grunt,Centipor,Grunts,,2,2,1,0,UnderwellKeepers
+732,Bog Crocodile,Grunts,grunt,Automata,Grunts,,1,3,2,0,BorderstoneGuild
+733,Blood Prophet,Grunts,grunt,Apsari,Grunts,,1,1,2,1,FloodbornPact
+734,Blood Plucker,Grunts,grunt,Idoline,Grunts,,1,0,0,0,BorderstoneGuild
+735,Blood Keeper,Grunts,grunt,Pyre,Grunts,,1,1,2,0,Fateforge
+736,Blood Evoker,Grunts,grunt,Rattusk,Grunts,,0,1,1,0,Fateforge
+737,Blood Duelist,Grunts,grunt,Sludgine,Grunts,,1,0,1,0,Fateforge
+738,Blood Acolyte,Grunts,grunt,Inkborn,Grunts,,0,0,2,0,Fateforge
+739,Blind Crawler,Grunts,grunt,Cistern,Grunts,,1,0,3,0,FloodbornPact
+740,Ash Spiderling,Grunts,grunt,Viperine,Grunts,,0,0,1,0,Fateforge
+741,Ash Servitor,Grunts,grunt,Anunnaki,Grunts,,1,0,1,0,Fateforge
+742,Ash Scorpion,Grunts,grunt,Canid,Grunts,,1,1,2,0,UnderwellKeepers
+743,Ash Rider,Grunts,grunt,Tideborn,Grunts,,1,1,1,0,FloodbornPact
+744,Ash Rat,Grunts,grunt,Titanid,Grunts,,0,2,2,0,BorderstoneGuild
+745,Ash Priest,Grunts,grunt,Hyenoid,Grunts,,0,0,2,0,Fateforge
+746,Ash Phantom,Grunts,grunt,Miteborn,Grunts,,0,2,2,0,Fateforge
+747,Ash Oracle,Grunts,grunt,Titanid,Grunts,,0,1,2,0,BorderstoneGuild
+748,Ash Novice,Grunts,grunt,Specari,Grunts,,1,1,2,0,Fateforge
+749,Ash Locust,Grunts,grunt,Rattusk,Grunts,,0,0,2,0,Fateforge
+750,Ash Horror,Grunts,grunt,Automata,Grunts,,1,1,1,0,BorderstoneGuild
+751,Ash Binder,Grunts,grunt,Beetline,Grunts,,0,0,3,1,UnderwellKeepers
+752,Ash Beetle,Grunts,grunt,Apsari,Grunts,,1,0,3,0,FloodbornPact
+753,Arena Brute,Grunts,grunt,Eelborn,Grunts,,0,2,0,0,FloodbornPact
+754,Abyssal Archivist,Grunts,grunt,Eelborn,Grunts,,2,0,0,0,FloodbornPact

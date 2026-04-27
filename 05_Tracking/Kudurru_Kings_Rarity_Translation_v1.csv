@@ -1,0 +1,7 @@
+legacy_rarity,canonical_rarity,decision_note
+low,Common,lowest legacy tier
+mid,Uncommon,second legacy tier
+high,Rare,third legacy tier
+rare,SuperRare,legacy rare promoted to canonical super-rare
+super,Legendary,highest non-ultra legacy tier
+ultra,Ultra,apex tier retained

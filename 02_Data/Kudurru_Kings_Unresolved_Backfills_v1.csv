@@ -1,0 +1,755 @@
+card_id,card_name,field,reason,recommended_source
+1,"Lamassu, Gate-Guardian",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+2,Bull of Heaven Fragment,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+3,Archive Seraph,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+4,"Anzu, Storm-Thief",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+5,Tablet Wraith Host,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+6,Seven Wind Herald,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+7,Scorpion Judge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+8,Namtar Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+9,"Mushussu, Ember Coil",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+10,Copper Storm Choir,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+11,Solar Juror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+12,Moon Barge Apparition,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+13,Lion of the Threshold,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+14,Fish-Apkallu Echo,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+15,Basalt Ferryman,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+16,"Void Augur, the Hollow Prophet",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+17,"Sandstorm Khan, the Desert Lord",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+18,"River Titan, the Flood King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+19,"Pharaoh of Chains, the Eternal",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+20,"Obsidian Berserker, the Black King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+21,"Oath Champion, the Covenant King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+22,"Masked Champion, the Golden Face",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+23,"Marsh Leviathan, the Drowned Queen",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+24,"Idol Colossus, the Living God",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+25,"Halo Paladin, the Radiant Lord",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+26,"Glyph Knight, the Rune King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+27,"Eclipse Hierarch, the Night King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+28,"Crystal Vanguard, the Shard Emperor",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+29,"Crimson Duelmaster, the Blood Regent",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+30,"Chained Seer, the Blind Judge",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+31,"Chain Warlord, the Iron Tyrant",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+32,"Bronze Pitlord, the Arena King",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+33,"Blood Moon Prophet, the Crimson Oracle",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+34,"Ashen Oracle, the Ember Queen",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+35,"Ash Gladiator Lord, the Flame Sovereign",cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+36,Anu the Exarch of Heaven,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+37,Void Knight King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+38,Void King Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+39,Void Inquisitor King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+40,Void Herald King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+41,Void Exarch King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+42,Void Devourer King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+43,Void Centurion King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+44,Void Augur King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+45,Skullcrusher King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+46,Siege Idol King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+47,Shard Brute King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+48,Shadow Hulk King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+49,Shadow Assassin Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+50,Sandstorm Prophet Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+51,Sandstorm Khan Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+52,Rune Pontiff King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+53,Rune Marshal King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+54,Rune Khan King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+55,Rune Exarch King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+56,Rune Captain King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+57,Red Khan Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+58,Prism Lancer King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+59,Pit King Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+60,Pit Beastmaster King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+61,Pharaoh of Chains,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+62,Oil Hydra King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+63,Obsidian Lion King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+64,Obsidian Berserker King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+65,Obelisk Warden King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+66,Obelisk General King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+67,Oath Leviathan Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+68,Oath Champion Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+69,Moonspawn Horror King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+70,Masked Warlord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+71,Masked Champion Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+72,Marsh Leviathan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+73,Lunar Abomination Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+74,Ironclad Gladiator King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+75,Iron Juggernaut King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+76,Idol Colossus,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+77,Hollow Bishop King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+78,Hollow Beast King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+79,Halo Seraphim Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+80,Halo Seraph Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+81,Halo Regent Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+82,Halo Prelate Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+83,Halo Praetor Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+84,Halo Paladin Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+85,Halo Exemplar Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+86,Halo Commander Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+87,Golden Strategos Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+88,Golden Strategist Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+89,Glyph Knight King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+90,Gleam Sorcerer Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+91,Fire Ram King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+92,Ember Prophet King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+93,Ember Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+94,Eclipse Wraith Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+95,Eclipse Warlock Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+96,Eclipse Hierarch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+97,Dust Wraith Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+98,Dust Titan King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+99,Dune Chieftain King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+100,Crystal Vanguard King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+101,Crystal Stalker Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+102,Crystal Reaver King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+103,Crystal Knight Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+104,Crystal General King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+105,Crystal Colossus King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+106,Crimson Prophetess Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+107,Crimson Pontiff King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+108,Crimson Khan King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+109,Crimson Horror King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+110,Crimson Duelmaster Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+111,Crimson Champion Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+112,Crimson Abomination Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+113,Crescent Duelist Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+114,Crater Brute King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+115,Chainfighter King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+116,Chained Seer King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+117,Chain Warlord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+118,Chain Pontiff Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+119,Chain Marshal Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+120,Chain Hierophant Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+121,Canyon Marauder King Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+122,Canyon Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+123,Bronze Pitlord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+124,Bronze Juggernaut,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+125,Bonebreaker Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+126,Bone Raider Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+127,Bone Gladiator King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+128,Bone Colossus King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+129,Bone Chieftain King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+130,Bone Chariot Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+131,Bloodspiller Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+132,Blood Prophet King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+133,Blood Oracle Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+134,Blood Moon Prophet Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+135,Blood Matron Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+136,Blood Hierophant Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+137,Blood Arena Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+138,Blade Dancer Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+139,Ashen Oracle Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+140,Ash Titan King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+141,Ash Priest King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+142,Ash Oracle Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+143,Ash Nomad Chieftain King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+144,Ash Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+145,Ash Leviathan King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+146,Ash High Priest King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+147,Ash Hierarch Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+148,Ash Gladiator Lord King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+149,Ash Demon Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+150,Ash Bishop Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+151,Ash Binder Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+152,Arena Juggernaut King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+153,Warden of Chains,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+154,Void Serpent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+155,Void Horror King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+156,Sandstorm Avatar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+157,Sand Serpent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+158,Rune Goliath,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+159,Prophet of Eclipse,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+160,Obelisk Avatar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+161,Oath Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+162,Hollow Seraph,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+163,Halo Warden,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+164,Halo Ascendant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+165,Glyph Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+166,Glyph Behemoth,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+167,Dust Wraith King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+168,Crystal Tyrant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+169,Crystal Leviathan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+170,Crimson Prophet King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+171,Crimson Juggernaut,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+172,Crimson Beast,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+173,Canyon Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+174,Bone Hydra,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+175,Bone Goliath,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+176,Blood Moon Avatar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+177,Ash Titan Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+178,Ash Revenant King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+179,Ash Colossus,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+180,Royal Pardon,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+181,Sun-Script Overload,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+182,Public Reckoning,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+183,Forced Testimony,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+184,Condemnation Seal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+185,Writ of Seizure,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+186,River Evacuation,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+187,Night Market Clause,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+188,Mercy Docket,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+189,Emergency Rationing,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+190,Censor Audit,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+191,Festival Truce,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+192,Dust Court Recess,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+193,Convoy Priority,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+194,Boundary Fine,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+195,Void Appeal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+196,Witness Noon,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+197,Weight of Kingship,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+198,Quiet Graves,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+199,Broken Oath,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+200,Two Suns,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+201,Red Distance,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+202,Heavy Crowns,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+203,Closed Gate,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+204,Swift Shadow,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+205,Salt Covenant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+206,Hearth Amnesty,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+207,Glass Mercy,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+208,Far Ear,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+209,Open Ledger,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+210,Destiny Archive Vault,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+211,Star Bell Harbor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+212,Oath Chain Dais,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+213,Shard Plateau Blind,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+214,Mirror Archive,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+215,Halo Terrace,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+216,Bitumen Furnace,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+217,Witness Square,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+218,Warfield Basin,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+219,Sanctuary Court,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+220,Reed Lock,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+221,Clause Pike,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+222,Threshold Stair,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+223,Dust Gate,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+224,Basalt Quay,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+225,Archive Prism,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+226,Shardwheel Engine,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+227,Null Cantor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+228,Ledger Rewrite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+229,Gravity Lance,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+230,Trial Chain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+231,Sunscript Censer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+232,Kudurru Nail,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+233,Ashen Hourglass,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+234,Witness Bell,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+235,Sirocco Bracer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+236,Sealbreaker Awl,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+237,Reedglass Lens,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+238,Mirror Hook,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+239,Bitumen Harness,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+240,Gate Viper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+241,Halo Pup,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+242,Grave Moth,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+243,River Lynx,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+244,Pearl Kite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+245,Ink Crow,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+246,Shard Bat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+247,Seal Hound,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+248,Quarry Jackal Pup,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+249,Lantern Gecko,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+250,Bitumen Tortoise,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+251,Tablet Finch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+252,Reed Cat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+253,Oath Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+254,Dust Mite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+255,Adamu,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+256,Zari,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+257,Zaleth,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+258,Urid,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+259,Tammuz,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+260,Shulgi,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+261,Rook,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+262,Namtar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+263,Nammu,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+264,Maskat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+265,Irik,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+266,Iltu,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+267,Etana,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+268,Eresh,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+269,Ashur,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+270,Void Tick,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+271,Void Hyena,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+272,Void Centipede,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+273,Temple Thrall,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+274,Scaled Vulture,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+275,Sandstorm Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+276,Sandstorm Khan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+277,Sand Scuttler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+278,Sand Raider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+279,Sand Pike,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+280,Sand Basilisk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+281,Rune Swordsman,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+282,Rune Spider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+283,Rune Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+284,Rune Idol,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+285,Rune Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+286,Rock Breaker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+287,Red Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+288,Red Scarab,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+289,Red Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+290,Red Lash,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+291,Red Khan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+292,Red Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+293,Pit Thrall,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+294,Pit King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+295,Obsidian Hound,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+296,Obsidian Axe,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+297,Obelisk Guard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+298,Oath Servitor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+299,Oath Serpent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+300,Oath Ghoul,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+301,Maskless Fighter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+302,Masked Warlord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+303,Masked Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+304,Masked Champion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+305,Lattice Spearman,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+306,Lattice Guard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+307,Halo Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+308,Halo Vulture,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+309,Halo Statue,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+310,Halo Servant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+311,Halo Archer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+312,Golden Vulture,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+313,Golden Scarab,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+314,Golden Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+315,Golden Hoplite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+316,Glyph Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+317,Glyph Servant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+318,Glass Lizard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+319,Flame Idol,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+320,Ember Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+321,Ember Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+322,Dust Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+323,Dust Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+324,Dust Spider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+325,Dust Phantom,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+326,Dust Crawler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+327,Dust Centipede,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+328,Dune Rider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+329,Dune Hyena,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+330,Dune Chieftain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+331,Crystal Spiderling,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+332,Crystal Scorpion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+333,Crystal Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+334,Crystal Basilisk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+335,Crimson Prophetess,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+336,Crimson Pontiff,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+337,Crimson Khan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+338,Crimson Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+339,Crimson Guard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+340,Crimson Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+341,Crimson Duelmaster,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+342,Crimson Champion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+343,Crimson Abomination,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+344,Cliff Raider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+345,Cinder Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+346,Chain Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+347,Chain Warlord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+348,Chain Hierophant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+349,Chain Duelist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+350,Chain Driver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+351,Carrion Stalker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+352,Carrion Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+353,Carrion Bat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+354,Canyon Lurker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+355,Canyon Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+356,Canyon King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+357,Bronze Pitlord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+358,Bronze Overseer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+359,Broken Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+360,Bound Hound,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+361,Bone Tick,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+362,Bone Pit,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+363,Bone Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+364,Bone Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+365,Bone Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+366,Bone Colossus,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+367,Bone Chieftain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+368,Blood Slave,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+369,Blood Oracle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+370,Blood Matron,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+371,Blood Dervish,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+372,Ash Wight,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+373,Ash Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+374,Ash Spider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+375,Ash Revenant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+376,Ash Nomad,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+377,Ash Mite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+378,Ash Leviathan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+379,Ash High,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+380,Ash Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+381,Ash Ghoul,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+382,Ash Duelist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+383,Ash Demon,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+384,Ash Chieftain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+385,Arena Juggernaut,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+386,Word-Eater,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+387,Void Knight,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+388,Void King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+389,Void Inquisitor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+390,Void Herald,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+391,Void Exarch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+392,Void Devourer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+393,Void Centurion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+394,Void Augur,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+395,Skullcrusher,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+396,Silver Mask Judge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+397,Shard Brute,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+398,Shadow Hulk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+399,Shadow Assassin,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+400,Rune Pontiff,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+401,Rune Marshal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+402,Rune Khan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+403,Rune Exarch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+404,Rune Captain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+405,Prism Lancer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+406,Pit Enforcer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+407,Pit Beastmaster,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+408,Obsidian Berserker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+409,Obelisk Warden,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+410,Obelisk General,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+411,Oath Leviathan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+412,Oath Champion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+413,Moonspawn Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+414,Moonblade Captain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+415,Lunar Abomination,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+416,Ironclad Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+417,Iron Gaoler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+418,Ink-Tongue,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+419,Hymncaller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+420,Hollow Bishop,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+421,Hollow Beast,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+422,Halo Seraphim,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+423,Halo Seraph,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+424,Halo Regent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+425,Halo Prelate,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+426,Halo Praetor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+427,Halo Paladin,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+428,Halo Exemplar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+429,Halo Commander,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+430,Golden Strategos,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+431,Golden Strategist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+432,Gold-Mask Captain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+433,Glyph Knight,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+434,Gleam Sorcerer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+435,Fire Pot Bearer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+436,Eclipse Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+437,Eclipse Warlock,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+438,Eclipse Hierophant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+439,Desert Boar King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+440,Crystal Vanguard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+441,Crystal Stalker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+442,Crystal Reaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+443,Crystal Knight,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+444,Crystal General,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+445,Crystal Colossus,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+446,Crescent Duelist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+447,Crater Brute,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+448,Choir of Bone,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+449,Chainfighter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+450,Chained Seer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+451,Chain Tyrant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+452,Chain Pontiff,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+453,Canyon Marauder King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+454,Bonebreaker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+455,Bone Raider Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+456,Bone Horror King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+457,Bloodspiller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+458,Blood Moon Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+459,Blood Hierophant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+460,Blood Arena Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+461,Blade Dancer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+462,Ashen Oracle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+463,Ash Nomad Chieftain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+464,Ash Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+465,Ash High Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+466,Ash Hierarch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+467,Ash Gladiator Lord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+468,Ash Bishop,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+469,Wraith Caller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+470,Vow Keeper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+471,Void Scribe,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+472,Void Evoker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+473,Void Chemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+474,Void Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+475,Viscera Sculptor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+476,Venom Brewer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+477,Venom Alchemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+478,Tablet Keeper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+479,Sporebrewer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+480,Soul Harvester,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+481,Smoke Weaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+482,Sigil Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+483,Shadow Puppeteer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+484,Sand Tinker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+485,Sand Prophetess,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+486,Sand Mystic,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+487,Sand Alchemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+488,Rune Mystic,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+489,Rune Mechanist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+490,Red Soothsayer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+491,Oracle of Chains,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+492,Obsidian Tinker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+493,Moonfire Adept,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+494,Idol Worshipper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+495,Idol Mechanist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+496,Idol Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+497,Halo Mystic,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+498,Glyph Scribe,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+499,Geas Weaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+500,Flesh Weaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+501,Flesh Sculptor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+502,Flesh Carver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+503,Ember Seer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+504,Eclipse Visionary,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+505,Eclipse Summoner,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+506,Eclipse Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+507,Dust Chemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+508,Dream Warden,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+509,Dream Seer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+510,Cuneiform Savant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+511,Crystal Tinker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+512,Crystal Thaumaturge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+513,Crystal Puppeteer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+514,Crystal Brewer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+515,Crystal Artificer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+516,Crimson Visionary,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+517,Crimson Thaumaturge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+518,Crimson Scribe,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+519,Crimson Oracle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+520,Crimson Caller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+521,Crimson Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+522,Covenant Breaker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+523,Chain Engineer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+524,Bone Harvester,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+525,Bone Conductor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+526,Bone Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+527,Bone Artificer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+528,Blood Soothsayer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+529,Blood Sculptor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+530,Blood Draught Maker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+531,Beast Caller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+532,Ash Weaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+533,Ash Sorcerer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+534,Ash Sculptor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+535,Ash Prophetess,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+536,Ash Mechanist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+537,Ash Idolator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+538,Ash Dreamer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+539,Ash Alchemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+540,Word Eater,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+541,Whipbearer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+542,Whip Sergeant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+543,Vulture Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+544,Vowbinder Judge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+545,Void Thrall,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+546,Void Obelisk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+547,Void Leech,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+548,Void Hymnist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+549,Void Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+550,Tunnel Spider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+551,Tunnel Crawler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+552,Trap Setter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+553,Toxin Whisperer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+554,Tomb Scrivener,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+555,Taxlord Balash,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+556,Tax Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+557,Tax Enforcer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+558,Tablet Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+559,Spore Drudge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+560,Spear Watch,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+561,Soul Drinker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+562,Sludge Slime,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+563,Slime Lizard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+564,Slave Hunter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+565,Slave Champion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+566,Silver Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+567,Siege Ox,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+568,Siege Idol,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+569,Shield Twins,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+570,Shardback Boar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+571,Shadow Knifebearer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+572,Shadow Eel,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+573,Shadow Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+574,Shackled Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+575,Shackled Ghoul,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+576,Shacklebearer Guard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+577,Sewer Leech,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+578,Serpent Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+579,Screamer Wraith,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+580,Scorpion Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+581,Scorpion King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+582,Scorpion Alchemist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+583,Sand Wormling,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+584,Sand Oracle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+585,Sand Mirage,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+586,Sand Hyena,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+587,Sand Golem,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+588,Sand Archivist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+589,Rust Slug,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+590,Rust Mite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+591,Rune Husk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+592,Rune Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+593,Rune Centipede,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+594,Rockgnasher Beast,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+595,River Wolf,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+596,River Warlord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+597,River Titan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+598,River Raider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+599,Reed Serpent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+600,Reed Leviathan,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+601,Reed Brewmaster,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+602,Plague Drummer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+603,Plague Bat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+604,Pit Jailer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+605,Pit Houndmaster,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+606,Pit Guard,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+607,Pit Ghoul,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+608,Pit Fighter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+609,Pit Champion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+610,Pike Slave,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+611,Pale Stalker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+612,Pale Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+613,Pale Ghast,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+614,Oil Hydra,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+615,Obsidian Lion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+616,Obsidian Helm,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+617,Oathkeeper Ghost,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+618,Oath Spawn,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+619,Oath Singer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+620,Oasis Thief,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+621,Night Prowler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+622,Mud Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+623,Moonfang Wolf,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+624,Moon Idol,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+625,Moon Acolyte,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+626,Mirror Reed,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+627,Masked Slayer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+628,Masked King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+629,Marsh Toad,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+630,Marsh Stalker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+631,Marsh Phantom,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+632,Marsh Cutthroat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+633,Ledger Bearer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+634,Lash Overseer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+635,Lash Captain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+636,Lantern Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+637,Knife Zealot,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+638,Jackal Alpha,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+639,Ironbound Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+640,Iron Lash,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+641,Iron Juggernaut,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+642,Ink Tongue,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+643,Idol Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+644,Idol Servant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+645,Idol Puppeteer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+646,Idol Chanter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+647,Hymncaller Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+648,Hyena Matron,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+649,Howling Fiend,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+650,Hollow Tick,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+651,Hill Ram,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+652,Hill Raider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+653,High Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+654,Halo Spawn,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+655,Halo Husk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+656,Golden Whip,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+657,Gold Spider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+658,Gold Captain,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+659,Glyph Ghoul,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+660,Glow Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+661,Glass Weaver,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+662,Glass Mite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+663,Furnace Caller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+664,Fungus Mite,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+665,Fungus Creeper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+666,Frog Mother,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+667,Fire Sapper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+668,Fire Ram,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+669,Fire Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+670,Fire Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+671,Fire Bearer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+672,Fire Ashling,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+673,Filth King,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+674,False Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+675,Fallen Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+676,Exiled Gladiator,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+677,Enlil Vessel,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+678,Ember Masker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+679,Eclipse Revenant,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+680,Eclipse Drone,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+681,Eclipse Chanter,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+682,Echo Voice,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+683,Dust Rider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+684,Dust Librarian,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+685,Dusk Serpent,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+686,Drowned Archivist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+687,Dog Breaker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+688,Desert Vulture,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+689,Desert Viper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+690,Desert Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+691,Desert Hawk,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+692,Desert Boar,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+693,Cuneiform Shade,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+694,Crystal Wasp,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+695,Crystal Louse,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+696,Crystal Gnat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+697,Crocodile Warlord,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+698,Crimson Youth,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+699,Crater Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+700,Crater Lurker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+701,Corpse Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+702,Collapse Worker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+703,Cistern Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+704,Chittering Bat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+705,Chanter Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+706,Chant Twins,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+707,Chain Warden,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+708,Chain Thrower,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+709,Chain Marshal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+710,Chain Keeper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+711,Chain Drudge,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+712,Chain Automaton,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+713,Caravan Breaker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+714,Canal Thief,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+715,Canal Lamprey,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+716,Bronze Spear,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+717,Bronze Shield,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+718,Bronze Sentinel,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+719,Bronze Gaoler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+720,Bronze Colossus,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+721,Bronze Automaton,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+722,Broken Scribe,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+723,Bonebound Spirit,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+724,Bone Queen,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+725,Bone Jackal,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+726,Bone Gnawer,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+727,Bone Eater,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+728,Bone Choir,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+729,Bone Chariot,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+730,Bone Centipede,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+731,Bone Caller,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+732,Bog Crocodile,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+733,Blood Prophet,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+734,Blood Plucker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+735,Blood Keeper,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+736,Blood Evoker,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+737,Blood Duelist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+738,Blood Acolyte,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+739,Blind Crawler,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+740,Ash Spiderling,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+741,Ash Servitor,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+742,Ash Scorpion,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+743,Ash Rider,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+744,Ash Rat,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+745,Ash Priest,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+746,Ash Phantom,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+747,Ash Oracle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+748,Ash Novice,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+749,Ash Locust,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+750,Ash Horror,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+751,Ash Binder,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+752,Ash Beetle,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+753,Arena Brute,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization
+754,Abyssal Archivist,cost_*,Legacy source pack does not provide structured play-cost fields for this row.,card design review / rules text normalization

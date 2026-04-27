@@ -1,0 +1,282 @@
+card_id,card_name,card_family,owner_faction,confidence,top_margin,score_BorderstoneGuild,score_FloodbornPact,score_SkyloomTemple,score_UnderwellKeepers,score_Fateforge,legacy_race,race_suggest,race_purity,race_total,token_suggest,token_best_purity,token_evidence,review_outcome,recommended_faction,review_notes
+16,"Void Augur, the Hollow Prophet",Boss,BorderstoneGuild,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+19,"Pharaoh of Chains, the Eternal",Boss,SkyloomTemple,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+20,"Obsidian Berserker, the Black King",Boss,UnderwellKeepers,low,0,0,0,0,0,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+24,"Idol Colossus, the Living God",Boss,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+29,"Crimson Duelmaster, the Blood Regent",Boss,Fateforge,low,1,0,0,0,0,1,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+30,"Chained Seer, the Blind Judge",Boss,SkyloomTemple,low,0,0,0,5,0,5,Bitum,Fateforge,1.0,6.0,,,,recommend_reassign:Fateforge,Fateforge,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+31,"Chain Warlord, the Iron Tyrant",Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+39,Void Inquisitor King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+41,Void Exarch King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+42,Void Devourer King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+44,Void Augur King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+46,Siege Idol King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+48,Shadow Hulk King,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Spidrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+49,Shadow Assassin Lord,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+52,Rune Pontiff King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+54,Rune Khan King,Boss,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+56,Rune Captain King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+59,Pit King Lord,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+60,Pit Beastmaster King,Boss,FloodbornPact,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+64,Obsidian Berserker King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+65,Obelisk Warden King,Boss,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+66,Obelisk General King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,Fateforge,1.0,general→Fateforge (1.00/3),recommend_reassign:Fateforge,Fateforge,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+70,Masked Warlord King,Boss,Fateforge,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+71,Masked Champion Lord,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+74,Ironclad Gladiator King,Boss,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+75,Iron Juggernaut King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+76,Idol Colossus,Boss,Fateforge,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+77,Hollow Bishop King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+78,Hollow Beast King,Boss,FloodbornPact,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+79,Halo Seraphim Lord,Boss,SkyloomTemple,low,1,0,5,6,0,0,Amphibine,FloodbornPact,1.0,12.0,,,,recommend_reassign:FloodbornPact,FloodbornPact,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+88,Golden Strategist Lord,Boss,SkyloomTemple,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+91,Fire Ram King,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+95,Eclipse Warlock Lord,Boss,FloodbornPact,low,1,0,1,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+106,Crimson Prophetess Queen,Boss,Fateforge,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+107,Crimson Pontiff King,Boss,FloodbornPact,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+108,Crimson Khan King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+110,Crimson Duelmaster Lord,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+113,Crescent Duelist Lord,Boss,Fateforge,low,0,0,0,0,0,0,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+115,Chainfighter King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+116,Chained Seer King,Boss,FloodbornPact,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+118,Chain Pontiff Lord,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+119,Chain Marshal Lord,Boss,FloodbornPact,low,1,2,3,0,0,0,Idoline,BorderstoneGuild,1.0,8.0,,,,recommend_reassign:BorderstoneGuild,BorderstoneGuild,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+120,Chain Hierophant Lord,Boss,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+121,Canyon Marauder King Lord,Boss,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+122,Canyon Lord King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+124,Bronze Juggernaut,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+126,Bone Raider Lord King,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+127,Bone Gladiator King,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+128,Bone Colossus King,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+129,Bone Chieftain King,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+130,Bone Chariot Lord,Boss,UnderwellKeepers,low,1,0,0,0,1,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+133,Blood Oracle Lord,Boss,SkyloomTemple,low,0,0,0,1,0,1,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+135,Blood Matron Queen,Boss,Fateforge,low,1,0,0,0,0,1,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+137,Blood Arena Lord King,Boss,Fateforge,low,1,0,0,0,0,1,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+138,Blade Dancer Lord,Boss,Fateforge,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+153,Warden of Chains,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+154,Void Serpent,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+155,Void Horror King,Boss,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+156,Sandstorm Avatar,Boss,SkyloomTemple,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+157,Sand Serpent,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+159,Prophet of Eclipse,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+160,Obelisk Avatar,Boss,UnderwellKeepers,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+168,Crystal Tyrant,Boss,BorderstoneGuild,low,1,4,0,0,0,3,Automata,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+170,Crimson Prophet King,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+173,Canyon Titan,Boss,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+261,Rook,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+267,Etana,Character,BorderstoneGuild,low,0,0,0,0,0,0,Myriad,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+272,Void Centipede,Character,SkyloomTemple,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+274,Scaled Vulture,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+275,Sandstorm Prophet,Character,SkyloomTemple,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+276,Sandstorm Khan,Character,BorderstoneGuild,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+278,Sand Raider,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+281,Rune Swordsman,Character,FloodbornPact,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+282,Rune Spider,Character,SkyloomTemple,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+283,Rune Jackal,Character,Fateforge,low,0,0,0,0,0,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+286,Rock Breaker,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+288,Red Scarab,Character,FloodbornPact,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+289,Red Rat,Character,SkyloomTemple,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+291,Red Khan,Character,UnderwellKeepers,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+293,Pit Thrall,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+296,Obsidian Axe,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+297,Obelisk Guard,Character,UnderwellKeepers,low,0,0,0,0,0,0,Myriad,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+301,Maskless Fighter,Character,FloodbornPact,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+302,Masked Warlord,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+304,Masked Champion,Character,Fateforge,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+305,Lattice Spearman,Character,BorderstoneGuild,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+306,Lattice Guard,Character,FloodbornPact,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+311,Halo Archer,Character,SkyloomTemple,low,1,2,0,3,0,0,Beetline,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+313,Golden Scarab,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+314,Golden Rat,Character,BorderstoneGuild,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+328,Dune Rider,Character,FloodbornPact,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+329,Dune Hyena,Character,SkyloomTemple,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+340,Crimson Gladiator,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+341,Crimson Duelmaster,Character,UnderwellKeepers,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+344,Cliff Raider,Character,UnderwellKeepers,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+345,Cinder Jackal,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+348,Chain Hierophant,Character,UnderwellKeepers,low,0,0,0,0,0,0,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+351,Carrion Stalker,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+356,Canyon King,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+357,Bronze Pitlord,Character,BorderstoneGuild,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+358,Bronze Overseer,Character,FloodbornPact,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+361,Bone Tick,Character,UnderwellKeepers,low,1,0,0,0,1,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+364,Bone Horror,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+365,Bone Gladiator,Character,BorderstoneGuild,low,1,2,0,0,1,0,Beetline,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+366,Bone Colossus,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+367,Bone Chieftain,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+369,Blood Oracle,Character,SkyloomTemple,low,0,0,0,1,0,1,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+370,Blood Matron,Character,Fateforge,low,1,0,0,0,0,1,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+384,Ash Chieftain,Character,Fateforge,low,1,2,0,0,0,3,Idoline,BorderstoneGuild,1.0,8.0,,,,recommend_reassign:BorderstoneGuild,BorderstoneGuild,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+385,Arena Juggernaut,Character,Fateforge,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+388,Void King,Character,SkyloomTemple,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+389,Void Inquisitor,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+391,Void Exarch,Character,SkyloomTemple,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+392,Void Devourer,Character,SkyloomTemple,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+393,Void Centurion,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+395,Skullcrusher,Character,SkyloomTemple,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+396,Silver Mask Judge,Character,SkyloomTemple,low,0,0,0,5,0,5,Specari,Fateforge,1.0,6.0,,,,recommend_reassign:Fateforge,Fateforge,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+398,Shadow Hulk,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+400,Rune Pontiff,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+403,Rune Exarch,Character,SkyloomTemple,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+406,Pit Enforcer,Character,BorderstoneGuild,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+407,Pit Beastmaster,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+408,Obsidian Berserker,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+409,Obelisk Warden,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+413,Moonspawn Horror,Character,FloodbornPact,low,1,2,3,0,0,0,Beetline,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+418,Ink-Tongue,Character,BorderstoneGuild,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+420,Hollow Bishop,Character,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+430,Golden Strategos,Character,UnderwellKeepers,low,0,0,0,0,0,0,Spidrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+432,Gold-Mask Captain,Character,FloodbornPact,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+434,Gleam Sorcerer,Character,Fateforge,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+448,Choir of Bone,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+449,Chainfighter,Character,SkyloomTemple,low,0,0,0,0,0,0,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+450,Chained Seer,Character,UnderwellKeepers,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+452,Chain Pontiff,Character,FloodbornPact,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+453,Canyon Marauder King,Character,FloodbornPact,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+454,Bonebreaker,Character,UnderwellKeepers,low,1,0,0,0,1,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+457,Bloodspiller,Character,Fateforge,low,1,0,0,0,0,1,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+459,Blood Hierophant,Character,Fateforge,low,1,0,0,0,0,1,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+460,Blood Arena Lord,Character,Fateforge,low,1,0,0,0,0,1,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+471,Void Scribe,Character,SkyloomTemple,low,1,0,0,1,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+473,Void Chemist,Character,FloodbornPact,low,1,0,1,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+474,Void Binder,Character,UnderwellKeepers,low,1,4,0,0,5,0,Ramkin,BorderstoneGuild,0.8888888888888888,9.0,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+475,Viscera Sculptor,Character,SkyloomTemple,low,0,0,0,0,0,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+477,Venom Alchemist,Character,FloodbornPact,low,1,0,1,0,0,0,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+478,Tablet Keeper,Character,FloodbornPact,low,0,0,0,0,0,0,Spidrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+479,Sporebrewer,Character,SkyloomTemple,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+481,Smoke Weaver,Character,FloodbornPact,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+483,Shadow Puppeteer,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+484,Sand Tinker,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+485,Sand Prophetess,Character,BorderstoneGuild,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+487,Sand Alchemist,Character,FloodbornPact,low,1,0,1,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+488,Rune Mystic,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+489,Rune Mechanist,Character,SkyloomTemple,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+494,Idol Worshipper,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+495,Idol Mechanist,Character,Fateforge,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+499,Geas Weaver,Character,BorderstoneGuild,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+500,Flesh Weaver,Character,UnderwellKeepers,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+504,Eclipse Visionary,Character,SkyloomTemple,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+505,Eclipse Summoner,Character,UnderwellKeepers,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+508,Dream Warden,Character,UnderwellKeepers,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+510,Cuneiform Savant,Character,UnderwellKeepers,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+516,Crimson Visionary,Character,FloodbornPact,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+518,Crimson Scribe,Character,BorderstoneGuild,low,1,2,0,1,0,0,Beetline,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+524,Bone Harvester,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+525,Bone Conductor,Character,UnderwellKeepers,low,1,0,0,0,1,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+529,Blood Sculptor,Character,Fateforge,low,1,0,0,0,0,1,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+530,Blood Draught Maker,Character,Fateforge,low,1,0,0,0,0,1,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+537,Ash Idolator,Character,BorderstoneGuild,low,1,4,0,0,0,3,Automata,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+540,Word Eater,Character,SkyloomTemple,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+541,Whipbearer,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+542,Whip Sergeant,Character,SkyloomTemple,low,0,0,0,0,0,0,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+543,Vulture Queen,Character,SkyloomTemple,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+544,Vowbinder Judge,Character,SkyloomTemple,low,0,0,0,5,5,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+545,Void Thrall,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+546,Void Obelisk,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+547,Void Leech,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+548,Void Hymnist,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+552,Trap Setter,Character,SkyloomTemple,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+555,Taxlord Balash,Character,Fateforge,low,1,2,0,0,0,3,Beetline,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+559,Spore Drudge,Character,FloodbornPact,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+561,Soul Drinker,Character,SkyloomTemple,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+562,Sludge Slime,Character,SkyloomTemple,low,0,0,0,0,0,0,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+565,Slave Champion,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+566,Silver Rat,Character,FloodbornPact,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+567,Siege Ox,Character,SkyloomTemple,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+570,Shardback Boar,Character,BorderstoneGuild,low,1,4,0,0,0,3,Automata,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+572,Shadow Eel,Character,FloodbornPact,low,0,0,1,0,1,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+576,Shacklebearer Guard,Character,FloodbornPact,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+578,Serpent Queen,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+586,Sand Hyena,Character,FloodbornPact,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+589,Rust Slug,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+590,Rust Mite,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+591,Rune Husk,Character,BorderstoneGuild,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+592,Rune Horror,Character,FloodbornPact,low,0,0,0,0,0,0,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+593,Rune Centipede,Character,UnderwellKeepers,low,0,0,0,0,0,0,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+602,Plague Drummer,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+604,Pit Jailer,Character,FloodbornPact,low,0,0,0,0,0,0,Spidrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+605,Pit Houndmaster,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+606,Pit Guard,Character,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+608,Pit Fighter,Character,Fateforge,low,0,0,0,0,0,0,Spidrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+611,Pale Stalker,Character,SkyloomTemple,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+614,Oil Hydra,Character,UnderwellKeepers,low,0,0,0,0,0,0,Hyenoid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+616,Obsidian Helm,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+617,Oathkeeper Ghost,Character,SkyloomTemple,low,0,0,0,5,0,5,Bitum,Fateforge,1.0,6.0,,,,recommend_reassign:Fateforge,Fateforge,"Strong evidence suggests reassignment, but not applied in this pass to preserve family faction quotas."
+621,Night Prowler,Character,Fateforge,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+622,Mud Rat,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+628,Masked King,Character,UnderwellKeepers,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+637,Knife Zealot,Character,SkyloomTemple,low,0,0,0,0,0,0,Viperine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+639,Ironbound Horror,Character,UnderwellKeepers,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+641,Iron Juggernaut,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+642,Ink Tongue,Character,FloodbornPact,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+644,Idol Servant,Character,UnderwellKeepers,low,0,0,0,0,0,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+646,Idol Chanter,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+647,Hymncaller Priest,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+649,Howling Fiend,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+651,Hill Ram,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+652,Hill Raider,Character,BorderstoneGuild,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+653,High Priest,Character,FloodbornPact,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+656,Golden Whip,Character,SkyloomTemple,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+658,Gold Captain,Character,SkyloomTemple,low,0,0,0,0,0,0,Myriad,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+660,Glow Beetle,Character,UnderwellKeepers,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+662,Glass Mite,Character,Fateforge,low,1,0,0,0,0,1,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+664,Fungus Mite,Character,FloodbornPact,low,0,0,0,0,0,0,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+665,Fungus Creeper,Character,SkyloomTemple,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+667,Fire Sapper,Character,Fateforge,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+669,Fire Jackal,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+670,Fire Beetle,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+671,Fire Bearer,Character,SkyloomTemple,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+673,Filth King,Character,UnderwellKeepers,low,0,0,0,0,0,0,Raptrine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+676,Exiled Gladiator,Character,Fateforge,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+677,Enlil Vessel,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+679,Eclipse Revenant,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+682,Echo Voice,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+687,Dog Breaker,Character,Fateforge,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+688,Desert Vulture,Character,BorderstoneGuild,low,0,0,0,0,0,0,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+690,Desert Jackal,Character,FloodbornPact,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+691,Desert Hawk,Character,SkyloomTemple,low,0,0,0,0,0,0,Miteborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+697,Crocodile Warlord,Character,Fateforge,low,0,0,0,0,0,0,Hydran,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+698,Crimson Youth,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+699,Crater Rat,Character,Fateforge,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+700,Crater Lurker,Character,BorderstoneGuild,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+701,Corpse Beetle,Character,FloodbornPact,low,0,0,0,0,0,0,Crocavine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+702,Collapse Worker,Character,SkyloomTemple,low,0,0,0,0,0,0,Jackalite,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+703,Cistern Horror,Character,Fateforge,low,0,0,0,0,0,0,Wyrmling,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+707,Chain Warden,Character,Fateforge,low,0,0,0,0,0,0,Myriad,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+708,Chain Thrower,Character,BorderstoneGuild,low,0,0,0,0,0,0,Hawkind,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+710,Chain Keeper,Character,SkyloomTemple,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+713,Caravan Breaker,Character,BorderstoneGuild,low,0,0,0,0,0,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+716,Bronze Spear,Character,UnderwellKeepers,low,0,0,0,0,0,0,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+717,Bronze Shield,Character,Fateforge,low,0,0,0,0,0,0,Fungalid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+719,Bronze Gaoler,Character,SkyloomTemple,low,0,0,0,0,0,0,Lupine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+720,Bronze Colossus,Character,UnderwellKeepers,low,0,0,0,0,0,0,Serpentid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+725,Bone Jackal,Character,UnderwellKeepers,low,1,0,0,0,1,0,Anunnaki,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+731,Bone Caller,Character,UnderwellKeepers,low,1,0,0,0,1,0,Centipor,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+736,Blood Evoker,Character,Fateforge,low,1,0,0,0,0,1,Rattusk,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+737,Blood Duelist,Character,Fateforge,low,1,0,0,0,0,1,Sludgine,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+738,Blood Acolyte,Character,Fateforge,low,1,0,0,0,0,1,Inkborn,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+742,Ash Scorpion,Character,UnderwellKeepers,low,0,0,0,0,3,3,Canid,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+750,Ash Horror,Character,BorderstoneGuild,low,1,4,0,0,0,3,Automata,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+180,Royal Pardon,Edict,FloodbornPact,low,0,0,0,5,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+182,Public Reckoning,Edict,BorderstoneGuild,low,0,0,0,5,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+188,Mercy Docket,Edict,UnderwellKeepers,low,0,0,0,6,6,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+192,Dust Court Recess,Edict,UnderwellKeepers,low,1,1,0,3,4,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+194,Boundary Fine,Edict,FloodbornPact,low,0,2,0,5,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+5,Tablet Wraith Host,HostSigil,Fateforge,low,0,0,0,2,5,5,,,,,UnderwellKeepers,0.8888888888888888,wraith→UnderwellKeepers (0.89/9),manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+9,"Mushussu, Ember Coil",HostSigil,FloodbornPact,low,0,2,0,0,3,3,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+10,Copper Storm Choir,HostSigil,Fateforge,low,1,0,0,2,0,3,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+200,Two Suns,Name,FloodbornPact,low,0,5,0,5,0,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+202,Heavy Crowns,Name,BorderstoneGuild,low,1,1,0,2,0,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+204,Swift Shadow,Name,UnderwellKeepers,low,1,0,0,2,1,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+209,Open Ledger,Name,UnderwellKeepers,low,0,0,0,5,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+245,Ink Crow,Pet,UnderwellKeepers,low,1,0,0,0,1,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+250,Bitumen Tortoise,Pet,Fateforge,low,1,3,2,5,1,4,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+225,Archive Prism,Relic,UnderwellKeepers,low,0,5,0,5,0,3,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+227,Null Cantor,Relic,UnderwellKeepers,low,1,0,0,0,0,1,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+229,Gravity Lance,Relic,BorderstoneGuild,low,0,1,5,0,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+230,Trial Chain,Relic,UnderwellKeepers,low,0,0,0,0,0,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+235,Sirocco Bracer,Relic,FloodbornPact,low,0,0,5,0,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+211,Star Bell Harbor,Site,UnderwellKeepers,low,1,8,9,1,0,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+221,Clause Pike,Site,Fateforge,low,1,9,0,8,0,5,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
+224,Basalt Quay,Site,UnderwellKeepers,low,1,9,8,0,0,0,,,,,,,,manual_review,,Insufficient surviving evidence for safe auto-promotion or quota-safe reassignment.
