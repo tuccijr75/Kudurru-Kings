@@ -1,5 +1,5 @@
 {
-  "blocked_gate_count": 11,
+  "blocked_gate_count": 6,
   "by_family": {
     "Boss": 164,
     "Character": 500,
@@ -7669,7 +7669,7 @@
     "UNIMPLEMENTED_OR_UNVERIFIED": 314
   },
   "full_standard_releasable": false,
-  "in_progress_gate_count": 6,
+  "in_progress_gate_count": 11,
   "master_sha256": "1830d6080c70838b656c84163ebbfba2177898200c6106c9778530625d009059",
   "multiplayer_releasable": false,
   "passed_gate_count": 5,
@@ -7679,8 +7679,8 @@
       "status": "IN_PROGRESS"
     },
     "boss_trials_capture": {
-      "remaining": "Three distinct-axis Trials, true Bind sources and deterministic capture success/failure with copy rewards unresolved.",
-      "status": "BLOCKED"
+      "remaining": "Trial prerequisites and an explicitly unapproved Authority Face-off adjudicator tested in an isolated candidate; no live match or official reward integration.",
+      "status": "IN_PROGRESS"
     },
     "canon_factions": {
       "remaining": "Resolve every migrated faction assignment through EOE Crosswalk, including known conflicts.",
@@ -7691,8 +7691,8 @@
       "status": "BLOCKED"
     },
     "collection_rewards": {
-      "remaining": "Persistent accounts, owned-copy idempotency, progression, Ultra gates and safe transactions not built.",
-      "status": "BLOCKED"
+      "remaining": "Signed HMAC receipt verification, SQLite idempotent grants, preservation of original ownership and Ultra eligibility tests; no trusted live authority issuing receipts.",
+      "status": "IN_PROGRESS"
     },
     "combat_stat_authority": {
       "remaining": "664 printed Guard / First Strike numbers reconciled to structured fields and reversible provenance.",
@@ -7703,12 +7703,12 @@
       "status": "PASS"
     },
     "distribution": {
-      "remaining": "Windows packaged release, installer, accessibility, save recovery and launch QA not certified.",
-      "status": "BLOCKED"
+      "remaining": "Native Windows release EXE and PCK exported and launch-tested; no commercial signing, installer, art certification, or full-card release gate.",
+      "status": "IN_PROGRESS"
     },
     "field_line_geasa": {
-      "remaining": "Two active Fields exist in M7 preview, but Line traversal, Geasa and jurisdiction effects are not complete.",
-      "status": "BLOCKED"
+      "remaining": "Source-pinned Salt Covenant, Threshold Stair, and Kudurru Nail crossings tested; full geography and trigger integration not yet complete.",
+      "status": "IN_PROGRESS"
     },
     "full_combat": {
       "remaining": "Guard protection, First Strike action windows, Bosses, full supporter effects, consequence legality and status interactions.",
@@ -7727,8 +7727,8 @@
       "status": "PASS"
     },
     "multiplayer": {
-      "remaining": "Server authority, privacy, reconnect, simultaneous windows and 2–4 seat network mode not built.",
-      "status": "BLOCKED"
+      "remaining": "Two-seat localhost-only Godot TCP host with real socket tests; missing TLS, remote identity, reconnect, simultaneous priorities, and 3-4 seats.",
+      "status": "IN_PROGRESS"
     },
     "reusable_effect_runtime": {
       "remaining": "Finish template-level triggers, target legality, stacking, replacement and expiry.",

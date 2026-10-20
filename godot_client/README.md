@@ -1,3 +1,7 @@
+# Kudurru Kings M9 ? Production Systems (NOT FINAL RELEASE)
+
+M9 adds a real Windows x64 export preset, source-pinned jurisdiction and candidate capture validation, a transactional server collection ledger, and a real two-client localhost-only server-authoritative preview. These DO NOT complete the full 754-card game, four-seat WAN multiplayer or art certification. See docs/M9_PRODUCTION_SYSTEMS_STATUS.md and run tools/run_m9_quality_gate.ps1.
+
 # Kudurru Kings M8 - Local Playable Game Preview
 
 **M8:** Five factions, 25 pairing combinations, local Save/Continue with independent replay, four new live source-hashed Edicts and seeded full-match tests. This is a restricted local match candidate, NOT all 754-card Standard or a commercial export. See docs/M8_LOCAL_GAME_REPORT.md; run tools/run_m8_quality_gate.ps1.
