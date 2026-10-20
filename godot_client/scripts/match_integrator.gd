@@ -16,7 +16,7 @@ const SCENARIO := "Warfield Ascendancy (candidate, not canon)"
 const AXES := ["Stone", "Veil", "Authority"]
 const SITES := ["214", "216"]
 const SUPPORT := ["239", "241", "254"]
-const EDICTS := ["181","182","184","185","187","188","190","191","193"]
+const EDICTS := ["181","182","184","185","186","187","188","190","191","193"]
 const FIELD_NAMES := ["Warfield", "Sanctuary"]
 const FACTIONS := ["BorderstoneGuild","FloodbornPact","SkyloomTemple","UnderwellKeepers","Fateforge"]
 const SOURCE_HASHES := {"239":"62ce231bc67c47e99832c4d8c18da701c04ecce102799bfad21eb295613f18dd",
@@ -47,7 +47,7 @@ static func _deck(faction: String) -> Array:
 	pool.sort_custom(func(a,b):
 		if a["cost_sinew"] == b["cost_sinew"]: return int(a["card_id"]) < int(b["card_id"])
 		return int(a["cost_sinew"]) < int(b["cost_sinew"]))
-	if pool.size() < 21: return []
+	if pool.size() < 20: return []
 	var out: Array = []
 	var seen_names: Dictionary = {}
 	for candidate in pool:
@@ -56,8 +56,8 @@ static func _deck(faction: String) -> Array:
 		var c: Dictionary = candidate.duplicate(true)
 		c["playable"] = true # Candidate whitelist ONLY, original registry stays locked.
 		out.append(c)
-		if out.size() == 21: break
-	if out.size() != 21: return []
+		if out.size() == 20: break
+	if out.size() != 20: return []
 	for id in SITES:
 		var site: Dictionary = CardSource.find_card(source, id).duplicate(true)
 		site["playable"] = true
@@ -519,6 +519,12 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 						attempt["target_controller"]=attachment["controller"]
 						attempt["target_host_uid"]=attachment["host_uid"]
 						break
+			if id=="186":
+				for u in state["units"]:
+					if u["defeated"] or u["field"]!="Warfield":continue
+					attempt["target_uids"]=[str(u["uid"])]
+					attempt["destination_field"]="Sanctuary"
+					break
 			if id == "188" or id == "193":
 				for u in state["units"]:
 					if int(u["controller"]) != seat or u["defeated"]: continue

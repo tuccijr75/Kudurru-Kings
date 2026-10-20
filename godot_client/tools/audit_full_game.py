@@ -18,14 +18,14 @@ ADJACENCY = ROOT / "godot_client/data/adjacency_descriptors_v1.json"
 OUT = ROOT / "godot_client/data/full_game_completion_audit.json"
 GROUP_REPORT = ROOT / "godot_client/data/effect_template_groups.json"
 M4 = set(["180","184","185","187","189","191","193","199","206","207","214","216"])
-M12_LIVE_EDICTS = {"181","182","184","185","187","188","190","191","193"}
+M16_LIVE_EDICTS = {"181","182","184","185","186","187","188","190","191","193"}
 M7 = set(["214","216","239","241","254"])
 DOMAINS = {
 "canon_factions": ("BLOCKED", "Resolve every migrated faction assignment through EOE Crosswalk, including known conflicts."),
 "source_card_registry": ("PASS", "All 754 genuine card IDs and original printed rules are source hashed."),
 "combat_stat_authority": ("PASS", "664 printed Guard / First Strike numbers reconciled to structured fields and reversible provenance."),
 "deployment_costs": ("PASS", "All 754 deployment costs positive with deterministic derivation and audit."),
-"card_effects": ("BLOCKED", "Nine source-verified Edicts now run in local matches, including End choice, opponent priority and suppression; 423 adjacent Characters are extracted; most of the remaining 121 templates remain blocked."),
+"card_effects": ("BLOCKED", "Ten source-verified Edicts now run in local matches, including End choice, opponent priority and suppression; 423 adjacent Characters are extracted; most of the remaining 121 templates remain blocked."),
 "reusable_effect_runtime": ("IN_PROGRESS", "Finish template-level triggers, target legality, stacking, replacement and expiry."),
 "local_faction_selection": ("PASS", "M8 validates all 25 five-faction two-seat pairings against the 36-card deck contract."),
 "source_deck_builder": ("PASS", "M10 754-card searchable source deck builder validates Standard composition, pure/mixed factions, all copy limits, immutable IDs, save/load and quarantined unsupported effects."),
@@ -89,8 +89,8 @@ def build():
             if pat.search(row["rules_text"]):
                 tags[name]+=1
                 issues.append(name)
-        if id_ in M12_LIVE_EDICTS:
-            status="M12_LIVE_EDICT_CANDIDATE"
+        if id_ in M16_LIVE_EDICTS:
+            status="M16_LIVE_EDICT_CANDIDATE"
         elif id_ in matched:
             status="M7_CHARACTER_BASIC_SANDBOX"
         elif id_ in M4:
@@ -132,7 +132,7 @@ def build():
         "candidate_verified_save_replay":True,
         "source_754_deck_editor_enabled":True,
         "candidate_custom_decks_checked":True,
-        "source_verified_live_edicts":sorted(M12_LIVE_EDICTS),
+        "source_verified_live_edicts":sorted(M16_LIVE_EDICTS),
         "candidate_scenario":"Warfield Ascendancy (uncertified variant)",
         "production_game_gates":domains,
         "blocked_gate_count":sum(x["status"]=="BLOCKED" for x in domains.values()),

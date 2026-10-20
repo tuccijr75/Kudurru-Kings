@@ -279,6 +279,16 @@ func _hand_play(index:int)->void:
 	if phase==2 and c["card_family"]=="Edict":
 		var payload:Dictionary={"card_id":id}
 		if id in ["184","188","193"]:payload["target_uid"]=_pick_unit()
+		if id=="186":
+			var uid:String=_pick_unit()
+			if uid.is_empty():
+				status.text="Choose a unit to displace first."
+				return
+			payload["target_uids"]=[uid]
+			var from_field:String=""
+			for u in view["units"]:
+				if str(u["uid"])==uid:from_field=str(u["field"]);break
+			payload["destination_field"]="Sanctuary" if from_field=="Warfield" else "Warfield"
 		if id=="190":payload["target_seat"]=1-seat
 		if id=="185":
 			if target_permanent.selected<0:

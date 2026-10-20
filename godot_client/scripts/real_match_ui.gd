@@ -25,6 +25,8 @@ var enemy_faction_pick: OptionButton
 var edict_target_select: OptionButton
 var permanent_target_select: OptionButton
 var downed_target_select: OptionButton
+var displacement_a:OptionButton
+var displacement_b:OptionButton
 var audit_target_pick: OptionButton
 var priority_label: Label
 var priority_oath_button: Button
@@ -128,6 +130,11 @@ func _build() -> void:
 	_label(left,"EDICT PERMANENT TARGET (WRIT)",13)
 	permanent_target_select=OptionButton.new()
 	left.add_child(permanent_target_select)
+	_label(left,"RIVER EVACUATION: FIRST UNIT / SECOND OPTIONAL",13)
+	displacement_a=OptionButton.new()
+	displacement_b=OptionButton.new()
+	left.add_child(displacement_a)
+	left.add_child(displacement_b)
 	_label(left,"CENSOR AUDIT TARGET PLAYER",13)
 	audit_target_pick=OptionButton.new()
 	audit_target_pick.add_item("Player (you)")
@@ -329,6 +336,19 @@ func _deploy(id: String, selected_index:int=-1) -> void:
 				status.text="A friendly Character or unit target is required."
 				return
 			parameters["target_uid"]=str(edict_target_select.get_item_metadata(edict_target_select.selected))
+		if id=="186":
+			if displacement_a.item_count<1 or displacement_a.selected<0:
+				status.text="River Evacuation needs at least one unit."
+				return
+			var primary:String=str(displacement_a.get_item_metadata(displacement_a.selected))
+			var selected_uids:Array=[primary]
+			if displacement_b.selected>0:
+				selected_uids.append(str(displacement_b.get_item_metadata(displacement_b.selected)))
+			parameters["target_uids"]=selected_uids
+			var source_field:String=""
+			for unit in state["units"]:
+				if str(unit["uid"])==primary:source_field=str(unit["field"]);break
+			parameters["destination_field"]="Sanctuary" if source_field=="Warfield" else "Warfield"
 		if id=="190":
 			parameters["target_seat"]=audit_target_pick.selected
 		if id=="185":
@@ -422,6 +442,17 @@ func _refresh() -> void:
 	var can_deploy: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==3
 	var can_cast: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==2
 	edict_target_select.clear()
+	displacement_a.clear()
+	displacement_b.clear()
+	displacement_b.add_item("ONLY FIRST UNIT")
+	for unit in state["units"]:
+		if unit["defeated"]:continue
+		var shown:Dictionary=Source.find_card(Source.catalog(),str(unit["card_id"]))
+		var choice_name:String=str(shown["card_name"])+" / "+str(unit["field"])+" / "+str(unit["uid"])
+		displacement_a.add_item(choice_name)
+		displacement_a.set_item_metadata(displacement_a.item_count-1,str(unit["uid"]))
+		displacement_b.add_item(choice_name)
+		displacement_b.set_item_metadata(displacement_b.item_count-1,str(unit["uid"]))
 	downed_target_select.clear()
 	for unit in state["units"]:
 		if not unit["downed"] or unit["defeated"]:continue

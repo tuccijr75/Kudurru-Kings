@@ -9,6 +9,7 @@ const HASHES := {
 	"181": "8d478dc00c08a015756632a75ab6615de0f67dff5fc6df183da41a845797bc95",
 	"184": "d621bcd0a495f80999dcc4dc3e791f040f970e4186a2b8c57495e00bbcfccc94",
 	"185": "27397efb602eda36d49fcb9d83b768ee3491672c00aa9921bf0fc5e56e16e7f3",
+	"186": "b7b141cf96f60acd3a59532ad41b68514a139a29b03683e6673cb967b3eb9d6d",
 	"187": "9c6964e87975c030d3f2d161334c66973974d73c00b9edef9227b30efbe1dc40",
 	"188": "bd82cf6f866c313b83f5415a2ae8d5c502d17347a823f26cc704ea0c113e5e26",
 	"191": "01a059adfba723ec3e22b6e8be4ffa27946b778e6e4797fb0c6f39670f4b377f",
@@ -82,6 +83,52 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 			if not found:return _fail("TARGET_PERMANENT_NOT_FOUND")
 			details["exhausted_card"]=wanted_id
 			details["target_controller"]=target_owner
+		"186":
+			# The printed source only promises displacement of up to two
+			# units sharing one original Field. This candidate moves them to
+			# the other of the two active fields; Line/Geas crossing effects
+			# stay unimplemented, never silently assigned.
+			var ids:Variant=action.get("target_uids",[])
+			if typeof(ids)!=TYPE_ARRAY or ids.is_empty() or ids.size()>2:
+				return _fail("DISPLACE_ONE_OR_TWO_UNITS")
+			var destination:String=str(action.get("destination_field",""))
+			if not ["Warfield","Sanctuary"].has(destination):
+				return _fail("DESTINATION_ACTIVE_FIELD_REQUIRED")
+			var indices:Array=[]
+			var origin:String=""
+			for raw in ids:
+				if typeof(raw)!=TYPE_STRING or str(raw).is_empty():
+					return _fail("INVALID_DISPLACEMENT_TARGET")
+				var uid:String=str(raw)
+				var index:int=CORE.find_unit(s,uid)
+				if index<0 or indices.has(index):
+					return _fail("INVALID_OR_DUPLICATE_DISPLACEMENT_TARGET")
+				var unit:Dictionary=s["units"][index]
+				if unit["defeated"]:
+					return _fail("DEFEATED_UNIT_CANNOT_BE_TARGETED")
+				if origin.is_empty():origin=str(unit["field"])
+				if str(unit["field"])!=origin:return _fail("SAME_ORIGIN_FIELD_REQUIRED")
+				indices.append(index)
+			if origin==destination:return _fail("DISPLACEMENT_MUST_CHANGE_FIELD")
+			var displaced:Array=[]
+			for index in indices:
+				var unit:Dictionary=s["units"][index]
+				var controller:int=int(unit["controller"])
+				var new_slot:int=0
+				while true:
+					var occupied:bool=false
+					for other in s["units"]:
+						if other["field"]==destination and int(other["controller"])==controller and int(other["slot"])==new_slot:
+							occupied=true
+							break
+					if not occupied:break
+					new_slot+=1
+				unit["field"]=destination
+				unit["slot"]=new_slot
+				displaced.append({"uid":unit["uid"],"from":origin,"to":destination,
+					"slot":new_slot,"controller":controller})
+			details["displaced"]=displaced
+			details["line_geas_resolution"]="NOT_IMPLEMENTED_IN_CANDIDATE"
 		"188":
 			var target: String = str(action.get("target_uid",""))
 			var at: int = CORE.find_unit(s,target)

@@ -46,7 +46,7 @@ func _initialize()->void:
 func run()->void:
 	for id in Match.EDICTS:
 		check(Edict.verified(id),"exact original effect hash "+id)
-	check(Match.EDICTS.size()==9,"nine source-verified Edicts available")
+	check(Match.EDICTS.size()==10,"ten source-verified Edicts available")
 	var s:Dictionary=fixture("181")
 	s["units"]=[Core.unit("ALLY","421",0,0),Core.unit("FOE","273",1,0)]
 	s["units"][0]["wounds"]=1

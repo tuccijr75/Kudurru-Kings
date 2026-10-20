@@ -1,3 +1,7 @@
+# M16 ? River Evacuation
+
+The integrated local match executes source-hashed Edict 186: player-selected displacement of one or two units from the same current active Field, with correct Sigil costs and occupied-slot handling. Both solo and localhost two-player interfaces include targeting. Lines/Geasa remain explicitly unresolved, and the 754-card game is not production-certified. See docs/M16_RIVER_EVACUATION.md. Run tools/run_m16_quality_gate.ps1.
+
 # M15 ? Actual Two-Window Localhost Multiplayer UI
 
 The main board now opens a real client for the authoritative Godot localhost server. Two independent game windows can host and join with private hands and server-validated turns. This is same-computer preview, not WAN, TLS, reconnect or 4-seat multiplayer. Run tools/run_m15_quality_gate.ps1. See docs/M15_LOCAL_MULTIPLAYER.md.
