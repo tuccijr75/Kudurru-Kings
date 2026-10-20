@@ -1,9 +1,9 @@
-# Kudurru Kings — Godot M1 (development branch)
+# Kudurru Kings — Godot M3 Economic Laboratory (development branch)
 
 This is the standalone Godot 4.7.2 **development shell** of Kudurru Kings. It does not yet constitute a playable Standard match. The canonical card records, Shipping Rules, acceptance specs, and economy sources remain at the repository root in their numbered folders. This folder does **not** fork or replace them.
 
 ## Launch
-Open `godot_client/project.godot` with Godot 4.7.2 Stable. The four-seat board will appear with seven phase controls. Click **NEXT PHASE** to advance a deterministic preview state. All card slots are intentionally non-interactive while the 754-card master awaits certification.
+Open `godot_client/project.godot` with Godot 4.7.2 Stable. The original four-seat board will appear with seven phases. Click **OPEN ECONOMY LAB** to enter the separate restricted M3 demonstration. Each seat chooses Keep or a free Mulligan before turns begin; then advance to Main and click affordable synthetic Character or Site cards to test deployment and three-resource payments. The 754 real cards remain intentionally non-interactive until certified. Read `docs/M3_TURN_DEPLOYMENT_GATE.md` for exact boundaries.
 
 ## Run validation (Windows)
 ```powershell

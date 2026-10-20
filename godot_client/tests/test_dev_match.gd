@@ -55,13 +55,14 @@ func _tests() -> void:
 	_check(state["players"][3]["hand"].size() == 6, "all players receive six")
 	_check(not Match.public_summary(state).has("hand"), "public summary hides hand details")
 	_check(not Match.public_summary(state).has("seed"), "public summary hides seed")
+	_check(not state["setup_complete"], "setup choices precede first turn")
 	var before: String = JSON.stringify(state)
 	var wrong: Dictionary = _act(state, "ADVANCE", {"seat": 2})
-	_check(not wrong["ok"] and wrong["error"] == "WRONG_SEAT", "turn ownership checked")
+	_check(not wrong["ok"] and wrong["error"] == "SETUP_DECISION_REQUIRED", "setup must complete before turns")
 	wrong = _act(state, "ADVANCE", {"revision": state["revision"] + 1})
 	_check(not wrong["ok"] and wrong["error"] == "STALE_REVISION", "replay version rejected")
 	wrong = _act(state, "DEPLOY", {"card_id": "fake"})
-	_check(not wrong["ok"] and wrong["error"] == "NOT_MAIN_PHASE", "early deployment blocked")
+	_check(not wrong["ok"] and wrong["error"] == "SETUP_DECISION_REQUIRED", "early deployment blocked in setup")
 	_check(JSON.stringify(state) == before, "rejected actions do not mutate state")
 	var mulligan: Dictionary = _act(state, "MULLIGAN")
 	_check(mulligan["ok"], "one free mulligan")
@@ -70,7 +71,15 @@ func _tests() -> void:
 	state = mulligan["state"]
 	_check(state["players"][0]["hand"].size() == 6 and state["players"][0]["deck"].size() == 30, "mulligan preserves 36 cards")
 	_check(not _act(state, "MULLIGAN")["ok"], "second mulligan rejected")
+	_check(not _act(state, "KEEP")["ok"], "cannot keep after mulligan")
 	_check(JSON.stringify(state["events"]).find("DEV_ECON_") == -1, "hidden hands never in public events")
+	_check(not state["setup_complete"], "other seats still have pregame choices")
+	for seat in range(1, 4):
+		var kept: Dictionary = _act(state, "KEEP", {"seat": seat})
+		_check(kept["ok"], "pregame keep for seat " + str(seat))
+		state = kept["state"]
+	_check(state["setup_complete"], "all seats decided before first Upkeep")
+	_check(not _act(state, "ADVANCE", {"seat": 2})["ok"], "turn ownership checked after setup")
 	state = _advance(state, 3)
 	_check(Rules.current_phase(state) == "Main", "three steps reach Main")
 	_check(not _act(state, "MULLIGAN")["ok"], "mulligan only opening Upkeep")
@@ -94,6 +103,10 @@ func _tests() -> void:
 			break
 	_check(not setup.is_empty(), "find standard deck opening with unit and site")
 	if setup.is_empty(): return
+	for seat in range(2):
+		var setup_keep: Dictionary = _act(setup, "KEEP", {"seat": seat})
+		_check(setup_keep["ok"], "pregame setup keep")
+		setup = setup_keep["state"]
 	setup = _advance(setup, 3)
 	var first: Dictionary = {}
 	var second: Dictionary = {}

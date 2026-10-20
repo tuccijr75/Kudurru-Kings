@@ -45,6 +45,8 @@ static func create(names: Array, seed_value: int) -> Dictionary:
 	state["mode"] = MODE
 	state["seed"] = seed_value
 	state["fixture_version"] = 1
+	state["setup_complete"] = false
+	state["setup_ready"] = []
 	for i in range(state["players"].size()):
 		var p: Dictionary = state["players"][i]
 		var faction: String = Deck.FACTIONS[i]
@@ -60,6 +62,7 @@ static func create(names: Array, seed_value: int) -> Dictionary:
 		p["mulligan_available"] = true
 		p = _draw_to_six(p)
 		state["players"][i] = p
+		state["setup_ready"].append(false)
 	state["events"].append({"type": "DEV_MATCH_CREATED", "seat_count": names.size(),
 			"revision": 0}) # Deliberately excludes hidden deck/hand details
 	return {"ok": true, "state": state}
@@ -79,6 +82,36 @@ static func _counts(state: Dictionary) -> void:
 		p["host_sigils"] = 0
 		state["players"][i] = p
 
+static func _setup_decision(state: Dictionary, action: Dictionary) -> Dictionary:
+	if typeof(action.get("seat")) != TYPE_INT:
+		return _error("INVALID_SETUP_SEAT")
+	var seat: int = int(action["seat"])
+	if seat < 0 or seat >= state["players"].size():
+		return _error("INVALID_SETUP_SEAT")
+	if bool(state["setup_ready"][seat]):
+		return _error("SETUP_ALREADY_RESOLVED")
+	var op: String = str(action.get("type", ""))
+	if op != "MULLIGAN" and op != "KEEP":
+		return _error("SETUP_DECISION_REQUIRED")
+	var next: Dictionary = state.duplicate(true)
+	var person: Dictionary = next["players"][seat]
+	if op == "MULLIGAN":
+		var full: Array = person["deck"] + person["hand"]
+		if full.size() != 36:
+			return _error("INVALID_MULLIGAN_CONSERVATION")
+		person["deck"] = _shuffle(full, int(state["seed"]) + seat * 7919 + 919)
+		person["hand"] = []
+		person = _draw_to_six(person)
+	person["mulligan_available"] = false
+	next["players"][seat] = person
+	next["setup_ready"][seat] = true
+	next["setup_complete"] = next["setup_ready"].all(func(value): return value)
+	next["revision"] = int(next["revision"]) + 1
+	var event: Dictionary = {"type": "SETUP_" + op, "seat": seat,
+			"revision": next["revision"]}
+	next["events"].append(event)
+	return {"ok": true, "state": next, "event": event}
+
 static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 	if state.get("mode") != MODE or int(state.get("fixture_version", 0)) != 1:
 		return _error("NOT_ECONOMY_LAB")
@@ -86,6 +119,8 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		return _error("EVENT_LIMIT")
 	if typeof(action.get("revision")) != TYPE_INT or int(action["revision"]) != int(state.get("revision", -1)):
 		return _error("STALE_REVISION")
+	if not bool(state.get("setup_complete", false)):
+		return _setup_decision(state, action)
 	if typeof(action.get("seat")) != TYPE_INT or int(action["seat"]) != int(state.get("seat", -1)):
 		return _error("WRONG_SEAT")
 	var seat: int = int(state["seat"])
@@ -111,24 +146,8 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 			fresh = _draw_to_six(fresh)
 			next_state["players"][seat] = fresh
 		return {"ok": true, "state": next_state, "event": moved["event"]}
-	if operation == "MULLIGAN":
-		if Rules.current_phase(state) != "Upkeep" or not bool(p["mulligan_available"]):
-			return _error("MULLIGAN_WINDOW_CLOSED")
-		var changed: Dictionary = state.duplicate(true)
-		var person: Dictionary = changed["players"][seat]
-		var complete: Array = person["deck"] + person["hand"]
-		if complete.size() != 36:
-			return _error("INVALID_MULLIGAN_CONSERVATION")
-		person["deck"] = _shuffle(complete, int(state["seed"]) + seat * 7919 + 919)
-		person["hand"] = []
-		person = _draw_to_six(person)
-		person["mulligan_available"] = false
-		changed["players"][seat] = person
-		changed["revision"] = int(changed["revision"]) + 1
-		var event: Dictionary = {"type": "MULLIGAN", "seat": seat,
-			"revision": changed["revision"]}
-		changed["events"].append(event)
-		return {"ok": true, "state": changed, "event": event}
+	if operation == "MULLIGAN" or operation == "KEEP":
+		return _error("MULLIGAN_WINDOW_CLOSED")
 	if operation == "DEPLOY":
 		if Rules.current_phase(state) != "Main":
 			return _error("NOT_MAIN_PHASE")
@@ -172,5 +191,7 @@ static func public_summary(state: Dictionary) -> Dictionary:
 			"field_ids": p["field"].map(func(c): return c["card_id"]),
 			"sinew": p["sinew"], "sigil": p["sigil"], "oath": p["oath"]})
 	return {"mode": state.get("mode"), "revision": state.get("revision"),
+		"setup_complete": state.get("setup_complete", false),
+		"setup_ready": state.get("setup_ready", []).duplicate(),
 		"phase": Rules.current_phase(state), "seat": state["seat"],
 		"round": state["round"], "players": ps}

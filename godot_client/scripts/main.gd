@@ -154,6 +154,10 @@ func _build_screen() -> void:
 	footer.add_child(legend.get_parent())
 	legend.add_child(_label("Capture: optional in Resolution", 14))
 	legend.add_child(_label("No rewards or uncertified cards", 13, DIM))
+	var lab_button := Button.new()
+	lab_button.text = "OPEN ECONOMY LAB"
+	lab_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/economy_lab.tscn"))
+	legend.add_child(lab_button)
 
 func _seat_text(index: int) -> String:
 	var p: Dictionary = state["players"][index]
