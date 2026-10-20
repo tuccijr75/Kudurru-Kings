@@ -1,3 +1,7 @@
+# Kudurru Kings M11 ? Seven Source-Verified Live Edicts
+
+Condemnation Seal, Writ of Seizure, and Night Market Clause now run in the local match with target legality, passive suspension and real player-driven draw/discard choices. Night Market supports full action-log replay. Seven of the 15 Edicts are integrated, with remaining source effects blocked. Run tools/run_m11_quality_gate.ps1. Full 754-card Standard is NOT production-certified.
+
 # Kudurru Kings M10 ? Real 754-Card Deck Builder
 
 The main board includes BUILD A DECK (754 REAL CARDS). Construct, validate, save and reload full-source card lists, then select a source-verified candidate deck in PLAY REAL-CARD MATCH (PREVIEW). Unsupported effects are explicitly design-only and never substituted. See docs/M10_DECK_BUILDER_RELEASE_BOUNDARIES.md and run tools/run_m10_quality_gate.ps1. Full 754-card Standard is still not production-ready.

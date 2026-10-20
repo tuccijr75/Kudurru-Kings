@@ -46,7 +46,7 @@ func _initialize()->void:
 func run()->void:
 	for id in Match.EDICTS:
 		check(Edict.verified(id),"exact original effect hash "+id)
-	check(Match.EDICTS.size()==4,"four real Edicts available")
+	check(Match.EDICTS.size()==7,"seven source-verified Edicts available")
 	var s:Dictionary=fixture("181")
 	s["units"]=[Core.unit("ALLY","421",0,0),Core.unit("FOE","273",1,0)]
 	s["units"][0]["wounds"]=1
@@ -111,4 +111,4 @@ func run()->void:
 	original=JSON.stringify(wrong)
 	check(cast(wrong,"191")["error"]=="INSUFFICIENT_sigil","cannot cast unpaid Truce")
 	check(JSON.stringify(wrong)==original,"no mutation on insufficient resources")
-	check(not Edict.verified("187"),"special End Edict remains separate sandbox-only rule")
+	check(Edict.verified("187"),"Night Market source now supported in the End-only reducer path")

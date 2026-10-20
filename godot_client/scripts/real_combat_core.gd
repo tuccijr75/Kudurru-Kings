@@ -170,11 +170,11 @@ static func _owned_passive_bonus(state: Dictionary, u: Dictionary, axis: String,
 	var bonus: int = 0
 	if attacking and u["field"] == "Warfield":
 		for site in state.get("sites", []):
-			if str(site.get("card_id", "")) == "216" and int(site.get("controller", -1)) == int(u["controller"]) and str(site.get("field", "")) == "Warfield":
+			if str(site.get("card_id", "")) == "216" and int(site.get("controller", -1)) == int(u["controller"]) and str(site.get("field", "")) == "Warfield" and not bool(site.get("exhausted",false)):
 				bonus += 1
 				break
 	for item in state.get("attachments", []):
-		if str(item.get("host_uid", "")) != str(u["uid"]) or int(item.get("controller", -1)) != int(u["controller"]):
+		if str(item.get("host_uid", "")) != str(u["uid"]) or int(item.get("controller", -1)) != int(u["controller"]) or bool(item.get("exhausted",false)):
 			continue
 		if item["card_id"] == "239" and attacking:
 			bonus += 1

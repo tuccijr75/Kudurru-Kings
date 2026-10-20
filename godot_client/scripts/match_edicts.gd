@@ -6,6 +6,9 @@ const Source = preload("res://scripts/real_effects.gd")
 const CORE = preload("res://scripts/real_combat_core.gd")
 const HASHES := {
 	"181": "8d478dc00c08a015756632a75ab6615de0f67dff5fc6df183da41a845797bc95",
+	"184": "d621bcd0a495f80999dcc4dc3e791f040f970e4186a2b8c57495e00bbcfccc94",
+	"185": "27397efb602eda36d49fcb9d83b768ee3491672c00aa9921bf0fc5e56e16e7f3",
+	"187": "9c6964e87975c030d3f2d161334c66973974d73c00b9edef9227b30efbe1dc40",
 	"188": "bd82cf6f866c313b83f5415a2ae8d5c502d17347a823f26cc704ea0c113e5e26",
 	"191": "01a059adfba723ec3e22b6e8be4ffa27946b778e6e4797fb0c6f39670f4b377f",
 	"193": "c0a3917b78511bf01bf64fe0f39e9c9a065dac4e65adb2e4cd39569100935278",
@@ -38,6 +41,43 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 					unit["downed"] = true
 				hits.append(unit["uid"])
 			details["hit_units"] = hits
+		"184":
+			var target:String=str(action.get("target_uid",""))
+			var at:int=CORE.find_unit(s,target)
+			if at<0:return _fail("DOWNED_UNIT_REQUIRED")
+			var unit:Dictionary=s["units"][at]
+			if not unit["downed"] or unit["defeated"]:
+				return _fail("DOWNED_UNIT_REQUIRED")
+			if int(unit.get("cannot_rescue_round",-1))==int(s["round"]):
+				return _fail("ALREADY_SEALED_THIS_ROUND")
+			unit["cannot_rescue_round"]=int(s["round"])
+			unit["cannot_ready_round"]=int(s["round"])
+			details["sealed"]=target
+		"185":
+			var family:String=str(action.get("target_kind",""))
+			var wanted_id:String=str(action.get("target_card_id",""))
+			var target_owner:int=int(action.get("target_controller",-1))
+			var target_host:String=str(action.get("target_host_uid",""))
+			if target_owner<0 or target_owner>=s["players"].size():
+				return _fail("TARGET_CONTROLLER_INVALID")
+			if family!="Site" and family!="Relic":
+				return _fail("RELIC_OR_SITE_REQUIRED")
+			var zone:Array=s["sites"] if family=="Site" else s["attachments"]
+			var found:bool=false
+			for obj in zone:
+				if str(obj.get("card_id",""))!=wanted_id or int(obj.get("controller",-1))!=target_owner:continue
+				if family=="Relic" and str(obj.get("host_uid",""))!=target_host:continue
+				var obj_card:Dictionary=Source.find_card(Source.catalog(),wanted_id)
+				if obj_card.get("card_family")!=family:return _fail("SOURCE_FAMILY_MISMATCH")
+				if obj.get("exhausted",false):return _fail("TARGET_ALREADY_EXHAUSTED")
+				obj["exhausted"]=true
+				obj["exhausted_by"]=seat
+				obj["exhausted_round"]=int(s["round"])
+				found=true
+				break
+			if not found:return _fail("TARGET_PERMANENT_NOT_FOUND")
+			details["exhausted_card"]=wanted_id
+			details["target_controller"]=target_owner
 		"188":
 			var target: String = str(action.get("target_uid",""))
 			var at: int = CORE.find_unit(s,target)

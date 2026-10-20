@@ -16,11 +16,14 @@ var attacker_select: OptionButton
 var defender_select: OptionButton
 var axis_select: OptionButton
 var next_button: Button
+var night_market_button: Button
 var attack_button: Button
 var hand_scroll: ScrollContainer
 var player_faction_pick: OptionButton
 var enemy_faction_pick: OptionButton
 var edict_target_select: OptionButton
+var permanent_target_select: OptionButton
+var downed_target_select: OptionButton
 var saved_deck_pick: OptionButton
 var saved_deck_names: Array = []
 
@@ -112,6 +115,12 @@ func _build() -> void:
 	_label(left,"EDICT TARGET (MERCY / CONVOY)",13)
 	edict_target_select = OptionButton.new()
 	left.add_child(edict_target_select)
+	_label(left,"DOWNED UNIT TARGET (CONDEMNATION)",13)
+	downed_target_select=OptionButton.new()
+	left.add_child(downed_target_select)
+	_label(left,"EDICT PERMANENT TARGET (WRIT)",13)
+	permanent_target_select=OptionButton.new()
+	left.add_child(permanent_target_select)
 	var middle := VBoxContainer.new()
 	middle.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	columns.add_child(middle)
@@ -144,6 +153,7 @@ func _build() -> void:
 	bar.add_theme_constant_override("separation",15)
 	root.add_child(bar)
 	next_button = _button(bar,"NEXT PHASE / END TURN",_next)
+	night_market_button = _button(bar,"CAST NIGHT MARKET (END)",func():_action("CAST_END"))
 	_button(bar,"SAVE LOCAL GAME",_save_game)
 	_button(bar,"CONTINUE SAVED GAME",_load_game)
 	status = _label(root,"One complete pregame choice per seat. Opponent runs deterministic legal-action AI.",15)
@@ -228,6 +238,9 @@ func _run_opponent() -> void:
 	if steps >= 90: status.text = "OPPONENT STOPPED: SAFETY ACTION BUDGET"
 
 func _next() -> void:
+	if not state["pending_end_clause"].is_empty():
+		status.text="Choose one card in your hand to DISCARD before ending your turn."
+		return
 	if not state["setup_complete"]:
 		if not state["players"][0]["setup_ready"]:
 			_action("KEEP")
@@ -239,15 +252,33 @@ func _next() -> void:
 	_action("ADVANCE")
 
 func _deploy(id: String) -> void:
+	if not state["pending_end_clause"].is_empty():
+		if int(state["pending_end_clause"]["seat"])!=0:return
+		for i in range(state["players"][0]["hand"].size()):
+			if str(state["players"][0]["hand"][i]["card_id"])==id:
+				_action("CLAUSE_DISCARD",{"hand_index":i})
+				return
+		return
 	var card: Dictionary = Source.find_card(Source.catalog(),id)
 	var family: String = str(card.get("card_family",""))
 	if family=="Edict":
 		var parameters: Dictionary = {"card_id":id}
+		if id=="184":
+			if downed_target_select.item_count==0:
+				status.text="Condemnation requires a Downed unit in either field."
+				return
+			parameters["target_uid"]=str(downed_target_select.get_item_metadata(downed_target_select.selected))
 		if id=="188" or id=="193":
 			if edict_target_select.item_count==0:
 				status.text="A friendly Character or unit target is required."
 				return
 			parameters["target_uid"]=str(edict_target_select.get_item_metadata(edict_target_select.selected))
+		if id=="185":
+			if permanent_target_select.item_count==0:
+				status.text="No eligible Site or Relic available."
+				return
+			var selected:Dictionary=permanent_target_select.get_item_metadata(permanent_target_select.selected)
+			for key in selected:parameters[key]=selected[key]
 		_action("CAST",parameters)
 		return
 	var parameters := {"card_id":id,"field":"Warfield"}
@@ -285,13 +316,43 @@ func _refresh() -> void:
 		stats.append("%s  |  Marks %d  |  Sinew %d  Sigil %d  Oath %d  |  Hand %d  Deck %d" % [
 			p["name"],p["marks"],p["sinew"],p["sigil"],p["oath"],p["hand"].size(),p["deck"].size()])
 	scoreboard.text = "\n".join(stats)
-	next_button.disabled = winner>=0 or int(state["seat"])!=0
+	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty()
+	var clause_in_hand:bool=false
+	for card in state["players"][0]["hand"]:
+		if str(card["card_id"])=="187":clause_in_hand=true
+	night_market_button.disabled = winner>=0 or not state["setup_complete"] or int(state["seat"])!=0 or int(state["phase"])!=6 or (
+		clause_in_hand==false or not state["pending_end_clause"].is_empty())
 	for child in hand_list.get_children():
 		hand_list.remove_child(child)
 		child.queue_free()
+	var discarding:bool=not state["pending_end_clause"].is_empty() and int(state["pending_end_clause"].get("seat",-1))==0
 	var can_deploy: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==3
 	var can_cast: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==2
 	edict_target_select.clear()
+	downed_target_select.clear()
+	for unit in state["units"]:
+		if not unit["downed"] or unit["defeated"]:continue
+		if int(unit.get("cannot_rescue_round",-1))==int(state["round"]):continue
+		var downed_card:Dictionary=Source.find_card(Source.catalog(),str(unit["card_id"]))
+		downed_target_select.add_item(str(downed_card["card_name"])+
+			(" / FRIENDLY" if int(unit["controller"])==0 else " / OPPONENT"))
+		downed_target_select.set_item_metadata(downed_target_select.item_count-1,str(unit["uid"]))
+	permanent_target_select.clear()
+	for site in state["sites"]:
+		if site.get("exhausted",false):continue
+		var info:Dictionary={"target_kind":"Site","target_card_id":str(site["card_id"]),
+			"target_controller":int(site["controller"])}
+		permanent_target_select.add_item(str(Source.find_card(Source.catalog(),str(site["card_id"]))["card_name"])+
+			" / Seat "+str(site["controller"]))
+		permanent_target_select.set_item_metadata(permanent_target_select.item_count-1,info)
+	for attached in state["attachments"]:
+		if attached.get("exhausted",false):continue
+		var source:Dictionary=Source.find_card(Source.catalog(),str(attached["card_id"]))
+		if source.get("card_family")!="Relic":continue
+		var info:Dictionary={"target_kind":"Relic","target_card_id":str(attached["card_id"]),
+			"target_controller":int(attached["controller"]),"target_host_uid":str(attached["host_uid"])}
+		permanent_target_select.add_item(str(source["card_name"])+" / Host "+str(attached["host_uid"]))
+		permanent_target_select.set_item_metadata(permanent_target_select.item_count-1,info)
 	for u in state["units"]:
 		if int(u["controller"])!=0 or u["defeated"]: continue
 		var target_card: Dictionary=Source.find_card(Source.catalog(),str(u["card_id"]))
@@ -300,10 +361,13 @@ func _refresh() -> void:
 		edict_target_select.set_item_metadata(edict_target_select.item_count-1,u["uid"])
 	for card in state["players"][0]["hand"]:
 		var id: String = str(card["card_id"])
-		var b: Button = _button(hand_list,str(card["card_name"])+" | "+str(card["card_family"])+
+		var b: Button = _button(hand_list,("DISCARD: " if discarding else "")+str(card["card_name"])+" | "+str(card["card_family"])+
 			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id))
-		b.disabled = not (can_cast if card["card_family"]=="Edict" else can_deploy) or int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or (
-			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or int(card["cost_oath"])>int(state["players"][0]["oath"]))
+		b.disabled = false if discarding else (
+			not (can_cast if card["card_family"]=="Edict" and str(card["card_id"])!="187" else can_deploy) or
+			int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or
+			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or
+			int(card["cost_oath"])>int(state["players"][0]["oath"]))
 	var lines: Array = []
 	for field in Match.FIELD_NAMES:
 		lines.append("═══ "+field.to_upper()+" ═══")

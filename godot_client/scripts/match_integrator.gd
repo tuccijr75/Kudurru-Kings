@@ -15,7 +15,7 @@ const SCENARIO := "Warfield Ascendancy (candidate, not canon)"
 const AXES := ["Stone", "Veil", "Authority"]
 const SITES := ["214", "216"]
 const SUPPORT := ["239", "241", "254"]
-const EDICTS := ["181","188","191","193"]
+const EDICTS := ["181","184","185","187","188","191","193"]
 const FIELD_NAMES := ["Warfield", "Sanctuary"]
 const FACTIONS := ["BorderstoneGuild","FloodbornPact","SkyloomTemple","UnderwellKeepers","Fateforge"]
 const SOURCE_HASHES := {"239":"62ce231bc67c47e99832c4d8c18da701c04ecce102799bfad21eb295613f18dd",
@@ -46,7 +46,7 @@ static func _deck(faction: String) -> Array:
 	pool.sort_custom(func(a,b):
 		if a["cost_sinew"] == b["cost_sinew"]: return int(a["card_id"]) < int(b["card_id"])
 		return int(a["cost_sinew"]) < int(b["cost_sinew"]))
-	if pool.size() < 26: return []
+	if pool.size() < 23: return []
 	var out: Array = []
 	var seen_names: Dictionary = {}
 	for candidate in pool:
@@ -55,8 +55,8 @@ static func _deck(faction: String) -> Array:
 		var c: Dictionary = candidate.duplicate(true)
 		c["playable"] = true # Candidate whitelist ONLY, original registry stays locked.
 		out.append(c)
-		if out.size() == 26: break
-	if out.size() != 26: return []
+		if out.size() == 23: break
+	if out.size() != 23: return []
 	for id in SITES:
 		var site: Dictionary = CardSource.find_card(source, id).duplicate(true)
 		site["playable"] = true
@@ -118,7 +118,7 @@ static func create(seed_value: int = 20261020, player_faction: String = "Borders
 		"source_catalog": "real_cards_v1", "seed": seed_value, "initial_deck_ids": initial_ids,
 		"round": 1, "seat": 0, "phase": 0, "revision": 0,
 		"players": players, "units": [], "sites": [], "attachments": [],
-		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {},
+		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {}, "pending_end_clause": {},
 		"events": [], "action_log": [], "setup_complete": false,
 		"release_certified": false, "reward_enabled": false}}
 
@@ -186,12 +186,58 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		return _commit(s,"SETUP_"+kind,{"seat":seat},action)
 	if seat != int(s["seat"]): return error("NOT_ACTIVE_SEAT")
 	var phase: int = int(s["phase"])
+	if kind == "CAST_END":
+		if phase!=6:return error("END_WINDOW_REQUIRED")
+		if not s["pending_end_clause"].is_empty():return error("DISCARD_PENDING")
+		if not Edicts.verified("187"):return error("SOURCE_TEXT_CHANGED")
+		var card_index:int=-1
+		for i in range(p["hand"].size()):
+			if str(p["hand"][i]["card_id"])=="187":
+				card_index=i
+				break
+		if card_index<0:return error("NIGHT_MARKET_NOT_IN_HAND")
+		var clause:Dictionary=p["hand"][card_index]
+		var payment:Dictionary=Costs.pay(p,clause)
+		if not payment["ok"]:return payment
+		# Draw first, *then* choose one card to discard. Never preselect it.
+		for resource in Costs.RESOURCE_KEYS:p[resource]=int(payment["player"][resource])
+		p["hand"].remove_at(card_index)
+		p["discard"].append(clause)
+		var drawn:Array=[]
+		for k in range(2):
+			if p["deck"].is_empty():break
+			var pulled:Dictionary=p["deck"].pop_back()
+			p["hand"].append(pulled)
+			drawn.append(str(pulled["card_id"]))
+		if p["hand"].is_empty():return error("NIGHT_MARKET_DISCARD_REQUIRED")
+		s["players"][seat]=p
+		s["pending_end_clause"]={"seat":seat,"drawn_count":drawn.size()}
+		# Do not reveal drawn card identities to other seats in the public event.
+		return _commit(s,"NIGHT_MARKET_DRAW",{"seat":seat,"drawn_count":drawn.size(),"paid":payment["paid"]},action)
+	if kind == "CLAUSE_DISCARD":
+		if phase!=6:return error("END_WINDOW_REQUIRED")
+		if s["pending_end_clause"].is_empty() or int(s["pending_end_clause"]["seat"])!=seat:
+			return error("NO_PENDING_END_DISCARD")
+		var choice:int=int(action.get("hand_index",-1))
+		if choice<0 or choice>=p["hand"].size():return error("INVALID_DISCARD_CHOICE")
+		var selected:Dictionary=p["hand"].pop_at(choice)
+		p["discard"].append(selected)
+		p["heat"]=int(p["heat"])+1
+		s["players"][seat]=p
+		s["pending_end_clause"]={}
+		return _commit(s,"NIGHT_MARKET_DISCARD",{"seat":seat,"card_id":str(selected["card_id"]),"heat_gained":1},action)
 	if kind == "ADVANCE":
+		if phase==6 and not s["pending_end_clause"].is_empty():
+			return error("NIGHT_MARKET_DISCARD_PENDING")
 		if phase == 0:
 			if bool(s["truce"].get("active",false)) and int(s["truce"]["owner"]) == seat and int(s["round"]) > int(s["truce"]["started_round"]):
 				s["truce"] = {}
 			for u in s["units"]:
 				if int(u["controller"]) == seat and not u["downed"] and not u["defeated"]: u["exhausted"] = false
+			for site in s["sites"]:
+				if int(site["controller"])==seat:site["exhausted"]=false
+			for attachment in s["attachments"]:
+				if int(attachment["controller"])==seat:attachment["exhausted"]=false
 		if phase == 5:
 			s["objective_owner"] = _control(s)
 			var controller: int = int(s["objective_owner"])
@@ -213,7 +259,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		if phase != 3: return error("MAIN_REQUIRED")
 		var has_archive: bool = false
 		for site in s["sites"]:
-			if site["card_id"] == "214" and int(site["controller"]) == seat: has_archive = true
+			if site["card_id"] == "214" and int(site["controller"]) == seat and not site.get("exhausted",false): has_archive = true
 		if not has_archive: return error("MIRROR_ARCHIVE_REQUIRED")
 		var stamp: String = str(int(s["round"])*2+seat)
 		if s["peek_used"].has(stamp): return error("MIRROR_ALREADY_USED")
@@ -237,6 +283,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		var card: Dictionary = p["hand"][index]
 		if not _supported(card) or card["card_family"] != "Edict":
 			return error("UNVERIFIED_EDICT")
+		if id=="187":return error("END_WINDOW_REQUIRED")
 		var effect: Dictionary = Edicts.resolve(s,seat,id,action)
 		if not effect["ok"]: return effect
 		var payment: Dictionary = Costs.pay(p,card)
@@ -343,6 +390,15 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 		return action
 	var phase: int = int(state["phase"])
 	var p: Dictionary = state["players"][seat]
+	if phase==6:
+		if not state["pending_end_clause"].is_empty():
+			return {"seat":seat,"revision":int(state["revision"]),"type":"CLAUSE_DISCARD",
+				"hand_index":p["hand"].size()-1}
+		for card in p["hand"]:
+			if str(card["card_id"])=="187" and Edicts.verified("187"):
+				if int(card["cost_sinew"])<=int(p["sinew"]) and int(card["cost_sigil"])<=int(p["sigil"]) and int(card["cost_oath"])<=int(p["oath"]) and (
+					p["hand"].size()>1 or not p["deck"].is_empty()):
+					return {"seat":seat,"revision":int(state["revision"]),"type":"CAST_END"}
 	if phase == 2:
 		for c in p["hand"]:
 			var id: String = str(c["card_id"])
@@ -350,6 +406,26 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 			if int(c["cost_sinew"]) > int(p["sinew"]) or int(c["cost_sigil"]) > int(p["sigil"]) or int(c["cost_oath"]) > int(p["oath"]): continue
 			var attempt: Dictionary = {"seat":seat,"revision":int(state["revision"]),
 				"type":"CAST","card_id":id}
+			if id == "184":
+				for u in state["units"]:
+					if u["downed"] and not u["defeated"] and int(u.get("cannot_rescue_round",-1))!=int(state["round"]):
+						attempt["target_uid"]=u["uid"]
+						break
+			if id == "185":
+				for site in state["sites"]:
+					if site.get("exhausted",false):continue
+					attempt["target_kind"]="Site"
+					attempt["target_card_id"]=site["card_id"]
+					attempt["target_controller"]=site["controller"]
+					break
+				if not attempt.has("target_kind"):
+					for attachment in state["attachments"]:
+						if attachment.get("exhausted",false) or str(attachment["card_id"])!="239":continue
+						attempt["target_kind"]="Relic"
+						attempt["target_card_id"]=attachment["card_id"]
+						attempt["target_controller"]=attachment["controller"]
+						attempt["target_host_uid"]=attachment["host_uid"]
+						break
 			if id == "188" or id == "193":
 				for u in state["units"]:
 					if int(u["controller"]) != seat or u["defeated"]: continue
@@ -374,6 +450,18 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 				action["card_id"] = c["card_id"]
 				action["field"] = "Sanctuary" if c["card_id"] == "214" else "Warfield"
 				return action
+	if phase == 3:
+		# Source-verified Pets/Relics must be playable by the local opponent too.
+		# Site and Character priorities above remain unchanged.
+		for c in p["hand"]:
+			if str(c["card_family"])!="Relic" and str(c["card_family"])!="Pet":continue
+			if int(c["cost_sinew"])>int(p["sinew"]) or int(c["cost_sigil"])>int(p["sigil"]) or int(c["cost_oath"])>int(p["oath"]):continue
+			for host in state["units"]:
+				if int(host["controller"])!=seat or host["downed"] or host["defeated"]:continue
+				var attach_action:Dictionary={"seat":seat,"revision":int(state["revision"]),"type":"DEPLOY",
+					"card_id":str(c["card_id"]),"field":str(host["field"]),"host_uid":str(host["uid"])}
+				if apply(state,attach_action).get("ok",false):
+					return attach_action
 	if phase == 4:
 		for a in state["units"]:
 			if a["controller"] != seat or not _ready(a): continue

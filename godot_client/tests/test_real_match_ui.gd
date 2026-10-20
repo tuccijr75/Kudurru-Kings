@@ -16,6 +16,7 @@ func run() -> void:
 	root.add_child(screen)
 	check(screen.state.get("mode") == "M7_REAL_MATCH_CANDIDATE", "source-owned candidate state")
 	check(screen.state["players"][0]["hand"].size() == 6, "source hand visible")
+	check(screen.downed_target_select != null, "Condemnation targets available as separate legal choice")
 	check(screen.state["players"][1]["hand"].size() == 6, "opponent hand hidden in UI")
 	check(not screen.state["setup_complete"], "pregame choices before turns")
 	screen._next()

@@ -26,8 +26,8 @@ class TestM7Completion(unittest.TestCase):
   self.assertEqual(121,self.audit["unique_effect_templates"])
   self.assertEqual(754,sum(len(x["card_ids"]) for x in self.templates))
   self.assertEqual(423,self.audit["effect_statuses"]["M7_CHARACTER_BASIC_SANDBOX"])
-  self.assertEqual(10,self.audit["effect_statuses"]["M4_SOURCE_EFFECT_SANDBOX"])
-  self.assertEqual(4,self.audit["effect_statuses"]["M8_LIVE_EDICT_CANDIDATE"])
+  self.assertEqual(7,self.audit["effect_statuses"]["M4_SOURCE_EFFECT_SANDBOX"])
+  self.assertEqual(7,self.audit["effect_statuses"]["M11_LIVE_EDICT_CANDIDATE"])
   self.assertEqual(3,self.audit["effect_statuses"]["M7_PRESENT_EFFECT_NOT_FULLY_CERTIFIED"])
   self.assertEqual(314,self.audit["effect_statuses"]["UNIMPLEMENTED_OR_UNVERIFIED"])
  def test_legacy_terms_not_silently_converted(self):
