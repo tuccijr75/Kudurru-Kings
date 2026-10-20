@@ -90,7 +90,14 @@ try{
  }
  Write-Output ('ZIP_COUNT='+$names.Count)
 }finally{$zip.Dispose()}
-$hash=(Get-FileHash -Algorithm SHA256 $archive).Hash.ToLowerInvariant()
+$stream=[IO.File]::OpenRead($archive)
+$hasher=[Security.Cryptography.SHA256]::Create()
+try {
+ $hash=([BitConverter]::ToString($hasher.ComputeHash($stream))).Replace('-','').ToLowerInvariant()
+} finally {
+ $stream.Dispose()
+ $hasher.Dispose()
+}
 Write-Output ('M8_PORTABLE_PREVIEW_PATH='+$archive)
 Write-Output ('M8_PORTABLE_PREVIEW_SHA256='+$hash)
 Write-Output ('M8_PORTABLE_PREVIEW_BYTES='+(Get-Item $archive).Length)
