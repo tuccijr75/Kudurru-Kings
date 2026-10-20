@@ -1,3 +1,7 @@
+# M15 ? Actual Two-Window Localhost Multiplayer UI
+
+The main board now opens a real client for the authoritative Godot localhost server. Two independent game windows can host and join with private hands and server-validated turns. This is same-computer preview, not WAN, TLS, reconnect or 4-seat multiplayer. Run tools/run_m15_quality_gate.ps1. See docs/M15_LOCAL_MULTIPLAYER.md.
+
 # M14 ? Defeated Auto-Restore
 
 Defeated battlefield units now return to their original match owner after two complete intervening rounds, choosing Hand if space otherwise a deterministically shuffled Deck. Source-card conservation, status display and attached-item preview behavior are tested. See docs/M14_DEFEAT_RESTORE.md and run tools/run_m14_quality_gate.ps1. No production capture or permanent rewards are represented as complete.

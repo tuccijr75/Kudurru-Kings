@@ -9,6 +9,7 @@ const MAX_MESSAGE := 16384
 const MAX_CLIENTS := 2
 var listener := TCPServer.new()
 var connections: Array = []
+var claimed_seats: Dictionary = {}
 var game: Dictionary = {}
 var crypto := Crypto.new()
 
@@ -41,7 +42,7 @@ func _projection(seat:int)->Dictionary:
 		var public_player:Dictionary={"seat":i,"faction":p["faction"],"name":p["name"],
 			"marks":p["marks"],"heat":p["heat"],"sinew":p["sinew"],
 			"sigil":p["sigil"],"oath":p["oath"],"hand_count":p["hand"].size(),
-			"deck_count":p["deck"].size(),"discard_count":p["discard"].size()}
+			"deck_count":p["deck"].size(),"discard_count":p["discard"].size(),"setup_ready":p["setup_ready"]}
 		if i==seat:
 			public_player["hand"]=p["hand"].duplicate(true)
 		players.append(public_player)
@@ -51,8 +52,10 @@ func _projection(seat:int)->Dictionary:
 		priority_view={"response_seat":int(front["seat"]),"source_id":front["source_id"]}
 		if int(front["seat"])==seat:
 			priority_view["options"]=front["options"].duplicate()
+	var pending_end:Dictionary=game.get("pending_end_clause",{})
+	var active_pending:bool=not pending_end.is_empty() and int(pending_end.get("seat",-1))==seat
 	return {"mode":"LOCAL_HOST_PREVIEW","revision":game["revision"],
-		"pending_choice":priority_view,
+		"pending_choice":priority_view,"pending_end_discard":active_pending,
 		"seat":game["seat"],"round":game["round"],"phase":game["phase"],
 		"setup_complete":game["setup_complete"],"winner":game["winner"],
 		"players":players,"units":game["units"].duplicate(true),
@@ -63,12 +66,20 @@ func _projection(seat:int)->Dictionary:
 func _process(_delta:float)->void:
 	if listener.is_connection_available():
 		var peer:StreamPeerTCP=listener.take_connection()
-		if connections.size()>=MAX_CLIENTS:
+		var seat:int=-1
+		for available in range(MAX_CLIENTS):
+			if not claimed_seats.has(available):
+				seat=available
+				break
+		if seat<0:
 			_send(peer,{"ok":false,"error":"TWO_SEAT_LOCAL_ONLY"})
 			peer.disconnect_from_host()
 		else:
-			var seat:int=connections.size()
 			var token:String=crypto.generate_random_bytes(32).hex_encode()
+			# Seats stay claimed after disconnect: a new untrusted client must
+			# never inherit an absent player's hand or identity mid-match.
+			# Authenticated reconnect is a future WAN-service requirement.
+			claimed_seats[seat]=true
 			connections.append({"seat":seat,"peer":peer,"token":token,"buffer":""})
 			_send(peer,{"ok":true,"type":"WELCOME","seat":seat,"token":token,
 				"warning":"LOCALHOST_ONLY_NOT_PRODUCTION_NETWORK","view":_projection(seat)})

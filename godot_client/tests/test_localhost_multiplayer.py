@@ -7,6 +7,7 @@ import json
 import socket
 import subprocess
 import time
+import threading
 import unittest
 from pathlib import Path
 
@@ -21,16 +22,21 @@ class LocalhostMatchTest(unittest.TestCase):
   cls.server=subprocess.Popen(
     [str(ENGINE),"--headless","--path",str(ROOT/"godot_client"),
      "res://scenes/localhost_match_server.tscn"],
-    stdin=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,
-    creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
+    stdin=subprocess.DEVNULL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,
+    text=True,bufsize=1,creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
   )
-  for _ in range(80):
-   if cls.server.poll() is not None:raise RuntimeError("Godot server failed to launch")
-   try:
-    with socket.create_connection((HOST,PORT),0.15):break
-   except OSError:
-    time.sleep(0.1)
-  else:raise RuntimeError("Loopback port never opened")
+  # Do NOT probe a seat-assignment port by opening a TCP connection:
+  # the host correctly reserves seats on accepted connections. Instead
+  # wait for the server's explicit readiness log without consuming one.
+  ready=threading.Event()
+  def read_log():
+   for line in cls.server.stdout:
+    if "KUDURRU_LOCAL_MATCH_SERVER_LISTENING" in line:
+     ready.set()
+  cls.log_thread=threading.Thread(target=read_log,daemon=True)
+  cls.log_thread.start()
+  if not ready.wait(10):
+   raise RuntimeError("Godot server failed to announce loopback readiness")
 
  @classmethod
  def tearDownClass(cls):
