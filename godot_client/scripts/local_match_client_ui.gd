@@ -1,4 +1,5 @@
 extends Control
+const Pets = preload("res://scripts/match_pets.gd")
 ## Actual Godot TCP client for the two-seat loopback-only host.
 ## Zero player authority: private hand, priority and actions arrive from host.
 ## This scene is NOT a WAN/TLS/reconnect/4-seat production implementation.
@@ -440,6 +441,8 @@ func _refresh()->void:
 	for attached in view["attachments"]:
 		var record:Dictionary=Source.find_card(Source.catalog(),str(attached["card_id"]))
 		lines.append(str(record.get("card_name","SUPPORT"))+" on "+str(attached["host_uid"]))
+		var guard:String=Pets.guard_label(attached,int(view["round"]))
+		if not guard.is_empty():lines.append(guard)
 		if record.get("card_family")=="Relic" and not attached.get("exhausted",false):
 			target_permanent.add_item(str(record["card_name"]))
 			target_permanent.set_item_metadata(target_permanent.item_count-1,

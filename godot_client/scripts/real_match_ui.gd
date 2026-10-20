@@ -1,4 +1,5 @@
 extends Control
+const Pets = preload("res://scripts/match_pets.gd")
 ## Source-backed 36-card 2-seat match candidate. NOT a certified Standard release.
 const Match = preload("res://scripts/match_integrator.gd")
 const Rules = preload("res://scripts/game_rules.gd")
@@ -563,6 +564,9 @@ func _refresh() -> void:
 			if site["field"] == field:
 				lines.append("Site: "+str(Source.find_card(Source.catalog(),str(site["card_id"]))["card_name"])+
 					" • "+str(state["players"][int(site["controller"])]["name"]))
+	for pet in state["attachments"]:
+		var guard:String=Pets.guard_label(pet,int(state["round"]))
+		if not guard.is_empty():lines.append("Halo Pup on "+str(pet["host_uid"])+" | "+guard)
 	board_view.text = "\n".join(lines)
 	attacker_select.clear()
 	defender_select.clear()

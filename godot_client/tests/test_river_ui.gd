@@ -1,5 +1,7 @@
 extends SceneTree
 const Match=preload("res://scripts/match_integrator.gd")
+const HaloFixture=preload("res://tests/test_river_evacuation.gd")
+const Storage=preload("res://scripts/match_storage.gd")
 const Combat=preload("res://scripts/real_combat_core.gd")
 var passed:int=0
 var failed:int=0
@@ -40,6 +42,21 @@ func run()->void:
 	check(ui.state["players"][0]["discard"][-1]["card_id"]=="186","correct printed Edict consumed in real screen")
 	check(ui.state["events"][-1]["resolved"]["displaced"].size()==2,"both targets journaled in screen")
 	check(ui.state["revision"]==1,"screen's reducer committed one legal action")
+	s=HaloFixture.halo_fixture()
+	for i in range(7):
+		var advanced:Dictionary=Match.apply(s,{"type":"ADVANCE","seat":s["seat"],"revision":s["revision"]})
+		check(advanced["ok"],"advance replayable fixture to owner's Edicts")
+		s=advanced["state"]
+	ui.state=s
+	ui._refresh()
+	check(ui.board_view.text.contains("Radiant Guard: READY"),"local UI shows available source Pet reaction")
+	ui.displacement_a.select(0)
+	ui.displacement_b.select(0)
+	ui._deploy("186")
+	check(ui.state["units"][0]["field"]=="Warfield","local UI honors own Host's automatic cancellation")
+	check(ui.board_view.text.contains("Radiant Guard: SPENT THIS ROUND"),"local UI shows spent round counter")
+	check(ui.log_view.text.contains("canceled_displacements"),"local UI journals canceled effect")
+	check(Storage.pack(ui.state).get("ok",false),"actual UI source action remains replayable")
 	ui.free()
 	print("KUDURRU_M16_DISPLACEMENT_UI passed=%d failed=%d" % [passed,failed])
 	quit(0 if failed==0 else 1)

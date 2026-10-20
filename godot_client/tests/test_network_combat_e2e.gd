@@ -2,6 +2,8 @@ extends SceneTree
 ## M18: two actual TCP clients against one authoritative Godot host,
 ## including both players' real UI decisions and forbidden network input.
 const Match=preload("res://scripts/match_integrator.gd")
+const HaloFixture=preload("res://tests/test_river_evacuation.gd")
+const Storage=preload("res://scripts/match_storage.gd")
 const Core=preload("res://scripts/real_combat_core.gd")
 var passed:int=0
 var failed:int=0
@@ -153,7 +155,39 @@ func run()->void:
 	b._send_action("CHOOSE_DEFENSE",{"defender_spend":2})
 	await wait_frames(4)
 	check(int(a.host_node.game["revision"])==revision,"duplicate defense cannot re-spend resources")
+	await _halo_network(a,b)
 	b.free()
 	a.free()
 	print("KUDURRU_M18_LIVE_SOCKET_BATTLE passed=%d failed=%d" % [passed,failed])
 	quit(0 if failed==0 else 1)
+
+func _halo_network(a:Control,b:Control)->void:
+	a.host_node.game=HaloFixture.halo_fixture()
+	check(Storage.pack(a.host_node.game).get("ok",false),"network Halo fixture contains only replayable source actions")
+	for client in [a,b]:
+		client.peer.put_data((JSON.stringify({"type":"VIEW","token":client.token})+"\n").to_utf8_buffer())
+	await wait_frames()
+	check(a.board.text.contains("Radiant Guard: READY") and b.board.text.contains("Radiant Guard: READY"),"both clients show public unspent Pet reaction")
+	var before:String=JSON.stringify(a.host_node.game)
+	a._send_action("CAST",{"card_id":"186","target_uids":["REAL_1"],"destination_field":"Sanctuary","seat":1})
+	await wait_frames(4)
+	check(JSON.stringify(a.host_node.game)==before,"Pet owner cannot forge active caster seat")
+	var hand_index:int=-1
+	for i in range(b.view["players"][1]["hand"].size()):
+		if str(b.view["players"][1]["hand"][i]["card_id"])=="186":hand_index=i;break
+	check(hand_index>=0,"authenticated caster holds physical source Edict")
+	if hand_index<0:return
+	b.target_unit.select(0)
+	b._hand_play(hand_index)
+	await wait_frames(8)
+	check(a.host_node.game["units"][0]["field"]=="Warfield","host authoritatively cancels hostile displacement")
+	check(a.view["units"][0]["field"]=="Warfield" and b.view["units"][0]["field"]=="Warfield","both clients retain same protected Host position")
+	check(a.board.text.contains("Radiant Guard: SPENT THIS ROUND") and b.board.text.contains("Radiant Guard: SPENT THIS ROUND"),"both clients show spent reaction")
+	check(a.view["revision"]==b.view["revision"],"reaction is one synchronized action")
+	check(a.host_node.game["events"][-1]["resolved"]["canceled_displacements"][0]["source_id"]=="241","host exposes source reaction receipt")
+	check(Storage.pack(a.host_node.game).get("ok",false),"actual network Pet reaction deterministically replays and conserves cards")
+	before=JSON.stringify(a.host_node.game)
+	b._send_action("RESET_GUARD",{"host_uid":"REAL_1","guard_used_round":-1})
+	await wait_frames(4)
+	check(JSON.stringify(a.host_node.game)==before,"client cannot reset Pet reaction counter")
+	check(not a.view["players"][1].has("hand") and not b.view["players"][0].has("hand"),"Pet reaction never leaks opponent hands")

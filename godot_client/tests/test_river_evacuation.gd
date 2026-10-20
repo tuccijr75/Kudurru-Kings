@@ -86,6 +86,94 @@ func run()->void:
 	var bad_phase:Dictionary=fixture()
 	bad_phase["phase"]=3
 	check(cast(bad_phase,["ALLY"],"Sanctuary")["error"]=="EDICTS_WINDOW_REQUIRED","not playable during Main")
+	_halo_guard()
 	# Real action-log save replay is exercised via full-match seeded tests.
 	# Fixture supplies units without logged deployment and cannot be saved.
 	check(out["revision"]==1 and out["action_log"].size()==1,"atomic revision and source action")
+
+# A source-legal arranged deck gives a reproducible regression, not an injected
+# board: every deploy and phase is logged and independently replayable.
+static func halo_fixture() -> Dictionary:
+	var seed_value:int=9921
+	var initial:Dictionary=Match.create(seed_value)
+	var decks:Array=initial["state"]["initial_deck_ids"].duplicate(true)
+	var cheap:String=""
+	for card in initial["state"]["players"][0]["hand"]+initial["state"]["players"][0]["deck"]:
+		if card["card_family"]=="Character" and int(card["cost_sinew"])==1 and int(card["cost_sigil"])==0 and int(card["cost_oath"])==0:
+			cheap=str(card["card_id"]);break
+	assert(not cheap.is_empty())
+	for seat in range(2):
+		var wanted:Array=[cheap,"241","186"] if seat==0 else ["186"]
+		var remaining:Array=decks[seat].duplicate()
+		var ordered:Array=[]
+		ordered.resize(36)
+		var positions:Array=Match._shuffle(range(36),seed_value+seat*7919)
+		for i in range(wanted.size()):
+			assert(remaining.has(wanted[i]))
+			remaining.erase(wanted[i])
+			ordered[positions[35-i]]=wanted[i]
+		for i in range(36):
+			if ordered[i]==null:ordered[i]=remaining.pop_front()
+		decks[seat]=ordered
+	var created:Dictionary=Match.create(seed_value,"BorderstoneGuild","UnderwellKeepers",decks)
+	assert(created["ok"])
+	var state:Dictionary=created["state"]
+	var actions:Array=[{"type":"KEEP","seat":0},{"type":"KEEP","seat":1}]
+	for i in range(3):actions.append({"type":"ADVANCE","seat":0})
+	actions.append({"type":"DEPLOY","seat":0,"card_id":cheap,"field":"Warfield"})
+	actions.append({"type":"DEPLOY","seat":0,"card_id":"241","host_uid":"REAL_1"})
+	for i in range(4):actions.append({"type":"ADVANCE","seat":0})
+	for i in range(2):actions.append({"type":"ADVANCE","seat":1})
+	for action in actions:
+		action["revision"]=state["revision"]
+		var response:Dictionary=Match.apply(state,action)
+		assert(response["ok"],str(response))
+		state=response["state"]
+	return state
+
+func _halo_guard() -> void:
+	var s:Dictionary=halo_fixture()
+	check(Storage.replay(s).get("ok",false),"organic Halo Pup fixture independently replays")
+	var before:String=JSON.stringify(s)
+	var action:Dictionary={"type":"CAST","seat":1,"revision":s["revision"],"card_id":"186","target_uids":["REAL_1"],"destination_field":"Sanctuary"}
+	var invalid:Dictionary=action.duplicate(true)
+	invalid["destination_field"]="Wilds"
+	check(not Match.apply(s,invalid)["ok"],"invalid displacement refused before guard consumes")
+	check(JSON.stringify(s)==before,"invalid attempt preserves guard and resources")
+	var out:Dictionary=Match.apply(s,action)
+	check(out["ok"],"real hostile River Evacuation resolves")
+	if not out["ok"]:return
+	var next:Dictionary=out["state"]
+	check(next["units"][0]["field"]=="Warfield","Halo Pup cancels Host displacement")
+	check(next["attachments"][0]["guard_used_round"]==next["round"],"physical Pet's once per round guard spent")
+	check(out["event"]["resolved"]["displaced"].is_empty(),"canceled Host not falsely journaled as moved")
+	check(out["event"]["resolved"]["canceled_displacements"][0]["source_id"]=="241","exact source reaction journaled")
+	check(next["players"][1]["sigil"]==s["players"][1]["sigil"]-1,"caster pays despite automatic cancellation")
+	check(next["players"][0]==s["players"][0],"Pet owner resources and cards untouched")
+	check(JSON.stringify(s)==before,"valid reaction only mutates reducer copy")
+	check(Storage.pack(next).get("ok",false),"guard consumption has complete deterministic replay")
+	var again:Dictionary=Edicts.resolve(next,1,"186",action)
+	check(again["ok"] and again["state"]["units"][0]["field"]=="Sanctuary","spent guard does not cancel second same round displacement")
+	var later:Dictionary=next.duplicate(true)
+	later["round"]+=1
+	again=Edicts.resolve(later,1,"186",action)
+	check(again["state"]["units"][0]["field"]=="Warfield","new round guard available automatically")
+	var wrong_owner:Dictionary=s.duplicate(true)
+	wrong_owner["attachments"][0]["controller"]=1
+	again=Edicts.resolve(wrong_owner,1,"186",action)
+	check(again["state"]["units"][0]["field"]=="Sanctuary","opponent controlled Pet cannot protect host")
+	var unrelated:Dictionary=s.duplicate(true)
+	unrelated["attachments"][0]["host_uid"]="OTHER"
+	again=Edicts.resolve(unrelated,1,"186",action)
+	check(again["state"]["units"][0]["field"]=="Sanctuary","guard protects only its actual Host")
+
+	for protected_uid in ["ALLY","FOE"]:
+		var mixed:Dictionary=fixture()
+		var owner:int=0 if protected_uid=="ALLY" else 1
+		mixed["attachments"]=[{"card_id":"241","controller":owner,"host_uid":protected_uid}]
+		var reacted:Dictionary=cast(mixed,["ALLY","FOE"],"Sanctuary")
+		check(reacted["ok"],"mixed two-target cast remains legal")
+		check(reacted["event"]["resolved"]["displaced"].size()==1,"only unprotected target moves")
+		check(reacted["event"]["resolved"]["canceled_displacements"].size()==1,"one source reaction per protected Host")
+		check(reacted["state"]["units"][owner]["field"]=="Warfield","correct protected host stays put regardless of cast target order")
+		check(reacted["state"]["units"][1-owner]["field"]=="Sanctuary","other selected host still displaced")

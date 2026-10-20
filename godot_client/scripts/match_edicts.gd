@@ -4,6 +4,7 @@ extends RefCounted
 ## state supplied by the caller; legality is checked before caller pays costs.
 const Source = preload("res://scripts/real_effects.gd")
 const CORE = preload("res://scripts/real_combat_core.gd")
+const Pets = preload("res://scripts/match_pets.gd")
 const Priority = preload("res://scripts/match_priority.gd")
 const HASHES := {
 	"181": "8d478dc00c08a015756632a75ab6615de0f67dff5fc6df183da41a845797bc95",
@@ -111,8 +112,14 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 				indices.append(index)
 			if origin==destination:return _fail("DISPLACEMENT_MUST_CHANGE_FIELD")
 			var displaced:Array=[]
+			var canceled:Array=[]
 			for index in indices:
 				var unit:Dictionary=s["units"][index]
+				var guard:Dictionary=Pets.cancel_displace(s,unit)
+				if not guard["ok"]:return guard
+				if guard["canceled"]:
+					canceled.append({"uid":unit["uid"],"source_id":"241","controller":unit["controller"]})
+					continue
 				var controller:int=int(unit["controller"])
 				var new_slot:int=0
 				while true:
@@ -128,6 +135,7 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 				displaced.append({"uid":unit["uid"],"from":origin,"to":destination,
 					"slot":new_slot,"controller":controller})
 			details["displaced"]=displaced
+			details["canceled_displacements"]=canceled
 			details["line_geas_resolution"]="NOT_IMPLEMENTED_IN_CANDIDATE"
 		"188":
 			var target: String = str(action.get("target_uid",""))
