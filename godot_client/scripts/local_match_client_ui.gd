@@ -18,6 +18,7 @@ var view:Dictionary={}
 var status:Label
 var title:Label
 var summary:Label
+var combat_hint:Label
 var hand_list:VBoxContainer
 var board:RichTextLabel
 var recent:RichTextLabel
@@ -80,6 +81,7 @@ func _ready()->void:
 	status=_label(root,"LOCAL ONLY: 127.0.0.1:31147. Not internet-safe, no permanent rewards.",14)
 	title=_label(root,"No match connection",18)
 	summary=_label(root,"Host in the first window, join from the second game window.",14)
+	combat_hint=_label(root,"No engagement awaiting a response.",14)
 	var columns:=HBoxContainer.new()
 	columns.size_flags_vertical=Control.SIZE_EXPAND_FILL
 	columns.add_theme_constant_override("separation",13)
@@ -375,6 +377,13 @@ func _refresh()->void:
 	var prompt:Dictionary=view.get("pending_choice",{})
 	var combat_pending:Dictionary=view.get("pending_attack",{})
 	var defend_now:bool=int(combat_pending.get("defender_seat",-1))==seat
+	if combat_pending.is_empty():
+		combat_hint.text="No engagement awaiting a response."
+	else:
+		combat_hint.text=("%s | %s vs %s | %s axis | attacker committed %d | choose defender spend 0-2" % [
+			"DEFEND YOUR UNIT" if defend_now else "WAIT FOR DEFENDER",
+			str(combat_pending["attacker"]),str(combat_pending["defender"]),
+			str(combat_pending["axis"]),int(combat_pending["attacker_spend"])])
 	var response:bool=int(prompt.get("response_seat",-1))==seat and prompt.has("options")
 	var options:Array=prompt.get("options",[])
 	var active:bool=bool(view["setup_complete"]) and int(view["seat"])==seat and int(view["winner"])<0

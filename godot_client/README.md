@@ -1,3 +1,7 @@
+# M18 ? Real Two-Window Combat Proof
+
+The authoritative localhost match now has 37 actual socket/UI acceptance checks for attacker/defender resource ownership, double-spend prevention, per-seat private hands and synchronized battles. Both match UIs show the disputed axis and who must respond. Run tools/run_m18_quality_gate.ps1. This is not complete Standard or internet-safe multiplayer. See docs/M18_NETWORK_COMBAT_E2E.md.
+
 # M17 ? Defender-Owned Combat Response
 
 Real battles now require an attacker declaration followed by the defending player selecting their own 0-2 matching resource spend and optional supporter. The attacker can no longer spend the defender resources through a crafted packet. Solo and two-window UI implement the choice. Run tools/run_m17_quality_gate.ps1; see docs/M17_DEFENDER_PRIORITY.md. Full Standard is still blocked.

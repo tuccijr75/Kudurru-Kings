@@ -46,6 +46,8 @@ func run()->void:
 	ui.state=attack["state"]
 	ui._refresh()
 	check(not ui.defense_button.disabled,"human defender sees enabled choice")
+	check(ui.combat_hint.text.contains("DEFEND YOUR UNIT") and ui.combat_hint.text.contains("Stone"),
+		"solo player sees attacker, axis and own defense prompt")
 	check(ui.next_button.disabled,"normal turn advancement stops for mandatory defense")
 	ui.defense_spend_pick.select(2)
 	ui._defend()

@@ -9,6 +9,7 @@ var state: Dictionary = {}
 var headline: Label
 var scoreboard: Label
 var end_income_preview: Label
+var combat_hint:Label
 var status: Label
 var hand_list: VBoxContainer
 var board_view: RichTextLabel
@@ -111,6 +112,7 @@ func _build() -> void:
 	headline = _label(root,"",20)
 	scoreboard = _label(root,"",16)
 	end_income_preview = _label(root,"",14)
+	combat_hint=_label(root,"No engagement awaiting response.",14)
 	var columns := HBoxContainer.new()
 	columns.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	columns.add_theme_constant_override("separation",20)
@@ -455,6 +457,12 @@ func _refresh() -> void:
 	end_income_preview.text="END FORECAST | Sinew: most ready %d vs %d | Sigil: Site held %s | Oath: objective held %s | +%d Sinew / +%d Sigil / +%d Oath (fallback +1 Sinew)" % [
 		my_ready,their_ready,"YES" if owns_site else "NO","YES" if owns_objective else "NO",
 		int(income["sinew"]),int(income["sigil"]),int(income["oath"])]
+	var contest:Dictionary=state.get("pending_attack",{})
+	combat_hint.text="No engagement awaiting response." if contest.is_empty() else (
+		"%s | %s attacking %s on %s | attacker spend %d | defender chooses 0-2" % [
+			"DEFEND YOUR UNIT" if int(contest["defender_seat"])==0 else "WAIT FOR DEFENDER",
+			str(contest["attacker"]),str(contest["defender"]),str(contest["axis"]),
+			int(contest["attacker_spend"])])
 	var pending:Array=state.get("priority_queue",[])
 	var human_response:bool=not pending.is_empty() and int(pending[0]["seat"])==0
 	var legal:Array=pending[0]["options"] if human_response else []
