@@ -6,6 +6,8 @@ const CAPS := {"sinew": 5, "sigil": 2, "oath": 2}
 
 static func _integer(raw: Variant) -> int:
 	if typeof(raw) == TYPE_INT: return int(raw)
+	# Godot JSON.parse_string materializes numeric literals as floats.
+	if typeof(raw) == TYPE_FLOAT and float(raw) == float(int(raw)): return int(raw)
 	if typeof(raw) == TYPE_STRING and str(raw).is_valid_int(): return int(raw)
 	return -1
 

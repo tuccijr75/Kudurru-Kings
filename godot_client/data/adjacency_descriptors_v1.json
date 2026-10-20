@@ -1,0 +1,5507 @@
+{
+  "descriptor_count": 423,
+  "full_match_ready": false,
+  "schema": "kudurru_exact_adjacency_v1",
+  "source_card_effects": [
+    {
+      "card_id": "270",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "271",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "272",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "273",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "274",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "275",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "276",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "277",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "278",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "279",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "280",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "281",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "282",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "283",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "284",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "285",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "286",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "287",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "288",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "289",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "290",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "291",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "292",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "293",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "294",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "295",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "296",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "297",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "298",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "299",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "300",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "301",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "302",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "303",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "304",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "305",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "306",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "307",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "308",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "309",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "310",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "311",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "312",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "313",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "314",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "315",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "316",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "317",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "318",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "319",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "320",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "321",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "322",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "323",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "324",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "325",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "326",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "327",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "328",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "329",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "330",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "331",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "332",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "333",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "334",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "335",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "336",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "337",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "338",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "339",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "340",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "341",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "342",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "343",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "344",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "345",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "346",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "347",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "348",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "349",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "350",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "351",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "352",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "353",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "354",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "355",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "356",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "357",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "358",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "359",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "360",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "361",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "362",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "363",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "364",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "365",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "366",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "367",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "368",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "369",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "370",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "371",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "372",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "373",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "374",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "375",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "376",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "377",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "378",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "379",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "380",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "381",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "382",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "383",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "384",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "385",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "387",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "388",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "389",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "397",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "acea010629cbc5aabb423b0305568d14d7d04feec9a82ed62c560dbd974703fe",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "407",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "409",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "411",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "413",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "418",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "421",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "423",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "426",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "431",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "432",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "435",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "440",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "acea010629cbc5aabb423b0305568d14d7d04feec9a82ed62c560dbd974703fe",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "442",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "444",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "455",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "465",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "468",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "0420a370dca87ab3c5b72bc8a4b80504b154a6de71ebb8b55ca38ff962cec0ec",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "469",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "470",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "471",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "472",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "473",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "474",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "475",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "476",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "477",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "478",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "479",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "480",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "481",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "482",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "483",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "484",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "485",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "486",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "487",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "488",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "55b158b501fd7174050a68734164b2b009a12fce6867497f52ac6181428864fc",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "489",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "490",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "491",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "492",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "493",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "494",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "495",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "496",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "497",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "498",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "499",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "500",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "501",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "502",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "503",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "504",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "505",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "506",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "507",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "508",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "509",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "510",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "511",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "512",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "513",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "514",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "515",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "516",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "517",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "518",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "519",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "520",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "521",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "522",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "523",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "524",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "525",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "526",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "527",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "528",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "529",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "530",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "531",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "532",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "533",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "28ad33cdc977f1e6331ef6f749b91ea1b43a3d016ce5d94b82dad944cf4c938c",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "534",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "535",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "536",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "537",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "b6112f24f52f3916d5ae2fe5b3476573b1204dbeb9aafd7930ced5dad7165af5",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "538",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "3d421a7218ab21968be704853d5ec872ed5d6058116275e50ef45d32192ef50f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "539",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "04e8d7b0b862ea725d083c299e92cd8a24dd842fdb3a4070e7b90fc1f0cd0b77",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "540",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "541",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "542",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "543",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "544",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "545",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "546",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "547",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "548",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "549",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "550",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "551",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "552",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "553",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "554",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "555",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "556",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "557",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "558",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "559",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "560",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "561",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "562",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "563",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "564",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "565",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "566",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "567",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "568",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "569",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "570",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "571",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "572",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "573",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "574",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "575",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "576",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "577",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "578",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "579",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "580",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "581",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "582",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "583",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "584",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "585",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "586",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "587",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "588",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "589",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "590",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "591",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "592",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "593",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "594",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "595",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "596",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "597",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "598",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "599",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "600",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "601",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "602",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "603",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "604",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "605",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "606",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "607",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "608",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "609",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "610",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "611",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "612",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "613",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "527690e4fb15cb6e7d1363bee2cbfbd9e52a2750dae72ba17c82ee3ce64f097f",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "614",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "615",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "616",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "617",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "618",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "619",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "620",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "621",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "622",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "623",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "624",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "625",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "626",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "627",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "628",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "629",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "630",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "631",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "632",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "633",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "634",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "635",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "636",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "637",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "638",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "639",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "640",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "641",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "642",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "643",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "644",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "645",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "646",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "647",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "648",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "649",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "650",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "651",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "652",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "653",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "654",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "655",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "656",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "657",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "658",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "659",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "660",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "661",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "662",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "663",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "664",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "665",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "666",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "667",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "668",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "669",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "670",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "671",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "672",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "673",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "674",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "675",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "676",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "677",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "678",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "679",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "680",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "681",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "682",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "683",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "684",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "685",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "686",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "687",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "688",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "689",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "690",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "691",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "692",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "693",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "694",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "695",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "696",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "f1f20c87d29eb282c016af211e78db7cabba8408f52c1989d56ace5088ae0a02",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "697",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "698",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "699",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "700",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "701",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "702",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "703",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "704",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "705",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "706",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "707",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "708",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "709",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "710",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "711",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "712",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "713",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "714",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "715",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "716",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "717",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "718",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "719",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "720",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "721",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "722",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "723",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "724",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "725",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "726",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "727",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "728",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "729",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "730",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "731",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "732",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "733",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "734",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "735",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "736",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "737",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "738",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "739",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "740",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "741",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "742",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "743",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "744",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "745",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "746",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "747",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "748",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "749",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "750",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "751",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "752",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "753",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    },
+    {
+      "card_id": "754",
+      "condition": {
+        "adjacent_friendly_unit_count_min": 1
+      },
+      "limits": "requires separately certified adjacency and combat resolver",
+      "modifier": {
+        "tested_axis_total": 1
+      },
+      "sandbox_descriptor_only": true,
+      "source_sha256": "105cd66d31999207acb25f963e1e55a241fc2a48149e36e98adba1717f82e6b0",
+      "trigger": "ON_COMBAT_TEST"
+    }
+  ],
+  "source_sha256": "c4193b54e543462cf658f8d3bf879877c150fbef4f55c3b0fd2dcb7f40cceeed"
+}

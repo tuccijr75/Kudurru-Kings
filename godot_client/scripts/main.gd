@@ -158,6 +158,10 @@ func _build_screen() -> void:
 	lab_button.text = "OPEN ECONOMY LAB"
 	lab_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/economy_lab.tscn"))
 	legend.add_child(lab_button)
+	var real_cards_button := Button.new()
+	real_cards_button.text = "VIEW 754 REAL CARDS"
+	real_cards_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/real_catalog.tscn"))
+	legend.add_child(real_cards_button)
 
 func _seat_text(index: int) -> String:
 	var p: Dictionary = state["players"][index]

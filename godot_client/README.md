@@ -1,4 +1,6 @@
-# Kudurru Kings — Godot M3 Economic Laboratory (development branch)
+# Kudurru Kings — Godot M4 Real Card / Effect Development (isolated branch)
+
+**New M4:** The board includes **VIEW 754 REAL CARDS**, a browsable source-true library and restricted effect bench. Twelve exact effects are executable in a sandbox; 423 adjacent-ally condition descriptors are compiled but the full combat resolver is not. All 754 cards remain production-locked. See `docs/M4_REAL_CARD_EFFECT_GATE.md` and run `tools/run_m4_quality_gate.ps1`.
 
 This is the standalone Godot 4.7.2 **development shell** of Kudurru Kings. It does not yet constitute a playable Standard match. The canonical card records, Shipping Rules, acceptance specs, and economy sources remain at the repository root in their numbered folders. This folder does **not** fork or replace them.
 

@@ -1,0 +1,31 @@
+{
+  "by_family": {
+    "Boss": 164,
+    "Character": 500,
+    "Edict": 15,
+    "HostSigil": 15,
+    "Name": 15,
+    "Pet": 15,
+    "Relic": 15,
+    "Site": 15
+  },
+  "pinned_hashes": {
+    "180": "ce7971bb9a5f38d35b45562cbf5f7c3ef41d4e043339b05ca6c9f9f471ae8cc0",
+    "184": "d621bcd0a495f80999dcc4dc3e791f040f970e4186a2b8c57495e00bbcfccc94",
+    "185": "27397efb602eda36d49fcb9d83b768ee3491672c00aa9921bf0fc5e56e16e7f3",
+    "187": "9c6964e87975c030d3f2d161334c66973974d73c00b9edef9227b30efbe1dc40",
+    "189": "4ed10094e651562647412fe0fac64cb0d42daf606ded46360e90e6d4a1a6abba",
+    "191": "01a059adfba723ec3e22b6e8be4ffa27946b778e6e4797fb0c6f39670f4b377f",
+    "193": "c0a3917b78511bf01bf64fe0f39e9c9a065dac4e65adb2e4cd39569100935278",
+    "199": "8dd1c2909c058f31a064566c58f72dc5132e4025181f49aab5427102a1e5fa20",
+    "206": "21fa77ca88dbb7eba315d49653b2050fc4ccef003e8d0b3cb511e74ac560c63b",
+    "207": "d4853820138dd098cdbef7fb4073f8fab85e9d603fd0fbff9024053da7cb09e8",
+    "214": "d36bef97289a48543ead3b18f7744f44bd03afcec75a97fd0b84dd27bb9b8c7b",
+    "216": "8a8db6ddd60bb781e6af42f2e028fde3303b919abb1be9dc59bc491a2b32fb44"
+  },
+  "production_certified": 0,
+  "sandbox_effect_count": 12,
+  "schema": "kudurru_effect_coverage_v1",
+  "total": 754,
+  "unimplemented_count": 742
+}
