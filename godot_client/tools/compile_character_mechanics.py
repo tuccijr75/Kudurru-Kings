@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Transcribe printed initiative/guard/first strike and strictly matched adjacency text.
-Printed values are observed source facts, NOT approved replacements for structured
-gameplay authority or a complete combat resolver.
+Printed values are now authoritative numeric combat stats under M6. This module
+verifies that structured Guard/First Strike agree with printed source and does
+not implement unspecified protection, preemption or damage effects.
 """
 import csv,hashlib,json,re
 from collections import Counter
@@ -33,7 +34,7 @@ def compile():
    "printed_initiative_label":match["label"],"printed_initiative":int(match["initiative"]),
    "printed_guard":int(match["guard"]),"printed_first_strike":int(match["first_strike"]),
    "structured_guard":row["guard"],"structured_first_strike":row["first_strike"],
-   "authority_status":"PRINTED_EVIDENCE_NOT_PROMOTED_TO_GAMEPLAY",
+   "authority_status":"STRUCTURED_VALUES_RECONCILED_TO_PRINTED_SOURCE",
   }
   transcription.append(value)
   if row["guard"]!=str(int(match["guard"])) or (

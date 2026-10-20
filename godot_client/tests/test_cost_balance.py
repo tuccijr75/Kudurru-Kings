@@ -106,7 +106,7 @@ class TestCostBaseline(unittest.TestCase):
         for old, new in zip(original, self.rows):
             self.assertEqual(old["card_id"], new["card_id"])
             for field in self.header:
-                if field not in mod.COST_FIELDS:
+                if field not in set(mod.COST_FIELDS) | {"guard", "first_strike"}:
                     # Git normalizes CRLF to LF on Windows checkout; preserve authored text.
                     self.assertEqual(old[field].replace("\r\n", "\n"),
                                      new[field].replace("\r\n", "\n"),

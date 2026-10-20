@@ -1,4 +1,6 @@
-# Kudurru Kings — Godot M5 Real Combat and Arbitration Laboratory
+# Kudurru Kings — Godot M6 Reconciled Combat Stats
+
+**M6 canon update:** Printed Guard (1–7), numerical First Strike rating (1–7), and existing Initiative now have consistent source-backed structured representations for all 664 combat-capable cards. Their order is First Strike rating, then Initiative; equal order is simultaneous. This does not add fictional unconditional damage/protection or certify unfinished card effects. See `docs/M6_COMBAT_STAT_AUTHORITY.md`; run `tools/run_m6_quality_gate.ps1`.
 
 **New M5:** Select **TEST REAL COMBAT** on the main board to exercise the real-card Stone/Veil/Authority combat sandbox, Face-off, Downed/Defeated states and optional Resolution capture decline. A separate sealed-bid Oath arbitration engine is covered by headless tests. Conditional resource income now applies when the End phase actually resolves. See `docs/M5_COMBAT_ARBITRATION_STATUS.md`; execute `tools/run_m5_quality_gate.ps1` before further changes. Full Standard remains blocked.
 

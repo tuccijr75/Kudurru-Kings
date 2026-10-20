@@ -173,6 +173,9 @@ func _select(card: Dictionary) -> void:
 		int(card["cost_sinew"]), int(card["cost_sigil"]), int(card["cost_oath"])]
 	details.text += "Stone %d   Veil %d   Authority %d\n" % [
 		int(card["stone"]), int(card["veil"]), int(card["authority"])]
+	if card["card_family"] == "Character" or card["card_family"] == "Boss":
+		details.text += "Guard %d   First Strike rating %d   Initiative %d\n" % [
+			int(card["guard"]), int(card["first_strike_rating"]), int(card["initiative"])]
 	details.text += "Timing: %s   Runtime status: %s\n" % [card["play_timing"], status]
 	details.text += "Production-playable: NO\n\n"
 	details.text += "ORIGINAL RULES TEXT\n%s" % card["rules_text"]

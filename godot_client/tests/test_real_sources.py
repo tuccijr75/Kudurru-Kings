@@ -64,7 +64,7 @@ class TestRealCardSource(unittest.TestCase):
   self.assertEqual(664,self.printed["combat_family_records"])
   self.assertEqual(664,self.printed["parsed_printed_values"])
   self.assertFalse(self.printed["override_structured_stats"])
-  self.assertEqual(664,self.printed["guard_or_first_strike_schema_disagreements"])
+  self.assertEqual(0,self.printed["guard_or_first_strike_schema_disagreements"])
 
  def test_423_exact_adjacency_only(self):
   self.assertEqual(423,self.adjacent["descriptor_count"])

@@ -22,9 +22,9 @@ PINNED = {
 "214":"d36bef97289a48543ead3b18f7744f44bd03afcec75a97fd0b84dd27bb9b8c7b",
 "216":"8a8db6ddd60bb781e6af42f2e028fde3303b919abb1be9dc59bc491a2b32fb44",
 }
-FIELDS = ("card_id","card_slug","card_name","card_family","owner_faction","rarity","subtype_primary","is_standard_legal","scenario_only","requires_faction_lock","allowed_splash","deck_copy_limit","cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","vitality","wound_threshold","support_value_rule","heat_on_support","play_timing","enters_play_zone","site_type","heat_on_install","rules_text")
-INTS = {"cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","vitality"}
-BOOLS = {"is_standard_legal","scenario_only","requires_faction_lock","allowed_splash"}
+FIELDS = ("card_id","card_slug","card_name","card_family","owner_faction","rarity","subtype_primary","is_standard_legal","scenario_only","requires_faction_lock","allowed_splash","deck_copy_limit","cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","guard","first_strike","initiative","vitality","wound_threshold","support_value_rule","heat_on_support","play_timing","enters_play_zone","site_type","heat_on_install","rules_text")
+INTS = {"cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","guard","initiative","vitality"}
+BOOLS = {"is_standard_legal","scenario_only","requires_faction_lock","allowed_splash","first_strike"}
 def build():
  raw = MASTER.read_bytes()
  with MASTER.open(encoding="utf-8-sig", newline="") as f:
@@ -35,6 +35,9 @@ def build():
  if preview["source_sha256"] != hashlib.sha256(raw).hexdigest(): raise ValueError("Stale faction preview")
  index = {v["card_id"]:v for v in preview["cards"]}
  if len(rows)!=754 or len(index)!=754: raise ValueError("Incomplete catalog")
+ provenance=json.loads((ROOT/"godot_client/data/m6_guard_first_strike_migration.json").read_text(encoding="utf-8"))
+ stats={s["card_id"]:s for s in provenance["records"]}
+ if len(stats)!=664: raise ValueError("Combat rating migration is missing or incomplete")
  cards, seen = [], set()
  for r in rows:
   ident=r["card_id"]
@@ -45,10 +48,21 @@ def build():
   for k in BOOLS:
    if c[k] not in ("True","False"): raise ValueError("Invalid boolean")
    c[k]=c[k]=="True"
+  if ident in stats:
+   evidence=stats[ident]
+   if c["guard"]!=evidence["printed_guard"] or c["first_strike"]!=(evidence["printed_first_strike_rating"]>0) or c["initiative"]!=evidence["printed_initiative"]:
+    raise ValueError("Structured combat value diverged from printed card: "+ident)
+   c["first_strike_rating"]=evidence["printed_first_strike_rating"]
+   c["combat_stat_provenance"]="SOURCE_HASHED_PRINTED_V1"
+  else:
+   if c["guard"]!=0 or c["first_strike"] or c["initiative"]!=0: raise ValueError("Noncombat values changed: "+ident)
+   c["first_strike_rating"]=0
+   c["combat_stat_provenance"]="NOT_COMBAT_CAPABLE"
   c["display_faction"]=index[ident]["display_faction"]
   c["faction_provenance"]=index[ident]["faction_provenance"]
   digest=hashlib.sha256(c["rules_text"].replace("\r\n","\n").encode()).hexdigest()
   c["rules_sha256"]=digest
+  if ident in stats and stats[ident]["rules_sha256"] != digest: raise ValueError("Combat rating text drift: "+ident)
   if ident in PINNED and PINNED[ident]!=digest: raise ValueError("Effect source drift: "+ident)
   c["effect_status"]="SANDBOX_TEST_REQUIRED" if ident in PINNED else "UNIMPLEMENTED"
   c["sandbox_effect_implemented"]=ident in PINNED

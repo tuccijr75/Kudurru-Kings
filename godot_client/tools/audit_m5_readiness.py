@@ -18,7 +18,7 @@ OUTPUT = ROOT / "godot_client/data/m5_release_blockers.json"
 
 REQUIRED = {
  "effect_implementation": "742 cards still lack sandbox-verified full printed abilities",
- "numeric_stat_authority": "664 printed Guard/First Strike conflicts with structured master",
+ "numeric_combat_semantics": "Guard protection, First Strike preemption and initiative interaction require fully tested resolver mechanics",
  "targeting": "Critical targeting legality still absent from master target_rule_ref",
  "triggers": "No populated trigger_windows values in canonical card master",
  "scenario_objective": "Every Standard match needs a scenario/objective; none certified in M5 engine",
@@ -52,8 +52,8 @@ def build():
         raise ValueError("Incorrect effect release status")
     if adj["descriptor_count"] != 423 or adj["full_match_ready"] is not False:
         raise ValueError("Adjacency capability incorrectly marked complete")
-    if printed["guard_or_first_strike_schema_disagreements"] != 664:
-        raise ValueError("Combat authority changed without reconciliation")
+    if printed["guard_or_first_strike_schema_disagreements"] != 0 or printed["parsed_printed_values"] != 664:
+        raise ValueError("Printed/structured combat-stat migration not certified")
     missing_target_rules = sum(not x["target_rule_ref"].strip() for x in data)
     missing_trigger_windows = sum(not x["trigger_windows"].strip() for x in data)
     boss_aura_false = sum(x["card_family"] == "Boss" and x["boss_has_aura"] == "False" for x in data)
@@ -72,7 +72,8 @@ def build():
         "source_pinned_sandbox_effects": 12,
         "unsupported_effects": 742,
         "compiled_adjacency_descriptors": 423,
-        "printed_combat_conflict_records": 664,
+        "printed_combat_conflict_records": 0,
+        "printed_combat_stat_records_reconciled": 664,
         "missing_target_rule_refs": missing_target_rules,
         "missing_trigger_windows": missing_trigger_windows,
         "bosses_without_activated_aura_flag": boss_aura_false,
