@@ -1,3 +1,7 @@
+# M12 Source-Verified Opponent Priority
+
+Nine Edicts run in local matches. Public Reckoning and Censor Audit now open victim-owned action-choice windows rather than choosing for the target. The local opponent responds out of turn and localhost projections protect private options. See docs/M12_PRIORITY_RULES.md. Run tools/run_m12_quality_gate.ps1. Full 754-card production Standard remains blocked.
+
 # Kudurru Kings M11 ? Seven Source-Verified Live Edicts
 
 Condemnation Seal, Writ of Seizure, and Night Market Clause now run in the local match with target legality, passive suspension and real player-driven draw/discard choices. Night Market supports full action-log replay. Seven of the 15 Edicts are integrated, with remaining source effects blocked. Run tools/run_m11_quality_gate.ps1. Full 754-card Standard is NOT production-certified.

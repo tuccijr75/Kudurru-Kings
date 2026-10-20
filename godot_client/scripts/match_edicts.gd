@@ -4,6 +4,7 @@ extends RefCounted
 ## state supplied by the caller; legality is checked before caller pays costs.
 const Source = preload("res://scripts/real_effects.gd")
 const CORE = preload("res://scripts/real_combat_core.gd")
+const Priority = preload("res://scripts/match_priority.gd")
 const HASHES := {
 	"181": "8d478dc00c08a015756632a75ab6615de0f67dff5fc6df183da41a845797bc95",
 	"184": "d621bcd0a495f80999dcc4dc3e791f040f970e4186a2b8c57495e00bbcfccc94",
@@ -18,6 +19,7 @@ static func _fail(message: String) -> Dictionary:
 	return {"ok":false,"error":message}
 
 static func verified(id: String) -> bool:
+	if Priority.SOURCE_HASHES.has(id):return Priority.verified(id)
 	if not HASHES.has(id): return false
 	var c: Dictionary = Source.find_card(Source.catalog(),id)
 	if c.is_empty() or c["card_family"] != "Edict": return false
@@ -31,6 +33,8 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 	var s: Dictionary = current.duplicate(true)
 	var details: Dictionary = {"card_id":id}
 	match id:
+		"182","190":
+			return Priority.issue(s,seat,id,action)
 		"181":
 			var hits: Array = []
 			for unit in s["units"]:

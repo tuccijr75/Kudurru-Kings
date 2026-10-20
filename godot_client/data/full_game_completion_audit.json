@@ -2210,7 +2210,7 @@
     {
       "card_id": "181",
       "card_name": "Sun-Script Overload",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2219,7 +2219,7 @@
     {
       "card_id": "182",
       "card_name": "Public Reckoning",
-      "effect_status": "UNIMPLEMENTED_OR_UNVERIFIED",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2237,7 +2237,7 @@
     {
       "card_id": "184",
       "card_name": "Condemnation Seal",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2246,7 +2246,7 @@
     {
       "card_id": "185",
       "card_name": "Writ of Seizure",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2264,7 +2264,7 @@
     {
       "card_id": "187",
       "card_name": "Night Market Clause",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2273,7 +2273,7 @@
     {
       "card_id": "188",
       "card_name": "Mercy Docket",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2291,7 +2291,7 @@
     {
       "card_id": "190",
       "card_name": "Censor Audit",
-      "effect_status": "UNIMPLEMENTED_OR_UNVERIFIED",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2300,7 +2300,7 @@
     {
       "card_id": "191",
       "card_name": "Festival Truce",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2318,7 +2318,7 @@
     {
       "card_id": "193",
       "card_name": "Convoy Priority",
-      "effect_status": "M11_LIVE_EDICT_CANDIDATE",
+      "effect_status": "M12_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -7663,11 +7663,11 @@
     }
   ],
   "effect_statuses": {
-    "M11_LIVE_EDICT_CANDIDATE": 7,
+    "M12_LIVE_EDICT_CANDIDATE": 9,
     "M4_SOURCE_EFFECT_SANDBOX": 7,
     "M7_CHARACTER_BASIC_SANDBOX": 423,
     "M7_PRESENT_EFFECT_NOT_FULLY_CERTIFIED": 3,
-    "UNIMPLEMENTED_OR_UNVERIFIED": 314
+    "UNIMPLEMENTED_OR_UNVERIFIED": 312
   },
   "full_standard_releasable": false,
   "in_progress_gate_count": 11,
@@ -7688,7 +7688,7 @@
       "status": "BLOCKED"
     },
     "card_effects": {
-      "remaining": "Seven source-verified Edicts now run in local matches, including End choice and suppression; 423 adjacent Characters are extracted; most of the remaining 121 templates remain blocked.",
+      "remaining": "Nine source-verified Edicts now run in local matches, including End choice, opponent priority and suppression; 423 adjacent Characters are extracted; most of the remaining 121 templates remain blocked.",
       "status": "BLOCKED"
     },
     "collection_rewards": {
@@ -7782,10 +7782,12 @@
   },
   "source_verified_live_edicts": [
     "181",
+    "182",
     "184",
     "185",
     "187",
     "188",
+    "190",
     "191",
     "193"
   ],

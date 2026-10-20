@@ -85,7 +85,9 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 		var response: Dictionary = Match.apply(current,action)
 		if not response.get("ok",false): return _bad("REPLAY_ACTION_INVALID_AT_"+str(ix))
 		current = response["state"]
-	if _hash(current) != _hash(saved_state):
+	var expected:Dictionary=saved_state.duplicate(true)
+	if not expected.has("priority_queue"):expected["priority_queue"]=[]
+	if _hash(current) != _hash(expected):
 		return _bad("REPLAY_STATE_DIVERGENCE")
 	return {"ok": true, "state": current}
 

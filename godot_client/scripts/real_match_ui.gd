@@ -24,6 +24,11 @@ var enemy_faction_pick: OptionButton
 var edict_target_select: OptionButton
 var permanent_target_select: OptionButton
 var downed_target_select: OptionButton
+var audit_target_pick: OptionButton
+var priority_label: Label
+var priority_oath_button: Button
+var priority_exhaust_button: Button
+var priority_silence_button: Button
 var saved_deck_pick: OptionButton
 var saved_deck_names: Array = []
 
@@ -121,6 +126,12 @@ func _build() -> void:
 	_label(left,"EDICT PERMANENT TARGET (WRIT)",13)
 	permanent_target_select=OptionButton.new()
 	left.add_child(permanent_target_select)
+	_label(left,"CENSOR AUDIT TARGET PLAYER",13)
+	audit_target_pick=OptionButton.new()
+	audit_target_pick.add_item("Player (you)")
+	audit_target_pick.add_item("Opponent")
+	audit_target_pick.select(1)
+	left.add_child(audit_target_pick)
 	var middle := VBoxContainer.new()
 	middle.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	columns.add_child(middle)
@@ -156,6 +167,13 @@ func _build() -> void:
 	night_market_button = _button(bar,"CAST NIGHT MARKET (END)",func():_action("CAST_END"))
 	_button(bar,"SAVE LOCAL GAME",_save_game)
 	_button(bar,"CONTINUE SAVED GAME",_load_game)
+	var priority_bar:=HBoxContainer.new()
+	priority_bar.add_theme_constant_override("separation",10)
+	root.add_child(priority_bar)
+	priority_label=_label(priority_bar,"",13)
+	priority_oath_button=_button(priority_bar,"RESPONSE: LOSE 2 OATH",func():_choice("LOSE_OATH"))
+	priority_exhaust_button=_button(priority_bar,"RESPONSE: EXHAUST UNIT",func():_choice("EXHAUST_UNIT"))
+	priority_silence_button=_button(priority_bar,"RESPONSE: SILENCE UNIT",func():_choice("SILENCE_UNIT"))
 	status = _label(root,"One complete pregame choice per seat. Opponent runs deterministic legal-action AI.",15)
 
 func _refresh_saved_decks()->void:
@@ -226,18 +244,28 @@ func _action(kind: String, parameters: Dictionary = {}) -> void:
 	_refresh()
 
 func _run_opponent() -> void:
-	if state.is_empty() or not state["setup_complete"] or int(state["winner"]) >= 0: return
-	var steps: int = 0
-	while int(state["seat"]) == 1 and int(state["winner"]) < 0 and steps < 90:
-		var response: Dictionary = Match.apply(state,Match.next_action(state,1))
-		if not response["ok"]:
-			status.text = "OPPONENT PAUSED: "+str(response["error"])
+	if state.is_empty() or not state["setup_complete"] or int(state["winner"]) >= 0:return
+	var steps:int=0
+	while int(state["winner"])<0 and steps<90:
+		var pending:Array=state.get("priority_queue",[])
+		if not pending.is_empty() and int(pending[0]["seat"])!=1:break
+		if pending.is_empty() and int(state["seat"])!=1:break
+		var decision:Dictionary=Match.next_action(state,1)
+		if decision.is_empty():
+			status.text="OPPONENT PAUSED: NO LEGAL RESPONSE"
 			return
-		state = response["state"]
-		steps += 1
-	if steps >= 90: status.text = "OPPONENT STOPPED: SAFETY ACTION BUDGET"
+		var response:Dictionary=Match.apply(state,decision)
+		if not response["ok"]:
+			status.text="OPPONENT PAUSED: "+str(response["error"])
+			return
+		state=response["state"]
+		steps+=1
+	if steps>=90:status.text="OPPONENT STOPPED: SAFETY ACTION BUDGET"
 
 func _next() -> void:
+	if not state.get("priority_queue",[]).is_empty():
+		status.text="Resolve the outstanding opponent-choice window before advancing."
+		return
 	if not state["pending_end_clause"].is_empty():
 		status.text="Choose one card in your hand to DISCARD before ending your turn."
 		return
@@ -252,6 +280,17 @@ func _next() -> void:
 	_action("ADVANCE")
 
 func _deploy(id: String) -> void:
+	var pending:Array=state.get("priority_queue",[])
+	if not pending.is_empty():
+		if int(pending[0]["seat"])!=0:return
+		var op:String="DISCARD_NAME" if pending[0]["options"].has("DISCARD_NAME") else "DISCARD_CARD"
+		if not pending[0]["options"].has(op):return
+		for i in range(state["players"][0]["hand"].size()):
+			if str(state["players"][0]["hand"][i]["card_id"])!=id:continue
+			if op=="DISCARD_NAME" and state["players"][0]["hand"][i]["card_family"]!="Name":continue
+			_action("CHOOSE_CONSEQUENCE",{"choice":op,"hand_index":i})
+			return
+		return
 	if not state["pending_end_clause"].is_empty():
 		if int(state["pending_end_clause"]["seat"])!=0:return
 		for i in range(state["players"][0]["hand"].size()):
@@ -273,6 +312,8 @@ func _deploy(id: String) -> void:
 				status.text="A friendly Character or unit target is required."
 				return
 			parameters["target_uid"]=str(edict_target_select.get_item_metadata(edict_target_select.selected))
+		if id=="190":
+			parameters["target_seat"]=audit_target_pick.selected
 		if id=="185":
 			if permanent_target_select.item_count==0:
 				status.text="No eligible Site or Relic available."
@@ -296,6 +337,17 @@ func _deploy(id: String) -> void:
 		parameters["host_uid"] = host
 	_action("DEPLOY",parameters)
 
+func _choice(choice:String)->void:
+	var pending:Array=state.get("priority_queue",[])
+	if pending.is_empty() or int(pending[0]["seat"])!=0:return
+	var payload:Dictionary={"choice":choice}
+	if choice=="EXHAUST_UNIT" or choice=="SILENCE_UNIT":
+		if edict_target_select.item_count==0:
+			status.text="Select a friendly unit before choosing this response."
+			return
+		payload["unit_uid"]=str(edict_target_select.get_item_metadata(edict_target_select.selected))
+	_action("CHOOSE_CONSEQUENCE",payload)
+
 func _attack() -> void:
 	if attacker_select.item_count==0 or defender_select.item_count==0: return
 	var a: String = str(attacker_select.get_item_metadata(attacker_select.selected))
@@ -316,7 +368,14 @@ func _refresh() -> void:
 		stats.append("%s  |  Marks %d  |  Sinew %d  Sigil %d  Oath %d  |  Hand %d  Deck %d" % [
 			p["name"],p["marks"],p["sinew"],p["sigil"],p["oath"],p["hand"].size(),p["deck"].size()])
 	scoreboard.text = "\n".join(stats)
-	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty()
+	var pending:Array=state.get("priority_queue",[])
+	var human_response:bool=not pending.is_empty() and int(pending[0]["seat"])==0
+	var legal:Array=pending[0]["options"] if human_response else []
+	priority_label.text=("RESPONSE REQUIRED: "+str(pending[0]["source_id"])) if human_response else ""
+	priority_oath_button.disabled=not legal.has("LOSE_OATH")
+	priority_exhaust_button.disabled=not legal.has("EXHAUST_UNIT")
+	priority_silence_button.disabled=not legal.has("SILENCE_UNIT")
+	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty() or not pending.is_empty()
 	var clause_in_hand:bool=false
 	for card in state["players"][0]["hand"]:
 		if str(card["card_id"])=="187":clause_in_hand=true
@@ -326,6 +385,8 @@ func _refresh() -> void:
 		hand_list.remove_child(child)
 		child.queue_free()
 	var discarding:bool=not state["pending_end_clause"].is_empty() and int(state["pending_end_clause"].get("seat",-1))==0
+	var forced_discard:bool=human_response and (legal.has("DISCARD_CARD") or legal.has("DISCARD_NAME"))
+	var name_only:bool=human_response and legal.has("DISCARD_NAME")
 	var can_deploy: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==3
 	var can_cast: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==2
 	edict_target_select.clear()
@@ -361,13 +422,14 @@ func _refresh() -> void:
 		edict_target_select.set_item_metadata(edict_target_select.item_count-1,u["uid"])
 	for card in state["players"][0]["hand"]:
 		var id: String = str(card["card_id"])
-		var b: Button = _button(hand_list,("DISCARD: " if discarding else "")+str(card["card_name"])+" | "+str(card["card_family"])+
+		var b: Button = _button(hand_list,("DISCARD: " if discarding or forced_discard else "")+str(card["card_name"])+" | "+str(card["card_family"])+
 			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id))
-		b.disabled = false if discarding else (
+		b.disabled = (name_only and card["card_family"]!="Name") if forced_discard else (
+			false if discarding else (
 			not (can_cast if card["card_family"]=="Edict" and str(card["card_id"])!="187" else can_deploy) or
 			int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or
 			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or
-			int(card["cost_oath"])>int(state["players"][0]["oath"]))
+			int(card["cost_oath"])>int(state["players"][0]["oath"])))
 	var lines: Array = []
 	for field in Match.FIELD_NAMES:
 		lines.append("═══ "+field.to_upper()+" ═══")

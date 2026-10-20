@@ -10,12 +10,13 @@ const Deck = preload("res://scripts/deck_validator.gd")
 const DeckRegistry = preload("res://scripts/deck_registry.gd")
 const Combat = preload("res://scripts/real_combat_core.gd")
 const Edicts = preload("res://scripts/match_edicts.gd")
+const Priority = preload("res://scripts/match_priority.gd")
 const MODE := "M7_REAL_MATCH_CANDIDATE"
 const SCENARIO := "Warfield Ascendancy (candidate, not canon)"
 const AXES := ["Stone", "Veil", "Authority"]
 const SITES := ["214", "216"]
 const SUPPORT := ["239", "241", "254"]
-const EDICTS := ["181","184","185","187","188","191","193"]
+const EDICTS := ["181","182","184","185","187","188","190","191","193"]
 const FIELD_NAMES := ["Warfield", "Sanctuary"]
 const FACTIONS := ["BorderstoneGuild","FloodbornPact","SkyloomTemple","UnderwellKeepers","Fateforge"]
 const SOURCE_HASHES := {"239":"62ce231bc67c47e99832c4d8c18da701c04ecce102799bfad21eb295613f18dd",
@@ -46,7 +47,7 @@ static func _deck(faction: String) -> Array:
 	pool.sort_custom(func(a,b):
 		if a["cost_sinew"] == b["cost_sinew"]: return int(a["card_id"]) < int(b["card_id"])
 		return int(a["cost_sinew"]) < int(b["cost_sinew"]))
-	if pool.size() < 23: return []
+	if pool.size() < 21: return []
 	var out: Array = []
 	var seen_names: Dictionary = {}
 	for candidate in pool:
@@ -55,8 +56,8 @@ static func _deck(faction: String) -> Array:
 		var c: Dictionary = candidate.duplicate(true)
 		c["playable"] = true # Candidate whitelist ONLY, original registry stays locked.
 		out.append(c)
-		if out.size() == 23: break
-	if out.size() != 23: return []
+		if out.size() == 21: break
+	if out.size() != 21: return []
 	for id in SITES:
 		var site: Dictionary = CardSource.find_card(source, id).duplicate(true)
 		site["playable"] = true
@@ -118,7 +119,7 @@ static func create(seed_value: int = 20261020, player_faction: String = "Borders
 		"source_catalog": "real_cards_v1", "seed": seed_value, "initial_deck_ids": initial_ids,
 		"round": 1, "seat": 0, "phase": 0, "revision": 0,
 		"players": players, "units": [], "sites": [], "attachments": [],
-		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {}, "pending_end_clause": {},
+		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {}, "pending_end_clause": {}, "priority_queue": [],
 		"events": [], "action_log": [], "setup_complete": false,
 		"release_certified": false, "reward_enabled": false}}
 
@@ -184,6 +185,12 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		s["players"][seat] = p
 		s["setup_complete"] = s["players"][0]["setup_ready"] and s["players"][1]["setup_ready"]
 		return _commit(s,"SETUP_"+kind,{"seat":seat},action)
+	if not s.get("priority_queue",[]).is_empty():
+		if kind!=Priority.CHOICE_ACTION:return error("RESPONSE_CHOICE_REQUIRED")
+		var choice_result:Dictionary=Priority.choose(s,seat,action)
+		if not choice_result["ok"]:return choice_result
+		return _commit(choice_result["state"],"OPPONENT_CHOICE",choice_result["effect"],action)
+	if kind==Priority.CHOICE_ACTION:return error("NO_PENDING_PRIORITY_CHOICE")
 	if seat != int(s["seat"]): return error("NOT_ACTIVE_SEAT")
 	var phase: int = int(s["phase"])
 	if kind == "CAST_END":
@@ -385,6 +392,8 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 	# Deterministic candidate-AI policy; reads only acting player's hand.
 	if seat < 0 or seat > 1: return {}
 	var action: Dictionary = {"seat":seat,"revision":int(state["revision"]),"type":"ADVANCE"}
+	if not state.get("priority_queue",[]).is_empty():
+		return Priority.deterministic_response(state,seat)
 	if not state["setup_complete"]:
 		action["type"] = "KEEP"
 		return action
@@ -402,10 +411,19 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 	if phase == 2:
 		for c in p["hand"]:
 			var id: String = str(c["card_id"])
-			if not EDICTS.has(id): continue
+			if not EDICTS.has(id) or id=="187":continue
+			if id=="182":
+				var any_hot:bool=false
+				for other in range(state["players"].size()):
+					if other!=seat and int(state["players"][other]["heat"])>=4:any_hot=true
+				if not any_hot:continue
 			if int(c["cost_sinew"]) > int(p["sinew"]) or int(c["cost_sigil"]) > int(p["sigil"]) or int(c["cost_oath"]) > int(p["oath"]): continue
 			var attempt: Dictionary = {"seat":seat,"revision":int(state["revision"]),
 				"type":"CAST","card_id":id}
+			if id=="190":
+				var opponent:int=1-seat
+				if int(state["players"][opponent]["heat"])>=3 and not Priority.legal_options(state,opponent,id).is_empty():
+					attempt["target_seat"]=opponent
 			if id == "184":
 				for u in state["units"]:
 					if u["downed"] and not u["defeated"] and int(u.get("cannot_rescue_round",-1))!=int(state["round"]):
