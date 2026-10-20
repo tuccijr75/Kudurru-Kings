@@ -6,6 +6,7 @@ import subprocess,re,sys,os,json
 from pathlib import Path
 import argparse
 parser=argparse.ArgumentParser(description="Run every M19 quality gate on Windows or Linux")
+parser.add_argument('--branch',default='build/m19-command-integrity-20261020',help='Exact isolated branch to validate; default M19')
 parser.add_argument('--godot',required=True,type=Path)
 parser.add_argument('--log',type=Path,default=Path('m19_quality_gate.log'))
 args=parser.parse_args()
@@ -14,7 +15,7 @@ godot=str(args.godot.resolve())
 version=subprocess.run([godot,'--version'],capture_output=True,text=True,check=True).stdout.strip()
 if not version.startswith('4.7.2.stable'):raise SystemExit('Godot 4.7.2 required: '+version)
 branch=subprocess.check_output(['git','branch','--show-current'],text=True).strip()
-if branch!='build/m19-command-integrity-20261020':raise SystemExit('Wrong M19 branch')
+if branch!=args.branch:raise SystemExit('Wrong branch: '+branch)
 os.environ['KUDURRU_GODOT']=godot
 stage='m19'; ps=(root/'godot_client/tools/run_m19_quality_gate.ps1').read_text()
 commands=[]

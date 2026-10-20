@@ -84,5 +84,58 @@ func _run() -> void:
 	check(continued.get("ok",false),"saved match can continue turn progression")
 	if continued.get("ok",false):
 		check(Store.replay(continued["state"])["ok"],"determinism preserved after additional action")
+	_malformed_saves(state)
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(TEST_SLOT))
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(TEST_SLOT+".bak"))
+
+func _reject_state(state: Dictionary, label: String) -> void:
+	var before := JSON.stringify(state)
+	check(not Store.replay(state).get("ok",false),label+" replay rejects")
+	check(not Store.pack(state).get("ok",false),label+" pack rejects")
+	var wrapper: Dictionary = JSON.parse_string(Store.pack(Match.create(19001)["state"])["serialized"])
+	wrapper["payload"]=JSON.stringify(state)
+	wrapper["payload_sha256"]=wrapper["payload"].sha256_text()
+	check(not Store.unpack(JSON.stringify(wrapper)).get("ok",false),label+" resealed JSON rejects")
+	check(JSON.stringify(state)==before,label+" input preserved")
+
+func _malformed_saves(state: Dictionary) -> void:
+	for key in ["players","action_log","events","initial_deck_ids","units","sites","attachments"]:
+		for bad in [null,42,"bad",{}]:
+			var broken := state.duplicate(true)
+			broken[key]=bad
+			_reject_state(broken,"malformed "+key+" "+str(bad))
+	for key in ["seed","phase","revision","round","seat","winner"]:
+		for bad in [0.5,true,"0",9007199254740992]:
+			var broken := state.duplicate(true)
+			broken[key]=bad
+			_reject_state(broken,"nonintegral "+key+" "+str(bad))
+	for key in ["release_certified","reward_enabled"]:
+		for bad in [0,1,null,"false"]:
+			var invalid := state.duplicate(true)
+			invalid[key]=bad
+			_reject_state(invalid,"invalid flag "+key)
+	for value in [INF,-INF,NAN]:
+		var invalid := state.duplicate(true)
+		invalid["seed"]=value
+		check(not Store.replay(invalid).get("ok",false),"nonfinite seed refused before conversion")
+	for key in ["sinew","sigil","oath","marks","heat","seat","faction"]:
+		var broken := state.duplicate(true)
+		broken["players"][0][key]=0.5
+		_reject_state(broken,"player "+key)
+	var broken := state.duplicate(true)
+	broken["players"][0]=null
+	_reject_state(broken,"null player")
+	for zone in ["units","sites","attachments"]:
+		broken=state.duplicate(true)
+		broken[zone]=[null]
+		_reject_state(broken,"null zone entry "+zone)
+		broken=state.duplicate(true)
+		broken[zone]=[{"owner":0.5,"controller":0.5}]
+		_reject_state(broken,"fractional zone owner "+zone)
+	broken=state.duplicate(true)
+	broken["initial_deck_ids"]=[[null],[]]
+	_reject_state(broken,"malformed initial card ID")
+	for path in ["user://kudurru/../../outside.json","user://kudurru/../outside.json"]:
+		check(Store.load(path).get("error")=="OUTSIDE_ALLOWED_SAVE_FOLDER","traversal load rejected")
+		check(Store.save(state,path).get("error")=="OUTSIDE_ALLOWED_SAVE_FOLDER","traversal write rejected")
+	check(Store.replay(state).get("ok",false),"valid state still replays after malformed inputs")

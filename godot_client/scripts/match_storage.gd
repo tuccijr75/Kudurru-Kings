@@ -21,30 +21,44 @@ static func _hash(value: Variant) -> String:
 static func _validate(s: Dictionary) -> Dictionary:
 	if s.get("mode") != Match.MODE or s.get("scenario") != Match.SCENARIO:
 		return _bad("WRONG_MATCH_OR_SCENARIO")
-	if s.get("release_certified") != false or s.get("reward_enabled") != false:
+	if typeof(s.get("release_certified")) != TYPE_BOOL or typeof(s.get("reward_enabled")) != TYPE_BOOL:
 		return _bad("RELEASE_OR_REWARD_TAMPER")
-	if s.get("players", []).size() != 2: return _bad("PLAYER_COUNT")
-	if typeof(s.get("seed")) not in [TYPE_INT, TYPE_FLOAT] or int(s["seed"]) < 0:
+	if s["release_certified"] or s["reward_enabled"]:
+		return _bad("RELEASE_OR_REWARD_TAMPER")
+	if typeof(s.get("players")) != TYPE_ARRAY: return _bad("INVALID_PLAYERS")
+	if s["players"].size() != 2: return _bad("PLAYER_COUNT")
+	if not Command.whole(s.get("seed")) or s["seed"] < 0:
 		return _bad("INVALID_SEED")
 	for key in ["phase", "revision", "round", "seat", "winner"]:
-		if typeof(s.get(key)) not in [TYPE_INT,TYPE_FLOAT]:
+		if not Command.whole(s.get(key)):
 			return _bad("INVALID_"+key)
 	if int(s["phase"]) < 0 or int(s["phase"]) > 6 or int(s["seat"]) not in [0,1]:
 		return _bad("BAD_PHASE_OR_ACTOR")
 	if int(s["round"]) < 1 or int(s["revision"]) < 0: return _bad("NEGATIVE_REVISION")
 	if int(s["winner"]) not in [-1,0,1]: return _bad("INVALID_WINNER")
-	var log: Array = s.get("action_log", [])
+	for key in ["action_log", "events", "initial_deck_ids"]:
+		if s.has(key) and typeof(s[key]) != TYPE_ARRAY: return _bad("INVALID_"+key.to_upper())
+	if not s.has("action_log") or not s.has("events"): return _bad("MISSING_ACTION_HISTORY")
+	var log: Array = s["action_log"]
 	if log.size() != int(s["revision"]) or log.size() > ACTION_LIMIT:
 		return _bad("MISSING_OR_OVERSIZED_ACTION_LOG")
 	if s.get("events", []).size() != log.size(): return _bad("EVENT_REVISION_MISMATCH")
 	if typeof(s.get("units")) != TYPE_ARRAY or typeof(s.get("sites")) != TYPE_ARRAY:
 		return _bad("INVALID_ZONES")
 	if typeof(s.get("attachments")) != TYPE_ARRAY: return _bad("INVALID_ATTACHMENTS")
+	for zone in ["units", "sites", "attachments"]:
+		for item in s[zone]:
+			if typeof(item) != TYPE_DICTIONARY: return _bad("INVALID_ZONE_ENTRY")
+			var owner_key: String = "owner" if zone == "units" else "controller"
+			if not Command.whole(item.get(owner_key)) or int(item[owner_key]) not in [0,1]:
+				return _bad("INVALID_ZONE_OWNER")
 	for i in range(2):
+		if typeof(s["players"][i]) != TYPE_DICTIONARY: return _bad("INVALID_PLAYER")
 		var p: Dictionary = s["players"][i]
-		if int(p.get("seat",-1)) != i: return _bad("PLAYER_SEAT_MISMATCH")
+		if not Command.whole(p.get("seat")) or p["seat"] != i: return _bad("PLAYER_SEAT_MISMATCH")
+		if typeof(p.get("faction")) != TYPE_STRING: return _bad("INVALID_PLAYER_FACTION")
 		for key in ["sinew","sigil","oath","marks","heat"]:
-			if typeof(p.get(key)) not in [TYPE_INT,TYPE_FLOAT] or int(p[key]) < 0:
+			if not Command.whole(p.get(key)) or p[key] < 0:
 				return _bad("INVALID_BALANCE")
 		for zone in ["hand","deck","discard"]:
 			if typeof(p.get(zone)) != TYPE_ARRAY: return _bad("INVALID_CARD_ZONE")
@@ -67,6 +81,9 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 	if not custom_decks.is_empty():
 		if custom_decks.size()!=2 or typeof(custom_decks[0])!=TYPE_ARRAY or typeof(custom_decks[1])!=TYPE_ARRAY:
 			return _bad("SAVE_INITIAL_DECKS_INVALID")
+		for deck in custom_decks:
+			for card_id in deck:
+				if typeof(card_id) != TYPE_STRING: return _bad("SAVE_INITIAL_DECKS_INVALID")
 	var setup: Dictionary = Match.create(int(saved_state["seed"]),
 		str(saved_state["players"][0]["faction"]), str(saved_state["players"][1]["faction"]),
 		custom_decks)
@@ -118,15 +135,21 @@ static func unpack(raw: String) -> Dictionary:
 	var catalog: Dictionary = Source.catalog()
 	if str(wrapper.get("catalog_sha256","")) != str(catalog.get("source_sha256","")):
 		return _bad("CANONICAL_CARD_DATA_CHANGED")
-	var payload: String = str(wrapper.get("payload",""))
+	for key in ["payload", "payload_sha256", "catalog_sha256"]:
+		if typeof(wrapper.get(key)) != TYPE_STRING: return _bad("INVALID_SAVE_WRAPPER")
+	var payload: String = wrapper["payload"]
 	if payload.sha256_text() != str(wrapper.get("payload_sha256","")):
 		return _bad("SAVE_CHECKSUM_MISMATCH")
 	var s: Variant = JSON.parse_string(payload)
 	if typeof(s) != TYPE_DICTIONARY: return _bad("INVALID_SAVE_STATE")
 	return replay(s)
 
+static func _allowed_path(path: String) -> bool:
+	var prefix := "user://kudurru/"
+	return path.begins_with(prefix) and path.simplify_path().begins_with(prefix) and not path.get_file().is_empty()
+
 static func save(s: Dictionary, path: String = SLOT) -> Dictionary:
-	if not path.begins_with("user://kudurru/"): return _bad("OUTSIDE_ALLOWED_SAVE_FOLDER")
+	if not _allowed_path(path): return _bad("OUTSIDE_ALLOWED_SAVE_FOLDER")
 	var packed: Dictionary = pack(s)
 	if not packed["ok"]: return packed
 	var folder: String = path.get_base_dir()
@@ -151,7 +174,7 @@ static func save(s: Dictionary, path: String = SLOT) -> Dictionary:
 	return {"ok": true,"path":path,"revision":s["revision"]}
 
 static func load(path: String = SLOT) -> Dictionary:
-	if not path.begins_with("user://kudurru/"): return _bad("OUTSIDE_ALLOWED_SAVE_FOLDER")
+	if not _allowed_path(path): return _bad("OUTSIDE_ALLOWED_SAVE_FOLDER")
 	if not FileAccess.file_exists(path): return _bad("SAVE_NOT_FOUND")
 	var file := FileAccess.open(path,FileAccess.READ)
 	if file == null: return _bad("SAVE_UNREADABLE")
