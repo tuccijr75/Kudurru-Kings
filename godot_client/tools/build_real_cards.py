@@ -22,7 +22,7 @@ PINNED = {
 "214":"d36bef97289a48543ead3b18f7744f44bd03afcec75a97fd0b84dd27bb9b8c7b",
 "216":"8a8db6ddd60bb781e6af42f2e028fde3303b919abb1be9dc59bc491a2b32fb44",
 }
-FIELDS = ("card_id","card_slug","card_name","card_family","owner_faction","rarity","subtype_primary","is_standard_legal","scenario_only","requires_faction_lock","allowed_splash","deck_copy_limit","cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","vitality","wound_threshold","play_timing","enters_play_zone","site_type","heat_on_install","rules_text")
+FIELDS = ("card_id","card_slug","card_name","card_family","owner_faction","rarity","subtype_primary","is_standard_legal","scenario_only","requires_faction_lock","allowed_splash","deck_copy_limit","cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","vitality","wound_threshold","support_value_rule","heat_on_support","play_timing","enters_play_zone","site_type","heat_on_install","rules_text")
 INTS = {"cost_sinew","cost_sigil","cost_oath","upkeep_oath","stone","veil","authority","vitality"}
 BOOLS = {"is_standard_legal","scenario_only","requires_faction_lock","allowed_splash"}
 def build():

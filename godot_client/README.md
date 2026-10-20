@@ -1,4 +1,6 @@
-# Kudurru Kings — Godot M4 Real Card / Effect Development (isolated branch)
+# Kudurru Kings — Godot M5 Real Combat and Arbitration Laboratory
+
+**New M5:** Select **TEST REAL COMBAT** on the main board to exercise the real-card Stone/Veil/Authority combat sandbox, Face-off, Downed/Defeated states and optional Resolution capture decline. A separate sealed-bid Oath arbitration engine is covered by headless tests. Conditional resource income now applies when the End phase actually resolves. See `docs/M5_COMBAT_ARBITRATION_STATUS.md`; execute `tools/run_m5_quality_gate.ps1` before further changes. Full Standard remains blocked.
 
 **New M4:** The board includes **VIEW 754 REAL CARDS**, a browsable source-true library and restricted effect bench. Twelve exact effects are executable in a sandbox; 423 adjacent-ally condition descriptors are compiled but the full combat resolver is not. All 754 cards remain production-locked. See `docs/M4_REAL_CARD_EFFECT_GATE.md` and run `tools/run_m4_quality_gate.ps1`.
 

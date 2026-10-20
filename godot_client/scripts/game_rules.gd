@@ -48,7 +48,8 @@ static func step(state: Dictionary) -> Dictionary:
 	if phase == 5 and not state.get("pending_captures", []).is_empty():
 		return {"ok": false, "error": "CAPTURE_DECISION_PENDING"}
 	var s: Dictionary = state.duplicate(true)
-	if phase == 5:
+	# End-phase income executes as End closes, not when Resolution closes.
+	if phase == 6:
 		var gain: Dictionary = end_income(s, seat)
 		var ps: Array = s["players"]
 		var p: Dictionary = ps[seat]
@@ -56,7 +57,6 @@ static func step(state: Dictionary) -> Dictionary:
 			p[key] = int(p[key]) + int(gain[key])
 		ps[seat] = p
 		s["players"] = ps
-	elif phase == 6:
 		s["seat"] = (seat + 1) % seats
 		if s["seat"] == 0: s["round"] = int(s["round"]) + 1
 	s["phase"] = (phase + 1) % 7

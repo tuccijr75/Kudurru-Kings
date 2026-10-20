@@ -134,11 +134,13 @@ func _tests() -> void:
 	# Main -> Battle -> Resolution -> End (income applied by existing phase reducer).
 	active = _advance(active, 3)
 	_check(Rules.current_phase(active) == "End", "End reached")
-	_check(active["players"][0]["sinew"] == 3 - int(first["cost_sinew"]), "conditional Sinew income")
-	_check(active["players"][0]["sigil"] == 1, "Site gives conditional Sigil")
+	_check(active["players"][0]["sinew"] == 2 - int(first["cost_sinew"]), "End income not yet applied")
+	_check(active["players"][0]["sigil"] == 0, "Site income only after End closes")
 	_check(active["players"][0]["oath"] == 1, "no fictional Oath objective income")
 	# End seat0; seven phases for seat1; Upkeep -> Draw seat0.
 	active = _advance(active, 1 + 7 + 1)
+	_check(active["players"][0]["sinew"] == 3 - int(first["cost_sinew"]), "End credited one Sinew")
+	_check(active["players"][0]["sigil"] == 1, "End credited one Sigil from Site")
 	_check(active["seat"] == 0 and Rules.current_phase(active) == "Draw", "cycle back to player draw")
 	_check(active["players"][0]["hand"].size() == 6, "refill hand to six")
 	_check(active["players"][0]["deck"].size() == 28, "draw removes two from deck")

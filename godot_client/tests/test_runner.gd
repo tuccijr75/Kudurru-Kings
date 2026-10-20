@@ -51,9 +51,10 @@ func _test_all() -> void:
 	var s: Dictionary = Rules.step(state)
 	_check(s["ok"] and Rules.current_phase(s["state"]) == "End", "Resolution to End")
 	state = s["state"]
-	_check(state["players"][0]["sinew"] == 3, "fallback income at End")
+	_check(state["players"][0]["sinew"] == 2, "no income before End actually closes")
 	s = Rules.step(state)
 	_check(s["state"]["seat"] == 1 and s["state"]["phase"] == 0, "turn advances to seat two")
+	_check(s["state"]["players"][0]["sinew"] == 3, "fallback Sinew credited at End")
 	var income: Dictionary = Rules.new_state(["A", "B"])
 	income["players"][0]["ready_units"] = 3
 	income["players"][0]["sites"] = 1
