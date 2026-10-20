@@ -26,9 +26,10 @@ class TestM7Completion(unittest.TestCase):
   self.assertEqual(121,self.audit["unique_effect_templates"])
   self.assertEqual(754,sum(len(x["card_ids"]) for x in self.templates))
   self.assertEqual(423,self.audit["effect_statuses"]["M7_CHARACTER_BASIC_SANDBOX"])
-  self.assertEqual(12,self.audit["effect_statuses"]["M4_SOURCE_EFFECT_SANDBOX"])
+  self.assertEqual(10,self.audit["effect_statuses"]["M4_SOURCE_EFFECT_SANDBOX"])
+  self.assertEqual(4,self.audit["effect_statuses"]["M8_LIVE_EDICT_CANDIDATE"])
   self.assertEqual(3,self.audit["effect_statuses"]["M7_PRESENT_EFFECT_NOT_FULLY_CERTIFIED"])
-  self.assertEqual(316,self.audit["effect_statuses"]["UNIMPLEMENTED_OR_UNVERIFIED"])
+  self.assertEqual(314,self.audit["effect_statuses"]["UNIMPLEMENTED_OR_UNVERIFIED"])
  def test_legacy_terms_not_silently_converted(self):
   self.assertEqual(239,self.audit["source_migration_term_counts"]["legacy_supply"])
   self.assertEqual(239,self.audit["source_migration_term_counts"]["legacy_recoil"])
@@ -38,12 +39,12 @@ class TestM7Completion(unittest.TestCase):
   self.assertFalse(self.audit["full_standard_releasable"])
   self.assertFalse(self.audit["multiplayer_releasable"])
   self.assertTrue(self.audit["candidate_local_match_available"])
-  self.assertEqual(3,self.audit["passed_gate_count"])
+  self.assertEqual(5,self.audit["passed_gate_count"])
   self.assertEqual(6,self.audit["in_progress_gate_count"])
   self.assertEqual(11,self.audit["blocked_gate_count"])
- def test_all_20_domain_criteria_present(self):
+ def test_all_22_domain_criteria_present(self):
   domains=self.audit["production_game_gates"]
-  self.assertEqual(20,len(domains))
+  self.assertEqual(22,len(domains))
   for name,data in domains.items():
    self.assertIn(data["status"],("PASS","IN_PROGRESS","BLOCKED"),name)
    self.assertGreater(len(data["remaining"]),20,name)

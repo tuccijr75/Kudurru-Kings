@@ -3,6 +3,7 @@ extends Control
 const Match = preload("res://scripts/match_integrator.gd")
 const Rules = preload("res://scripts/game_rules.gd")
 const Source = preload("res://scripts/real_effects.gd")
+const Storage = preload("res://scripts/match_storage.gd")
 var state: Dictionary = {}
 var headline: Label
 var scoreboard: Label
@@ -16,6 +17,9 @@ var axis_select: OptionButton
 var next_button: Button
 var attack_button: Button
 var hand_scroll: ScrollContainer
+var player_faction_pick: OptionButton
+var enemy_faction_pick: OptionButton
+var edict_target_select: OptionButton
 
 func _label(parent: Node, title: String, size: int = 16) -> Label:
 	var l := Label.new()
@@ -61,6 +65,19 @@ func _build() -> void:
 	_button(header,"BACK TO BOARD",func(): get_tree().change_scene_to_file("res://scenes/main.tscn"))
 	_label(header,"KUDURRU KINGS  •  REAL MATCH CANDIDATE",25)
 	_label(header,"LOCAL TWO-SEAT GAME • NOT STANDARD CERTIFIED • NO REWARDS",14)
+	var setup_bar := HBoxContainer.new()
+	setup_bar.add_theme_constant_override("separation",12)
+	root.add_child(setup_bar)
+	_label(setup_bar,"Your faction:",14)
+	player_faction_pick = OptionButton.new()
+	for faction in Match.FACTIONS: player_faction_pick.add_item(faction)
+	setup_bar.add_child(player_faction_pick)
+	_label(setup_bar,"Opponent faction:",14)
+	enemy_faction_pick = OptionButton.new()
+	for faction in Match.FACTIONS: enemy_faction_pick.add_item(faction)
+	enemy_faction_pick.select(3)
+	setup_bar.add_child(enemy_faction_pick)
+	_button(setup_bar,"NEW GAME WITH SELECTED FACTIONS",_restart)
 	headline = _label(root,"",20)
 	scoreboard = _label(root,"",16)
 	var columns := HBoxContainer.new()
@@ -78,6 +95,9 @@ func _build() -> void:
 	hand_list = VBoxContainer.new()
 	hand_list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	hand_scroll.add_child(hand_list)
+	_label(left,"EDICT TARGET (MERCY / CONVOY)",13)
+	edict_target_select = OptionButton.new()
+	left.add_child(edict_target_select)
 	var middle := VBoxContainer.new()
 	middle.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	columns.add_child(middle)
@@ -110,16 +130,34 @@ func _build() -> void:
 	bar.add_theme_constant_override("separation",15)
 	root.add_child(bar)
 	next_button = _button(bar,"NEXT PHASE / END TURN",_next)
-	_button(bar,"RESTART NEW MATCH",_restart)
+	_button(bar,"SAVE LOCAL GAME",_save_game)
+	_button(bar,"CONTINUE SAVED GAME",_load_game)
 	status = _label(root,"One complete pregame choice per seat. Opponent runs deterministic legal-action AI.",15)
 
 func _restart() -> void:
-	var built: Dictionary = Match.create(int(state["seed"])+1)
+	var built: Dictionary = Match.create(int(state["seed"])+1,
+		Match.FACTIONS[player_faction_pick.selected],Match.FACTIONS[enemy_faction_pick.selected])
 	if not built["ok"]:
 		status.text = "NEW MATCH BLOCKED"
 		return
 	state = built["state"]
 	_refresh()
+
+func _save_game(path: String = Storage.SLOT) -> void:
+	var result: Dictionary = Storage.save(state,path)
+	status.text = ("Saved local game at revision "+str(state["revision"])) if result["ok"] else (
+		"Save refused: "+str(result["error"]))
+
+func _load_game(path: String = Storage.SLOT) -> void:
+	var result: Dictionary = Storage.load(path)
+	if not result["ok"]:
+		status.text = "Cannot load local game: "+str(result["error"])
+		return
+	state = result["state"]
+	player_faction_pick.select(Match.FACTIONS.find(str(state["players"][0]["faction"])))
+	enemy_faction_pick.select(Match.FACTIONS.find(str(state["players"][1]["faction"])))
+	_refresh()
+	status.text = "Verified saved match restored (revision "+str(state["revision"])+")"
 
 func _action(kind: String, parameters: Dictionary = {}) -> void:
 	if state.is_empty(): return
@@ -160,6 +198,15 @@ func _next() -> void:
 func _deploy(id: String) -> void:
 	var card: Dictionary = Source.find_card(Source.catalog(),id)
 	var family: String = str(card.get("card_family",""))
+	if family=="Edict":
+		var parameters: Dictionary = {"card_id":id}
+		if id=="188" or id=="193":
+			if edict_target_select.item_count==0:
+				status.text="A friendly Character or unit target is required."
+				return
+			parameters["target_uid"]=str(edict_target_select.get_item_metadata(edict_target_select.selected))
+		_action("CAST",parameters)
+		return
 	var parameters := {"card_id":id,"field":"Warfield"}
 	if family=="Site":
 		parameters["field"] = "Sanctuary" if id=="214" else "Warfield"
@@ -200,11 +247,19 @@ func _refresh() -> void:
 		hand_list.remove_child(child)
 		child.queue_free()
 	var can_deploy: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==3
+	var can_cast: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==2
+	edict_target_select.clear()
+	for u in state["units"]:
+		if int(u["controller"])!=0 or u["defeated"]: continue
+		var target_card: Dictionary=Source.find_card(Source.catalog(),str(u["card_id"]))
+		edict_target_select.add_item(str(target_card["card_name"])+" ? "+
+			("EXHAUSTED" if u["exhausted"] else "READY")+" ? Wounds "+str(u["wounds"]))
+		edict_target_select.set_item_metadata(edict_target_select.item_count-1,u["uid"])
 	for card in state["players"][0]["hand"]:
 		var id: String = str(card["card_id"])
 		var b: Button = _button(hand_list,str(card["card_name"])+" | "+str(card["card_family"])+
 			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id))
-		b.disabled = not can_deploy or int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or (
+		b.disabled = not (can_cast if card["card_family"]=="Edict" else can_deploy) or int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or (
 			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or int(card["cost_oath"])>int(state["players"][0]["oath"]))
 	var lines: Array = []
 	for field in Match.FIELD_NAMES:

@@ -18,6 +18,7 @@ ADJACENCY = ROOT / "godot_client/data/adjacency_descriptors_v1.json"
 OUT = ROOT / "godot_client/data/full_game_completion_audit.json"
 GROUP_REPORT = ROOT / "godot_client/data/effect_template_groups.json"
 M4 = set(["180","184","185","187","189","191","193","199","206","207","214","216"])
+M8_LIVE_EDICTS = {"181","188","191","193"}
 M7 = set(["214","216","239","241","254"])
 DOMAINS = {
 "canon_factions": ("BLOCKED", "Resolve every migrated faction assignment through EOE Crosswalk, including known conflicts."),
@@ -26,6 +27,8 @@ DOMAINS = {
 "deployment_costs": ("PASS", "All 754 deployment costs positive with deterministic derivation and audit."),
 "card_effects": ("BLOCKED", "M4 provides 12 selected source-pinned sandbox effects; repeated 423 Character conditions are extracted but are not full match certification."),
 "reusable_effect_runtime": ("IN_PROGRESS", "Finish template-level triggers, target legality, stacking, replacement and expiry."),
+"local_faction_selection": ("PASS", "M8 validates all 25 five-faction two-seat pairings against the 36-card deck contract."),
+"local_save_and_replay": ("PASS", "M8 versioned source-pinned local save/restore independently replays every action and rejects modified data."),
 "turn_setup_decks": ("IN_PROGRESS", "M7 candidate uses two player-specific legal 36-card decks and pre-match choices; full deck builder and all player counts pending."),
 "full_combat": ("BLOCKED", "Guard protection, First Strike action windows, Bosses, full supporter effects, consequence legality and status interactions."),
 "scenarios": ("IN_PROGRESS", "M7 has a clearly labeled candidate Warfield objective; production scenarios still require approval and certification."),
@@ -85,7 +88,9 @@ def build():
             if pat.search(row["rules_text"]):
                 tags[name]+=1
                 issues.append(name)
-        if id_ in matched:
+        if id_ in M8_LIVE_EDICTS:
+            status="M8_LIVE_EDICT_CANDIDATE"
+        elif id_ in matched:
             status="M7_CHARACTER_BASIC_SANDBOX"
         elif id_ in M4:
             status="M4_SOURCE_EFFECT_SANDBOX"
@@ -122,6 +127,9 @@ def build():
         "full_standard_releasable":False,
         "multiplayer_releasable":False,
         "candidate_local_match_available":True,
+        "candidate_faction_pairings":25,
+        "candidate_verified_save_replay":True,
+        "source_verified_live_edicts":sorted(M8_LIVE_EDICTS),
         "candidate_scenario":"Warfield Ascendancy (uncertified variant)",
         "production_game_gates":domains,
         "blocked_gate_count":sum(x["status"]=="BLOCKED" for x in domains.values()),

@@ -1,3 +1,5 @@
+**LATEST IMPLEMENTATION:** M8 supersedes M7 deck recipe, persistence and faction descriptions below. Consult M8_LOCAL_GAME_REPORT.md for current status. Production completion criteria remain unchanged.
+
 # Kudurru Kings — Complete Production Delivery Contract
 
 **Repository:** tuccijr75/Kudurru-Kings

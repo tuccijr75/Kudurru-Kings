@@ -10,8 +10,10 @@
     "Relic": 15,
     "Site": 15
   },
+  "candidate_faction_pairings": 25,
   "candidate_local_match_available": true,
   "candidate_scenario": "Warfield Ascendancy (uncertified variant)",
+  "candidate_verified_save_replay": true,
   "card_manifest": [
     {
       "card_id": "1",
@@ -2207,7 +2209,7 @@
     {
       "card_id": "181",
       "card_name": "Sun-Script Overload",
-      "effect_status": "UNIMPLEMENTED_OR_UNVERIFIED",
+      "effect_status": "M8_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2270,7 +2272,7 @@
     {
       "card_id": "188",
       "card_name": "Mercy Docket",
-      "effect_status": "UNIMPLEMENTED_OR_UNVERIFIED",
+      "effect_status": "M8_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2297,7 +2299,7 @@
     {
       "card_id": "191",
       "card_name": "Festival Truce",
-      "effect_status": "M4_SOURCE_EFFECT_SANDBOX",
+      "effect_status": "M8_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -2315,7 +2317,7 @@
     {
       "card_id": "193",
       "card_name": "Convoy Priority",
-      "effect_status": "M4_SOURCE_EFFECT_SANDBOX",
+      "effect_status": "M8_LIVE_EDICT_CANDIDATE",
       "family": "Edict",
       "migration_terms": [],
       "production_certified": false,
@@ -7660,16 +7662,17 @@
     }
   ],
   "effect_statuses": {
-    "M4_SOURCE_EFFECT_SANDBOX": 12,
+    "M4_SOURCE_EFFECT_SANDBOX": 10,
     "M7_CHARACTER_BASIC_SANDBOX": 423,
     "M7_PRESENT_EFFECT_NOT_FULLY_CERTIFIED": 3,
-    "UNIMPLEMENTED_OR_UNVERIFIED": 316
+    "M8_LIVE_EDICT_CANDIDATE": 4,
+    "UNIMPLEMENTED_OR_UNVERIFIED": 314
   },
   "full_standard_releasable": false,
   "in_progress_gate_count": 6,
   "master_sha256": "1830d6080c70838b656c84163ebbfba2177898200c6106c9778530625d009059",
   "multiplayer_releasable": false,
-  "passed_gate_count": 3,
+  "passed_gate_count": 5,
   "production_game_gates": {
     "arbitration": {
       "remaining": "Sealed bids + Seize implemented in isolated lab; Suppress, Corrupt and Injunctions blocked.",
@@ -7714,6 +7717,14 @@
     "heat": {
       "remaining": "Heat ladder and selected source effects present; complete Heat-spend/revival/hazard rules pending.",
       "status": "IN_PROGRESS"
+    },
+    "local_faction_selection": {
+      "remaining": "M8 validates all 25 five-faction two-seat pairings against the 36-card deck contract.",
+      "status": "PASS"
+    },
+    "local_save_and_replay": {
+      "remaining": "M8 versioned source-pinned local save/restore independently replays every action and rejects modified data.",
+      "status": "PASS"
     },
     "multiplayer": {
       "remaining": "Server authority, privacy, reconnect, simultaneous windows and 2–4 seat network mode not built.",
@@ -7763,5 +7774,11 @@
     "legacy_supply": 239,
     "legacy_temper": 6
   },
+  "source_verified_live_edicts": [
+    "181",
+    "188",
+    "191",
+    "193"
+  ],
   "unique_effect_templates": 121
 }

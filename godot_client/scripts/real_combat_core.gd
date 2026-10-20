@@ -86,6 +86,8 @@ static func _support(state: Dictionary, primary: Dictionary, support_uid: String
 		return fail("SUPPORTER_NOT_ALLIED")
 	if s["field"] != primary["field"] or not _ready(s):
 		return fail("SUPPORTER_NOT_READY_IN_FIELD")
+	if int(s.get("cannot_support_round",-1)) == int(state.get("round",-2)):
+		return fail("SUPPORT_RESTRICTED_THIS_ROUND")
 	var c: Dictionary = card(str(s["card_id"]))
 	# The master explicitly specifies HalfRoundedUp; printed special abilities
 	# still require their own source-verified resolver.

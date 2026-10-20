@@ -8,12 +8,15 @@ const Rules = preload("res://scripts/game_rules.gd")
 const Costs = preload("res://scripts/cost_rules.gd")
 const Deck = preload("res://scripts/deck_validator.gd")
 const Combat = preload("res://scripts/real_combat_core.gd")
+const Edicts = preload("res://scripts/match_edicts.gd")
 const MODE := "M7_REAL_MATCH_CANDIDATE"
 const SCENARIO := "Warfield Ascendancy (candidate, not canon)"
 const AXES := ["Stone", "Veil", "Authority"]
 const SITES := ["214", "216"]
 const SUPPORT := ["239", "241", "254"]
+const EDICTS := ["181","188","191","193"]
 const FIELD_NAMES := ["Warfield", "Sanctuary"]
+const FACTIONS := ["BorderstoneGuild","FloodbornPact","SkyloomTemple","UnderwellKeepers","Fateforge"]
 const SOURCE_HASHES := {"239":"62ce231bc67c47e99832c4d8c18da701c04ecce102799bfad21eb295613f18dd",
 	"241":"9d8b1b4b296c74bcd2ce75bf3c18cb49671e25728cf8cd1cb7e486a6ccd554d1",
 	"254":"4d02f398201e108e7dfb95441a182f7c050564499229a1d03cbb76cf70264af4",
@@ -25,6 +28,7 @@ static func error(code: String) -> Dictionary:
 
 static func _supported(c: Dictionary) -> bool:
 	var id: String = str(c.get("card_id", ""))
+	if EDICTS.has(id): return Edicts.verified(id)
 	if SITES.has(id) or SUPPORT.has(id):
 		return str(c.get("rules_sha256","")) == str(SOURCE_HASHES.get(id,"")) and str(c.get("rules_text","")).replace("\r\n","\n").sha256_text() == SOURCE_HASHES[id]
 	return c.get("card_family") == "Character" and Adj.has_compiled_rule(id)
@@ -41,7 +45,7 @@ static func _deck(faction: String) -> Array:
 	pool.sort_custom(func(a,b):
 		if a["cost_sinew"] == b["cost_sinew"]: return int(a["card_id"]) < int(b["card_id"])
 		return int(a["cost_sinew"]) < int(b["cost_sinew"]))
-	if pool.size() < 30: return []
+	if pool.size() < 26: return []
 	var out: Array = []
 	var seen_names: Dictionary = {}
 	for candidate in pool:
@@ -50,8 +54,8 @@ static func _deck(faction: String) -> Array:
 		var c: Dictionary = candidate.duplicate(true)
 		c["playable"] = true # Candidate whitelist ONLY, original registry stays locked.
 		out.append(c)
-		if out.size() == 30: break
-	if out.size() != 30: return []
+		if out.size() == 26: break
+	if out.size() != 26: return []
 	for id in SITES:
 		var site: Dictionary = CardSource.find_card(source, id).duplicate(true)
 		site["playable"] = true
@@ -61,6 +65,10 @@ static func _deck(faction: String) -> Array:
 			var item: Dictionary = CardSource.find_card(source, id).duplicate(true)
 			item["playable"] = true
 			out.append(item)
+	for id in EDICTS:
+		var edict: Dictionary = CardSource.find_card(source,id).duplicate(true)
+		edict["playable"] = true
+		out.append(edict)
 	return out
 
 static func _shuffle(deck: Array, seed_value: int) -> Array:
@@ -78,9 +86,12 @@ static func _draw(p: Dictionary) -> void:
 	while p["hand"].size() < 6 and not p["deck"].is_empty():
 		p["hand"].append(p["deck"].pop_back())
 
-static func create(seed_value: int = 20261020) -> Dictionary:
+static func create(seed_value: int = 20261020, player_faction: String = "BorderstoneGuild",
+		opponent_faction: String = "UnderwellKeepers") -> Dictionary:
 	if seed_value < 0: return error("BAD_SEED")
-	var factions := ["BorderstoneGuild", "UnderwellKeepers"]
+	if not FACTIONS.has(player_faction) or not FACTIONS.has(opponent_faction):
+		return error("UNKNOWN_FACTION")
+	var factions := [player_faction,opponent_faction]
 	var players: Array = []
 	for seat in range(2):
 		var deck: Array = _deck(factions[seat])
@@ -96,8 +107,8 @@ static func create(seed_value: int = 20261020) -> Dictionary:
 		"source_catalog": "real_cards_v1", "seed": seed_value,
 		"round": 1, "seat": 0, "phase": 0, "revision": 0,
 		"players": players, "units": [], "sites": [], "attachments": [],
-		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {},
-		"events": [], "setup_complete": false,
+		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {},
+		"events": [], "action_log": [], "setup_complete": false,
 		"release_certified": false, "reward_enabled": false}}
 
 static func _unit_index(s: Dictionary, uid: String) -> int:
@@ -129,11 +140,12 @@ static func _summary_income(s: Dictionary, seat: int) -> Dictionary:
 	if sinew == 0 and sigil == 0 and oath == 0: sinew = 1
 	return {"sinew": sinew, "sigil": sigil, "oath": oath}
 
-static func _commit(s: Dictionary, type_name: String, details: Dictionary = {}) -> Dictionary:
+static func _commit(s: Dictionary, type_name: String, details: Dictionary = {}, committed_action: Dictionary = {}) -> Dictionary:
 	s["revision"] = int(s["revision"]) + 1
 	var event: Dictionary = {"type": type_name, "revision": s["revision"]}
 	for key in details: event[key] = details[key]
 	s["events"].append(event)
+	if not committed_action.is_empty(): s["action_log"].append(committed_action.duplicate(true))
 	return {"ok": true, "state": s, "event": event}
 
 static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
@@ -160,11 +172,13 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		p["setup_ready"] = true
 		s["players"][seat] = p
 		s["setup_complete"] = s["players"][0]["setup_ready"] and s["players"][1]["setup_ready"]
-		return _commit(s,"SETUP_"+kind,{"seat":seat})
+		return _commit(s,"SETUP_"+kind,{"seat":seat},action)
 	if seat != int(s["seat"]): return error("NOT_ACTIVE_SEAT")
 	var phase: int = int(s["phase"])
 	if kind == "ADVANCE":
 		if phase == 0:
+			if bool(s["truce"].get("active",false)) and int(s["truce"]["owner"]) == seat and int(s["round"]) > int(s["truce"]["started_round"]):
+				s["truce"] = {}
 			for u in s["units"]:
 				if int(u["controller"]) == seat and not u["downed"] and not u["defeated"]: u["exhausted"] = false
 		if phase == 5:
@@ -183,7 +197,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		s["phase"] = (phase+1)%7
 		if s["phase"] == 1: _draw(s["players"][int(s["seat"])])
 		return _commit(s,"PHASE",{"seat":s["seat"],"phase":Rules.PHASES[int(s["phase"])],
-			"objective_owner":s["objective_owner"],"winner":s["winner"]})
+			"objective_owner":s["objective_owner"],"winner":s["winner"]},action)
 	if kind == "PEEK":
 		if phase != 3: return error("MAIN_REQUIRED")
 		var has_archive: bool = false
@@ -196,10 +210,33 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		if target < 0 or target > 1 or s["players"][target]["deck"].is_empty(): return error("TARGET_DECK_UNAVAILABLE")
 		var revealed_id: String = str(s["players"][target]["deck"][-1]["card_id"])
 		s["peek_used"][stamp] = true
-		var peek_result: Dictionary = _commit(s,"PRIVATE_TOP_DECK_VIEW",{"seat":seat,"target_seat":target})
+		var peek_result: Dictionary = _commit(s,"PRIVATE_TOP_DECK_VIEW",{"seat":seat,"target_seat":target},action)
 		peek_result["private_card_id"] = revealed_id
 		peek_result["private_for_seat"] = seat
 		return peek_result
+	if kind == "CAST":
+		if phase != 2: return error("EDICTS_WINDOW_REQUIRED")
+		var id: String = str(action.get("card_id",""))
+		var index: int = -1
+		for i in range(p["hand"].size()):
+			if str(p["hand"][i]["card_id"]) == id:
+				index = i
+				break
+		if index < 0: return error("EDICT_NOT_IN_HAND")
+		var card: Dictionary = p["hand"][index]
+		if not _supported(card) or card["card_family"] != "Edict":
+			return error("UNVERIFIED_EDICT")
+		var effect: Dictionary = Edicts.resolve(s,seat,id,action)
+		if not effect["ok"]: return effect
+		var payment: Dictionary = Costs.pay(p,card)
+		if not payment["ok"]: return payment
+		s = effect["state"]
+		for resource in Costs.RESOURCE_KEYS:
+			s["players"][seat][resource] = int(payment["player"][resource])
+		s["players"][seat]["hand"].remove_at(index)
+		s["players"][seat]["discard"].append(card)
+		return _commit(s,"EDICT",{"seat":seat,"card_id":id,"paid":payment["paid"],
+			"resolved":effect["effect"]},action)
 	if kind == "DEPLOY":
 		if phase != 3: return error("MAIN_REQUIRED")
 		var id: String = str(action.get("card_id",""))
@@ -246,9 +283,10 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 			s["sites"].append({"card_id":id,"controller":seat,"field":field})
 		else:
 			s["attachments"].append({"card_id":id,"controller":seat,"host_uid":host})
-		return _commit(s,"DEPLOY",{"seat":seat,"card_id":id,"family":family,"paid":payment["paid"]})
+		return _commit(s,"DEPLOY",{"seat":seat,"card_id":id,"family":family,"paid":payment["paid"]},action)
 	if kind == "ATTACK":
 		if phase != 4: return error("BATTLE_REQUIRED")
+		if Edicts.engagements_blocked(s,seat,1-seat): return error("FESTIVAL_TRUCE_NO_ENGAGEMENT")
 		var attacker: String = str(action.get("attacker",""))
 		var defender: String = str(action.get("defender",""))
 		var ai: int = _unit_index(s,attacker)
@@ -282,7 +320,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 				restored_deck.append(real_card)
 			s["players"][i]["deck"] = restored_deck
 		return _commit(s,"COMBAT",{"seat":seat,"attacker":attacker,"defender":defender,
-			"axis":str(action.get("axis","Stone")), "winner":result["event"]["winner_seat"]})
+			"axis":str(action.get("axis","Stone")), "winner":result["event"]["winner_seat"]},action)
 	return error("UNSUPPORTED_ACTION")
 
 static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
@@ -294,6 +332,23 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 		return action
 	var phase: int = int(state["phase"])
 	var p: Dictionary = state["players"][seat]
+	if phase == 2:
+		for c in p["hand"]:
+			var id: String = str(c["card_id"])
+			if not EDICTS.has(id): continue
+			if int(c["cost_sinew"]) > int(p["sinew"]) or int(c["cost_sigil"]) > int(p["sigil"]) or int(c["cost_oath"]) > int(p["oath"]): continue
+			var attempt: Dictionary = {"seat":seat,"revision":int(state["revision"]),
+				"type":"CAST","card_id":id}
+			if id == "188" or id == "193":
+				for u in state["units"]:
+					if int(u["controller"]) != seat or u["defeated"]: continue
+					if id == "188" and (int(u["wounds"]) > 0 or bool(u["silenced"])):
+						attempt["target_uid"] = u["uid"]
+						break
+					if id == "193" and u["exhausted"] and not u["downed"]:
+						attempt["target_uid"] = u["uid"]
+						break
+			if apply(state,attempt).get("ok",false): return attempt
 	if phase == 3:
 		for c in p["hand"]:
 			if str(c["card_family"]) == "Character" and int(c["cost_sinew"]) <= int(p["sinew"]) and (

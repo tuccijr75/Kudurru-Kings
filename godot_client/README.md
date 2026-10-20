@@ -1,3 +1,7 @@
+# Kudurru Kings M8 - Local Playable Game Preview
+
+**M8:** Five factions, 25 pairing combinations, local Save/Continue with independent replay, four new live source-hashed Edicts and seeded full-match tests. This is a restricted local match candidate, NOT all 754-card Standard or a commercial export. See docs/M8_LOCAL_GAME_REPORT.md; run tools/run_m8_quality_gate.ps1.
+
 # Kudurru Kings — M7 Integrated Local Match and Production Completion Audit
 
 **New executable entry:** On the main Godot board select **PLAY REAL-CARD MATCH (PREVIEW)**. This uses two real 36-card source-validated decks, a deterministic local opponent, the seven-phase turn loop, two Fields, actual resource payments and combat, a provisional Warfield objective and a 10-Mark ending. It has completed 20 deterministic headless match simulations and includes working UI tests. No production rewards or accounts are accessed. **This is not the fully certified 754-card Standard game.**
