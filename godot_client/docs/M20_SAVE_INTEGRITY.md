@@ -19,7 +19,7 @@ The optional exact branch argument defaults to M19, preserving existing invocati
 
 ## Native migration status
 
-M18 remains untouched on ManicsPC. M19's 21 file objects were individually hash verified and recovered. Its disposable sparse checkout at `E:\KudurruKings\m19-native-sparse` is still being materialized; checkout has not yet passed its clean-tree prerequisite. The native continuation script checks the exact M19 commit, branch, canonical master hash and clean tree before the Windows gate, then refuses export on any gate failure or generated source difference. No M19 or M20 Windows pass/export is claimed by this document.
+M18 remains clean at `caf153d` on ManicsPC. M19 recovery, full Windows gate, native export and separate extracted launch subsequently passed at `4027d4c`. M20 save-integrity code is included in the separately validated M21 candidate `59a539e`: Windows storage 339/0, match UI 29/0, full gate 64 commands / 7,115 Godot assertions and 50 Python cases. No standalone M20 Windows artifact is claimed. See `WINDOWS_M19_M21_VERIFICATION.md`.
 
 No card effects, Trials, capture adjudication, faction assignments, shared EOE lore, resource costs, rewards or scenario rules changed. The M19 canon conflict ledger remains applicable. All 754 cards remain uncertified; Windows, human playtest, artwork and production signing gates remain open.
 
@@ -29,4 +29,4 @@ Official Godot `4.7.2.stable.official.ed1daf0bf` on Linux: all 64 commands passe
 
 Gate log SHA256: `8c9eb80d1fdbd7fbe9e8a860f99f83f91ed1441a25ff0376b1bdcb32b9ead382`. The reused inventory prints `KUDURRU_M19_FULL_GATE_PASS commands=64`; it was explicitly run against the M20 branch above. This marker does not claim a new milestone's Windows certification.
 
-Windows M19 source materialization last observed at 93/243 files. M19/M20 Windows gates, M20 export, independent extracted launch, visual acceptance and production distribution remain unverified. No protected branch, public release or remote server was changed.
+Native M19 and M21 candidates are now verified as above. Human visual acceptance, full Standard certification and signed production distribution remain open. No protected branch, public release or remote server was changed.

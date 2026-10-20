@@ -34,3 +34,7 @@ Focused Linux checks passed: command integrity 170/0, defender priority 43/0, ac
 Use `tools/run_m19_quality_gate.ps1` on the authorized Windows development checkout, or `python godot_client/tools/run_m19_quality_gate.py --godot /absolute/path/to/Godot --log /absolute/path/to/log` on Linux; `tools/export_m19_windows.ps1` requires a clean committed branch. Linux results and console scans are recorded in the companion verification report after completion. Windows certification remains a separate gate.
 
 Next dependency-safe content work requires resolving the source gaps in `CANON_CONFLICT_LEDGER_M19.md`; do not make Dust Court Recess playable by treating Stagger as a cosmetic flag. Full Boss, jurisdiction, Arbitration, multiplayer, rewards, art and distribution remain open.
+
+## Native migration closure, 2026-10-20
+
+The isolated worktree was recovered at exact M19 `4027d4c`; full Windows gate, native export, ZIP integrity/hash verification and a separate extracted launch subsequently passed. M18 remains clean at `caf153d`. M21 was then tested/exported separately at `59a539e`, including M20 save validation and M21 Halo Pup. See `WINDOWS_M19_M21_VERIFICATION.md`; earlier pending statements describe the initial audit stage. Production remains CLOSED.

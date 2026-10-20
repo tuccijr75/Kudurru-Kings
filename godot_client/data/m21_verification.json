@@ -1,0 +1,36 @@
+{
+  "branch": "build/m21-halo-pup-guard-20261020",
+  "candidate_commit": "59a539eeea9a7cfb8a2ba3586c94ff4a35dc47a3",
+  "embedded_authenticode_signature": false,
+  "files": [
+    {
+      "bytes": 109127680,
+      "name": "KudurruKings.exe",
+      "sha256": "d4358a68ee7b941707bdd9182faee1fa94ad08d8de2b9a11f1bba0a08442c8b2"
+    },
+    {
+      "bytes": 4852200,
+      "name": "KudurruKings.pck",
+      "sha256": "dd28f0834b4ed796b740e0f31ec2f75bd237c449530214397a47e4ce44923e1f"
+    }
+  ],
+  "full_gate_commands": 64,
+  "godot": "4.7.2.stable",
+  "godot_assertions_failed": 0,
+  "godot_assertions_passed": 7115,
+  "godot_test_suites": 37,
+  "human_visual_verification": false,
+  "independent_extracted_launch": "PASS",
+  "linux_gate_log_sha256": "41205dea398128fd542be3a458960e304c37b4424a0501aad7f44b14f7226ef0",
+  "production_certified_card_count": 0,
+  "production_status": "CLOSED",
+  "python_test_cases": 50,
+  "release_certified": false,
+  "schema": "kudurru_m21_verification_v1",
+  "windows_export": "PASS",
+  "windows_gate": "PASS",
+  "windows_gate_log_sha256": "c61bdf41f95efaf68cb40e174053334aab7a83d433d1dd248bac141d623ac38f",
+  "zip_bytes": 38552463,
+  "zip_name": "KudurruKings_M21_WindowsCandidate_59a539e.zip",
+  "zip_sha256": "4db5b975f4a5e92d03967355ba0ed76ce7377a8ef2589a2916bcbe28b6ce759e"
+}
