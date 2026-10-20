@@ -26,6 +26,7 @@ static func validate(cards: Array) -> Dictionary:
 		if not FACTIONS.has(faction): errors.append("UNKNOWN_FACTION")
 		if not RARITIES.has(rarity): errors.append("UNKNOWN_RARITY")
 		if rarity == "Ultra" and name != "Anu" and name != "Adamu": errors.append("ULTRA_IDENTITY")
+		if not bool(c.get("playable", false)): errors.append("UNCERTIFIED_CARD")
 		if not bool(c.get("is_standard_legal", false)) or bool(c.get("scenario_only", false)):
 			errors.append("NOT_STANDARD_LEGAL")
 		copies[name] = int(copies.get(name, 0)) + 1

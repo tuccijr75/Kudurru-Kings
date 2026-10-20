@@ -4,7 +4,7 @@
 Development-only interface / pure rules helpers. The shell does not assert the full rules engine exists. No simulated result is permitted to mutate a persistent player inventory.
 
 ## Verified source facts
-The repository's `02_Data/Kudurru_Kings_Gameplay_Master_v1.csv` contains 754 data rows and 136 columns. All 754 entries currently have values of 0 for `cost_sinew`, `cost_sigil`, and `cost_oath`. Those zero-cost defaults are not treated as approved balance design.
+The repository's `02_Data/Kudurru_Kings_Gameplay_Master_v1.csv` contains 754 data rows and 136 columns. On the cost-balance development branch, all 754 deployment cost triplets are positive under the deterministic v1 baseline, and 397 inherited upkeep values were normalized. Gameplay and effects remain uncertified; see `COST_BALANCE_DOCTRINE_V1.md`.
 
 ## EOE original Crosswalk alignment (audit, not mutation)
 - Drowned Archivist: UnderwellKeepers (source: FloodbornPact)

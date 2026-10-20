@@ -23,6 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 MASTER = ROOT / "02_Data" / "Kudurru_Kings_Gameplay_Master_v1.csv"
 REPORT = ROOT / "godot_client" / "data" / "cost_balance_v1_report.json"
+BASELINE = ROOT / "godot_client" / "data" / "cost_balance_v1_baseline.json"
 COST_FIELDS = ("cost_sinew", "cost_sigil", "cost_oath", "upkeep_oath")
 FAMILIES = {"Character", "Boss", "Edict", "HostSigil", "Name", "Pet", "Relic", "Site"}
 RARITIES = {"Common", "Uncommon", "Rare", "SuperRare", "Legendary", "Ultra"}
@@ -60,10 +61,12 @@ def derive(row: dict) -> dict[str, int | str]:
     elif family == "Boss":
         s = 3 + (total >= 17) + (total >= 26)
         g = int(ve >= 9)
-        o = 1 + int(total >= 24)
+        # Do not gate ordinary Bosses behind 2 Oath: underdogs may only receive fallback Sinew.
+        # Strength scales with Sinew/Veil; Ultra apex remains 2-Oath gated.
+        o = 1
         upkeep = 1  # Sustains exactly under +1 Oath objective income.
         if rarity == "Ultra":
-            if name != "Anu": raise ValueError(f"Unexpected Ultra Boss: {name}")
+            if not re.match(r"^Anu(?:\s|,|$)", name): raise ValueError(f"Unexpected Ultra Boss identity: {name}")
             s, g, o, upkeep = 5, 2, 2, 1
             basis = "ULTRA_APEX_BOSS"
     elif family == "Pet":
@@ -169,6 +172,14 @@ def produce() -> tuple[dict, list[str], list[dict], dict[str, dict]]:
     headers, rows, raw = load()
     costs = {r["card_id"]: derive(r) for r in rows}
     old_nonzero = sum(any(str(r[f]).strip() not in ("0", "") for f in COST_FIELDS[:3]) for r in rows)
+    baseline = json.loads(BASELINE.read_text(encoding="utf-8")) if BASELINE.exists() else {
+        "source_sha256": hashlib.sha256(raw).hexdigest(),
+        "original": [{"card_id": r["card_id"], **{f: int(r[f] or "0") for f in COST_FIELDS}} for r in rows],
+    }
+    if len(baseline["original"]) != len(rows) or any(
+        orig["card_id"] != row["card_id"] for orig, row in zip(baseline["original"], rows)
+    ):
+        raise ValueError("Original-cost snapshot has changed IDs or record count")
     exact = sum(all(str(r[f]).strip() == str(costs[r["card_id"]][f]) for f in COST_FIELDS) for r in rows)
     # Either pristine migration (all 3 deployment fields zero), or an idempotent
     # re-run with exact v1 values; manual edits are never overwritten.
@@ -182,16 +193,17 @@ def produce() -> tuple[dict, list[str], list[dict], dict[str, dict]]:
         family_cost.setdefault(row["card_family"], Counter())[sum(c[f] for f in COST_FIELDS[:3])] += 1
     report = {
         "schema": SCHEMA,
-        "source_sha256_before_apply": hashlib.sha256(raw).hexdigest(),
+        "source_sha256_before_apply": baseline["source_sha256"],
         "records": len(rows),
         "source_zero_deployment_count": sum(
-            all(str(row[f]).strip() in ("", "0") for f in COST_FIELDS[:3]) for row in rows),
-        "original_high_upkeep_count": sum(int(row["upkeep_oath"] or "0") > 1 for row in rows),
+            all(int(orig[f]) == 0 for f in COST_FIELDS[:3]) for orig in baseline["original"]),
+        "original_high_upkeep_count": sum(int(orig["upkeep_oath"]) > 1 for orig in baseline["original"]),
         "changed_deployment_count": sum(
-            any(str(row[f]).strip() != str(costs[row["card_id"]][f]) for f in COST_FIELDS[:3])
-            for row in rows),
+            any(int(orig[f]) != costs[row["card_id"]][f] for f in COST_FIELDS[:3])
+            for orig, row in zip(baseline["original"], rows)),
         "changed_upkeep_count": sum(
-            str(row["upkeep_oath"]).strip() != str(costs[row["card_id"]]["upkeep_oath"]) for row in rows),
+            int(orig["upkeep_oath"]) != costs[row["card_id"]]["upkeep_oath"]
+            for orig, row in zip(baseline["original"], rows)),
         "zero_new_deployments": sum(sum(costs[row["card_id"]][f] for f in COST_FIELDS[:3]) == 0 for row in rows),
         "new_upkeep_over_one": sum(costs[row["card_id"]]["upkeep_oath"] > 1 for row in rows),
         "cost_combinations": [
@@ -201,9 +213,9 @@ def produce() -> tuple[dict, list[str], list[dict], dict[str, dict]]:
         "affordability_stress_test": simulation(rows, costs),
         "profile_by_card": [
             {"card_id": row["card_id"], "name": row["card_name"], "family": row["card_family"],
-             "rarity": row["rarity"], "old": {f: int(row[f] or "0") for f in COST_FIELDS},
+             "rarity": row["rarity"], "old": {f: int(orig[f]) for f in COST_FIELDS},
              "new": {f: costs[row["card_id"]][f] for f in COST_FIELDS}, "basis": costs[row["card_id"]]["basis"]}
-            for row in rows],
+            for orig, row in zip(baseline["original"], rows)],
         "fully_gameplay_certified": False,
         "reason_not_certified": "Card effects, legacy rule terms, timing and match simulations await authoritative resolver tests.",
     }
@@ -242,6 +254,12 @@ def main() -> None:
     if report["zero_new_deployments"] or report["new_upkeep_over_one"]:
         raise ValueError("Cost/boss sustainability invariant violated")
     if args.apply:
+        if not BASELINE.exists():
+            BASELINE.write_text(json.dumps({
+                "source_sha256": report["source_sha256_before_apply"],
+                "original": [{"card_id": r["card_id"], **{f: int(r[f] or "0") for f in COST_FIELDS}}
+                             for r in rows],
+            }, sort_keys=True, indent=2) + "\n", encoding="utf-8")
         apply(headers, rows, costs)
         report["applied_master_sha256"] = hashlib.sha256(MASTER.read_bytes()).hexdigest()
     report["mode"] = "APPLY" if args.apply else "PREVIEW"

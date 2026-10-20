@@ -1,0 +1,755 @@
+card_id,card_name,card_family,cost_sinew,cost_sigil,cost_oath,upkeep_oath,balance_basis,gameplay_certified
+1,"Lamassu, Gate-Guardian",HostSigil,0,2,2,0,PRINTED_INVOKE_COST_NO_DOUBLE_CHARGE,false
+2,Bull of Heaven Fragment,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+3,Archive Seraph,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+4,"Anzu, Storm-Thief",HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+5,Tablet Wraith Host,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+6,Seven Wind Herald,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+7,Scorpion Judge,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+8,Namtar Shade,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+9,"Mushussu, Ember Coil",HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+10,Copper Storm Choir,HostSigil,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+11,Solar Juror,HostSigil,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+12,Moon Barge Apparition,HostSigil,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+13,Lion of the Threshold,HostSigil,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+14,Fish-Apkallu Echo,HostSigil,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+15,Basalt Ferryman,HostSigil,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+16,"Void Augur, the Hollow Prophet",Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+17,"Sandstorm Khan, the Desert Lord",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+18,"River Titan, the Flood King",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+19,"Pharaoh of Chains, the Eternal",Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+20,"Obsidian Berserker, the Black King",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+21,"Oath Champion, the Covenant King",Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+22,"Masked Champion, the Golden Face",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+23,"Marsh Leviathan, the Drowned Queen",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+24,"Idol Colossus, the Living God",Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+25,"Halo Paladin, the Radiant Lord",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+26,"Glyph Knight, the Rune King",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+27,"Eclipse Hierarch, the Night King",Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+28,"Crystal Vanguard, the Shard Emperor",Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+29,"Crimson Duelmaster, the Blood Regent",Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+30,"Chained Seer, the Blind Judge",Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+31,"Chain Warlord, the Iron Tyrant",Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+32,"Bronze Pitlord, the Arena King",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+33,"Blood Moon Prophet, the Crimson Oracle",Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+34,"Ashen Oracle, the Ember Queen",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+35,"Ash Gladiator Lord, the Flame Sovereign",Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+36,Anu the Exarch of Heaven,Boss,5,2,2,1,ULTRA_APEX_BOSS,false
+37,Void Knight King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+38,Void King Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+39,Void Inquisitor King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+40,Void Herald King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+41,Void Exarch King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+42,Void Devourer King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+43,Void Centurion King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+44,Void Augur King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+45,Skullcrusher King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+46,Siege Idol King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+47,Shard Brute King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+48,Shadow Hulk King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+49,Shadow Assassin Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+50,Sandstorm Prophet Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+51,Sandstorm Khan Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+52,Rune Pontiff King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+53,Rune Marshal King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+54,Rune Khan King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+55,Rune Exarch King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+56,Rune Captain King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+57,Red Khan Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+58,Prism Lancer King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+59,Pit King Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+60,Pit Beastmaster King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+61,Pharaoh of Chains,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+62,Oil Hydra King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+63,Obsidian Lion King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+64,Obsidian Berserker King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+65,Obelisk Warden King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+66,Obelisk General King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+67,Oath Leviathan Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+68,Oath Champion Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+69,Moonspawn Horror King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+70,Masked Warlord King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+71,Masked Champion Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+72,Marsh Leviathan,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+73,Lunar Abomination Lord,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+74,Ironclad Gladiator King,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+75,Iron Juggernaut King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+76,Idol Colossus,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+77,Hollow Bishop King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+78,Hollow Beast King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+79,Halo Seraphim Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+80,Halo Seraph Lord,Boss,5,0,1,1,FAMILY_AND_PRINTED_POWER,false
+81,Halo Regent Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+82,Halo Prelate Lord,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+83,Halo Praetor Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+84,Halo Paladin Lord,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+85,Halo Exemplar Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+86,Halo Commander Lord,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+87,Golden Strategos Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+88,Golden Strategist Lord,Boss,5,0,1,1,FAMILY_AND_PRINTED_POWER,false
+89,Glyph Knight King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+90,Gleam Sorcerer Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+91,Fire Ram King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+92,Ember Prophet King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+93,Ember Lord King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+94,Eclipse Wraith Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+95,Eclipse Warlock Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+96,Eclipse Hierarch,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+97,Dust Wraith Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+98,Dust Titan King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+99,Dune Chieftain King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+100,Crystal Vanguard King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+101,Crystal Stalker Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+102,Crystal Reaver King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+103,Crystal Knight Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+104,Crystal General King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+105,Crystal Colossus King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+106,Crimson Prophetess Queen,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+107,Crimson Pontiff King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+108,Crimson Khan King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+109,Crimson Horror King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+110,Crimson Duelmaster Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+111,Crimson Champion Lord,Boss,5,0,1,1,FAMILY_AND_PRINTED_POWER,false
+112,Crimson Abomination Lord,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+113,Crescent Duelist Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+114,Crater Brute King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+115,Chainfighter King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+116,Chained Seer King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+117,Chain Warlord King,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+118,Chain Pontiff Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+119,Chain Marshal Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+120,Chain Hierophant Lord,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+121,Canyon Marauder King Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+122,Canyon Lord King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+123,Bronze Pitlord King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+124,Bronze Juggernaut,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+125,Bonebreaker Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+126,Bone Raider Lord King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+127,Bone Gladiator King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+128,Bone Colossus King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+129,Bone Chieftain King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+130,Bone Chariot Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+131,Bloodspiller Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+132,Blood Prophet King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+133,Blood Oracle Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+134,Blood Moon Prophet Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+135,Blood Matron Queen,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+136,Blood Hierophant Lord,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+137,Blood Arena Lord King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+138,Blade Dancer Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+139,Ashen Oracle Queen,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+140,Ash Titan King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+141,Ash Priest King,Boss,5,0,1,1,FAMILY_AND_PRINTED_POWER,false
+142,Ash Oracle Queen,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+143,Ash Nomad Chieftain King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+144,Ash Lord King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+145,Ash Leviathan King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+146,Ash High Priest King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+147,Ash Hierarch Lord,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+148,Ash Gladiator Lord King,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+149,Ash Demon Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+150,Ash Bishop Queen,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+151,Ash Binder Lord,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+152,Arena Juggernaut King,Boss,5,1,1,1,FAMILY_AND_PRINTED_POWER,false
+153,Warden of Chains,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+154,Void Serpent,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+155,Void Horror King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+156,Sandstorm Avatar,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+157,Sand Serpent,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+158,Rune Goliath,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+159,Prophet of Eclipse,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+160,Obelisk Avatar,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+161,Oath Titan,Boss,3,1,1,1,FAMILY_AND_PRINTED_POWER,false
+162,Hollow Seraph,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+163,Halo Warden,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+164,Halo Ascendant,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+165,Glyph Titan,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+166,Glyph Behemoth,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+167,Dust Wraith King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+168,Crystal Tyrant,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+169,Crystal Leviathan,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+170,Crimson Prophet King,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+171,Crimson Juggernaut,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+172,Crimson Beast,Boss,3,1,1,1,FAMILY_AND_PRINTED_POWER,false
+173,Canyon Titan,Boss,4,1,1,1,FAMILY_AND_PRINTED_POWER,false
+174,Bone Hydra,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+175,Bone Goliath,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+176,Blood Moon Avatar,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+177,Ash Titan Lord,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+178,Ash Revenant King,Boss,3,0,1,1,FAMILY_AND_PRINTED_POWER,false
+179,Ash Colossus,Boss,4,0,1,1,FAMILY_AND_PRINTED_POWER,false
+180,Royal Pardon,Edict,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+181,Sun-Script Overload,Edict,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+182,Public Reckoning,Edict,0,2,1,0,FAMILY_AND_PRINTED_POWER,false
+183,Forced Testimony,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+184,Condemnation Seal,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+185,Writ of Seizure,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+186,River Evacuation,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+187,Night Market Clause,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+188,Mercy Docket,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+189,Emergency Rationing,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+190,Censor Audit,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+191,Festival Truce,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+192,Dust Court Recess,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+193,Convoy Priority,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+194,Boundary Fine,Edict,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+195,Void Appeal,Name,0,2,1,1,FAMILY_AND_PRINTED_POWER,false
+196,Witness Noon,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+197,Weight of Kingship,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+198,Quiet Graves,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+199,Broken Oath,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+200,Two Suns,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+201,Red Distance,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+202,Heavy Crowns,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+203,Closed Gate,Name,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+204,Swift Shadow,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+205,Salt Covenant,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+206,Hearth Amnesty,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+207,Glass Mercy,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+208,Far Ear,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+209,Open Ledger,Name,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+210,Destiny Archive Vault,Site,1,2,0,0,FAMILY_AND_PRINTED_POWER,false
+211,Star Bell Harbor,Site,1,1,0,0,FAMILY_AND_PRINTED_POWER,false
+212,Oath Chain Dais,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+213,Shard Plateau Blind,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+214,Mirror Archive,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+215,Halo Terrace,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+216,Bitumen Furnace,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+217,Witness Square,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+218,Warfield Basin,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+219,Sanctuary Court,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+220,Reed Lock,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+221,Clause Pike,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+222,Threshold Stair,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+223,Dust Gate,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+224,Basalt Quay,Site,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+225,Archive Prism,Relic,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+226,Shardwheel Engine,Relic,1,2,0,0,FAMILY_AND_PRINTED_POWER,false
+227,Null Cantor,Relic,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+228,Ledger Rewrite,Relic,0,2,0,0,FAMILY_AND_PRINTED_POWER,false
+229,Gravity Lance,Relic,1,2,0,0,FAMILY_AND_PRINTED_POWER,false
+230,Trial Chain,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+231,Sunscript Censer,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+232,Kudurru Nail,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+233,Ashen Hourglass,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+234,Witness Bell,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+235,Sirocco Bracer,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+236,Sealbreaker Awl,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+237,Reedglass Lens,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+238,Mirror Hook,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+239,Bitumen Harness,Relic,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+240,Gate Viper,Pet,1,1,0,0,FAMILY_AND_PRINTED_POWER,false
+241,Halo Pup,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+242,Grave Moth,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+243,River Lynx,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+244,Pearl Kite,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+245,Ink Crow,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+246,Shard Bat,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+247,Seal Hound,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+248,Quarry Jackal Pup,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+249,Lantern Gecko,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+250,Bitumen Tortoise,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+251,Tablet Finch,Pet,0,1,0,0,FAMILY_AND_PRINTED_POWER,false
+252,Reed Cat,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+253,Oath Beetle,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+254,Dust Mite,Pet,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+255,Adamu,Character,4,2,2,0,ULTRA_APEX,false
+256,Zari,Character,4,1,0,0,FAMILY_AND_PRINTED_POWER,false
+257,Zaleth,Character,4,1,0,0,FAMILY_AND_PRINTED_POWER,false
+258,Urid,Character,4,0,0,0,FAMILY_AND_PRINTED_POWER,false
+259,Tammuz,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+260,Shulgi,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+261,Rook,Character,4,0,0,0,FAMILY_AND_PRINTED_POWER,false
+262,Namtar,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+263,Nammu,Character,4,1,0,0,FAMILY_AND_PRINTED_POWER,false
+264,Maskat,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+265,Irik,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+266,Iltu,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+267,Etana,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+268,Eresh,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+269,Ashur,Character,4,0,1,0,FAMILY_AND_PRINTED_POWER,false
+270,Void Tick,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+271,Void Hyena,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+272,Void Centipede,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+273,Temple Thrall,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+274,Scaled Vulture,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+275,Sandstorm Prophet,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+276,Sandstorm Khan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+277,Sand Scuttler,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+278,Sand Raider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+279,Sand Pike,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+280,Sand Basilisk,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+281,Rune Swordsman,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+282,Rune Spider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+283,Rune Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+284,Rune Idol,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+285,Rune Beetle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+286,Rock Breaker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+287,Red Shade,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+288,Red Scarab,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+289,Red Rat,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+290,Red Lash,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+291,Red Khan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+292,Red Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+293,Pit Thrall,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+294,Pit King,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+295,Obsidian Hound,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+296,Obsidian Axe,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+297,Obelisk Guard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+298,Oath Servitor,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+299,Oath Serpent,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+300,Oath Ghoul,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+301,Maskless Fighter,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+302,Masked Warlord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+303,Masked Gladiator,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+304,Masked Champion,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+305,Lattice Spearman,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+306,Lattice Guard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+307,Halo Wraith,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+308,Halo Vulture,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+309,Halo Statue,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+310,Halo Servant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+311,Halo Archer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+312,Golden Vulture,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+313,Golden Scarab,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+314,Golden Rat,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+315,Golden Hoplite,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+316,Glyph Shade,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+317,Glyph Servant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+318,Glass Lizard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+319,Flame Idol,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+320,Ember Prophet,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+321,Ember Lord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+322,Dust Wraith,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+323,Dust Titan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+324,Dust Spider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+325,Dust Phantom,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+326,Dust Crawler,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+327,Dust Centipede,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+328,Dune Rider,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+329,Dune Hyena,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+330,Dune Chieftain,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+331,Crystal Spiderling,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+332,Crystal Scorpion,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+333,Crystal Rat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+334,Crystal Basilisk,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+335,Crimson Prophetess,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+336,Crimson Pontiff,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+337,Crimson Khan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+338,Crimson Horror,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+339,Crimson Guard,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+340,Crimson Gladiator,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+341,Crimson Duelmaster,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+342,Crimson Champion,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+343,Crimson Abomination,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+344,Cliff Raider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+345,Cinder Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+346,Chain Wraith,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+347,Chain Warlord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+348,Chain Hierophant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+349,Chain Duelist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+350,Chain Driver,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+351,Carrion Stalker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+352,Carrion Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+353,Carrion Bat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+354,Canyon Lurker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+355,Canyon Lord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+356,Canyon King,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+357,Bronze Pitlord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+358,Bronze Overseer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+359,Broken Gladiator,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+360,Bound Hound,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+361,Bone Tick,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+362,Bone Pit,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+363,Bone Lord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+364,Bone Horror,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+365,Bone Gladiator,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+366,Bone Colossus,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+367,Bone Chieftain,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+368,Blood Slave,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+369,Blood Oracle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+370,Blood Matron,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+371,Blood Dervish,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+372,Ash Wight,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+373,Ash Titan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+374,Ash Spider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+375,Ash Revenant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+376,Ash Nomad,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+377,Ash Mite,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+378,Ash Leviathan,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+379,Ash High,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+380,Ash Gladiator,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+381,Ash Ghoul,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+382,Ash Duelist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+383,Ash Demon,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+384,Ash Chieftain,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+385,Arena Juggernaut,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+386,Word-Eater,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+387,Void Knight,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+388,Void King,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+389,Void Inquisitor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+390,Void Herald,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+391,Void Exarch,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+392,Void Devourer,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+393,Void Centurion,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+394,Void Augur,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+395,Skullcrusher,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+396,Silver Mask Judge,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+397,Shard Brute,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+398,Shadow Hulk,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+399,Shadow Assassin,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+400,Rune Pontiff,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+401,Rune Marshal,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+402,Rune Khan,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+403,Rune Exarch,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+404,Rune Captain,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+405,Prism Lancer,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+406,Pit Enforcer,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+407,Pit Beastmaster,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+408,Obsidian Berserker,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+409,Obelisk Warden,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+410,Obelisk General,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+411,Oath Leviathan,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+412,Oath Champion,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+413,Moonspawn Horror,Character,2,1,0,0,FAMILY_AND_PRINTED_POWER,false
+414,Moonblade Captain,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+415,Lunar Abomination,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+416,Ironclad Gladiator,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+417,Iron Gaoler,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+418,Ink-Tongue,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+419,Hymncaller,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+420,Hollow Bishop,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+421,Hollow Beast,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+422,Halo Seraphim,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+423,Halo Seraph,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+424,Halo Regent,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+425,Halo Prelate,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+426,Halo Praetor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+427,Halo Paladin,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+428,Halo Exemplar,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+429,Halo Commander,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+430,Golden Strategos,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+431,Golden Strategist,Character,2,1,0,0,FAMILY_AND_PRINTED_POWER,false
+432,Gold-Mask Captain,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+433,Glyph Knight,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+434,Gleam Sorcerer,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+435,Fire Pot Bearer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+436,Eclipse Wraith,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+437,Eclipse Warlock,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+438,Eclipse Hierophant,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+439,Desert Boar King,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+440,Crystal Vanguard,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+441,Crystal Stalker,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+442,Crystal Reaver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+443,Crystal Knight,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+444,Crystal General,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+445,Crystal Colossus,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+446,Crescent Duelist,Character,3,0,1,0,FAMILY_AND_PRINTED_POWER,false
+447,Crater Brute,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+448,Choir of Bone,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+449,Chainfighter,Character,3,1,1,0,FAMILY_AND_PRINTED_POWER,false
+450,Chained Seer,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+451,Chain Tyrant,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+452,Chain Pontiff,Character,2,1,0,0,FAMILY_AND_PRINTED_POWER,false
+453,Canyon Marauder King,Character,2,1,0,0,FAMILY_AND_PRINTED_POWER,false
+454,Bonebreaker,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+455,Bone Raider Lord,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+456,Bone Horror King,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+457,Bloodspiller,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+458,Blood Moon Prophet,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+459,Blood Hierophant,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+460,Blood Arena Lord,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+461,Blade Dancer,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+462,Ashen Oracle,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+463,Ash Nomad Chieftain,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+464,Ash Lord,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+465,Ash High Priest,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+466,Ash Hierarch,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+467,Ash Gladiator Lord,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+468,Ash Bishop,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+469,Wraith Caller,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+470,Vow Keeper,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+471,Void Scribe,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+472,Void Evoker,Character,3,1,0,0,FAMILY_AND_PRINTED_POWER,false
+473,Void Chemist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+474,Void Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+475,Viscera Sculptor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+476,Venom Brewer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+477,Venom Alchemist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+478,Tablet Keeper,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+479,Sporebrewer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+480,Soul Harvester,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+481,Smoke Weaver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+482,Sigil Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+483,Shadow Puppeteer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+484,Sand Tinker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+485,Sand Prophetess,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+486,Sand Mystic,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+487,Sand Alchemist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+488,Rune Mystic,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+489,Rune Mechanist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+490,Red Soothsayer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+491,Oracle of Chains,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+492,Obsidian Tinker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+493,Moonfire Adept,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+494,Idol Worshipper,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+495,Idol Mechanist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+496,Idol Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+497,Halo Mystic,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+498,Glyph Scribe,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+499,Geas Weaver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+500,Flesh Weaver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+501,Flesh Sculptor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+502,Flesh Carver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+503,Ember Seer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+504,Eclipse Visionary,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+505,Eclipse Summoner,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+506,Eclipse Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+507,Dust Chemist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+508,Dream Warden,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+509,Dream Seer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+510,Cuneiform Savant,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+511,Crystal Tinker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+512,Crystal Thaumaturge,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+513,Crystal Puppeteer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+514,Crystal Brewer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+515,Crystal Artificer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+516,Crimson Visionary,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+517,Crimson Thaumaturge,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+518,Crimson Scribe,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+519,Crimson Oracle,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+520,Crimson Caller,Character,3,0,0,0,FAMILY_AND_PRINTED_POWER,false
+521,Crimson Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+522,Covenant Breaker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+523,Chain Engineer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+524,Bone Harvester,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+525,Bone Conductor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+526,Bone Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+527,Bone Artificer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+528,Blood Soothsayer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+529,Blood Sculptor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+530,Blood Draught Maker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+531,Beast Caller,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+532,Ash Weaver,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+533,Ash Sorcerer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+534,Ash Sculptor,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+535,Ash Prophetess,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+536,Ash Mechanist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+537,Ash Idolator,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+538,Ash Dreamer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+539,Ash Alchemist,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+540,Word Eater,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+541,Whipbearer,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+542,Whip Sergeant,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+543,Vulture Queen,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+544,Vowbinder Judge,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+545,Void Thrall,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+546,Void Obelisk,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+547,Void Leech,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+548,Void Hymnist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+549,Void Horror,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+550,Tunnel Spider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+551,Tunnel Crawler,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+552,Trap Setter,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+553,Toxin Whisperer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+554,Tomb Scrivener,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+555,Taxlord Balash,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+556,Tax Shade,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+557,Tax Enforcer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+558,Tablet Binder,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+559,Spore Drudge,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+560,Spear Watch,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+561,Soul Drinker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+562,Sludge Slime,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+563,Slime Lizard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+564,Slave Hunter,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+565,Slave Champion,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+566,Silver Rat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+567,Siege Ox,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+568,Siege Idol,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+569,Shield Twins,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+570,Shardback Boar,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+571,Shadow Knifebearer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+572,Shadow Eel,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+573,Shadow Binder,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+574,Shackled Wraith,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+575,Shackled Ghoul,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+576,Shacklebearer Guard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+577,Sewer Leech,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+578,Serpent Queen,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+579,Screamer Wraith,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+580,Scorpion Queen,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+581,Scorpion King,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+582,Scorpion Alchemist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+583,Sand Wormling,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+584,Sand Oracle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+585,Sand Mirage,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+586,Sand Hyena,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+587,Sand Golem,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+588,Sand Archivist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+589,Rust Slug,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+590,Rust Mite,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+591,Rune Husk,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+592,Rune Horror,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+593,Rune Centipede,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+594,Rockgnasher Beast,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+595,River Wolf,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+596,River Warlord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+597,River Titan,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+598,River Raider,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+599,Reed Serpent,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+600,Reed Leviathan,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+601,Reed Brewmaster,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+602,Plague Drummer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+603,Plague Bat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+604,Pit Jailer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+605,Pit Houndmaster,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+606,Pit Guard,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+607,Pit Ghoul,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+608,Pit Fighter,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+609,Pit Champion,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+610,Pike Slave,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+611,Pale Stalker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+612,Pale Prophet,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+613,Pale Ghast,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+614,Oil Hydra,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+615,Obsidian Lion,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+616,Obsidian Helm,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+617,Oathkeeper Ghost,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+618,Oath Spawn,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+619,Oath Singer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+620,Oasis Thief,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+621,Night Prowler,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+622,Mud Rat,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+623,Moonfang Wolf,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+624,Moon Idol,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+625,Moon Acolyte,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+626,Mirror Reed,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+627,Masked Slayer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+628,Masked King,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+629,Marsh Toad,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+630,Marsh Stalker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+631,Marsh Phantom,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+632,Marsh Cutthroat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+633,Ledger Bearer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+634,Lash Overseer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+635,Lash Captain,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+636,Lantern Shade,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+637,Knife Zealot,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+638,Jackal Alpha,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+639,Ironbound Horror,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+640,Iron Lash,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+641,Iron Juggernaut,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+642,Ink Tongue,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+643,Idol Shade,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+644,Idol Servant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+645,Idol Puppeteer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+646,Idol Chanter,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+647,Hymncaller Priest,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+648,Hyena Matron,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+649,Howling Fiend,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+650,Hollow Tick,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+651,Hill Ram,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+652,Hill Raider,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+653,High Priest,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+654,Halo Spawn,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+655,Halo Husk,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+656,Golden Whip,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+657,Gold Spider,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+658,Gold Captain,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+659,Glyph Ghoul,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+660,Glow Beetle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+661,Glass Weaver,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+662,Glass Mite,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+663,Furnace Caller,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+664,Fungus Mite,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+665,Fungus Creeper,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+666,Frog Mother,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+667,Fire Sapper,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+668,Fire Ram,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+669,Fire Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+670,Fire Beetle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+671,Fire Bearer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+672,Fire Ashling,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+673,Filth King,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+674,False Prophet,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+675,Fallen Priest,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+676,Exiled Gladiator,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+677,Enlil Vessel,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+678,Ember Masker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+679,Eclipse Revenant,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+680,Eclipse Drone,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+681,Eclipse Chanter,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+682,Echo Voice,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+683,Dust Rider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+684,Dust Librarian,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+685,Dusk Serpent,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+686,Drowned Archivist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+687,Dog Breaker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+688,Desert Vulture,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+689,Desert Viper,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+690,Desert Jackal,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+691,Desert Hawk,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+692,Desert Boar,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+693,Cuneiform Shade,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+694,Crystal Wasp,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+695,Crystal Louse,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+696,Crystal Gnat,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+697,Crocodile Warlord,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+698,Crimson Youth,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+699,Crater Rat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+700,Crater Lurker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+701,Corpse Beetle,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+702,Collapse Worker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+703,Cistern Horror,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+704,Chittering Bat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+705,Chanter Priest,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+706,Chant Twins,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+707,Chain Warden,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+708,Chain Thrower,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+709,Chain Marshal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+710,Chain Keeper,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+711,Chain Drudge,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+712,Chain Automaton,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+713,Caravan Breaker,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+714,Canal Thief,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+715,Canal Lamprey,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+716,Bronze Spear,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+717,Bronze Shield,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+718,Bronze Sentinel,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+719,Bronze Gaoler,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+720,Bronze Colossus,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+721,Bronze Automaton,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+722,Broken Scribe,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+723,Bonebound Spirit,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+724,Bone Queen,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+725,Bone Jackal,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+726,Bone Gnawer,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+727,Bone Eater,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+728,Bone Choir,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+729,Bone Chariot,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+730,Bone Centipede,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+731,Bone Caller,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+732,Bog Crocodile,Character,2,0,0,0,FAMILY_AND_PRINTED_POWER,false
+733,Blood Prophet,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+734,Blood Plucker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+735,Blood Keeper,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+736,Blood Evoker,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+737,Blood Duelist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+738,Blood Acolyte,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+739,Blind Crawler,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+740,Ash Spiderling,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+741,Ash Servitor,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+742,Ash Scorpion,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+743,Ash Rider,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+744,Ash Rat,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+745,Ash Priest,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+746,Ash Phantom,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+747,Ash Oracle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+748,Ash Novice,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+749,Ash Locust,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+750,Ash Horror,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+751,Ash Binder,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+752,Ash Beetle,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+753,Arena Brute,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false
+754,Abyssal Archivist,Character,1,0,0,0,FAMILY_AND_PRINTED_POWER,false

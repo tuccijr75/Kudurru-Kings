@@ -1,0 +1,50 @@
+{
+  "all_factions_pass": true,
+  "cards_have_effect_certification": false,
+  "factions_provisional": true,
+  "model": "composition-legal faction-pure decks; no full match, no effects, no opponent",
+  "results": {
+    "BorderstoneGuild": {
+      "both_turns_affordable": 0.99525,
+      "first_turn_deployed_character": 0.9935,
+      "first_turn_deployed_site": 0.42425,
+      "initial_hand_any_affordable": 1.0,
+      "samples": 4000,
+      "second_turn_any_affordable_after_income": 0.99525
+    },
+    "Fateforge": {
+      "both_turns_affordable": 0.998,
+      "first_turn_deployed_character": 0.99575,
+      "first_turn_deployed_site": 0.41775,
+      "initial_hand_any_affordable": 1.0,
+      "samples": 4000,
+      "second_turn_any_affordable_after_income": 0.998
+    },
+    "FloodbornPact": {
+      "both_turns_affordable": 0.99625,
+      "first_turn_deployed_character": 0.9915,
+      "first_turn_deployed_site": 0.43625,
+      "initial_hand_any_affordable": 1.0,
+      "samples": 4000,
+      "second_turn_any_affordable_after_income": 0.99625
+    },
+    "SkyloomTemple": {
+      "both_turns_affordable": 0.9945,
+      "first_turn_deployed_character": 0.99,
+      "first_turn_deployed_site": 0.3145,
+      "initial_hand_any_affordable": 1.0,
+      "samples": 4000,
+      "second_turn_any_affordable_after_income": 0.9945
+    },
+    "UnderwellKeepers": {
+      "both_turns_affordable": 0.999,
+      "first_turn_deployed_character": 0.98475,
+      "first_turn_deployed_site": 0.43575,
+      "initial_hand_any_affordable": 1.0,
+      "samples": 4000,
+      "second_turn_any_affordable_after_income": 0.999
+    }
+  },
+  "schema": "kudurru_pure_faction_economic_stress_v1",
+  "seed": 20261020
+}

@@ -10,8 +10,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 2,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "lamassu-gate-guardian",
@@ -27,8 +27,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "bull-of-heaven-fragment",
@@ -44,8 +44,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "archive-seraph",
@@ -61,8 +61,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "anzu-storm-thief",
@@ -78,8 +78,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "tablet-wraith-host",
@@ -95,8 +95,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "seven-wind-herald",
@@ -112,8 +112,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "scorpion-judge",
@@ -129,8 +129,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "namtar-shade",
@@ -146,8 +146,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "mushussu-ember-coil",
@@ -163,8 +163,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "copper-storm-choir",
@@ -181,7 +181,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "solar-juror",
@@ -198,7 +198,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "moon-barge-apparition",
@@ -215,7 +215,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "lion-of-the-threshold",
@@ -232,7 +232,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "fish-apkallu-echo",
@@ -249,7 +249,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "basalt-ferryman",
@@ -265,9 +265,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "void-augur-the-hollow-prophet",
       "source_faction": "BorderstoneGuild"
@@ -282,9 +282,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "sandstorm-khan-the-desert-lord",
       "source_faction": "Fateforge"
@@ -299,9 +299,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "river-titan-the-flood-king",
       "source_faction": "SkyloomTemple"
@@ -316,9 +316,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "pharaoh-of-chains-the-eternal",
       "source_faction": "SkyloomTemple"
@@ -333,9 +333,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "obsidian-berserker-the-black-king",
       "source_faction": "UnderwellKeepers"
@@ -350,9 +350,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "oath-champion-the-covenant-king",
       "source_faction": "SkyloomTemple"
@@ -367,9 +367,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "masked-champion-the-golden-face",
       "source_faction": "UnderwellKeepers"
@@ -384,9 +384,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "marsh-leviathan-the-drowned-queen",
       "source_faction": "FloodbornPact"
@@ -401,9 +401,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "idol-colossus-the-living-god",
       "source_faction": "UnderwellKeepers"
@@ -418,9 +418,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "halo-paladin-the-radiant-lord",
       "source_faction": "SkyloomTemple"
@@ -435,9 +435,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "glyph-knight-the-rune-king",
       "source_faction": "Fateforge"
@@ -452,9 +452,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "eclipse-hierarch-the-night-king",
       "source_faction": "UnderwellKeepers"
@@ -469,9 +469,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crystal-vanguard-the-shard-emperor",
       "source_faction": "Fateforge"
@@ -486,9 +486,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "crimson-duelmaster-the-blood-regent",
       "source_faction": "Fateforge"
@@ -503,9 +503,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "chained-seer-the-blind-judge",
       "source_faction": "SkyloomTemple"
@@ -520,9 +520,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "chain-warlord-the-iron-tyrant",
       "source_faction": "SkyloomTemple"
@@ -537,9 +537,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "bronze-pitlord-the-arena-king",
       "source_faction": "UnderwellKeepers"
@@ -554,9 +554,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "blood-moon-prophet-the-crimson-oracle",
       "source_faction": "FloodbornPact"
@@ -571,9 +571,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ashen-oracle-the-ember-queen",
       "source_faction": "Fateforge"
@@ -588,9 +588,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-gladiator-lord-the-flame-sovereign",
       "source_faction": "Fateforge"
@@ -605,9 +605,9 @@
       "playable": false,
       "rarity": "Ultra",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 2,
+        "sigil": 2,
+        "sinew": 5
       },
       "slug": "anu-the-exarch-of-heaven",
       "source_faction": "FloodbornPact"
@@ -622,9 +622,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-knight-king",
       "source_faction": "BorderstoneGuild"
@@ -639,9 +639,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "void-king-lord",
       "source_faction": "BorderstoneGuild"
@@ -656,9 +656,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "void-inquisitor-king",
       "source_faction": "BorderstoneGuild"
@@ -673,9 +673,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "void-herald-king",
       "source_faction": "UnderwellKeepers"
@@ -690,9 +690,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "void-exarch-king",
       "source_faction": "BorderstoneGuild"
@@ -707,9 +707,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "void-devourer-king",
       "source_faction": "SkyloomTemple"
@@ -724,9 +724,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "void-centurion-king",
       "source_faction": "FloodbornPact"
@@ -741,9 +741,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "void-augur-king",
       "source_faction": "SkyloomTemple"
@@ -758,9 +758,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "skullcrusher-king",
       "source_faction": "BorderstoneGuild"
@@ -775,9 +775,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "siege-idol-king",
       "source_faction": "BorderstoneGuild"
@@ -792,9 +792,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "shard-brute-king",
       "source_faction": "Fateforge"
@@ -809,9 +809,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "shadow-hulk-king",
       "source_faction": "UnderwellKeepers"
@@ -826,9 +826,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "shadow-assassin-lord",
       "source_faction": "UnderwellKeepers"
@@ -843,9 +843,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "sandstorm-prophet-lord",
       "source_faction": "Fateforge"
@@ -860,9 +860,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "sandstorm-khan-lord",
       "source_faction": "SkyloomTemple"
@@ -877,9 +877,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "rune-pontiff-king",
       "source_faction": "BorderstoneGuild"
@@ -894,9 +894,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "rune-marshal-king",
       "source_faction": "FloodbornPact"
@@ -911,9 +911,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "rune-khan-king",
       "source_faction": "FloodbornPact"
@@ -928,9 +928,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "rune-exarch-king",
       "source_faction": "UnderwellKeepers"
@@ -945,9 +945,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "rune-captain-king",
       "source_faction": "SkyloomTemple"
@@ -962,9 +962,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "red-khan-lord",
       "source_faction": "BorderstoneGuild"
@@ -979,9 +979,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "prism-lancer-king",
       "source_faction": "Fateforge"
@@ -996,9 +996,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "pit-king-lord",
       "source_faction": "BorderstoneGuild"
@@ -1013,9 +1013,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "pit-beastmaster-king",
       "source_faction": "FloodbornPact"
@@ -1030,9 +1030,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "pharaoh-of-chains",
       "source_faction": "BorderstoneGuild"
@@ -1047,9 +1047,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "oil-hydra-king",
       "source_faction": "BorderstoneGuild"
@@ -1064,9 +1064,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "obsidian-lion-king",
       "source_faction": "FloodbornPact"
@@ -1081,9 +1081,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "obsidian-berserker-king",
       "source_faction": "BorderstoneGuild"
@@ -1098,9 +1098,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "obelisk-warden-king",
       "source_faction": "FloodbornPact"
@@ -1115,9 +1115,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "obelisk-general-king",
       "source_faction": "SkyloomTemple"
@@ -1132,9 +1132,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "oath-leviathan-lord",
       "source_faction": "SkyloomTemple"
@@ -1149,9 +1149,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "oath-champion-lord",
       "source_faction": "SkyloomTemple"
@@ -1166,9 +1166,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "moonspawn-horror-king",
       "source_faction": "FloodbornPact"
@@ -1183,9 +1183,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "masked-warlord-king",
       "source_faction": "Fateforge"
@@ -1200,9 +1200,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "masked-champion-lord",
       "source_faction": "BorderstoneGuild"
@@ -1217,9 +1217,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "marsh-leviathan",
       "source_faction": "FloodbornPact"
@@ -1234,9 +1234,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "lunar-abomination-lord",
       "source_faction": "FloodbornPact"
@@ -1251,9 +1251,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "ironclad-gladiator-king",
       "source_faction": "FloodbornPact"
@@ -1268,9 +1268,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "iron-juggernaut-king",
       "source_faction": "SkyloomTemple"
@@ -1285,9 +1285,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "idol-colossus",
       "source_faction": "Fateforge"
@@ -1302,9 +1302,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "hollow-bishop-king",
       "source_faction": "BorderstoneGuild"
@@ -1319,9 +1319,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "hollow-beast-king",
       "source_faction": "FloodbornPact"
@@ -1336,9 +1336,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "halo-seraphim-lord",
       "source_faction": "SkyloomTemple"
@@ -1353,9 +1353,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 5
       },
       "slug": "halo-seraph-lord",
       "source_faction": "SkyloomTemple"
@@ -1370,9 +1370,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "halo-regent-lord",
       "source_faction": "BorderstoneGuild"
@@ -1387,9 +1387,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "halo-prelate-lord",
       "source_faction": "SkyloomTemple"
@@ -1404,9 +1404,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "halo-praetor-lord",
       "source_faction": "BorderstoneGuild"
@@ -1421,9 +1421,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "halo-paladin-lord",
       "source_faction": "UnderwellKeepers"
@@ -1438,9 +1438,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "halo-exemplar-lord",
       "source_faction": "SkyloomTemple"
@@ -1455,9 +1455,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "halo-commander-lord",
       "source_faction": "SkyloomTemple"
@@ -1472,9 +1472,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "golden-strategos-lord",
       "source_faction": "BorderstoneGuild"
@@ -1489,9 +1489,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 5
       },
       "slug": "golden-strategist-lord",
       "source_faction": "SkyloomTemple"
@@ -1506,9 +1506,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "glyph-knight-king",
       "source_faction": "Fateforge"
@@ -1523,9 +1523,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "gleam-sorcerer-lord",
       "source_faction": "FloodbornPact"
@@ -1540,9 +1540,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "fire-ram-king",
       "source_faction": "UnderwellKeepers"
@@ -1557,9 +1557,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ember-prophet-king",
       "source_faction": "Fateforge"
@@ -1574,9 +1574,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ember-lord-king",
       "source_faction": "FloodbornPact"
@@ -1591,9 +1591,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "eclipse-wraith-lord",
       "source_faction": "UnderwellKeepers"
@@ -1608,9 +1608,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "eclipse-warlock-lord",
       "source_faction": "FloodbornPact"
@@ -1625,9 +1625,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "eclipse-hierarch",
       "source_faction": "SkyloomTemple"
@@ -1642,9 +1642,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "dust-wraith-lord",
       "source_faction": "UnderwellKeepers"
@@ -1659,9 +1659,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "dust-titan-king",
       "source_faction": "BorderstoneGuild"
@@ -1676,9 +1676,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "dune-chieftain-king",
       "source_faction": "UnderwellKeepers"
@@ -1693,9 +1693,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crystal-vanguard-king",
       "source_faction": "Fateforge"
@@ -1710,9 +1710,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crystal-stalker-lord",
       "source_faction": "BorderstoneGuild"
@@ -1727,9 +1727,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "crystal-reaver-king",
       "source_faction": "BorderstoneGuild"
@@ -1744,9 +1744,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crystal-knight-lord",
       "source_faction": "Fateforge"
@@ -1761,9 +1761,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crystal-general-king",
       "source_faction": "Fateforge"
@@ -1778,9 +1778,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crystal-colossus-king",
       "source_faction": "Fateforge"
@@ -1795,9 +1795,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "crimson-prophetess-queen",
       "source_faction": "Fateforge"
@@ -1812,9 +1812,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crimson-pontiff-king",
       "source_faction": "FloodbornPact"
@@ -1829,9 +1829,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "crimson-khan-king",
       "source_faction": "SkyloomTemple"
@@ -1846,9 +1846,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "crimson-horror-king",
       "source_faction": "FloodbornPact"
@@ -1863,9 +1863,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crimson-duelmaster-lord",
       "source_faction": "UnderwellKeepers"
@@ -1880,9 +1880,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 5
       },
       "slug": "crimson-champion-lord",
       "source_faction": "BorderstoneGuild"
@@ -1897,9 +1897,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crimson-abomination-lord",
       "source_faction": "BorderstoneGuild"
@@ -1914,9 +1914,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crescent-duelist-lord",
       "source_faction": "Fateforge"
@@ -1931,9 +1931,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crater-brute-king",
       "source_faction": "BorderstoneGuild"
@@ -1948,9 +1948,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "chainfighter-king",
       "source_faction": "BorderstoneGuild"
@@ -1965,9 +1965,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "chained-seer-king",
       "source_faction": "FloodbornPact"
@@ -1982,9 +1982,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "chain-warlord-king",
       "source_faction": "UnderwellKeepers"
@@ -1999,9 +1999,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "chain-pontiff-lord",
       "source_faction": "UnderwellKeepers"
@@ -2016,9 +2016,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "chain-marshal-lord",
       "source_faction": "FloodbornPact"
@@ -2033,9 +2033,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "chain-hierophant-lord",
       "source_faction": "Fateforge"
@@ -2050,9 +2050,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "canyon-marauder-king-lord",
       "source_faction": "FloodbornPact"
@@ -2067,9 +2067,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "canyon-lord-king",
       "source_faction": "SkyloomTemple"
@@ -2084,9 +2084,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "bronze-pitlord-king",
       "source_faction": "Fateforge"
@@ -2101,9 +2101,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "bronze-juggernaut",
       "source_faction": "UnderwellKeepers"
@@ -2118,9 +2118,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "bonebreaker-lord",
       "source_faction": "UnderwellKeepers"
@@ -2135,9 +2135,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bone-raider-lord-king",
       "source_faction": "UnderwellKeepers"
@@ -2152,9 +2152,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bone-gladiator-king",
       "source_faction": "UnderwellKeepers"
@@ -2169,9 +2169,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "bone-colossus-king",
       "source_faction": "UnderwellKeepers"
@@ -2186,9 +2186,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bone-chieftain-king",
       "source_faction": "UnderwellKeepers"
@@ -2203,9 +2203,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "bone-chariot-lord",
       "source_faction": "UnderwellKeepers"
@@ -2220,9 +2220,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "bloodspiller-lord",
       "source_faction": "Fateforge"
@@ -2237,9 +2237,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "blood-prophet-king",
       "source_faction": "BorderstoneGuild"
@@ -2254,9 +2254,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "blood-oracle-lord",
       "source_faction": "SkyloomTemple"
@@ -2271,9 +2271,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "blood-moon-prophet-lord",
       "source_faction": "FloodbornPact"
@@ -2288,9 +2288,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "blood-matron-queen",
       "source_faction": "Fateforge"
@@ -2305,9 +2305,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "blood-hierophant-lord",
       "source_faction": "FloodbornPact"
@@ -2322,9 +2322,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "blood-arena-lord-king",
       "source_faction": "Fateforge"
@@ -2339,9 +2339,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "blade-dancer-lord",
       "source_faction": "Fateforge"
@@ -2356,9 +2356,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "ashen-oracle-queen",
       "source_faction": "UnderwellKeepers"
@@ -2373,9 +2373,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "ash-titan-king",
       "source_faction": "FloodbornPact"
@@ -2390,9 +2390,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 5
       },
       "slug": "ash-priest-king",
       "source_faction": "UnderwellKeepers"
@@ -2407,9 +2407,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-oracle-queen",
       "source_faction": "BorderstoneGuild"
@@ -2424,9 +2424,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-nomad-chieftain-king",
       "source_faction": "Fateforge"
@@ -2441,9 +2441,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-lord-king",
       "source_faction": "BorderstoneGuild"
@@ -2458,9 +2458,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-leviathan-king",
       "source_faction": "FloodbornPact"
@@ -2475,9 +2475,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-high-priest-king",
       "source_faction": "Fateforge"
@@ -2492,9 +2492,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "ash-hierarch-lord",
       "source_faction": "Fateforge"
@@ -2509,9 +2509,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "ash-gladiator-lord-king",
       "source_faction": "Fateforge"
@@ -2526,9 +2526,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-demon-lord",
       "source_faction": "FloodbornPact"
@@ -2543,9 +2543,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-bishop-queen",
       "source_faction": "FloodbornPact"
@@ -2560,9 +2560,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "ash-binder-lord",
       "source_faction": "UnderwellKeepers"
@@ -2577,9 +2577,9 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 5
       },
       "slug": "arena-juggernaut-king",
       "source_faction": "BorderstoneGuild"
@@ -2594,9 +2594,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "warden-of-chains",
       "source_faction": "SkyloomTemple"
@@ -2611,9 +2611,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-serpent",
       "source_faction": "SkyloomTemple"
@@ -2628,9 +2628,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-horror-king",
       "source_faction": "SkyloomTemple"
@@ -2645,9 +2645,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "sandstorm-avatar",
       "source_faction": "SkyloomTemple"
@@ -2662,9 +2662,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "sand-serpent",
       "source_faction": "UnderwellKeepers"
@@ -2679,9 +2679,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "rune-goliath",
       "source_faction": "FloodbornPact"
@@ -2696,9 +2696,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "prophet-of-eclipse",
       "source_faction": "UnderwellKeepers"
@@ -2713,9 +2713,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "obelisk-avatar",
       "source_faction": "UnderwellKeepers"
@@ -2730,9 +2730,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "oath-titan",
       "source_faction": "SkyloomTemple"
@@ -2747,9 +2747,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "hollow-seraph",
       "source_faction": "Fateforge"
@@ -2764,9 +2764,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "halo-warden",
       "source_faction": "SkyloomTemple"
@@ -2781,9 +2781,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "halo-ascendant",
       "source_faction": "FloodbornPact"
@@ -2798,9 +2798,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "glyph-titan",
       "source_faction": "SkyloomTemple"
@@ -2815,9 +2815,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "glyph-behemoth",
       "source_faction": "FloodbornPact"
@@ -2832,9 +2832,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "dust-wraith-king",
       "source_faction": "UnderwellKeepers"
@@ -2849,9 +2849,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crystal-tyrant",
       "source_faction": "BorderstoneGuild"
@@ -2866,9 +2866,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crystal-leviathan",
       "source_faction": "FloodbornPact"
@@ -2883,9 +2883,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "crimson-prophet-king",
       "source_faction": "BorderstoneGuild"
@@ -2900,9 +2900,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "crimson-juggernaut",
       "source_faction": "BorderstoneGuild"
@@ -2917,9 +2917,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "crimson-beast",
       "source_faction": "UnderwellKeepers"
@@ -2934,9 +2934,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "canyon-titan",
       "source_faction": "BorderstoneGuild"
@@ -2951,9 +2951,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bone-hydra",
       "source_faction": "SkyloomTemple"
@@ -2968,9 +2968,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bone-goliath",
       "source_faction": "UnderwellKeepers"
@@ -2985,9 +2985,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "blood-moon-avatar",
       "source_faction": "SkyloomTemple"
@@ -3002,9 +3002,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-titan-lord",
       "source_faction": "FloodbornPact"
@@ -3019,9 +3019,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "ash-revenant-king",
       "source_faction": "Fateforge"
@@ -3036,9 +3036,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ash-colossus",
       "source_faction": "Fateforge"
@@ -3053,8 +3053,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "royal-pardon",
@@ -3070,8 +3070,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "sun-script-overload",
@@ -3087,8 +3087,8 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "public-reckoning",
@@ -3105,7 +3105,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "forced-testimony",
@@ -3122,7 +3122,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "condemnation-seal",
@@ -3139,7 +3139,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "writ-of-seizure",
@@ -3156,7 +3156,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "river-evacuation",
@@ -3173,7 +3173,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "night-market-clause",
@@ -3190,7 +3190,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "mercy-docket",
@@ -3207,7 +3207,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "emergency-rationing",
@@ -3224,7 +3224,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "censor-audit",
@@ -3241,7 +3241,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "festival-truce",
@@ -3258,7 +3258,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "dust-court-recess",
@@ -3275,7 +3275,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "convoy-priority",
@@ -3292,7 +3292,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "boundary-fine",
@@ -3308,8 +3308,8 @@
       "playable": false,
       "rarity": "Legendary",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
+        "oath": 1,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "void-appeal",
@@ -3326,7 +3326,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "witness-noon",
@@ -3343,7 +3343,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "weight-of-kingship",
@@ -3360,7 +3360,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "quiet-graves",
@@ -3377,7 +3377,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "broken-oath",
@@ -3394,7 +3394,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "two-suns",
@@ -3411,7 +3411,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "red-distance",
@@ -3428,7 +3428,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "heavy-crowns",
@@ -3445,7 +3445,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "closed-gate",
@@ -3462,7 +3462,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "swift-shadow",
@@ -3479,7 +3479,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "salt-covenant",
@@ -3496,7 +3496,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "hearth-amnesty",
@@ -3513,7 +3513,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "glass-mercy",
@@ -3530,7 +3530,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "far-ear",
@@ -3547,7 +3547,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "open-ledger",
@@ -3564,8 +3564,8 @@
       "rarity": "Legendary",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 2,
+        "sinew": 1
       },
       "slug": "destiny-archive-vault",
       "source_faction": "SkyloomTemple"
@@ -3581,8 +3581,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 1
       },
       "slug": "star-bell-harbor",
       "source_faction": "UnderwellKeepers"
@@ -3598,7 +3598,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "oath-chain-dais",
@@ -3615,7 +3615,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "shard-plateau-blind",
@@ -3632,7 +3632,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "mirror-archive",
@@ -3649,7 +3649,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "halo-terrace",
@@ -3666,7 +3666,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "bitumen-furnace",
@@ -3683,7 +3683,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "witness-square",
@@ -3700,7 +3700,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "warfield-basin",
@@ -3717,7 +3717,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "sanctuary-court",
@@ -3734,7 +3734,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "reed-lock",
@@ -3751,7 +3751,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "clause-pike",
@@ -3768,7 +3768,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "threshold-stair",
@@ -3785,7 +3785,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "dust-gate",
@@ -3802,7 +3802,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "basalt-quay",
@@ -3819,7 +3819,7 @@
       "rarity": "Legendary",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "archive-prism",
@@ -3836,8 +3836,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 2,
+        "sinew": 1
       },
       "slug": "shardwheel-engine",
       "source_faction": "Fateforge"
@@ -3853,7 +3853,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "null-cantor",
@@ -3870,7 +3870,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 2,
         "sinew": 0
       },
       "slug": "ledger-rewrite",
@@ -3887,8 +3887,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 2,
+        "sinew": 1
       },
       "slug": "gravity-lance",
       "source_faction": "BorderstoneGuild"
@@ -3904,7 +3904,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "trial-chain",
@@ -3921,7 +3921,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "sunscript-censer",
@@ -3938,7 +3938,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "kudurru-nail",
@@ -3955,7 +3955,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "ashen-hourglass",
@@ -3972,7 +3972,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "witness-bell",
@@ -3989,7 +3989,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "sirocco-bracer",
@@ -4006,7 +4006,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "sealbreaker-awl",
@@ -4023,7 +4023,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "reedglass-lens",
@@ -4040,7 +4040,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "mirror-hook",
@@ -4057,7 +4057,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "bitumen-harness",
@@ -4074,8 +4074,8 @@
       "rarity": "Legendary",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 1
       },
       "slug": "gate-viper",
       "source_faction": "BorderstoneGuild"
@@ -4092,7 +4092,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-pup",
       "source_faction": "Fateforge"
@@ -4108,7 +4108,7 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "grave-moth",
@@ -4126,7 +4126,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "river-lynx",
       "source_faction": "FloodbornPact"
@@ -4142,7 +4142,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "pearl-kite",
@@ -4159,7 +4159,7 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "ink-crow",
@@ -4176,7 +4176,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "shard-bat",
@@ -4194,7 +4194,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "seal-hound",
       "source_faction": "SkyloomTemple"
@@ -4211,7 +4211,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "quarry-jackal-pup",
       "source_faction": "BorderstoneGuild"
@@ -4227,7 +4227,7 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "lantern-gecko",
@@ -4245,7 +4245,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bitumen-tortoise",
       "source_faction": "Fateforge"
@@ -4261,7 +4261,7 @@
       "rarity": "Common",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
+        "sigil": 1,
         "sinew": 0
       },
       "slug": "tablet-finch",
@@ -4279,7 +4279,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "reed-cat",
       "source_faction": "FloodbornPact"
@@ -4296,7 +4296,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-beetle",
       "source_faction": "SkyloomTemple"
@@ -4313,7 +4313,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-mite",
       "source_faction": "BorderstoneGuild"
@@ -4328,9 +4328,9 @@
       "playable": false,
       "rarity": "Ultra",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 2,
+        "sigil": 2,
+        "sinew": 4
       },
       "slug": "adamu",
       "source_faction": "BorderstoneGuild"
@@ -4346,8 +4346,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "zari",
       "source_faction": "Fateforge"
@@ -4363,8 +4363,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "zaleth",
       "source_faction": "FloodbornPact"
@@ -4381,7 +4381,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "urid",
       "source_faction": "SkyloomTemple"
@@ -4398,7 +4398,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "tammuz",
       "source_faction": "FloodbornPact"
@@ -4414,8 +4414,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "shulgi",
       "source_faction": "FloodbornPact"
@@ -4432,7 +4432,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "rook",
       "source_faction": "Fateforge"
@@ -4447,9 +4447,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "namtar",
       "source_faction": "SkyloomTemple"
@@ -4465,8 +4465,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 4
       },
       "slug": "nammu",
       "source_faction": "SkyloomTemple"
@@ -4482,8 +4482,8 @@
       "rarity": "SuperRare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "maskat",
       "source_faction": "Fateforge"
@@ -4498,9 +4498,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "irik",
       "source_faction": "Fateforge"
@@ -4517,7 +4517,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "iltu",
       "source_faction": "Fateforge"
@@ -4534,7 +4534,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "etana",
       "source_faction": "BorderstoneGuild"
@@ -4551,7 +4551,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "eresh",
       "source_faction": "SkyloomTemple"
@@ -4566,9 +4566,9 @@
       "playable": false,
       "rarity": "SuperRare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 4
       },
       "slug": "ashur",
       "source_faction": "BorderstoneGuild"
@@ -4585,7 +4585,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-tick",
       "source_faction": "UnderwellKeepers"
@@ -4602,7 +4602,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-hyena",
       "source_faction": "BorderstoneGuild"
@@ -4619,7 +4619,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-centipede",
       "source_faction": "SkyloomTemple"
@@ -4636,7 +4636,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "temple-thrall",
       "source_faction": "SkyloomTemple"
@@ -4653,7 +4653,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "scaled-vulture",
       "source_faction": "FloodbornPact"
@@ -4670,7 +4670,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sandstorm-prophet",
       "source_faction": "SkyloomTemple"
@@ -4687,7 +4687,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sandstorm-khan",
       "source_faction": "BorderstoneGuild"
@@ -4704,7 +4704,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-scuttler",
       "source_faction": "FloodbornPact"
@@ -4721,7 +4721,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-raider",
       "source_faction": "SkyloomTemple"
@@ -4738,7 +4738,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-pike",
       "source_faction": "Fateforge"
@@ -4755,7 +4755,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-basilisk",
       "source_faction": "BorderstoneGuild"
@@ -4772,7 +4772,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "rune-swordsman",
       "source_faction": "FloodbornPact"
@@ -4789,7 +4789,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-spider",
       "source_faction": "SkyloomTemple"
@@ -4806,7 +4806,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-jackal",
       "source_faction": "Fateforge"
@@ -4823,7 +4823,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-idol",
       "source_faction": "UnderwellKeepers"
@@ -4840,7 +4840,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-beetle",
       "source_faction": "SkyloomTemple"
@@ -4857,7 +4857,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rock-breaker",
       "source_faction": "BorderstoneGuild"
@@ -4874,7 +4874,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "red-shade",
       "source_faction": "UnderwellKeepers"
@@ -4891,7 +4891,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "red-scarab",
       "source_faction": "FloodbornPact"
@@ -4908,7 +4908,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "red-rat",
       "source_faction": "SkyloomTemple"
@@ -4925,7 +4925,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "red-lash",
       "source_faction": "Fateforge"
@@ -4942,7 +4942,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "red-khan",
       "source_faction": "UnderwellKeepers"
@@ -4959,7 +4959,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "red-jackal",
       "source_faction": "BorderstoneGuild"
@@ -4976,7 +4976,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-thrall",
       "source_faction": "BorderstoneGuild"
@@ -4993,7 +4993,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-king",
       "source_faction": "Fateforge"
@@ -5010,7 +5010,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "obsidian-hound",
       "source_faction": "FloodbornPact"
@@ -5027,7 +5027,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "obsidian-axe",
       "source_faction": "FloodbornPact"
@@ -5044,7 +5044,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "obelisk-guard",
       "source_faction": "UnderwellKeepers"
@@ -5061,7 +5061,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-servitor",
       "source_faction": "BorderstoneGuild"
@@ -5078,7 +5078,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-serpent",
       "source_faction": "SkyloomTemple"
@@ -5095,7 +5095,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-ghoul",
       "source_faction": "SkyloomTemple"
@@ -5112,7 +5112,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "maskless-fighter",
       "source_faction": "FloodbornPact"
@@ -5129,7 +5129,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "masked-warlord",
       "source_faction": "SkyloomTemple"
@@ -5146,7 +5146,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "masked-gladiator",
       "source_faction": "BorderstoneGuild"
@@ -5163,7 +5163,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "masked-champion",
       "source_faction": "Fateforge"
@@ -5180,7 +5180,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "lattice-spearman",
       "source_faction": "BorderstoneGuild"
@@ -5197,7 +5197,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "lattice-guard",
       "source_faction": "FloodbornPact"
@@ -5214,7 +5214,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-wraith",
       "source_faction": "Fateforge"
@@ -5231,7 +5231,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-vulture",
       "source_faction": "SkyloomTemple"
@@ -5248,7 +5248,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-statue",
       "source_faction": "SkyloomTemple"
@@ -5265,7 +5265,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-servant",
       "source_faction": "BorderstoneGuild"
@@ -5282,7 +5282,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-archer",
       "source_faction": "SkyloomTemple"
@@ -5299,7 +5299,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "golden-vulture",
       "source_faction": "BorderstoneGuild"
@@ -5316,7 +5316,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "golden-scarab",
       "source_faction": "Fateforge"
@@ -5333,7 +5333,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "golden-rat",
       "source_faction": "BorderstoneGuild"
@@ -5350,7 +5350,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "golden-hoplite",
       "source_faction": "UnderwellKeepers"
@@ -5367,7 +5367,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glyph-shade",
       "source_faction": "UnderwellKeepers"
@@ -5384,7 +5384,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glyph-servant",
       "source_faction": "SkyloomTemple"
@@ -5401,7 +5401,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glass-lizard",
       "source_faction": "FloodbornPact"
@@ -5418,7 +5418,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "flame-idol",
       "source_faction": "Fateforge"
@@ -5435,7 +5435,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ember-prophet",
       "source_faction": "BorderstoneGuild"
@@ -5452,7 +5452,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ember-lord",
       "source_faction": "UnderwellKeepers"
@@ -5469,7 +5469,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-wraith",
       "source_faction": "UnderwellKeepers"
@@ -5486,7 +5486,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-titan",
       "source_faction": "UnderwellKeepers"
@@ -5503,7 +5503,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-spider",
       "source_faction": "UnderwellKeepers"
@@ -5520,7 +5520,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-phantom",
       "source_faction": "UnderwellKeepers"
@@ -5537,7 +5537,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-crawler",
       "source_faction": "UnderwellKeepers"
@@ -5554,7 +5554,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-centipede",
       "source_faction": "UnderwellKeepers"
@@ -5571,7 +5571,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "dune-rider",
       "source_faction": "FloodbornPact"
@@ -5588,7 +5588,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dune-hyena",
       "source_faction": "SkyloomTemple"
@@ -5605,7 +5605,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dune-chieftain",
       "source_faction": "BorderstoneGuild"
@@ -5622,7 +5622,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-spiderling",
       "source_faction": "Fateforge"
@@ -5639,7 +5639,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-scorpion",
       "source_faction": "FloodbornPact"
@@ -5656,7 +5656,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-rat",
       "source_faction": "Fateforge"
@@ -5673,7 +5673,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-basilisk",
       "source_faction": "BorderstoneGuild"
@@ -5690,7 +5690,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-prophetess",
       "source_faction": "FloodbornPact"
@@ -5707,7 +5707,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-pontiff",
       "source_faction": "UnderwellKeepers"
@@ -5724,7 +5724,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-khan",
       "source_faction": "SkyloomTemple"
@@ -5741,7 +5741,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-horror",
       "source_faction": "SkyloomTemple"
@@ -5758,7 +5758,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-guard",
       "source_faction": "FloodbornPact"
@@ -5775,7 +5775,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-gladiator",
       "source_faction": "SkyloomTemple"
@@ -5792,7 +5792,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-duelmaster",
       "source_faction": "UnderwellKeepers"
@@ -5809,7 +5809,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-champion",
       "source_faction": "UnderwellKeepers"
@@ -5826,7 +5826,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-abomination",
       "source_faction": "BorderstoneGuild"
@@ -5843,7 +5843,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "cliff-raider",
       "source_faction": "UnderwellKeepers"
@@ -5860,7 +5860,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "cinder-jackal",
       "source_faction": "BorderstoneGuild"
@@ -5877,7 +5877,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-wraith",
       "source_faction": "UnderwellKeepers"
@@ -5894,7 +5894,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-warlord",
       "source_faction": "Fateforge"
@@ -5911,7 +5911,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-hierophant",
       "source_faction": "UnderwellKeepers"
@@ -5928,7 +5928,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-duelist",
       "source_faction": "BorderstoneGuild"
@@ -5945,7 +5945,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-driver",
       "source_faction": "FloodbornPact"
@@ -5962,7 +5962,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "carrion-stalker",
       "source_faction": "Fateforge"
@@ -5979,7 +5979,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "carrion-jackal",
       "source_faction": "BorderstoneGuild"
@@ -5996,7 +5996,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "carrion-bat",
       "source_faction": "Fateforge"
@@ -6013,7 +6013,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "canyon-lurker",
       "source_faction": "SkyloomTemple"
@@ -6030,7 +6030,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "canyon-lord",
       "source_faction": "FloodbornPact"
@@ -6047,7 +6047,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "canyon-king",
       "source_faction": "SkyloomTemple"
@@ -6064,7 +6064,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bronze-pitlord",
       "source_faction": "BorderstoneGuild"
@@ -6081,7 +6081,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bronze-overseer",
       "source_faction": "FloodbornPact"
@@ -6098,7 +6098,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "broken-gladiator",
       "source_faction": "BorderstoneGuild"
@@ -6115,7 +6115,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bound-hound",
       "source_faction": "SkyloomTemple"
@@ -6132,7 +6132,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-tick",
       "source_faction": "UnderwellKeepers"
@@ -6149,7 +6149,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-pit",
       "source_faction": "FloodbornPact"
@@ -6166,7 +6166,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-lord",
       "source_faction": "BorderstoneGuild"
@@ -6183,7 +6183,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-horror",
       "source_faction": "UnderwellKeepers"
@@ -6200,7 +6200,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-gladiator",
       "source_faction": "BorderstoneGuild"
@@ -6217,7 +6217,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-colossus",
       "source_faction": "UnderwellKeepers"
@@ -6234,7 +6234,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-chieftain",
       "source_faction": "UnderwellKeepers"
@@ -6251,7 +6251,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-slave",
       "source_faction": "FloodbornPact"
@@ -6268,7 +6268,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-oracle",
       "source_faction": "SkyloomTemple"
@@ -6285,7 +6285,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-matron",
       "source_faction": "Fateforge"
@@ -6302,7 +6302,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-dervish",
       "source_faction": "Fateforge"
@@ -6319,7 +6319,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-wight",
       "source_faction": "SkyloomTemple"
@@ -6336,7 +6336,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-titan",
       "source_faction": "UnderwellKeepers"
@@ -6353,7 +6353,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-spider",
       "source_faction": "Fateforge"
@@ -6370,7 +6370,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-revenant",
       "source_faction": "Fateforge"
@@ -6387,7 +6387,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-nomad",
       "source_faction": "Fateforge"
@@ -6404,7 +6404,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-mite",
       "source_faction": "FloodbornPact"
@@ -6421,7 +6421,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-leviathan",
       "source_faction": "FloodbornPact"
@@ -6438,7 +6438,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-high",
       "source_faction": "Fateforge"
@@ -6455,7 +6455,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-gladiator",
       "source_faction": "Fateforge"
@@ -6472,7 +6472,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-ghoul",
       "source_faction": "Fateforge"
@@ -6489,7 +6489,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-duelist",
       "source_faction": "Fateforge"
@@ -6506,7 +6506,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-demon",
       "source_faction": "Fateforge"
@@ -6523,7 +6523,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-chieftain",
       "source_faction": "Fateforge"
@@ -6540,7 +6540,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "arena-juggernaut",
       "source_faction": "Fateforge"
@@ -6557,7 +6557,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "word-eater",
       "source_faction": "BorderstoneGuild"
@@ -6574,7 +6574,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-knight",
       "source_faction": "BorderstoneGuild"
@@ -6591,7 +6591,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-king",
       "source_faction": "SkyloomTemple"
@@ -6608,7 +6608,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-inquisitor",
       "source_faction": "SkyloomTemple"
@@ -6624,8 +6624,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "void-herald",
       "source_faction": "SkyloomTemple"
@@ -6640,9 +6640,9 @@
       "playable": false,
       "rarity": "Rare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-exarch",
       "source_faction": "SkyloomTemple"
@@ -6657,9 +6657,9 @@
       "playable": false,
       "rarity": "Rare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-devourer",
       "source_faction": "SkyloomTemple"
@@ -6676,7 +6676,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-centurion",
       "source_faction": "SkyloomTemple"
@@ -6693,7 +6693,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "void-augur",
       "source_faction": "Fateforge"
@@ -6709,8 +6709,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "skullcrusher",
       "source_faction": "SkyloomTemple"
@@ -6727,7 +6727,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "silver-mask-judge",
       "source_faction": "SkyloomTemple"
@@ -6744,7 +6744,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "shard-brute",
       "source_faction": "Fateforge"
@@ -6761,7 +6761,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "shadow-hulk",
       "source_faction": "UnderwellKeepers"
@@ -6777,8 +6777,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "shadow-assassin",
       "source_faction": "BorderstoneGuild"
@@ -6795,7 +6795,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "rune-pontiff",
       "source_faction": "BorderstoneGuild"
@@ -6812,7 +6812,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "rune-marshal",
       "source_faction": "BorderstoneGuild"
@@ -6828,8 +6828,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "rune-khan",
       "source_faction": "BorderstoneGuild"
@@ -6846,7 +6846,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "rune-exarch",
       "source_faction": "SkyloomTemple"
@@ -6862,8 +6862,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "rune-captain",
       "source_faction": "FloodbornPact"
@@ -6880,7 +6880,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "prism-lancer",
       "source_faction": "BorderstoneGuild"
@@ -6896,8 +6896,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "pit-enforcer",
       "source_faction": "BorderstoneGuild"
@@ -6914,7 +6914,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "pit-beastmaster",
       "source_faction": "FloodbornPact"
@@ -6930,8 +6930,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "obsidian-berserker",
       "source_faction": "BorderstoneGuild"
@@ -6948,7 +6948,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "obelisk-warden",
       "source_faction": "SkyloomTemple"
@@ -6965,7 +6965,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "obelisk-general",
       "source_faction": "Fateforge"
@@ -6982,7 +6982,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "oath-leviathan",
       "source_faction": "SkyloomTemple"
@@ -6999,7 +6999,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "oath-champion",
       "source_faction": "SkyloomTemple"
@@ -7015,8 +7015,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 2
       },
       "slug": "moonspawn-horror",
       "source_faction": "FloodbornPact"
@@ -7033,7 +7033,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "moonblade-captain",
       "source_faction": "FloodbornPact"
@@ -7048,9 +7048,9 @@
       "playable": false,
       "rarity": "Rare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "lunar-abomination",
       "source_faction": "SkyloomTemple"
@@ -7067,7 +7067,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "ironclad-gladiator",
       "source_faction": "FloodbornPact"
@@ -7084,7 +7084,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "iron-gaoler",
       "source_faction": "BorderstoneGuild"
@@ -7101,7 +7101,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ink-tongue",
       "source_faction": "BorderstoneGuild"
@@ -7118,7 +7118,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "hymncaller",
       "source_faction": "BorderstoneGuild"
@@ -7135,7 +7135,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "hollow-bishop",
       "source_faction": "UnderwellKeepers"
@@ -7152,7 +7152,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "hollow-beast",
       "source_faction": "BorderstoneGuild"
@@ -7169,7 +7169,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-seraphim",
       "source_faction": "SkyloomTemple"
@@ -7186,7 +7186,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-seraph",
       "source_faction": "SkyloomTemple"
@@ -7203,7 +7203,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "halo-regent",
       "source_faction": "SkyloomTemple"
@@ -7219,8 +7219,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "halo-prelate",
       "source_faction": "UnderwellKeepers"
@@ -7237,7 +7237,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-praetor",
       "source_faction": "FloodbornPact"
@@ -7254,7 +7254,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-paladin",
       "source_faction": "SkyloomTemple"
@@ -7271,7 +7271,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "halo-exemplar",
       "source_faction": "SkyloomTemple"
@@ -7288,7 +7288,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-commander",
       "source_faction": "SkyloomTemple"
@@ -7305,7 +7305,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "golden-strategos",
       "source_faction": "UnderwellKeepers"
@@ -7321,8 +7321,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 2
       },
       "slug": "golden-strategist",
       "source_faction": "BorderstoneGuild"
@@ -7339,7 +7339,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "gold-mask-captain",
       "source_faction": "FloodbornPact"
@@ -7355,8 +7355,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "glyph-knight",
       "source_faction": "SkyloomTemple"
@@ -7373,7 +7373,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "gleam-sorcerer",
       "source_faction": "Fateforge"
@@ -7390,7 +7390,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "fire-pot-bearer",
       "source_faction": "BorderstoneGuild"
@@ -7407,7 +7407,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "eclipse-wraith",
       "source_faction": "UnderwellKeepers"
@@ -7424,7 +7424,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "eclipse-warlock",
       "source_faction": "UnderwellKeepers"
@@ -7440,8 +7440,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "eclipse-hierophant",
       "source_faction": "BorderstoneGuild"
@@ -7457,8 +7457,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "desert-boar-king",
       "source_faction": "BorderstoneGuild"
@@ -7475,7 +7475,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-vanguard",
       "source_faction": "Fateforge"
@@ -7492,7 +7492,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crystal-stalker",
       "source_faction": "FloodbornPact"
@@ -7509,7 +7509,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-reaver",
       "source_faction": "FloodbornPact"
@@ -7525,8 +7525,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "crystal-knight",
       "source_faction": "Fateforge"
@@ -7543,7 +7543,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-general",
       "source_faction": "Fateforge"
@@ -7560,7 +7560,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crystal-colossus",
       "source_faction": "FloodbornPact"
@@ -7575,9 +7575,9 @@
       "playable": false,
       "rarity": "Rare",
       "reported_source_cost": {
-        "oath": 0,
+        "oath": 1,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crescent-duelist",
       "source_faction": "UnderwellKeepers"
@@ -7593,8 +7593,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "crater-brute",
       "source_faction": "UnderwellKeepers"
@@ -7610,8 +7610,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "choir-of-bone",
       "source_faction": "UnderwellKeepers"
@@ -7626,9 +7626,9 @@
       "playable": false,
       "rarity": "Rare",
       "reported_source_cost": {
-        "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "oath": 1,
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "chainfighter",
       "source_faction": "SkyloomTemple"
@@ -7644,8 +7644,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "chained-seer",
       "source_faction": "UnderwellKeepers"
@@ -7661,8 +7661,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "chain-tyrant",
       "source_faction": "BorderstoneGuild"
@@ -7678,8 +7678,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 2
       },
       "slug": "chain-pontiff",
       "source_faction": "FloodbornPact"
@@ -7695,8 +7695,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 2
       },
       "slug": "canyon-marauder-king",
       "source_faction": "FloodbornPact"
@@ -7712,8 +7712,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "bonebreaker",
       "source_faction": "UnderwellKeepers"
@@ -7730,7 +7730,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-raider-lord",
       "source_faction": "BorderstoneGuild"
@@ -7746,8 +7746,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "bone-horror-king",
       "source_faction": "BorderstoneGuild"
@@ -7764,7 +7764,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "bloodspiller",
       "source_faction": "Fateforge"
@@ -7780,8 +7780,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "blood-moon-prophet",
       "source_faction": "FloodbornPact"
@@ -7798,7 +7798,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "blood-hierophant",
       "source_faction": "Fateforge"
@@ -7815,7 +7815,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "blood-arena-lord",
       "source_faction": "Fateforge"
@@ -7831,8 +7831,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "blade-dancer",
       "source_faction": "Fateforge"
@@ -7848,8 +7848,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "ashen-oracle",
       "source_faction": "Fateforge"
@@ -7866,7 +7866,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "ash-nomad-chieftain",
       "source_faction": "Fateforge"
@@ -7882,8 +7882,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "ash-lord",
       "source_faction": "Fateforge"
@@ -7900,7 +7900,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-high-priest",
       "source_faction": "UnderwellKeepers"
@@ -7916,8 +7916,8 @@
       "rarity": "Rare",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "ash-hierarch",
       "source_faction": "FloodbornPact"
@@ -7934,7 +7934,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "ash-gladiator-lord",
       "source_faction": "SkyloomTemple"
@@ -7951,7 +7951,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-bishop",
       "source_faction": "Fateforge"
@@ -7968,7 +7968,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "wraith-caller",
       "source_faction": "UnderwellKeepers"
@@ -7985,7 +7985,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "vow-keeper",
       "source_faction": "Fateforge"
@@ -8002,7 +8002,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-scribe",
       "source_faction": "SkyloomTemple"
@@ -8018,8 +8018,8 @@
       "rarity": "Uncommon",
       "reported_source_cost": {
         "oath": 0,
-        "sigil": 0,
-        "sinew": 0
+        "sigil": 1,
+        "sinew": 3
       },
       "slug": "void-evoker",
       "source_faction": "Fateforge"
@@ -8036,7 +8036,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-chemist",
       "source_faction": "FloodbornPact"
@@ -8053,7 +8053,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "void-binder",
       "source_faction": "UnderwellKeepers"
@@ -8070,7 +8070,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "viscera-sculptor",
       "source_faction": "SkyloomTemple"
@@ -8087,7 +8087,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "venom-brewer",
       "source_faction": "BorderstoneGuild"
@@ -8104,7 +8104,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "venom-alchemist",
       "source_faction": "FloodbornPact"
@@ -8121,7 +8121,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "tablet-keeper",
       "source_faction": "FloodbornPact"
@@ -8138,7 +8138,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sporebrewer",
       "source_faction": "SkyloomTemple"
@@ -8155,7 +8155,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "soul-harvester",
       "source_faction": "FloodbornPact"
@@ -8172,7 +8172,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "smoke-weaver",
       "source_faction": "FloodbornPact"
@@ -8189,7 +8189,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sigil-binder",
       "source_faction": "UnderwellKeepers"
@@ -8206,7 +8206,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shadow-puppeteer",
       "source_faction": "UnderwellKeepers"
@@ -8223,7 +8223,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sand-tinker",
       "source_faction": "FloodbornPact"
@@ -8240,7 +8240,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sand-prophetess",
       "source_faction": "BorderstoneGuild"
@@ -8257,7 +8257,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sand-mystic",
       "source_faction": "UnderwellKeepers"
@@ -8274,7 +8274,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sand-alchemist",
       "source_faction": "FloodbornPact"
@@ -8291,7 +8291,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-mystic",
       "source_faction": "FloodbornPact"
@@ -8308,7 +8308,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "rune-mechanist",
       "source_faction": "SkyloomTemple"
@@ -8325,7 +8325,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "red-soothsayer",
       "source_faction": "BorderstoneGuild"
@@ -8342,7 +8342,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "oracle-of-chains",
       "source_faction": "UnderwellKeepers"
@@ -8359,7 +8359,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "obsidian-tinker",
       "source_faction": "FloodbornPact"
@@ -8376,7 +8376,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "moonfire-adept",
       "source_faction": "FloodbornPact"
@@ -8393,7 +8393,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "idol-worshipper",
       "source_faction": "SkyloomTemple"
@@ -8410,7 +8410,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "idol-mechanist",
       "source_faction": "Fateforge"
@@ -8427,7 +8427,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "idol-binder",
       "source_faction": "UnderwellKeepers"
@@ -8444,7 +8444,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "halo-mystic",
       "source_faction": "SkyloomTemple"
@@ -8461,7 +8461,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "glyph-scribe",
       "source_faction": "SkyloomTemple"
@@ -8478,7 +8478,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "geas-weaver",
       "source_faction": "BorderstoneGuild"
@@ -8495,7 +8495,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "flesh-weaver",
       "source_faction": "UnderwellKeepers"
@@ -8512,7 +8512,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "flesh-sculptor",
       "source_faction": "UnderwellKeepers"
@@ -8529,7 +8529,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "flesh-carver",
       "source_faction": "FloodbornPact"
@@ -8546,7 +8546,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ember-seer",
       "source_faction": "Fateforge"
@@ -8563,7 +8563,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "eclipse-visionary",
       "source_faction": "SkyloomTemple"
@@ -8580,7 +8580,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "eclipse-summoner",
       "source_faction": "UnderwellKeepers"
@@ -8597,7 +8597,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "eclipse-binder",
       "source_faction": "FloodbornPact"
@@ -8614,7 +8614,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "dust-chemist",
       "source_faction": "Fateforge"
@@ -8631,7 +8631,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "dream-warden",
       "source_faction": "UnderwellKeepers"
@@ -8648,7 +8648,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "dream-seer",
       "source_faction": "BorderstoneGuild"
@@ -8665,7 +8665,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "cuneiform-savant",
       "source_faction": "UnderwellKeepers"
@@ -8682,7 +8682,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-tinker",
       "source_faction": "Fateforge"
@@ -8699,7 +8699,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-thaumaturge",
       "source_faction": "Fateforge"
@@ -8716,7 +8716,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-puppeteer",
       "source_faction": "Fateforge"
@@ -8733,7 +8733,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-brewer",
       "source_faction": "Fateforge"
@@ -8750,7 +8750,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-artificer",
       "source_faction": "BorderstoneGuild"
@@ -8767,7 +8767,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-visionary",
       "source_faction": "FloodbornPact"
@@ -8784,7 +8784,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-thaumaturge",
       "source_faction": "BorderstoneGuild"
@@ -8801,7 +8801,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-scribe",
       "source_faction": "BorderstoneGuild"
@@ -8818,7 +8818,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-oracle",
       "source_faction": "UnderwellKeepers"
@@ -8835,7 +8835,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 3
       },
       "slug": "crimson-caller",
       "source_faction": "Fateforge"
@@ -8852,7 +8852,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crimson-binder",
       "source_faction": "UnderwellKeepers"
@@ -8869,7 +8869,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "covenant-breaker",
       "source_faction": "SkyloomTemple"
@@ -8886,7 +8886,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "chain-engineer",
       "source_faction": "Fateforge"
@@ -8903,7 +8903,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-harvester",
       "source_faction": "UnderwellKeepers"
@@ -8920,7 +8920,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-conductor",
       "source_faction": "UnderwellKeepers"
@@ -8937,7 +8937,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-binder",
       "source_faction": "UnderwellKeepers"
@@ -8954,7 +8954,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-artificer",
       "source_faction": "BorderstoneGuild"
@@ -8971,7 +8971,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "blood-soothsayer",
       "source_faction": "UnderwellKeepers"
@@ -8988,7 +8988,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "blood-sculptor",
       "source_faction": "Fateforge"
@@ -9005,7 +9005,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "blood-draught-maker",
       "source_faction": "Fateforge"
@@ -9022,7 +9022,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "beast-caller",
       "source_faction": "BorderstoneGuild"
@@ -9039,7 +9039,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-weaver",
       "source_faction": "UnderwellKeepers"
@@ -9056,7 +9056,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-sorcerer",
       "source_faction": "Fateforge"
@@ -9073,7 +9073,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-sculptor",
       "source_faction": "FloodbornPact"
@@ -9090,7 +9090,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-prophetess",
       "source_faction": "FloodbornPact"
@@ -9107,7 +9107,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-mechanist",
       "source_faction": "UnderwellKeepers"
@@ -9124,7 +9124,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-idolator",
       "source_faction": "BorderstoneGuild"
@@ -9141,7 +9141,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-dreamer",
       "source_faction": "SkyloomTemple"
@@ -9158,7 +9158,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ash-alchemist",
       "source_faction": "FloodbornPact"
@@ -9175,7 +9175,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "word-eater",
       "source_faction": "SkyloomTemple"
@@ -9192,7 +9192,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "whipbearer",
       "source_faction": "SkyloomTemple"
@@ -9209,7 +9209,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "whip-sergeant",
       "source_faction": "SkyloomTemple"
@@ -9226,7 +9226,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "vulture-queen",
       "source_faction": "SkyloomTemple"
@@ -9243,7 +9243,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "vowbinder-judge",
       "source_faction": "SkyloomTemple"
@@ -9260,7 +9260,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-thrall",
       "source_faction": "SkyloomTemple"
@@ -9277,7 +9277,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-obelisk",
       "source_faction": "SkyloomTemple"
@@ -9294,7 +9294,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-leech",
       "source_faction": "SkyloomTemple"
@@ -9311,7 +9311,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-hymnist",
       "source_faction": "SkyloomTemple"
@@ -9328,7 +9328,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "void-horror",
       "source_faction": "FloodbornPact"
@@ -9345,7 +9345,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "tunnel-spider",
       "source_faction": "BorderstoneGuild"
@@ -9362,7 +9362,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "tunnel-crawler",
       "source_faction": "FloodbornPact"
@@ -9379,7 +9379,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "trap-setter",
       "source_faction": "SkyloomTemple"
@@ -9396,7 +9396,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "toxin-whisperer",
       "source_faction": "FloodbornPact"
@@ -9413,7 +9413,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "tomb-scrivener",
       "source_faction": "FloodbornPact"
@@ -9430,7 +9430,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "taxlord-balash",
       "source_faction": "Fateforge"
@@ -9447,7 +9447,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "tax-shade",
       "source_faction": "UnderwellKeepers"
@@ -9464,7 +9464,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "tax-enforcer",
       "source_faction": "FloodbornPact"
@@ -9481,7 +9481,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "tablet-binder",
       "source_faction": "Fateforge"
@@ -9498,7 +9498,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "spore-drudge",
       "source_faction": "FloodbornPact"
@@ -9515,7 +9515,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "spear-watch",
       "source_faction": "BorderstoneGuild"
@@ -9532,7 +9532,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "soul-drinker",
       "source_faction": "SkyloomTemple"
@@ -9549,7 +9549,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "sludge-slime",
       "source_faction": "SkyloomTemple"
@@ -9566,7 +9566,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "slime-lizard",
       "source_faction": "BorderstoneGuild"
@@ -9583,7 +9583,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "slave-hunter",
       "source_faction": "UnderwellKeepers"
@@ -9600,7 +9600,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "slave-champion",
       "source_faction": "FloodbornPact"
@@ -9617,7 +9617,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "silver-rat",
       "source_faction": "FloodbornPact"
@@ -9634,7 +9634,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "siege-ox",
       "source_faction": "SkyloomTemple"
@@ -9651,7 +9651,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "siege-idol",
       "source_faction": "UnderwellKeepers"
@@ -9668,7 +9668,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "shield-twins",
       "source_faction": "Fateforge"
@@ -9685,7 +9685,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shardback-boar",
       "source_faction": "BorderstoneGuild"
@@ -9702,7 +9702,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shadow-knifebearer",
       "source_faction": "BorderstoneGuild"
@@ -9719,7 +9719,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shadow-eel",
       "source_faction": "FloodbornPact"
@@ -9736,7 +9736,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shadow-binder",
       "source_faction": "UnderwellKeepers"
@@ -9753,7 +9753,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shackled-wraith",
       "source_faction": "UnderwellKeepers"
@@ -9770,7 +9770,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shackled-ghoul",
       "source_faction": "BorderstoneGuild"
@@ -9787,7 +9787,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "shacklebearer-guard",
       "source_faction": "FloodbornPact"
@@ -9804,7 +9804,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sewer-leech",
       "source_faction": "UnderwellKeepers"
@@ -9821,7 +9821,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "serpent-queen",
       "source_faction": "SkyloomTemple"
@@ -9838,7 +9838,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "screamer-wraith",
       "source_faction": "BorderstoneGuild"
@@ -9855,7 +9855,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "scorpion-queen",
       "source_faction": "Fateforge"
@@ -9872,7 +9872,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "scorpion-king",
       "source_faction": "UnderwellKeepers"
@@ -9889,7 +9889,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "scorpion-alchemist",
       "source_faction": "UnderwellKeepers"
@@ -9906,7 +9906,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-wormling",
       "source_faction": "FloodbornPact"
@@ -9923,7 +9923,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-oracle",
       "source_faction": "BorderstoneGuild"
@@ -9940,7 +9940,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-mirage",
       "source_faction": "SkyloomTemple"
@@ -9957,7 +9957,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-hyena",
       "source_faction": "FloodbornPact"
@@ -9974,7 +9974,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-golem",
       "source_faction": "UnderwellKeepers"
@@ -9991,7 +9991,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "sand-archivist",
       "source_faction": "UnderwellKeepers"
@@ -10008,7 +10008,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rust-slug",
       "source_faction": "SkyloomTemple"
@@ -10025,7 +10025,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "rust-mite",
       "source_faction": "BorderstoneGuild"
@@ -10042,7 +10042,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-husk",
       "source_faction": "BorderstoneGuild"
@@ -10059,7 +10059,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "rune-horror",
       "source_faction": "FloodbornPact"
@@ -10076,7 +10076,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rune-centipede",
       "source_faction": "UnderwellKeepers"
@@ -10093,7 +10093,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "rockgnasher-beast",
       "source_faction": "Fateforge"
@@ -10110,7 +10110,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "river-wolf",
       "source_faction": "FloodbornPact"
@@ -10127,7 +10127,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "river-warlord",
       "source_faction": "FloodbornPact"
@@ -10144,7 +10144,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "river-titan",
       "source_faction": "FloodbornPact"
@@ -10161,7 +10161,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "river-raider",
       "source_faction": "FloodbornPact"
@@ -10178,7 +10178,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "reed-serpent",
       "source_faction": "FloodbornPact"
@@ -10195,7 +10195,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "reed-leviathan",
       "source_faction": "FloodbornPact"
@@ -10212,7 +10212,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "reed-brewmaster",
       "source_faction": "UnderwellKeepers"
@@ -10229,7 +10229,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "plague-drummer",
       "source_faction": "Fateforge"
@@ -10246,7 +10246,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "plague-bat",
       "source_faction": "Fateforge"
@@ -10263,7 +10263,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-jailer",
       "source_faction": "FloodbornPact"
@@ -10280,7 +10280,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-houndmaster",
       "source_faction": "SkyloomTemple"
@@ -10297,7 +10297,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-guard",
       "source_faction": "UnderwellKeepers"
@@ -10314,7 +10314,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-ghoul",
       "source_faction": "UnderwellKeepers"
@@ -10331,7 +10331,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-fighter",
       "source_faction": "Fateforge"
@@ -10348,7 +10348,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pit-champion",
       "source_faction": "Fateforge"
@@ -10365,7 +10365,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pike-slave",
       "source_faction": "UnderwellKeepers"
@@ -10382,7 +10382,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pale-stalker",
       "source_faction": "SkyloomTemple"
@@ -10399,7 +10399,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pale-prophet",
       "source_faction": "BorderstoneGuild"
@@ -10416,7 +10416,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "pale-ghast",
       "source_faction": "UnderwellKeepers"
@@ -10433,7 +10433,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oil-hydra",
       "source_faction": "UnderwellKeepers"
@@ -10450,7 +10450,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "obsidian-lion",
       "source_faction": "UnderwellKeepers"
@@ -10467,7 +10467,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "obsidian-helm",
       "source_faction": "Fateforge"
@@ -10484,7 +10484,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oathkeeper-ghost",
       "source_faction": "SkyloomTemple"
@@ -10501,7 +10501,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-spawn",
       "source_faction": "SkyloomTemple"
@@ -10518,7 +10518,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oath-singer",
       "source_faction": "SkyloomTemple"
@@ -10535,7 +10535,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "oasis-thief",
       "source_faction": "FloodbornPact"
@@ -10552,7 +10552,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "night-prowler",
       "source_faction": "Fateforge"
@@ -10569,7 +10569,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "mud-rat",
       "source_faction": "BorderstoneGuild"
@@ -10586,7 +10586,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "moonfang-wolf",
       "source_faction": "FloodbornPact"
@@ -10603,7 +10603,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "moon-idol",
       "source_faction": "BorderstoneGuild"
@@ -10620,7 +10620,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "moon-acolyte",
       "source_faction": "BorderstoneGuild"
@@ -10637,7 +10637,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "mirror-reed",
       "source_faction": "FloodbornPact"
@@ -10654,7 +10654,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "masked-slayer",
       "source_faction": "UnderwellKeepers"
@@ -10671,7 +10671,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "masked-king",
       "source_faction": "UnderwellKeepers"
@@ -10688,7 +10688,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "marsh-toad",
       "source_faction": "BorderstoneGuild"
@@ -10705,7 +10705,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "marsh-stalker",
       "source_faction": "FloodbornPact"
@@ -10722,7 +10722,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "marsh-phantom",
       "source_faction": "UnderwellKeepers"
@@ -10739,7 +10739,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "marsh-cutthroat",
       "source_faction": "BorderstoneGuild"
@@ -10756,7 +10756,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ledger-bearer",
       "source_faction": "SkyloomTemple"
@@ -10773,7 +10773,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "lash-overseer",
       "source_faction": "FloodbornPact"
@@ -10790,7 +10790,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "lash-captain",
       "source_faction": "Fateforge"
@@ -10807,7 +10807,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "lantern-shade",
       "source_faction": "UnderwellKeepers"
@@ -10824,7 +10824,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "knife-zealot",
       "source_faction": "SkyloomTemple"
@@ -10841,7 +10841,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "jackal-alpha",
       "source_faction": "SkyloomTemple"
@@ -10858,7 +10858,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ironbound-horror",
       "source_faction": "UnderwellKeepers"
@@ -10875,7 +10875,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "iron-lash",
       "source_faction": "Fateforge"
@@ -10892,7 +10892,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "iron-juggernaut",
       "source_faction": "Fateforge"
@@ -10909,7 +10909,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ink-tongue",
       "source_faction": "FloodbornPact"
@@ -10926,7 +10926,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "idol-shade",
       "source_faction": "UnderwellKeepers"
@@ -10943,7 +10943,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "idol-servant",
       "source_faction": "UnderwellKeepers"
@@ -10960,7 +10960,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "idol-puppeteer",
       "source_faction": "BorderstoneGuild"
@@ -10977,7 +10977,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "idol-chanter",
       "source_faction": "BorderstoneGuild"
@@ -10994,7 +10994,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "hymncaller-priest",
       "source_faction": "FloodbornPact"
@@ -11011,7 +11011,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "hyena-matron",
       "source_faction": "FloodbornPact"
@@ -11028,7 +11028,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "howling-fiend",
       "source_faction": "SkyloomTemple"
@@ -11045,7 +11045,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "hollow-tick",
       "source_faction": "UnderwellKeepers"
@@ -11062,7 +11062,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "hill-ram",
       "source_faction": "Fateforge"
@@ -11079,7 +11079,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "hill-raider",
       "source_faction": "BorderstoneGuild"
@@ -11096,7 +11096,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "high-priest",
       "source_faction": "FloodbornPact"
@@ -11113,7 +11113,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-spawn",
       "source_faction": "SkyloomTemple"
@@ -11130,7 +11130,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "halo-husk",
       "source_faction": "SkyloomTemple"
@@ -11147,7 +11147,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "golden-whip",
       "source_faction": "SkyloomTemple"
@@ -11164,7 +11164,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "gold-spider",
       "source_faction": "UnderwellKeepers"
@@ -11181,7 +11181,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "gold-captain",
       "source_faction": "SkyloomTemple"
@@ -11198,7 +11198,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "glyph-ghoul",
       "source_faction": "SkyloomTemple"
@@ -11215,7 +11215,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glow-beetle",
       "source_faction": "UnderwellKeepers"
@@ -11232,7 +11232,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glass-weaver",
       "source_faction": "BorderstoneGuild"
@@ -11249,7 +11249,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "glass-mite",
       "source_faction": "Fateforge"
@@ -11266,7 +11266,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "furnace-caller",
       "source_faction": "Fateforge"
@@ -11283,7 +11283,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fungus-mite",
       "source_faction": "FloodbornPact"
@@ -11300,7 +11300,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fungus-creeper",
       "source_faction": "SkyloomTemple"
@@ -11317,7 +11317,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "frog-mother",
       "source_faction": "UnderwellKeepers"
@@ -11334,7 +11334,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-sapper",
       "source_faction": "Fateforge"
@@ -11351,7 +11351,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-ram",
       "source_faction": "UnderwellKeepers"
@@ -11368,7 +11368,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-jackal",
       "source_faction": "BorderstoneGuild"
@@ -11385,7 +11385,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-beetle",
       "source_faction": "FloodbornPact"
@@ -11402,7 +11402,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-bearer",
       "source_faction": "SkyloomTemple"
@@ -11419,7 +11419,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fire-ashling",
       "source_faction": "FloodbornPact"
@@ -11436,7 +11436,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "filth-king",
       "source_faction": "UnderwellKeepers"
@@ -11453,7 +11453,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "false-prophet",
       "source_faction": "FloodbornPact"
@@ -11470,7 +11470,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "fallen-priest",
       "source_faction": "BorderstoneGuild"
@@ -11487,7 +11487,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "exiled-gladiator",
       "source_faction": "Fateforge"
@@ -11504,7 +11504,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "enlil-vessel",
       "source_faction": "FloodbornPact"
@@ -11521,7 +11521,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "ember-masker",
       "source_faction": "BorderstoneGuild"
@@ -11538,7 +11538,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "eclipse-revenant",
       "source_faction": "Fateforge"
@@ -11555,7 +11555,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "eclipse-drone",
       "source_faction": "BorderstoneGuild"
@@ -11572,7 +11572,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "eclipse-chanter",
       "source_faction": "BorderstoneGuild"
@@ -11589,7 +11589,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "echo-voice",
       "source_faction": "BorderstoneGuild"
@@ -11606,7 +11606,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-rider",
       "source_faction": "SkyloomTemple"
@@ -11623,7 +11623,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dust-librarian",
       "source_faction": "UnderwellKeepers"
@@ -11640,7 +11640,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dusk-serpent",
       "source_faction": "Fateforge"
@@ -11657,7 +11657,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "drowned-archivist",
       "source_faction": "FloodbornPact"
@@ -11674,7 +11674,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "dog-breaker",
       "source_faction": "Fateforge"
@@ -11691,7 +11691,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "desert-vulture",
       "source_faction": "BorderstoneGuild"
@@ -11708,7 +11708,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "desert-viper",
       "source_faction": "BorderstoneGuild"
@@ -11725,7 +11725,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "desert-jackal",
       "source_faction": "FloodbornPact"
@@ -11742,7 +11742,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "desert-hawk",
       "source_faction": "SkyloomTemple"
@@ -11759,7 +11759,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "desert-boar",
       "source_faction": "BorderstoneGuild"
@@ -11776,7 +11776,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "cuneiform-shade",
       "source_faction": "UnderwellKeepers"
@@ -11793,7 +11793,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-wasp",
       "source_faction": "SkyloomTemple"
@@ -11810,7 +11810,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crystal-louse",
       "source_faction": "Fateforge"
@@ -11827,7 +11827,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "crystal-gnat",
       "source_faction": "SkyloomTemple"
@@ -11844,7 +11844,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crocodile-warlord",
       "source_faction": "Fateforge"
@@ -11861,7 +11861,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crimson-youth",
       "source_faction": "BorderstoneGuild"
@@ -11878,7 +11878,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crater-rat",
       "source_faction": "Fateforge"
@@ -11895,7 +11895,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "crater-lurker",
       "source_faction": "BorderstoneGuild"
@@ -11912,7 +11912,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "corpse-beetle",
       "source_faction": "FloodbornPact"
@@ -11929,7 +11929,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "collapse-worker",
       "source_faction": "SkyloomTemple"
@@ -11946,7 +11946,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "cistern-horror",
       "source_faction": "Fateforge"
@@ -11963,7 +11963,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chittering-bat",
       "source_faction": "Fateforge"
@@ -11980,7 +11980,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chanter-priest",
       "source_faction": "BorderstoneGuild"
@@ -11997,7 +11997,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chant-twins",
       "source_faction": "FloodbornPact"
@@ -12014,7 +12014,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-warden",
       "source_faction": "Fateforge"
@@ -12031,7 +12031,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-thrower",
       "source_faction": "BorderstoneGuild"
@@ -12048,7 +12048,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-marshal",
       "source_faction": "FloodbornPact"
@@ -12065,7 +12065,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-keeper",
       "source_faction": "SkyloomTemple"
@@ -12082,7 +12082,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "chain-drudge",
       "source_faction": "UnderwellKeepers"
@@ -12099,7 +12099,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "chain-automaton",
       "source_faction": "BorderstoneGuild"
@@ -12116,7 +12116,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "caravan-breaker",
       "source_faction": "BorderstoneGuild"
@@ -12133,7 +12133,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "canal-thief",
       "source_faction": "BorderstoneGuild"
@@ -12150,7 +12150,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "canal-lamprey",
       "source_faction": "Fateforge"
@@ -12167,7 +12167,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bronze-spear",
       "source_faction": "UnderwellKeepers"
@@ -12184,7 +12184,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bronze-shield",
       "source_faction": "Fateforge"
@@ -12201,7 +12201,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bronze-sentinel",
       "source_faction": "FloodbornPact"
@@ -12218,7 +12218,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bronze-gaoler",
       "source_faction": "SkyloomTemple"
@@ -12235,7 +12235,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bronze-colossus",
       "source_faction": "UnderwellKeepers"
@@ -12252,7 +12252,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bronze-automaton",
       "source_faction": "SkyloomTemple"
@@ -12269,7 +12269,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "broken-scribe",
       "source_faction": "UnderwellKeepers"
@@ -12286,7 +12286,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bonebound-spirit",
       "source_faction": "Fateforge"
@@ -12303,7 +12303,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-queen",
       "source_faction": "UnderwellKeepers"
@@ -12320,7 +12320,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-jackal",
       "source_faction": "UnderwellKeepers"
@@ -12337,7 +12337,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-gnawer",
       "source_faction": "SkyloomTemple"
@@ -12354,7 +12354,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-eater",
       "source_faction": "BorderstoneGuild"
@@ -12371,7 +12371,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-choir",
       "source_faction": "BorderstoneGuild"
@@ -12388,7 +12388,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-chariot",
       "source_faction": "FloodbornPact"
@@ -12405,7 +12405,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "bone-centipede",
       "source_faction": "UnderwellKeepers"
@@ -12422,7 +12422,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bone-caller",
       "source_faction": "UnderwellKeepers"
@@ -12439,7 +12439,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 2
       },
       "slug": "bog-crocodile",
       "source_faction": "BorderstoneGuild"
@@ -12456,7 +12456,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-prophet",
       "source_faction": "FloodbornPact"
@@ -12473,7 +12473,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-plucker",
       "source_faction": "BorderstoneGuild"
@@ -12490,7 +12490,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-keeper",
       "source_faction": "Fateforge"
@@ -12507,7 +12507,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-evoker",
       "source_faction": "Fateforge"
@@ -12524,7 +12524,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-duelist",
       "source_faction": "Fateforge"
@@ -12541,7 +12541,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blood-acolyte",
       "source_faction": "Fateforge"
@@ -12558,7 +12558,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "blind-crawler",
       "source_faction": "FloodbornPact"
@@ -12575,7 +12575,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-spiderling",
       "source_faction": "Fateforge"
@@ -12592,7 +12592,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-servitor",
       "source_faction": "Fateforge"
@@ -12609,7 +12609,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-scorpion",
       "source_faction": "UnderwellKeepers"
@@ -12626,7 +12626,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-rider",
       "source_faction": "FloodbornPact"
@@ -12643,7 +12643,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-rat",
       "source_faction": "BorderstoneGuild"
@@ -12660,7 +12660,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-priest",
       "source_faction": "Fateforge"
@@ -12677,7 +12677,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-phantom",
       "source_faction": "Fateforge"
@@ -12694,7 +12694,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-oracle",
       "source_faction": "BorderstoneGuild"
@@ -12711,7 +12711,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-novice",
       "source_faction": "Fateforge"
@@ -12728,7 +12728,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-locust",
       "source_faction": "Fateforge"
@@ -12745,7 +12745,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-horror",
       "source_faction": "BorderstoneGuild"
@@ -12762,7 +12762,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-binder",
       "source_faction": "UnderwellKeepers"
@@ -12779,7 +12779,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "ash-beetle",
       "source_faction": "FloodbornPact"
@@ -12796,7 +12796,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "arena-brute",
       "source_faction": "FloodbornPact"
@@ -12813,7 +12813,7 @@
       "reported_source_cost": {
         "oath": 0,
         "sigil": 0,
-        "sinew": 0
+        "sinew": 1
       },
       "slug": "abyssal-archivist",
       "source_faction": "FloodbornPact"
@@ -12850,7 +12850,7 @@
   "record_count": 754,
   "schema": "kudurru_catalog_preview_v1",
   "source_file": "02_Data/Kudurru_Kings_Gameplay_Master_v1.csv",
-  "source_sha256": "1db009e92509f98379614d1896a6771a7e75a3a89295728566dedd37c463f1f4",
+  "source_sha256": "c4193b54e543462cf658f8d3bf879877c150fbef4f55c3b0fd2dcb7f40cceeed",
   "source_slug_collisions": [
     {
       "card_ids": [

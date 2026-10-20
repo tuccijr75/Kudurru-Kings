@@ -1,0 +1,23 @@
+{
+  "allow_shipping_legacy_exports": false,
+  "approved_cost_panel": "06_Exports/Kudurru_Kings_Cost_Panel_Export_v1.csv",
+  "exports": [
+    {
+      "file": "06_Exports\\Kudurru_Kings_Master_Export_v1.csv",
+      "interpretation": "Legacy render-only data; no authority over game master",
+      "name_disagreement_count": 0,
+      "row_count": 754,
+      "shipping_blocked": true,
+      "upkeep_disagreement_count": 397
+    },
+    {
+      "file": "06_Exports\\Kudurru_Kings_Production_Export_v1.csv",
+      "interpretation": "Legacy render-only data; no authority over game master",
+      "name_disagreement_count": 0,
+      "row_count": 754,
+      "shipping_blocked": true,
+      "upkeep_disagreement_count": 397
+    }
+  ],
+  "schema": "kudurru_legacy_export_gate_v1"
+}

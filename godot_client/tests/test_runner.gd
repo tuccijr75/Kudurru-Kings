@@ -2,6 +2,7 @@ extends SceneTree
 const Rules = preload("res://scripts/game_rules.gd")
 const Capture = preload("res://scripts/capture_rules.gd")
 const Deck = preload("res://scripts/deck_validator.gd")
+const Costs = preload("res://scripts/cost_rules.gd")
 var passed: int = 0
 var failed: int = 0
 
@@ -17,7 +18,7 @@ func _check(ok: bool, reason: String) -> void:
 		printerr("FAIL: " + reason)
 
 func _card(i: int, family: String = "Character", faction: String = "BorderstoneGuild") -> Dictionary:
-	return {"card_id": "DEV_%d" % i, "card_name": "DEV_%d" % i, "card_family": family, "owner_faction": faction, "rarity": "Common", "is_standard_legal": true, "scenario_only": false, "requires_faction_lock": false, "deck_copy_limit": 2}
+	return {"card_id": "DEV_%d" % i, "card_name": "DEV_%d" % i, "card_family": family, "owner_faction": faction, "rarity": "Common", "is_standard_legal": true, "scenario_only": false, "requires_faction_lock": false, "deck_copy_limit": 2, "playable": true}
 
 func _test_all() -> void:
 	_check(Rules.PHASES == ["Upkeep", "Draw", "Edicts", "Main", "Battle", "Resolution", "End"], "canonical seven phases")
@@ -90,3 +91,29 @@ func _test_all() -> void:
 		var drowning: Dictionary = catalog_script.find_by_id(indexed, "686")
 		_check(drowning.get("display_faction") == "UnderwellKeepers", "EOE authority wins display alignment")
 		_check(drowning.get("source_faction") == "FloodbornPact", "original migrated record preserved")
+
+	var sample_card: Dictionary = {"playable": true, "cost_sinew": 2, "cost_sigil": 1, "cost_oath": 0}
+	var original_player: Dictionary = Rules.new_state(["P"])["players"][0]
+	var payment: Dictionary = Costs.pay(original_player, sample_card)
+	_check(payment["ok"], "certified sample may pay valid resource cost")
+	_check(payment["player"]["sinew"] == 0 and payment["player"]["sigil"] == 0 and payment["player"]["oath"] == 1, "three-resource deductions exact")
+	_check(original_player["sinew"] == 2 and original_player["sigil"] == 1, "payment never mutates original state")
+	var unaffordable: Dictionary = sample_card.duplicate(true)
+	unaffordable["cost_sinew"] = 3
+	_check(not Costs.pay(original_player, unaffordable)["ok"], "insufficient resource blocks action")
+	var untrusted: Dictionary = sample_card.duplicate(true)
+	untrusted["playable"] = false
+	_check(Costs.quote(untrusted)["error"] == "CARD_NOT_CERTIFIED", "uncertified cost action rejected")
+	var invalid_cost: Dictionary = sample_card.duplicate(true)
+	invalid_cost["cost_sigil"] = -1
+	_check(not Costs.quote(invalid_cost)["ok"], "negative resource cost rejected")
+	var free_cost: Dictionary = sample_card.duplicate(true)
+	free_cost["cost_sinew"] = 0
+	free_cost["cost_sigil"] = 0
+	_check(Costs.quote(free_cost)["error"] == "UNAPPROVED_FREE_DEPLOYMENT", "zero total cost rejected")
+	var untrusted_deck: Array = []
+	for i in range(36):
+		var family: String = "Character" if i < 24 else ("Site" if i < 28 else ("Pet" if i < 32 else "Edict"))
+		untrusted_deck.append(_card(1000 + i, family))
+	untrusted_deck[0]["playable"] = false
+	_check(Deck.validate(untrusted_deck)["errors"].has("UNCERTIFIED_CARD"), "uncertified cards rejected in deck validator")

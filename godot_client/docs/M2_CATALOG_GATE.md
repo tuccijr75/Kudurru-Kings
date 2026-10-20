@@ -14,7 +14,7 @@
 - Four known EOE verified faction conflicts corrected **for display only**: Drowned Archivist, Ash Prophetess, Chain Marshal, Taxlord Balash.
 - Only explicit EOE-verified assignments are overlaid; all other inherited faction assignments remain marked provisional.
 - Mercy Docket exists as an Edict in the master, but is a named figure in EOE; must undergo identity-family adjudication before auto-reconciliation.
-- All 754 card records currently declare zero for all three deployment cost fields; no costs are certified.
+- Cost-balance development branch: all 754 cards now carry a positive computed deployment cost; 397 legacy upkeep values were normalized. The cost design is approved as a tested provisional gameplay baseline, but none of the cards is certified playable until its ability/timing/legality data passes runtime review.
 - Full availability of the original EOE Crosswalk for comprehensive automated validation is pending private-source integration; private EOE documents are not copied to the public repo.
 
 ## Security and safety
