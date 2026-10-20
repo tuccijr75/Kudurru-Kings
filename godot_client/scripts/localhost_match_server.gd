@@ -115,7 +115,7 @@ func _message(entry:Dictionary,line:String)->void:
 		_send(peer,{"ok":false,"error":"UNKNOWN_NETWORK_OPERATION"})
 		return
 	var action:Dictionary=body["action"].duplicate(true)
-	if not ["KEEP","MULLIGAN","ADVANCE","DEPLOY","ATTACK","CAST","CAST_END","CLAUSE_DISCARD","CHOOSE_CONSEQUENCE","PEEK"].has(str(action.get("type",""))):
+	if not ["KEEP","MULLIGAN","ADVANCE","DEPLOY","ATTACK","CAST","CAST_END","CLAUSE_DISCARD","CHOOSE_CONSEQUENCE","END_DISCARD","PEEK"].has(str(action.get("type",""))):
 		_send(peer,{"ok":false,"error":"ACTION_NOT_ALLOWED"})
 		return
 	# Player ID is assigned by server, never trusted from the packet.

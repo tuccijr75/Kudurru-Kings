@@ -8,6 +8,7 @@ const Decks = preload("res://scripts/deck_registry.gd")
 var state: Dictionary = {}
 var headline: Label
 var scoreboard: Label
+var end_income_preview: Label
 var status: Label
 var hand_list: VBoxContainer
 var board_view: RichTextLabel
@@ -102,6 +103,7 @@ func _build() -> void:
 	_refresh_saved_decks()
 	headline = _label(root,"",20)
 	scoreboard = _label(root,"",16)
+	end_income_preview = _label(root,"",14)
 	var columns := HBoxContainer.new()
 	columns.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	columns.add_theme_constant_override("separation",20)
@@ -266,6 +268,9 @@ func _next() -> void:
 	if not state.get("priority_queue",[]).is_empty():
 		status.text="Resolve the outstanding opponent-choice window before advancing."
 		return
+	if state["setup_complete"] and int(state["phase"])==6 and int(state["seat"])==0 and state["players"][0]["hand"].size()>6:
+		status.text="Choose the card(s) to discard down to six before ending the turn."
+		return
 	if not state["pending_end_clause"].is_empty():
 		status.text="Choose one card in your hand to DISCARD before ending your turn."
 		return
@@ -279,13 +284,14 @@ func _next() -> void:
 		return
 	_action("ADVANCE")
 
-func _deploy(id: String) -> void:
+func _deploy(id: String, selected_index:int=-1) -> void:
 	var pending:Array=state.get("priority_queue",[])
 	if not pending.is_empty():
 		if int(pending[0]["seat"])!=0:return
 		var op:String="DISCARD_NAME" if pending[0]["options"].has("DISCARD_NAME") else "DISCARD_CARD"
 		if not pending[0]["options"].has(op):return
 		for i in range(state["players"][0]["hand"].size()):
+			if selected_index>=0 and i!=selected_index:continue
 			if str(state["players"][0]["hand"][i]["card_id"])!=id:continue
 			if op=="DISCARD_NAME" and state["players"][0]["hand"][i]["card_family"]!="Name":continue
 			_action("CHOOSE_CONSEQUENCE",{"choice":op,"hand_index":i})
@@ -294,9 +300,20 @@ func _deploy(id: String) -> void:
 	if not state["pending_end_clause"].is_empty():
 		if int(state["pending_end_clause"]["seat"])!=0:return
 		for i in range(state["players"][0]["hand"].size()):
+			if selected_index>=0 and i!=selected_index:continue
 			if str(state["players"][0]["hand"][i]["card_id"])==id:
 				_action("CLAUSE_DISCARD",{"hand_index":i})
 				return
+		return
+	if state["setup_complete"] and int(state["seat"])==0 and int(state["phase"])==6 and state["players"][0]["hand"].size()>6:
+		var pick:int=selected_index
+		if pick<0:
+			for i in range(state["players"][0]["hand"].size()):
+				if str(state["players"][0]["hand"][i]["card_id"])==id:pick=i;break
+		if pick<0 or pick>=state["players"][0]["hand"].size():
+			status.text="Select a valid card to discard."
+			return
+		_action("END_DISCARD",{"hand_index":pick})
 		return
 	var card: Dictionary = Source.find_card(Source.catalog(),id)
 	var family: String = str(card.get("card_family",""))
@@ -368,6 +385,20 @@ func _refresh() -> void:
 		stats.append("%s  |  Marks %d  |  Sinew %d  Sigil %d  Oath %d  |  Hand %d  Deck %d" % [
 			p["name"],p["marks"],p["sinew"],p["sigil"],p["oath"],p["hand"].size(),p["deck"].size()])
 	scoreboard.text = "\n".join(stats)
+	var income:Dictionary=Match._summary_income(state,0)
+	var my_ready:int=0
+	var their_ready:int=0
+	for unit in state["units"]:
+		if not Match._ready(unit):continue
+		if int(unit["controller"])==0:my_ready+=1
+		else:their_ready+=1
+	var owns_site:bool=false
+	for site in state["sites"]:
+		if int(site["controller"])==0:owns_site=true
+	var owns_objective:bool=Match._control(state)==0
+	end_income_preview.text="END FORECAST | Sinew: most ready %d vs %d | Sigil: Site held %s | Oath: objective held %s | +%d Sinew / +%d Sigil / +%d Oath (fallback +1 Sinew)" % [
+		my_ready,their_ready,"YES" if owns_site else "NO","YES" if owns_objective else "NO",
+		int(income["sinew"]),int(income["sigil"]),int(income["oath"])]
 	var pending:Array=state.get("priority_queue",[])
 	var human_response:bool=not pending.is_empty() and int(pending[0]["seat"])==0
 	var legal:Array=pending[0]["options"] if human_response else []
@@ -375,7 +406,8 @@ func _refresh() -> void:
 	priority_oath_button.disabled=not legal.has("LOSE_OATH")
 	priority_exhaust_button.disabled=not legal.has("EXHAUST_UNIT")
 	priority_silence_button.disabled=not legal.has("SILENCE_UNIT")
-	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty() or not pending.is_empty()
+	var end_overflow:bool=state["setup_complete"] and int(state["phase"])==6 and int(state["seat"])==0 and state["players"][0]["hand"].size()>6
+	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty() or not pending.is_empty() or end_overflow
 	var clause_in_hand:bool=false
 	for card in state["players"][0]["hand"]:
 		if str(card["card_id"])=="187":clause_in_hand=true
@@ -420,12 +452,13 @@ func _refresh() -> void:
 		edict_target_select.add_item(str(target_card["card_name"])+" ? "+
 			("EXHAUSTED" if u["exhausted"] else "READY")+" ? Wounds "+str(u["wounds"]))
 		edict_target_select.set_item_metadata(edict_target_select.item_count-1,u["uid"])
-	for card in state["players"][0]["hand"]:
+	for hand_index in range(state["players"][0]["hand"].size()):
+		var card:Dictionary=state["players"][0]["hand"][hand_index]
 		var id: String = str(card["card_id"])
-		var b: Button = _button(hand_list,("DISCARD: " if discarding or forced_discard else "")+str(card["card_name"])+" | "+str(card["card_family"])+
-			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id))
+		var b: Button = _button(hand_list,("DISCARD: " if discarding or forced_discard or end_overflow else "")+str(card["card_name"])+" | "+str(card["card_family"])+
+			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id,hand_index))
 		b.disabled = (name_only and card["card_family"]!="Name") if forced_discard else (
-			false if discarding else (
+			false if discarding or end_overflow else (
 			not (can_cast if card["card_family"]=="Edict" and str(card["card_id"])!="187" else can_deploy) or
 			int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or
 			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or

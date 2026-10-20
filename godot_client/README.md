@@ -1,3 +1,7 @@
+# M13 ? Explicit End Discards and Income Preview
+
+End now enforces voluntary player-selected discards down to six instead of silently popping hand cards; the game shows each of the three source income conditions and projected Sinew/Sigil/Oath gains before ending. Run tools/run_m13_quality_gate.ps1. This is still a local game candidate, not complete Standard.
+
 # M12 Source-Verified Opponent Priority
 
 Nine Edicts run in local matches. Public Reckoning and Censor Audit now open victim-owned action-choice windows rather than choosing for the target. The local opponent responds out of turn and localhost projections protect private options. See docs/M12_PRIORITY_RULES.md. Run tools/run_m12_quality_gate.ps1. Full 754-card production Standard remains blocked.

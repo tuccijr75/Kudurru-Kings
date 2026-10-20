@@ -233,9 +233,22 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		s["players"][seat]=p
 		s["pending_end_clause"]={}
 		return _commit(s,"NIGHT_MARKET_DISCARD",{"seat":seat,"card_id":str(selected["card_id"]),"heat_gained":1},action)
+	if kind == "END_DISCARD":
+		if phase!=6:return error("END_WINDOW_REQUIRED")
+		if not s["pending_end_clause"].is_empty():return error("NIGHT_MARKET_DISCARD_PENDING")
+		if p["hand"].size()<=6:return error("HAND_LIMIT_NOT_EXCEEDED")
+		var index:int=int(action.get("hand_index",-1))
+		if index<0 or index>=p["hand"].size():return error("INVALID_END_DISCARD")
+		var card:Dictionary=p["hand"].pop_at(index)
+		p["discard"].append(card)
+		s["players"][seat]=p
+		return _commit(s,"END_HAND_LIMIT_DISCARD",{"seat":seat,"card_id":str(card["card_id"]),
+			"remaining_hand":p["hand"].size()},action)
 	if kind == "ADVANCE":
 		if phase==6 and not s["pending_end_clause"].is_empty():
 			return error("NIGHT_MARKET_DISCARD_PENDING")
+		if phase==6 and p["hand"].size()>6:
+			return error("END_HAND_LIMIT_CHOICE_REQUIRED")
 		if phase == 0:
 			if bool(s["truce"].get("active",false)) and int(s["truce"]["owner"]) == seat and int(s["round"]) > int(s["truce"]["started_round"]):
 				s["truce"] = {}
@@ -254,8 +267,6 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		if phase == 6:
 			var income: Dictionary = _summary_income(s,seat)
 			for k in ["sinew","sigil","oath"]: s["players"][seat][k] += int(income[k])
-			while s["players"][seat]["hand"].size() > 6:
-				s["players"][seat]["discard"].append(s["players"][seat]["hand"].pop_back())
 			s["seat"] = 1-seat
 			if s["seat"] == 0: s["round"] += 1
 		s["phase"] = (phase+1)%7
@@ -408,6 +419,9 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 				if int(card["cost_sinew"])<=int(p["sinew"]) and int(card["cost_sigil"])<=int(p["sigil"]) and int(card["cost_oath"])<=int(p["oath"]) and (
 					p["hand"].size()>1 or not p["deck"].is_empty()):
 					return {"seat":seat,"revision":int(state["revision"]),"type":"CAST_END"}
+		if p["hand"].size()>6:
+			return {"seat":seat,"revision":int(state["revision"]),"type":"END_DISCARD",
+				"hand_index":p["hand"].size()-1}
 	if phase == 2:
 		for c in p["hand"]:
 			var id: String = str(c["card_id"])
