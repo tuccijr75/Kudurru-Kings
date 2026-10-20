@@ -21,12 +21,13 @@ python 'E:\KudurruKings\repo\godot_client\tools\audit_master.py'
 - Four-seat view is a **developer preview**. Multiplayer, AI, combat, economy, rule-complete capture, and scenario engine are future milestones.
 
 ## Status
-M1 source files committed to `build/godot-m1-20261020`. Until Godot headless tests run successfully, this branch is **NOT** certified M1. The `main` branch must not be changed without review.
+M1 headless runtime verified on ManicsPC with Godot 4.7.2: 38/38 regression checks passed, editor import and scene start exit code 0. Interactive visual review remains pending. M2 read-only catalog indexing has begun; gameplay is not released. The `main` branch must not be changed without review.
 
 ## M1 exit gate
-- [ ] Godot 4.7.2 editor import with zero parse/load errors
-- [ ] Headless GDScript regression suite passes
-- [ ] Board opens on Windows and Next Phase cycles 7 phases and 4 seats
+- [x] Godot 4.7.2 headless editor import, exit code 0
+- [x] Headless GDScript regression suite: 38/38
+- [x] Headless scene startup, exit code 0
+- [ ] Interactive Windows visual and phase-button review
 - [x] Canonical repository source remains unchanged
 - [x] Public branch contains no private EOE working copies
 - [x] Uncertified master not loaded into live match

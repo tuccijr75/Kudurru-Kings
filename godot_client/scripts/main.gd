@@ -23,6 +23,12 @@ func _ready() -> void:
 	state = Rules.new_state(["Player", "Kira", "Vex", "Nael"])
 	_build_screen()
 	_refresh()
+	var reader: Script = load("res://scripts/catalog_reader.gd")
+	var catalog: Dictionary = reader.load_catalog()
+	if catalog.get("ok", false):
+		status_label.text = "M2 CATALOG: %d indexed / 0 certified — cards locked" % int(catalog["index_count"])
+	else:
+		status_label.text = "M2 CATALOG BLOCKED: " + str(catalog.get("error", "UNKNOWN"))
 
 func _label(value: String, size: int = 16, tint: Color = WHITE) -> Label:
 	var label := Label.new()

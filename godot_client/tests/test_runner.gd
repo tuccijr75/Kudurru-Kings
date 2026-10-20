@@ -78,3 +78,15 @@ func _test_all() -> void:
 	_check(Deck.validate([invalid_ultra])["errors"].has("ULTRA_IDENTITY"), "only Anu/Adamu Ultra")
 	var main: PackedScene = load("res://scenes/main.tscn")
 	_check(main != null and main.can_instantiate(), "main board scene loads")
+
+	var catalog_script: Script = load("res://scripts/catalog_reader.gd")
+	var indexed: Dictionary = catalog_script.load_catalog()
+	_check(indexed["ok"], "source-derived catalog readable")
+	if indexed["ok"]:
+		_check(indexed["index_count"] == 754, "all 754 source records imported")
+		_check(int(indexed["data"]["playable_count"]) == 0, "uncertified cards cannot be played")
+		_check(indexed["data"]["source_slug_collisions"].size() == 2, "two inherited slug collisions tracked")
+		_check(indexed["data"]["faction_conflicts_corrected_for_display"].size() == 4, "four explicit EOE conflicts displayed")
+		var drowning: Dictionary = catalog_script.find_by_id(indexed, "686")
+		_check(drowning.get("display_faction") == "UnderwellKeepers", "EOE authority wins display alignment")
+		_check(drowning.get("source_faction") == "FloodbornPact", "original migrated record preserved")
