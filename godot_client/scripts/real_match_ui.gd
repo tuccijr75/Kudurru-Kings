@@ -4,6 +4,7 @@ const Match = preload("res://scripts/match_integrator.gd")
 const Rules = preload("res://scripts/game_rules.gd")
 const Source = preload("res://scripts/real_effects.gd")
 const Storage = preload("res://scripts/match_storage.gd")
+const Decks = preload("res://scripts/deck_registry.gd")
 var state: Dictionary = {}
 var headline: Label
 var scoreboard: Label
@@ -20,6 +21,8 @@ var hand_scroll: ScrollContainer
 var player_faction_pick: OptionButton
 var enemy_faction_pick: OptionButton
 var edict_target_select: OptionButton
+var saved_deck_pick: OptionButton
+var saved_deck_names: Array = []
 
 func _label(parent: Node, title: String, size: int = 16) -> Label:
 	var l := Label.new()
@@ -78,6 +81,17 @@ func _build() -> void:
 	enemy_faction_pick.select(3)
 	setup_bar.add_child(enemy_faction_pick)
 	_button(setup_bar,"NEW GAME WITH SELECTED FACTIONS",_restart)
+	var deck_bar:=HBoxContainer.new()
+	deck_bar.add_theme_constant_override("separation",12)
+	root.add_child(deck_bar)
+	_label(deck_bar,"Your 36-card deck:",14)
+	saved_deck_pick=OptionButton.new()
+	saved_deck_pick.custom_minimum_size.x=365
+	deck_bar.add_child(saved_deck_pick)
+	_button(deck_bar,"REFRESH SAVED DECKS",_refresh_saved_decks)
+	_button(deck_bar,"OPEN 754-CARD DECK BUILDER",
+		func():get_tree().change_scene_to_file("res://scenes/deck_builder.tscn"))
+	_refresh_saved_decks()
 	headline = _label(root,"",20)
 	scoreboard = _label(root,"",16)
 	var columns := HBoxContainer.new()
@@ -134,9 +148,38 @@ func _build() -> void:
 	_button(bar,"CONTINUE SAVED GAME",_load_game)
 	status = _label(root,"One complete pregame choice per seat. Opponent runs deterministic legal-action AI.",15)
 
+func _refresh_saved_decks()->void:
+	if saved_deck_pick==null:return
+	var prior:String=""
+	if saved_deck_pick.item_count>0 and saved_deck_pick.selected>=0:
+		prior=str(saved_deck_names[saved_deck_pick.selected])
+	saved_deck_pick.clear()
+	saved_deck_names=[""]
+	saved_deck_pick.add_item("AUTO SOURCE-VERIFIED STARTER")
+	for name in Decks.names():
+		var report:Dictionary=Decks.load(str(name))
+		if not report.get("ok",false):continue
+		saved_deck_names.append(name)
+		saved_deck_pick.add_item(str(name)+(
+			" ? PREVIEW READY" if report["report"]["effect_ready"] else " ? DESIGN ONLY"))
+	var select_index:int=saved_deck_names.find(prior)
+	saved_deck_pick.select(select_index if select_index>=0 else 0)
+
 func _restart() -> void:
+	var decks:Array=[]
+	if saved_deck_pick.selected>0:
+		var deck_name:String=str(saved_deck_names[saved_deck_pick.selected])
+		var found:Dictionary=Decks.load(deck_name)
+		if not found.get("ok",false):
+			status.text="CUSTOM DECK INVALID: "+str(found.get("error","UNKNOWN"))
+			return
+		if not bool(found["report"]["effect_ready"]):
+			status.text="This is a legal Standard deck, but some card effects are not implemented for match preview."
+			return
+		decks=[found["ids"],[]]
 	var built: Dictionary = Match.create(int(state["seed"])+1,
-		Match.FACTIONS[player_faction_pick.selected],Match.FACTIONS[enemy_faction_pick.selected])
+		Match.FACTIONS[player_faction_pick.selected],Match.FACTIONS[enemy_faction_pick.selected],
+		decks)
 	if not built["ok"]:
 		status.text = "NEW MATCH BLOCKED"
 		return

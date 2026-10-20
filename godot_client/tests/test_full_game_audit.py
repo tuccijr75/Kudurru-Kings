@@ -39,12 +39,12 @@ class TestM7Completion(unittest.TestCase):
   self.assertFalse(self.audit["full_standard_releasable"])
   self.assertFalse(self.audit["multiplayer_releasable"])
   self.assertTrue(self.audit["candidate_local_match_available"])
-  self.assertEqual(5,self.audit["passed_gate_count"])
+  self.assertEqual(6,self.audit["passed_gate_count"])
   self.assertEqual(11,self.audit["in_progress_gate_count"])
   self.assertEqual(6,self.audit["blocked_gate_count"])
- def test_all_22_domain_criteria_present(self):
+ def test_all_23_domain_criteria_present(self):
   domains=self.audit["production_game_gates"]
-  self.assertEqual(22,len(domains))
+  self.assertEqual(23,len(domains))
   for name,data in domains.items():
    self.assertIn(data["status"],("PASS","IN_PROGRESS","BLOCKED"),name)
    self.assertGreater(len(data["remaining"]),20,name)

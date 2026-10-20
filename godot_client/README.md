@@ -1,3 +1,7 @@
+# Kudurru Kings M10 ? Real 754-Card Deck Builder
+
+The main board includes BUILD A DECK (754 REAL CARDS). Construct, validate, save and reload full-source card lists, then select a source-verified candidate deck in PLAY REAL-CARD MATCH (PREVIEW). Unsupported effects are explicitly design-only and never substituted. See docs/M10_DECK_BUILDER_RELEASE_BOUNDARIES.md and run tools/run_m10_quality_gate.ps1. Full 754-card Standard is still not production-ready.
+
 # Kudurru Kings M9 ? Production Systems (NOT FINAL RELEASE)
 
 M9 adds a real Windows x64 export preset, source-pinned jurisdiction and candidate capture validation, a transactional server collection ledger, and a real two-client localhost-only server-authoritative preview. These DO NOT complete the full 754-card game, four-seat WAN multiplayer or art certification. See docs/M9_PRODUCTION_SYSTEMS_STATUS.md and run tools/run_m9_quality_gate.ps1.

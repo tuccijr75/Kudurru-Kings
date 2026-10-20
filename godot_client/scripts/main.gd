@@ -170,6 +170,10 @@ func _build_screen() -> void:
 	candidate_match_button.text = "PLAY REAL-CARD MATCH (PREVIEW)"
 	candidate_match_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/real_match.tscn"))
 	legend.add_child(candidate_match_button)
+	var deck_builder_button := Button.new()
+	deck_builder_button.text = "BUILD A DECK (754 REAL CARDS)"
+	deck_builder_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/deck_builder.tscn"))
+	legend.add_child(deck_builder_button)
 
 func _seat_text(index: int) -> String:
 	var p: Dictionary = state["players"][index]

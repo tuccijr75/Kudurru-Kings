@@ -7,6 +7,7 @@ const Adj = preload("res://scripts/adjacency_rule.gd")
 const Rules = preload("res://scripts/game_rules.gd")
 const Costs = preload("res://scripts/cost_rules.gd")
 const Deck = preload("res://scripts/deck_validator.gd")
+const DeckRegistry = preload("res://scripts/deck_registry.gd")
 const Combat = preload("res://scripts/real_combat_core.gd")
 const Edicts = preload("res://scripts/match_edicts.gd")
 const MODE := "M7_REAL_MATCH_CANDIDATE"
@@ -87,14 +88,24 @@ static func _draw(p: Dictionary) -> void:
 		p["hand"].append(p["deck"].pop_back())
 
 static func create(seed_value: int = 20261020, player_faction: String = "BorderstoneGuild",
-		opponent_faction: String = "UnderwellKeepers") -> Dictionary:
+		opponent_faction: String = "UnderwellKeepers", custom_decks: Array = []) -> Dictionary:
 	if seed_value < 0: return error("BAD_SEED")
 	if not FACTIONS.has(player_faction) or not FACTIONS.has(opponent_faction):
 		return error("UNKNOWN_FACTION")
 	var factions := [player_faction,opponent_faction]
+	if not custom_decks.is_empty() and custom_decks.size()!=2:
+		return error("TWO_SEAT_DECKLIST_SCOPE_REQUIRED")
 	var players: Array = []
+	var initial_ids: Array = []
 	for seat in range(2):
 		var deck: Array = _deck(factions[seat])
+		if custom_decks.size()==2 and typeof(custom_decks[seat])==TYPE_ARRAY and not custom_decks[seat].is_empty():
+			var checked: Dictionary = DeckRegistry.validate_ids(custom_decks[seat],true)
+			if not checked.get("ok",false): return error("CANDIDATE_CUSTOM_DECK_INVALID")
+			deck = checked["cards"]
+		var id_list: Array = []
+		for card in deck:id_list.append(str(card["card_id"]))
+		initial_ids.append(id_list)
 		if deck.size() != 36 or not Deck.validate(deck)["legal"]:
 			return error("CANDIDATE_DECK_INVALID")
 		var p: Dictionary = {"seat": seat, "name": "Player" if seat == 0 else "Opponent",
@@ -104,7 +115,7 @@ static func create(seed_value: int = 20261020, player_faction: String = "Borders
 		_draw(p)
 		players.append(p)
 	return {"ok": true, "state": {"mode": MODE, "scenario": SCENARIO,
-		"source_catalog": "real_cards_v1", "seed": seed_value,
+		"source_catalog": "real_cards_v1", "seed": seed_value, "initial_deck_ids": initial_ids,
 		"round": 1, "seat": 0, "phase": 0, "revision": 0,
 		"players": players, "units": [], "sites": [], "attachments": [],
 		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {},

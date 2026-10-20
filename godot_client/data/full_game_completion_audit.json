@@ -10,6 +10,7 @@
     "Relic": 15,
     "Site": 15
   },
+  "candidate_custom_decks_checked": true,
   "candidate_faction_pairings": 25,
   "candidate_local_match_available": true,
   "candidate_scenario": "Warfield Ascendancy (uncertified variant)",
@@ -7672,7 +7673,7 @@
   "in_progress_gate_count": 11,
   "master_sha256": "1830d6080c70838b656c84163ebbfba2177898200c6106c9778530625d009059",
   "multiplayer_releasable": false,
-  "passed_gate_count": 5,
+  "passed_gate_count": 6,
   "production_game_gates": {
     "arbitration": {
       "remaining": "Sealed bids + Seize implemented in isolated lab; Suppress, Corrupt and Injunctions blocked.",
@@ -7754,6 +7755,10 @@
       "remaining": "All 754 genuine card IDs and original printed rules are source hashed.",
       "status": "PASS"
     },
+    "source_deck_builder": {
+      "remaining": "M10 754-card searchable source deck builder validates Standard composition, pure/mixed factions, all copy limits, immutable IDs, save/load and quarantined unsupported effects.",
+      "status": "PASS"
+    },
     "turn_setup_decks": {
       "remaining": "M7 candidate uses two player-specific legal 36-card decks and pre-match choices; full deck builder and all player counts pending.",
       "status": "IN_PROGRESS"
@@ -7764,6 +7769,7 @@
     }
   },
   "schema": "kudurru_full_game_completion_audit_v1",
+  "source_754_deck_editor_enabled": true,
   "source_card_count": 754,
   "source_coverage_count": 754,
   "source_migration_term_counts": {

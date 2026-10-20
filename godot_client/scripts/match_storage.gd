@@ -62,8 +62,13 @@ static func _validate(s: Dictionary) -> Dictionary:
 static func replay(saved_state: Dictionary) -> Dictionary:
 	var validation: Dictionary = _validate(saved_state)
 	if not validation["ok"]: return validation
+	var custom_decks: Array = saved_state.get("initial_deck_ids", [])
+	if not custom_decks.is_empty():
+		if custom_decks.size()!=2 or typeof(custom_decks[0])!=TYPE_ARRAY or typeof(custom_decks[1])!=TYPE_ARRAY:
+			return _bad("SAVE_INITIAL_DECKS_INVALID")
 	var setup: Dictionary = Match.create(int(saved_state["seed"]),
-		str(saved_state["players"][0]["faction"]), str(saved_state["players"][1]["faction"]))
+		str(saved_state["players"][0]["faction"]), str(saved_state["players"][1]["faction"]),
+		custom_decks)
 	if not setup.get("ok",false): return _bad("REPLAY_SETUP_FAILED")
 	var current: Dictionary = setup["state"]
 	var actions: Array = saved_state["action_log"]
