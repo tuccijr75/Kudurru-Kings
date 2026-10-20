@@ -3,20 +3,26 @@ extends RefCounted
 ## Not a production match reducer. All unsupported effects fail closed.
 const Costs = preload("res://scripts/cost_rules.gd")
 const PATH := "res://data/real_cards_v1.json"
+static var _catalog_cache: Dictionary = {}
+static var _catalog_index: Dictionary = {}
 const SUPPORTED := ["180", "184", "185", "187", "189", "191", "193", "199", "206", "207", "214", "216"]
 
 static func _error(code: String) -> Dictionary:
 	return {"ok": false, "error": code}
 
 static func catalog() -> Dictionary:
+	if not _catalog_cache.is_empty(): return _catalog_cache
 	var raw: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
 	if typeof(raw) != TYPE_DICTIONARY: return {}
 	if raw.get("schema") != "kudurru_real_cards_v1": return {}
 	if int(raw.get("record_count", -1)) != 754 or int(raw.get("production_playable_count", -1)) != 0:
 		return {}
-	return raw
+	_catalog_cache = raw
+	for c in raw["cards"]: _catalog_index[str(c["card_id"])] = c
+	return _catalog_cache
 
 static func find_card(cards: Dictionary, id: String) -> Dictionary:
+	if _catalog_index.has(id): return _catalog_index[id]
 	for c in cards.get("cards", []):
 		if c["card_id"] == id: return c
 	return {}

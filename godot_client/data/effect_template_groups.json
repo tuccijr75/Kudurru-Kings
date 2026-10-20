@@ -1,0 +1,1728 @@
+{
+  "schema": "kudurru_effect_grouping_v1",
+  "template_count": 121,
+  "templates": [
+    {
+      "card_ids": [
+        "270",
+        "271",
+        "272",
+        "273",
+        "274",
+        "275",
+        "276",
+        "277",
+        "278",
+        "279",
+        "280",
+        "281",
+        "282",
+        "283",
+        "284",
+        "285",
+        "286",
+        "287",
+        "288",
+        "289",
+        "290",
+        "291",
+        "292",
+        "293",
+        "294",
+        "295",
+        "296",
+        "297",
+        "298",
+        "299",
+        "300",
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "324",
+        "325",
+        "326",
+        "327",
+        "328",
+        "329",
+        "330",
+        "331",
+        "332",
+        "333",
+        "334",
+        "335",
+        "336",
+        "337",
+        "338",
+        "339",
+        "340",
+        "341",
+        "342",
+        "343",
+        "344",
+        "345",
+        "346",
+        "347",
+        "348",
+        "349",
+        "350",
+        "351",
+        "352",
+        "353",
+        "354",
+        "355",
+        "356",
+        "357",
+        "358",
+        "359",
+        "360",
+        "361",
+        "362",
+        "363",
+        "364",
+        "365",
+        "366",
+        "367",
+        "368",
+        "369",
+        "370",
+        "371",
+        "372",
+        "373",
+        "374",
+        "375",
+        "376",
+        "377",
+        "378",
+        "379",
+        "380",
+        "381",
+        "382",
+        "383",
+        "384",
+        "385",
+        "387",
+        "388",
+        "389",
+        "397",
+        "407",
+        "409",
+        "411",
+        "413",
+        "418",
+        "421",
+        "423",
+        "426",
+        "431",
+        "432",
+        "435",
+        "440",
+        "442",
+        "444",
+        "455",
+        "465",
+        "468",
+        "469",
+        "470",
+        "471",
+        "472",
+        "473",
+        "474",
+        "475",
+        "476",
+        "477",
+        "478",
+        "479",
+        "480",
+        "481",
+        "482",
+        "483",
+        "484",
+        "485",
+        "486",
+        "487",
+        "488",
+        "489",
+        "490",
+        "491",
+        "492",
+        "493",
+        "494",
+        "495",
+        "496",
+        "497",
+        "498",
+        "499",
+        "500",
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "507",
+        "508",
+        "509",
+        "510",
+        "511",
+        "512",
+        "513",
+        "514",
+        "515",
+        "516",
+        "517",
+        "518",
+        "519",
+        "520",
+        "521",
+        "522",
+        "523",
+        "524",
+        "525",
+        "526",
+        "527",
+        "528",
+        "529",
+        "530",
+        "531",
+        "532",
+        "533",
+        "534",
+        "535",
+        "536",
+        "537",
+        "538",
+        "539",
+        "540",
+        "541",
+        "542",
+        "543",
+        "544",
+        "545",
+        "546",
+        "547",
+        "548",
+        "549",
+        "550",
+        "551",
+        "552",
+        "553",
+        "554",
+        "555",
+        "556",
+        "557",
+        "558",
+        "559",
+        "560",
+        "561",
+        "562",
+        "563",
+        "564",
+        "565",
+        "566",
+        "567",
+        "568",
+        "569",
+        "570",
+        "571",
+        "572",
+        "573",
+        "574",
+        "575",
+        "576",
+        "577",
+        "578",
+        "579",
+        "580",
+        "581",
+        "582",
+        "583",
+        "584",
+        "585",
+        "586",
+        "587",
+        "588",
+        "589",
+        "590",
+        "591",
+        "592",
+        "593",
+        "594",
+        "595",
+        "596",
+        "597",
+        "598",
+        "599",
+        "600",
+        "601",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "607",
+        "608",
+        "609",
+        "610",
+        "611",
+        "612",
+        "613",
+        "614",
+        "615",
+        "616",
+        "617",
+        "618",
+        "619",
+        "620",
+        "621",
+        "622",
+        "623",
+        "624",
+        "625",
+        "626",
+        "627",
+        "628",
+        "629",
+        "630",
+        "631",
+        "632",
+        "633",
+        "634",
+        "635",
+        "636",
+        "637",
+        "638",
+        "639",
+        "640",
+        "641",
+        "642",
+        "643",
+        "644",
+        "645",
+        "646",
+        "647",
+        "648",
+        "649",
+        "650",
+        "651",
+        "652",
+        "653",
+        "654",
+        "655",
+        "656",
+        "657",
+        "658",
+        "659",
+        "660",
+        "661",
+        "662",
+        "663",
+        "664",
+        "665",
+        "666",
+        "667",
+        "668",
+        "669",
+        "670",
+        "671",
+        "672",
+        "673",
+        "674",
+        "675",
+        "676",
+        "677",
+        "678",
+        "679",
+        "680",
+        "681",
+        "682",
+        "683",
+        "684",
+        "685",
+        "686",
+        "687",
+        "688",
+        "689",
+        "690",
+        "691",
+        "692",
+        "693",
+        "694",
+        "695",
+        "696",
+        "697",
+        "698",
+        "699",
+        "700",
+        "701",
+        "702",
+        "703",
+        "704",
+        "705",
+        "706",
+        "707",
+        "708",
+        "709",
+        "710",
+        "711",
+        "712",
+        "713",
+        "714",
+        "715",
+        "716",
+        "717",
+        "718",
+        "719",
+        "720",
+        "721",
+        "722",
+        "723",
+        "724",
+        "725",
+        "726",
+        "727",
+        "728",
+        "729",
+        "730",
+        "731",
+        "732",
+        "733",
+        "734",
+        "735",
+        "736",
+        "737",
+        "738",
+        "739",
+        "740",
+        "741",
+        "742",
+        "743",
+        "744",
+        "745",
+        "746",
+        "747",
+        "748",
+        "749",
+        "750",
+        "751",
+        "752",
+        "753",
+        "754"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Checks get +<N> when adjacent to an ally.",
+      "source_card_count": 423,
+      "template_sha256": "8b18fcf74f7677a9edda845ca9d8dfc9611f4952c726a5d1c2ec6bc2c73b7fa1"
+    },
+    {
+      "card_ids": [
+        "395",
+        "396",
+        "398",
+        "400",
+        "401",
+        "402",
+        "403",
+        "406",
+        "408",
+        "410",
+        "414",
+        "416",
+        "424",
+        "428",
+        "429",
+        "438",
+        "439",
+        "441",
+        "443",
+        "447",
+        "448",
+        "452",
+        "453",
+        "456",
+        "457",
+        "458",
+        "459",
+        "460",
+        "461",
+        "462",
+        "463",
+        "466"
+      ],
+      "family": "Character",
+      "normalized_pattern": "End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 32,
+      "template_sha256": "8962fa3eb48658c7c335cd1f3432a5b558b136ef718dc436f1d6180de721ce60"
+    },
+    {
+      "card_ids": [
+        "17",
+        "20",
+        "22",
+        "25",
+        "46",
+        "53",
+        "59",
+        "71",
+        "79",
+        "85",
+        "90",
+        "94",
+        "114",
+        "115",
+        "116",
+        "118",
+        "124",
+        "137",
+        "143",
+        "157",
+        "159",
+        "164",
+        "167",
+        "169",
+        "176"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 25,
+      "template_sha256": "730be6b65eac62b78e9b8d7739c4d8b2013e4da2ec30eb3270c08e3b0f7e56e8"
+    },
+    {
+      "card_ids": [
+        "24",
+        "29",
+        "56",
+        "61",
+        "74",
+        "78",
+        "81",
+        "84",
+        "86",
+        "107",
+        "109",
+        "111",
+        "120",
+        "125",
+        "136",
+        "152",
+        "171",
+        "177"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Shrouded on entry; adjacent enemies −<N> accuracy; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 18,
+      "template_sha256": "256dca11b1b26a6befc4a148632c7f512a815aabe0f6dba28354ccb14350ae30"
+    },
+    {
+      "card_ids": [
+        "16",
+        "30",
+        "33",
+        "41",
+        "45",
+        "70",
+        "75",
+        "76",
+        "83",
+        "89",
+        "100",
+        "102",
+        "108",
+        "117",
+        "139",
+        "145",
+        "151"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 17,
+      "template_sha256": "0f9d3e9c61425eb8188696d0f3d4b557857ff93de8e88d8a2897c0de2b5ea3a5"
+    },
+    {
+      "card_ids": [
+        "27",
+        "40",
+        "43",
+        "51",
+        "60",
+        "66",
+        "69",
+        "96",
+        "97",
+        "106",
+        "129",
+        "131",
+        "138",
+        "147",
+        "148",
+        "172",
+        "173"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Shrouded on entry; adjacent enemies −<N> accuracy; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 17,
+      "template_sha256": "222699ccb44812d9413f76bb8c0fda9bf5d6f00cfb4518422da425927444c796"
+    },
+    {
+      "card_ids": [
+        "18",
+        "19",
+        "21",
+        "42",
+        "49",
+        "50",
+        "67",
+        "87",
+        "99",
+        "128",
+        "133",
+        "134",
+        "140",
+        "160"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 14,
+      "template_sha256": "4a178be7082bd4e5c16aa1bd90c7e780d8f458b96f37f408f49ce2709668a75b"
+    },
+    {
+      "card_ids": [
+        "23",
+        "32",
+        "39",
+        "44",
+        "47",
+        "54",
+        "62",
+        "64",
+        "98",
+        "104",
+        "110",
+        "113",
+        "130",
+        "142"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Allies within <N> tile gain +<N> Guard this round; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 14,
+      "template_sha256": "e807a8e5ddf7db84107eb67d0b3cfebb2a928631f55adeaaa7183eec01e8e192"
+    },
+    {
+      "card_ids": [
+        "26",
+        "35",
+        "63",
+        "72",
+        "93",
+        "121",
+        "132",
+        "135",
+        "144",
+        "146",
+        "149",
+        "150"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 12,
+      "template_sha256": "50ea0ca8be7b514bf1d02048e2856c0ed41c93eb0dd034f0adb82f0bfe98c06f"
+    },
+    {
+      "card_ids": [
+        "38",
+        "48",
+        "55",
+        "57",
+        "65",
+        "68",
+        "91",
+        "95",
+        "101",
+        "103",
+        "122",
+        "174"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Acts early; +<N> range on the opening turn; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 12,
+      "template_sha256": "966d9f987d9ad2e91334a46c86dc98bd0e419714ba9d2f10cdddc4971bf5f1c0"
+    },
+    {
+      "card_ids": [
+        "28",
+        "31",
+        "37",
+        "52",
+        "58",
+        "73",
+        "82",
+        "112",
+        "126",
+        "127",
+        "175"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 11,
+      "template_sha256": "b47696f7c7fefd185e796e8ecf137a97337063b7c73dc4329c52f3d1bd56d47b"
+    },
+    {
+      "card_ids": [
+        "34",
+        "77",
+        "80",
+        "88",
+        "92",
+        "105",
+        "119",
+        "123",
+        "141",
+        "153",
+        "170"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 11,
+      "template_sha256": "b7dec7f3e2e35c3d4797bf1bf2df481353f01259c699478cc4921b4e44c97333"
+    },
+    {
+      "card_ids": [
+        "267",
+        "268",
+        "386",
+        "394",
+        "412",
+        "419",
+        "420",
+        "467"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 8,
+      "template_sha256": "549c09e1f1b7ed9dcb676615f7d5a6809471ddc1ee6bdb6d285d15bfd87ec780"
+    },
+    {
+      "card_ids": [
+        "257",
+        "264",
+        "390",
+        "404",
+        "425",
+        "450",
+        "454",
+        "464"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 8,
+      "template_sha256": "8d9f8284a709eb43e6b4bc41d63cb25d02351025456772aaccd580fce603ec56"
+    },
+    {
+      "card_ids": [
+        "269",
+        "391",
+        "392",
+        "393",
+        "405",
+        "415",
+        "437",
+        "446"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 8,
+      "template_sha256": "eedfe8fc94994f50cc985a03d8cc5b32791b877d12e1a37920dd1fb5df0c39b5"
+    },
+    {
+      "card_ids": [
+        "156",
+        "158",
+        "161",
+        "163",
+        "165",
+        "166",
+        "178"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 7,
+      "template_sha256": "8227bf55d3fc34e11954ef3245b2a34919f027afa6c6352920f83094b7ea5311"
+    },
+    {
+      "card_ids": [
+        "260",
+        "422",
+        "427",
+        "430",
+        "433",
+        "434"
+      ],
+      "family": "Character",
+      "normalized_pattern": "On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 6,
+      "template_sha256": "07f40f81e68907729bd9ea3d8931e7debbbfe099e3fc858f537b42f0ecb37baf"
+    },
+    {
+      "card_ids": [
+        "262",
+        "265",
+        "436"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Allies within <N> tile gain +<N> Guard this round; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 3,
+      "template_sha256": "36ee86b6334a74fedb1341a4f9a545ce1d62fe8884fc6f569d375e5a5c4be284"
+    },
+    {
+      "card_ids": [
+        "154",
+        "179"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 2,
+      "template_sha256": "39d693c6a7ad183914214e98c2256a30ea4b7650c0e2510f3e2f832139c141bb"
+    },
+    {
+      "card_ids": [
+        "417",
+        "445"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 2,
+      "template_sha256": "4b04b74c2bb4cfc93efec3ae0648d6c5b277f654d603d39811de5a6fd97af9db"
+    },
+    {
+      "card_ids": [
+        "261",
+        "263"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 2,
+      "template_sha256": "5ae7d827fabdb98d6da507c1d9d898f25ff72a432ef4f38c3ee538fd8e4b9f80"
+    },
+    {
+      "card_ids": [
+        "256",
+        "449"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Shrouded on entry; adjacent enemies −<N> accuracy; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 2,
+      "template_sha256": "a121fedd01422e7de13fb7de867e96c29fbc2d9661b366a213b9fdd0901cfa64"
+    },
+    {
+      "card_ids": [
+        "399",
+        "451"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; Shrouded on entry; adjacent enemies −<N> accuracy; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 2,
+      "template_sha256": "bd9e6a54f12a82f9d9e801b5b2a0e0ee67151eeb31045421f470405c62337a30"
+    },
+    {
+      "card_ids": [
+        "162"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "0a9f26c6b624ce5be639363c4d47746e5be974f4cc54aa4a2ac39d08736188bb"
+    },
+    {
+      "card_ids": [
+        "36"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Acts before all others. Attacks strike all foes simultaneously. Reduces enemy morale by <N> permanently.\nRuler of the Specular Crown. Anu embodies divine entropy; his attacks reduce enemy initiative by half and permanently lower morale of defeated foes.\nWhen attacking, this unit strikes all opponents simultaneously. Damage dealt ignores guard and cannot be countered. Enemies that fall before him lose <N> morale permanently.",
+      "source_card_count": 1,
+      "template_sha256": "1652c4cef42b5ba285e600864aef989bd82c94d3cefc9f2b795649f2a6b06b79"
+    },
+    {
+      "card_ids": [
+        "168"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "f17d831c6af209b2f5705116c3db6ffb33aae3eca5dba6c0632c59bc5ae3097d"
+    },
+    {
+      "card_ids": [
+        "155"
+      ],
+      "family": "Boss",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "f998d8c8694d934b3b88a39f0fc15c39c3eaa1475381c463076dae13c3bfda53"
+    },
+    {
+      "card_ids": [
+        "266"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Acts early; +<N> range on the opening turn; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "4d0f49492765d077caed7e72645a698f355acc0d7598de42c5d2739116fd9f73"
+    },
+    {
+      "card_ids": [
+        "259"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Acts early; +<N> range on the opening turn; On attack, peek the top of an enemy deck; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "67c4d9a8bb0efed99fefdb29f89bf2acdf54a14c6232d34f5445f914e6c2ef91"
+    },
+    {
+      "card_ids": [
+        "255"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Always acts first in combat. Reflects <N>% damage. Cannot be stunned or delayed.\nBearer of the First Flame. Adamu channels divine equilibrium; when attacked, he restores <N> health to all allied units and reflects <N>% damage to attackers.\nWhen defending, this unit negates the first two attacks each round. Allied units within two tiles gain +<N> to morale and +<N> to all checks this turn.",
+      "source_card_count": 1,
+      "template_sha256": "ae212d36c3f0ec73f176ab680603f9f6350f1652d79fab9c9001cd25f81349f9"
+    },
+    {
+      "card_ids": [
+        "258"
+      ],
+      "family": "Character",
+      "normalized_pattern": "Reduces first incoming hit by <N>%; Allies within <N> tile gain +<N> Guard this round; End step: pay <N> supply or take <N> recoil.",
+      "source_card_count": 1,
+      "template_sha256": "d44fea82c65bb43d8d968e6ad22b9a8ef0933c511294befafb0cbdcc8adc26fb"
+    },
+    {
+      "card_ids": [
+        "186"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Displace up to two units from the same Field.",
+      "source_card_count": 1,
+      "template_sha256": "1381a7559e7acc79075f8f9591b1552d1d368f6cef0986bb7d6460976c96b9bb"
+    },
+    {
+      "card_ids": [
+        "181"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Deal <N> Wound to all units inside a Warfield.",
+      "source_card_count": 1,
+      "template_sha256": "277c35ea537a04503951a677ea2824fc56e4103a975ddd82cefddd100391ec97"
+    },
+    {
+      "card_ids": [
+        "183"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Expose a Hidden Line or set card, then draw <N>.",
+      "source_card_count": 1,
+      "template_sha256": "2b62d1b696600a06495a390372eefb49678d59168d02aae4d4e0d702f9579009"
+    },
+    {
+      "card_ids": [
+        "182"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Each opponent with Heat <N> or more chooses: discard a card, exhaust a unit, or lose <N> Oath.",
+      "source_card_count": 1,
+      "template_sha256": "32947a7e320d3c679fee42af1c265ed6582cb312c9d5a88d8729093e924da18f"
+    },
+    {
+      "card_ids": [
+        "184"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Choose a Downed unit. It cannot be saved or readied this round.",
+      "source_card_count": 1,
+      "template_sha256": "4cbafeaf4b8fef2273d586db2965ce55ba952fb77d5de50ddc35d54e92e0ae6d"
+    },
+    {
+      "card_ids": [
+        "190"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Target a player with Audit Heat ≥ <N>. They must either discard a Name or place Silence on a unit.",
+      "source_card_count": 1,
+      "template_sha256": "4e9a83e431bb500b739fc5f0af60a963ddd456bd852df30628413ad560d03052"
+    },
+    {
+      "card_ids": [
+        "185"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Exhaust target Relic or Site until its controller's next Upkeep.",
+      "source_card_count": 1,
+      "template_sha256": "71bb9bead124031d5e9e4f25d794a9b3785d9f2bdd67c1501e09dea3aa5cf554"
+    },
+    {
+      "card_ids": [
+        "192"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "End one Engagement immediately. Both units gain Stagger.",
+      "source_card_count": 1,
+      "template_sha256": "751af0e9dfd75921a00da09d775621f1beb7877ce724f0b20d6bf416f5275ef7"
+    },
+    {
+      "card_ids": [
+        "188"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Clear Silence and one Wound from a friendly Character.",
+      "source_card_count": 1,
+      "template_sha256": "8b288e90e81445ec3029527332022ccd6717b8424760c8f02379169adf7f7721"
+    },
+    {
+      "card_ids": [
+        "180"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Remove all Cracks from one friendly Boss or Name; lower your Heat by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "8c93928e66c9acfbec4c5291b6e568585c5e7a7fe71b32c3252f0c96f10f626e"
+    },
+    {
+      "card_ids": [
+        "189"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Until your next turn, Oath Upkeep costs <N> less for all your cards.",
+      "source_card_count": 1,
+      "template_sha256": "a23b43e7ae28d972094201403ada630c2cbf5eaa7cd498d5ff07f270a92f6d23"
+    },
+    {
+      "card_ids": [
+        "187"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Play during End step. Draw <N>, then discard <N> and raise Heat by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "a735e2a3f9837268f721f564ffd1d8e9674e80f4bfb47a6c03d62295e7aba7a7"
+    },
+    {
+      "card_ids": [
+        "191"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Choose two players. Until your next turn, they cannot declare Engagements against each other. Lower both players' Heat by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "bcdb9ebbbc1137a65ec7d15fb1c5b5a8fcac33a9097b2bd1c29d515c2c0a0898"
+    },
+    {
+      "card_ids": [
+        "193"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Ready one exhausted unit. It cannot support this round.",
+      "source_card_count": 1,
+      "template_sha256": "beea06a94aacb9c7461b4e753c959b54c0715897ea745d955f0b28cfd42986fe"
+    },
+    {
+      "card_ids": [
+        "194"
+      ],
+      "family": "Edict",
+      "normalized_pattern": "Choose a player who crossed your Line this turn. They lose <N> Oath or you gain <N> Temper on a Relic.",
+      "source_card_count": 1,
+      "template_sha256": "d969d814b540f5f5d03a7a77817be7b5abb189d2b33f3e6bcd18c9db9af64678"
+    },
+    {
+      "card_ids": [
+        "11"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Once per round, win ties on Oath or Eye Tests.",
+      "source_card_count": 1,
+      "template_sha256": "087c9668d6cf5905555cd909f62023807e64378af39e6393a3ca24f6a20985b2"
+    },
+    {
+      "card_ids": [
+        "10"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Friendly Edicts cost <N> less this round and next.",
+      "source_card_count": 1,
+      "template_sha256": "1382c3a46cc7d85e6ee9fd20956bae822008b53000c876015d8ffc30115917d8"
+    },
+    {
+      "card_ids": [
+        "6"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. The first friendly Wind or Eye Test each round gains +<N>.",
+      "source_card_count": 1,
+      "template_sha256": "1a1f58f794a8df64fdc9ea83d03dfdfa05d32405f3218c35fb8121d22e035f8f"
+    },
+    {
+      "card_ids": [
+        "15"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. After a friendly Displace, you may move the same unit into another friendly Field.",
+      "source_card_count": 1,
+      "template_sha256": "2166159d545f7dca9fb89ae737a2beef7f60a1ac3aefc63c3967185684922471"
+    },
+    {
+      "card_ids": [
+        "4"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. When you win a Wind Test, Steal Charge and raise opponent's Audit Heat +<N>.",
+      "source_card_count": 1,
+      "template_sha256": "23dae03a059df334a1ef9ccefc75a323f784a06e0d251eb7a3c664d86ca9ebfb"
+    },
+    {
+      "card_ids": [
+        "3"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Once per round, copy one friendly Name, Site, or Relic text until end of turn.",
+      "source_card_count": 1,
+      "template_sha256": "523bc4840c8d22b5b5302bf65e61efee1d15a07ffd470aa50bfa706dd87ec59d"
+    },
+    {
+      "card_ids": [
+        "8"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. When an enemy Falls Silent, you may draw <N>.",
+      "source_card_count": 1,
+      "template_sha256": "580643b8410b7d6212358b9f79b221a723bff5ca5dd1f758b4e11f7afc773f6e"
+    },
+    {
+      "card_ids": [
+        "5"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Enemy Names gain +<N> Swap Risk while this is active.",
+      "source_card_count": 1,
+      "template_sha256": "5e1df6bba87da5085a4248ed03eff83a45e0410ee807437ecd7c526f2804bca8"
+    },
+    {
+      "card_ids": [
+        "12"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Once per round, move one friendly unit between Fields without triggering Geas.",
+      "source_card_count": 1,
+      "template_sha256": "6659f2030502a9519a539967877588df9985b6f336085f084034ebb10648b7ca"
+    },
+    {
+      "card_ids": [
+        "2"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Friendly Stone Tests gain +<N>; after you win one, Displace the loser.",
+      "source_card_count": 1,
+      "template_sha256": "722d5471bebd05084a1d6f45872009f0a7635db919c5549e0999b684b07de3b8"
+    },
+    {
+      "card_ids": [
+        "1"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke Oath <N> + Sigil <N> (<N> Rounds). Once per round, cancel Displace or Steal Charge against your units. Your Sanctuary Field gains Hidden Line.",
+      "source_card_count": 1,
+      "template_sha256": "c467d4b3ce045f2a3735a8bfad9584eeb07d44cc2a3555740b5254a2e13e101e"
+    },
+    {
+      "card_ids": [
+        "7"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. After you win an Oath or Eye Test, place Bind on a Downed unit without extra cost.",
+      "source_card_count": 1,
+      "template_sha256": "cffcd0a2a541879f97021477f846a4f8e1933e60e166188efbe462c07a8f9198"
+    },
+    {
+      "card_ids": [
+        "9"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Once per round, deal <N> Wound to a unit that crossed your Line.",
+      "source_card_count": 1,
+      "template_sha256": "d1449a5ae854176f6a3198ccf54ea8d09861616bfb4a3399721bcfb03c4d45dd"
+    },
+    {
+      "card_ids": [
+        "13"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Enemies crossing your Line lose <N> Oath.",
+      "source_card_count": 1,
+      "template_sha256": "eb07525729bc1f18560a7f7f80227a9c671acbfd35f5799706d98ba422cd8537"
+    },
+    {
+      "card_ids": [
+        "14"
+      ],
+      "family": "HostSigil",
+      "normalized_pattern": "Invoke for <N> rounds. Once each turn, clear Silence from a friendly unit or Name.",
+      "source_card_count": 1,
+      "template_sha256": "f50691c55c996a4394a04a17c570a4adec28ae817f561a69d161d54d634c46aa"
+    },
+    {
+      "card_ids": [
+        "195"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Once each turn, when an enemy wins an Arbitration, cancel that result unless they pay <N> extra Oath.",
+      "source_card_count": 1,
+      "template_sha256": "001a34295483ede184fc72ea17fdb1bd9f91c729d749ccef8af1ec979e113ebe"
+    },
+    {
+      "card_ids": [
+        "198"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Abilities can’t be used outside Engagements. Veil Tests gain +<N>. Swap Risk: +<N> Audit Heat.",
+      "source_card_count": 1,
+      "template_sha256": "21243dcb39d6446e9ea78dd2453ae3c0d0942f528365f8c406c0eb448582bbed"
+    },
+    {
+      "card_ids": [
+        "209"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Each player may Lower Heat by discarding one extra card at End.",
+      "source_card_count": 1,
+      "template_sha256": "58565ba5d92f078f996ca554f1c382bb39db6cc40699618c77727d3b3315c3ea"
+    },
+    {
+      "card_ids": [
+        "203"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Inside Sanctuary Fields, Wound cannot be chosen as a Consequence.",
+      "source_card_count": 1,
+      "template_sha256": "5b7eef9b2ab1a522cd9632f61c7b6218a651eabdf33f74c9fb55761d529c4666"
+    },
+    {
+      "card_ids": [
+        "205"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Crossing a Line requires pay <N> Oath or take Silence until end of turn.",
+      "source_card_count": 1,
+      "template_sha256": "60e30e463708c39a4ae3719b9e52513d035bd19a62c8e324d7c49845b1fbc4c7"
+    },
+    {
+      "card_ids": [
+        "196"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Hidden Lines cannot stay hidden. Eye Tests gain +<N>.",
+      "source_card_count": 1,
+      "template_sha256": "6538abaa64e9dc5c44dce003ac6615b80a83bf71d897a38efbd85c0ba94455c5"
+    },
+    {
+      "card_ids": [
+        "199"
+      ],
+      "family": "Name",
+      "normalized_pattern": "When any player fails Oath Upkeep, that player also gains <N> Audit Heat.",
+      "source_card_count": 1,
+      "template_sha256": "7773b39c29edef74d644a2ad26b61f67d83336ffa43b38bbd0bc211dff808ef3"
+    },
+    {
+      "card_ids": [
+        "204"
+      ],
+      "family": "Name",
+      "normalized_pattern": "The first Veil or Wind Test each turn gains +<N>.",
+      "source_card_count": 1,
+      "template_sha256": "80b9500aa8f7b387055caff00641adfe7b55b96d2d88c9f50a440b59da98d8f6"
+    },
+    {
+      "card_ids": [
+        "200"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Sites produce one extra benefit when first used each round.",
+      "source_card_count": 1,
+      "template_sha256": "a0daeeaea6d8a7041a8d6f43bf3aa84379592a846f54355e97a69ebff465850f"
+    },
+    {
+      "card_ids": [
+        "207"
+      ],
+      "family": "Name",
+      "normalized_pattern": "The first Silence placed each round becomes Stagger instead.",
+      "source_card_count": 1,
+      "template_sha256": "bc05c11e417051eee05dbed09ffaffcae52779910c5d43568add67f6eff372ff"
+    },
+    {
+      "card_ids": [
+        "201"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Displace gains +<N> strength and may cross one extra Line.",
+      "source_card_count": 1,
+      "template_sha256": "c5b4f2f4bcc2825586883a0a884bf874829033bb036f5f0a8650facd7106fb36"
+    },
+    {
+      "card_ids": [
+        "202"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Bosses and Heroes gain +<N> Stone, but cannot be supported.",
+      "source_card_count": 1,
+      "template_sha256": "d8c17c9b7072de88863c5f65926184fa879393e7c8661413e5ec16b5614eba1c"
+    },
+    {
+      "card_ids": [
+        "197"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Bosses cost <N> less to play, but gain +<N> Crack whenever they Fall Silent.",
+      "source_card_count": 1,
+      "template_sha256": "da9797ccac5de2cd5e6646d4a25ddc1a4814bb3a3331f1593208d2193e614a28"
+    },
+    {
+      "card_ids": [
+        "208"
+      ],
+      "family": "Name",
+      "normalized_pattern": "Players may look at the top card of their deck once each turn.",
+      "source_card_count": 1,
+      "template_sha256": "f768872b793485e415d221dd46c656ac3e2940143bba7b9824c9e4c0c66ca3bc"
+    },
+    {
+      "card_ids": [
+        "206"
+      ],
+      "family": "Name",
+      "normalized_pattern": "The first time each player would gain Audit Heat each round, reduce it by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "fce30c3998627be71cb1e7dfaf89b12cabde800b9d8226aec38d3b38dcf78cd2"
+    },
+    {
+      "card_ids": [
+        "242"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Quiet Wing: Host gains +<N> to Veil Tests; if Host Silences a unit, lower your Audit Heat by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "06fffd73d8716965f7d48ddb1a945c0aa717917d3c39536de6a9e352509a7cf6"
+    },
+    {
+      "card_ids": [
+        "241"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Radiant Guard: Once per round, cancel Displace against Host.",
+      "source_card_count": 1,
+      "template_sha256": "23754cec40b9dec7805065cd3c7e6d07a3241cb33c42ced224f94f7a69b477dc"
+    },
+    {
+      "card_ids": [
+        "251"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Margin Pecker: After Host wins an Oath Test, scry the top card of any deck.",
+      "source_card_count": 1,
+      "template_sha256": "299487b2dcde53a0c16c8260f7553527bab209ef112ae60309b1ca7a7e503b67"
+    },
+    {
+      "card_ids": [
+        "246"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Echo Rush: Host gains +<N> to the first Veil or Wind Test each turn.",
+      "source_card_count": 1,
+      "template_sha256": "34eed815e1f4235d3f23ac082bbe97cbeadd94936aa3713794de43b02d88802b"
+    },
+    {
+      "card_ids": [
+        "249"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Glowclimb: Host ignores the first Silence placed on it each round.",
+      "source_card_count": 1,
+      "template_sha256": "4de8a8ff822c3f1b3f13c8158d95652f39d408d1cf48fb7d27fd7a7f76b9fc89"
+    },
+    {
+      "card_ids": [
+        "244"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Updraft Escort: Host gains +<N> to Wind and Eye Tests during Raids.",
+      "source_card_count": 1,
+      "template_sha256": "5890d67750ff7ba300ddc05a38ba761b8f1eec4d8a6f18c89d6740a90059be40"
+    },
+    {
+      "card_ids": [
+        "253"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Seal Cling: When Host would cross a Line, you may pay <N> Oath to ignore the Geas.",
+      "source_card_count": 1,
+      "template_sha256": "676c3d28d6aa1f255cb470948628f419bf15e7c44d704ea4eb6468f5a4f5a3f4"
+    },
+    {
+      "card_ids": [
+        "248"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Pack Feint: If Host has an adjacent ally, Host gains +<N> to Wind Tests.",
+      "source_card_count": 1,
+      "template_sha256": "67e04b720b87786f04a6c4be8227a3469eda44890f9b1e523974247d5c26112f"
+    },
+    {
+      "card_ids": [
+        "240"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Threshold Fang: Host gains +<N> to Eye and Veil Tests; when an enemy crosses your Line, Host may Bind if that enemy is Downed.",
+      "source_card_count": 1,
+      "template_sha256": "86d8da6583c1f4f504e1801d6eac09d62668d769af0f208116e0dd76fc463650"
+    },
+    {
+      "card_ids": [
+        "250"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Slow Shelter: Host gains +<N> Armor-equivalent on Stone or Oath Tests; crossing a Line no longer staggers it.",
+      "source_card_count": 1,
+      "template_sha256": "87710ec3e586e437ebb8facf3afe41167243efcbc8ab346daeb2d90dc5206508"
+    },
+    {
+      "card_ids": [
+        "247"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Witness Sniff: Once each turn, after Host wins an Eye Test, expose one Hidden Line or set card.",
+      "source_card_count": 1,
+      "template_sha256": "922bd4a7044625bd1ad063ebfa05f1956742136f902ec3e4c115711a19a0a7c8"
+    },
+    {
+      "card_ids": [
+        "254"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Burrow Hitch: Host gains +<N> to Stone Tests while inside your Field.",
+      "source_card_count": 1,
+      "template_sha256": "a67d3f5ff5320da2fafdeef2428de75d7a8c879aa151250466f621144081d642"
+    },
+    {
+      "card_ids": [
+        "252"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Trackrunner: Host gains +<N> to Wind Tests; if you win, you may Displace.",
+      "source_card_count": 1,
+      "template_sha256": "a8b57065ea48dab13f1903a992a65f59ff379f911e201147424b7abd3afd0d5d"
+    },
+    {
+      "card_ids": [
+        "245"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Black Trace: After Host wins a Veil or Eye Test, place Stagger on the loser.",
+      "source_card_count": 1,
+      "template_sha256": "aaf6b328355e8aca9cef24147798d3a6cb341d86279695ee6c1b5d08f86e5be3"
+    },
+    {
+      "card_ids": [
+        "243"
+      ],
+      "family": "Pet",
+      "normalized_pattern": "Wake Hunter: If Host Displaces a unit, that unit also loses <N> Temper if able.",
+      "source_card_count": 1,
+      "template_sha256": "fc04b64fd1ea8163eb34b2ec5b3345f970d095038f44da41dcd1b5cc4259589c"
+    },
+    {
+      "card_ids": [
+        "227"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "When you win an Eye Test, target loses abilities until end of next turn.",
+      "source_card_count": 1,
+      "template_sha256": "2031540104744d2b4b17b3883016a42c569b9a3ee05197a8cad66213c6e8723d"
+    },
+    {
+      "card_ids": [
+        "225"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Once per round, copy the triggered text of a friendly Name, Edict, or Site you control.",
+      "source_card_count": 1,
+      "template_sha256": "28449e6e7636a85227b64a802fa19120ba113f1279894b0d27a0bc7d6af916d8"
+    },
+    {
+      "card_ids": [
+        "233"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Once per turn, after any Test, exhaust this Relic to reduce or increase one total by <N>.",
+      "source_card_count": 1,
+      "template_sha256": "311052e90063eb7ae468e12625e6f0c48e4283c20d3e34d8e9c533e86b1f5e89"
+    },
+    {
+      "card_ids": [
+        "237"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Look at the top card of any deck at start of your turn; Bearer gains +<N> Eye for that turn if you leave it there.",
+      "source_card_count": 1,
+      "template_sha256": "3f227fb6f1d39e3855262a17c3a51fd9d5dae38c0b9ab5284ebe3b9924df0dd9"
+    },
+    {
+      "card_ids": [
+        "229"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Temper (<N>). During a Stone Test, spend Temper: +<N> per charge. If you win, also Displace.",
+      "source_card_count": 1,
+      "template_sha256": "4752080fe91bca4b95eb8b4991694d4fd98af19f7035b67688436378c6e603df"
+    },
+    {
+      "card_ids": [
+        "238"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "After Bearer wins a Wind Test, you may steal <N> Temper from an enemy Relic.",
+      "source_card_count": 1,
+      "template_sha256": "529aa8f9bf2c053ea010be7f648e66b3a01dcb537e3f3dd01d3657af6a61275b"
+    },
+    {
+      "card_ids": [
+        "234"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "When Bearer wins an Oath or Eye Test, expose one set or hidden effect.",
+      "source_card_count": 1,
+      "template_sha256": "72998f631a1d456c2b35dd06a345a47734b5881007b0b5e28dbeabe723b3720f"
+    },
+    {
+      "card_ids": [
+        "232"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Attach to a Field or Character. Enemies crossing that Line take Stagger.",
+      "source_card_count": 1,
+      "template_sha256": "78f8843ffce316818ffbc221e7c89e1483c8ae49d689be98bbf7c40f5cc2f8f0"
+    },
+    {
+      "card_ids": [
+        "231"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "At End step, you may pay <N> Oath to clear Silence from Bearer or an allied unit in the same Field.",
+      "source_card_count": 1,
+      "template_sha256": "8e7b55a32a1e536344394c75b5873d7799f470d0e96ae2509a6df966c131846c"
+    },
+    {
+      "card_ids": [
+        "226"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Temper (<N>). Spend <N> Temper: Bearer may support without gaining Heat once this round.",
+      "source_card_count": 1,
+      "template_sha256": "9130311ddf4f9239b4de23440177640f9850c731687f9a3456cb82bcd4a14ecb"
+    },
+    {
+      "card_ids": [
+        "230"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "When Bearer engages a Boss, add one extra Trial counter the first time it wins each match.",
+      "source_card_count": 1,
+      "template_sha256": "9efc14c31b1f7de3123ff546d0b86ef300034ae8d5741a10c866ea44f9d748c0"
+    },
+    {
+      "card_ids": [
+        "239"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Bearer gains +<N> to Stone Tests while attacking.",
+      "source_card_count": 1,
+      "template_sha256": "9f033158836c72ba7f52d3659af36faec904f2ac817948a7f728aa9a37f4728d"
+    },
+    {
+      "card_ids": [
+        "236"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Bearer gains +<N> to Eye Tests against Bosses and Names.",
+      "source_card_count": 1,
+      "template_sha256": "dd853c5a4d8e40b1129a2fa26b55dcb1126762770ce2f6de8524e440d83de9ef"
+    },
+    {
+      "card_ids": [
+        "235"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Bearer gains +<N> to Wind Tests; if it Displaces, lower your Heat by <N> once per round.",
+      "source_card_count": 1,
+      "template_sha256": "e2cadf53de6e270178538a02f01b9602170e732b63308b007502abedc31290ee"
+    },
+    {
+      "card_ids": [
+        "228"
+      ],
+      "family": "Relic",
+      "normalized_pattern": "Once per turn, redo a Test modifier; if you do, raise your Audit Heat +<N>.",
+      "source_card_count": 1,
+      "template_sha256": "eedcf100f6c4f1c4e67952b95f3632a61ba84c77242306df4cf9f3db0843e905"
+    },
+    {
+      "card_ids": [
+        "212"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Sanctuary. Bound units here cost <N> less Oath to capture.",
+      "source_card_count": 1,
+      "template_sha256": "2650c90dba882dbd1cc844b081afb395952e4e374a7bdf785ea391acc0b5d871"
+    },
+    {
+      "card_ids": [
+        "213"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Wilds. Friendly Veil and Eye Tests gain +<N> during the first Engagement each round.",
+      "source_card_count": 1,
+      "template_sha256": "2c0d250584a5a7186776bbc8d4ca835f6bc230dc3bf4ef3492b2630f3ca01f18"
+    },
+    {
+      "card_ids": [
+        "219"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Sanctuary. Inside this Field, Consequence choices are limited to Silence or Bind; Wound cannot be chosen.",
+      "source_card_count": 1,
+      "template_sha256": "3c9f3f624759a4253a199ec3d4ba08cb237d2d4e976beb88ada16ff64742b189"
+    },
+    {
+      "card_ids": [
+        "217"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Threshold. Hidden Lines do not function here.",
+      "source_card_count": 1,
+      "template_sha256": "3ec20d8b4a618a2b7f6b036ff3a513e60c8edd85151e503ca3103bdd5a5c0122"
+    },
+    {
+      "card_ids": [
+        "221"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Threshold. After an Arbitration here, winner gains <N> Temper on a Relic or draws <N>.",
+      "source_card_count": 1,
+      "template_sha256": "534f3175e869557fe8c7d80a4d8b9025af65a0eec072660335ea3efab264e5c2"
+    },
+    {
+      "card_ids": [
+        "218"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Warfield. Raid victories here grant +<N> additional Mark once per turn.",
+      "source_card_count": 1,
+      "template_sha256": "5c33b324aeb1ac6d3bbd8efa2ebdcebf7b48332ef1654470c5859128a84a0d79"
+    },
+    {
+      "card_ids": [
+        "220"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Wilds. Friendly units here gain +<N> Wind Tests.",
+      "source_card_count": 1,
+      "template_sha256": "7f183f48dfc9e0dbf6cbae5e19cc308ccc3f5f8e67d11067e744a0eec13e0410"
+    },
+    {
+      "card_ids": [
+        "214"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Sanctuary. Once each turn, controller may look at the top card of any deck.",
+      "source_card_count": 1,
+      "template_sha256": "8500e85c65928708140049f5f75a8ce14e9544c355f75b451920a98a3503c13e"
+    },
+    {
+      "card_ids": [
+        "224"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Wilds. Units entering may immediately Displace <N>.",
+      "source_card_count": 1,
+      "template_sha256": "abeb6577716556c48a3779ced090e3c7dcef975e4ed14f0974ab34f5d00875da"
+    },
+    {
+      "card_ids": [
+        "223"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Threshold. The first enemy to enter each round loses <N> Oath.",
+      "source_card_count": 1,
+      "template_sha256": "bb83cb4085477c4fe51bb08f7004f5c983ae1cbdc59655b66400792a14a014b9"
+    },
+    {
+      "card_ids": [
+        "211"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Wilds. Once per round, cancel one Displace or Steal Charge against a friendly unit here.",
+      "source_card_count": 1,
+      "template_sha256": "bd7ad452e6eebba22cef3e752a62f94df49eddfd14c8b5ed498d80e17212e803"
+    },
+    {
+      "card_ids": [
+        "216"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Warfield. Friendly Stone Tests gain +<N> while attacking.",
+      "source_card_count": 1,
+      "template_sha256": "bde7d215cb66acc7b2c787cec9661421926a803e501b8feb3f490c00292944fa"
+    },
+    {
+      "card_ids": [
+        "215"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Sanctuary. Friendly support actions from this Field do not add Heat.",
+      "source_card_count": 1,
+      "template_sha256": "c4e69e1ef5ac795fba276e5f2092f89043571d53f3176a72f79f721468731088"
+    },
+    {
+      "card_ids": [
+        "210"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Sanctuary. Once per round, copy the triggered text of one friendly Name, Edict, or Relic in this Field.",
+      "source_card_count": 1,
+      "template_sha256": "e06c51ce803aaaa06848c80a860bad500b07f2ede3302835bc40d7be342bf855"
+    },
+    {
+      "card_ids": [
+        "222"
+      ],
+      "family": "Site",
+      "normalized_pattern": "Zone: Threshold. Units crossing this Line take Stagger unless they pay <N> Oath.",
+      "source_card_count": 1,
+      "template_sha256": "eec4d0e01d1cafda6e891c99c4aa1a4cb8fb8716871b294cdba8cdc8618afeaf"
+    }
+  ]
+}

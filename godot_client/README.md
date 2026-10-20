@@ -1,4 +1,8 @@
-# Kudurru Kings — Godot M6 Reconciled Combat Stats
+# Kudurru Kings — M7 Integrated Local Match and Production Completion Audit
+
+**New executable entry:** On the main Godot board select **PLAY REAL-CARD MATCH (PREVIEW)**. This uses two real 36-card source-validated decks, a deterministic local opponent, the seven-phase turn loop, two Fields, actual resource payments and combat, a provisional Warfield objective and a 10-Mark ending. It has completed 20 deterministic headless match simulations and includes working UI tests. No production rewards or accounts are accessed. **This is not the fully certified 754-card Standard game.**
+
+**Full-game contract:** `docs/FULL_GAME_PRODUCTION_CONTRACT.md`. Machine-readable exhaustive 754-card effect and 20-domain shipping audit: `data/full_game_completion_audit.json`; 121 normalized effect groups: `data/effect_template_groups.json`. Reproducible checks: `tools/run_m7_quality_gate.ps1`.
 
 **M6 canon update:** Printed Guard (1–7), numerical First Strike rating (1–7), and existing Initiative now have consistent source-backed structured representations for all 664 combat-capable cards. Their order is First Strike rating, then Initiative; equal order is simultaneous. This does not add fictional unconditional damage/protection or certify unfinished card effects. See `docs/M6_COMBAT_STAT_AUTHORITY.md`; run `tools/run_m6_quality_gate.ps1`.
 

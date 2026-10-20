@@ -1,0 +1,242 @@
+extends Control
+## Source-backed 36-card 2-seat match candidate. NOT a certified Standard release.
+const Match = preload("res://scripts/match_integrator.gd")
+const Rules = preload("res://scripts/game_rules.gd")
+const Source = preload("res://scripts/real_effects.gd")
+var state: Dictionary = {}
+var headline: Label
+var scoreboard: Label
+var status: Label
+var hand_list: VBoxContainer
+var board_view: RichTextLabel
+var log_view: RichTextLabel
+var attacker_select: OptionButton
+var defender_select: OptionButton
+var axis_select: OptionButton
+var next_button: Button
+var attack_button: Button
+var hand_scroll: ScrollContainer
+
+func _label(parent: Node, title: String, size: int = 16) -> Label:
+	var l := Label.new()
+	l.text = title
+	l.add_theme_font_size_override("font_size",size)
+	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	parent.add_child(l)
+	return l
+
+func _button(parent: Node, label_text: String, callback: Callable) -> Button:
+	var b := Button.new()
+	b.text = label_text
+	b.custom_minimum_size.y = 42
+	b.pressed.connect(callback)
+	parent.add_child(b)
+	return b
+
+func _ready() -> void:
+	var result: Dictionary = Match.create()
+	if not result["ok"]:
+		push_error("Integrated match setup blocked: " + str(result["error"]))
+		return
+	state = result["state"]
+	_build()
+	_refresh()
+
+func _build() -> void:
+	var bg := ColorRect.new()
+	bg.color = Color("#0E101B")
+	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	add_child(bg)
+	var root := VBoxContainer.new()
+	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	root.offset_left = 20
+	root.offset_right = -20
+	root.offset_top = 15
+	root.offset_bottom = -15
+	root.add_theme_constant_override("separation",12)
+	add_child(root)
+	var header := HBoxContainer.new()
+	header.add_theme_constant_override("separation",16)
+	root.add_child(header)
+	_button(header,"BACK TO BOARD",func(): get_tree().change_scene_to_file("res://scenes/main.tscn"))
+	_label(header,"KUDURRU KINGS  •  REAL MATCH CANDIDATE",25)
+	_label(header,"LOCAL TWO-SEAT GAME • NOT STANDARD CERTIFIED • NO REWARDS",14)
+	headline = _label(root,"",20)
+	scoreboard = _label(root,"",16)
+	var columns := HBoxContainer.new()
+	columns.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	columns.add_theme_constant_override("separation",20)
+	root.add_child(columns)
+	var left := VBoxContainer.new()
+	left.custom_minimum_size.x = 370
+	columns.add_child(left)
+	_label(left,"YOUR REAL-CARD HAND",19)
+	hand_scroll = ScrollContainer.new()
+	hand_scroll.custom_minimum_size = Vector2(350,360)
+	hand_scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	left.add_child(hand_scroll)
+	hand_list = VBoxContainer.new()
+	hand_list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	hand_scroll.add_child(hand_list)
+	var middle := VBoxContainer.new()
+	middle.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	columns.add_child(middle)
+	_label(middle,"BATTLEFIELDS  |  SANCTUARY + WARFIELD",19)
+	board_view = RichTextLabel.new()
+	board_view.bbcode_enabled = false
+	board_view.custom_minimum_size.y = 240
+	board_view.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	middle.add_child(board_view)
+	_label(middle,"COMBAT: SELECT TWO UNITS IN SAME FIELD",16)
+	attacker_select = OptionButton.new()
+	middle.add_child(attacker_select)
+	defender_select = OptionButton.new()
+	middle.add_child(defender_select)
+	axis_select = OptionButton.new()
+	for axis in Match.AXES: axis_select.add_item(axis)
+	middle.add_child(axis_select)
+	attack_button = _button(middle,"ATTACK (0 EXTRA RESOURCE SPEND)",_attack)
+	_button(middle,"MIRROR ARCHIVE: PEEK ENEMY DECK (MAIN)",func(): _action("PEEK",{"target_seat":1}))
+	var right := VBoxContainer.new()
+	right.custom_minimum_size.x = 320
+	columns.add_child(right)
+	_label(right,"RECENT MATCH EVENTS",18)
+	log_view = RichTextLabel.new()
+	log_view.bbcode_enabled = false
+	log_view.custom_minimum_size.y = 320
+	log_view.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	right.add_child(log_view)
+	var bar := HBoxContainer.new()
+	bar.add_theme_constant_override("separation",15)
+	root.add_child(bar)
+	next_button = _button(bar,"NEXT PHASE / END TURN",_next)
+	_button(bar,"RESTART NEW MATCH",_restart)
+	status = _label(root,"One complete pregame choice per seat. Opponent runs deterministic legal-action AI.",15)
+
+func _restart() -> void:
+	var built: Dictionary = Match.create(int(state["seed"])+1)
+	if not built["ok"]:
+		status.text = "NEW MATCH BLOCKED"
+		return
+	state = built["state"]
+	_refresh()
+
+func _action(kind: String, parameters: Dictionary = {}) -> void:
+	if state.is_empty(): return
+	var args: Dictionary = {"type":kind,"seat":0,"revision":int(state["revision"])}
+	for key in parameters: args[key] = parameters[key]
+	var result: Dictionary = Match.apply(state,args)
+	if not result["ok"]:
+		status.text = "BLOCKED: "+str(result["error"])
+		return
+	state = result["state"]
+	status.text = "PRIVATE VIEW: "+str(Source.find_card(Source.catalog(),str(result["private_card_id"]))["card_name"]) if result.has("private_card_id") else ("Action accepted: "+kind+" (revision "+str(state["revision"])+")")
+	_run_opponent()
+	_refresh()
+
+func _run_opponent() -> void:
+	if state.is_empty() or not state["setup_complete"] or int(state["winner"]) >= 0: return
+	var steps: int = 0
+	while int(state["seat"]) == 1 and int(state["winner"]) < 0 and steps < 90:
+		var response: Dictionary = Match.apply(state,Match.next_action(state,1))
+		if not response["ok"]:
+			status.text = "OPPONENT PAUSED: "+str(response["error"])
+			return
+		state = response["state"]
+		steps += 1
+	if steps >= 90: status.text = "OPPONENT STOPPED: SAFETY ACTION BUDGET"
+
+func _next() -> void:
+	if not state["setup_complete"]:
+		if not state["players"][0]["setup_ready"]:
+			_action("KEEP")
+		elif not state["players"][1]["setup_ready"]:
+			var keep: Dictionary = Match.apply(state, {"type":"KEEP","seat":1,"revision":state["revision"]})
+			if keep["ok"]: state=keep["state"]
+			_refresh()
+		return
+	_action("ADVANCE")
+
+func _deploy(id: String) -> void:
+	var card: Dictionary = Source.find_card(Source.catalog(),id)
+	var family: String = str(card.get("card_family",""))
+	var parameters := {"card_id":id,"field":"Warfield"}
+	if family=="Site":
+		parameters["field"] = "Sanctuary" if id=="214" else "Warfield"
+	elif family=="Pet" or family=="Relic":
+		var host: String = ""
+		for u in state["units"]:
+			if int(u["controller"])==0 and not u["downed"] and not u["defeated"]:
+				host = str(u["uid"])
+				break
+		if host.is_empty():
+			status.text = "Deploy a friendly Character before attaching support."
+			return
+		parameters["host_uid"] = host
+	_action("DEPLOY",parameters)
+
+func _attack() -> void:
+	if attacker_select.item_count==0 or defender_select.item_count==0: return
+	var a: String = str(attacker_select.get_item_metadata(attacker_select.selected))
+	var b: String = str(defender_select.get_item_metadata(defender_select.selected))
+	var axis: String = Match.AXES[axis_select.selected]
+	_action("ATTACK",{"attacker":a,"defender":b,"axis":axis})
+
+func _refresh() -> void:
+	if state.is_empty(): return
+	var winner: int = int(state["winner"])
+	headline.text = ("WINNER: "+str(state["players"][winner]["name"])+" • 10 MARKS REACHED" if winner>=0 else
+		"ROUND %d | %s | %s | Warfield holder: %s" % [
+			int(state["round"]), str(state["players"][int(state["seat"])]["name"]),
+			Rules.PHASES[int(state["phase"])],
+			"contested" if Match._control(state)<0 else str(state["players"][Match._control(state)]["name"])])
+	var stats: Array = []
+	for p in state["players"]:
+		stats.append("%s  |  Marks %d  |  Sinew %d  Sigil %d  Oath %d  |  Hand %d  Deck %d" % [
+			p["name"],p["marks"],p["sinew"],p["sigil"],p["oath"],p["hand"].size(),p["deck"].size()])
+	scoreboard.text = "\n".join(stats)
+	next_button.disabled = winner>=0 or int(state["seat"])!=0
+	for child in hand_list.get_children():
+		hand_list.remove_child(child)
+		child.queue_free()
+	var can_deploy: bool = state["setup_complete"] and winner<0 and int(state["seat"])==0 and int(state["phase"])==3
+	for card in state["players"][0]["hand"]:
+		var id: String = str(card["card_id"])
+		var b: Button = _button(hand_list,str(card["card_name"])+" | "+str(card["card_family"])+
+			"  S"+str(int(card["cost_sinew"]))+" G"+str(int(card["cost_sigil"]))+" O"+str(int(card["cost_oath"])),_deploy.bind(id))
+		b.disabled = not can_deploy or int(card["cost_sinew"])>int(state["players"][0]["sinew"]) or (
+			int(card["cost_sigil"])>int(state["players"][0]["sigil"]) or int(card["cost_oath"])>int(state["players"][0]["oath"]))
+	var lines: Array = []
+	for field in Match.FIELD_NAMES:
+		lines.append("═══ "+field.to_upper()+" ═══")
+		for seat in range(2):
+			var labels: Array = []
+			for u in state["units"]:
+				if u["field"]!=field or int(u["controller"])!=seat: continue
+				var real: Dictionary = Source.find_card(Source.catalog(),str(u["card_id"]))
+				labels.append(str(real["card_name"])+" ("+str(u["uid"])+
+					" | Wounds "+str(u["wounds"])+
+					" | "+("DOWNED" if u["downed"] else ("EXHAUSTED" if u["exhausted"] else "READY"))+")")
+			lines.append(str(state["players"][seat]["name"])+": "+(", ".join(labels) if not labels.is_empty() else "no units"))
+		for site in state["sites"]:
+			if site["field"] == field:
+				lines.append("Site: "+str(Source.find_card(Source.catalog(),str(site["card_id"]))["card_name"])+
+					" • "+str(state["players"][int(site["controller"])]["name"]))
+	board_view.text = "\n".join(lines)
+	attacker_select.clear()
+	defender_select.clear()
+	for u in state["units"]:
+		if u["downed"] or u["defeated"]: continue
+		var card: Dictionary = Source.find_card(Source.catalog(),str(u["card_id"]))
+		if int(u["controller"])==0 and not u["exhausted"]:
+			attacker_select.add_item(str(card["card_name"])+"  | "+str(u["field"]))
+			attacker_select.set_item_metadata(attacker_select.item_count-1,u["uid"])
+		if int(u["controller"])==1:
+			defender_select.add_item(str(card["card_name"])+"  | "+str(u["field"]))
+			defender_select.set_item_metadata(defender_select.item_count-1,u["uid"])
+	attack_button.disabled = winner>=0 or not state["setup_complete"] or int(state["seat"])!=0 or int(state["phase"])!=4 or (
+		attacker_select.item_count==0 or defender_select.item_count==0)
+	var log_lines: Array = []
+	for event in state["events"].slice(maxi(0,state["events"].size()-15)):
+		log_lines.append(str(event))
+	log_view.text="\n".join(log_lines)

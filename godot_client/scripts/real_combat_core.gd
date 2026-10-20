@@ -163,6 +163,26 @@ static func faceoff(state: Dictionary, seat_a: int, seat_b: int, axis: String) -
 		"deck_a": _shuffle_back(deck_a, revealed_a, int(state["seed"]) + int(state["revision"]) * 17 + seat_a * 7 + 131),
 		"deck_b": _shuffle_back(deck_b, revealed_b, int(state["seed"]) + int(state["revision"]) * 23 + seat_b * 13 + 353)}
 
+static func _owned_passive_bonus(state: Dictionary, u: Dictionary, axis: String, attacking: bool) -> int:
+	if axis != "Stone": return 0
+	var bonus: int = 0
+	if attacking and u["field"] == "Warfield":
+		for site in state.get("sites", []):
+			if str(site.get("card_id", "")) == "216" and int(site.get("controller", -1)) == int(u["controller"]) and str(site.get("field", "")) == "Warfield":
+				bonus += 1
+				break
+	for item in state.get("attachments", []):
+		if str(item.get("host_uid", "")) != str(u["uid"]) or int(item.get("controller", -1)) != int(u["controller"]):
+			continue
+		if item["card_id"] == "239" and attacking:
+			bonus += 1
+		if item["card_id"] == "254":
+			for site in state.get("sites", []):
+				if int(site.get("controller", -1)) == int(u["controller"]) and site.get("field") == u["field"]:
+					bonus += 1
+					break
+	return bonus
+
 static func attack(state: Dictionary, action: Dictionary) -> Dictionary:
 	if state.get("mode") != "REAL_COMBAT_LAB" or state.get("phase") != "Battle":
 		return fail("WRONG_PHASE_OR_MODE")
@@ -202,8 +222,8 @@ static func attack(state: Dictionary, action: Dictionary) -> Dictionary:
 	var seat_b: int = int(b["controller"])
 	if int(state["players"][seat_a][resource]) < spend_a or int(state["players"][seat_b][resource]) < spend_b:
 		return fail("INSUFFICIENT_MATCHING_RESOURCE")
-	var score_a: int = int(fa["base"]) + int(fa["adjacency"]) + int(sa["bonus"]) + spend_a
-	var score_b: int = int(fb["base"]) + int(fb["adjacency"]) + int(sb["bonus"]) + spend_b
+	var score_a: int = int(fa["base"]) + int(fa["adjacency"]) + int(sa["bonus"]) + spend_a + _owned_passive_bonus(state, a, axis, true)
+	var score_b: int = int(fb["base"]) + int(fb["adjacency"]) + int(sb["bonus"]) + spend_b + _owned_passive_bonus(state, b, axis, false)
 	var result_faceoff: Dictionary = {}
 	var winner: int = seat_a if score_a > score_b else seat_b
 	if score_a == score_b:
