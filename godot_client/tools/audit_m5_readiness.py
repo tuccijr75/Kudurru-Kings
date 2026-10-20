@@ -35,7 +35,7 @@ REQUIRED = {
  "solo_ai": "Full-match legal-action AI not implemented",
  "assets": "Source-verified card render export and interactive workstation QA still pending",
  "faction_authority": "EOE Crosswalk reconciliation incomplete for all 754 master records",
- "pure_faction_bonus": "Pure-faction benefits approved in principle but effects/activation criteria undefined",
+ "pure_faction_bonus": "No pure-faction bonus or qualification threshold is approved; pure and legal mixed decks remain supported",
 }
 
 def build():

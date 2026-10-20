@@ -1,6 +1,7 @@
 extends RefCounted
 ## M8 versioned local save and deterministic replay for source-backed candidate.
 ## No accounts, copy rewards, secrets, or production unlocks.
+const Command = preload("res://scripts/match_command.gd")
 const Match = preload("res://scripts/match_integrator.gd")
 const Source = preload("res://scripts/real_effects.gd")
 const VERSION := "KUDURRU_LOCAL_MATCH_V1"
@@ -77,8 +78,7 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 		if str(actions[ix].get("type",""))=="ATTACK":
 			return _bad("LEGACY_ATTACK_SAVE_UNSUPPORTED_DEFENDER_CHOICE_MISSING")
 		var action: Dictionary = actions[ix].duplicate(true)
-		if typeof(action.get("seat")) not in [TYPE_INT,TYPE_FLOAT] or (
-			typeof(action.get("revision")) not in [TYPE_INT,TYPE_FLOAT]):
+		if not Command.whole(action.get("seat")) or not Command.whole(action.get("revision")):
 			return _bad("REPLAY_ACTION_MALFORMED")
 		action["seat"] = int(action["seat"])
 		action["revision"] = int(action["revision"])

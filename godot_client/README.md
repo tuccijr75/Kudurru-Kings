@@ -1,3 +1,7 @@
+# M19 — Command integrity and migration ledger
+
+Live actions, network revisions and save replay reject lossy numeric inputs before conversion. The real two-client battle suite includes malformed packets and client refusal messages. All 754 original cards now have a completion-ledger row; production remains CLOSED and 0 cards are production-certified. See docs/M19_MIGRATION_AUDIT.md and docs/CANON_CONFLICT_LEDGER_M19.md. Run tools/run_m19_quality_gate.ps1 (Windows) or tools/run_m19_quality_gate.py --godot /absolute/path/to/Godot (Linux).
+
 # M18 ? Real Two-Window Combat Proof
 
 The authoritative localhost match now has 37 actual socket/UI acceptance checks for attacker/defender resource ownership, double-spend prevention, per-seat private hands and synchronized battles. Both match UIs show the disputed axis and who must respond. Run tools/run_m18_quality_gate.ps1. This is not complete Standard or internet-safe multiplayer. See docs/M18_NETWORK_COMBAT_E2E.md.

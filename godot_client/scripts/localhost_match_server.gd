@@ -2,6 +2,7 @@ extends Node
 ## Localhost-only authoritative 2-seat match transport. NOT internet-safe multiplayer.
 ## Every client action is validated by the same Godot deterministic reducer.
 ## Never return raw state, seed, unseen deck cards, private peeks or action log.
+const Command = preload("res://scripts/match_command.gd")
 const Match = preload("res://scripts/match_integrator.gd")
 const Source = preload("res://scripts/real_effects.gd")
 const PORT := 31147
@@ -132,7 +133,7 @@ func _message(entry:Dictionary,line:String)->void:
 		return
 	# Player ID is assigned by server, never trusted from the packet.
 	action["seat"]=seat
-	if typeof(action.get("revision")) not in [TYPE_INT,TYPE_FLOAT]:
+	if not Command.whole(action.get("revision")):
 		_send(peer,{"ok":false,"error":"REVISION_REQUIRED"})
 		return
 	action["revision"]=int(action["revision"])

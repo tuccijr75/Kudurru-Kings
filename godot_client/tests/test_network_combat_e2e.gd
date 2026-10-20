@@ -81,6 +81,21 @@ func run()->void:
 	check(int(a.view["revision"])==0 and int(b.view["revision"])==0,
 		"attacker attempt to spend victim resources refused")
 	check(int(a.host_node.game["players"][1]["sinew"])==5,"malicious client did not alter host resources")
+	# M19: malformed input reaches the real transport and UI, not a mock host.
+	var snapshot: String = JSON.stringify(a.host_node.game)
+	for bad_revision in [0.5, -0.5, 1e30]:
+		a.peer.put_data((JSON.stringify({"type":"ACTION","token":a.token,
+			"action":{"type":"DECLARE_ATTACK","revision":bad_revision,
+			"attacker":"ATTACKER","defender":"DEFENDER","axis":"Stone"}})+"\n").to_utf8_buffer())
+		await wait_frames(4)
+		check(JSON.stringify(a.host_node.game) == snapshot, "malformed revision preserves host state")
+		check(a.status.text.contains("SERVER REFUSED"), "client surfaces malformed revision refusal")
+	for bad_spend in [1.5, true, "1", [], {}]:
+		a._send_action("DECLARE_ATTACK", {"attacker":"ATTACKER","defender":"DEFENDER",
+			"axis":"Stone","attacker_spend":bad_spend})
+		await wait_frames(4)
+		check(JSON.stringify(a.host_node.game) == snapshot, "malformed spend preserves host state")
+		check(a.status.text.contains("SERVER REFUSED"), "client surfaces malformed spend refusal")
 	# Real first-window UI declaration with a resource commitment.
 	a.attack_spend.select(1)
 	a._attack()

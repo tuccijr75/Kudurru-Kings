@@ -41,7 +41,7 @@
     "multiplayer": "Server authority, hidden information and reconnect protections not implemented",
     "numeric_combat_semantics": "Guard protection, First Strike preemption and initiative interaction require fully tested resolver mechanics",
     "progression": "Permanent collection copy reward, currencies, anti-duplication and persistence are not implemented",
-    "pure_faction_bonus": "Pure-faction benefits approved in principle but effects/activation criteria undefined",
+    "pure_faction_bonus": "No pure-faction bonus or qualification threshold is approved; pure and legal mixed decks remain supported",
     "raid": "Site raids and 2-Mark scoring need scenario-legal actions",
     "scenario_objective": "Every Standard match needs a scenario/objective; none certified in M5 engine",
     "solo_ai": "Full-match legal-action AI not implemented",

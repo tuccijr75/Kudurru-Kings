@@ -4,6 +4,8 @@ Not a TLS or remote multiplayer security certification. Test sockets are
 bound to 127.0.0.1 and the server is terminated after every run.
 """
 import json
+import os
+import re
 import socket
 import subprocess
 import time
@@ -12,7 +14,7 @@ import unittest
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[2]
-ENGINE=Path(r"E:\Godot\Godot_v4.7.2-stable_win64_console.exe")
+ENGINE=Path(os.environ.get("KUDURRU_GODOT", r"E:\Godot\Godot_v4.7.2-stable_win64_console.exe"))
 HOST="127.0.0.1"
 PORT=31147
 
@@ -23,25 +25,37 @@ class LocalhostMatchTest(unittest.TestCase):
     [str(ENGINE),"--headless","--path",str(ROOT/"godot_client"),
      "res://scenes/localhost_match_server.tscn"],
     stdin=subprocess.DEVNULL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,
-    text=True,bufsize=1,creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
+    text=True,bufsize=1,creationflags=getattr(subprocess,"CREATE_NEW_PROCESS_GROUP",0),
   )
   # Do NOT probe a seat-assignment port by opening a TCP connection:
   # the host correctly reserves seats on accepted connections. Instead
   # wait for the server's explicit readiness log without consuming one.
   ready=threading.Event()
+  cls.server_log=[]
   def read_log():
    for line in cls.server.stdout:
+    cls.server_log.append(line)
     if "KUDURRU_LOCAL_MATCH_SERVER_LISTENING" in line:
      ready.set()
   cls.log_thread=threading.Thread(target=read_log,daemon=True)
   cls.log_thread.start()
   if not ready.wait(10):
+   cls.tearDownClass()
    raise RuntimeError("Godot server failed to announce loopback readiness")
 
  @classmethod
  def tearDownClass(cls):
-  subprocess.run(["taskkill","/F","/T","/PID",str(cls.server.pid)],
-                 capture_output=True,timeout=10)
+  if os.name=="nt":
+   subprocess.run(["taskkill","/F","/T","/PID",str(cls.server.pid)],
+                  capture_output=True,timeout=10)
+  else:
+   cls.server.terminate()
+   cls.server.wait(timeout=10)
+  cls.log_thread.join(timeout=5)
+  cls.server.stdout.close()
+  output=''.join(cls.server_log)
+  if re.search(r'SCRIPT ERROR|ERROR:|Parse Error|\bFAIL(?:ED)?\b',output):
+   raise AssertionError("Godot server console error: "+output)
 
  def connect(self):
   s=socket.create_connection((HOST,PORT),3)

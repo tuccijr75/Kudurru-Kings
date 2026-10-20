@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "caf153dcf400b0f461de6b3c9a188e84e4b89022",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "full_gate_commands": 64,
+  "godot_assertions_failed": 0,
+  "godot_assertions_passed": 6755,
+  "godot_test_suites": 37,
+  "human_visual_verification": false,
+  "log_sha256": "5df86fc06d42c4909253b572ecde43d2eb105651279f6f32c2adb2c2874e9053",
+  "m18_windows_baseline_gate": "PASS",
+  "m19_windows_export": "PENDING",
+  "m19_windows_gate": "PENDING",
+  "platform": "Linux x86_64",
+  "python_test_cases": 50,
+  "release_certified": false,
+  "schema": "kudurru_m19_verification_v1"
+}

@@ -2,6 +2,7 @@ extends RefCounted
 ## M7 integrated REAL-CARD match candidate (not certified Standard).
 ## Fully local deterministic 2-seat scenario: Warfield objective control.
 ## Whitelisted real cards only; unresolved source effects are NOT activated.
+const Command = preload("res://scripts/match_command.gd")
 const CardSource = preload("res://scripts/real_effects.gd")
 const Adj = preload("res://scripts/adjacency_rule.gd")
 const Rules = preload("res://scripts/game_rules.gd")
@@ -265,6 +266,9 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 	if typeof(action.get("seat")) != TYPE_INT: return error("INVALID_SEAT")
 	var seat: int = int(action["seat"])
 	if seat < 0 or seat > 1: return error("INVALID_SEAT")
+	var contract: Dictionary = Command.normalize(action)
+	if not contract["ok"]: return contract
+	action = contract["action"]
 	var kind: String = str(action.get("type",""))
 	var s: Dictionary = state.duplicate(true)
 	var p: Dictionary = s["players"][seat]
