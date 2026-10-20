@@ -471,9 +471,16 @@ func _refresh() -> void:
 			for u in state["units"]:
 				if u["field"]!=field or int(u["controller"])!=seat: continue
 				var real: Dictionary = Source.find_card(Source.catalog(),str(u["card_id"]))
+				var status_name:String="READY"
+				if u["defeated"]:
+					status_name="DEFEATED - return round "+str(int(u.get("defeated_round",-1))+3)
+				elif u["downed"]:
+					status_name="FLIPPED / DOWNED"
+				elif u["exhausted"]:
+					status_name="EXHAUSTED"
 				labels.append(str(real["card_name"])+" ("+str(u["uid"])+
 					" | Wounds "+str(u["wounds"])+
-					" | "+("DOWNED" if u["downed"] else ("EXHAUSTED" if u["exhausted"] else "READY"))+")")
+					" | "+status_name+")")
 			lines.append(str(state["players"][seat]["name"])+": "+(", ".join(labels) if not labels.is_empty() else "no units"))
 		for site in state["sites"]:
 			if site["field"] == field:

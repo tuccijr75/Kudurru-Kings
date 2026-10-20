@@ -152,6 +152,61 @@ static func _summary_income(s: Dictionary, seat: int) -> Dictionary:
 	if sinew == 0 and sigil == 0 and oath == 0: sinew = 1
 	return {"sinew": sinew, "sigil": sigil, "oath": oath}
 
+static func _restore_defeated_due(s:Dictionary)->Dictionary:
+	# Shipping Rule 17.6: two FULL intervening rounds, then owner Hand or Deck.
+	# A card Defeated in round 1 cannot return until the start of round 4.
+	var due:Array=[]
+	for unit in s["units"]:
+		if not bool(unit["defeated"]):continue
+		var defeated_at:int=int(unit.get("defeated_round",-1))
+		if defeated_at>=0 and int(s["round"])>=defeated_at+3:due.append(unit)
+	if due.is_empty():return {"ok":true,"returns":[],"attachments_released":[]}
+	var units_left:Array=[]
+	var released:Array=[]
+	var affected_decks:Dictionary={}
+	var restored:Array=[]
+	for unit in s["units"]:
+		if not due.has(unit):
+			units_left.append(unit)
+			continue
+		var original:int=int(unit.get("owner",-1))
+		if original<0 or original>=s["players"].size():return error("RESTORE_ORIGINAL_OWNER_INVALID")
+		var card:Dictionary=CardSource.find_card(CardSource.catalog(),str(unit["card_id"])).duplicate(true)
+		if not _supported(card):return error("RESTORE_SOURCE_ID_NOT_IN_LOCAL_MATCH")
+		card["playable"]=true
+		var dest:String="Hand"
+		if s["players"][original]["hand"].size()<6:
+			s["players"][original]["hand"].append(card)
+		else:
+			s["players"][original]["deck"].append(card)
+			affected_decks[original]=true
+			dest="Deck"
+		restored.append({"uid":str(unit["uid"]),"card_id":str(unit["card_id"]),
+			"original_owner":original,"destination":dest})
+	var remaining_attachments:Array=[]
+	for attachment in s["attachments"]:
+		var falls:bool=false
+		for info in restored:
+			if str(info["uid"])==str(attachment.get("host_uid","")):
+				falls=true
+				break
+		if not falls:
+			remaining_attachments.append(attachment)
+			continue
+		var owner:int=int(attachment.get("controller",-1))
+		if owner<0 or owner>=s["players"].size():return error("RESTORE_ATTACHMENT_OWNER_INVALID")
+		var owned:Dictionary=CardSource.find_card(CardSource.catalog(),str(attachment["card_id"])).duplicate(true)
+		if not _supported(owned):return error("RESTORE_ATTACHMENT_NOT_IN_LOCAL_MATCH")
+		owned["playable"]=true
+		s["players"][owner]["discard"].append(owned)
+		released.append({"card_id":str(attachment["card_id"]),"to_discard_owner":owner})
+	s["units"]=units_left
+	s["attachments"]=remaining_attachments
+	for seat in affected_decks:
+		s["players"][seat]["deck"]=_shuffle(s["players"][seat]["deck"],
+			int(s["seed"])+int(s["round"])*27581+int(seat)*18013+343)
+	return {"ok":true,"returns":restored,"attachments_released":released}
+
 static func _commit(s: Dictionary, type_name: String, details: Dictionary = {}, committed_action: Dictionary = {}) -> Dictionary:
 	s["revision"] = int(s["revision"]) + 1
 	var event: Dictionary = {"type": type_name, "revision": s["revision"]}
@@ -269,10 +324,16 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 			for k in ["sinew","sigil","oath"]: s["players"][seat][k] += int(income[k])
 			s["seat"] = 1-seat
 			if s["seat"] == 0: s["round"] += 1
+		var returns:Dictionary={"returns":[],"attachments_released":[]}
+		if phase==6 and int(s["seat"])==0:
+			returns=_restore_defeated_due(s)
+			if not returns["ok"]:return returns
 		s["phase"] = (phase+1)%7
 		if s["phase"] == 1: _draw(s["players"][int(s["seat"])])
 		return _commit(s,"PHASE",{"seat":s["seat"],"phase":Rules.PHASES[int(s["phase"])],
-			"objective_owner":s["objective_owner"],"winner":s["winner"]},action)
+			"objective_owner":s["objective_owner"],"winner":s["winner"],
+			"defeated_returns":returns["returns"],
+			"released_support":returns["attachments_released"]},action)
 	if kind == "PEEK":
 		if phase != 3: return error("MAIN_REQUIRED")
 		var has_archive: bool = false

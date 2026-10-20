@@ -1,3 +1,7 @@
+# M14 ? Defeated Auto-Restore
+
+Defeated battlefield units now return to their original match owner after two complete intervening rounds, choosing Hand if space otherwise a deterministically shuffled Deck. Source-card conservation, status display and attached-item preview behavior are tested. See docs/M14_DEFEAT_RESTORE.md and run tools/run_m14_quality_gate.ps1. No production capture or permanent rewards are represented as complete.
+
 # M13 ? Explicit End Discards and Income Preview
 
 End now enforces voluntary player-selected discards down to six instead of silently popping hand cards; the game shows each of the three source income conditions and projected Sinew/Sigil/Oath gains before ending. Run tools/run_m13_quality_gate.ps1. This is still a local game candidate, not complete Standard.
