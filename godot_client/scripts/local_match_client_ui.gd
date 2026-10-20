@@ -31,6 +31,11 @@ var keep_button:Button
 var mulligan_button:Button
 var next_button:Button
 var attack_button:Button
+var defense_button:Button
+var attack_spend:OptionButton
+var defense_spend:OptionButton
+var attack_supporter:OptionButton
+var defense_supporter:OptionButton
 var oath_button:Button
 var exhaust_button:Button
 var silence_button:Button
@@ -116,7 +121,24 @@ func _ready()->void:
 	middle.add_child(attacker_pick)
 	middle.add_child(defender_pick)
 	middle.add_child(axis_pick)
-	attack_button=_button(middle,"SEND LEGAL ATTACK",_attack)
+	var attacker_controls:=HBoxContainer.new()
+	middle.add_child(attacker_controls)
+	_label(attacker_controls,"Spend",12)
+	attack_spend=OptionButton.new()
+	for n in range(3):attack_spend.add_item(str(n))
+	attacker_controls.add_child(attack_spend)
+	attack_supporter=OptionButton.new()
+	middle.add_child(attack_supporter)
+	attack_button=_button(middle,"DECLARE ATTACK ? DEFENDER GETS RESPONSE",_attack)
+	var defender_controls:=HBoxContainer.new()
+	middle.add_child(defender_controls)
+	_label(defender_controls,"Defender spend",12)
+	defense_spend=OptionButton.new()
+	for n in range(3):defense_spend.add_item(str(n))
+	defender_controls.add_child(defense_spend)
+	defense_supporter=OptionButton.new()
+	middle.add_child(defense_supporter)
+	defense_button=_button(middle,"SUBMIT DEFENDER-OWNED CHOICE",_defend)
 	var right:=VBoxContainer.new()
 	right.custom_minimum_size.x=340
 	columns.add_child(right)
@@ -243,9 +265,20 @@ func _attack()->void:
 	if attacker_pick.selected<0 or defender_pick.selected<0:
 		status.text="Choose two combatants first."
 		return
-	_send_action("ATTACK",{"attacker":str(attacker_pick.get_item_metadata(attacker_pick.selected)),
+	var supporter:String=""
+	if attack_supporter.selected>0:supporter=str(attack_supporter.get_item_metadata(attack_supporter.selected))
+	_send_action("DECLARE_ATTACK",{"attacker":str(attacker_pick.get_item_metadata(attacker_pick.selected)),
 		"defender":str(defender_pick.get_item_metadata(defender_pick.selected)),
-		"axis":Match.AXES[axis_pick.selected]})
+		"axis":Match.AXES[axis_pick.selected],"attacker_spend":attack_spend.selected,
+		"attacker_supporter":supporter})
+
+func _defend()->void:
+	var pending:Dictionary=view.get("pending_attack",{})
+	if int(pending.get("defender_seat",-1))!=seat:return
+	var supporter:String=""
+	if defense_supporter.selected>0:supporter=str(defense_supporter.get_item_metadata(defense_supporter.selected))
+	_send_action("CHOOSE_DEFENSE",{"defender_spend":defense_spend.selected,
+		"defender_supporter":supporter})
 
 func _hand_play(index:int)->void:
 	if view.is_empty() or seat<0:return
@@ -314,6 +347,7 @@ func _refresh()->void:
 	mulligan_button.disabled=true
 	next_button.disabled=true
 	attack_button.disabled=true
+	defense_button.disabled=true
 	peek_button.disabled=true
 	oath_button.disabled=true
 	exhaust_button.disabled=true
@@ -325,6 +359,10 @@ func _refresh()->void:
 	target_permanent.clear()
 	attacker_pick.clear()
 	defender_pick.clear()
+	attack_supporter.clear()
+	attack_supporter.add_item("NO ATTACK SUPPORTER")
+	defense_supporter.clear()
+	defense_supporter.add_item("NO DEFENSE SUPPORTER")
 	if not ready:return
 	var players:Array=view["players"]
 	var mine:Dictionary=players[seat]
@@ -335,6 +373,8 @@ func _refresh()->void:
 		int(mine["marks"]),int(mine["sinew"]),int(mine["sigil"]),int(mine["oath"]),int(mine["hand_count"]),
 		int(other["marks"]),int(other["sinew"]),int(other["sigil"]),int(other["oath"]),int(other["hand_count"])]
 	var prompt:Dictionary=view.get("pending_choice",{})
+	var combat_pending:Dictionary=view.get("pending_attack",{})
+	var defend_now:bool=int(combat_pending.get("defender_seat",-1))==seat
 	var response:bool=int(prompt.get("response_seat",-1))==seat and prompt.has("options")
 	var options:Array=prompt.get("options",[])
 	var active:bool=bool(view["setup_complete"]) and int(view["seat"])==seat and int(view["winner"])<0
@@ -342,7 +382,8 @@ func _refresh()->void:
 	mulligan_button.disabled=keep_button.disabled
 	var cards:Array=mine.get("hand",[])
 	var must_discard:bool=bool(view.get("pending_end_discard",false)) or (active and int(view["phase"])==6 and cards.size()>6)
-	next_button.disabled=not active or response or not prompt.is_empty() or must_discard
+	next_button.disabled=not active or response or not prompt.is_empty() or not combat_pending.is_empty() or must_discard
+	defense_button.disabled=not defend_now
 	oath_button.disabled=not response or not options.has("LOSE_OATH")
 	exhaust_button.disabled=not response or not options.has("EXHAUST_UNIT")
 	silence_button.disabled=not response or not options.has("SILENCE_UNIT")
@@ -369,6 +410,10 @@ func _refresh()->void:
 			target_unit.add_item(info)
 			target_unit.set_item_metadata(target_unit.item_count-1,unit["uid"])
 			if int(unit["controller"])==seat and not unit["exhausted"] and not unit["downed"] and not unit["defeated"]:
+				attack_supporter.add_item(info)
+				attack_supporter.set_item_metadata(attack_supporter.item_count-1,unit["uid"])
+				defense_supporter.add_item(info)
+				defense_supporter.set_item_metadata(defense_supporter.item_count-1,unit["uid"])
 				attacker_pick.add_item(info)
 				attacker_pick.set_item_metadata(attacker_pick.item_count-1,unit["uid"])
 			if int(unit["controller"])!=seat and not unit["downed"] and not unit["defeated"]:
@@ -391,7 +436,7 @@ func _refresh()->void:
 			target_permanent.set_item_metadata(target_permanent.item_count-1,
 				{"target_kind":"Relic","target_card_id":attached["card_id"],
 				"target_controller":int(attached["controller"]),"target_host_uid":attached["host_uid"]})
-	attack_button.disabled=not active or int(view["phase"])!=4 or attacker_pick.item_count==0 or defender_pick.item_count==0
+	attack_button.disabled=not active or not combat_pending.is_empty() or int(view["phase"])!=4 or attacker_pick.item_count==0 or defender_pick.item_count==0
 	board.text="\n".join(lines)
 	var last:Array=[]
 	for event in view["events"]:last.append(str(event))

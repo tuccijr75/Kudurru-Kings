@@ -81,6 +81,10 @@ func run() -> void:
 		var steps: int = 0
 		while int(ms["winner"]) < 0 and steps < 300:
 			var acting: int = int(ms["seat"])
+			if not ms.get("priority_queue",[]).is_empty():
+				acting=int(ms["priority_queue"][0]["seat"])
+			if not ms.get("pending_attack",{}).is_empty():
+				acting=int(ms["pending_attack"]["defender_seat"])
 			var action: Dictionary = Match.next_action(ms,acting)
 			var outcome: Dictionary = Match.apply(ms,action)
 			if not outcome["ok"]:

@@ -74,6 +74,8 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 	var actions: Array = saved_state["action_log"]
 	for ix in range(actions.size()):
 		if typeof(actions[ix]) != TYPE_DICTIONARY: return _bad("INVALID_ACTION")
+		if str(actions[ix].get("type",""))=="ATTACK":
+			return _bad("LEGACY_ATTACK_SAVE_UNSUPPORTED_DEFENDER_CHOICE_MISSING")
 		var action: Dictionary = actions[ix].duplicate(true)
 		if typeof(action.get("seat")) not in [TYPE_INT,TYPE_FLOAT] or (
 			typeof(action.get("revision")) not in [TYPE_INT,TYPE_FLOAT]):
@@ -87,6 +89,7 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 		current = response["state"]
 	var expected:Dictionary=saved_state.duplicate(true)
 	if not expected.has("priority_queue"):expected["priority_queue"]=[]
+	if not expected.has("pending_attack"):expected["pending_attack"]={}
 	if _hash(current) != _hash(expected):
 		return _bad("REPLAY_STATE_DIVERGENCE")
 	return {"ok": true, "state": current}

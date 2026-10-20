@@ -119,7 +119,7 @@ static func create(seed_value: int = 20261020, player_faction: String = "Borders
 		"source_catalog": "real_cards_v1", "seed": seed_value, "initial_deck_ids": initial_ids,
 		"round": 1, "seat": 0, "phase": 0, "revision": 0,
 		"players": players, "units": [], "sites": [], "attachments": [],
-		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {}, "pending_end_clause": {}, "priority_queue": [],
+		"next_uid": 1, "objective_owner": -1, "winner": -1, "peek_used": {}, "truce": {}, "pending_end_clause": {}, "priority_queue": [], "pending_attack": {},
 		"events": [], "action_log": [], "setup_complete": false,
 		"release_certified": false, "reward_enabled": false}}
 
@@ -215,6 +215,47 @@ static func _commit(s: Dictionary, type_name: String, details: Dictionary = {}, 
 	if not committed_action.is_empty(): s["action_log"].append(committed_action.duplicate(true))
 	return {"ok": true, "state": s, "event": event}
 
+static func _finalize_combat(s:Dictionary,seat:int,action:Dictionary,logged_action:Dictionary)->Dictionary:
+	var phase:int=int(s["phase"])
+	if phase != 4: return error("BATTLE_REQUIRED")
+	if Edicts.engagements_blocked(s,seat,1-seat): return error("FESTIVAL_TRUCE_NO_ENGAGEMENT")
+	var attacker: String = str(action.get("attacker",""))
+	var defender: String = str(action.get("defender",""))
+	var ai: int = _unit_index(s,attacker)
+	if ai < 0 or s["units"][ai]["controller"] != seat: return error("NOT_YOUR_ATTACKER")
+	var battle_players: Array = s["players"].duplicate(true)
+	for j in range(2):
+		var ids: Array = []
+		for record in battle_players[j]["deck"]: ids.append(str(record["card_id"]))
+		battle_players[j]["deck"] = ids
+	var battle: Dictionary = {
+		"mode":"REAL_COMBAT_LAB","phase":"Battle","active_seat":seat,
+		"revision":s["revision"],"seed":s["seed"],
+		"players":battle_players, "units":s["units"].duplicate(true),
+		"sites":s["sites"].duplicate(true),"attachments":s["attachments"].duplicate(true),
+		"round":s["round"],"events":[]}
+	var result: Dictionary = Combat.attack(battle,{
+		"revision":s["revision"],"attacker":attacker,"defender":defender,
+		"axis":str(action.get("axis","Stone")),
+		"attacker_spend":int(action.get("attacker_spend",0)),
+		"defender_spend":int(action.get("defender_spend",0)),
+		"attacker_supporter":str(action.get("attacker_supporter","")),
+		"defender_supporter":str(action.get("defender_supporter",""))})
+	if not result["ok"]: return result
+	s["units"] = result["state"]["units"]
+	for i in range(2):
+		s["players"][i]["sinew"] = result["state"]["players"][i]["sinew"]
+		s["players"][i]["sigil"] = result["state"]["players"][i]["sigil"]
+		s["players"][i]["oath"] = result["state"]["players"][i]["oath"]
+		var restored_deck: Array = []
+		for deck_id in result["state"]["players"][i]["deck"]:
+			var real_card: Dictionary = CardSource.find_card(CardSource.catalog(), str(deck_id)).duplicate(true)
+			real_card["playable"] = true
+			restored_deck.append(real_card)
+		s["players"][i]["deck"] = restored_deck
+	return _commit(s,"COMBAT",{"seat":seat,"attacker":attacker,"defender":defender,
+		"axis":str(action.get("axis","Stone")), "winner":result["event"]["winner_seat"]},logged_action)
+
 static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 	if state.get("mode") != MODE or bool(state.get("release_certified", true)):
 		return error("NOT_CANDIDATE_MODE")
@@ -227,6 +268,25 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 	var kind: String = str(action.get("type",""))
 	var s: Dictionary = state.duplicate(true)
 	var p: Dictionary = s["players"][seat]
+	if not s.get("pending_attack",{}).is_empty():
+		if kind!="CHOOSE_DEFENSE":return error("DEFENDER_RESPONSE_REQUIRED")
+		var declaration:Dictionary=s["pending_attack"]
+		if seat!=int(declaration["defender_seat"]):return error("NOT_DEFENDER_RESPONSE_OWNER")
+		var raw_spend:Variant=action.get("defender_spend",0)
+		if typeof(raw_spend) not in [TYPE_INT,TYPE_FLOAT]:
+			return error("DEFENSE_RESOURCE_TYPE_INVALID")
+		if is_nan(float(raw_spend)) or is_inf(float(raw_spend)) or float(raw_spend)!=float(int(raw_spend)):
+			return error("DEFENSE_RESOURCE_TYPE_INVALID")
+		var response_spend:int=int(raw_spend)
+		if response_spend<0 or response_spend>2:return error("DEFENSE_SPEND_0_TO_2")
+		if typeof(action.get("defender_supporter",""))!=TYPE_STRING:
+			return error("DEFENSE_SUPPORTER_TYPE_INVALID")
+		var resolved:Dictionary=declaration.duplicate(true)
+		resolved["defender_spend"]=response_spend
+		resolved["defender_supporter"]=str(action.get("defender_supporter",""))
+		s["pending_attack"]={}
+		return _finalize_combat(s,int(declaration["attacker_seat"]),resolved,action)
+	if kind=="CHOOSE_DEFENSE":return error("NO_PENDING_ATTACK")
 	if not bool(s["setup_complete"]):
 		if p["setup_ready"]: return error("SETUP_ALREADY_DECIDED")
 		if kind != "KEEP" and kind != "MULLIGAN": return error("PREGAME_DECISION_REQUIRED")
@@ -421,43 +481,31 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		else:
 			s["attachments"].append({"card_id":id,"controller":seat,"host_uid":host})
 		return _commit(s,"DEPLOY",{"seat":seat,"card_id":id,"family":family,"paid":payment["paid"]},action)
-	if kind == "ATTACK":
-		if phase != 4: return error("BATTLE_REQUIRED")
-		if Edicts.engagements_blocked(s,seat,1-seat): return error("FESTIVAL_TRUCE_NO_ENGAGEMENT")
-		var attacker: String = str(action.get("attacker",""))
-		var defender: String = str(action.get("defender",""))
-		var ai: int = _unit_index(s,attacker)
-		if ai < 0 or s["units"][ai]["controller"] != seat: return error("NOT_YOUR_ATTACKER")
-		var battle_players: Array = s["players"].duplicate(true)
-		for j in range(2):
-			var ids: Array = []
-			for record in battle_players[j]["deck"]: ids.append(str(record["card_id"]))
-			battle_players[j]["deck"] = ids
-		var battle: Dictionary = {
-			"mode":"REAL_COMBAT_LAB","phase":"Battle","active_seat":seat,
-			"revision":s["revision"],"seed":s["seed"],
-			"players":battle_players, "units":s["units"].duplicate(true),
-			"sites":s["sites"].duplicate(true),"attachments":s["attachments"].duplicate(true),
-			"round":s["round"],"events":[]}
-		var result: Dictionary = Combat.attack(battle,{
-			"revision":s["revision"],"attacker":attacker,"defender":defender,
+	if kind=="ATTACK":return error("DEFENDER_OWNED_COMBAT_REQUIRED")
+	if kind=="DECLARE_ATTACK":
+		if phase!=4:return error("BATTLE_REQUIRED")
+		if action.has("defender_spend") or action.has("defender_supporter"):
+			return error("DEFENDER_RESOURCE_CONTROL_FORBIDDEN")
+		var ai:int=_unit_index(s,str(action.get("attacker","")))
+		var di:int=_unit_index(s,str(action.get("defender","")))
+		if ai<0 or di<0 or ai==di:return error("INVALID_ATTACK_TARGET")
+		if int(s["units"][ai]["controller"])!=seat or int(s["units"][di]["controller"])==seat:
+			return error("ILLEGAL_COMBAT_OWNERS")
+		var proposed:Dictionary={
+			"attacker":str(action["attacker"]),"defender":str(action["defender"]),
 			"axis":str(action.get("axis","Stone")),
 			"attacker_spend":int(action.get("attacker_spend",0)),
-			"defender_spend":int(action.get("defender_spend",0))})
-		if not result["ok"]: return result
-		s["units"] = result["state"]["units"]
-		for i in range(2):
-			s["players"][i]["sinew"] = result["state"]["players"][i]["sinew"]
-			s["players"][i]["sigil"] = result["state"]["players"][i]["sigil"]
-			s["players"][i]["oath"] = result["state"]["players"][i]["oath"]
-			var restored_deck: Array = []
-			for deck_id in result["state"]["players"][i]["deck"]:
-				var real_card: Dictionary = CardSource.find_card(CardSource.catalog(), str(deck_id)).duplicate(true)
-				real_card["playable"] = true
-				restored_deck.append(real_card)
-			s["players"][i]["deck"] = restored_deck
-		return _commit(s,"COMBAT",{"seat":seat,"attacker":attacker,"defender":defender,
-			"axis":str(action.get("axis","Stone")), "winner":result["event"]["winner_seat"]},action)
+			"attacker_supporter":str(action.get("attacker_supporter","")),
+			"defender_spend":0,"defender_supporter":""}
+		# Validate the attacker's commitment without consuming resources.
+		var preview:Dictionary=_finalize_combat(s.duplicate(true),seat,proposed,{})
+		if not preview["ok"]:return preview
+		s["pending_attack"]={
+			"attacker_seat":seat,"defender_seat":int(s["units"][di]["controller"]),
+			"attacker":str(action["attacker"]),"defender":str(action["defender"]),
+			"axis":proposed["axis"],"attacker_spend":proposed["attacker_spend"],
+			"attacker_supporter":proposed["attacker_supporter"]}
+		return _commit(s,"COMBAT_DECLARED",s["pending_attack"].duplicate(true),action)
 	return error("UNSUPPORTED_ACTION")
 
 static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
@@ -466,6 +514,11 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 	var action: Dictionary = {"seat":seat,"revision":int(state["revision"]),"type":"ADVANCE"}
 	if not state.get("priority_queue",[]).is_empty():
 		return Priority.deterministic_response(state,seat)
+	if not state.get("pending_attack",{}).is_empty():
+		if int(state["pending_attack"]["defender_seat"])!=seat:return {}
+		return {"type":"CHOOSE_DEFENSE","seat":seat,
+			"revision":int(state["revision"]),"defender_spend":0,
+			"defender_supporter":""}
 	if not state["setup_complete"]:
 		action["type"] = "KEEP"
 		return action
@@ -573,7 +626,7 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 					if int(source_a[ax.to_lower()])-int(source_b[ax.to_lower()]) > (
 						int(source_a[best.to_lower()])-int(source_b[best.to_lower()])):
 						best = ax
-				action["type"] = "ATTACK"
+				action["type"] = "DECLARE_ATTACK"
 				action["attacker"] = a["uid"]
 				action["defender"] = b["uid"]
 				action["axis"] = best

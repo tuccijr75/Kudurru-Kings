@@ -46,6 +46,7 @@ func _projection(seat:int)->Dictionary:
 		if i==seat:
 			public_player["hand"]=p["hand"].duplicate(true)
 		players.append(public_player)
+	var attack_view:Dictionary=game.get("pending_attack",{}).duplicate(true)
 	var priority_view:Dictionary={}
 	if not game.get("priority_queue",[]).is_empty():
 		var front:Dictionary=game["priority_queue"][0]
@@ -55,7 +56,7 @@ func _projection(seat:int)->Dictionary:
 	var pending_end:Dictionary=game.get("pending_end_clause",{})
 	var active_pending:bool=not pending_end.is_empty() and int(pending_end.get("seat",-1))==seat
 	return {"mode":"LOCAL_HOST_PREVIEW","revision":game["revision"],
-		"pending_choice":priority_view,"pending_end_discard":active_pending,
+		"pending_choice":priority_view,"pending_attack":attack_view,"pending_end_discard":active_pending,
 		"seat":game["seat"],"round":game["round"],"phase":game["phase"],
 		"setup_complete":game["setup_complete"],"winner":game["winner"],
 		"players":players,"units":game["units"].duplicate(true),
@@ -126,7 +127,7 @@ func _message(entry:Dictionary,line:String)->void:
 		_send(peer,{"ok":false,"error":"UNKNOWN_NETWORK_OPERATION"})
 		return
 	var action:Dictionary=body["action"].duplicate(true)
-	if not ["KEEP","MULLIGAN","ADVANCE","DEPLOY","ATTACK","CAST","CAST_END","CLAUSE_DISCARD","CHOOSE_CONSEQUENCE","END_DISCARD","PEEK"].has(str(action.get("type",""))):
+	if not ["KEEP","MULLIGAN","ADVANCE","DEPLOY","DECLARE_ATTACK","CHOOSE_DEFENSE","CAST","CAST_END","CLAUSE_DISCARD","CHOOSE_CONSEQUENCE","END_DISCARD","PEEK"].has(str(action.get("type",""))):
 		_send(peer,{"ok":false,"error":"ACTION_NOT_ALLOWED"})
 		return
 	# Player ID is assigned by server, never trusted from the packet.

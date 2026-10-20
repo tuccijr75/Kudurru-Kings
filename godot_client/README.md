@@ -1,3 +1,7 @@
+# M17 ? Defender-Owned Combat Response
+
+Real battles now require an attacker declaration followed by the defending player selecting their own 0-2 matching resource spend and optional supporter. The attacker can no longer spend the defender resources through a crafted packet. Solo and two-window UI implement the choice. Run tools/run_m17_quality_gate.ps1; see docs/M17_DEFENDER_PRIORITY.md. Full Standard is still blocked.
+
 # M16 ? River Evacuation
 
 The integrated local match executes source-hashed Edict 186: player-selected displacement of one or two units from the same current active Field, with correct Sigil costs and occupied-slot handling. Both solo and localhost two-player interfaces include targeting. Lines/Geasa remain explicitly unresolved, and the 754-card game is not production-certified. See docs/M16_RIVER_EVACUATION.md. Run tools/run_m16_quality_gate.ps1.

@@ -23,7 +23,12 @@ func _run()->void:
 		var count:int=0
 		var cast_count:int=0
 		while int(s["winner"]) < 0 and count<400:
-			var action:Dictionary=Match.next_action(s,int(s["seat"]))
+			var actor:int=int(s["seat"])
+			if not s.get("priority_queue",[]).is_empty():
+				actor=int(s["priority_queue"][0]["seat"])
+			if not s.get("pending_attack",{}).is_empty():
+				actor=int(s["pending_attack"]["defender_seat"])
+			var action:Dictionary=Match.next_action(s,actor)
 			var applied:Dictionary=Match.apply(s,action)
 			if not applied["ok"]:
 				printerr("INVALID "+str(action)+" "+str(applied))
@@ -39,7 +44,7 @@ func _run()->void:
 		check(packed.get("ok",false),"completed match integrity pack "+str(seed)+" at action "+str(count))
 		if packed["ok"]:
 			var restored:Dictionary=Store.unpack(packed["serialized"])
-			check(restored["ok"],"completed match replay "+str(seed))
+			check(restored["ok"],"completed match replay "+str(seed)+" "+str(restored.get("error","")))
 			if restored["ok"]:
 				check(int(restored["state"]["winner"])==int(s["winner"]),"winner not changed by roundtrip "+str(seed))
 				check(int(restored["state"]["players"][int(s["winner"])]["marks"])>=10,"winning marks preserved "+str(seed))

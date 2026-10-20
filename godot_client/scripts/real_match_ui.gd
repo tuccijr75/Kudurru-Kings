@@ -19,6 +19,11 @@ var axis_select: OptionButton
 var next_button: Button
 var night_market_button: Button
 var attack_button: Button
+var defense_button:Button
+var attack_spend_pick:OptionButton
+var defense_spend_pick:OptionButton
+var attacker_supporter_pick:OptionButton
+var defender_supporter_pick:OptionButton
 var hand_scroll: ScrollContainer
 var player_faction_pick: OptionButton
 var enemy_faction_pick: OptionButton
@@ -158,7 +163,24 @@ func _build() -> void:
 	axis_select = OptionButton.new()
 	for axis in Match.AXES: axis_select.add_item(axis)
 	middle.add_child(axis_select)
-	attack_button = _button(middle,"ATTACK (0 EXTRA RESOURCE SPEND)",_attack)
+	var combat_controls:=HBoxContainer.new()
+	middle.add_child(combat_controls)
+	_label(combat_controls,"Attacker spend",12)
+	attack_spend_pick=OptionButton.new()
+	for amount in range(3):attack_spend_pick.add_item(str(amount))
+	combat_controls.add_child(attack_spend_pick)
+	attacker_supporter_pick=OptionButton.new()
+	middle.add_child(attacker_supporter_pick)
+	attack_button = _button(middle,"DECLARE ENGAGEMENT (DEFENDER CHOOSES RESPONSE)",_attack)
+	var defense_controls:=HBoxContainer.new()
+	middle.add_child(defense_controls)
+	_label(defense_controls,"Defender spend",12)
+	defense_spend_pick=OptionButton.new()
+	for amount in range(3):defense_spend_pick.add_item(str(amount))
+	defense_controls.add_child(defense_spend_pick)
+	defender_supporter_pick=OptionButton.new()
+	middle.add_child(defender_supporter_pick)
+	defense_button=_button(middle,"CHOOSE YOUR DEFENSE",_defend)
 	_button(middle,"MIRROR ARCHIVE: PEEK ENEMY DECK (MAIN)",func(): _action("PEEK",{"target_seat":1}))
 	var right := VBoxContainer.new()
 	right.custom_minimum_size.x = 320
@@ -256,9 +278,11 @@ func _run_opponent() -> void:
 	if state.is_empty() or not state["setup_complete"] or int(state["winner"]) >= 0:return
 	var steps:int=0
 	while int(state["winner"])<0 and steps<90:
+		var combat_pending:Dictionary=state.get("pending_attack",{})
+		if not combat_pending.is_empty() and int(combat_pending["defender_seat"])!=1:break
 		var pending:Array=state.get("priority_queue",[])
 		if not pending.is_empty() and int(pending[0]["seat"])!=1:break
-		if pending.is_empty() and int(state["seat"])!=1:break
+		if pending.is_empty() and combat_pending.is_empty() and int(state["seat"])!=1:break
 		var decision:Dictionary=Match.next_action(state,1)
 		if decision.is_empty():
 			status.text="OPPONENT PAUSED: NO LEGAL RESPONSE"
@@ -272,8 +296,8 @@ func _run_opponent() -> void:
 	if steps>=90:status.text="OPPONENT STOPPED: SAFETY ACTION BUDGET"
 
 func _next() -> void:
-	if not state.get("priority_queue",[]).is_empty():
-		status.text="Resolve the outstanding opponent-choice window before advancing."
+	if not state.get("priority_queue",[]).is_empty() or not state.get("pending_attack",{}).is_empty():
+		status.text="Resolve the outstanding opponent response before advancing."
 		return
 	if state["setup_complete"] and int(state["phase"])==6 and int(state["seat"])==0 and state["players"][0]["hand"].size()>6:
 		status.text="Choose the card(s) to discard down to six before ending the turn."
@@ -386,11 +410,23 @@ func _choice(choice:String)->void:
 	_action("CHOOSE_CONSEQUENCE",payload)
 
 func _attack() -> void:
-	if attacker_select.item_count==0 or defender_select.item_count==0: return
-	var a: String = str(attacker_select.get_item_metadata(attacker_select.selected))
-	var b: String = str(defender_select.get_item_metadata(defender_select.selected))
-	var axis: String = Match.AXES[axis_select.selected]
-	_action("ATTACK",{"attacker":a,"defender":b,"axis":axis})
+	if attacker_select.item_count==0 or defender_select.item_count==0:return
+	var a:String=str(attacker_select.get_item_metadata(attacker_select.selected))
+	var b:String=str(defender_select.get_item_metadata(defender_select.selected))
+	var axis:String=Match.AXES[axis_select.selected]
+	var supporter:String=""
+	if attacker_supporter_pick.selected>0:supporter=str(attacker_supporter_pick.get_item_metadata(attacker_supporter_pick.selected))
+	_action("DECLARE_ATTACK",{"attacker":a,"defender":b,"axis":axis,
+		"attacker_spend":attack_spend_pick.selected,"attacker_supporter":supporter})
+
+func _defend()->void:
+	var pending:Dictionary=state.get("pending_attack",{})
+	if pending.is_empty() or int(pending["defender_seat"])!=0:return
+	var supporter:String=""
+	if defender_supporter_pick.selected>0:
+		supporter=str(defender_supporter_pick.get_item_metadata(defender_supporter_pick.selected))
+	_action("CHOOSE_DEFENSE",{"defender_spend":defense_spend_pick.selected,
+		"defender_supporter":supporter})
 
 func _refresh() -> void:
 	if state.is_empty(): return
@@ -427,7 +463,9 @@ func _refresh() -> void:
 	priority_exhaust_button.disabled=not legal.has("EXHAUST_UNIT")
 	priority_silence_button.disabled=not legal.has("SILENCE_UNIT")
 	var end_overflow:bool=state["setup_complete"] and int(state["phase"])==6 and int(state["seat"])==0 and state["players"][0]["hand"].size()>6
-	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty() or not pending.is_empty() or end_overflow
+	var combat_pending:Dictionary=state.get("pending_attack",{})
+	next_button.disabled = winner>=0 or int(state["seat"])!=0 or not state["pending_end_clause"].is_empty() or not pending.is_empty() or not combat_pending.is_empty() or end_overflow
+	defense_button.disabled = combat_pending.is_empty() or int(combat_pending.get("defender_seat",-1))!=0
 	var clause_in_hand:bool=false
 	for card in state["players"][0]["hand"]:
 		if str(card["card_id"])=="187":clause_in_hand=true
@@ -520,16 +558,24 @@ func _refresh() -> void:
 	board_view.text = "\n".join(lines)
 	attacker_select.clear()
 	defender_select.clear()
+	attacker_supporter_pick.clear()
+	attacker_supporter_pick.add_item("NO ATTACK SUPPORTER")
+	defender_supporter_pick.clear()
+	defender_supporter_pick.add_item("NO DEFENSE SUPPORTER")
 	for u in state["units"]:
 		if u["downed"] or u["defeated"]: continue
 		var card: Dictionary = Source.find_card(Source.catalog(),str(u["card_id"]))
 		if int(u["controller"])==0 and not u["exhausted"]:
+			attacker_supporter_pick.add_item(str(card["card_name"])+" | "+str(u["uid"]))
+			attacker_supporter_pick.set_item_metadata(attacker_supporter_pick.item_count-1,str(u["uid"]))
+			defender_supporter_pick.add_item(str(card["card_name"])+" | "+str(u["uid"]))
+			defender_supporter_pick.set_item_metadata(defender_supporter_pick.item_count-1,str(u["uid"]))
 			attacker_select.add_item(str(card["card_name"])+"  | "+str(u["field"]))
 			attacker_select.set_item_metadata(attacker_select.item_count-1,u["uid"])
 		if int(u["controller"])==1:
 			defender_select.add_item(str(card["card_name"])+"  | "+str(u["field"]))
 			defender_select.set_item_metadata(defender_select.item_count-1,u["uid"])
-	attack_button.disabled = winner>=0 or not state["setup_complete"] or int(state["seat"])!=0 or int(state["phase"])!=4 or (
+	attack_button.disabled = winner>=0 or not state["setup_complete"] or int(state["seat"])!=0 or int(state["phase"])!=4 or not combat_pending.is_empty() or (
 		attacker_select.item_count==0 or defender_select.item_count==0)
 	var log_lines: Array = []
 	for event in state["events"].slice(maxi(0,state["events"].size()-15)):
