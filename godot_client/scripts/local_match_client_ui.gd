@@ -3,12 +3,15 @@ const Pets = preload("res://scripts/match_pets.gd")
 ## Actual Godot TCP client for the two-seat loopback-only host.
 ## Zero player authority: private hand, priority and actions arrive from host.
 ## This scene is NOT a WAN/TLS/reconnect/4-seat production implementation.
+const Decks=preload("res://scripts/deck_registry.gd")
 const Source=preload("res://scripts/real_effects.gd")
 const Match=preload("res://scripts/match_integrator.gd")
 const Rules=preload("res://scripts/game_rules.gd")
 const LocalHost=preload("res://scripts/localhost_match_server.gd")
 const PORT:=31147
 const MAX_MESSAGE:=16384
+var deck_pick:OptionButton
+var deck_lock:Button
 var host_node:Node
 var peer:=StreamPeerTCP.new()
 var incoming:String=""
@@ -79,6 +82,18 @@ func _ready()->void:
 	_label(bar,"TWO-SEAT LOCAL MATCH • ACTUAL HOST NETWORK",19)
 	_button(bar,"HOST + JOIN (WINDOW 1)",_host_and_join)
 	_button(bar,"JOIN HOST (WINDOW 2)",_join)
+	var deck_bar:=HBoxContainer.new()
+	root.add_child(deck_bar)
+	_button(deck_bar,"HOST DECK LOBBY",func():_host_and_join(true))
+	_label(deck_bar,"LOBBY DECK")
+	deck_pick=OptionButton.new()
+	deck_bar.add_child(deck_pick)
+	deck_pick.add_item("CANDIDATE STARTER")
+	deck_pick.set_item_metadata(0,"")
+	for deck_name in Decks.names():
+		deck_pick.add_item(str(deck_name))
+		deck_pick.set_item_metadata(deck_pick.item_count-1,deck_name)
+	deck_lock=_button(deck_bar,"LOCK MY DECK",_lock_deck)
 	status=_label(root,"LOCAL ONLY: 127.0.0.1:31147. Not internet-safe, no permanent rewards.",14)
 	title=_label(root,"No match connection",18)
 	summary=_label(root,"Host in the first window, join from the second game window.",14)
@@ -161,7 +176,7 @@ func _ready()->void:
 	right.add_child(recent)
 	_refresh()
 
-func _host_and_join()->void:
+func _host_and_join(use_deck_lobby:bool=false)->void:
 	if host_node!=null:
 		status.text="Already hosting; reconnect is not supported in this preview."
 		return
@@ -171,6 +186,7 @@ func _host_and_join()->void:
 		return
 	check.stop()
 	host_node=LocalHost.new()
+	host_node.deck_selection_enabled=use_deck_lobby
 	host_node.name="EmbeddedLocalhostAuthoritativeMatch"
 	add_child(host_node)
 	_join()
@@ -232,7 +248,7 @@ func _received(msg:Dictionary)->void:
 		status.text="Connected as Seat %d. Localhost-only match." % seat
 	elif kind=="UPDATED" or kind=="VIEW":
 		view=msg["view"]
-		status.text="Host confirmed revision %d." % int(view["revision"])
+		status.text="Deck lobby updated." if view.has("lobby") else "Host confirmed revision %d." % int(view["revision"])
 	else:
 		status.text="Unexpected server response."
 		return
@@ -241,9 +257,29 @@ func _received(msg:Dictionary)->void:
 		status.text="PRIVATE TOP CARD: "+str(secret.get("card_name","UNKNOWN"))
 	_refresh()
 
+func _lock_deck()->void:
+	if not view.has("lobby") or seat not in [0,1] or token.is_empty():return
+	var ids:Array=[]
+	var deck_name:String=str(deck_pick.get_item_metadata(deck_pick.selected))
+	if deck_name.is_empty():
+		var faction:String="BorderstoneGuild" if seat==0 else "UnderwellKeepers"
+		for card in Match._deck(faction):ids.append(str(card["card_id"]))
+	else:
+		var loaded:Dictionary=Decks.load(deck_name)
+		if not loaded.get("ok",false):
+			status.text="Cannot load selected deck: "+str(loaded.get("error","INVALID_DECK"))
+			return
+		ids=loaded["ids"]
+	var payload:Dictionary={"type":"SELECT_DECK","token":token,"deck_revision":view["lobby"]["revision"],"card_ids":ids}
+	peer.put_data((JSON.stringify(payload)+"\n").to_utf8_buffer())
+	status.text="Requesting deck lock; waiting for host validation."
+
 func _send_action(kind:String,values:Dictionary={})->void:
 	if token.is_empty() or view.is_empty() or peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:
 		status.text="Join the local host before playing."
+		return
+	if view.has("lobby"):
+		status.text="Both players must lock a legal candidate deck first."
 		return
 	var action:Dictionary={"type":kind,"revision":int(view["revision"])}
 	for key in values:action[key]=values[key]
@@ -345,6 +381,8 @@ func _hand_play(index:int)->void:
 	status.text="Card has no legal play action during this phase."
 
 func _refresh()->void:
+	deck_lock.disabled=true
+	deck_pick.disabled=true
 	var ready:bool=not view.is_empty() and seat in [0,1]
 	keep_button.disabled=true
 	mulligan_button.disabled=true
@@ -366,6 +404,15 @@ func _refresh()->void:
 	attack_supporter.add_item("NO ATTACK SUPPORTER")
 	defense_supporter.clear()
 	defense_supporter.add_item("NO DEFENSE SUPPORTER")
+	if ready and view.has("lobby"):
+		var lobby:Dictionary=view["lobby"]
+		deck_lock.disabled=bool(lobby["ready"][seat])
+		deck_pick.disabled=deck_lock.disabled
+		title.text="DECK LOBBY — Seat %d" % seat
+		summary.text="Seat 0: %s | Seat 1: %s. Deck locks are final; hands are dealt after both lock." % ["LOCKED" if lobby["ready"][0] else "CHOOSING","LOCKED" if lobby["ready"][1] else "CHOOSING"]
+		board.text="Choose a saved candidate-ready deck or the starter, then lock."
+		recent.text="Waiting for both players."
+		return
 	if not ready:return
 	var players:Array=view["players"]
 	var mine:Dictionary=players[seat]

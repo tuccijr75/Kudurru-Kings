@@ -2,12 +2,15 @@ extends Node
 ## Localhost-only authoritative 2-seat match transport. NOT internet-safe multiplayer.
 ## Every client action is validated by the same Godot deterministic reducer.
 ## Never return raw state, seed, unseen deck cards, private peeks or action log.
+const Lobby = preload("res://scripts/match_deck_lobby.gd")
 const Command = preload("res://scripts/match_command.gd")
 const Match = preload("res://scripts/match_integrator.gd")
 const Source = preload("res://scripts/real_effects.gd")
 const PORT := 31147
 const MAX_MESSAGE := 16384
 const MAX_CLIENTS := 2
+var deck_selection_enabled:bool=false
+var deck_lobby:Dictionary={}
 var listener := TCPServer.new()
 var connections: Array = []
 var claimed_seats: Dictionary = {}
@@ -15,7 +18,9 @@ var game: Dictionary = {}
 var crypto := Crypto.new()
 
 func _ready() -> void:
-	var result:Dictionary=Match.create(8181)
+	if deck_selection_enabled:deck_lobby=Lobby.create()
+	var match_seed:int=crypto.generate_random_bytes(6).hex_encode().hex_to_int() if deck_selection_enabled else 8181
+	var result:Dictionary=Match.create(match_seed)
 	if not result.get("ok",false):
 		push_error("LOCAL_HOST_CANDIDATE_SETUP_FAILED")
 		get_tree().quit(1)
@@ -37,6 +42,8 @@ func _send(peer:StreamPeerTCP,message:Dictionary)->void:
 	peer.put_data(payload.to_utf8_buffer())
 
 func _projection(seat:int)->Dictionary:
+	if not deck_lobby.is_empty() and not deck_lobby["started"]:
+		return {"mode":"LOCAL_HOST_DECK_LOBBY","lobby":Lobby.projection(deck_lobby)}
 	var players:Array=[]
 	for i in range(game["players"].size()):
 		var p:Dictionary=game["players"][i]
@@ -123,6 +130,31 @@ func _message(entry:Dictionary,line:String)->void:
 	var seat:int=int(entry["seat"])
 	if body.get("type")=="VIEW":
 		_send(peer,{"ok":true,"type":"VIEW","view":_projection(seat)})
+		return
+	if body.get("type")=="SELECT_DECK":
+		if deck_lobby.is_empty():
+			_send(peer,{"ok":false,"error":"DECK_SELECTION_NOT_ENABLED"})
+			return
+		if not Command.whole(body.get("deck_revision")):
+			_send(peer,{"ok":false,"error":"DECK_REVISION_REQUIRED"})
+			return
+		var locked:Dictionary=Lobby.select(deck_lobby,seat,int(body["deck_revision"]),body.get("card_ids"))
+		if not locked.get("ok",false):
+			_send(peer,{"ok":false,"error":locked["error"]})
+			return
+		var next:Dictionary=locked["state"]
+		if next["started"]:
+			var made:Dictionary=Match.create(int(game["seed"]),"BorderstoneGuild","UnderwellKeepers",next["deck_ids"])
+			if not made.get("ok",false):
+				_send(peer,{"ok":false,"error":"LOCKED_DECK_SETUP_FAILED"})
+				return
+			game=made["state"]
+		deck_lobby=next
+		for client in connections:
+			_send(client["peer"],{"ok":true,"type":"UPDATED","view":_projection(int(client["seat"]))})
+		return
+	if not deck_lobby.is_empty() and not deck_lobby["started"]:
+		_send(peer,{"ok":false,"error":"BOTH_DECKS_REQUIRED"})
 		return
 	if body.get("type")!="ACTION" or typeof(body.get("action"))!=TYPE_DICTIONARY:
 		_send(peer,{"ok":false,"error":"UNKNOWN_NETWORK_OPERATION"})
