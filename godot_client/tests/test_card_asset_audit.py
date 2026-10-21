@@ -1,5 +1,8 @@
 """Adversarial asset evidence fixtures; no claims about the real artwork's rights."""
 import csv
+import contextlib
+import os
+import subprocess
 import hashlib
 import importlib.util
 import json
@@ -30,6 +33,23 @@ class AssetAuditTests(unittest.TestCase):
                           rules_sha256=hashlib.sha256(self.card['rules_text'].encode()).hexdigest(),
                           rights_evidence=review.copy(), identity_review=review.copy(), legibility_review=review.copy())
         self.manifest = dict(schema='kudurru_card_asset_manifest_v1', source_sha256=MODULE.digest(self.source), cards=[self.entry])
+
+    @contextlib.contextmanager
+    def directory_alias(self, name, target):
+        """Exercise real path resolution without Windows symlink privileges."""
+        alias = self.root / name
+        if os.name == 'nt':
+            subprocess.run(['cmd.exe', '/d', '/c', 'mklink', '/J', str(alias), str(target)],
+                           check=True, capture_output=True, text=True)
+        else:
+            alias.symlink_to(target, target_is_directory=True)
+        try:
+            yield alias
+        finally:
+            if os.name == 'nt':
+                alias.rmdir()  # Remove the junction itself, never its target.
+            else:
+                alias.unlink()
 
     def run_audit(self, write=True):
         if write:
@@ -86,9 +106,9 @@ class AssetAuditTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as outside:
             target = Path(outside) / 'image.png'
             target.write_bytes(b'outside')
-            (self.root / 'escape.png').symlink_to(target)
-            self.entry['image_path'] = 'escape.png'
-            self.assertIn('missing_or_unsafe_image_path', self.issues())
+            with self.directory_alias('escape', Path(outside)):
+                self.entry['image_path'] = 'escape/image.png'
+                self.assertIn('missing_or_unsafe_image_path', self.issues())
 
     def test_missing_or_tampered_review(self):
         del self.entry['rights_evidence']
@@ -107,9 +127,9 @@ class AssetAuditTests(unittest.TestCase):
         self.assertIn('shared_image_requires_identity_review', self.issues())
 
     def test_internal_symlink_image_alias_requires_review(self):
-        (self.root / 'alias.png').symlink_to(self.root / 'fixture.png')
-        self.manifest['cards'].append(dict(self.entry, card_id='2', image_path='alias.png'))
-        self.assertIn('shared_image_requires_identity_review', self.issues())
+        with self.directory_alias('alias', self.root):
+            self.manifest['cards'].append(dict(self.entry, card_id='2', image_path='alias/fixture.png'))
+            self.assertIn('shared_image_requires_identity_review', self.issues())
 
     def test_shared_image_requires_review(self):
         self.manifest['cards'].append(dict(self.entry, card_id='2'))
