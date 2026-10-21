@@ -1,0 +1,74 @@
+{
+  "schema": "KUDURRU_M22_VERIFICATION_V1",
+  "source_commit": "4ea2a5496aaf93e640d237a592189888bf09a864",
+  "source_tree": "60d6b15a9c18b6d34c8849caab24b837ff3f53e9",
+  "branch": "build/m22-network-deck-lobby-20261020",
+  "baseline_m18": "caf153dcf400b0f461de6b3c9a188e84e4b89022",
+  "base_m21": "4c20a5bace9b40bc537f2bdad4515270e63cfdb7",
+  "linux": {
+    "platform": "Linux x86_64",
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "commands": 65,
+    "godot_suites": 38,
+    "godot_assertions": 7167,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "e195873172e2cea3007f8b6242d0cede8def5dececa9ae022e71dc9f08a8de46",
+    "console_errors_detected": false
+  },
+  "windows": {
+    "commit": "4ea2a5496aaf93e640d237a592189888bf09a864",
+    "branch": "build/m22-network-deck-lobby-20261020",
+    "platform": "Windows x64",
+    "godot": "4.7.2",
+    "gate_commands": 65,
+    "godot_suites": 38,
+    "godot_assertions": 7167,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "0e614f063c96c1552ffc22c1ce78598ed24b09ca41d1b1e3911351febe0c2965",
+    "console_errors_detected": false,
+    "zip": "E:\\KudurruKings\\Builds\\KudurruKings_M22_WindowsCandidate_4ea2a54.zip",
+    "zip_bytes": 38564109,
+    "zip_sha256": "560de2f84bb843315b4c4dc11138a007157e792cf42c7f2c0e839d842776ea88",
+    "files": [
+      {
+        "sha256": "d4358a68ee7b941707bdd9182faee1fa94ad08d8de2b9a11f1bba0a08442c8b2",
+        "name": "KudurruKings.exe",
+        "bytes": 109127680
+      },
+      {
+        "sha256": "f84de706827045ea3aee0b83d754b09af2131c6c49730eeb61420b8037d32fbf",
+        "name": "KudurruKings.pck",
+        "bytes": 4892808
+      }
+    ],
+    "zip_crc": "PASS",
+    "manifest_hashes": "PASS",
+    "extracted_launch": "PASS",
+    "extracted_exe": "E:\\KudurruKings\\Builds\\M22_4ea2a54_IndependentExtractedSmoke\\KudurruKings_M22_WindowsCandidate_4ea2a54\\KudurruKings.exe",
+    "launch_log_sha256": "99a1f5c05f8b42a98c1353a644c0527b7fbdebfb7a944acd272ccf7d46cc34a6",
+    "embedded_authenticode_certificate_present": false,
+    "visual_acceptance": "UNVERIFIED",
+    "production_status": "CLOSED",
+    "release_certified": false
+  },
+  "original_m18_worktree": "CLEAN, unchanged",
+  "native_worktree": "E:\\KudurruKings\\m19-native-sparse",
+  "source_cards": 754,
+  "production_certified_cards": 0,
+  "production_status": "CLOSED",
+  "full_standard_release_ready": false,
+  "unresolved": [
+    "Stagger semantics and expiry",
+    "Bind and capture adjudication",
+    "Full source effects and legacy-term reconciliation",
+    "Boss Trials, jurisdiction, Names and Sites integration",
+    "Certified scenario goals",
+    "1–4 play, WAN authentication/TLS/reconnect",
+    "Collection rewards and issuing authority",
+    "Art, balance, human playtest/visual acceptance",
+    "Signed production distribution"
+  ],
+  "private_eoe_published": false
+}
