@@ -1,0 +1,89 @@
+{
+  "schema": "KUDURRU_M24_VERIFICATION_V1",
+  "source_commit": "e7084277619e4bf999615d3bc3b6b681ecc5cbfe",
+  "source_tree": "b6229a7f9df84cdcb1883705dc50558cf31cc8ff",
+  "branch": "build/m24-four-seat-candidate-20261020",
+  "baseline_m18": "caf153dcf400b0f461de6b3c9a188e84e4b89022",
+  "base_m23": "aeba3414d3f3015b70ef984639b20c03cc28ff74",
+  "linux": {
+    "platform": "Linux x86_64",
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "commands": 67,
+    "godot_suites": 40,
+    "godot_assertions": 7379,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "dc382f6636b5d0ad2b33769f77fb9736cb7386f9667a6bb4d629b759ba44a38e",
+    "console_errors_detected": false
+  },
+  "windows": {
+    "commit": "e7084277619e4bf999615d3bc3b6b681ecc5cbfe",
+    "branch": "build/m24-four-seat-candidate-20261020",
+    "platform": "Windows x64",
+    "godot": "4.7.2",
+    "gate_commands": 67,
+    "godot_suites": 40,
+    "godot_assertions": 7379,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "eaf0d11af1b7dd1e18b8b0714ebc2815d3634853d34228a4ccd28b34dff8b14b",
+    "console_errors_detected": false,
+    "zip": "E:\\KudurruKings\\Builds\\KudurruKings_M24_WindowsCandidate_e708427.zip",
+    "zip_bytes": 38592343,
+    "zip_sha256": "c9bd46c9a0318febaf36c5856e4c053a6a3fea696ee039081f067b8d2d7637ff",
+    "files": [
+      {
+        "sha256": "d4358a68ee7b941707bdd9182faee1fa94ad08d8de2b9a11f1bba0a08442c8b2",
+        "name": "KudurruKings.exe",
+        "bytes": 109127680
+      },
+      {
+        "sha256": "38867438e6c29957a33ad8b31bb89468b4ecf9e497afebd1e19a793cacde2a4a",
+        "name": "KudurruKings.pck",
+        "bytes": 4984664
+      }
+    ],
+    "zip_crc": "PASS",
+    "manifest_hashes": "PASS",
+    "extracted_launch": "PASS",
+    "extracted_exe": "E:\\KudurruKings\\Builds\\M24_e708427_IndependentExtractedSmoke\\KudurruKings_M24_WindowsCandidate_e708427\\KudurruKings.exe",
+    "launch_log_sha256": "99a1f5c05f8b42a98c1353a644c0527b7fbdebfb7a944acd272ccf7d46cc34a6",
+    "embedded_authenticode_certificate_present": false,
+    "visual_acceptance": "UNVERIFIED",
+    "production_status": "CLOSED",
+    "release_certified": false
+  },
+  "original_m18_worktree": "CLEAN, unchanged",
+  "native_worktree": "E:\\KudurruKings\\m19-native-sparse",
+  "feature_status": {
+    "source_contracts_verified": true,
+    "implemented": true,
+    "unit_tested": true,
+    "integrated_tcp_tested": true,
+    "loopback_seat_counts_tested": [
+      2,
+      3,
+      4
+    ],
+    "four_seat_suite_assertions": 165,
+    "visually_verified": false,
+    "release_certified": false
+  },
+  "source_cards": 754,
+  "production_certified_cards": 0,
+  "production_status": "CLOSED",
+  "full_standard_release_ready": false,
+  "unresolved": [
+    "Stagger semantics and expiry",
+    "Bind and capture adjudication",
+    "Most-ready positive-count tie semantics for final Standard",
+    "Full source effects and legacy-term reconciliation",
+    "Boss Trials, jurisdiction, Names and Sites integration",
+    "Certified scenario goals and simultaneous scoring",
+    "WAN authentication/TLS and persistent account recovery",
+    "Collection rewards and issuing authority",
+    "Art, balance, human playtest/visual acceptance",
+    "Signed production distribution"
+  ],
+  "private_eoe_published": false
+}
