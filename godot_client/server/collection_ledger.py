@@ -82,8 +82,17 @@ class CollectionLedger:
     def capture(self,payload:dict,signature:str)->dict:
         needed={"event_id","match_id","type","recipient","defender",
                 "card_id","trial_axes","success","card_master_sha256"}
-        if set(payload)!=needed:raise LedgerError("INVALID_RECEIPT_FIELDS")
-        if not isinstance(signature,str) or not hmac.compare_digest(self.sign(payload),signature):
+        if not isinstance(payload,dict) or set(payload)!=needed:
+            raise LedgerError("INVALID_RECEIPT_FIELDS")
+        if any(not isinstance(payload[k],str) for k in (
+            "event_id","match_id","type","recipient","defender","card_id","card_master_sha256")):
+            raise LedgerError("INVALID_RECEIPT_TYPES")
+        if not isinstance(payload["trial_axes"],list) or any(
+            not isinstance(axis,str) for axis in payload["trial_axes"]):
+            raise LedgerError("INVALID_RECEIPT_TYPES")
+        if (not isinstance(signature,str) or len(signature)!=64 or
+            any(char not in "0123456789abcdef" for char in signature) or
+            not hmac.compare_digest(self.sign(payload),signature)):
             raise LedgerError("BAD_AUTHORITY_SIGNATURE")
         if payload["card_master_sha256"]!=self.source_sha:
             raise LedgerError("SOURCE_VERSION_MISMATCH")

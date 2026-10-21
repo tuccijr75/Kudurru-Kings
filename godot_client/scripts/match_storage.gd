@@ -93,6 +93,8 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 	if not setup.get("ok",false): return _bad("REPLAY_SETUP_FAILED")
 	var current: Dictionary = setup["state"]
 	var actions: Array = saved_state["action_log"]
+	var legacy_peek_used: Dictionary = {}
+	var legacy_peek_trace_valid: bool = true
 	for ix in range(actions.size()):
 		if typeof(actions[ix]) != TYPE_DICTIONARY: return _bad("INVALID_ACTION")
 		if str(actions[ix].get("type",""))=="ATTACK":
@@ -104,12 +106,21 @@ static func replay(saved_state: Dictionary) -> Dictionary:
 		action["revision"] = int(action["revision"])
 		if action["revision"] != int(current["revision"]):
 			return _bad("REPLAY_SEQUENCE_BROKEN")
+		if str(action.get("type", "")) == "PEEK":
+			var legacy_stamp: String = str(int(current["round"])*2+int(action["seat"]))
+			if legacy_peek_used.has(legacy_stamp): legacy_peek_trace_valid = false
+			legacy_peek_used[legacy_stamp] = true
 		var response: Dictionary = Match.apply(current,action)
 		if not response.get("ok",false): return _bad("REPLAY_ACTION_INVALID_AT_"+str(ix))
 		current = response["state"]
 	var expected:Dictionary=saved_state.duplicate(true)
 	if not expected.has("priority_queue"):expected["priority_queue"]=[]
 	if not expected.has("pending_attack"):expected["pending_attack"]={}
+	# M24 used two-seat arithmetic for all player counts. Migrate only the
+	# exact stamp map reconstructed from an independently valid legacy trace.
+	# Every other state field and every replayed decision must still match.
+	if current["players"].size()>2 and legacy_peek_trace_valid and _hash(expected.get("peek_used")) == _hash(legacy_peek_used):
+		expected["peek_used"] = current["peek_used"].duplicate(true)
 	if _hash(current) != _hash(expected):
 		return _bad("REPLAY_STATE_DIVERGENCE")
 	return {"ok": true, "state": current}
@@ -121,7 +132,7 @@ static func pack(s: Dictionary) -> Dictionary:
 	if not proof["ok"]: return proof
 	var catalog: Dictionary = Source.catalog()
 	if catalog.is_empty(): return _bad("MISSING_SOURCE_CATALOG")
-	var payload: String = JSON.stringify(_normalized(s))
+	var payload: String = JSON.stringify(_normalized(proof["state"]))
 	var wrapper: Dictionary = {
 		"schema": VERSION, "catalog_sha256": str(catalog["source_sha256"]),
 		"payload_sha256": payload.sha256_text(),

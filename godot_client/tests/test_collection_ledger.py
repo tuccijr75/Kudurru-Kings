@@ -87,6 +87,23 @@ class LedgerTests(unittest.TestCase):
   with self.assertRaises(LedgerError):
    self.ledger.ultra_eligibility("capturer","255",{"minimum_level":25})
 
+ def test_malformed_receipts_fail_closed_without_database_changes(self):
+  for payload in (None,[],True,"receipt"):
+   with self.subTest(payload=payload),self.assertRaisesRegex(LedgerError,"INVALID_RECEIPT_FIELDS"):
+    self.ledger.capture(payload,"invalid")
+  for field,value in (("recipient",[]),("defender",{}),("card_id",421),
+                      ("trial_axes",[{}]),("trial_axes",[1]),("trial_axes",None)):
+   payload=self.receipt("421")|{field:value}
+   with self.subTest(field=field,value=value),self.assertRaisesRegex(LedgerError,"INVALID_RECEIPT_TYPES"):
+    self.ledger.capture(payload,self.ledger.sign(payload))
+  payload=self.receipt("421")
+  for signature in ("é"*64,"g"*64,"a"*63,None,[]):
+   with self.subTest(signature=signature),self.assertRaisesRegex(LedgerError,"BAD_AUTHORITY_SIGNATURE"):
+    self.ledger.capture(payload,signature)
+  self.assertEqual(0,self.ledger.quantity("capturer","421"))
+  with self.ledger.connect() as db:
+   self.assertEqual(0,db.execute("SELECT count(*) FROM grants").fetchone()[0])
+
  def test_schema_and_key_gate(self):
   with self.assertRaisesRegex(LedgerError,"SERVER_SIGNING_KEY_REQUIRED"):
    CollectionLedger(self.db,b"tiny",ROOT/"02_Data/Kudurru_Kings_Gameplay_Master_v1.csv")

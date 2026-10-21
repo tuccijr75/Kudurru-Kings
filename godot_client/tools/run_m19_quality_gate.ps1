@@ -37,7 +37,9 @@ PythonGate @('godot_client/tools/compile_character_mechanics.py')
 PythonGate @('godot_client/tools/audit_m5_readiness.py')
 PythonGate @('godot_client/tools/audit_full_game.py')
 PythonGate @('godot_client/tools/build_completion_ledger.py')
-foreach($test in @('test_cost_balance.py','test_real_sources.py','test_m6_stat_reconciliation.py','test_full_game_audit.py','test_collection_ledger.py','test_localhost_multiplayer.py')) {
+PythonGate @('godot_client/tools/audit_card_assets.py')
+PythonGate @('godot_client/tools/audit_production_readiness.py')
+foreach($test in @('test_cost_balance.py','test_real_sources.py','test_m6_stat_reconciliation.py','test_full_game_audit.py','test_collection_ledger.py','test_card_asset_audit.py','test_production_readiness.py','test_localhost_multiplayer.py')) {
  PythonGate @(('godot_client/tests/'+$test))
 }
 GodotGate @('--editor','--quit')
@@ -59,7 +61,7 @@ foreach($test in @(
  'test_end_phase_integrity.gd','test_defeat_restore.gd',
  'test_local_match_client_ui.gd','test_river_evacuation.gd','test_river_ui.gd',
  'test_defender_priority.gd','test_combat_choice_ui.gd',
- 'test_network_combat_e2e.gd','test_command_integrity.gd','test_network_deck_lobby.gd','test_authenticated_reconnect.gd','test_four_seat_match.gd'
+ 'test_network_combat_e2e.gd','test_command_integrity.gd','test_network_deck_lobby.gd','test_authenticated_reconnect.gd','test_four_seat_match.gd','test_network_framing.gd','test_multiseat_peek.gd'
 )) {
  GodotGate @('--script',('res://tests/'+$test))
 }

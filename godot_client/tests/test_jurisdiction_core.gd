@@ -62,3 +62,39 @@ func _run()->void:
 	check(not Jur.cross(nails,command)["statuses"]["staggered"],"friendly crosser immune to Nail")
 	check(Jur.setup(["Threshold","Sanctuary"])["ok"],"other canonical active fields")
 	check(not Jur._source("201"),"unsupported Line acceleration does not get invented")
+
+	# Crossing validates persisted source pins and geometry; rejected commands are pure.
+	var before:String=JSON.stringify(nails)
+	var valid_command:Dictionary=command.duplicate(true)
+	check(Jur.cross(nails,valid_command)==Jur.cross(nails,valid_command),"same source crossing replays deterministically")
+	check(JSON.stringify(nails)==before,"successful crossing leaves input state unchanged")
+	for key in ["source_id","source_sha256","from","controller","id"]:
+		var tampered:Dictionary=nails.duplicate(true)
+		tampered["lines"][0][key]={"source_id":"999","source_sha256":"forged","from":"Wilds","controller":7,"id":""}[key]
+		var snapshot:String=JSON.stringify(tampered)
+		check(not Jur.cross(tampered,valid_command)["ok"],"reject altered line "+key)
+		check(JSON.stringify(tampered)==snapshot,"altered line rejection is pure "+key)
+	var duplicated:Dictionary=nails.duplicate(true)
+	duplicated["lines"].append(duplicated["lines"][0].duplicate(true))
+	check(Jur.cross(duplicated,valid_command)["error"]=="INVALID_LINE_RECORD","reject duplicated persisted line identity")
+	var covenanted:Dictionary=Jur.covenant(nails,0)["state"]
+	var law_command:Dictionary=valid_command.merged({"revision":covenanted["revision"]},true)
+	for key in ["source_id","source_sha256","controller"]:
+		var tampered:Dictionary=covenanted.duplicate(true)
+		tampered["laws"][0][key]={"source_id":"999","source_sha256":"forged","controller":-1}[key]
+		check(not Jur.cross(tampered,law_command)["ok"],"reject altered law "+key)
+	for value in [true,"1",0.5,-1,4]:
+		check(not Jur.cross(nails,valid_command.merged({"controller":value},true))["ok"],"reject malformed or invalid seat "+str(value))
+	for value in [true,"0",0.5,-1]:
+		check(not Jur.cross(nails,valid_command.merged({"pay_oath":value},true))["ok"],"reject malformed or negative payment "+str(value))
+	for value in [true,"2",0.5,-1]:
+		check(not Jur.cross(nails,valid_command.merged({"player":{"oath":value}},true))["ok"],"reject malformed or negative balance "+str(value))
+	check(not Jur.cross(nails,valid_command.merged({"player":[]},true))["ok"],"reject non-dictionary player")
+	check(not Jur.cross(nails,valid_command.merged({"revision":true},true))["ok"],"reject boolean revision")
+	check(not Jur.cross(nails,valid_command.merged({"revision":float(nails["revision"])+0.1},true))["ok"],"reject fractional revision")
+	check(Jur.cross(nails,valid_command.merged({"revision":float(nails["revision"]),"controller":0.0,"pay_oath":0.0,"player":{"oath":0.0}},true))["ok"],"accept integral JSON numeric transport")
+	for key in ["active_fields","lines","laws","events","revision"]:
+		var tampered:Dictionary=nails.duplicate(true)
+		tampered[key]=null
+		check(not Jur.cross(tampered,valid_command)["ok"],"reject malformed state "+key)
+	check(JSON.stringify(nails)==before,"all negative paths leave authoritative input unchanged")

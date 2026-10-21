@@ -1,0 +1,13 @@
+# Production readiness inventory
+
+`python godot_client/tools/audit_production_readiness.py` emits a read-only seven-gate blocker inventory. `--require-open` returns **1 while CLOSED**; malformed/stale inputs return **2**. An inventory generation exit of zero means the report is internally consistent, never release approval.
+
+The current contract always preserves CLOSED. The existing completion ledger records candidate capability and certification declarations, not independently authenticated certification evidence. Production promotion requires a separately reviewed evidence contract and explicit release authorization. Editing PASS strings, certification booleans or an aggregate count cannot authorize production through this tool.
+
+Checks independently compare the live 754-row master against its pinned raw SHA256, both complete card-ID partitions, each card's name/family/printed-rules hash, explicit boolean certification stages, aggregate certification count, all 23 mandatory system domains and their synchronized candidate status. Candidate PASS counts are displayed separately from uncertified production domains. CRLF vs LF changes raw provenance; do not bypass the check or silently regenerate the authority pin. Restore the pinned source bytes only after confirming normalized Git identity when preparing a Windows-derived source checkout.
+
+The seven groups follow the uploaded release plan: G1 cards/canon/effects, G2 Boss/capture/scenario scoring, G3 jurisdiction/Names/Arbitration/Heat, G4 player counts/solo/network/security, G5 collections, G6 art/UI and G7 distribution/playtests. Full acceptance, balance, accessibility, human visual playtests, artwork rights, TLS/account identity and independent signed Windows certification remain requirements even where the existing 23-domain inventory has no fine-grained evidence field. No group is certified by a headless test result alone.
+
+Historical M24 evidence establishes 2–4-seat loopback tests, source-owned choices, hidden-hand projection, conservation/replay, native export and extracted launch on its pinned executable source. It does not establish secure WAN play, full Standard, visual acceptance or signing. The portable quality runner already inspects console errors even on zero exit status; the M24 multi-seat and storage suites independently exercise replay/conservation and re-signed forged-state rejection. No test timeout or console-error rule was relaxed in this work.
+
+Focused adversarial regression: `python godot_client/tests/test_production_readiness.py`. Run this in addition to the full inherited Godot quality gate; it is not a replacement. Generated inventory is written to stdout so it cannot accidentally overwrite the authoritative status ledger.

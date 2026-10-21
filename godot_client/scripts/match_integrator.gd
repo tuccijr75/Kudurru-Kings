@@ -414,7 +414,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		for site in s["sites"]:
 			if site["card_id"] == "214" and int(site["controller"]) == seat and not site.get("exhausted",false): has_archive = true
 		if not has_archive: return error("MIRROR_ARCHIVE_REQUIRED")
-		var stamp: String = str(int(s["round"])*2+seat)
+		var stamp: String = str(int(s["round"])*s["players"].size()+seat)
 		if s["peek_used"].has(stamp): return error("MIRROR_ALREADY_USED")
 		var target: int = int(action.get("target_seat", -1))
 		if target < 0 or target >= s["players"].size() or s["players"][target]["deck"].is_empty(): return error("TARGET_DECK_UNAVAILABLE")

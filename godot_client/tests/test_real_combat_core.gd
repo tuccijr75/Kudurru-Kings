@@ -131,6 +131,25 @@ func run_tests() -> void:
 	check(Combat.capture_attempt(boss_state, 0, "BOSS")["error"] == "BOSS_TRIALS_INCOMPLETE", "repeat axis does not complete three Trials")
 	boss_state["units"][0]["trials_won"] = ["Stone","Veil","Authority"]
 	check(Combat.capture_attempt(boss_state, 0, "BOSS")["error"] == "CAPTURE_SUCCESS_RULE_NOT_SPECIFIED", "Trial-complete Boss attempt still needs certified success adjudicator")
+	# Untrusted decisions cannot bypass the same lifecycle gate through attempt.
+	var unchanged: String = JSON.stringify(boss_state)
+	for method in ["capture_attempt", "decline_capture"]:
+		var invoke: Callable = Combat.capture_attempt if method == "capture_attempt" else Combat.decline_capture
+		check(invoke.call(boss_state, -1, "BOSS")["error"] == "ACTOR_INVALID", "negative capture actor rejected: " + method)
+		check(invoke.call(boss_state, 2, "BOSS")["error"] == "ACTOR_INVALID", "out-of-range capture actor rejected: " + method)
+		var inactive: Dictionary = boss_state.duplicate(true)
+		inactive["active_seat"] = 1
+		check(invoke.call(inactive, 0, "BOSS")["error"] == "NOT_ACTIVE_SEAT", "inactive capture actor rejected: " + method)
+		var malformed: Dictionary = boss_state.duplicate(true)
+		malformed["units"][0]["trials_won"] = "Stone,Veil,Authority"
+		check(invoke.call(malformed, 0, "BOSS")["error"] == "INVALID_BOSS_TRIAL_RECORD", "string trials rejected without console error: " + method)
+		malformed["units"][0]["trials_won"] = ["Stone", "Veil", "Authority", "Stone"]
+		check(invoke.call(malformed, 0, "BOSS")["error"] == "INVALID_BOSS_TRIAL_RECORD", "duplicate trial proof rejected: " + method)
+		malformed["units"][0]["card_id"] = "180"
+		check(invoke.call(malformed, 0, "BOSS")["error"] == "NO_CAPTURE_FAMILY", "non-unit source cannot be captured: " + method)
+		malformed["units"][0]["card_id"] = "UNKNOWN"
+		check(invoke.call(malformed, 0, "BOSS")["error"] == "UNKNOWN_CAPTURE_SOURCE", "unknown source fails closed: " + method)
+	check(JSON.stringify(boss_state) == unchanged, "rejected capture decisions preserve state")
 	var boss_defeat: Dictionary = Combat.decline_capture(boss_state, 0, "BOSS")
 	check(boss_defeat["ok"], "Trial-complete Boss capture may be declined")
 	check(boss_defeat["state"]["players"][0]["marks"] == 0, "Boss plain defeat never receives automatic Character Mark")

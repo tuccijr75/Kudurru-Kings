@@ -9,6 +9,7 @@ const Source = preload("res://scripts/real_effects.gd")
 const PORT := 31147
 const MAX_MESSAGE := 16384
 const MAX_CONNECTIONS := 8
+const MAX_MESSAGES_PER_FRAME := 8
 var seat_count:int=2
 const HANDSHAKE_TIMEOUT_MS := 5000
 var deck_selection_enabled:bool=false
@@ -85,7 +86,7 @@ func _process(_delta:float)->void:
 			peer.disconnect_from_host()
 		else:
 			# No identity or private projection until explicit JOIN or RESUME.
-			connections.append({"seat":-1,"peer":peer,"token":"","buffer":"",
+			connections.append({"seat":-1,"peer":peer,"token":"","buffer":PackedByteArray(),
 				"accepted_ms":Time.get_ticks_msec()})
 	for entry in connections.duplicate():
 		var peer:StreamPeerTCP=entry["peer"]
@@ -98,25 +99,43 @@ func _process(_delta:float)->void:
 			connections.erase(entry)
 			continue
 		var count:int=peer.get_available_bytes()
-		if count<=0: continue
-		if count>MAX_MESSAGE:
-			peer.disconnect_from_host()
-			connections.erase(entry)
-			continue
-		var read: Array=peer.get_data(count)
-		if read[0]!=OK:continue
-		var packet:PackedByteArray=read[1]
-		entry["buffer"]+=packet.get_string_from_utf8()
-		if entry["buffer"].length()>MAX_MESSAGE:
-			peer.disconnect_from_host()
-			connections.erase(entry)
-			continue
-		while entry["buffer"].contains("\n"):
-			var newline:int=entry["buffer"].find("\n")
-			var line:String=entry["buffer"].substr(0,newline)
-			entry["buffer"]=entry["buffer"].substr(newline+1)
-			_message(entry,line)
+		if count>0:
+			if count>MAX_MESSAGE or entry["buffer"].size()+count>MAX_MESSAGE:
+				peer.disconnect_from_host()
+				connections.erase(entry)
+				continue
+			var read:Array=peer.get_data(count)
+			if read[0]!=OK:continue
+			entry["buffer"].append_array(read[1])
+		# TCP may split a UTF-8 codepoint anywhere. Decode only complete byte
+		# frames, and bound both queued bytes and dispatch work per peer/frame.
+		var dispatched:int=0
+		while dispatched<MAX_MESSAGES_PER_FRAME:
+			var newline:int=entry["buffer"].find(10)
+			if newline<0:break
+			var frame:PackedByteArray=entry["buffer"].slice(0,newline)
+			entry["buffer"]=entry["buffer"].slice(newline+1)
+			dispatched+=1
+			if not _valid_utf8(frame):
+				_reject_handshake(entry,"INVALID_UTF8")
+				break
+			_message(entry,frame.get_string_from_utf8())
 			if not connections.has(entry):break
+
+static func _valid_utf8(bytes:PackedByteArray)->bool:
+	# Reject malformed wire data before Godot's decoder can emit console errors.
+	var i:int=0
+	while i<bytes.size():
+		var first:int=bytes[i]
+		if first<128:i+=1;continue
+		var length:int=2 if first>=194 and first<=223 else 3 if first>=224 and first<=239 else 4 if first>=240 and first<=244 else 0
+		if length==0 or i+length>bytes.size():return false
+		for j in range(1,length):
+			if bytes[i+j]<128 or bytes[i+j]>191:return false
+		var second:int=bytes[i+1]
+		if (first==224 and second<160) or (first==237 and second>159) or (first==240 and second<144) or (first==244 and second>143):return false
+		i+=length
+	return true
 
 func _reject_handshake(entry:Dictionary,code:String)->void:
 	_send(entry["peer"],{"ok":false,"error":code})

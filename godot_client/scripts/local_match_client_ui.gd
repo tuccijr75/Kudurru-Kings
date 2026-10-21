@@ -17,7 +17,7 @@ var deck_pick:OptionButton
 var deck_lock:Button
 var host_node:Node
 var peer:=StreamPeerTCP.new()
-var incoming:String=""
+var incoming:=PackedByteArray()
 var seat:int=-1
 var token:String=""
 var resume_token:String=""
@@ -228,7 +228,7 @@ func _start_connection(hello:Dictionary)->void:
 	peer=StreamPeerTCP.new()
 	greeting=hello.duplicate()
 	awaiting_welcome=true
-	incoming=""
+	incoming=PackedByteArray()
 	host_disconnect_reported=false
 	var result:Error=peer.connect_to_host("127.0.0.1",PORT)
 	if result!=OK:
@@ -251,25 +251,29 @@ func _process(_delta:float)->void:
 		peer.put_data((JSON.stringify(greeting)+"\n").to_utf8_buffer())
 		greeting={}
 	var available:int=peer.get_available_bytes()
-	if available<=0:return
-	if available>MAX_MESSAGE:
-		peer.disconnect_from_host()
-		status.text="Host message too large; disconnected safely."
-		return
-	var received:Array=peer.get_data(available)
-	if received[0]!=OK:return
-	incoming+=received[1].get_string_from_utf8()
-	if incoming.to_utf8_buffer().size()>MAX_MESSAGE:
-		peer.disconnect_from_host()
-		status.text="Network buffer limit exceeded."
-		return
-	while incoming.contains("\n"):
-		var split_at:int=incoming.find("\n")
-		var line:String=incoming.substr(0,split_at)
-		incoming=incoming.substr(split_at+1)
-		var message:Variant=JSON.parse_string(line)
+	if available>0:
+		if available>MAX_MESSAGE or incoming.size()+available>MAX_MESSAGE:
+			peer.disconnect_from_host()
+			status.text="Host message or network buffer too large; disconnected safely."
+			return
+		var received:Array=peer.get_data(available)
+		if received[0]!=OK:return
+		incoming.append_array(received[1])
+	var dispatched:int=0
+	while dispatched<LocalHost.MAX_MESSAGES_PER_FRAME:
+		var split_at:int=incoming.find(10)
+		if split_at<0:break
+		var frame:PackedByteArray=incoming.slice(0,split_at)
+		incoming=incoming.slice(split_at+1)
+		dispatched+=1
+		if not LocalHost._valid_utf8(frame):
+			peer.disconnect_from_host()
+			status.text="Malformed host encoding; disconnected safely."
+			return
+		var message:Variant=JSON.parse_string(frame.get_string_from_utf8())
 		if typeof(message)==TYPE_DICTIONARY:_received(message)
 		else:status.text="Malformed server packet rejected."
+		if peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:break
 
 func _received(msg:Dictionary)->void:
 	if not bool(msg.get("ok",false)):

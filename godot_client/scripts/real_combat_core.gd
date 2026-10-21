@@ -277,22 +277,34 @@ static func mark_downed_bound(state: Dictionary, uid: String, evidence: String) 
 	s["events"].append({"type": "TEST_BIND_INJECTION", "uid": uid, "revision": s["revision"]})
 	return {"ok": true, "state": s}
 
-static func decline_capture(state: Dictionary, actor: int, uid: String) -> Dictionary:
+static func _capture_gate(state: Dictionary, actor: int, uid: String) -> Dictionary:
+	# Shared fail-closed prerequisite gate; this does not adjudicate Bind or capture.
 	if state.get("mode") != "REAL_COMBAT_LAB" or state.get("phase") != "Resolution":
 		return fail("NOT_RESOLUTION")
+	if actor < 0 or actor >= state["players"].size(): return fail("ACTOR_INVALID")
+	if actor != int(state.get("active_seat", -1)): return fail("NOT_ACTIVE_SEAT")
 	var idx: int = find_unit(state, uid)
 	if idx < 0: return fail("TARGET_MISSING")
 	var target: Dictionary = state["units"][idx]
-	if actor != int(state.get("active_seat", -1)):
-		return fail("NOT_ACTIVE_SEAT")
-	if not target["downed"] or not target["bound"] or target["defeated"] or actor == target["controller"]:
+	if not target["downed"] or not target["bound"] or target["defeated"] or bool(target.get("captured", false)) or actor == target["controller"]:
 		return fail("CAPTURE_NOT_ELIGIBLE")
 	var c: Dictionary = card(str(target["card_id"]))
+	if c.is_empty(): return fail("UNKNOWN_CAPTURE_SOURCE")
+	if not ["Character", "Boss"].has(c.get("card_family", "")):
+		return fail("NO_CAPTURE_FAMILY")
 	if c["card_family"] == "Boss":
+		var trials: Variant = target.get("trials_won", [])
+		if typeof(trials) != TYPE_ARRAY: return fail("INVALID_BOSS_TRIAL_RECORD")
 		for required in AXES:
-			if not target.get("trials_won", []).has(required):
-				return fail("BOSS_TRIALS_INCOMPLETE")
-	if actor < 0 or actor >= state["players"].size(): return fail("ACTOR_INVALID")
+			if not trials.has(required): return fail("BOSS_TRIALS_INCOMPLETE")
+		if trials.size() != AXES.size(): return fail("INVALID_BOSS_TRIAL_RECORD")
+	return {"ok": true, "unit_index": idx, "source": c}
+
+static func decline_capture(state: Dictionary, actor: int, uid: String) -> Dictionary:
+	var gate: Dictionary = _capture_gate(state, actor, uid)
+	if not gate.get("ok", false): return gate
+	var idx: int = gate["unit_index"]
+	var c: Dictionary = gate["source"]
 	var s: Dictionary = state.duplicate(true)
 	s["units"][idx]["defeated"] = true
 	s["units"][idx]["defeated_round"] = int(s["round"])
@@ -307,17 +319,8 @@ static func decline_capture(state: Dictionary, actor: int, uid: String) -> Dicti
 	return {"ok": true, "state": s, "event": event}
 
 static func capture_attempt(state: Dictionary, actor: int, uid: String) -> Dictionary:
-	if state.get("phase") != "Resolution": return fail("NOT_RESOLUTION")
-	var idx: int = find_unit(state, uid)
-	if idx < 0: return fail("TARGET_MISSING")
-	var u: Dictionary = state["units"][idx]
-	if not u["downed"] or not u["bound"] or u["defeated"] or actor == u["controller"]:
-		return fail("CAPTURE_NOT_ELIGIBLE")
-	var c: Dictionary = card(str(u["card_id"]))
-	if c["card_family"] == "Boss":
-		for axis in AXES:
-			if not u.get("trials_won", []).has(axis):
-				return fail("BOSS_TRIALS_INCOMPLETE")
+	var gate: Dictionary = _capture_gate(state, actor, uid)
+	if not gate.get("ok", false): return gate
 	return fail("CAPTURE_SUCCESS_RULE_NOT_SPECIFIED")
 
 static func restore_defeated(state: Dictionary) -> Dictionary:

@@ -14583,7 +14583,7 @@
       "candidate_status_only": true,
       "id": "security_privacy",
       "release_certified": false,
-      "remaining": "Server anti-cheat, account auth, hidden-state projection and audit/replay still pending.",
+      "remaining": "Local authoritative ownership, hidden-state projections and stale/replay/tamper rejection are tested; remote identity, TLS, persistent accounts and production security certification remain pending.",
       "source": "godot_client/tools/audit_full_game.py:DOMAINS",
       "status": "BLOCKED"
     },
@@ -14623,7 +14623,7 @@
       "candidate_status_only": true,
       "id": "turn_setup_decks",
       "release_certified": false,
-      "remaining": "M7 candidate uses two player-specific legal 36-card decks and pre-match choices; full deck builder and all player counts pending.",
+      "remaining": "M24 candidate supports legal source-deck locks and owner keep/mulligan choices for 2-4 seats; full Standard certification remains pending.",
       "source": "godot_client/tools/audit_full_game.py:DOMAINS",
       "status": "IN_PROGRESS"
     },

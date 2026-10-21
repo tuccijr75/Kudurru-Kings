@@ -3,6 +3,8 @@
 import json
 import sys
 import unittest
+import tempfile
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[2]
@@ -54,7 +56,93 @@ class TestM7Completion(unittest.TestCase):
   saved=json.loads(scan.OUT.read_text(encoding="utf-8"))
   self.assertEqual(self.audit,saved)
   groups=json.loads(scan.GROUP_REPORT.read_text(encoding="utf-8"))
-  self.assertEqual(len(groups["templates"]),len(self.templates))
+  self.assertEqual(groups["templates"],self.templates)
+
+ def test_template_inventory_keeps_card_evidence_and_certification_separate(self):
+  records={r["card_id"]:r for r in self.audit["card_manifest"]}
+  for group in self.templates:
+   self.assertEqual(group["source_card_count"],sum(group["candidate_status_counts"].values()))
+   self.assertEqual(set(group["card_ids"]),set(group["source_rules_hashes"]))
+   self.assertEqual(0,group["production_certified_count"])
+   self.assertIn("not executable equivalence",group["coverage_contract"])
+   for ident,digest in group["source_rules_hashes"].items():
+    self.assertEqual(records[ident]["rules_sha256"],digest)
+
+ def _reject_catalog_change(self,mutate):
+  data=json.loads(scan.CATALOG.read_text(encoding="utf-8"))
+  mutate(data)
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/"catalog.json"
+   path.write_text(json.dumps(data),encoding="utf-8")
+   with patch.object(scan,"CATALOG",path),self.assertRaises(ValueError):scan.build()
+
+ def test_reject_unknown_catalog_schema(self):
+  self._reject_catalog_change(lambda d:d.update(schema="untrusted"))
+
+ def test_reject_catalog_rules_tampering_with_unchanged_top_level_hash(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(rules_text="fabricated effect"))
+
+ def test_reject_catalog_identity_duplication(self):
+  self._reject_catalog_change(lambda d:d["cards"].__setitem__(1,d["cards"][0]))
+
+ def test_reject_catalog_incomplete_rows(self):
+  self._reject_catalog_change(lambda d:d["cards"].pop())
+
+ def test_reject_catalog_hash_forgery(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(rules_sha256="0"*64))
+
+ def test_reject_catalog_production_unlock(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(production_playable=True))
+
+ def test_reject_catalog_stat_mutation(self):
+  self._reject_catalog_change(lambda d:d["cards"][20].update(stone=999))
+
+ def test_reject_bool_substituted_for_numeric_value(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(stone=False))
+
+ def test_reject_derived_combat_rating_tampering(self):
+  self._reject_catalog_change(lambda d:d["cards"][20].update(first_strike_rating=999))
+
+ def test_reject_derived_combat_provenance_tampering(self):
+  self._reject_catalog_change(lambda d:d["cards"][20].update(combat_stat_provenance="FABRICATED"))
+
+ def test_reject_derived_faction_display_tampering(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(display_faction="FABRICATED"))
+
+ def test_reject_derived_faction_provenance_tampering(self):
+  self._reject_catalog_change(lambda d:d["cards"][0].update(faction_provenance="FABRICATED"))
+
+ def test_reject_descriptor_parameter_tampering(self):
+  data=json.loads(scan.ADJACENCY.read_text(encoding="utf-8"))
+  data["source_card_effects"][0]["modifier"]["tested_axis_total"]=999
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/"adjacency.json"
+   path.write_text(json.dumps(data),encoding="utf-8")
+   with patch.object(scan,"ADJACENCY",path),self.assertRaises(ValueError):scan.build()
+
+ def test_reject_descriptor_boolean_substituted_for_integer(self):
+  data=json.loads(scan.ADJACENCY.read_text(encoding="utf-8"))
+  data["source_card_effects"][0]["modifier"]["tested_axis_total"]=True
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/"adjacency.json"
+   path.write_text(json.dumps(data),encoding="utf-8")
+   with patch.object(scan,"ADJACENCY",path),self.assertRaises(ValueError):scan.build()
+
+ def test_reject_descriptor_float_substituted_for_integer(self):
+  data=json.loads(scan.ADJACENCY.read_text(encoding="utf-8"))
+  data["source_card_effects"][0]["modifier"]["tested_axis_total"]=1.0
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/"adjacency.json"
+   path.write_text(json.dumps(data),encoding="utf-8")
+   with patch.object(scan,"ADJACENCY",path),self.assertRaises(ValueError):scan.build()
+
+ def test_reject_descriptor_hash_tampering(self):
+  data=json.loads(scan.ADJACENCY.read_text(encoding="utf-8"))
+  data["source_card_effects"][0]["source_sha256"]="0"*64
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/"adjacency.json"
+   path.write_text(json.dumps(data),encoding="utf-8")
+   with patch.object(scan,"ADJACENCY",path),self.assertRaises(ValueError):scan.build()
 
 if __name__=="__main__":
  unittest.main(verbosity=2)
