@@ -1,0 +1,85 @@
+{
+  "schema": "KUDURRU_M23_VERIFICATION_V1",
+  "source_commit": "0b60992b2e518008b57e872c58f5743a4d3ce0b9",
+  "source_tree": "aa30940e6ea06d3ad98d7f2d60a1bca47683e08c",
+  "branch": "build/m23-authenticated-reconnect-20261020",
+  "baseline_m18": "caf153dcf400b0f461de6b3c9a188e84e4b89022",
+  "base_m22": "63e3460ad65417cfcb39bd63e76e7357329c4ff6",
+  "linux": {
+    "platform": "Linux x86_64",
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "commands": 66,
+    "godot_suites": 39,
+    "godot_assertions": 7214,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "b2bb885490c3b36906b10a572cb8e0650c6a18c104c896935a8c2321cb649abb",
+    "console_errors_detected": false
+  },
+  "windows": {
+    "commit": "0b60992b2e518008b57e872c58f5743a4d3ce0b9",
+    "branch": "build/m23-authenticated-reconnect-20261020",
+    "platform": "Windows x64",
+    "godot": "4.7.2",
+    "gate_commands": 66,
+    "godot_suites": 39,
+    "godot_assertions": 7214,
+    "godot_failures": 0,
+    "python_test_cases": 50,
+    "gate_log_sha256": "91ba635bf2da7967864a8e5e3dc44d7cafec6ff8f528ab3b1a3bcdc0c7568dc8",
+    "console_errors_detected": false,
+    "zip": "E:\\KudurruKings\\Builds\\KudurruKings_M23_WindowsCandidate_0b60992.zip",
+    "zip_bytes": 38576806,
+    "zip_sha256": "3671022f963fed9e6cba6fc0aa57216c3e89b577cce1c91b00fb088b8a2c8e0a",
+    "files": [
+      {
+        "sha256": "d4358a68ee7b941707bdd9182faee1fa94ad08d8de2b9a11f1bba0a08442c8b2",
+        "name": "KudurruKings.exe",
+        "bytes": 109127680
+      },
+      {
+        "sha256": "c48e5dbfb0fdc1d37b9414c56e25fef12b73b82c7bb747a0253c2000a27ff73f",
+        "name": "KudurruKings.pck",
+        "bytes": 4932624
+      }
+    ],
+    "zip_crc": "PASS",
+    "manifest_hashes": "PASS",
+    "extracted_launch": "PASS",
+    "extracted_exe": "E:\\KudurruKings\\Builds\\M23_0b60992_IndependentExtractedSmoke\\KudurruKings_M23_WindowsCandidate_0b60992\\KudurruKings.exe",
+    "launch_log_sha256": "99a1f5c05f8b42a98c1353a644c0527b7fbdebfb7a944acd272ccf7d46cc34a6",
+    "embedded_authenticode_certificate_present": false,
+    "visual_acceptance": "UNVERIFIED",
+    "production_status": "CLOSED",
+    "release_certified": false
+  },
+  "original_m18_worktree": "CLEAN, unchanged",
+  "native_worktree": "E:\\KudurruKings\\m19-native-sparse",
+  "attached_source_manifest_verified_files": 11,
+  "project_instructions_read_in_full": true,
+  "feature_status": {
+    "source_contracts_verified": true,
+    "implemented": true,
+    "isolated_unit_suite": false,
+    "boundary_cases_exercised_via_real_tcp": true,
+    "integrated_tested": true,
+    "visually_verified": false,
+    "release_certified": false
+  },
+  "source_cards": 754,
+  "production_certified_cards": 0,
+  "production_status": "CLOSED",
+  "full_standard_release_ready": false,
+  "unresolved": [
+    "Stagger semantics and expiry",
+    "Bind and capture adjudication",
+    "Full source effects and legacy-term reconciliation",
+    "Boss Trials, jurisdiction, Names and Sites integration",
+    "Certified scenario goals",
+    "1–4 play, WAN authentication/TLS and persistent account recovery",
+    "Collection rewards and issuing authority",
+    "Art, balance, human playtest/visual acceptance",
+    "Signed production distribution"
+  ],
+  "private_eoe_published": false
+}
