@@ -39,7 +39,7 @@ DOMAINS = {
 "heat": ("IN_PROGRESS", "Heat ladder and selected source effects present; complete Heat-spend/revival/hazard rules pending."),
 "site_raids": ("BLOCKED", "Authoritative raid legality, capture and 2-Mark scoring not integrated."),
 "solo_ai": ("IN_PROGRESS", "M7 deterministic local test opponent exists; advanced tactical AI and full card legality remain unverified."),
-"multiplayer": ("IN_PROGRESS", "Two-seat localhost-only Godot TCP host with real socket tests; missing TLS, remote identity, reconnect, simultaneous priorities, and 3-4 seats."),
+"multiplayer": ("IN_PROGRESS", "2-4 seat localhost-only candidate with owner recovery and real TCP tests; missing TLS, remote account identity, persistent recovery, full simultaneous scoring/priorities and production certification."),
 "collection_rewards": ("IN_PROGRESS", "Signed HMAC receipt verification, SQLite idempotent grants, preservation of original ownership and Ultra eligibility tests; no trusted live authority issuing receipts."),
 "visual_assets": ("BLOCKED", "Layered visual/card render exports and full UI layout/device certification not completed."),
 "security_privacy": ("BLOCKED", "Server anti-cheat, account auth, hidden-state projection and audit/replay still pending."),

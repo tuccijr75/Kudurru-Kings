@@ -31,7 +31,7 @@ REQUIRED = {
  "board_geometry": "Two-Field control, Lines, Geasa and legal traversal need complete implementation",
  "raid": "Site raids and 2-Mark scoring need scenario-legal actions",
  "progression": "Permanent collection copy reward, currencies, anti-duplication and persistence are not implemented",
- "multiplayer": "Server authority, hidden information and reconnect protections not implemented",
+ "multiplayer": "Source candidate has 2-4 seat loopback authority, private hands and ephemeral owner recovery; WAN/TLS/accounts and persistent recovery remain uncertified",
  "solo_ai": "Full-match legal-action AI not implemented",
  "assets": "Source-verified card render export and interactive workstation QA still pending",
  "faction_authority": "EOE Crosswalk reconciliation incomplete for all 754 master records",

@@ -1,5 +1,5 @@
 extends Node
-## Localhost-only authoritative 2-seat match transport. NOT internet-safe multiplayer.
+## Localhost-only authoritative 2–4 seat candidate transport. NOT internet-safe multiplayer.
 ## Every client action is validated by the same Godot deterministic reducer.
 ## Never return raw state, seed, unseen deck cards, private peeks or action log.
 const Lobby = preload("res://scripts/match_deck_lobby.gd")
@@ -8,8 +8,8 @@ const Match = preload("res://scripts/match_integrator.gd")
 const Source = preload("res://scripts/real_effects.gd")
 const PORT := 31147
 const MAX_MESSAGE := 16384
-const MAX_CLIENTS := 2
-const MAX_CONNECTIONS := 6
+const MAX_CONNECTIONS := 8
+var seat_count:int=2
 const HANDSHAKE_TIMEOUT_MS := 5000
 var deck_selection_enabled:bool=false
 var deck_lobby:Dictionary={}
@@ -21,9 +21,11 @@ var game: Dictionary = {}
 var crypto := Crypto.new()
 
 func _ready() -> void:
-	if deck_selection_enabled:deck_lobby=Lobby.create()
+	if seat_count<2 or seat_count>4:push_error("PLAYER_COUNT_2_TO_4");get_tree().quit(1);return
+	if deck_selection_enabled:deck_lobby=Lobby.create(seat_count)
 	var match_seed:int=crypto.generate_random_bytes(6).hex_encode().hex_to_int() if deck_selection_enabled else 8181
-	var result:Dictionary=Match.create(match_seed)
+	var factions:Array=Match.SEAT_FACTIONS.slice(0,seat_count) if seat_count>2 else []
+	var result:Dictionary=Match.create(match_seed,"BorderstoneGuild","UnderwellKeepers",[],factions)
 	if not result.get("ok",false):
 		push_error("LOCAL_HOST_CANDIDATE_SETUP_FAILED")
 		get_tree().quit(1)
@@ -78,7 +80,7 @@ func _projection(seat:int)->Dictionary:
 func _process(_delta:float)->void:
 	if listener.is_connection_available():
 		var peer:StreamPeerTCP=listener.take_connection()
-		if connections.size()>=MAX_CONNECTIONS:
+		if connections.size()>=mini(MAX_CONNECTIONS,seat_count+4):
 			_send(peer,{"ok":false,"error":"LOCAL_CONNECTION_LIMIT"})
 			peer.disconnect_from_host()
 		else:
@@ -124,9 +126,9 @@ func _reject_handshake(entry:Dictionary,code:String)->void:
 func _handshake(entry:Dictionary,body:Dictionary)->void:
 	var seat:int=-1
 	if body.get("type")=="JOIN":
-		for available in range(MAX_CLIENTS):
+		for available in range(seat_count):
 			if not claimed_seats.has(available):seat=available;break
-		if seat<0:_reject_handshake(entry,"TWO_SEAT_LOCAL_ONLY");return
+		if seat<0:_reject_handshake(entry,"TWO_SEAT_LOCAL_ONLY" if seat_count==2 else "LOBBY_FULL");return
 	elif body.get("type")=="RESUME":
 		var secret:Variant=body.get("token")
 		if typeof(secret)!=TYPE_STRING or secret.length()!=64:
@@ -148,7 +150,7 @@ func _handshake(entry:Dictionary,body:Dictionary)->void:
 	if not recovery_keys.has(seat):recovery_keys[seat]=crypto.generate_random_bytes(32).hex_encode()
 	entry["seat"]=seat
 	entry["token"]=fresh
-	_send(entry["peer"],{"ok":true,"type":"WELCOME","seat":seat,"token":fresh,"resume_token":recovery_keys[seat],
+	_send(entry["peer"],{"ok":true,"type":"WELCOME","seat":seat,"token":fresh,"resume_token":recovery_keys[seat],"player_count":seat_count,
 		"warning":"LOCALHOST_ONLY_NOT_PRODUCTION_NETWORK","view":_projection(seat)})
 
 func _message(entry:Dictionary,line:String)->void:
@@ -180,7 +182,7 @@ func _message(entry:Dictionary,line:String)->void:
 			return
 		var next:Dictionary=locked["state"]
 		if next["started"]:
-			var made:Dictionary=Match.create(int(game["seed"]),"BorderstoneGuild","UnderwellKeepers",next["deck_ids"])
+			var made:Dictionary=Match.create(int(game["seed"]),"BorderstoneGuild","UnderwellKeepers",next["deck_ids"],Match.SEAT_FACTIONS.slice(0,seat_count) if seat_count>2 else [])
 			if not made.get("ok",false):
 				_send(peer,{"ok":false,"error":"LOCKED_DECK_SETUP_FAILED"})
 				return

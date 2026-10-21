@@ -3,7 +3,7 @@ extends RefCounted
 ## Validate exact whole numbers BEFORE casting JSON floats to integers.
 const MAX_EXACT_INTEGER := 9007199254740991
 const NUMBERS := ["seat", "revision", "hand_index", "target_seat", "target_controller",
-	"attacker_spend", "defender_spend"]
+	"attacker_spend", "defender_spend", "truce_seat_a", "truce_seat_b"]
 const STRINGS := ["type", "card_id", "field", "host_uid", "attacker", "defender", "axis",
 	"attacker_supporter", "defender_supporter", "choice", "unit_uid", "target_uid",
 	"target_kind", "target_card_id", "target_host_uid", "destination_field"]

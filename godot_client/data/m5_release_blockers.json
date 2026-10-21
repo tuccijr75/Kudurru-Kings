@@ -38,7 +38,7 @@
     "effect_implementation": "742 cards still lack sandbox-verified full printed abilities",
     "faceoff_exhaustion": "Double-empty Face-off tie needs governing termination rule",
     "faction_authority": "EOE Crosswalk reconciliation incomplete for all 754 master records",
-    "multiplayer": "Server authority, hidden information and reconnect protections not implemented",
+    "multiplayer": "Source candidate has 2-4 seat loopback authority, private hands and ephemeral owner recovery; WAN/TLS/accounts and persistent recovery remain uncertified",
     "numeric_combat_semantics": "Guard protection, First Strike preemption and initiative interaction require fully tested resolver mechanics",
     "progression": "Permanent collection copy reward, currencies, anti-duplication and persistence are not implemented",
     "pure_faction_bonus": "No pure-faction bonus or qualification threshold is approved; pure and legal mixed decks remain supported",

@@ -153,8 +153,14 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 		"191":
 			if not s.get("truce", {}).is_empty() and bool(s["truce"].get("active",false)):
 				return _fail("TRUCE_ALREADY_ACTIVE")
-			s["truce"] = {"active":true,"owner":seat,"started_round":int(s["round"]),"seats":[0,1]}
-			for i in range(2): s["players"][i]["heat"] = maxi(0,int(s["players"][i]["heat"])-1)
+			var pair:Array=[0,1]
+			if s["players"].size()>2 or action.has("truce_seat_a") or action.has("truce_seat_b"):
+				if typeof(action.get("truce_seat_a"))!=TYPE_INT or typeof(action.get("truce_seat_b"))!=TYPE_INT:return _fail("TWO_TRUCE_PLAYERS_REQUIRED")
+				pair=[action["truce_seat_a"],action["truce_seat_b"]]
+				if pair[0]==pair[1] or pair[0]<0 or pair[1]<0 or pair[0]>=s["players"].size() or pair[1]>=s["players"].size():return _fail("DISTINCT_VALID_TRUCE_PLAYERS_REQUIRED")
+			s["truce"] = {"active":true,"owner":seat,"started_round":int(s["round"]),"seats":pair}
+			for i in pair:s["players"][i]["heat"]=maxi(0,int(s["players"][i]["heat"])-1)
+			if s["players"].size()>2:details["truce_seats"]=pair.duplicate()
 			details["truce_until_owner_next_upkeep"] = seat
 		"193":
 			var target: String = str(action.get("target_uid",""))
@@ -173,4 +179,4 @@ static func resolve(current: Dictionary, seat: int, id: String, action: Dictiona
 static func engagements_blocked(state: Dictionary, attacker_seat: int, defender_seat: int) -> bool:
 	var truce: Dictionary = state.get("truce",{})
 	return bool(truce.get("active",false)) and attacker_seat != defender_seat and (
-		[attacker_seat,defender_seat] == [0,1] or [attacker_seat,defender_seat] == [1,0])
+		truce.get("seats",[0,1]).has(attacker_seat) and truce.get("seats",[0,1]).has(defender_seat))

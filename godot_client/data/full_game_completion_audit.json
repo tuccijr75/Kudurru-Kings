@@ -7728,7 +7728,7 @@
       "status": "PASS"
     },
     "multiplayer": {
-      "remaining": "Two-seat localhost-only Godot TCP host with real socket tests; missing TLS, remote identity, reconnect, simultaneous priorities, and 3-4 seats.",
+      "remaining": "2-4 seat localhost-only candidate with owner recovery and real TCP tests; missing TLS, remote account identity, persistent recovery, full simultaneous scoring/priorities and production certification.",
       "status": "IN_PROGRESS"
     },
     "reusable_effect_runtime": {

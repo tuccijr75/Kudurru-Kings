@@ -14559,7 +14559,7 @@
       "candidate_status_only": true,
       "id": "multiplayer",
       "release_certified": false,
-      "remaining": "Two-seat localhost-only Godot TCP host with real socket tests; missing TLS, remote identity, reconnect, simultaneous priorities, and 3-4 seats.",
+      "remaining": "2-4 seat localhost-only candidate with owner recovery and real TCP tests; missing TLS, remote account identity, persistent recovery, full simultaneous scoring/priorities and production certification.",
       "source": "godot_client/tools/audit_full_game.py:DOMAINS",
       "status": "IN_PROGRESS"
     },

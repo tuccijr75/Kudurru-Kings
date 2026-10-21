@@ -1,6 +1,6 @@
 extends RefCounted
 ## M7 integrated REAL-CARD match candidate (not certified Standard).
-## Fully local deterministic 2-seat scenario: Warfield objective control.
+## Deterministic 2–4 seat candidate scenario: Warfield objective control.
 ## Whitelisted real cards only; unresolved source effects are NOT activated.
 const Command = preload("res://scripts/match_command.gd")
 const CardSource = preload("res://scripts/real_effects.gd")
@@ -15,6 +15,7 @@ const Priority = preload("res://scripts/match_priority.gd")
 const MODE := "M7_REAL_MATCH_CANDIDATE"
 const SCENARIO := "Warfield Ascendancy (candidate, not canon)"
 const AXES := ["Stone", "Veil", "Authority"]
+const SEAT_FACTIONS := ["BorderstoneGuild","UnderwellKeepers","FloodbornPact","SkyloomTemple"]
 const SITES := ["214", "216"]
 const SUPPORT := ["239", "241", "254"]
 const EDICTS := ["181","182","184","185","186","187","188","190","191","193"]
@@ -90,18 +91,22 @@ static func _draw(p: Dictionary) -> void:
 		p["hand"].append(p["deck"].pop_back())
 
 static func create(seed_value: int = 20261020, player_faction: String = "BorderstoneGuild",
-		opponent_faction: String = "UnderwellKeepers", custom_decks: Array = []) -> Dictionary:
+		opponent_faction: String = "UnderwellKeepers", custom_decks: Array = [], seat_factions: Array = []) -> Dictionary:
 	if seed_value < 0: return error("BAD_SEED")
 	if not FACTIONS.has(player_faction) or not FACTIONS.has(opponent_faction):
 		return error("UNKNOWN_FACTION")
-	var factions := [player_faction,opponent_faction]
-	if not custom_decks.is_empty() and custom_decks.size()!=2:
-		return error("TWO_SEAT_DECKLIST_SCOPE_REQUIRED")
+	var factions:Array = [player_faction,opponent_faction] if seat_factions.is_empty() else seat_factions.duplicate()
+	if factions.size()<2 or factions.size()>4:return error("PLAYER_COUNT_2_TO_4")
+	for faction in factions:
+		if typeof(faction)!=TYPE_STRING or not FACTIONS.has(faction):return error("UNKNOWN_FACTION")
+	if not custom_decks.is_empty() and custom_decks.size()!=factions.size():
+		return error("TWO_SEAT_DECKLIST_SCOPE_REQUIRED" if factions.size()==2 else "MATCHING_SEAT_DECKLISTS_REQUIRED")
+	if not custom_decks.is_empty() and not custom_decks.all(func(deck):return typeof(deck)==TYPE_ARRAY):return error("CANDIDATE_CUSTOM_DECK_INVALID")
 	var players: Array = []
 	var initial_ids: Array = []
-	for seat in range(2):
+	for seat in range(factions.size()):
 		var deck: Array = _deck(factions[seat])
-		if custom_decks.size()==2 and typeof(custom_decks[seat])==TYPE_ARRAY and not custom_decks[seat].is_empty():
+		if custom_decks.size()==factions.size() and typeof(custom_decks[seat])==TYPE_ARRAY and not custom_decks[seat].is_empty():
 			var checked: Dictionary = DeckRegistry.validate_ids(custom_decks[seat],true)
 			if not checked.get("ok",false): return error("CANDIDATE_CUSTOM_DECK_INVALID")
 			deck = checked["cards"]
@@ -110,7 +115,7 @@ static func create(seed_value: int = 20261020, player_faction: String = "Borders
 		initial_ids.append(id_list)
 		if deck.size() != 36 or not Deck.validate(deck)["legal"]:
 			return error("CANDIDATE_DECK_INVALID")
-		var p: Dictionary = {"seat": seat, "name": "Player" if seat == 0 else "Opponent",
+		var p: Dictionary = {"seat": seat, "name": ("Player" if seat == 0 else "Opponent") if factions.size()==2 else "Seat %d" % seat,
 			"faction": factions[seat], "sinew": 2, "sigil": 1, "oath": 1,
 			"heat": 0, "marks": 0, "hand": [], "deck": _shuffle(deck,seed_value+seat*7919),
 			"discard": [], "setup_ready": false}
@@ -132,26 +137,30 @@ static func _unit_index(s: Dictionary, uid: String) -> int:
 static func _ready(u: Dictionary) -> bool:
 	return not bool(u["exhausted"]) and not bool(u["downed"]) and not bool(u["defeated"])
 
+static func _unique_leader(counts:Array) -> int:
+	var best:int=int(counts.max())
+	return counts.find(best) if best>0 and counts.count(best)==1 else -1
+
 static func _control(s: Dictionary) -> int:
-	var tally := [0,0]
+	var tally:Array=[]
+	tally.resize(s["players"].size());tally.fill(0)
 	for u in s["units"]:
 		if u["field"] == "Warfield" and not u["downed"] and not u["defeated"]:
 			tally[int(u["controller"])] += 1
-	if tally[0] == tally[1]: return -1
-	return 0 if tally[0] > tally[1] else 1
+	return _unique_leader(tally)
 
 static func _summary_income(s: Dictionary, seat: int) -> Dictionary:
-	var counts := [0,0]
+	var counts:Array=[]
+	counts.resize(s["players"].size());counts.fill(0)
 	for u in s["units"]:
 		if _ready(u): counts[int(u["controller"])] += 1
-	var best: int = maxi(counts[0],counts[1])
-	var sinew: int = 1 if best > 0 and counts[seat] == best and counts[seat] > counts[1-seat] else 0
-	var sigil: int = 0
+	var sinew:int=1 if _unique_leader(counts)==seat else 0
+	var sigil:int=0
 	for site in s["sites"]:
 		if int(site["controller"]) == seat: sigil = 1
-	var oath: int = 1 if _control(s) == seat else 0
-	if sinew == 0 and sigil == 0 and oath == 0: sinew = 1
-	return {"sinew": sinew, "sigil": sigil, "oath": oath}
+	var oath:int=1 if _control(s)==seat else 0
+	if sinew==0 and sigil==0 and oath==0:sinew=1
+	return {"sinew":sinew,"sigil":sigil,"oath":oath}
 
 static func _restore_defeated_due(s:Dictionary)->Dictionary:
 	# Shipping Rule 17.6: two FULL intervening rounds, then owner Hand or Deck.
@@ -219,13 +228,14 @@ static func _commit(s: Dictionary, type_name: String, details: Dictionary = {}, 
 static func _finalize_combat(s:Dictionary,seat:int,action:Dictionary,logged_action:Dictionary)->Dictionary:
 	var phase:int=int(s["phase"])
 	if phase != 4: return error("BATTLE_REQUIRED")
-	if Edicts.engagements_blocked(s,seat,1-seat): return error("FESTIVAL_TRUCE_NO_ENGAGEMENT")
 	var attacker: String = str(action.get("attacker",""))
 	var defender: String = str(action.get("defender",""))
+	var di:int=_unit_index(s,defender)
+	if di>=0 and Edicts.engagements_blocked(s,seat,int(s["units"][di]["controller"])):return error("FESTIVAL_TRUCE_NO_ENGAGEMENT")
 	var ai: int = _unit_index(s,attacker)
 	if ai < 0 or s["units"][ai]["controller"] != seat: return error("NOT_YOUR_ATTACKER")
 	var battle_players: Array = s["players"].duplicate(true)
-	for j in range(2):
+	for j in range(s["players"].size()):
 		var ids: Array = []
 		for record in battle_players[j]["deck"]: ids.append(str(record["card_id"]))
 		battle_players[j]["deck"] = ids
@@ -244,7 +254,7 @@ static func _finalize_combat(s:Dictionary,seat:int,action:Dictionary,logged_acti
 		"defender_supporter":str(action.get("defender_supporter",""))})
 	if not result["ok"]: return result
 	s["units"] = result["state"]["units"]
-	for i in range(2):
+	for i in range(s["players"].size()):
 		s["players"][i]["sinew"] = result["state"]["players"][i]["sinew"]
 		s["players"][i]["sigil"] = result["state"]["players"][i]["sigil"]
 		s["players"][i]["oath"] = result["state"]["players"][i]["oath"]
@@ -265,7 +275,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		return error("STALE_REVISION")
 	if typeof(action.get("seat")) != TYPE_INT: return error("INVALID_SEAT")
 	var seat: int = int(action["seat"])
-	if seat < 0 or seat > 1: return error("INVALID_SEAT")
+	if seat < 0 or seat >= state["players"].size(): return error("INVALID_SEAT")
 	var contract: Dictionary = Command.normalize(action)
 	if not contract["ok"]: return contract
 	action = contract["action"]
@@ -302,7 +312,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 			_draw(p)
 		p["setup_ready"] = true
 		s["players"][seat] = p
-		s["setup_complete"] = s["players"][0]["setup_ready"] and s["players"][1]["setup_ready"]
+		s["setup_complete"] = s["players"].all(func(player):return bool(player["setup_ready"]))
 		return _commit(s,"SETUP_"+kind,{"seat":seat},action)
 	if not s.get("priority_queue",[]).is_empty():
 		if kind!=Priority.CHOICE_ACTION:return error("RESPONSE_CHOICE_REQUIRED")
@@ -386,7 +396,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		if phase == 6:
 			var income: Dictionary = _summary_income(s,seat)
 			for k in ["sinew","sigil","oath"]: s["players"][seat][k] += int(income[k])
-			s["seat"] = 1-seat
+			s["seat"] = (seat+1)%s["players"].size()
 			if s["seat"] == 0: s["round"] += 1
 		var returns:Dictionary={"returns":[],"attachments_released":[]}
 		if phase==6 and int(s["seat"])==0:
@@ -407,7 +417,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 		var stamp: String = str(int(s["round"])*2+seat)
 		if s["peek_used"].has(stamp): return error("MIRROR_ALREADY_USED")
 		var target: int = int(action.get("target_seat", -1))
-		if target < 0 or target > 1 or s["players"][target]["deck"].is_empty(): return error("TARGET_DECK_UNAVAILABLE")
+		if target < 0 or target >= s["players"].size() or s["players"][target]["deck"].is_empty(): return error("TARGET_DECK_UNAVAILABLE")
 		var revealed_id: String = str(s["players"][target]["deck"][-1]["card_id"])
 		s["peek_used"][stamp] = true
 		var peek_result: Dictionary = _commit(s,"PRIVATE_TOP_DECK_VIEW",{"seat":seat,"target_seat":target},action)
@@ -514,7 +524,7 @@ static func apply(state: Dictionary, action: Dictionary) -> Dictionary:
 
 static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 	# Deterministic candidate-AI policy; reads only acting player's hand.
-	if seat < 0 or seat > 1: return {}
+	if seat < 0 or seat >= state["players"].size(): return {}
 	var action: Dictionary = {"seat":seat,"revision":int(state["revision"]),"type":"ADVANCE"}
 	if not state.get("priority_queue",[]).is_empty():
 		return Priority.deterministic_response(state,seat)
@@ -553,9 +563,12 @@ static func next_action(state: Dictionary, seat: int = 1) -> Dictionary:
 			var attempt: Dictionary = {"seat":seat,"revision":int(state["revision"]),
 				"type":"CAST","card_id":id}
 			if id=="190":
-				var opponent:int=1-seat
-				if int(state["players"][opponent]["heat"])>=3 and not Priority.legal_options(state,opponent,id).is_empty():
-					attempt["target_seat"]=opponent
+				for opponent in range(state["players"].size()):
+					if opponent!=seat and int(state["players"][opponent]["heat"])>=3 and not Priority.legal_options(state,opponent,id).is_empty():
+						attempt["target_seat"]=opponent;break
+			if id=="191" and state["players"].size()>2:
+				attempt["truce_seat_a"]=seat
+				attempt["truce_seat_b"]=(seat+1)%state["players"].size()
 			if id == "184":
 				for u in state["units"]:
 					if u["downed"] and not u["defeated"] and int(u.get("cannot_rescue_round",-1))!=int(state["round"]):

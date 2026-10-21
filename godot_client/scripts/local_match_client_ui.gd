@@ -1,8 +1,8 @@
 extends Control
 const Pets = preload("res://scripts/match_pets.gd")
-## Actual Godot TCP client for the two-seat loopback-only host.
+## Actual Godot TCP client for the 2–4 seat loopback-only candidate host.
 ## Zero player authority: private hand, priority and actions arrive from host.
-## This scene is NOT a WAN/TLS/account/4-seat production implementation.
+## This scene is NOT a WAN/TLS/account production implementation.
 const Decks=preload("res://scripts/deck_registry.gd")
 const Source=preload("res://scripts/real_effects.gd")
 const Match=preload("res://scripts/match_integrator.gd")
@@ -10,6 +10,9 @@ const Rules=preload("res://scripts/game_rules.gd")
 const LocalHost=preload("res://scripts/localhost_match_server.gd")
 const PORT:=31147
 const MAX_MESSAGE:=16384
+var host_seats:OptionButton
+var player_target:OptionButton
+var second_player:OptionButton
 var deck_pick:OptionButton
 var deck_lock:Button
 var host_node:Node
@@ -25,6 +28,7 @@ var view:Dictionary={}
 var status:Label
 var title:Label
 var summary:Label
+var income_hint:Label
 var combat_hint:Label
 var hand_list:VBoxContainer
 var board:RichTextLabel
@@ -82,13 +86,16 @@ func _ready()->void:
 	bar.add_theme_constant_override("separation",12)
 	root.add_child(bar)
 	_button(bar,"BACK TO BOARD",func():get_tree().change_scene_to_file("res://scenes/main.tscn"))
-	_label(bar,"TWO-SEAT LOCAL MATCH • ACTUAL HOST NETWORK",19)
+	_label(bar,"LOCAL MATCH • AUTHORITATIVE HOST",19)
 	_button(bar,"HOST + JOIN (WINDOW 1)",_host_and_join)
 	_button(bar,"JOIN HOST (WINDOW 2)",_join)
 	var deck_bar:=HBoxContainer.new()
 	root.add_child(deck_bar)
 	_button(deck_bar,"RECONNECT MY SEAT",_reconnect)
-	_button(deck_bar,"HOST DECK LOBBY",func():_host_and_join(true))
+	host_seats=OptionButton.new()
+	for count in range(2,5):host_seats.add_item(str(count)+" seats",count)
+	deck_bar.add_child(host_seats)
+	_button(deck_bar,"HOST DECK LOBBY",func():_host_and_join(true,host_seats.get_selected_id()))
 	_label(deck_bar,"LOBBY DECK")
 	deck_pick=OptionButton.new()
 	deck_bar.add_child(deck_pick)
@@ -102,6 +109,7 @@ func _ready()->void:
 	title=_label(root,"No match connection",18)
 	summary=_label(root,"Host in the first window, join from the second game window.",14)
 	combat_hint=_label(root,"No engagement awaiting a response.",14)
+	income_hint=_label(root,"",13)
 	var columns:=HBoxContainer.new()
 	columns.size_flags_vertical=Control.SIZE_EXPAND_FILL
 	columns.add_theme_constant_override("separation",13)
@@ -123,6 +131,11 @@ func _ready()->void:
 	_label(left,"SITE / RELIC TARGET",13)
 	target_permanent=OptionButton.new()
 	left.add_child(target_permanent)
+	_label(left,"PLAYER TARGET / SECOND TRUCE PLAYER",13)
+	player_target=OptionButton.new()
+	second_player=OptionButton.new()
+	left.add_child(player_target)
+	left.add_child(second_player)
 	_label(left,"DEPLOY FIELD",13)
 	field_pick=OptionButton.new()
 	for field in Match.FIELD_NAMES:field_pick.add_item(field)
@@ -168,7 +181,7 @@ func _ready()->void:
 	keep_button=_button(right,"KEEP OPENING SIX",func():_send_action("KEEP"))
 	mulligan_button=_button(right,"ONE FREE MULLIGAN",func():_send_action("MULLIGAN"))
 	next_button=_button(right,"ADVANCE ONE PHASE",func():_send_action("ADVANCE"))
-	peek_button=_button(right,"MIRROR ARCHIVE: PRIVATE PEEK",func():_send_action("PEEK",{"target_seat":1-seat}))
+	peek_button=_button(right,"MIRROR ARCHIVE: PRIVATE PEEK",func():_send_action("PEEK",{"target_seat":_selected_player(player_target)}))
 	_label(right,"WHEN A RESPONSE CHOICE IS REQUIRED",13)
 	oath_button=_button(right,"LOSE 2 OATH",func():_choose("LOSE_OATH"))
 	exhaust_button=_button(right,"EXHAUST SELECTED UNIT",func():_choose("EXHAUST_UNIT"))
@@ -180,7 +193,7 @@ func _ready()->void:
 	right.add_child(recent)
 	_refresh()
 
-func _host_and_join(use_deck_lobby:bool=false)->void:
+func _host_and_join(use_deck_lobby:bool=false,count:int=2)->void:
 	if host_node!=null:
 		status.text="Already hosting. Use RECONNECT MY SEAT after a dropped connection."
 		return
@@ -190,6 +203,7 @@ func _host_and_join(use_deck_lobby:bool=false)->void:
 		return
 	check.stop()
 	host_node=LocalHost.new()
+	host_node.seat_count=count
 	host_node.deck_selection_enabled=use_deck_lobby
 	host_node.name="EmbeddedLocalhostAuthoritativeMatch"
 	add_child(host_node)
@@ -202,7 +216,7 @@ func _join()->void:
 	_start_connection({"type":"JOIN"})
 
 func _reconnect()->void:
-	if resume_token.length()!=64 or seat not in [0,1]:
+	if resume_token.length()!=64 or seat not in range(4):
 		status.text="No session to recover in this window."
 		return
 	if peer.get_status() in [StreamPeerTCP.STATUS_CONNECTED,StreamPeerTCP.STATUS_CONNECTING]:
@@ -267,7 +281,7 @@ func _received(msg:Dictionary)->void:
 		seat=int(msg["seat"])
 		token=str(msg["token"])
 		resume_token=str(msg.get("resume_token",""))
-		if resume_token.length()!=64 or token.length()!=64 or seat not in [0,1]:
+		if resume_token.length()!=64 or token.length()!=64 or seat not in range(4):
 			peer.disconnect_from_host()
 			status.text="Host handshake rejected."
 			return
@@ -286,11 +300,11 @@ func _received(msg:Dictionary)->void:
 	_refresh()
 
 func _lock_deck()->void:
-	if awaiting_welcome or not view.has("lobby") or seat not in [0,1] or token.is_empty():return
+	if awaiting_welcome or not view.has("lobby") or seat not in range(4) or token.is_empty():return
 	var ids:Array=[]
 	var deck_name:String=str(deck_pick.get_item_metadata(deck_pick.selected))
 	if deck_name.is_empty():
-		var faction:String="BorderstoneGuild" if seat==0 else "UnderwellKeepers"
+		var faction:String=Match.SEAT_FACTIONS[seat]
 		for card in Match._deck(faction):ids.append(str(card["card_id"]))
 	else:
 		var loaded:Dictionary=Decks.load(deck_name)
@@ -307,7 +321,7 @@ func _send_action(kind:String,values:Dictionary={})->void:
 		status.text="Join the local host before playing."
 		return
 	if view.has("lobby"):
-		status.text="Both players must lock a legal candidate deck first."
+		status.text="All players must lock a legal candidate deck first."
 		return
 	var action:Dictionary={"type":kind,"revision":int(view["revision"])}
 	for key in values:action[key]=values[key]
@@ -389,7 +403,10 @@ func _hand_play(index:int)->void:
 			for u in view["units"]:
 				if str(u["uid"])==uid:from_field=str(u["field"]);break
 			payload["destination_field"]="Sanctuary" if from_field=="Warfield" else "Warfield"
-		if id=="190":payload["target_seat"]=1-seat
+		if id=="190":payload["target_seat"]=_selected_player(player_target)
+		if id=="191":
+			payload["truce_seat_a"]=_selected_player(player_target)
+			payload["truce_seat_b"]=_selected_player(second_player)
 		if id=="185":
 			if target_permanent.selected<0:
 				status.text="Choose Site or Relic target."
@@ -408,10 +425,13 @@ func _hand_play(index:int)->void:
 		return
 	status.text="Card has no legal play action during this phase."
 
+func _selected_player(pick:OptionButton)->int:
+	return int(pick.get_item_metadata(pick.selected)) if pick.selected>=0 else -1
+
 func _refresh()->void:
 	deck_lock.disabled=true
 	deck_pick.disabled=true
-	var ready:bool=not awaiting_welcome and not view.is_empty() and seat in [0,1]
+	var ready:bool=not awaiting_welcome and not view.is_empty() and seat in range(4)
 	keep_button.disabled=true
 	mulligan_button.disabled=true
 	next_button.disabled=true
@@ -437,19 +457,32 @@ func _refresh()->void:
 		deck_lock.disabled=bool(lobby["ready"][seat])
 		deck_pick.disabled=deck_lock.disabled
 		title.text="DECK LOBBY — Seat %d" % seat
-		summary.text="Seat 0: %s | Seat 1: %s. Deck locks are final; hands are dealt after both lock." % ["LOCKED" if lobby["ready"][0] else "CHOOSING","LOCKED" if lobby["ready"][1] else "CHOOSING"]
+		var readiness:Array=[]
+		for owner in range(lobby["ready"].size()):readiness.append("Seat %d: %s" % [owner,"LOCKED" if lobby["ready"][owner] else "CHOOSING"])
+		summary.text=" | ".join(readiness)+". All players must lock before the deal."
 		board.text="Choose a saved candidate-ready deck or the starter, then lock."
-		recent.text="Waiting for both players."
+		income_hint.text=""
+		recent.text="Waiting for all players."
 		return
 	if not ready:return
 	var players:Array=view["players"]
 	var mine:Dictionary=players[seat]
-	var other:Dictionary=players[1-seat]
+	var chosen:int=_selected_player(player_target)
+	var second:int=_selected_player(second_player)
+	player_target.clear();second_player.clear()
+	for owner in range(players.size()):
+		player_target.add_item("Seat %d" % owner);player_target.set_item_metadata(owner,owner)
+		second_player.add_item("Seat %d" % owner);second_player.set_item_metadata(owner,owner)
+	player_target.select(chosen if chosen>=0 and chosen<players.size() else (seat+1)%players.size())
+	second_player.select(second if second>=0 and second<players.size() else seat)
 	title.text="ROUND %d / %s / Host revision %d / YOU ARE SEAT %d" % [
 		int(view["round"]),Rules.PHASES[int(view["phase"])],int(view["revision"]),seat]
-	summary.text="You: %d Marks / S%d G%d O%d / %d hand | Opponent: %d Marks / S%d G%d O%d / %d hidden hand" % [
-		int(mine["marks"]),int(mine["sinew"]),int(mine["sigil"]),int(mine["oath"]),int(mine["hand_count"]),
-		int(other["marks"]),int(other["sinew"]),int(other["sigil"]),int(other["oath"]),int(other["hand_count"])]
+	var standings:Array=[]
+	for player in players:
+		standings.append("Seat %d%s: %d Marks / S%d G%d O%d / %d %shand" % [int(player["seat"])," (you)" if int(player["seat"])==seat else "",int(player["marks"]),int(player["sinew"]),int(player["sigil"]),int(player["oath"]),int(player["hand_count"]),"" if int(player["seat"])==seat else "hidden "])
+	summary.text=" | ".join(standings)
+	var income:Dictionary=Match._summary_income(view,seat)
+	income_hint.text="END: most ready combat units / Site held / candidate objective held → +%d Sinew / +%d Sigil / +%d Oath; fallback +1 Sinew when none." % [income["sinew"],income["sigil"],income["oath"]]
 	var prompt:Dictionary=view.get("pending_choice",{})
 	var combat_pending:Dictionary=view.get("pending_attack",{})
 	var defend_now:bool=int(combat_pending.get("defender_seat",-1))==seat
