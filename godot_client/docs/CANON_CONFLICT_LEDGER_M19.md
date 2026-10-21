@@ -1,6 +1,6 @@
 # M19 canon and source decisions
 
-Production CLOSED. No rules changes approved or applied in this batch.
+Production CLOSED. Entries include subsequent explicit approvals; historical milestone evidence retains its original build provenance.
 
 | ID | Governing evidence | Current gap | Disposition |
 |---|---|---|---|
@@ -13,6 +13,7 @@ Production CLOSED. No rules changes approved or applied in this batch.
 | C07 | Shipping Rules 30 removes Wind/Eye/weight; source audit identifies legacy text | 10 Wind, 13 Eye, 239 supply, 239 recoil, 87 accuracy and 6 Temper text hits; counts overlap | Keep unsupported text quarantined; do not invent replacement effects. |
 | C08 | Shipping Rules 28 requires Scenario/Objective | Warfield Ascendancy is an uncertified candidate | No promotion to shipping scenario or invented objective awards. |
 | C09 | Shipping Rules 12.1 explicitly requires refilling to 6 at the start of Draw | Conventional one-card drawing is not this game's approved rule | Retain existing refill behavior; the uncommitted one-card experiment was discarded and the mistaken M21 audit note corrected. |
+| C10 | Explicit user decision 2026-10-21: none of the tied highest positive ready-unit leaders gains conditional Sinew | Shipping 13.1 tie ambiguity is resolved | Unique leader only; normal 13.4 fallback unchanged. Existing reducer already agrees. See APPROVED_CANON_DECISIONS.md. |
 
 Other remaining Edict dependencies: Royal Pardon (180) needs live Boss/Name Cracks; Forced Testimony (183) needs hidden Line/set-card reveal; Emergency Rationing (189) needs live Oath upkeep; Boundary Fine (194) needs crossing history and Relic Temper. All stay non-playable in candidate matches. Historical appendices are reference material only.
 
@@ -20,4 +21,4 @@ M22 dependency audit: original Pet 249 Lantern Gecko has an explicit first-Silen
 
 M23 adds authenticated recovery of an existing loopback owner seat, including locked decks and defender decisions. This changes transport/session handling only; it supplies no missing gameplay canon and does not resolve C01/C02 or enable new source cards. Production and WAN/four-seat certification remain closed.
 
-M24 extends configured candidate seat order to 3/4 players; Initiative remains combat-only (Shipping 10 and 27.3). Festival Truce 191 chooses exactly two real seats; this is its pinned printed effect, not a new mechanic. The current Warfield objective remains uncertified (C08). Shipping 13.1 does not expressly settle tied ready-unit leaders: the existing candidate uses a unique leader plus normal fallback. That inherited convention is preserved and must be adjudicated before final Standard certification; no team/seating fairness policy is invented.
+M24 extends configured candidate seat order to 3/4 players; Initiative remains combat-only (Shipping 10 and 27.3). Festival Truce 191 chooses exactly two real seats; this is its pinned printed effect, not a new mechanic. The current Warfield objective remains uncertified (C08). Shipping 13.1 does not expressly settle tied ready-unit leaders: the existing candidate uses a unique leader plus normal fallback. The subsequent C10 decision (2026-10-21) approves no conditional Sinew for tied leaders, with normal fallback unchanged. This does not certify the candidate objective or invent a team/seating fairness policy.

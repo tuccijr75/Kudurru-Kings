@@ -76,7 +76,6 @@
   "unresolved": [
     "Stagger semantics and expiry",
     "Bind and capture adjudication",
-    "Most-ready positive-count tie semantics for final Standard",
     "Full source effects and legacy-term reconciliation",
     "Boss Trials, jurisdiction, Names and Sites integration",
     "Certified scenario goals and simultaneous scoring",
@@ -85,5 +84,13 @@
     "Art, balance, human playtest/visual acceptance",
     "Signed production distribution"
   ],
-  "private_eoe_published": false
+  "private_eoe_published": false,
+  "subsequent_canon_approval": {
+    "id": "C10",
+    "date": "2026-10-21",
+    "tied_highest_positive_ready_count_conditional_sinew": 0,
+    "normal_fallback_unchanged": true,
+    "executable_change_required": false,
+    "reference": "docs/APPROVED_CANON_DECISIONS.md"
+  }
 }

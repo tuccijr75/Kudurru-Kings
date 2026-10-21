@@ -12,7 +12,7 @@ The existing 2–4-combatant-capable combat core now receives all seat records f
 
 Festival Truce (source 191) explicitly prints: choose two players, bar their mutual Engagements until the caster's next turn, lower both Heat by one. Three/four-seat casts now require two distinct valid player IDs. The command contract validates whole integers before conversion. Reducer, pair-specific engagement checks, AI and client selectors use the same chosen pair. Only that pair receives Heat relief; unselected players remain free to engage. Two-seat legacy casts still resolve the only possible pair. No additional card IDs are activated.
 
-The network client shows all public seat standings, own hand only, player target/pair selectors, all public units, defender consent and an End-income forecast. Saved decks, source costs, faction locks and optional Resolution capture remain unchanged. The existing Warfield Ascendancy candidate objective and inherited unique-leader/tie conventions are not promoted to approved scenario or production balance rules. Most-ready tie semantics remain a documented canon question.
+The network client shows all public seat standings, own hand only, player target/pair selectors, all public units, defender consent and an End-income forecast. Saved decks, source costs, faction locks and optional Resolution capture remain unchanged. The existing Warfield Ascendancy candidate objective and its objective-control tie convention remain uncertified. The subsequent 2026-10-21 C10 approval resolves the ready-unit income tie: no conditional Sinew for tied leaders, normal fallback unchanged. See APPROVED_CANON_DECISIONS.md.
 
 ## Acceptance and boundaries
 
