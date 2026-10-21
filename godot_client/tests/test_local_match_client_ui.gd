@@ -69,7 +69,7 @@ func run()->void:
 	var first:String=str(a.view["players"][0]["hand"][0]["card_id"])
 	check(not first.is_empty(),"actual source card accessible to its owning seat")
 	# A departed seat's private state cannot be transferred to a third
-	# untrusted localhost client. This preview intentionally lacks reconnect.
+	# untrusted localhost client. Recovery requires its retained session token.
 	b.peer.disconnect_from_host()
 	await wait_frame_count(5)
 	var late:Control=scene.instantiate()

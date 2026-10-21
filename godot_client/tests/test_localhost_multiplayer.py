@@ -28,7 +28,7 @@ class LocalhostMatchTest(unittest.TestCase):
     text=True,bufsize=1,creationflags=getattr(subprocess,"CREATE_NEW_PROCESS_GROUP",0),
   )
   # Do NOT probe a seat-assignment port by opening a TCP connection:
-  # the host correctly reserves seats on accepted connections. Instead
+  # the host reserves seats after an explicit JOIN handshake. Instead
   # wait for the server's explicit readiness log without consuming one.
   ready=threading.Event()
   cls.server_log=[]
@@ -61,6 +61,7 @@ class LocalhostMatchTest(unittest.TestCase):
   s=socket.create_connection((HOST,PORT),3)
   s.settimeout(4)
   f=s.makefile("r",encoding="utf-8")
+  self.send(s,{"type":"JOIN"})
   welcome=json.loads(f.readline())
   return s,f,welcome
 

@@ -9,11 +9,14 @@ const Source = preload("res://scripts/real_effects.gd")
 const PORT := 31147
 const MAX_MESSAGE := 16384
 const MAX_CLIENTS := 2
+const MAX_CONNECTIONS := 6
+const HANDSHAKE_TIMEOUT_MS := 5000
 var deck_selection_enabled:bool=false
 var deck_lobby:Dictionary={}
 var listener := TCPServer.new()
 var connections: Array = []
 var claimed_seats: Dictionary = {}
+var recovery_keys: Dictionary = {}
 var game: Dictionary = {}
 var crypto := Crypto.new()
 
@@ -75,27 +78,21 @@ func _projection(seat:int)->Dictionary:
 func _process(_delta:float)->void:
 	if listener.is_connection_available():
 		var peer:StreamPeerTCP=listener.take_connection()
-		var seat:int=-1
-		for available in range(MAX_CLIENTS):
-			if not claimed_seats.has(available):
-				seat=available
-				break
-		if seat<0:
-			_send(peer,{"ok":false,"error":"TWO_SEAT_LOCAL_ONLY"})
+		if connections.size()>=MAX_CONNECTIONS:
+			_send(peer,{"ok":false,"error":"LOCAL_CONNECTION_LIMIT"})
 			peer.disconnect_from_host()
 		else:
-			var token:String=crypto.generate_random_bytes(32).hex_encode()
-			# Seats stay claimed after disconnect: a new untrusted client must
-			# never inherit an absent player's hand or identity mid-match.
-			# Authenticated reconnect is a future WAN-service requirement.
-			claimed_seats[seat]=true
-			connections.append({"seat":seat,"peer":peer,"token":token,"buffer":""})
-			_send(peer,{"ok":true,"type":"WELCOME","seat":seat,"token":token,
-				"warning":"LOCALHOST_ONLY_NOT_PRODUCTION_NETWORK","view":_projection(seat)})
+			# No identity or private projection until explicit JOIN or RESUME.
+			connections.append({"seat":-1,"peer":peer,"token":"","buffer":"",
+				"accepted_ms":Time.get_ticks_msec()})
 	for entry in connections.duplicate():
 		var peer:StreamPeerTCP=entry["peer"]
 		peer.poll()
 		if peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:
+			connections.erase(entry)
+			continue
+		if int(entry["seat"])<0 and Time.get_ticks_msec()-int(entry["accepted_ms"])>=HANDSHAKE_TIMEOUT_MS:
+			peer.disconnect_from_host()
 			connections.erase(entry)
 			continue
 		var count:int=peer.get_available_bytes()
@@ -117,12 +114,51 @@ func _process(_delta:float)->void:
 			var line:String=entry["buffer"].substr(0,newline)
 			entry["buffer"]=entry["buffer"].substr(newline+1)
 			_message(entry,line)
+			if not connections.has(entry):break
+
+func _reject_handshake(entry:Dictionary,code:String)->void:
+	_send(entry["peer"],{"ok":false,"error":code})
+	entry["peer"].disconnect_from_host()
+	connections.erase(entry)
+
+func _handshake(entry:Dictionary,body:Dictionary)->void:
+	var seat:int=-1
+	if body.get("type")=="JOIN":
+		for available in range(MAX_CLIENTS):
+			if not claimed_seats.has(available):seat=available;break
+		if seat<0:_reject_handshake(entry,"TWO_SEAT_LOCAL_ONLY");return
+	elif body.get("type")=="RESUME":
+		var secret:Variant=body.get("token")
+		if typeof(secret)!=TYPE_STRING or secret.length()!=64:
+			_reject_handshake(entry,"BAD_RESUME_TOKEN");return
+		for owner in recovery_keys:
+			if recovery_keys[owner]==secret:seat=int(owner);break
+		if seat<0:_reject_handshake(entry,"BAD_RESUME_TOKEN");return
+		for other in connections:
+			if other==entry or int(other["seat"])!=seat:continue
+			other["peer"].poll()
+			if other["peer"].get_status()==StreamPeerTCP.STATUS_CONNECTED:
+				_reject_handshake(entry,"SEAT_ALREADY_CONNECTED");return
+	else:
+		_reject_handshake(entry,"JOIN_OR_RESUME_REQUIRED");return
+	# Claimed seats never become anonymous again. The owner recovery key
+	# survives a lost WELCOME; active connection tokens rotate on every bind.
+	var fresh:String=crypto.generate_random_bytes(32).hex_encode()
+	claimed_seats[seat]=true
+	if not recovery_keys.has(seat):recovery_keys[seat]=crypto.generate_random_bytes(32).hex_encode()
+	entry["seat"]=seat
+	entry["token"]=fresh
+	_send(entry["peer"],{"ok":true,"type":"WELCOME","seat":seat,"token":fresh,"resume_token":recovery_keys[seat],
+		"warning":"LOCALHOST_ONLY_NOT_PRODUCTION_NETWORK","view":_projection(seat)})
 
 func _message(entry:Dictionary,line:String)->void:
 	var peer:StreamPeerTCP=entry["peer"]
 	var body:Variant=JSON.parse_string(line)
 	if typeof(body)!=TYPE_DICTIONARY:
 		_send(peer,{"ok":false,"error":"JSON_OBJECT_REQUIRED"})
+		return
+	if int(entry["seat"])<0:
+		_handshake(entry,body)
 		return
 	if str(body.get("token",""))!=str(entry["token"]):
 		_send(peer,{"ok":false,"error":"BAD_SESSION_TOKEN"})
@@ -151,6 +187,7 @@ func _message(entry:Dictionary,line:String)->void:
 			game=made["state"]
 		deck_lobby=next
 		for client in connections:
+			if int(client["seat"])<0:continue
 			_send(client["peer"],{"ok":true,"type":"UPDATED","view":_projection(int(client["seat"]))})
 		return
 	if not deck_lobby.is_empty() and not deck_lobby["started"]:
@@ -176,6 +213,7 @@ func _message(entry:Dictionary,line:String)->void:
 		return
 	game=outcome["state"]
 	for connection in connections:
+		if int(connection["seat"])<0:continue
 		var receiver:Dictionary={"ok":true,"type":"UPDATED",
 			"view":_projection(int(connection["seat"]))}
 		# Mirror Archive peek is sent privately to the acting player only.

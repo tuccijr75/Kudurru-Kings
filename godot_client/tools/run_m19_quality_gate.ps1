@@ -59,7 +59,7 @@ foreach($test in @(
  'test_end_phase_integrity.gd','test_defeat_restore.gd',
  'test_local_match_client_ui.gd','test_river_evacuation.gd','test_river_ui.gd',
  'test_defender_priority.gd','test_combat_choice_ui.gd',
- 'test_network_combat_e2e.gd','test_command_integrity.gd','test_network_deck_lobby.gd'
+ 'test_network_combat_e2e.gd','test_command_integrity.gd','test_network_deck_lobby.gd','test_authenticated_reconnect.gd'
 )) {
  GodotGate @('--script',('res://tests/'+$test))
 }

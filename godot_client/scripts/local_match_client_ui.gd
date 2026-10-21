@@ -2,7 +2,7 @@ extends Control
 const Pets = preload("res://scripts/match_pets.gd")
 ## Actual Godot TCP client for the two-seat loopback-only host.
 ## Zero player authority: private hand, priority and actions arrive from host.
-## This scene is NOT a WAN/TLS/reconnect/4-seat production implementation.
+## This scene is NOT a WAN/TLS/account/4-seat production implementation.
 const Decks=preload("res://scripts/deck_registry.gd")
 const Source=preload("res://scripts/real_effects.gd")
 const Match=preload("res://scripts/match_integrator.gd")
@@ -17,7 +17,10 @@ var peer:=StreamPeerTCP.new()
 var incoming:String=""
 var seat:int=-1
 var token:String=""
+var resume_token:String=""
 var host_disconnect_reported:bool=false
+var awaiting_welcome:bool=false
+var greeting:Dictionary={}
 var view:Dictionary={}
 var status:Label
 var title:Label
@@ -84,6 +87,7 @@ func _ready()->void:
 	_button(bar,"JOIN HOST (WINDOW 2)",_join)
 	var deck_bar:=HBoxContainer.new()
 	root.add_child(deck_bar)
+	_button(deck_bar,"RECONNECT MY SEAT",_reconnect)
 	_button(deck_bar,"HOST DECK LOBBY",func():_host_and_join(true))
 	_label(deck_bar,"LOBBY DECK")
 	deck_pick=OptionButton.new()
@@ -178,7 +182,7 @@ func _ready()->void:
 
 func _host_and_join(use_deck_lobby:bool=false)->void:
 	if host_node!=null:
-		status.text="Already hosting; reconnect is not supported in this preview."
+		status.text="Already hosting. Use RECONNECT MY SEAT after a dropped connection."
 		return
 	var check:=TCPServer.new()
 	if check.listen(PORT,"127.0.0.1")!=OK:
@@ -192,25 +196,46 @@ func _host_and_join(use_deck_lobby:bool=false)->void:
 	_join()
 
 func _join()->void:
-	if peer.get_status()==StreamPeerTCP.STATUS_CONNECTED or not token.is_empty():
+	if peer.get_status() in [StreamPeerTCP.STATUS_CONNECTED,StreamPeerTCP.STATUS_CONNECTING] or not token.is_empty():
 		status.text="Already connected. Duplicate joins are blocked."
 		return
+	_start_connection({"type":"JOIN"})
+
+func _reconnect()->void:
+	if resume_token.length()!=64 or seat not in [0,1]:
+		status.text="No session to recover in this window."
+		return
+	if peer.get_status() in [StreamPeerTCP.STATUS_CONNECTED,StreamPeerTCP.STATUS_CONNECTING]:
+		status.text="Already connected or connecting."
+		return
+	_start_connection({"type":"RESUME","token":resume_token})
+
+func _start_connection(hello:Dictionary)->void:
 	peer=StreamPeerTCP.new()
+	greeting=hello.duplicate()
+	awaiting_welcome=true
 	incoming=""
 	host_disconnect_reported=false
 	var result:Error=peer.connect_to_host("127.0.0.1",PORT)
 	if result!=OK:
 		status.text="Cannot contact local host. Launch HOST + JOIN in first window."
 		return
-	status.text="Connecting to the local host; the server assigns your seat."
+	status.text="Connecting to the local host; waiting for seat authentication."
+	_refresh()
 
 func _process(_delta:float)->void:
 	peer.poll()
+	if peer.get_status()==StreamPeerTCP.STATUS_CONNECTING:return
 	if peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:
-		if not token.is_empty() and not host_disconnect_reported:
+		if (awaiting_welcome or not token.is_empty()) and not host_disconnect_reported:
 			host_disconnect_reported=true
-			status.text="Local host disconnected. End this preview and restart the host."
+			status.text="Local host unavailable. Join a running host." if token.is_empty() else "Connection lost. Use RECONNECT MY SEAT while the same host is still running."
+			awaiting_welcome=true
+			_refresh()
 		return
+	if not greeting.is_empty():
+		peer.put_data((JSON.stringify(greeting)+"\n").to_utf8_buffer())
+		greeting={}
 	var available:int=peer.get_available_bytes()
 	if available<=0:return
 	if available>MAX_MESSAGE:
@@ -235,15 +260,18 @@ func _process(_delta:float)->void:
 func _received(msg:Dictionary)->void:
 	if not bool(msg.get("ok",false)):
 		status.text="SERVER REFUSED: "+str(msg.get("error","UNKNOWN"))
+		if awaiting_welcome:host_disconnect_reported=true
 		return
 	var kind:String=str(msg.get("type",""))
 	if kind=="WELCOME":
 		seat=int(msg["seat"])
 		token=str(msg["token"])
-		if token.length()!=64 or seat not in [0,1]:
+		resume_token=str(msg.get("resume_token",""))
+		if resume_token.length()!=64 or token.length()!=64 or seat not in [0,1]:
 			peer.disconnect_from_host()
 			status.text="Host handshake rejected."
 			return
+		awaiting_welcome=false
 		view=msg["view"]
 		status.text="Connected as Seat %d. Localhost-only match." % seat
 	elif kind=="UPDATED" or kind=="VIEW":
@@ -258,7 +286,7 @@ func _received(msg:Dictionary)->void:
 	_refresh()
 
 func _lock_deck()->void:
-	if not view.has("lobby") or seat not in [0,1] or token.is_empty():return
+	if awaiting_welcome or not view.has("lobby") or seat not in [0,1] or token.is_empty():return
 	var ids:Array=[]
 	var deck_name:String=str(deck_pick.get_item_metadata(deck_pick.selected))
 	if deck_name.is_empty():
@@ -275,7 +303,7 @@ func _lock_deck()->void:
 	status.text="Requesting deck lock; waiting for host validation."
 
 func _send_action(kind:String,values:Dictionary={})->void:
-	if token.is_empty() or view.is_empty() or peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:
+	if awaiting_welcome or token.is_empty() or view.is_empty() or peer.get_status()!=StreamPeerTCP.STATUS_CONNECTED:
 		status.text="Join the local host before playing."
 		return
 	if view.has("lobby"):
@@ -383,7 +411,7 @@ func _hand_play(index:int)->void:
 func _refresh()->void:
 	deck_lock.disabled=true
 	deck_pick.disabled=true
-	var ready:bool=not view.is_empty() and seat in [0,1]
+	var ready:bool=not awaiting_welcome and not view.is_empty() and seat in [0,1]
 	keep_button.disabled=true
 	mulligan_button.disabled=true
 	next_button.disabled=true
