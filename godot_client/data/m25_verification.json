@@ -1,0 +1,61 @@
+{
+  "schema": "kudurru_m25_candidate_verification_v1",
+  "windows": {
+    "commit": "7fd8fdd7ae7dbd208c8c29aa6e35bb3607b67904",
+    "branch": "build/m25-parallel-completion-20261021",
+    "platform": "Windows x64",
+    "godot": "4.7.2",
+    "gate_commands": 73,
+    "godot_suites": 42,
+    "godot_assertions": 7700,
+    "godot_failures": 0,
+    "python_test_cases": 99,
+    "gate_log_sha256": "77a1aff2073b92b1922219180f58e064ea4085725f348eb21f85aa336aefdd58",
+    "console_errors_detected": false,
+    "zip": "E:\\KudurruKings\\Builds\\KudurruKings_M25_WindowsCandidate_7fd8fdd.zip",
+    "zip_bytes": 38643401,
+    "zip_sha256": "15020328c65130d4387177e8aa8c182259299cc56e033be1fb1cc8bfaa8a3e75",
+    "files": [
+      {
+        "sha256": "d4358a68ee7b941707bdd9182faee1fa94ad08d8de2b9a11f1bba0a08442c8b2",
+        "name": "KudurruKings.exe",
+        "bytes": 109127680
+      },
+      {
+        "sha256": "9af0cb085e2e1408a113bb8f3ac4f4f6e20db194c972dc9ee768e413de70741b",
+        "name": "KudurruKings.pck",
+        "bytes": 5441052
+      }
+    ],
+    "zip_crc": "PASS",
+    "manifest_hashes": "PASS",
+    "extracted_launch": "PASS",
+    "extracted_exe": "E:\\KudurruKings\\Builds\\M25_7fd8fdd_IndependentExtractedSmoke\\KudurruKings_M25_WindowsCandidate_7fd8fdd\\KudurruKings.exe",
+    "launch_log_sha256": "99a1f5c05f8b42a98c1353a644c0527b7fbdebfb7a944acd272ccf7d46cc34a6",
+    "embedded_authenticode_certificate_present": false,
+    "visual_acceptance": "UNVERIFIED",
+    "production_status": "CLOSED",
+    "release_certified": false
+  },
+  "linux": {
+    "commands": 73,
+    "godot_suites": 42,
+    "godot_assertions": 7700,
+    "godot_failures": 0,
+    "python_cases": 99,
+    "log_sha256": "52b02e555f49fee6fb9a1c3e9b3cdabeff01f555c69ad34d6a4d8c1b18c09529",
+    "console_errors_detected": false
+  },
+  "production_status": "CLOSED",
+  "full_standard_release_certified": false,
+  "unresolved": [
+    "Stagger semantics",
+    "Bind/capture and Boss lifecycle contracts",
+    "Approved scenario/objective cadence",
+    "Legacy effect reconciliation and full-card integration",
+    "Full jurisdiction/Arbitration/raids",
+    "WAN identity/TLS/persistent recovery and trusted reward issuer",
+    "754 per-card artwork and human/device acceptance",
+    "Balance/playtests and signed independent production distribution"
+  ]
+}

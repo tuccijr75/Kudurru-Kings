@@ -31,3 +31,7 @@ The existing two-seat arithmetic for once-per-turn PEEK stamps collided across r
 ## Integrated Linux result
 
 Godot4.7.2 full gate passed73 commands,42 suites /7,700 assertions /0 failures, and99 Python cases. No detected console errors. Full log SHA256: `5010693a7676f4e988c71a33a457e5733d151a3c2a35c77ac54474657eba32e3`. Both production-only readiness checks refused release as expected. Native M25 results are recorded separately after actual execution.
+
+## Final native result
+
+Both platforms passed the73-command gate with7,700 Godot assertions and99 Python cases. An initial Windows-only fixture privilege failure was corrected without elevation or skips and both gates rerun. Exact exported source is `7fd8fdd7ae7dbd208c8c29aa6e35bb3607b67904`. Native export, CRC/hash verification and fresh extracted headless launch passed; see WINDOWS_M25_VERIFICATION.md. Supplied art archive inspection found20generic layers, all matching already tracked assets, and no individual card illustrations. No new mechanic or production certification was approved.
